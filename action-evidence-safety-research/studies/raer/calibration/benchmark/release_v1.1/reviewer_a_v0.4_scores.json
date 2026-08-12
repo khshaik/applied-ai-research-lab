@@ -1,0 +1,3083 @@
+{
+  "review_type": "synthetic_ai_blinded_v0.4_final_review",
+  "reviewer_id": "A",
+  "orientation": "safety_and_governance",
+  "human_validation": false,
+  "source_version": "candidate_v0.4",
+  "scenario_scores": [
+    {
+      "scenario_id": "RB-CYB-01",
+      "consequence_score_1_5": 4,
+      "irreversibility_score_1_5": 4,
+      "authorization_sensitivity_score_1_5": 4,
+      "justification": "The bounded population or value, recovery time, durable effect, and named authority support the selected C/I/S anchors.",
+      "uncertainty_note": "No essential fact is missing; remaining uncertainty is ordinary within-anchor operational variation."
+    },
+    {
+      "scenario_id": "RB-CYB-02",
+      "consequence_score_1_5": 4,
+      "irreversibility_score_1_5": 4,
+      "authorization_sensitivity_score_1_5": 4,
+      "justification": "The bounded population or value, recovery time, durable effect, and named authority support the selected C/I/S anchors.",
+      "uncertainty_note": "No essential fact is missing; remaining uncertainty is ordinary within-anchor operational variation."
+    },
+    {
+      "scenario_id": "RB-CYB-03",
+      "consequence_score_1_5": 4,
+      "irreversibility_score_1_5": 4,
+      "authorization_sensitivity_score_1_5": 4,
+      "justification": "The bounded population or value, recovery time, durable effect, and named authority support the selected C/I/S anchors.",
+      "uncertainty_note": "No essential fact is missing; remaining uncertainty is ordinary within-anchor operational variation."
+    },
+    {
+      "scenario_id": "RB-CYB-04",
+      "consequence_score_1_5": 3,
+      "irreversibility_score_1_5": 4,
+      "authorization_sensitivity_score_1_5": 4,
+      "justification": "The bounded population or value, recovery time, durable effect, and named authority support the selected C/I/S anchors.",
+      "uncertainty_note": "No essential fact is missing; remaining uncertainty is ordinary within-anchor operational variation."
+    },
+    {
+      "scenario_id": "RB-CYB-05",
+      "consequence_score_1_5": 3,
+      "irreversibility_score_1_5": 4,
+      "authorization_sensitivity_score_1_5": 4,
+      "justification": "The bounded population or value, recovery time, durable effect, and named authority support the selected C/I/S anchors.",
+      "uncertainty_note": "No essential fact is missing; remaining uncertainty is ordinary within-anchor operational variation."
+    },
+    {
+      "scenario_id": "RB-CYB-06",
+      "consequence_score_1_5": 3,
+      "irreversibility_score_1_5": 4,
+      "authorization_sensitivity_score_1_5": 4,
+      "justification": "The bounded population or value, recovery time, durable effect, and named authority support the selected C/I/S anchors.",
+      "uncertainty_note": "No essential fact is missing; remaining uncertainty is ordinary within-anchor operational variation."
+    },
+    {
+      "scenario_id": "RB-CYB-07",
+      "consequence_score_1_5": 4,
+      "irreversibility_score_1_5": 4,
+      "authorization_sensitivity_score_1_5": 4,
+      "justification": "The bounded population or value, recovery time, durable effect, and named authority support the selected C/I/S anchors.",
+      "uncertainty_note": "No essential fact is missing; remaining uncertainty is ordinary within-anchor operational variation."
+    },
+    {
+      "scenario_id": "RB-CYB-08",
+      "consequence_score_1_5": 4,
+      "irreversibility_score_1_5": 4,
+      "authorization_sensitivity_score_1_5": 4,
+      "justification": "The bounded population or value, recovery time, durable effect, and named authority support the selected C/I/S anchors.",
+      "uncertainty_note": "No essential fact is missing; remaining uncertainty is ordinary within-anchor operational variation."
+    },
+    {
+      "scenario_id": "RB-CYB-09",
+      "consequence_score_1_5": 4,
+      "irreversibility_score_1_5": 4,
+      "authorization_sensitivity_score_1_5": 4,
+      "justification": "The bounded population or value, recovery time, durable effect, and named authority support the selected C/I/S anchors.",
+      "uncertainty_note": "No essential fact is missing; remaining uncertainty is ordinary within-anchor operational variation."
+    },
+    {
+      "scenario_id": "RB-CYB-10",
+      "consequence_score_1_5": 4,
+      "irreversibility_score_1_5": 4,
+      "authorization_sensitivity_score_1_5": 4,
+      "justification": "The bounded population or value, recovery time, durable effect, and named authority support the selected C/I/S anchors.",
+      "uncertainty_note": "No essential fact is missing; remaining uncertainty is ordinary within-anchor operational variation."
+    },
+    {
+      "scenario_id": "RB-CYB-11",
+      "consequence_score_1_5": 5,
+      "irreversibility_score_1_5": 4,
+      "authorization_sensitivity_score_1_5": 5,
+      "justification": "The bounded population or value, recovery time, durable effect, and named authority support the selected C/I/S anchors.",
+      "uncertainty_note": "No essential fact is missing; remaining uncertainty is ordinary within-anchor operational variation."
+    },
+    {
+      "scenario_id": "RB-CYB-12",
+      "consequence_score_1_5": 4,
+      "irreversibility_score_1_5": 4,
+      "authorization_sensitivity_score_1_5": 4,
+      "justification": "The bounded population or value, recovery time, durable effect, and named authority support the selected C/I/S anchors.",
+      "uncertainty_note": "No essential fact is missing; remaining uncertainty is ordinary within-anchor operational variation."
+    },
+    {
+      "scenario_id": "RB-CYB-13",
+      "consequence_score_1_5": 4,
+      "irreversibility_score_1_5": 4,
+      "authorization_sensitivity_score_1_5": 5,
+      "justification": "The bounded population or value, recovery time, durable effect, and named authority support the selected C/I/S anchors.",
+      "uncertainty_note": "No essential fact is missing; remaining uncertainty is ordinary within-anchor operational variation."
+    },
+    {
+      "scenario_id": "RB-CYB-14",
+      "consequence_score_1_5": 4,
+      "irreversibility_score_1_5": 4,
+      "authorization_sensitivity_score_1_5": 5,
+      "justification": "The bounded population or value, recovery time, durable effect, and named authority support the selected C/I/S anchors.",
+      "uncertainty_note": "No essential fact is missing; remaining uncertainty is ordinary within-anchor operational variation."
+    },
+    {
+      "scenario_id": "RB-CYB-15",
+      "consequence_score_1_5": 4,
+      "irreversibility_score_1_5": 4,
+      "authorization_sensitivity_score_1_5": 4,
+      "justification": "The bounded population or value, recovery time, durable effect, and named authority support the selected C/I/S anchors.",
+      "uncertainty_note": "No essential fact is missing; remaining uncertainty is ordinary within-anchor operational variation."
+    },
+    {
+      "scenario_id": "RB-CYB-16",
+      "consequence_score_1_5": 4,
+      "irreversibility_score_1_5": 4,
+      "authorization_sensitivity_score_1_5": 4,
+      "justification": "The bounded population or value, recovery time, durable effect, and named authority support the selected C/I/S anchors.",
+      "uncertainty_note": "No essential fact is missing; remaining uncertainty is ordinary within-anchor operational variation."
+    },
+    {
+      "scenario_id": "RB-FIN-01",
+      "consequence_score_1_5": 4,
+      "irreversibility_score_1_5": 5,
+      "authorization_sensitivity_score_1_5": 4,
+      "justification": "The bounded population or value, recovery time, durable effect, and named authority support the selected C/I/S anchors.",
+      "uncertainty_note": "No essential fact is missing; remaining uncertainty is ordinary within-anchor operational variation."
+    },
+    {
+      "scenario_id": "RB-FIN-02",
+      "consequence_score_1_5": 4,
+      "irreversibility_score_1_5": 5,
+      "authorization_sensitivity_score_1_5": 4,
+      "justification": "The bounded population or value, recovery time, durable effect, and named authority support the selected C/I/S anchors.",
+      "uncertainty_note": "No essential fact is missing; remaining uncertainty is ordinary within-anchor operational variation."
+    },
+    {
+      "scenario_id": "RB-FIN-03",
+      "consequence_score_1_5": 4,
+      "irreversibility_score_1_5": 5,
+      "authorization_sensitivity_score_1_5": 4,
+      "justification": "The bounded population or value, recovery time, durable effect, and named authority support the selected C/I/S anchors.",
+      "uncertainty_note": "No essential fact is missing; remaining uncertainty is ordinary within-anchor operational variation."
+    },
+    {
+      "scenario_id": "RB-FIN-04",
+      "consequence_score_1_5": 4,
+      "irreversibility_score_1_5": 5,
+      "authorization_sensitivity_score_1_5": 4,
+      "justification": "The bounded population or value, recovery time, durable effect, and named authority support the selected C/I/S anchors.",
+      "uncertainty_note": "No essential fact is missing; remaining uncertainty is ordinary within-anchor operational variation."
+    },
+    {
+      "scenario_id": "RB-FIN-05",
+      "consequence_score_1_5": 4,
+      "irreversibility_score_1_5": 5,
+      "authorization_sensitivity_score_1_5": 4,
+      "justification": "The bounded population or value, recovery time, durable effect, and named authority support the selected C/I/S anchors.",
+      "uncertainty_note": "No essential fact is missing; remaining uncertainty is ordinary within-anchor operational variation."
+    },
+    {
+      "scenario_id": "RB-FIN-06",
+      "consequence_score_1_5": 4,
+      "irreversibility_score_1_5": 5,
+      "authorization_sensitivity_score_1_5": 4,
+      "justification": "The bounded population or value, recovery time, durable effect, and named authority support the selected C/I/S anchors.",
+      "uncertainty_note": "No essential fact is missing; remaining uncertainty is ordinary within-anchor operational variation."
+    },
+    {
+      "scenario_id": "RB-FIN-07",
+      "consequence_score_1_5": 3,
+      "irreversibility_score_1_5": 4,
+      "authorization_sensitivity_score_1_5": 4,
+      "justification": "The bounded population or value, recovery time, durable effect, and named authority support the selected C/I/S anchors.",
+      "uncertainty_note": "No essential fact is missing; remaining uncertainty is ordinary within-anchor operational variation."
+    },
+    {
+      "scenario_id": "RB-FIN-08",
+      "consequence_score_1_5": 3,
+      "irreversibility_score_1_5": 4,
+      "authorization_sensitivity_score_1_5": 4,
+      "justification": "The bounded population or value, recovery time, durable effect, and named authority support the selected C/I/S anchors.",
+      "uncertainty_note": "No essential fact is missing; remaining uncertainty is ordinary within-anchor operational variation."
+    },
+    {
+      "scenario_id": "RB-FIN-09",
+      "consequence_score_1_5": 3,
+      "irreversibility_score_1_5": 4,
+      "authorization_sensitivity_score_1_5": 4,
+      "justification": "The bounded population or value, recovery time, durable effect, and named authority support the selected C/I/S anchors.",
+      "uncertainty_note": "No essential fact is missing; remaining uncertainty is ordinary within-anchor operational variation."
+    },
+    {
+      "scenario_id": "RB-FIN-10",
+      "consequence_score_1_5": 4,
+      "irreversibility_score_1_5": 5,
+      "authorization_sensitivity_score_1_5": 5,
+      "justification": "The bounded population or value, recovery time, durable effect, and named authority support the selected C/I/S anchors.",
+      "uncertainty_note": "No essential fact is missing; remaining uncertainty is ordinary within-anchor operational variation."
+    },
+    {
+      "scenario_id": "RB-FIN-11",
+      "consequence_score_1_5": 4,
+      "irreversibility_score_1_5": 5,
+      "authorization_sensitivity_score_1_5": 5,
+      "justification": "The bounded population or value, recovery time, durable effect, and named authority support the selected C/I/S anchors.",
+      "uncertainty_note": "No essential fact is missing; remaining uncertainty is ordinary within-anchor operational variation."
+    },
+    {
+      "scenario_id": "RB-FIN-12",
+      "consequence_score_1_5": 4,
+      "irreversibility_score_1_5": 5,
+      "authorization_sensitivity_score_1_5": 5,
+      "justification": "The bounded population or value, recovery time, durable effect, and named authority support the selected C/I/S anchors.",
+      "uncertainty_note": "No essential fact is missing; remaining uncertainty is ordinary within-anchor operational variation."
+    },
+    {
+      "scenario_id": "RB-FIN-13",
+      "consequence_score_1_5": 4,
+      "irreversibility_score_1_5": 4,
+      "authorization_sensitivity_score_1_5": 4,
+      "justification": "The bounded population or value, recovery time, durable effect, and named authority support the selected C/I/S anchors.",
+      "uncertainty_note": "No essential fact is missing; remaining uncertainty is ordinary within-anchor operational variation."
+    },
+    {
+      "scenario_id": "RB-FIN-14",
+      "consequence_score_1_5": 4,
+      "irreversibility_score_1_5": 4,
+      "authorization_sensitivity_score_1_5": 4,
+      "justification": "The bounded population or value, recovery time, durable effect, and named authority support the selected C/I/S anchors.",
+      "uncertainty_note": "No essential fact is missing; remaining uncertainty is ordinary within-anchor operational variation."
+    },
+    {
+      "scenario_id": "RB-FIN-15",
+      "consequence_score_1_5": 3,
+      "irreversibility_score_1_5": 4,
+      "authorization_sensitivity_score_1_5": 4,
+      "justification": "The bounded population or value, recovery time, durable effect, and named authority support the selected C/I/S anchors.",
+      "uncertainty_note": "No essential fact is missing; remaining uncertainty is ordinary within-anchor operational variation."
+    },
+    {
+      "scenario_id": "RB-FIN-16",
+      "consequence_score_1_5": 3,
+      "irreversibility_score_1_5": 4,
+      "authorization_sensitivity_score_1_5": 4,
+      "justification": "The bounded population or value, recovery time, durable effect, and named authority support the selected C/I/S anchors.",
+      "uncertainty_note": "No essential fact is missing; remaining uncertainty is ordinary within-anchor operational variation."
+    },
+    {
+      "scenario_id": "RB-HCA-01",
+      "consequence_score_1_5": 3,
+      "irreversibility_score_1_5": 4,
+      "authorization_sensitivity_score_1_5": 4,
+      "justification": "The bounded population or value, recovery time, durable effect, and named authority support the selected C/I/S anchors.",
+      "uncertainty_note": "No essential fact is missing; remaining uncertainty is ordinary within-anchor operational variation."
+    },
+    {
+      "scenario_id": "RB-HCA-02",
+      "consequence_score_1_5": 3,
+      "irreversibility_score_1_5": 4,
+      "authorization_sensitivity_score_1_5": 4,
+      "justification": "The bounded population or value, recovery time, durable effect, and named authority support the selected C/I/S anchors.",
+      "uncertainty_note": "No essential fact is missing; remaining uncertainty is ordinary within-anchor operational variation."
+    },
+    {
+      "scenario_id": "RB-HCA-03",
+      "consequence_score_1_5": 3,
+      "irreversibility_score_1_5": 4,
+      "authorization_sensitivity_score_1_5": 4,
+      "justification": "The bounded population or value, recovery time, durable effect, and named authority support the selected C/I/S anchors.",
+      "uncertainty_note": "No essential fact is missing; remaining uncertainty is ordinary within-anchor operational variation."
+    },
+    {
+      "scenario_id": "RB-HCA-04",
+      "consequence_score_1_5": 3,
+      "irreversibility_score_1_5": 5,
+      "authorization_sensitivity_score_1_5": 4,
+      "justification": "The bounded population or value, recovery time, durable effect, and named authority support the selected C/I/S anchors.",
+      "uncertainty_note": "No essential fact is missing; remaining uncertainty is ordinary within-anchor operational variation."
+    },
+    {
+      "scenario_id": "RB-HCA-05",
+      "consequence_score_1_5": 3,
+      "irreversibility_score_1_5": 5,
+      "authorization_sensitivity_score_1_5": 4,
+      "justification": "The bounded population or value, recovery time, durable effect, and named authority support the selected C/I/S anchors.",
+      "uncertainty_note": "No essential fact is missing; remaining uncertainty is ordinary within-anchor operational variation."
+    },
+    {
+      "scenario_id": "RB-HCA-06",
+      "consequence_score_1_5": 3,
+      "irreversibility_score_1_5": 5,
+      "authorization_sensitivity_score_1_5": 4,
+      "justification": "The bounded population or value, recovery time, durable effect, and named authority support the selected C/I/S anchors.",
+      "uncertainty_note": "No essential fact is missing; remaining uncertainty is ordinary within-anchor operational variation."
+    },
+    {
+      "scenario_id": "RB-HCA-07",
+      "consequence_score_1_5": 4,
+      "irreversibility_score_1_5": 5,
+      "authorization_sensitivity_score_1_5": 5,
+      "justification": "The bounded population or value, recovery time, durable effect, and named authority support the selected C/I/S anchors.",
+      "uncertainty_note": "No essential fact is missing; remaining uncertainty is ordinary within-anchor operational variation."
+    },
+    {
+      "scenario_id": "RB-HCA-08",
+      "consequence_score_1_5": 4,
+      "irreversibility_score_1_5": 5,
+      "authorization_sensitivity_score_1_5": 5,
+      "justification": "The bounded population or value, recovery time, durable effect, and named authority support the selected C/I/S anchors.",
+      "uncertainty_note": "No essential fact is missing; remaining uncertainty is ordinary within-anchor operational variation."
+    },
+    {
+      "scenario_id": "RB-HCA-09",
+      "consequence_score_1_5": 4,
+      "irreversibility_score_1_5": 5,
+      "authorization_sensitivity_score_1_5": 5,
+      "justification": "The bounded population or value, recovery time, durable effect, and named authority support the selected C/I/S anchors.",
+      "uncertainty_note": "No essential fact is missing; remaining uncertainty is ordinary within-anchor operational variation."
+    },
+    {
+      "scenario_id": "RB-HCA-10",
+      "consequence_score_1_5": 3,
+      "irreversibility_score_1_5": 4,
+      "authorization_sensitivity_score_1_5": 5,
+      "justification": "The bounded population or value, recovery time, durable effect, and named authority support the selected C/I/S anchors.",
+      "uncertainty_note": "No essential fact is missing; remaining uncertainty is ordinary within-anchor operational variation."
+    },
+    {
+      "scenario_id": "RB-HCA-11",
+      "consequence_score_1_5": 3,
+      "irreversibility_score_1_5": 4,
+      "authorization_sensitivity_score_1_5": 5,
+      "justification": "The bounded population or value, recovery time, durable effect, and named authority support the selected C/I/S anchors.",
+      "uncertainty_note": "No essential fact is missing; remaining uncertainty is ordinary within-anchor operational variation."
+    },
+    {
+      "scenario_id": "RB-HCA-12",
+      "consequence_score_1_5": 3,
+      "irreversibility_score_1_5": 4,
+      "authorization_sensitivity_score_1_5": 5,
+      "justification": "The bounded population or value, recovery time, durable effect, and named authority support the selected C/I/S anchors.",
+      "uncertainty_note": "No essential fact is missing; remaining uncertainty is ordinary within-anchor operational variation."
+    },
+    {
+      "scenario_id": "RB-HCA-13",
+      "consequence_score_1_5": 3,
+      "irreversibility_score_1_5": 5,
+      "authorization_sensitivity_score_1_5": 5,
+      "justification": "The bounded population or value, recovery time, durable effect, and named authority support the selected C/I/S anchors.",
+      "uncertainty_note": "No essential fact is missing; remaining uncertainty is ordinary within-anchor operational variation."
+    },
+    {
+      "scenario_id": "RB-HCA-14",
+      "consequence_score_1_5": 3,
+      "irreversibility_score_1_5": 5,
+      "authorization_sensitivity_score_1_5": 5,
+      "justification": "The bounded population or value, recovery time, durable effect, and named authority support the selected C/I/S anchors.",
+      "uncertainty_note": "No essential fact is missing; remaining uncertainty is ordinary within-anchor operational variation."
+    },
+    {
+      "scenario_id": "RB-HCA-15",
+      "consequence_score_1_5": 4,
+      "irreversibility_score_1_5": 4,
+      "authorization_sensitivity_score_1_5": 5,
+      "justification": "The bounded population or value, recovery time, durable effect, and named authority support the selected C/I/S anchors.",
+      "uncertainty_note": "No essential fact is missing; remaining uncertainty is ordinary within-anchor operational variation."
+    },
+    {
+      "scenario_id": "RB-HCA-16",
+      "consequence_score_1_5": 4,
+      "irreversibility_score_1_5": 4,
+      "authorization_sensitivity_score_1_5": 5,
+      "justification": "The bounded population or value, recovery time, durable effect, and named authority support the selected C/I/S anchors.",
+      "uncertainty_note": "No essential fact is missing; remaining uncertainty is ordinary within-anchor operational variation."
+    },
+    {
+      "scenario_id": "RB-PRI-01",
+      "consequence_score_1_5": 3,
+      "irreversibility_score_1_5": 5,
+      "authorization_sensitivity_score_1_5": 4,
+      "justification": "The bounded population or value, recovery time, durable effect, and named authority support the selected C/I/S anchors.",
+      "uncertainty_note": "No essential fact is missing; remaining uncertainty is ordinary within-anchor operational variation."
+    },
+    {
+      "scenario_id": "RB-PRI-02",
+      "consequence_score_1_5": 3,
+      "irreversibility_score_1_5": 5,
+      "authorization_sensitivity_score_1_5": 4,
+      "justification": "The bounded population or value, recovery time, durable effect, and named authority support the selected C/I/S anchors.",
+      "uncertainty_note": "No essential fact is missing; remaining uncertainty is ordinary within-anchor operational variation."
+    },
+    {
+      "scenario_id": "RB-PRI-03",
+      "consequence_score_1_5": 3,
+      "irreversibility_score_1_5": 5,
+      "authorization_sensitivity_score_1_5": 4,
+      "justification": "The bounded population or value, recovery time, durable effect, and named authority support the selected C/I/S anchors.",
+      "uncertainty_note": "No essential fact is missing; remaining uncertainty is ordinary within-anchor operational variation."
+    },
+    {
+      "scenario_id": "RB-PRI-04",
+      "consequence_score_1_5": 4,
+      "irreversibility_score_1_5": 5,
+      "authorization_sensitivity_score_1_5": 5,
+      "justification": "The bounded population or value, recovery time, durable effect, and named authority support the selected C/I/S anchors.",
+      "uncertainty_note": "No essential fact is missing; remaining uncertainty is ordinary within-anchor operational variation."
+    },
+    {
+      "scenario_id": "RB-PRI-05",
+      "consequence_score_1_5": 4,
+      "irreversibility_score_1_5": 5,
+      "authorization_sensitivity_score_1_5": 5,
+      "justification": "The bounded population or value, recovery time, durable effect, and named authority support the selected C/I/S anchors.",
+      "uncertainty_note": "No essential fact is missing; remaining uncertainty is ordinary within-anchor operational variation."
+    },
+    {
+      "scenario_id": "RB-PRI-06",
+      "consequence_score_1_5": 4,
+      "irreversibility_score_1_5": 5,
+      "authorization_sensitivity_score_1_5": 5,
+      "justification": "The bounded population or value, recovery time, durable effect, and named authority support the selected C/I/S anchors.",
+      "uncertainty_note": "No essential fact is missing; remaining uncertainty is ordinary within-anchor operational variation."
+    },
+    {
+      "scenario_id": "RB-PRI-07",
+      "consequence_score_1_5": 3,
+      "irreversibility_score_1_5": 4,
+      "authorization_sensitivity_score_1_5": 5,
+      "justification": "The bounded population or value, recovery time, durable effect, and named authority support the selected C/I/S anchors.",
+      "uncertainty_note": "No essential fact is missing; remaining uncertainty is ordinary within-anchor operational variation."
+    },
+    {
+      "scenario_id": "RB-PRI-08",
+      "consequence_score_1_5": 3,
+      "irreversibility_score_1_5": 4,
+      "authorization_sensitivity_score_1_5": 5,
+      "justification": "The bounded population or value, recovery time, durable effect, and named authority support the selected C/I/S anchors.",
+      "uncertainty_note": "No essential fact is missing; remaining uncertainty is ordinary within-anchor operational variation."
+    },
+    {
+      "scenario_id": "RB-PRI-09",
+      "consequence_score_1_5": 3,
+      "irreversibility_score_1_5": 4,
+      "authorization_sensitivity_score_1_5": 5,
+      "justification": "The bounded population or value, recovery time, durable effect, and named authority support the selected C/I/S anchors.",
+      "uncertainty_note": "No essential fact is missing; remaining uncertainty is ordinary within-anchor operational variation."
+    },
+    {
+      "scenario_id": "RB-PRI-10",
+      "consequence_score_1_5": 3,
+      "irreversibility_score_1_5": 4,
+      "authorization_sensitivity_score_1_5": 5,
+      "justification": "The bounded population or value, recovery time, durable effect, and named authority support the selected C/I/S anchors.",
+      "uncertainty_note": "No essential fact is missing; remaining uncertainty is ordinary within-anchor operational variation."
+    },
+    {
+      "scenario_id": "RB-PRI-11",
+      "consequence_score_1_5": 3,
+      "irreversibility_score_1_5": 4,
+      "authorization_sensitivity_score_1_5": 5,
+      "justification": "The bounded population or value, recovery time, durable effect, and named authority support the selected C/I/S anchors.",
+      "uncertainty_note": "No essential fact is missing; remaining uncertainty is ordinary within-anchor operational variation."
+    },
+    {
+      "scenario_id": "RB-PRI-12",
+      "consequence_score_1_5": 3,
+      "irreversibility_score_1_5": 4,
+      "authorization_sensitivity_score_1_5": 5,
+      "justification": "The bounded population or value, recovery time, durable effect, and named authority support the selected C/I/S anchors.",
+      "uncertainty_note": "No essential fact is missing; remaining uncertainty is ordinary within-anchor operational variation."
+    },
+    {
+      "scenario_id": "RB-PRI-13",
+      "consequence_score_1_5": 4,
+      "irreversibility_score_1_5": 5,
+      "authorization_sensitivity_score_1_5": 5,
+      "justification": "The bounded population or value, recovery time, durable effect, and named authority support the selected C/I/S anchors.",
+      "uncertainty_note": "No essential fact is missing; remaining uncertainty is ordinary within-anchor operational variation."
+    },
+    {
+      "scenario_id": "RB-PRI-14",
+      "consequence_score_1_5": 4,
+      "irreversibility_score_1_5": 5,
+      "authorization_sensitivity_score_1_5": 5,
+      "justification": "The bounded population or value, recovery time, durable effect, and named authority support the selected C/I/S anchors.",
+      "uncertainty_note": "No essential fact is missing; remaining uncertainty is ordinary within-anchor operational variation."
+    },
+    {
+      "scenario_id": "RB-PRI-15",
+      "consequence_score_1_5": 4,
+      "irreversibility_score_1_5": 4,
+      "authorization_sensitivity_score_1_5": 5,
+      "justification": "The bounded population or value, recovery time, durable effect, and named authority support the selected C/I/S anchors.",
+      "uncertainty_note": "No essential fact is missing; remaining uncertainty is ordinary within-anchor operational variation."
+    },
+    {
+      "scenario_id": "RB-PRI-16",
+      "consequence_score_1_5": 4,
+      "irreversibility_score_1_5": 4,
+      "authorization_sensitivity_score_1_5": 5,
+      "justification": "The bounded population or value, recovery time, durable effect, and named authority support the selected C/I/S anchors.",
+      "uncertainty_note": "No essential fact is missing; remaining uncertainty is ordinary within-anchor operational variation."
+    },
+    {
+      "scenario_id": "RB-COM-01",
+      "consequence_score_1_5": 3,
+      "irreversibility_score_1_5": 3,
+      "authorization_sensitivity_score_1_5": 3,
+      "justification": "The bounded population or value, recovery time, durable effect, and named authority support the selected C/I/S anchors.",
+      "uncertainty_note": "No essential fact is missing; remaining uncertainty is ordinary within-anchor operational variation."
+    },
+    {
+      "scenario_id": "RB-COM-02",
+      "consequence_score_1_5": 3,
+      "irreversibility_score_1_5": 3,
+      "authorization_sensitivity_score_1_5": 3,
+      "justification": "The bounded population or value, recovery time, durable effect, and named authority support the selected C/I/S anchors.",
+      "uncertainty_note": "No essential fact is missing; remaining uncertainty is ordinary within-anchor operational variation."
+    },
+    {
+      "scenario_id": "RB-COM-03",
+      "consequence_score_1_5": 3,
+      "irreversibility_score_1_5": 3,
+      "authorization_sensitivity_score_1_5": 3,
+      "justification": "The bounded population or value, recovery time, durable effect, and named authority support the selected C/I/S anchors.",
+      "uncertainty_note": "No essential fact is missing; remaining uncertainty is ordinary within-anchor operational variation."
+    },
+    {
+      "scenario_id": "RB-COM-04",
+      "consequence_score_1_5": 2,
+      "irreversibility_score_1_5": 4,
+      "authorization_sensitivity_score_1_5": 3,
+      "justification": "The bounded population or value, recovery time, durable effect, and named authority support the selected C/I/S anchors.",
+      "uncertainty_note": "No essential fact is missing; remaining uncertainty is ordinary within-anchor operational variation."
+    },
+    {
+      "scenario_id": "RB-COM-05",
+      "consequence_score_1_5": 2,
+      "irreversibility_score_1_5": 4,
+      "authorization_sensitivity_score_1_5": 3,
+      "justification": "The bounded population or value, recovery time, durable effect, and named authority support the selected C/I/S anchors.",
+      "uncertainty_note": "No essential fact is missing; remaining uncertainty is ordinary within-anchor operational variation."
+    },
+    {
+      "scenario_id": "RB-COM-06",
+      "consequence_score_1_5": 2,
+      "irreversibility_score_1_5": 4,
+      "authorization_sensitivity_score_1_5": 3,
+      "justification": "The bounded population or value, recovery time, durable effect, and named authority support the selected C/I/S anchors.",
+      "uncertainty_note": "No essential fact is missing; remaining uncertainty is ordinary within-anchor operational variation."
+    },
+    {
+      "scenario_id": "RB-COM-07",
+      "consequence_score_1_5": 3,
+      "irreversibility_score_1_5": 3,
+      "authorization_sensitivity_score_1_5": 3,
+      "justification": "The bounded population or value, recovery time, durable effect, and named authority support the selected C/I/S anchors.",
+      "uncertainty_note": "No essential fact is missing; remaining uncertainty is ordinary within-anchor operational variation."
+    },
+    {
+      "scenario_id": "RB-COM-08",
+      "consequence_score_1_5": 3,
+      "irreversibility_score_1_5": 3,
+      "authorization_sensitivity_score_1_5": 3,
+      "justification": "The bounded population or value, recovery time, durable effect, and named authority support the selected C/I/S anchors.",
+      "uncertainty_note": "No essential fact is missing; remaining uncertainty is ordinary within-anchor operational variation."
+    },
+    {
+      "scenario_id": "RB-COM-09",
+      "consequence_score_1_5": 3,
+      "irreversibility_score_1_5": 3,
+      "authorization_sensitivity_score_1_5": 3,
+      "justification": "The bounded population or value, recovery time, durable effect, and named authority support the selected C/I/S anchors.",
+      "uncertainty_note": "No essential fact is missing; remaining uncertainty is ordinary within-anchor operational variation."
+    },
+    {
+      "scenario_id": "RB-COM-10",
+      "consequence_score_1_5": 3,
+      "irreversibility_score_1_5": 3,
+      "authorization_sensitivity_score_1_5": 3,
+      "justification": "The bounded population or value, recovery time, durable effect, and named authority support the selected C/I/S anchors.",
+      "uncertainty_note": "No essential fact is missing; remaining uncertainty is ordinary within-anchor operational variation."
+    },
+    {
+      "scenario_id": "RB-COM-11",
+      "consequence_score_1_5": 3,
+      "irreversibility_score_1_5": 3,
+      "authorization_sensitivity_score_1_5": 3,
+      "justification": "The bounded population or value, recovery time, durable effect, and named authority support the selected C/I/S anchors.",
+      "uncertainty_note": "No essential fact is missing; remaining uncertainty is ordinary within-anchor operational variation."
+    },
+    {
+      "scenario_id": "RB-COM-12",
+      "consequence_score_1_5": 3,
+      "irreversibility_score_1_5": 3,
+      "authorization_sensitivity_score_1_5": 3,
+      "justification": "The bounded population or value, recovery time, durable effect, and named authority support the selected C/I/S anchors.",
+      "uncertainty_note": "No essential fact is missing; remaining uncertainty is ordinary within-anchor operational variation."
+    },
+    {
+      "scenario_id": "RB-COM-13",
+      "consequence_score_1_5": 4,
+      "irreversibility_score_1_5": 5,
+      "authorization_sensitivity_score_1_5": 4,
+      "justification": "The bounded population or value, recovery time, durable effect, and named authority support the selected C/I/S anchors.",
+      "uncertainty_note": "No essential fact is missing; remaining uncertainty is ordinary within-anchor operational variation."
+    },
+    {
+      "scenario_id": "RB-COM-14",
+      "consequence_score_1_5": 4,
+      "irreversibility_score_1_5": 5,
+      "authorization_sensitivity_score_1_5": 4,
+      "justification": "The bounded population or value, recovery time, durable effect, and named authority support the selected C/I/S anchors.",
+      "uncertainty_note": "No essential fact is missing; remaining uncertainty is ordinary within-anchor operational variation."
+    },
+    {
+      "scenario_id": "RB-COM-15",
+      "consequence_score_1_5": 3,
+      "irreversibility_score_1_5": 4,
+      "authorization_sensitivity_score_1_5": 4,
+      "justification": "The bounded population or value, recovery time, durable effect, and named authority support the selected C/I/S anchors.",
+      "uncertainty_note": "No essential fact is missing; remaining uncertainty is ordinary within-anchor operational variation."
+    },
+    {
+      "scenario_id": "RB-COM-16",
+      "consequence_score_1_5": 5,
+      "irreversibility_score_1_5": 5,
+      "authorization_sensitivity_score_1_5": 5,
+      "justification": "The bounded population or value, recovery time, durable effect, and named authority support the selected C/I/S anchors.",
+      "uncertainty_note": "No essential fact is missing; remaining uncertainty is ordinary within-anchor operational variation."
+    },
+    {
+      "scenario_id": "RB-HR-01",
+      "consequence_score_1_5": 4,
+      "irreversibility_score_1_5": 4,
+      "authorization_sensitivity_score_1_5": 4,
+      "justification": "The bounded population or value, recovery time, durable effect, and named authority support the selected C/I/S anchors.",
+      "uncertainty_note": "No essential fact is missing; remaining uncertainty is ordinary within-anchor operational variation."
+    },
+    {
+      "scenario_id": "RB-HR-02",
+      "consequence_score_1_5": 4,
+      "irreversibility_score_1_5": 4,
+      "authorization_sensitivity_score_1_5": 4,
+      "justification": "The bounded population or value, recovery time, durable effect, and named authority support the selected C/I/S anchors.",
+      "uncertainty_note": "No essential fact is missing; remaining uncertainty is ordinary within-anchor operational variation."
+    },
+    {
+      "scenario_id": "RB-HR-03",
+      "consequence_score_1_5": 4,
+      "irreversibility_score_1_5": 4,
+      "authorization_sensitivity_score_1_5": 4,
+      "justification": "The bounded population or value, recovery time, durable effect, and named authority support the selected C/I/S anchors.",
+      "uncertainty_note": "No essential fact is missing; remaining uncertainty is ordinary within-anchor operational variation."
+    },
+    {
+      "scenario_id": "RB-HR-04",
+      "consequence_score_1_5": 3,
+      "irreversibility_score_1_5": 4,
+      "authorization_sensitivity_score_1_5": 3,
+      "justification": "The bounded population or value, recovery time, durable effect, and named authority support the selected C/I/S anchors.",
+      "uncertainty_note": "No essential fact is missing; remaining uncertainty is ordinary within-anchor operational variation."
+    },
+    {
+      "scenario_id": "RB-HR-05",
+      "consequence_score_1_5": 3,
+      "irreversibility_score_1_5": 4,
+      "authorization_sensitivity_score_1_5": 3,
+      "justification": "The bounded population or value, recovery time, durable effect, and named authority support the selected C/I/S anchors.",
+      "uncertainty_note": "No essential fact is missing; remaining uncertainty is ordinary within-anchor operational variation."
+    },
+    {
+      "scenario_id": "RB-HR-06",
+      "consequence_score_1_5": 3,
+      "irreversibility_score_1_5": 4,
+      "authorization_sensitivity_score_1_5": 3,
+      "justification": "The bounded population or value, recovery time, durable effect, and named authority support the selected C/I/S anchors.",
+      "uncertainty_note": "No essential fact is missing; remaining uncertainty is ordinary within-anchor operational variation."
+    },
+    {
+      "scenario_id": "RB-HR-07",
+      "consequence_score_1_5": 2,
+      "irreversibility_score_1_5": 4,
+      "authorization_sensitivity_score_1_5": 4,
+      "justification": "The bounded population or value, recovery time, durable effect, and named authority support the selected C/I/S anchors.",
+      "uncertainty_note": "No essential fact is missing; remaining uncertainty is ordinary within-anchor operational variation."
+    },
+    {
+      "scenario_id": "RB-HR-08",
+      "consequence_score_1_5": 2,
+      "irreversibility_score_1_5": 4,
+      "authorization_sensitivity_score_1_5": 4,
+      "justification": "The bounded population or value, recovery time, durable effect, and named authority support the selected C/I/S anchors.",
+      "uncertainty_note": "No essential fact is missing; remaining uncertainty is ordinary within-anchor operational variation."
+    },
+    {
+      "scenario_id": "RB-HR-09",
+      "consequence_score_1_5": 2,
+      "irreversibility_score_1_5": 4,
+      "authorization_sensitivity_score_1_5": 4,
+      "justification": "The bounded population or value, recovery time, durable effect, and named authority support the selected C/I/S anchors.",
+      "uncertainty_note": "No essential fact is missing; remaining uncertainty is ordinary within-anchor operational variation."
+    },
+    {
+      "scenario_id": "RB-HR-10",
+      "consequence_score_1_5": 4,
+      "irreversibility_score_1_5": 4,
+      "authorization_sensitivity_score_1_5": 4,
+      "justification": "The bounded population or value, recovery time, durable effect, and named authority support the selected C/I/S anchors.",
+      "uncertainty_note": "No essential fact is missing; remaining uncertainty is ordinary within-anchor operational variation."
+    },
+    {
+      "scenario_id": "RB-HR-11",
+      "consequence_score_1_5": 4,
+      "irreversibility_score_1_5": 4,
+      "authorization_sensitivity_score_1_5": 4,
+      "justification": "The bounded population or value, recovery time, durable effect, and named authority support the selected C/I/S anchors.",
+      "uncertainty_note": "No essential fact is missing; remaining uncertainty is ordinary within-anchor operational variation."
+    },
+    {
+      "scenario_id": "RB-HR-12",
+      "consequence_score_1_5": 4,
+      "irreversibility_score_1_5": 4,
+      "authorization_sensitivity_score_1_5": 4,
+      "justification": "The bounded population or value, recovery time, durable effect, and named authority support the selected C/I/S anchors.",
+      "uncertainty_note": "No essential fact is missing; remaining uncertainty is ordinary within-anchor operational variation."
+    },
+    {
+      "scenario_id": "RB-HR-13",
+      "consequence_score_1_5": 4,
+      "irreversibility_score_1_5": 4,
+      "authorization_sensitivity_score_1_5": 5,
+      "justification": "The bounded population or value, recovery time, durable effect, and named authority support the selected C/I/S anchors.",
+      "uncertainty_note": "No essential fact is missing; remaining uncertainty is ordinary within-anchor operational variation."
+    },
+    {
+      "scenario_id": "RB-HR-14",
+      "consequence_score_1_5": 4,
+      "irreversibility_score_1_5": 4,
+      "authorization_sensitivity_score_1_5": 5,
+      "justification": "The bounded population or value, recovery time, durable effect, and named authority support the selected C/I/S anchors.",
+      "uncertainty_note": "No essential fact is missing; remaining uncertainty is ordinary within-anchor operational variation."
+    },
+    {
+      "scenario_id": "RB-HR-15",
+      "consequence_score_1_5": 4,
+      "irreversibility_score_1_5": 4,
+      "authorization_sensitivity_score_1_5": 5,
+      "justification": "The bounded population or value, recovery time, durable effect, and named authority support the selected C/I/S anchors.",
+      "uncertainty_note": "No essential fact is missing; remaining uncertainty is ordinary within-anchor operational variation."
+    },
+    {
+      "scenario_id": "RB-HR-16",
+      "consequence_score_1_5": 4,
+      "irreversibility_score_1_5": 4,
+      "authorization_sensitivity_score_1_5": 5,
+      "justification": "The bounded population or value, recovery time, durable effect, and named authority support the selected C/I/S anchors.",
+      "uncertainty_note": "No essential fact is missing; remaining uncertainty is ordinary within-anchor operational variation."
+    }
+  ],
+  "evidence_scores": [
+    {
+      "scenario_id": "RB-CYB-01",
+      "evidence_id": "RB-CYB-01-XC20932FA",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 4,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit multi_system execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-CYB-01",
+      "evidence_id": "RB-CYB-01-X60C0E4AE",
+      "criticality_score_1_5": 5,
+      "validation_cost_score_1_5": 4,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit multi_system execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-CYB-01",
+      "evidence_id": "RB-CYB-01-X181D5FF7",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 1,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit local_or_cached execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-CYB-02",
+      "evidence_id": "RB-CYB-02-XF2D89D63",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 2,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit authoritative_remote execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-CYB-02",
+      "evidence_id": "RB-CYB-02-XFDFC22C7",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 3,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit bounded_two_source execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-CYB-02",
+      "evidence_id": "RB-CYB-02-XF0B0E2D7",
+      "criticality_score_1_5": 5,
+      "validation_cost_score_1_5": 4,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit multi_system execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-CYB-03",
+      "evidence_id": "RB-CYB-03-X50967BEE",
+      "criticality_score_1_5": 5,
+      "validation_cost_score_1_5": 3,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit bounded_two_source execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-CYB-03",
+      "evidence_id": "RB-CYB-03-X67FBC3C9",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 3,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit bounded_two_source execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-CYB-03",
+      "evidence_id": "RB-CYB-03-XB55CB3AF",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 4,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit multi_system execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-CYB-04",
+      "evidence_id": "RB-CYB-04-XEC8346FB",
+      "criticality_score_1_5": 3,
+      "validation_cost_score_1_5": 3,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit bounded_two_source execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-CYB-04",
+      "evidence_id": "RB-CYB-04-X5E985193",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 3,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit bounded_two_source execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-CYB-04",
+      "evidence_id": "RB-CYB-04-X65673235",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 1,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit local_or_cached execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-CYB-05",
+      "evidence_id": "RB-CYB-05-XF9E0F302",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 2,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit authoritative_remote execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-CYB-05",
+      "evidence_id": "RB-CYB-05-X538A2ACB",
+      "criticality_score_1_5": 3,
+      "validation_cost_score_1_5": 2,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit authoritative_remote execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-CYB-05",
+      "evidence_id": "RB-CYB-05-X199D37C4",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 2,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit authoritative_remote execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-CYB-06",
+      "evidence_id": "RB-CYB-06-X974691EA",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 3,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit bounded_two_source execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-CYB-06",
+      "evidence_id": "RB-CYB-06-XB4AEC017",
+      "criticality_score_1_5": 3,
+      "validation_cost_score_1_5": 1,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit local_or_cached execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-CYB-06",
+      "evidence_id": "RB-CYB-06-X1005C3E2",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 2,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit authoritative_remote execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-CYB-07",
+      "evidence_id": "RB-CYB-07-X50430746",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 1,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit local_or_cached execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-CYB-07",
+      "evidence_id": "RB-CYB-07-X51730FAB",
+      "criticality_score_1_5": 5,
+      "validation_cost_score_1_5": 2,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit authoritative_remote execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-CYB-07",
+      "evidence_id": "RB-CYB-07-X23AB31DE",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 1,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit local_or_cached execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-CYB-08",
+      "evidence_id": "RB-CYB-08-XA73FABC6",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 1,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit local_or_cached execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-CYB-08",
+      "evidence_id": "RB-CYB-08-X464646EA",
+      "criticality_score_1_5": 5,
+      "validation_cost_score_1_5": 3,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit bounded_two_source execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-CYB-08",
+      "evidence_id": "RB-CYB-08-X21A0E939",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 2,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit authoritative_remote execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-CYB-09",
+      "evidence_id": "RB-CYB-09-XB3CBB9D9",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 2,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit authoritative_remote execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-CYB-09",
+      "evidence_id": "RB-CYB-09-X4936AC82",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 1,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit local_or_cached execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-CYB-09",
+      "evidence_id": "RB-CYB-09-X94A125D7",
+      "criticality_score_1_5": 5,
+      "validation_cost_score_1_5": 3,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit bounded_two_source execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-CYB-10",
+      "evidence_id": "RB-CYB-10-X942783B0",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 3,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit bounded_two_source execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-CYB-10",
+      "evidence_id": "RB-CYB-10-XFEF94B0C",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 1,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit local_or_cached execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-CYB-10",
+      "evidence_id": "RB-CYB-10-X8CA37DDE",
+      "criticality_score_1_5": 5,
+      "validation_cost_score_1_5": 1,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit local_or_cached execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-CYB-11",
+      "evidence_id": "RB-CYB-11-XCB95EBE6",
+      "criticality_score_1_5": 5,
+      "validation_cost_score_1_5": 3,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit bounded_two_source execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-CYB-11",
+      "evidence_id": "RB-CYB-11-XDEF9046E",
+      "criticality_score_1_5": 5,
+      "validation_cost_score_1_5": 3,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit bounded_two_source execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-CYB-11",
+      "evidence_id": "RB-CYB-11-X844F3F03",
+      "criticality_score_1_5": 5,
+      "validation_cost_score_1_5": 4,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit multi_system execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-CYB-12",
+      "evidence_id": "RB-CYB-12-XE88740BC",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 4,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit multi_system execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-CYB-12",
+      "evidence_id": "RB-CYB-12-XC9D5F7F5",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 4,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit multi_system execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-CYB-12",
+      "evidence_id": "RB-CYB-12-XCA362A87",
+      "criticality_score_1_5": 5,
+      "validation_cost_score_1_5": 1,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit local_or_cached execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-CYB-13",
+      "evidence_id": "RB-CYB-13-X1E13EE7C",
+      "criticality_score_1_5": 5,
+      "validation_cost_score_1_5": 1,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit local_or_cached execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-CYB-13",
+      "evidence_id": "RB-CYB-13-X2DD6E382",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 2,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit authoritative_remote execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-CYB-13",
+      "evidence_id": "RB-CYB-13-X1491B823",
+      "criticality_score_1_5": 5,
+      "validation_cost_score_1_5": 4,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit multi_system execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-CYB-14",
+      "evidence_id": "RB-CYB-14-X465F0665",
+      "criticality_score_1_5": 5,
+      "validation_cost_score_1_5": 2,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit authoritative_remote execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-CYB-14",
+      "evidence_id": "RB-CYB-14-X6AF9C166",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 4,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit multi_system execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-CYB-14",
+      "evidence_id": "RB-CYB-14-X6EE5F78F",
+      "criticality_score_1_5": 5,
+      "validation_cost_score_1_5": 3,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit bounded_two_source execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-CYB-15",
+      "evidence_id": "RB-CYB-15-X84496428",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 1,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit local_or_cached execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-CYB-15",
+      "evidence_id": "RB-CYB-15-X9ACC1E54",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 4,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit multi_system execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-CYB-15",
+      "evidence_id": "RB-CYB-15-X1A44E862",
+      "criticality_score_1_5": 5,
+      "validation_cost_score_1_5": 2,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit authoritative_remote execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-CYB-16",
+      "evidence_id": "RB-CYB-16-X14361B93",
+      "criticality_score_1_5": 5,
+      "validation_cost_score_1_5": 4,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit multi_system execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-CYB-16",
+      "evidence_id": "RB-CYB-16-XF3769DD2",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 4,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit multi_system execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-CYB-16",
+      "evidence_id": "RB-CYB-16-X0CF29A73",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 2,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit authoritative_remote execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-FIN-01",
+      "evidence_id": "RB-FIN-01-X2128DDFD",
+      "criticality_score_1_5": 5,
+      "validation_cost_score_1_5": 3,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit bounded_two_source execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-FIN-01",
+      "evidence_id": "RB-FIN-01-XC8B9D4FA",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 3,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit bounded_two_source execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-FIN-01",
+      "evidence_id": "RB-FIN-01-X678270CA",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 1,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit local_or_cached execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-FIN-02",
+      "evidence_id": "RB-FIN-02-XB7006EB5",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 1,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit local_or_cached execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-FIN-02",
+      "evidence_id": "RB-FIN-02-XBE522C76",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 3,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit bounded_two_source execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-FIN-02",
+      "evidence_id": "RB-FIN-02-XBC4116CE",
+      "criticality_score_1_5": 5,
+      "validation_cost_score_1_5": 2,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit authoritative_remote execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-FIN-03",
+      "evidence_id": "RB-FIN-03-X2002A3C3",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 4,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit multi_system execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-FIN-03",
+      "evidence_id": "RB-FIN-03-X9B566712",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 4,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit multi_system execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-FIN-03",
+      "evidence_id": "RB-FIN-03-X3EAED575",
+      "criticality_score_1_5": 5,
+      "validation_cost_score_1_5": 2,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit authoritative_remote execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-FIN-04",
+      "evidence_id": "RB-FIN-04-XB3349F6B",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 3,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit bounded_two_source execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-FIN-04",
+      "evidence_id": "RB-FIN-04-X45618316",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 4,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit multi_system execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-FIN-04",
+      "evidence_id": "RB-FIN-04-XA0B11FF6",
+      "criticality_score_1_5": 5,
+      "validation_cost_score_1_5": 4,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit multi_system execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-FIN-05",
+      "evidence_id": "RB-FIN-05-XBE3E6D55",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 2,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit authoritative_remote execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-FIN-05",
+      "evidence_id": "RB-FIN-05-X78E61A03",
+      "criticality_score_1_5": 5,
+      "validation_cost_score_1_5": 1,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit local_or_cached execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-FIN-05",
+      "evidence_id": "RB-FIN-05-XF9F8480F",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 1,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit local_or_cached execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-FIN-06",
+      "evidence_id": "RB-FIN-06-X67DA776D",
+      "criticality_score_1_5": 5,
+      "validation_cost_score_1_5": 4,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit multi_system execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-FIN-06",
+      "evidence_id": "RB-FIN-06-X7E7D0AC4",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 1,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit local_or_cached execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-FIN-06",
+      "evidence_id": "RB-FIN-06-X9510084E",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 3,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit bounded_two_source execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-FIN-07",
+      "evidence_id": "RB-FIN-07-XD76127CE",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 1,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit local_or_cached execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-FIN-07",
+      "evidence_id": "RB-FIN-07-XC298A1DD",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 4,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit multi_system execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-FIN-07",
+      "evidence_id": "RB-FIN-07-XA3DEF4D9",
+      "criticality_score_1_5": 3,
+      "validation_cost_score_1_5": 1,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit local_or_cached execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-FIN-08",
+      "evidence_id": "RB-FIN-08-XF774B76C",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 1,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit local_or_cached execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-FIN-08",
+      "evidence_id": "RB-FIN-08-XB12F7309",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 1,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit local_or_cached execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-FIN-08",
+      "evidence_id": "RB-FIN-08-X408EE25A",
+      "criticality_score_1_5": 3,
+      "validation_cost_score_1_5": 2,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit authoritative_remote execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-FIN-09",
+      "evidence_id": "RB-FIN-09-XD3D9B6B9",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 2,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit authoritative_remote execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-FIN-09",
+      "evidence_id": "RB-FIN-09-X7DACDF2A",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 2,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit authoritative_remote execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-FIN-09",
+      "evidence_id": "RB-FIN-09-X6D2788C7",
+      "criticality_score_1_5": 3,
+      "validation_cost_score_1_5": 2,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit authoritative_remote execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-FIN-10",
+      "evidence_id": "RB-FIN-10-XEDC62660",
+      "criticality_score_1_5": 5,
+      "validation_cost_score_1_5": 2,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit authoritative_remote execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-FIN-10",
+      "evidence_id": "RB-FIN-10-XCAC3665A",
+      "criticality_score_1_5": 5,
+      "validation_cost_score_1_5": 3,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit bounded_two_source execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-FIN-10",
+      "evidence_id": "RB-FIN-10-X8B96135B",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 2,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit authoritative_remote execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-FIN-11",
+      "evidence_id": "RB-FIN-11-X96D1D8C4",
+      "criticality_score_1_5": 5,
+      "validation_cost_score_1_5": 3,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit bounded_two_source execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-FIN-11",
+      "evidence_id": "RB-FIN-11-X986B2339",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 4,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit multi_system execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-FIN-11",
+      "evidence_id": "RB-FIN-11-X3CC96142",
+      "criticality_score_1_5": 5,
+      "validation_cost_score_1_5": 1,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit local_or_cached execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-FIN-12",
+      "evidence_id": "RB-FIN-12-X4040965B",
+      "criticality_score_1_5": 5,
+      "validation_cost_score_1_5": 4,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit multi_system execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-FIN-12",
+      "evidence_id": "RB-FIN-12-X35F58911",
+      "criticality_score_1_5": 5,
+      "validation_cost_score_1_5": 4,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit multi_system execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-FIN-12",
+      "evidence_id": "RB-FIN-12-X00AD3F19",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 4,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit multi_system execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-FIN-13",
+      "evidence_id": "RB-FIN-13-XCE05023D",
+      "criticality_score_1_5": 5,
+      "validation_cost_score_1_5": 2,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit authoritative_remote execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-FIN-13",
+      "evidence_id": "RB-FIN-13-XF08A7E43",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 1,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit local_or_cached execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-FIN-13",
+      "evidence_id": "RB-FIN-13-X27723097",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 3,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit bounded_two_source execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-FIN-14",
+      "evidence_id": "RB-FIN-14-XF7C9B25B",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 2,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit authoritative_remote execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-FIN-14",
+      "evidence_id": "RB-FIN-14-X149C192F",
+      "criticality_score_1_5": 5,
+      "validation_cost_score_1_5": 3,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit bounded_two_source execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-FIN-14",
+      "evidence_id": "RB-FIN-14-X9E8D786D",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 3,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit bounded_two_source execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-FIN-15",
+      "evidence_id": "RB-FIN-15-XD3493B45",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 1,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit local_or_cached execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-FIN-15",
+      "evidence_id": "RB-FIN-15-XB5CF0A97",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 3,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit bounded_two_source execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-FIN-15",
+      "evidence_id": "RB-FIN-15-X939D4705",
+      "criticality_score_1_5": 3,
+      "validation_cost_score_1_5": 3,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit bounded_two_source execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-FIN-16",
+      "evidence_id": "RB-FIN-16-X6983DF25",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 4,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit multi_system execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-FIN-16",
+      "evidence_id": "RB-FIN-16-X8776CB78",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 4,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit multi_system execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-FIN-16",
+      "evidence_id": "RB-FIN-16-X7323DAA4",
+      "criticality_score_1_5": 3,
+      "validation_cost_score_1_5": 2,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit authoritative_remote execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-HCA-01",
+      "evidence_id": "RB-HCA-01-X6E7A92A3",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 3,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit bounded_two_source execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-HCA-01",
+      "evidence_id": "RB-HCA-01-X70FC4DC9",
+      "criticality_score_1_5": 3,
+      "validation_cost_score_1_5": 4,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit multi_system execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-HCA-01",
+      "evidence_id": "RB-HCA-01-X890FB2F5",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 4,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit multi_system execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-HCA-02",
+      "evidence_id": "RB-HCA-02-X0032E734",
+      "criticality_score_1_5": 3,
+      "validation_cost_score_1_5": 2,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit authoritative_remote execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-HCA-02",
+      "evidence_id": "RB-HCA-02-XCC076009",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 4,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit multi_system execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-HCA-02",
+      "evidence_id": "RB-HCA-02-X416A06EE",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 1,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit local_or_cached execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-HCA-03",
+      "evidence_id": "RB-HCA-03-X120C6DA8",
+      "criticality_score_1_5": 3,
+      "validation_cost_score_1_5": 1,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit local_or_cached execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-HCA-03",
+      "evidence_id": "RB-HCA-03-X69520D04",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 1,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit local_or_cached execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-HCA-03",
+      "evidence_id": "RB-HCA-03-XBBCF8BAA",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 2,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit authoritative_remote execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-HCA-04",
+      "evidence_id": "RB-HCA-04-X180991E9",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 3,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit bounded_two_source execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-HCA-04",
+      "evidence_id": "RB-HCA-04-X20C2AF70",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 3,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit bounded_two_source execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-HCA-04",
+      "evidence_id": "RB-HCA-04-XBBA025FF",
+      "criticality_score_1_5": 3,
+      "validation_cost_score_1_5": 3,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit bounded_two_source execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-HCA-05",
+      "evidence_id": "RB-HCA-05-X44A40411",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 1,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit local_or_cached execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-HCA-05",
+      "evidence_id": "RB-HCA-05-X98CA87D3",
+      "criticality_score_1_5": 3,
+      "validation_cost_score_1_5": 3,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit bounded_two_source execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-HCA-05",
+      "evidence_id": "RB-HCA-05-XE09BB5EA",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 1,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit local_or_cached execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-HCA-06",
+      "evidence_id": "RB-HCA-06-X17E551BA",
+      "criticality_score_1_5": 3,
+      "validation_cost_score_1_5": 4,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit multi_system execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-HCA-06",
+      "evidence_id": "RB-HCA-06-XBBC3F3E2",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 2,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit authoritative_remote execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-HCA-06",
+      "evidence_id": "RB-HCA-06-X5EEB17F6",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 2,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit authoritative_remote execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-HCA-07",
+      "evidence_id": "RB-HCA-07-X97B68B84",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 2,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit authoritative_remote execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-HCA-07",
+      "evidence_id": "RB-HCA-07-X34CBFD39",
+      "criticality_score_1_5": 5,
+      "validation_cost_score_1_5": 2,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit authoritative_remote execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-HCA-07",
+      "evidence_id": "RB-HCA-07-XC2DD1928",
+      "criticality_score_1_5": 5,
+      "validation_cost_score_1_5": 4,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit multi_system execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-HCA-08",
+      "evidence_id": "RB-HCA-08-XE18E0489",
+      "criticality_score_1_5": 5,
+      "validation_cost_score_1_5": 4,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit multi_system execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-HCA-08",
+      "evidence_id": "RB-HCA-08-X0066A66A",
+      "criticality_score_1_5": 5,
+      "validation_cost_score_1_5": 1,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit local_or_cached execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-HCA-08",
+      "evidence_id": "RB-HCA-08-X72C5B931",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 1,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit local_or_cached execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-HCA-09",
+      "evidence_id": "RB-HCA-09-XADFBCB90",
+      "criticality_score_1_5": 5,
+      "validation_cost_score_1_5": 1,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit local_or_cached execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-HCA-09",
+      "evidence_id": "RB-HCA-09-XCB43D249",
+      "criticality_score_1_5": 5,
+      "validation_cost_score_1_5": 3,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit bounded_two_source execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-HCA-09",
+      "evidence_id": "RB-HCA-09-X065D2AA1",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 2,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit authoritative_remote execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-HCA-10",
+      "evidence_id": "RB-HCA-10-X5E6F522E",
+      "criticality_score_1_5": 3,
+      "validation_cost_score_1_5": 4,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit multi_system execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-HCA-10",
+      "evidence_id": "RB-HCA-10-X265C5DC6",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 1,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit local_or_cached execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-HCA-10",
+      "evidence_id": "RB-HCA-10-X72C626E1",
+      "criticality_score_1_5": 5,
+      "validation_cost_score_1_5": 2,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit authoritative_remote execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-HCA-11",
+      "evidence_id": "RB-HCA-11-X7DF13296",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 3,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit bounded_two_source execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-HCA-11",
+      "evidence_id": "RB-HCA-11-XAABAACED",
+      "criticality_score_1_5": 5,
+      "validation_cost_score_1_5": 2,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit authoritative_remote execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-HCA-11",
+      "evidence_id": "RB-HCA-11-X0ADA6530",
+      "criticality_score_1_5": 3,
+      "validation_cost_score_1_5": 4,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit multi_system execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-HCA-12",
+      "evidence_id": "RB-HCA-12-X15011E3B",
+      "criticality_score_1_5": 5,
+      "validation_cost_score_1_5": 2,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit authoritative_remote execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-HCA-12",
+      "evidence_id": "RB-HCA-12-X0886DADB",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 4,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit multi_system execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-HCA-12",
+      "evidence_id": "RB-HCA-12-X0C3C4915",
+      "criticality_score_1_5": 3,
+      "validation_cost_score_1_5": 3,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit bounded_two_source execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-HCA-13",
+      "evidence_id": "RB-HCA-13-XCA16F490",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 4,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit multi_system execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-HCA-13",
+      "evidence_id": "RB-HCA-13-XD0EEDD55",
+      "criticality_score_1_5": 5,
+      "validation_cost_score_1_5": 4,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit multi_system execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-HCA-13",
+      "evidence_id": "RB-HCA-13-X23CBEFD1",
+      "criticality_score_1_5": 3,
+      "validation_cost_score_1_5": 2,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit authoritative_remote execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-HCA-14",
+      "evidence_id": "RB-HCA-14-X729B1387",
+      "criticality_score_1_5": 3,
+      "validation_cost_score_1_5": 1,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit local_or_cached execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-HCA-14",
+      "evidence_id": "RB-HCA-14-XFB9B182D",
+      "criticality_score_1_5": 5,
+      "validation_cost_score_1_5": 3,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit bounded_two_source execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-HCA-14",
+      "evidence_id": "RB-HCA-14-X9996C0B3",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 2,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit authoritative_remote execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-HCA-15",
+      "evidence_id": "RB-HCA-15-X7EC1FFA2",
+      "criticality_score_1_5": 5,
+      "validation_cost_score_1_5": 1,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit local_or_cached execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-HCA-15",
+      "evidence_id": "RB-HCA-15-X2AEB455B",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 3,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit bounded_two_source execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-HCA-15",
+      "evidence_id": "RB-HCA-15-XEA3A87A0",
+      "criticality_score_1_5": 5,
+      "validation_cost_score_1_5": 3,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit bounded_two_source execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-HCA-16",
+      "evidence_id": "RB-HCA-16-XB726C906",
+      "criticality_score_1_5": 5,
+      "validation_cost_score_1_5": 4,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit multi_system execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-HCA-16",
+      "evidence_id": "RB-HCA-16-X0C43CDDE",
+      "criticality_score_1_5": 5,
+      "validation_cost_score_1_5": 3,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit bounded_two_source execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-HCA-16",
+      "evidence_id": "RB-HCA-16-XD0914103",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 1,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit local_or_cached execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-PRI-01",
+      "evidence_id": "RB-PRI-01-X38BF1AE3",
+      "criticality_score_1_5": 3,
+      "validation_cost_score_1_5": 2,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit authoritative_remote execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-PRI-01",
+      "evidence_id": "RB-PRI-01-X1BA3E831",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 3,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit bounded_two_source execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-PRI-01",
+      "evidence_id": "RB-PRI-01-X6877FAF2",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 4,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit multi_system execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-PRI-02",
+      "evidence_id": "RB-PRI-02-X45790160",
+      "criticality_score_1_5": 3,
+      "validation_cost_score_1_5": 1,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit local_or_cached execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-PRI-02",
+      "evidence_id": "RB-PRI-02-XD5CE1857",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 1,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit local_or_cached execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-PRI-02",
+      "evidence_id": "RB-PRI-02-X0232BA32",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 1,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit local_or_cached execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-PRI-03",
+      "evidence_id": "RB-PRI-03-XD713C054",
+      "criticality_score_1_5": 3,
+      "validation_cost_score_1_5": 3,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit bounded_two_source execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-PRI-03",
+      "evidence_id": "RB-PRI-03-XF57E732C",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 3,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit bounded_two_source execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-PRI-03",
+      "evidence_id": "RB-PRI-03-XACADC360",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 3,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit bounded_two_source execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-PRI-04",
+      "evidence_id": "RB-PRI-04-XE116A109",
+      "criticality_score_1_5": 5,
+      "validation_cost_score_1_5": 2,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit authoritative_remote execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-PRI-04",
+      "evidence_id": "RB-PRI-04-XACE45FF3",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 3,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit bounded_two_source execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-PRI-04",
+      "evidence_id": "RB-PRI-04-X72757B14",
+      "criticality_score_1_5": 5,
+      "validation_cost_score_1_5": 1,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit local_or_cached execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-PRI-05",
+      "evidence_id": "RB-PRI-05-X95C2617B",
+      "criticality_score_1_5": 5,
+      "validation_cost_score_1_5": 4,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit multi_system execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-PRI-05",
+      "evidence_id": "RB-PRI-05-X95218C82",
+      "criticality_score_1_5": 5,
+      "validation_cost_score_1_5": 1,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit local_or_cached execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-PRI-05",
+      "evidence_id": "RB-PRI-05-XB44368F4",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 4,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit multi_system execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-PRI-06",
+      "evidence_id": "RB-PRI-06-X5610EC43",
+      "criticality_score_1_5": 5,
+      "validation_cost_score_1_5": 2,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit authoritative_remote execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-PRI-06",
+      "evidence_id": "RB-PRI-06-X28951C07",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 2,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit authoritative_remote execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-PRI-06",
+      "evidence_id": "RB-PRI-06-XDA6A034E",
+      "criticality_score_1_5": 5,
+      "validation_cost_score_1_5": 3,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit bounded_two_source execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-PRI-07",
+      "evidence_id": "RB-PRI-07-X37B103B3",
+      "criticality_score_1_5": 5,
+      "validation_cost_score_1_5": 2,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit authoritative_remote execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-PRI-07",
+      "evidence_id": "RB-PRI-07-XD82FDF1C",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 2,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit authoritative_remote execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-PRI-07",
+      "evidence_id": "RB-PRI-07-X5551EDD8",
+      "criticality_score_1_5": 3,
+      "validation_cost_score_1_5": 4,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit multi_system execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-PRI-08",
+      "evidence_id": "RB-PRI-08-X53FD6F42",
+      "criticality_score_1_5": 5,
+      "validation_cost_score_1_5": 4,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit multi_system execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-PRI-08",
+      "evidence_id": "RB-PRI-08-X7EFFDA68",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 3,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit bounded_two_source execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-PRI-08",
+      "evidence_id": "RB-PRI-08-X670B3C00",
+      "criticality_score_1_5": 3,
+      "validation_cost_score_1_5": 1,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit local_or_cached execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-PRI-09",
+      "evidence_id": "RB-PRI-09-X3870C230",
+      "criticality_score_1_5": 3,
+      "validation_cost_score_1_5": 4,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit multi_system execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-PRI-09",
+      "evidence_id": "RB-PRI-09-X81CC847E",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 1,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit local_or_cached execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-PRI-09",
+      "evidence_id": "RB-PRI-09-X55257420",
+      "criticality_score_1_5": 5,
+      "validation_cost_score_1_5": 3,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit bounded_two_source execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-PRI-10",
+      "evidence_id": "RB-PRI-10-X37DAFD7A",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 3,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit bounded_two_source execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-PRI-10",
+      "evidence_id": "RB-PRI-10-X973B322E",
+      "criticality_score_1_5": 3,
+      "validation_cost_score_1_5": 3,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit bounded_two_source execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-PRI-10",
+      "evidence_id": "RB-PRI-10-X63BFAECF",
+      "criticality_score_1_5": 5,
+      "validation_cost_score_1_5": 2,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit authoritative_remote execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-PRI-11",
+      "evidence_id": "RB-PRI-11-X4A84A1E7",
+      "criticality_score_1_5": 5,
+      "validation_cost_score_1_5": 4,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit multi_system execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-PRI-11",
+      "evidence_id": "RB-PRI-11-X31F0AA89",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 2,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit authoritative_remote execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-PRI-11",
+      "evidence_id": "RB-PRI-11-X19B44BBC",
+      "criticality_score_1_5": 3,
+      "validation_cost_score_1_5": 1,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit local_or_cached execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-PRI-12",
+      "evidence_id": "RB-PRI-12-XB44DEFCD",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 4,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit multi_system execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-PRI-12",
+      "evidence_id": "RB-PRI-12-X1671CBBB",
+      "criticality_score_1_5": 5,
+      "validation_cost_score_1_5": 2,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit authoritative_remote execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-PRI-12",
+      "evidence_id": "RB-PRI-12-X40BD5555",
+      "criticality_score_1_5": 3,
+      "validation_cost_score_1_5": 1,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit local_or_cached execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-PRI-13",
+      "evidence_id": "RB-PRI-13-XF17A4F39",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 2,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit authoritative_remote execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-PRI-13",
+      "evidence_id": "RB-PRI-13-XA1266C30",
+      "criticality_score_1_5": 5,
+      "validation_cost_score_1_5": 4,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit multi_system execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-PRI-13",
+      "evidence_id": "RB-PRI-13-X8A6FAB15",
+      "criticality_score_1_5": 5,
+      "validation_cost_score_1_5": 2,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit authoritative_remote execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-PRI-14",
+      "evidence_id": "RB-PRI-14-X5967E4B4",
+      "criticality_score_1_5": 5,
+      "validation_cost_score_1_5": 4,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit multi_system execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-PRI-14",
+      "evidence_id": "RB-PRI-14-X2218F93E",
+      "criticality_score_1_5": 5,
+      "validation_cost_score_1_5": 1,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit local_or_cached execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-PRI-14",
+      "evidence_id": "RB-PRI-14-XAFFFBC7D",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 3,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit bounded_two_source execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-PRI-15",
+      "evidence_id": "RB-PRI-15-X40A20D07",
+      "criticality_score_1_5": 5,
+      "validation_cost_score_1_5": 1,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit local_or_cached execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-PRI-15",
+      "evidence_id": "RB-PRI-15-X8593AE93",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 4,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit multi_system execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-PRI-15",
+      "evidence_id": "RB-PRI-15-X82478DA8",
+      "criticality_score_1_5": 5,
+      "validation_cost_score_1_5": 4,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit multi_system execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-PRI-16",
+      "evidence_id": "RB-PRI-16-XB296CA95",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 2,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit authoritative_remote execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-PRI-16",
+      "evidence_id": "RB-PRI-16-X08DD10F5",
+      "criticality_score_1_5": 5,
+      "validation_cost_score_1_5": 1,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit local_or_cached execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-PRI-16",
+      "evidence_id": "RB-PRI-16-XBA4AA86D",
+      "criticality_score_1_5": 5,
+      "validation_cost_score_1_5": 3,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit bounded_two_source execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-COM-01",
+      "evidence_id": "RB-COM-01-XE6F9842A",
+      "criticality_score_1_5": 3,
+      "validation_cost_score_1_5": 4,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit multi_system execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-COM-01",
+      "evidence_id": "RB-COM-01-X759BEDCB",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 4,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit multi_system execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-COM-01",
+      "evidence_id": "RB-COM-01-X4500CB3D",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 3,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit bounded_two_source execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-COM-02",
+      "evidence_id": "RB-COM-02-X471E4D59",
+      "criticality_score_1_5": 3,
+      "validation_cost_score_1_5": 2,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit authoritative_remote execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-COM-02",
+      "evidence_id": "RB-COM-02-X7A21EA55",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 3,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit bounded_two_source execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-COM-02",
+      "evidence_id": "RB-COM-02-X177EE340",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 1,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit local_or_cached execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-COM-03",
+      "evidence_id": "RB-COM-03-X5631155A",
+      "criticality_score_1_5": 3,
+      "validation_cost_score_1_5": 4,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit multi_system execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-COM-03",
+      "evidence_id": "RB-COM-03-X375D01B9",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 4,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit multi_system execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-COM-03",
+      "evidence_id": "RB-COM-03-X26CBBEC5",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 1,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit local_or_cached execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-COM-04",
+      "evidence_id": "RB-COM-04-X8CE9AAF3",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 2,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit authoritative_remote execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-COM-04",
+      "evidence_id": "RB-COM-04-X31AB9D30",
+      "criticality_score_1_5": 3,
+      "validation_cost_score_1_5": 2,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit authoritative_remote execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-COM-04",
+      "evidence_id": "RB-COM-04-X30F417E9",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 2,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit authoritative_remote execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-COM-05",
+      "evidence_id": "RB-COM-05-XD1CFAEC1",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 4,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit multi_system execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-COM-05",
+      "evidence_id": "RB-COM-05-XD1E7097A",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 1,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit local_or_cached execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-COM-05",
+      "evidence_id": "RB-COM-05-XAC98E0E6",
+      "criticality_score_1_5": 3,
+      "validation_cost_score_1_5": 1,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit local_or_cached execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-COM-06",
+      "evidence_id": "RB-COM-06-XA4D28CE2",
+      "criticality_score_1_5": 3,
+      "validation_cost_score_1_5": 3,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit bounded_two_source execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-COM-06",
+      "evidence_id": "RB-COM-06-X123C99D8",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 4,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit multi_system execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-COM-06",
+      "evidence_id": "RB-COM-06-X09EE922E",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 2,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit authoritative_remote execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-COM-07",
+      "evidence_id": "RB-COM-07-XB7A71675",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 2,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit authoritative_remote execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-COM-07",
+      "evidence_id": "RB-COM-07-X349DCA89",
+      "criticality_score_1_5": 3,
+      "validation_cost_score_1_5": 2,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit authoritative_remote execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-COM-07",
+      "evidence_id": "RB-COM-07-X120F2B85",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 1,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit local_or_cached execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-COM-08",
+      "evidence_id": "RB-COM-08-XA44B0E98",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 1,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit local_or_cached execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-COM-08",
+      "evidence_id": "RB-COM-08-X6BE7162A",
+      "criticality_score_1_5": 3,
+      "validation_cost_score_1_5": 4,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit multi_system execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-COM-08",
+      "evidence_id": "RB-COM-08-X03EAA6B3",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 3,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit bounded_two_source execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-COM-09",
+      "evidence_id": "RB-COM-09-X04CC75BC",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 1,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit local_or_cached execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-COM-09",
+      "evidence_id": "RB-COM-09-XB7F348BE",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 2,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit authoritative_remote execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-COM-09",
+      "evidence_id": "RB-COM-09-X160B8C80",
+      "criticality_score_1_5": 3,
+      "validation_cost_score_1_5": 1,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit local_or_cached execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-COM-10",
+      "evidence_id": "RB-COM-10-XFE6D2172",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 4,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit multi_system execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-COM-10",
+      "evidence_id": "RB-COM-10-X6109B72F",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 3,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit bounded_two_source execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-COM-10",
+      "evidence_id": "RB-COM-10-XE4662A79",
+      "criticality_score_1_5": 3,
+      "validation_cost_score_1_5": 2,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit authoritative_remote execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-COM-11",
+      "evidence_id": "RB-COM-11-X98876E72",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 2,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit authoritative_remote execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-COM-11",
+      "evidence_id": "RB-COM-11-XE67C8006",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 3,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit bounded_two_source execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-COM-11",
+      "evidence_id": "RB-COM-11-X4BB922CE",
+      "criticality_score_1_5": 3,
+      "validation_cost_score_1_5": 1,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit local_or_cached execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-COM-12",
+      "evidence_id": "RB-COM-12-X0BA83FE9",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 1,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit local_or_cached execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-COM-12",
+      "evidence_id": "RB-COM-12-XFCBC3435",
+      "criticality_score_1_5": 3,
+      "validation_cost_score_1_5": 3,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit bounded_two_source execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-COM-12",
+      "evidence_id": "RB-COM-12-X140C928D",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 3,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit bounded_two_source execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-COM-13",
+      "evidence_id": "RB-COM-13-X18E7EFED",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 4,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit multi_system execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-COM-13",
+      "evidence_id": "RB-COM-13-X72F48C0D",
+      "criticality_score_1_5": 5,
+      "validation_cost_score_1_5": 3,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit bounded_two_source execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-COM-13",
+      "evidence_id": "RB-COM-13-X8513BD07",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 1,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit local_or_cached execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-COM-14",
+      "evidence_id": "RB-COM-14-X6D639ED9",
+      "criticality_score_1_5": 5,
+      "validation_cost_score_1_5": 2,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit authoritative_remote execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-COM-14",
+      "evidence_id": "RB-COM-14-X3692073F",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 3,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit bounded_two_source execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-COM-14",
+      "evidence_id": "RB-COM-14-X5F7D165C",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 3,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit bounded_two_source execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-COM-15",
+      "evidence_id": "RB-COM-15-X95690FE7",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 4,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit multi_system execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-COM-15",
+      "evidence_id": "RB-COM-15-X14C21EA9",
+      "criticality_score_1_5": 3,
+      "validation_cost_score_1_5": 4,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit multi_system execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-COM-15",
+      "evidence_id": "RB-COM-15-XFEA4D69F",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 1,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit local_or_cached execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-COM-16",
+      "evidence_id": "RB-COM-16-X992C25DD",
+      "criticality_score_1_5": 5,
+      "validation_cost_score_1_5": 2,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit authoritative_remote execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-COM-16",
+      "evidence_id": "RB-COM-16-XE05C85F8",
+      "criticality_score_1_5": 5,
+      "validation_cost_score_1_5": 3,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit bounded_two_source execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-COM-16",
+      "evidence_id": "RB-COM-16-X6890B661",
+      "criticality_score_1_5": 5,
+      "validation_cost_score_1_5": 4,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit multi_system execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-HR-01",
+      "evidence_id": "RB-HR-01-XA034A8ED",
+      "criticality_score_1_5": 5,
+      "validation_cost_score_1_5": 1,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit local_or_cached execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-HR-01",
+      "evidence_id": "RB-HR-01-X9BA97A4E",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 4,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit multi_system execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-HR-01",
+      "evidence_id": "RB-HR-01-X4E514127",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 3,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit bounded_two_source execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-HR-02",
+      "evidence_id": "RB-HR-02-XC91E87CF",
+      "criticality_score_1_5": 5,
+      "validation_cost_score_1_5": 3,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit bounded_two_source execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-HR-02",
+      "evidence_id": "RB-HR-02-X3B299DFD",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 1,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit local_or_cached execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-HR-02",
+      "evidence_id": "RB-HR-02-X97DB913C",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 3,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit bounded_two_source execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-HR-03",
+      "evidence_id": "RB-HR-03-X11501781",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 4,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit multi_system execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-HR-03",
+      "evidence_id": "RB-HR-03-XBBF8F431",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 3,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit bounded_two_source execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-HR-03",
+      "evidence_id": "RB-HR-03-X87EE9512",
+      "criticality_score_1_5": 5,
+      "validation_cost_score_1_5": 4,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit multi_system execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-HR-04",
+      "evidence_id": "RB-HR-04-X9EB4FD4B",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 4,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit multi_system execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-HR-04",
+      "evidence_id": "RB-HR-04-X44105F4C",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 3,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit bounded_two_source execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-HR-04",
+      "evidence_id": "RB-HR-04-X967967FF",
+      "criticality_score_1_5": 3,
+      "validation_cost_score_1_5": 2,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit authoritative_remote execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-HR-05",
+      "evidence_id": "RB-HR-05-XC87B187D",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 2,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit authoritative_remote execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-HR-05",
+      "evidence_id": "RB-HR-05-X705E28A9",
+      "criticality_score_1_5": 3,
+      "validation_cost_score_1_5": 1,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit local_or_cached execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-HR-05",
+      "evidence_id": "RB-HR-05-XA2C6DC85",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 1,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit local_or_cached execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-HR-06",
+      "evidence_id": "RB-HR-06-XD0A4D08A",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 2,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit authoritative_remote execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-HR-06",
+      "evidence_id": "RB-HR-06-X4C62A8D7",
+      "criticality_score_1_5": 3,
+      "validation_cost_score_1_5": 2,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit authoritative_remote execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-HR-06",
+      "evidence_id": "RB-HR-06-XA65B2024",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 2,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit authoritative_remote execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-HR-07",
+      "evidence_id": "RB-HR-07-X685D375F",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 3,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit bounded_two_source execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-HR-07",
+      "evidence_id": "RB-HR-07-X7DA243B8",
+      "criticality_score_1_5": 3,
+      "validation_cost_score_1_5": 4,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit multi_system execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-HR-07",
+      "evidence_id": "RB-HR-07-X3521B1ED",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 2,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit authoritative_remote execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-HR-08",
+      "evidence_id": "RB-HR-08-X8CB9B160",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 4,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit multi_system execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-HR-08",
+      "evidence_id": "RB-HR-08-X9DD20C9B",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 2,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit authoritative_remote execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-HR-08",
+      "evidence_id": "RB-HR-08-XCEA7FA74",
+      "criticality_score_1_5": 3,
+      "validation_cost_score_1_5": 1,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit local_or_cached execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-HR-09",
+      "evidence_id": "RB-HR-09-X864E6186",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 4,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit multi_system execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-HR-09",
+      "evidence_id": "RB-HR-09-XDD000AED",
+      "criticality_score_1_5": 3,
+      "validation_cost_score_1_5": 3,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit bounded_two_source execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-HR-09",
+      "evidence_id": "RB-HR-09-X341DA2BF",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 2,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit authoritative_remote execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-HR-10",
+      "evidence_id": "RB-HR-10-X52E8711F",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 4,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit multi_system execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-HR-10",
+      "evidence_id": "RB-HR-10-X6A3F0D71",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 4,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit multi_system execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-HR-10",
+      "evidence_id": "RB-HR-10-XD83AE0F7",
+      "criticality_score_1_5": 5,
+      "validation_cost_score_1_5": 3,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit bounded_two_source execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-HR-11",
+      "evidence_id": "RB-HR-11-XCC80B37F",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 1,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit local_or_cached execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-HR-11",
+      "evidence_id": "RB-HR-11-XFCA9C788",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 2,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit authoritative_remote execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-HR-11",
+      "evidence_id": "RB-HR-11-X31FC8452",
+      "criticality_score_1_5": 5,
+      "validation_cost_score_1_5": 2,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit authoritative_remote execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-HR-12",
+      "evidence_id": "RB-HR-12-X01264549",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 2,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit authoritative_remote execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-HR-12",
+      "evidence_id": "RB-HR-12-X6FEB4535",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 4,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit multi_system execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-HR-12",
+      "evidence_id": "RB-HR-12-XC1B66A7E",
+      "criticality_score_1_5": 5,
+      "validation_cost_score_1_5": 1,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit local_or_cached execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-HR-13",
+      "evidence_id": "RB-HR-13-X636A8BDB",
+      "criticality_score_1_5": 5,
+      "validation_cost_score_1_5": 4,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit multi_system execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-HR-13",
+      "evidence_id": "RB-HR-13-X02D3691A",
+      "criticality_score_1_5": 5,
+      "validation_cost_score_1_5": 3,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit bounded_two_source execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-HR-13",
+      "evidence_id": "RB-HR-13-XA545E068",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 3,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit bounded_two_source execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-HR-14",
+      "evidence_id": "RB-HR-14-X70D8BBCE",
+      "criticality_score_1_5": 5,
+      "validation_cost_score_1_5": 1,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit local_or_cached execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-HR-14",
+      "evidence_id": "RB-HR-14-XAE282C10",
+      "criticality_score_1_5": 5,
+      "validation_cost_score_1_5": 1,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit local_or_cached execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-HR-14",
+      "evidence_id": "RB-HR-14-X77912C98",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 1,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit local_or_cached execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-HR-15",
+      "evidence_id": "RB-HR-15-X2C0491CE",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 1,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit local_or_cached execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-HR-15",
+      "evidence_id": "RB-HR-15-XCF02A836",
+      "criticality_score_1_5": 5,
+      "validation_cost_score_1_5": 2,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit authoritative_remote execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-HR-15",
+      "evidence_id": "RB-HR-15-X022E55C4",
+      "criticality_score_1_5": 5,
+      "validation_cost_score_1_5": 3,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit bounded_two_source execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-HR-16",
+      "evidence_id": "RB-HR-16-X0BF9CA5E",
+      "criticality_score_1_5": 4,
+      "validation_cost_score_1_5": 3,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit bounded_two_source execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-HR-16",
+      "evidence_id": "RB-HR-16-X1607D023",
+      "criticality_score_1_5": 5,
+      "validation_cost_score_1_5": 4,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit multi_system execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    },
+    {
+      "scenario_id": "RB-HR-16",
+      "evidence_id": "RB-HR-16-XB956E5A3",
+      "criticality_score_1_5": 5,
+      "validation_cost_score_1_5": 1,
+      "justification": "W follows the concrete prerequisite and stated action impact; K follows the explicit local_or_cached execution topology.",
+      "uncertainty_note": "The authority of record, check method, and topology are sufficiently specified."
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "record_id": "RAER-B96-VALIDATION-STOP-v1.0",
+  "created_at_utc": "2026-08-12T12:49:57.658287+00:00",
+  "decision": "STOP_PIVOT_BEFORE_HELD_OUT",
+  "reason": "RAER failed the prespecified safe-completion gate on validation.",
+  "validation_metrics": {
+    "best_safe_completion": 1.0,
+    "raer_safe_completion": 0.7272727272727273,
+    "raer_harmful_action_rate": 0.23076923076923078,
+    "raer_mean_validation_cost": 0.3333333333333334,
+    "dominating_comparators": []
+  },
+  "artifacts": {
+    "policy_outcomes.csv": "b0387f4c45cedc8a1c63489af2e41e36cc2346cf656a76ddd6a9855072d0e075",
+    "policy_summary.csv": "b5bfa1992d0e21343185e17c2f8a34bdc2b937f2b4943cf60d835b50fc1854ed",
+    "run_manifest.json": "f49b61543828564213b0a4ecff7136b304e41667b90e7bbe1beee45f7e0418e8",
+    "decision_gate.json": "20aec66bc4b628d3b8b6f5ea77b0ee32e2598c53f5d02aaaee8d81658b43af87"
+  },
+  "held_out_status": "SEALED_NOT_ACCESSED",
+  "permitted_next_work": [
+    "Failure analysis using development and validation artifacts only",
+    "Prospective redesign under a new version and new analysis plan",
+    "Methods or negative-results manuscript without held-out effectiveness claims"
+  ],
+  "prohibited_next_work": [
+    "Accessing held-out labels under v1.0",
+    "Retuning and presenting the same validation results as confirmatory",
+    "Claiming RAER passed the benchmark"
+  ]
+}

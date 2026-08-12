@@ -1,0 +1,39 @@
+# Operating-system and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+build/
+dist/
+*.egg-info/
+
+# Local QA and generated previews
+tmp/
+qa/
+renders/
+*.png
+*.log
+
+# Research secrets and sealed data: never commit
+**/investigator_label_vault.json
+**/held_out_test_labels*.json
+**/*Coordinator*RESTRICTED*.xlsx
+**/LABEL_ACCESS_LOG.jsonl
+studies/*/restricted/*
+!studies/*/restricted/README.md
+
+# Local submission and similarity-system exports
+similarity-reports/
+submission-portal-exports/
+

@@ -1,0 +1,678 @@
+{
+  "seed": "RAER-BENCHMARK-96-SPLIT-v1",
+  "method": "SHA-256(seed|canonical_domain|scenario_id), rank within domain",
+  "records": [
+    {
+      "scenario_id": "RB-CYB-01",
+      "domain": "cybersecurity",
+      "digest": "bb6916d51d664aad71c260348ed5011ad9b4e57e85e544821193dceff10ccbcb",
+      "rank": 11,
+      "partition": "validation"
+    },
+    {
+      "scenario_id": "RB-CYB-02",
+      "domain": "cybersecurity",
+      "digest": "e3dd8c6531ceb0a593b96fe6518cf66e475bce5c0a26a1288429ab73ec3690e0",
+      "rank": 15,
+      "partition": "held_out_test"
+    },
+    {
+      "scenario_id": "RB-CYB-03",
+      "domain": "cybersecurity",
+      "digest": "5827d2d172e005fc0c334213d2876df1d8dd33507cdec77e98850048fc13b0aa",
+      "rank": 5,
+      "partition": "development"
+    },
+    {
+      "scenario_id": "RB-CYB-04",
+      "domain": "cybersecurity",
+      "digest": "d7412e0e53e0e56a052e06498fbe64c74016c146c2332d7f03134de1b8ab49b9",
+      "rank": 13,
+      "partition": "held_out_test"
+    },
+    {
+      "scenario_id": "RB-CYB-05",
+      "domain": "cybersecurity",
+      "digest": "92123ad22480e4e1a4c650e576fdfac7e881ddedf6a2cbb75bdbc0e3b9ca67be",
+      "rank": 8,
+      "partition": "development"
+    },
+    {
+      "scenario_id": "RB-CYB-06",
+      "domain": "cybersecurity",
+      "digest": "d51b9cee9fc9fcc0d2e81dd5bebeb75819e45617048d98f026146cf346b31430",
+      "rank": 12,
+      "partition": "validation"
+    },
+    {
+      "scenario_id": "RB-CYB-07",
+      "domain": "cybersecurity",
+      "digest": "395f1c4c389c97d6a700bdf9741872dd3f7a22cecb14862fee29e3d3dd6e78a3",
+      "rank": 4,
+      "partition": "development"
+    },
+    {
+      "scenario_id": "RB-CYB-08",
+      "domain": "cybersecurity",
+      "digest": "f1af86537c5a9c3dd66a68393ad2e40f8db576df1fe6297de7abce51a7850d03",
+      "rank": 16,
+      "partition": "held_out_test"
+    },
+    {
+      "scenario_id": "RB-CYB-09",
+      "domain": "cybersecurity",
+      "digest": "71f40ab2b085be3d2f1ae954816f9f85a888ca78405cc4a18cf49cb92451fe4b",
+      "rank": 6,
+      "partition": "development"
+    },
+    {
+      "scenario_id": "RB-CYB-10",
+      "domain": "cybersecurity",
+      "digest": "35625078636f20c00446cf9d98f45a36a5e5be13dffe426cfaa986eeccecce8e",
+      "rank": 3,
+      "partition": "development"
+    },
+    {
+      "scenario_id": "RB-CYB-11",
+      "domain": "cybersecurity",
+      "digest": "debeddf7eb3dfc0f7ce615d28ac9035514bf4fd3ad73cf5cc6c0b5ebbdad9cff",
+      "rank": 14,
+      "partition": "held_out_test"
+    },
+    {
+      "scenario_id": "RB-CYB-12",
+      "domain": "cybersecurity",
+      "digest": "7e159444fa5bcfa7b0d67315c5508aa0fbe944dec2b88b2930d93bd13cb5022f",
+      "rank": 7,
+      "partition": "development"
+    },
+    {
+      "scenario_id": "RB-CYB-13",
+      "domain": "cybersecurity",
+      "digest": "b49b607fd1409b3d26f5f4309273abdd673b6f8e26dc653d0195bfc3bcd590a0",
+      "rank": 10,
+      "partition": "validation"
+    },
+    {
+      "scenario_id": "RB-CYB-14",
+      "domain": "cybersecurity",
+      "digest": "0ea2b746d8549c68e260117c5c293655d677075c74508579adf3318a83e07a9e",
+      "rank": 1,
+      "partition": "development"
+    },
+    {
+      "scenario_id": "RB-CYB-15",
+      "domain": "cybersecurity",
+      "digest": "a7f226aa0482b2a894e06760107ee9dd408383005a59525b63c6a5ab3c9a361a",
+      "rank": 9,
+      "partition": "validation"
+    },
+    {
+      "scenario_id": "RB-CYB-16",
+      "domain": "cybersecurity",
+      "digest": "29f6b107c14e76025adcb85f7ec74d4b423d32e414a402b16317d2ce4ef5fc80",
+      "rank": 2,
+      "partition": "development"
+    },
+    {
+      "scenario_id": "RB-FIN-01",
+      "domain": "finance",
+      "digest": "322d3391b859e1ebb1a59e77218bf4b4f2c8a5efd5a949a707bc0b99c71b0a76",
+      "rank": 5,
+      "partition": "development"
+    },
+    {
+      "scenario_id": "RB-FIN-02",
+      "domain": "finance",
+      "digest": "940804c8090bf60d21b48337ace69c05f435f7207721bf20afba7273bcdfc054",
+      "rank": 12,
+      "partition": "validation"
+    },
+    {
+      "scenario_id": "RB-FIN-03",
+      "domain": "finance",
+      "digest": "cea7b135745bc5288f92bff893ab48019576fc384cb3fcca94ed8de263ddd857",
+      "rank": 15,
+      "partition": "held_out_test"
+    },
+    {
+      "scenario_id": "RB-FIN-04",
+      "domain": "finance",
+      "digest": "23a0b4c3417865080af8a0b80070ee128c95853a04dde3e186d224bcf8c6abe5",
+      "rank": 3,
+      "partition": "development"
+    },
+    {
+      "scenario_id": "RB-FIN-05",
+      "domain": "finance",
+      "digest": "53c8a6d2a63b5202a448671d6a7de7f6ba2b4224d5371bdfacb0b434b6c3d626",
+      "rank": 8,
+      "partition": "development"
+    },
+    {
+      "scenario_id": "RB-FIN-06",
+      "domain": "finance",
+      "digest": "40dbaf7c0e04a0f34ed3abde2151af8c9b8351cae79a94223b1791f521608242",
+      "rank": 6,
+      "partition": "development"
+    },
+    {
+      "scenario_id": "RB-FIN-07",
+      "domain": "finance",
+      "digest": "49eae47b8d3b83927a901d25e65c1287b6c7399e250b7572c60768dbbbae8c89",
+      "rank": 7,
+      "partition": "development"
+    },
+    {
+      "scenario_id": "RB-FIN-08",
+      "domain": "finance",
+      "digest": "0543da64470a79c8d2ae552506b86a987004640701ceed4e346e26728782f497",
+      "rank": 1,
+      "partition": "development"
+    },
+    {
+      "scenario_id": "RB-FIN-09",
+      "domain": "finance",
+      "digest": "97c0ba5dd7b4c086f2761dc06ee45c2c440b77de4aa0dd3b03d8495d053337a8",
+      "rank": 13,
+      "partition": "held_out_test"
+    },
+    {
+      "scenario_id": "RB-FIN-10",
+      "domain": "finance",
+      "digest": "9272dcde588c6f61612c0ba5739fe9c2fd293d4cdaf342c15be86656471feb70",
+      "rank": 11,
+      "partition": "validation"
+    },
+    {
+      "scenario_id": "RB-FIN-11",
+      "domain": "finance",
+      "digest": "6a19d4da821f2d802d72a1f41310b3d968eef25a7842c0f2ea5c68d641307c2f",
+      "rank": 9,
+      "partition": "validation"
+    },
+    {
+      "scenario_id": "RB-FIN-12",
+      "domain": "finance",
+      "digest": "e9d65c15a09d57798faedfeacdbcd6365373d3d96394ee8329b1edcd98b5f3dd",
+      "rank": 16,
+      "partition": "held_out_test"
+    },
+    {
+      "scenario_id": "RB-FIN-13",
+      "domain": "finance",
+      "digest": "17b1e79dcc404798e6d7173ee66f966115a31107c0c77ce2a6e51a854350b9d8",
+      "rank": 2,
+      "partition": "development"
+    },
+    {
+      "scenario_id": "RB-FIN-14",
+      "domain": "finance",
+      "digest": "2cf703a1e67e1386d9694fd9a1438311044db5813464dc5ccb6d8c5204285679",
+      "rank": 4,
+      "partition": "development"
+    },
+    {
+      "scenario_id": "RB-FIN-15",
+      "domain": "finance",
+      "digest": "750d6a2990df222ab218e1a86250389e87593072b23dfb254d973b1e1ab305bf",
+      "rank": 10,
+      "partition": "validation"
+    },
+    {
+      "scenario_id": "RB-FIN-16",
+      "domain": "finance",
+      "digest": "ab1c761b83eb9e3dc9114ba7d16f478bae0765aa3d54cf8b5616339b17531aa9",
+      "rank": 14,
+      "partition": "held_out_test"
+    },
+    {
+      "scenario_id": "RB-HCA-01",
+      "domain": "healthcare_administration",
+      "digest": "91e28055ef9b8e459229103407bcbc4561923fe629ae1f67863fa8cb4312f408",
+      "rank": 10,
+      "partition": "validation"
+    },
+    {
+      "scenario_id": "RB-HCA-02",
+      "domain": "healthcare_administration",
+      "digest": "98658aece6fb2e31b8e8e3be0339b77a63d6e28c3970d869aa28a8249ded57cd",
+      "rank": 11,
+      "partition": "validation"
+    },
+    {
+      "scenario_id": "RB-HCA-03",
+      "domain": "healthcare_administration",
+      "digest": "2379d53c0d850c49aa046f3669f5c47e3cd5078ad80a0e70fba2d3dfb52d5693",
+      "rank": 3,
+      "partition": "development"
+    },
+    {
+      "scenario_id": "RB-HCA-04",
+      "domain": "healthcare_administration",
+      "digest": "a62bf366389308bf81a156d9697e4530d28596712a8dd5c3ed0143bb572ad29f",
+      "rank": 12,
+      "partition": "validation"
+    },
+    {
+      "scenario_id": "RB-HCA-05",
+      "domain": "healthcare_administration",
+      "digest": "731249b404fa67c2c4d160585a7e1e29b25a66ec6b27c09c0281780c8b2377a4",
+      "rank": 9,
+      "partition": "validation"
+    },
+    {
+      "scenario_id": "RB-HCA-06",
+      "domain": "healthcare_administration",
+      "digest": "5e53973034e2f502d01eba3b43e8537c69390424d6c6c8fa2ded7f8d2856a052",
+      "rank": 8,
+      "partition": "development"
+    },
+    {
+      "scenario_id": "RB-HCA-07",
+      "domain": "healthcare_administration",
+      "digest": "b04968c2d60da3c28042876064418aa0d006179e940776b7e72d89d2d535d992",
+      "rank": 13,
+      "partition": "held_out_test"
+    },
+    {
+      "scenario_id": "RB-HCA-08",
+      "domain": "healthcare_administration",
+      "digest": "1435bbc77af38391500b2ffaac767b1814f9fc3dc34bc3b715165872213493e9",
+      "rank": 2,
+      "partition": "development"
+    },
+    {
+      "scenario_id": "RB-HCA-09",
+      "domain": "healthcare_administration",
+      "digest": "e59c53d2fbcc12cdc7fb853d201c17f8e74c7f02aaf2474bb733b63d70dfa9c8",
+      "rank": 15,
+      "partition": "held_out_test"
+    },
+    {
+      "scenario_id": "RB-HCA-10",
+      "domain": "healthcare_administration",
+      "digest": "0f334d0fb4297df9ba10c789ec141695a60a6b476de978d3d33b8c96f797eb2c",
+      "rank": 1,
+      "partition": "development"
+    },
+    {
+      "scenario_id": "RB-HCA-11",
+      "domain": "healthcare_administration",
+      "digest": "57707e8403486fd05a41fc77ac5a9d44eb8aae2207fd9d695db51c8943de326d",
+      "rank": 7,
+      "partition": "development"
+    },
+    {
+      "scenario_id": "RB-HCA-12",
+      "domain": "healthcare_administration",
+      "digest": "33e8788e985a80bf5b988743674ddfe1fa272d23c5571f53f16748152a266506",
+      "rank": 5,
+      "partition": "development"
+    },
+    {
+      "scenario_id": "RB-HCA-13",
+      "domain": "healthcare_administration",
+      "digest": "f3ae26db73f4d1e03ca891cc0804f4fd789583d3a77bcaf91b2b270711dff24b",
+      "rank": 16,
+      "partition": "held_out_test"
+    },
+    {
+      "scenario_id": "RB-HCA-14",
+      "domain": "healthcare_administration",
+      "digest": "35be41a168c8b61ab32efacfa8f0a4217565b5ee56749a3090a979ef3758ec0b",
+      "rank": 6,
+      "partition": "development"
+    },
+    {
+      "scenario_id": "RB-HCA-15",
+      "domain": "healthcare_administration",
+      "digest": "253e26a102fda43ef8e36d50b2bddc71f433e330d924694e8aef556745d69119",
+      "rank": 4,
+      "partition": "development"
+    },
+    {
+      "scenario_id": "RB-HCA-16",
+      "domain": "healthcare_administration",
+      "digest": "d2bc38fd8df63a291530b09020b6c19049b3fe38380c5f4ac5313b6cd5ffa0ab",
+      "rank": 14,
+      "partition": "held_out_test"
+    },
+    {
+      "scenario_id": "RB-PRI-01",
+      "domain": "privacy",
+      "digest": "e977abff0f3c1ea9d3cdadaa1158ef374f702ec198c86d6e69dc9c62843bfee7",
+      "rank": 16,
+      "partition": "held_out_test"
+    },
+    {
+      "scenario_id": "RB-PRI-02",
+      "domain": "privacy",
+      "digest": "b92bcaaf382062f199985bbb3b241fe9fa02e26f856d2b2794cc042894747ccd",
+      "rank": 13,
+      "partition": "held_out_test"
+    },
+    {
+      "scenario_id": "RB-PRI-03",
+      "domain": "privacy",
+      "digest": "c4c1d12d9788dcf757366838b1efe693f9e82ccd3fe8d6fbc99a51f589468414",
+      "rank": 14,
+      "partition": "held_out_test"
+    },
+    {
+      "scenario_id": "RB-PRI-04",
+      "domain": "privacy",
+      "digest": "26e65e6324c7e4a1497030dde5b21a235e4b97dad60f801ed17221112b5bfb05",
+      "rank": 2,
+      "partition": "development"
+    },
+    {
+      "scenario_id": "RB-PRI-05",
+      "domain": "privacy",
+      "digest": "7836198a3d4f14576f7d81fbcdca9dab73e53337f6720387fcabe661e675a530",
+      "rank": 6,
+      "partition": "development"
+    },
+    {
+      "scenario_id": "RB-PRI-06",
+      "domain": "privacy",
+      "digest": "ac030ac815abf2dab16fa945320fd20c708105f9099eea1f207628051a2119dd",
+      "rank": 10,
+      "partition": "validation"
+    },
+    {
+      "scenario_id": "RB-PRI-07",
+      "domain": "privacy",
+      "digest": "b093bb9780255da9f63c3183bbdcdf96604ceaf50f55c6a0d7d3be30a6b2eeac",
+      "rank": 11,
+      "partition": "validation"
+    },
+    {
+      "scenario_id": "RB-PRI-08",
+      "domain": "privacy",
+      "digest": "6d7b3426525100a9a61ada29d43c68827d492d44da91ce2937e1c3582284240d",
+      "rank": 5,
+      "partition": "development"
+    },
+    {
+      "scenario_id": "RB-PRI-09",
+      "domain": "privacy",
+      "digest": "e3f5a6c3c0fc158b2ba431b0f50288572611a4f28cbd5641c165135d3269959f",
+      "rank": 15,
+      "partition": "held_out_test"
+    },
+    {
+      "scenario_id": "RB-PRI-10",
+      "domain": "privacy",
+      "digest": "670de1401cb355f7328be6aa90d40950e5207a9d64e570c46b1e8df26e110e64",
+      "rank": 4,
+      "partition": "development"
+    },
+    {
+      "scenario_id": "RB-PRI-11",
+      "domain": "privacy",
+      "digest": "89190614613ccbe93fc21cfaa84029572b32f5d9182c034cce213d6bf2a5383e",
+      "rank": 7,
+      "partition": "development"
+    },
+    {
+      "scenario_id": "RB-PRI-12",
+      "domain": "privacy",
+      "digest": "628e0d8a4db140b7a35315bfb3a949d1caedd49321f2a7c13fb9de5b6e3df15a",
+      "rank": 3,
+      "partition": "development"
+    },
+    {
+      "scenario_id": "RB-PRI-13",
+      "domain": "privacy",
+      "digest": "011335b5973248821d2f1594716ff37b959b7dd1e809d1308190d77385a499e7",
+      "rank": 1,
+      "partition": "development"
+    },
+    {
+      "scenario_id": "RB-PRI-14",
+      "domain": "privacy",
+      "digest": "b4107ee1a6ea9b5bdb9646bc20a513ca0cdac5c02452030538fd4e42eec581d2",
+      "rank": 12,
+      "partition": "validation"
+    },
+    {
+      "scenario_id": "RB-PRI-15",
+      "domain": "privacy",
+      "digest": "a249b217e93a2c8de4b94f0956374f540a765eb02188edffe23d9a27bb2b2807",
+      "rank": 9,
+      "partition": "validation"
+    },
+    {
+      "scenario_id": "RB-PRI-16",
+      "domain": "privacy",
+      "digest": "98fe1e81626b5afc8d348dbe312b80270209530c1dec6e83cda9e30fcb00b5e0",
+      "rank": 8,
+      "partition": "development"
+    },
+    {
+      "scenario_id": "RB-COM-01",
+      "domain": "commerce",
+      "digest": "cabea379efc1f60a5c7f20dba50fe1c3f007a7f922dfa27592826763e5441c24",
+      "rank": 14,
+      "partition": "held_out_test"
+    },
+    {
+      "scenario_id": "RB-COM-02",
+      "domain": "commerce",
+      "digest": "83dbbf15ea9914b9322e640af67b53facf0bb052c6ffb97c8c3e103ae02ac4c9",
+      "rank": 9,
+      "partition": "validation"
+    },
+    {
+      "scenario_id": "RB-COM-03",
+      "domain": "commerce",
+      "digest": "69c6b31c2e42d6d9fcd542fa8650edc123268b4e16724605517cec31c7431694",
+      "rank": 6,
+      "partition": "development"
+    },
+    {
+      "scenario_id": "RB-COM-04",
+      "domain": "commerce",
+      "digest": "c7ef8af0995a75a76176e6a8b373c893c7143eb223849c749a4c9830f9211ea5",
+      "rank": 13,
+      "partition": "held_out_test"
+    },
+    {
+      "scenario_id": "RB-COM-05",
+      "domain": "commerce",
+      "digest": "3fde087094675db331a679195ee3fd4863e816e9b5b5510bcb9898537539132d",
+      "rank": 3,
+      "partition": "development"
+    },
+    {
+      "scenario_id": "RB-COM-06",
+      "domain": "commerce",
+      "digest": "c093995f0652cc2be975b021f3a7fb5e8686d14a8d11d8fba08d20a1bcfe2205",
+      "rank": 11,
+      "partition": "validation"
+    },
+    {
+      "scenario_id": "RB-COM-07",
+      "domain": "commerce",
+      "digest": "6e9f3260e7736397384235e99743ee2594a34ec63bd5ff0ce5f1cac9856ae5f7",
+      "rank": 8,
+      "partition": "development"
+    },
+    {
+      "scenario_id": "RB-COM-08",
+      "domain": "commerce",
+      "digest": "a33bac26d70cb61c994576160e9ca6cbb9cfd7fe97e0785075a1e4908a582f2e",
+      "rank": 10,
+      "partition": "validation"
+    },
+    {
+      "scenario_id": "RB-COM-09",
+      "domain": "commerce",
+      "digest": "5221635da76b86fc6c67c302bdcd2f400775edd462203a2135e2b2fb1b5d3658",
+      "rank": 4,
+      "partition": "development"
+    },
+    {
+      "scenario_id": "RB-COM-10",
+      "domain": "commerce",
+      "digest": "1b93252c1c047774ff9723d609e83ec2d280d307daa6b12308b787589e9be6b3",
+      "rank": 1,
+      "partition": "development"
+    },
+    {
+      "scenario_id": "RB-COM-11",
+      "domain": "commerce",
+      "digest": "5bc738a9e1b3436fd8f244de469cf89af469edafc73f105f5355e41829177aac",
+      "rank": 5,
+      "partition": "development"
+    },
+    {
+      "scenario_id": "RB-COM-12",
+      "domain": "commerce",
+      "digest": "2c71ec03d8a7c86f5017f64f909ade95e1cb19fddfa27ea2bd8b06d742c75204",
+      "rank": 2,
+      "partition": "development"
+    },
+    {
+      "scenario_id": "RB-COM-13",
+      "domain": "commerce",
+      "digest": "e8bd362aaf9f51c5b03d27056c38f7a82a88dfcd01f2b26efb2f25cd0a36871f",
+      "rank": 16,
+      "partition": "held_out_test"
+    },
+    {
+      "scenario_id": "RB-COM-14",
+      "domain": "commerce",
+      "digest": "c76f4a45c7a9fdd8f7de1693e36d8dc67a18c4418c595266144b20f6eb07d5ea",
+      "rank": 12,
+      "partition": "validation"
+    },
+    {
+      "scenario_id": "RB-COM-15",
+      "domain": "commerce",
+      "digest": "e0ce25c746a556fe5ad0b2c40f7770e03500e7a57b36f5a1ff1662e88a5b4deb",
+      "rank": 15,
+      "partition": "held_out_test"
+    },
+    {
+      "scenario_id": "RB-COM-16",
+      "domain": "commerce",
+      "digest": "6b1f6b54590a48aa2598e8bb5955bce47b0fead6f2d61b4cef5f59741cdc81c0",
+      "rank": 7,
+      "partition": "development"
+    },
+    {
+      "scenario_id": "RB-HR-01",
+      "domain": "human_resources",
+      "digest": "4d71297060d3208531dfcbae7c6d0454d4518ec98972eee1e2dca3339b618112",
+      "rank": 6,
+      "partition": "development"
+    },
+    {
+      "scenario_id": "RB-HR-02",
+      "domain": "human_resources",
+      "digest": "59de21341a639336b9f67bbbcb77a2818ede43750799bfd81bb95eba3673a68b",
+      "rank": 7,
+      "partition": "development"
+    },
+    {
+      "scenario_id": "RB-HR-03",
+      "domain": "human_resources",
+      "digest": "3881e0f74ecaf54bf31cb25803d507871b3444524469c642a1f626892e5224ef",
+      "rank": 3,
+      "partition": "development"
+    },
+    {
+      "scenario_id": "RB-HR-04",
+      "domain": "human_resources",
+      "digest": "c43f2587dbedebb2a88f6071fab359aafcb8366e6bef5216bbc62ca8144ec6e5",
+      "rank": 13,
+      "partition": "held_out_test"
+    },
+    {
+      "scenario_id": "RB-HR-05",
+      "domain": "human_resources",
+      "digest": "bece319c6923b6d5fd728f398a649235c43f1e4c1e874183cb8a74d0e2e48435",
+      "rank": 12,
+      "partition": "validation"
+    },
+    {
+      "scenario_id": "RB-HR-06",
+      "domain": "human_resources",
+      "digest": "2c05bb35caf0ba6c7fab46a0baa5d90505581355be13c6e8e3410efd421c98a5",
+      "rank": 2,
+      "partition": "development"
+    },
+    {
+      "scenario_id": "RB-HR-07",
+      "domain": "human_resources",
+      "digest": "e5b47af60aba9464437fae482c08509d7fef75da46d39ef03d4e7d46c55fc110",
+      "rank": 14,
+      "partition": "held_out_test"
+    },
+    {
+      "scenario_id": "RB-HR-08",
+      "domain": "human_resources",
+      "digest": "a7e9e81bfc850314663f25489fb80b24c6e292bb6ce110bae37fef0c63945919",
+      "rank": 9,
+      "partition": "validation"
+    },
+    {
+      "scenario_id": "RB-HR-09",
+      "domain": "human_resources",
+      "digest": "90dc9b3572aaf5bbe144de50932e0a30c80c68d0fb8b7d83d366e26f7e659870",
+      "rank": 8,
+      "partition": "development"
+    },
+    {
+      "scenario_id": "RB-HR-10",
+      "domain": "human_resources",
+      "digest": "43c6f19c42c5cbea0e2beeab953b1b823ef326b052f45e1a9e8d0755adbc8651",
+      "rank": 5,
+      "partition": "development"
+    },
+    {
+      "scenario_id": "RB-HR-11",
+      "domain": "human_resources",
+      "digest": "41b79b79193008b5b9ea852f634a2a3eef8c8590fa87ec9d7b89225a468d7407",
+      "rank": 4,
+      "partition": "development"
+    },
+    {
+      "scenario_id": "RB-HR-12",
+      "domain": "human_resources",
+      "digest": "f9bb10eb391b4cdc6defeb5ed12e0e41a1a5f4f2b46b2d4e8e5b614dedb9857a",
+      "rank": 16,
+      "partition": "held_out_test"
+    },
+    {
+      "scenario_id": "RB-HR-13",
+      "domain": "human_resources",
+      "digest": "1595d94bda7c0c74c1f911de6680912bf135ef504d9138806ba76decb14c6279",
+      "rank": 1,
+      "partition": "development"
+    },
+    {
+      "scenario_id": "RB-HR-14",
+      "domain": "human_resources",
+      "digest": "b4ae32a89c89102d86b20e85ab2438c8d84ba104c03db35bc9d06336ec01c673",
+      "rank": 10,
+      "partition": "validation"
+    },
+    {
+      "scenario_id": "RB-HR-15",
+      "domain": "human_resources",
+      "digest": "f534ba2a80edfc6c70c261110133cb35959519df0cba04afcf524c1aec076f38",
+      "rank": 15,
+      "partition": "held_out_test"
+    },
+    {
+      "scenario_id": "RB-HR-16",
+      "domain": "human_resources",
+      "digest": "bcc46fde44587d03075cf08b0681aba70cafbf08a2cf50c9197338dd65a58dd2",
+      "rank": 11,
+      "partition": "validation"
+    }
+  ]
+}

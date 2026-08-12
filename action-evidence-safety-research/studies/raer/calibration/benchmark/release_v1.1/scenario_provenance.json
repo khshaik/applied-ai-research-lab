@@ -1,0 +1,2884 @@
+{
+  "records": [
+    {
+      "scenario_id": "RB-CYB-01",
+      "author_or_generator_id": "RAER-benchmark-construction-team",
+      "creation_date": "2026-08-12",
+      "domain_rationale": "Tests evidence revalidation for grant or elevate access in cybersecurity.",
+      "source_type": "independently_authored_synthetic_scenario",
+      "source_reference_or_synthetic_recipe": "RAER-B96-v0.1 domain-archetype matrix; no operational record or published scenario copied",
+      "license_or_permission_status": "original_project_material",
+      "revision_history": [
+        {
+          "version": "0.1",
+          "change": "initial construction"
+        },
+        {
+          "version": "0.2",
+          "change": "blinded prose remediation; immutable design fields preserved"
+        },
+        {
+          "version": "0.3",
+          "change": "case-level blinded prose rewrite; immutable design preserved"
+        },
+        {
+          "version": "0.4",
+          "date": "2026-08-12",
+          "author_or_generator_id": "RAER-benchmark-construction-team",
+          "parent_revision_chain_sha256": "161989b549d429077bba1cea024cf3fda1a8976584d019e878ccefafaa85ec65",
+          "change": "label-blind topology permutation, opaque evidence IDs, and evidence display-order permutation"
+        }
+      ],
+      "independent_review_status": "completed_two_synthetic_blinded_reviews_and_blinded_adjudication_v0.4",
+      "canonical_case_sha256": "ac117d224190e86b3e4d78273073f7074a08a02546c6a41648c0672835cb23be"
+    },
+    {
+      "scenario_id": "RB-CYB-02",
+      "author_or_generator_id": "RAER-benchmark-construction-team",
+      "creation_date": "2026-08-12",
+      "domain_rationale": "Tests evidence revalidation for grant or elevate access in cybersecurity.",
+      "source_type": "independently_authored_synthetic_scenario",
+      "source_reference_or_synthetic_recipe": "RAER-B96-v0.1 domain-archetype matrix; no operational record or published scenario copied",
+      "license_or_permission_status": "original_project_material",
+      "revision_history": [
+        {
+          "version": "0.1",
+          "change": "initial construction"
+        },
+        {
+          "version": "0.2",
+          "change": "blinded prose remediation; immutable design fields preserved"
+        },
+        {
+          "version": "0.3",
+          "change": "case-level blinded prose rewrite; immutable design preserved"
+        },
+        {
+          "version": "0.4",
+          "date": "2026-08-12",
+          "author_or_generator_id": "RAER-benchmark-construction-team",
+          "parent_revision_chain_sha256": "161989b549d429077bba1cea024cf3fda1a8976584d019e878ccefafaa85ec65",
+          "change": "label-blind topology permutation, opaque evidence IDs, and evidence display-order permutation"
+        }
+      ],
+      "independent_review_status": "completed_two_synthetic_blinded_reviews_and_blinded_adjudication_v0.4",
+      "canonical_case_sha256": "b51f02118b66c143acf1a34cb45790c985ac5d1b414dc2224678b927e7f61311"
+    },
+    {
+      "scenario_id": "RB-CYB-03",
+      "author_or_generator_id": "RAER-benchmark-construction-team",
+      "creation_date": "2026-08-12",
+      "domain_rationale": "Tests evidence revalidation for grant or elevate access in cybersecurity.",
+      "source_type": "independently_authored_synthetic_scenario",
+      "source_reference_or_synthetic_recipe": "RAER-B96-v0.1 domain-archetype matrix; no operational record or published scenario copied",
+      "license_or_permission_status": "original_project_material",
+      "revision_history": [
+        {
+          "version": "0.1",
+          "change": "initial construction"
+        },
+        {
+          "version": "0.2",
+          "change": "blinded prose remediation; immutable design fields preserved"
+        },
+        {
+          "version": "0.3",
+          "change": "case-level blinded prose rewrite; immutable design preserved"
+        },
+        {
+          "version": "0.4",
+          "date": "2026-08-12",
+          "author_or_generator_id": "RAER-benchmark-construction-team",
+          "parent_revision_chain_sha256": "161989b549d429077bba1cea024cf3fda1a8976584d019e878ccefafaa85ec65",
+          "change": "label-blind topology permutation, opaque evidence IDs, and evidence display-order permutation"
+        }
+      ],
+      "independent_review_status": "completed_two_synthetic_blinded_reviews_and_blinded_adjudication_v0.4",
+      "canonical_case_sha256": "c8bed4ddc34d2001ae970619793e49aac9da4fed04717e66ab0f9ea2c404b9b9"
+    },
+    {
+      "scenario_id": "RB-CYB-04",
+      "author_or_generator_id": "RAER-benchmark-construction-team",
+      "creation_date": "2026-08-12",
+      "domain_rationale": "Tests evidence revalidation for disable identity or session in cybersecurity.",
+      "source_type": "independently_authored_synthetic_scenario",
+      "source_reference_or_synthetic_recipe": "RAER-B96-v0.1 domain-archetype matrix; no operational record or published scenario copied",
+      "license_or_permission_status": "original_project_material",
+      "revision_history": [
+        {
+          "version": "0.1",
+          "change": "initial construction"
+        },
+        {
+          "version": "0.2",
+          "change": "blinded prose remediation; immutable design fields preserved"
+        },
+        {
+          "version": "0.3",
+          "change": "case-level blinded prose rewrite; immutable design preserved"
+        },
+        {
+          "version": "0.4",
+          "date": "2026-08-12",
+          "author_or_generator_id": "RAER-benchmark-construction-team",
+          "parent_revision_chain_sha256": "161989b549d429077bba1cea024cf3fda1a8976584d019e878ccefafaa85ec65",
+          "change": "label-blind topology permutation, opaque evidence IDs, and evidence display-order permutation"
+        }
+      ],
+      "independent_review_status": "completed_two_synthetic_blinded_reviews_and_blinded_adjudication_v0.4",
+      "canonical_case_sha256": "195eb0df7b36fd71582922537be4ce7bc03cee9deebb3ecb7aaf3b64556b97e1"
+    },
+    {
+      "scenario_id": "RB-CYB-05",
+      "author_or_generator_id": "RAER-benchmark-construction-team",
+      "creation_date": "2026-08-12",
+      "domain_rationale": "Tests evidence revalidation for disable identity or session in cybersecurity.",
+      "source_type": "independently_authored_synthetic_scenario",
+      "source_reference_or_synthetic_recipe": "RAER-B96-v0.1 domain-archetype matrix; no operational record or published scenario copied",
+      "license_or_permission_status": "original_project_material",
+      "revision_history": [
+        {
+          "version": "0.1",
+          "change": "initial construction"
+        },
+        {
+          "version": "0.2",
+          "change": "blinded prose remediation; immutable design fields preserved"
+        },
+        {
+          "version": "0.3",
+          "change": "case-level blinded prose rewrite; immutable design preserved"
+        },
+        {
+          "version": "0.4",
+          "date": "2026-08-12",
+          "author_or_generator_id": "RAER-benchmark-construction-team",
+          "parent_revision_chain_sha256": "161989b549d429077bba1cea024cf3fda1a8976584d019e878ccefafaa85ec65",
+          "change": "label-blind topology permutation, opaque evidence IDs, and evidence display-order permutation"
+        }
+      ],
+      "independent_review_status": "completed_two_synthetic_blinded_reviews_and_blinded_adjudication_v0.4",
+      "canonical_case_sha256": "80736a85da619d23756b68f43527b2508b87ab8e1227aade5b53046364697688"
+    },
+    {
+      "scenario_id": "RB-CYB-06",
+      "author_or_generator_id": "RAER-benchmark-construction-team",
+      "creation_date": "2026-08-12",
+      "domain_rationale": "Tests evidence revalidation for disable identity or session in cybersecurity.",
+      "source_type": "independently_authored_synthetic_scenario",
+      "source_reference_or_synthetic_recipe": "RAER-B96-v0.1 domain-archetype matrix; no operational record or published scenario copied",
+      "license_or_permission_status": "original_project_material",
+      "revision_history": [
+        {
+          "version": "0.1",
+          "change": "initial construction"
+        },
+        {
+          "version": "0.2",
+          "change": "blinded prose remediation; immutable design fields preserved"
+        },
+        {
+          "version": "0.3",
+          "change": "case-level blinded prose rewrite; immutable design preserved"
+        },
+        {
+          "version": "0.4",
+          "date": "2026-08-12",
+          "author_or_generator_id": "RAER-benchmark-construction-team",
+          "parent_revision_chain_sha256": "161989b549d429077bba1cea024cf3fda1a8976584d019e878ccefafaa85ec65",
+          "change": "label-blind topology permutation, opaque evidence IDs, and evidence display-order permutation"
+        }
+      ],
+      "independent_review_status": "completed_two_synthetic_blinded_reviews_and_blinded_adjudication_v0.4",
+      "canonical_case_sha256": "3bbda8a29b9310657314a66dbd9653de54251d302e73294c38bbd51fc7c985d7"
+    },
+    {
+      "scenario_id": "RB-CYB-07",
+      "author_or_generator_id": "RAER-benchmark-construction-team",
+      "creation_date": "2026-08-12",
+      "domain_rationale": "Tests evidence revalidation for rotate or revoke credentials in cybersecurity.",
+      "source_type": "independently_authored_synthetic_scenario",
+      "source_reference_or_synthetic_recipe": "RAER-B96-v0.1 domain-archetype matrix; no operational record or published scenario copied",
+      "license_or_permission_status": "original_project_material",
+      "revision_history": [
+        {
+          "version": "0.1",
+          "change": "initial construction"
+        },
+        {
+          "version": "0.2",
+          "change": "blinded prose remediation; immutable design fields preserved"
+        },
+        {
+          "version": "0.3",
+          "change": "case-level blinded prose rewrite; immutable design preserved"
+        },
+        {
+          "version": "0.4",
+          "date": "2026-08-12",
+          "author_or_generator_id": "RAER-benchmark-construction-team",
+          "parent_revision_chain_sha256": "161989b549d429077bba1cea024cf3fda1a8976584d019e878ccefafaa85ec65",
+          "change": "label-blind topology permutation, opaque evidence IDs, and evidence display-order permutation"
+        }
+      ],
+      "independent_review_status": "completed_two_synthetic_blinded_reviews_and_blinded_adjudication_v0.4",
+      "canonical_case_sha256": "6ed6025a6513c12b94169f2a4a6315ba1a1ede5db3996afa2397da3d4792e493"
+    },
+    {
+      "scenario_id": "RB-CYB-08",
+      "author_or_generator_id": "RAER-benchmark-construction-team",
+      "creation_date": "2026-08-12",
+      "domain_rationale": "Tests evidence revalidation for rotate or revoke credentials in cybersecurity.",
+      "source_type": "independently_authored_synthetic_scenario",
+      "source_reference_or_synthetic_recipe": "RAER-B96-v0.1 domain-archetype matrix; no operational record or published scenario copied",
+      "license_or_permission_status": "original_project_material",
+      "revision_history": [
+        {
+          "version": "0.1",
+          "change": "initial construction"
+        },
+        {
+          "version": "0.2",
+          "change": "blinded prose remediation; immutable design fields preserved"
+        },
+        {
+          "version": "0.3",
+          "change": "case-level blinded prose rewrite; immutable design preserved"
+        },
+        {
+          "version": "0.4",
+          "date": "2026-08-12",
+          "author_or_generator_id": "RAER-benchmark-construction-team",
+          "parent_revision_chain_sha256": "161989b549d429077bba1cea024cf3fda1a8976584d019e878ccefafaa85ec65",
+          "change": "label-blind topology permutation, opaque evidence IDs, and evidence display-order permutation"
+        }
+      ],
+      "independent_review_status": "completed_two_synthetic_blinded_reviews_and_blinded_adjudication_v0.4",
+      "canonical_case_sha256": "502f32fa1e064cdc8328d34362e0880944f619ce79b16f4c6d0c50ef55b2e3d8"
+    },
+    {
+      "scenario_id": "RB-CYB-09",
+      "author_or_generator_id": "RAER-benchmark-construction-team",
+      "creation_date": "2026-08-12",
+      "domain_rationale": "Tests evidence revalidation for rotate or revoke credentials in cybersecurity.",
+      "source_type": "independently_authored_synthetic_scenario",
+      "source_reference_or_synthetic_recipe": "RAER-B96-v0.1 domain-archetype matrix; no operational record or published scenario copied",
+      "license_or_permission_status": "original_project_material",
+      "revision_history": [
+        {
+          "version": "0.1",
+          "change": "initial construction"
+        },
+        {
+          "version": "0.2",
+          "change": "blinded prose remediation; immutable design fields preserved"
+        },
+        {
+          "version": "0.3",
+          "change": "case-level blinded prose rewrite; immutable design preserved"
+        },
+        {
+          "version": "0.4",
+          "date": "2026-08-12",
+          "author_or_generator_id": "RAER-benchmark-construction-team",
+          "parent_revision_chain_sha256": "161989b549d429077bba1cea024cf3fda1a8976584d019e878ccefafaa85ec65",
+          "change": "label-blind topology permutation, opaque evidence IDs, and evidence display-order permutation"
+        }
+      ],
+      "independent_review_status": "completed_two_synthetic_blinded_reviews_and_blinded_adjudication_v0.4",
+      "canonical_case_sha256": "0ed7860eb440aa03f53e5e6c93ae2508b387a88ea85b6e4abc8ef3c530d5d3b6"
+    },
+    {
+      "scenario_id": "RB-CYB-10",
+      "author_or_generator_id": "RAER-benchmark-construction-team",
+      "creation_date": "2026-08-12",
+      "domain_rationale": "Tests evidence revalidation for isolate endpoint or network segment in cybersecurity.",
+      "source_type": "independently_authored_synthetic_scenario",
+      "source_reference_or_synthetic_recipe": "RAER-B96-v0.1 domain-archetype matrix; no operational record or published scenario copied",
+      "license_or_permission_status": "original_project_material",
+      "revision_history": [
+        {
+          "version": "0.1",
+          "change": "initial construction"
+        },
+        {
+          "version": "0.2",
+          "change": "blinded prose remediation; immutable design fields preserved"
+        },
+        {
+          "version": "0.3",
+          "change": "case-level blinded prose rewrite; immutable design preserved"
+        },
+        {
+          "version": "0.4",
+          "date": "2026-08-12",
+          "author_or_generator_id": "RAER-benchmark-construction-team",
+          "parent_revision_chain_sha256": "161989b549d429077bba1cea024cf3fda1a8976584d019e878ccefafaa85ec65",
+          "change": "label-blind topology permutation, opaque evidence IDs, and evidence display-order permutation"
+        }
+      ],
+      "independent_review_status": "completed_two_synthetic_blinded_reviews_and_blinded_adjudication_v0.4",
+      "canonical_case_sha256": "2eaaff65204032e366a87d5a1e34f57b33f1558a2587ce39ba62a41c35047538"
+    },
+    {
+      "scenario_id": "RB-CYB-11",
+      "author_or_generator_id": "RAER-benchmark-construction-team",
+      "creation_date": "2026-08-12",
+      "domain_rationale": "Tests evidence revalidation for isolate endpoint or network segment in cybersecurity.",
+      "source_type": "independently_authored_synthetic_scenario",
+      "source_reference_or_synthetic_recipe": "RAER-B96-v0.1 domain-archetype matrix; no operational record or published scenario copied",
+      "license_or_permission_status": "original_project_material",
+      "revision_history": [
+        {
+          "version": "0.1",
+          "change": "initial construction"
+        },
+        {
+          "version": "0.2",
+          "change": "blinded prose remediation; immutable design fields preserved"
+        },
+        {
+          "version": "0.3",
+          "change": "case-level blinded prose rewrite; immutable design preserved"
+        },
+        {
+          "version": "0.4",
+          "date": "2026-08-12",
+          "author_or_generator_id": "RAER-benchmark-construction-team",
+          "parent_revision_chain_sha256": "161989b549d429077bba1cea024cf3fda1a8976584d019e878ccefafaa85ec65",
+          "change": "label-blind topology permutation, opaque evidence IDs, and evidence display-order permutation"
+        }
+      ],
+      "independent_review_status": "completed_two_synthetic_blinded_reviews_and_blinded_adjudication_v0.4",
+      "canonical_case_sha256": "0c3992bd66b4c9ce743300ecb9c6ec7a5ce0450e78a08638c1bcb94f1fd25dfa"
+    },
+    {
+      "scenario_id": "RB-CYB-12",
+      "author_or_generator_id": "RAER-benchmark-construction-team",
+      "creation_date": "2026-08-12",
+      "domain_rationale": "Tests evidence revalidation for isolate endpoint or network segment in cybersecurity.",
+      "source_type": "independently_authored_synthetic_scenario",
+      "source_reference_or_synthetic_recipe": "RAER-B96-v0.1 domain-archetype matrix; no operational record or published scenario copied",
+      "license_or_permission_status": "original_project_material",
+      "revision_history": [
+        {
+          "version": "0.1",
+          "change": "initial construction"
+        },
+        {
+          "version": "0.2",
+          "change": "blinded prose remediation; immutable design fields preserved"
+        },
+        {
+          "version": "0.3",
+          "change": "case-level blinded prose rewrite; immutable design preserved"
+        },
+        {
+          "version": "0.4",
+          "date": "2026-08-12",
+          "author_or_generator_id": "RAER-benchmark-construction-team",
+          "parent_revision_chain_sha256": "161989b549d429077bba1cea024cf3fda1a8976584d019e878ccefafaa85ec65",
+          "change": "label-blind topology permutation, opaque evidence IDs, and evidence display-order permutation"
+        }
+      ],
+      "independent_review_status": "completed_two_synthetic_blinded_reviews_and_blinded_adjudication_v0.4",
+      "canonical_case_sha256": "e0ddb0c9e0d3e2241e5302136b464bcb4269423576cb9a2cf2a7c29f4861db35"
+    },
+    {
+      "scenario_id": "RB-CYB-13",
+      "author_or_generator_id": "RAER-benchmark-construction-team",
+      "creation_date": "2026-08-12",
+      "domain_rationale": "Tests evidence revalidation for deploy emergency security change in cybersecurity.",
+      "source_type": "independently_authored_synthetic_scenario",
+      "source_reference_or_synthetic_recipe": "RAER-B96-v0.1 domain-archetype matrix; no operational record or published scenario copied",
+      "license_or_permission_status": "original_project_material",
+      "revision_history": [
+        {
+          "version": "0.1",
+          "change": "initial construction"
+        },
+        {
+          "version": "0.2",
+          "change": "blinded prose remediation; immutable design fields preserved"
+        },
+        {
+          "version": "0.3",
+          "change": "case-level blinded prose rewrite; immutable design preserved"
+        },
+        {
+          "version": "0.4",
+          "date": "2026-08-12",
+          "author_or_generator_id": "RAER-benchmark-construction-team",
+          "parent_revision_chain_sha256": "161989b549d429077bba1cea024cf3fda1a8976584d019e878ccefafaa85ec65",
+          "change": "label-blind topology permutation, opaque evidence IDs, and evidence display-order permutation"
+        }
+      ],
+      "independent_review_status": "completed_two_synthetic_blinded_reviews_and_blinded_adjudication_v0.4",
+      "canonical_case_sha256": "c6f103e782d9b65fa71803886ea17b25a679679c4b960cbabb84e589579acb61"
+    },
+    {
+      "scenario_id": "RB-CYB-14",
+      "author_or_generator_id": "RAER-benchmark-construction-team",
+      "creation_date": "2026-08-12",
+      "domain_rationale": "Tests evidence revalidation for deploy emergency security change in cybersecurity.",
+      "source_type": "independently_authored_synthetic_scenario",
+      "source_reference_or_synthetic_recipe": "RAER-B96-v0.1 domain-archetype matrix; no operational record or published scenario copied",
+      "license_or_permission_status": "original_project_material",
+      "revision_history": [
+        {
+          "version": "0.1",
+          "change": "initial construction"
+        },
+        {
+          "version": "0.2",
+          "change": "blinded prose remediation; immutable design fields preserved"
+        },
+        {
+          "version": "0.3",
+          "change": "case-level blinded prose rewrite; immutable design preserved"
+        },
+        {
+          "version": "0.4",
+          "date": "2026-08-12",
+          "author_or_generator_id": "RAER-benchmark-construction-team",
+          "parent_revision_chain_sha256": "161989b549d429077bba1cea024cf3fda1a8976584d019e878ccefafaa85ec65",
+          "change": "label-blind topology permutation, opaque evidence IDs, and evidence display-order permutation"
+        }
+      ],
+      "independent_review_status": "completed_two_synthetic_blinded_reviews_and_blinded_adjudication_v0.4",
+      "canonical_case_sha256": "97e86a14501b163c5797c0a99c75c0fb1efe4a3860940108eaa66513d6fc926f"
+    },
+    {
+      "scenario_id": "RB-CYB-15",
+      "author_or_generator_id": "RAER-benchmark-construction-team",
+      "creation_date": "2026-08-12",
+      "domain_rationale": "Tests evidence revalidation for release or quarantine security artifact in cybersecurity.",
+      "source_type": "independently_authored_synthetic_scenario",
+      "source_reference_or_synthetic_recipe": "RAER-B96-v0.1 domain-archetype matrix; no operational record or published scenario copied",
+      "license_or_permission_status": "original_project_material",
+      "revision_history": [
+        {
+          "version": "0.1",
+          "change": "initial construction"
+        },
+        {
+          "version": "0.2",
+          "change": "blinded prose remediation; immutable design fields preserved"
+        },
+        {
+          "version": "0.3",
+          "change": "case-level blinded prose rewrite; immutable design preserved"
+        },
+        {
+          "version": "0.4",
+          "date": "2026-08-12",
+          "author_or_generator_id": "RAER-benchmark-construction-team",
+          "parent_revision_chain_sha256": "161989b549d429077bba1cea024cf3fda1a8976584d019e878ccefafaa85ec65",
+          "change": "label-blind topology permutation, opaque evidence IDs, and evidence display-order permutation"
+        }
+      ],
+      "independent_review_status": "completed_two_synthetic_blinded_reviews_and_blinded_adjudication_v0.4",
+      "canonical_case_sha256": "7a1b06d748826dcc9c885e2e6197ef1cdaf51a598103bc9f4defde1b4796bbcd"
+    },
+    {
+      "scenario_id": "RB-CYB-16",
+      "author_or_generator_id": "RAER-benchmark-construction-team",
+      "creation_date": "2026-08-12",
+      "domain_rationale": "Tests evidence revalidation for release or quarantine security artifact in cybersecurity.",
+      "source_type": "independently_authored_synthetic_scenario",
+      "source_reference_or_synthetic_recipe": "RAER-B96-v0.1 domain-archetype matrix; no operational record or published scenario copied",
+      "license_or_permission_status": "original_project_material",
+      "revision_history": [
+        {
+          "version": "0.1",
+          "change": "initial construction"
+        },
+        {
+          "version": "0.2",
+          "change": "blinded prose remediation; immutable design fields preserved"
+        },
+        {
+          "version": "0.3",
+          "change": "case-level blinded prose rewrite; immutable design preserved"
+        },
+        {
+          "version": "0.4",
+          "date": "2026-08-12",
+          "author_or_generator_id": "RAER-benchmark-construction-team",
+          "parent_revision_chain_sha256": "161989b549d429077bba1cea024cf3fda1a8976584d019e878ccefafaa85ec65",
+          "change": "label-blind topology permutation, opaque evidence IDs, and evidence display-order permutation"
+        }
+      ],
+      "independent_review_status": "completed_two_synthetic_blinded_reviews_and_blinded_adjudication_v0.4",
+      "canonical_case_sha256": "104eb0fd7cbd9e2a1c9d63ce585020c68e5549167fb8437819adcaa1fbeabac4"
+    },
+    {
+      "scenario_id": "RB-FIN-01",
+      "author_or_generator_id": "RAER-benchmark-construction-team",
+      "creation_date": "2026-08-12",
+      "domain_rationale": "Tests evidence revalidation for release supplier or customer payment in finance.",
+      "source_type": "independently_authored_synthetic_scenario",
+      "source_reference_or_synthetic_recipe": "RAER-B96-v0.1 domain-archetype matrix; no operational record or published scenario copied",
+      "license_or_permission_status": "original_project_material",
+      "revision_history": [
+        {
+          "version": "0.1",
+          "change": "initial construction"
+        },
+        {
+          "version": "0.2",
+          "change": "blinded prose remediation; immutable design fields preserved"
+        },
+        {
+          "version": "0.3",
+          "change": "case-level blinded prose rewrite; immutable design preserved"
+        },
+        {
+          "version": "0.4",
+          "date": "2026-08-12",
+          "author_or_generator_id": "RAER-benchmark-construction-team",
+          "parent_revision_chain_sha256": "161989b549d429077bba1cea024cf3fda1a8976584d019e878ccefafaa85ec65",
+          "change": "label-blind topology permutation, opaque evidence IDs, and evidence display-order permutation"
+        }
+      ],
+      "independent_review_status": "completed_two_synthetic_blinded_reviews_and_blinded_adjudication_v0.4",
+      "canonical_case_sha256": "b641a20560eb37bcc99441c6261baa91eacaa8fc5c5d16d707da4d0a23af43d7"
+    },
+    {
+      "scenario_id": "RB-FIN-02",
+      "author_or_generator_id": "RAER-benchmark-construction-team",
+      "creation_date": "2026-08-12",
+      "domain_rationale": "Tests evidence revalidation for release supplier or customer payment in finance.",
+      "source_type": "independently_authored_synthetic_scenario",
+      "source_reference_or_synthetic_recipe": "RAER-B96-v0.1 domain-archetype matrix; no operational record or published scenario copied",
+      "license_or_permission_status": "original_project_material",
+      "revision_history": [
+        {
+          "version": "0.1",
+          "change": "initial construction"
+        },
+        {
+          "version": "0.2",
+          "change": "blinded prose remediation; immutable design fields preserved"
+        },
+        {
+          "version": "0.3",
+          "change": "case-level blinded prose rewrite; immutable design preserved"
+        },
+        {
+          "version": "0.4",
+          "date": "2026-08-12",
+          "author_or_generator_id": "RAER-benchmark-construction-team",
+          "parent_revision_chain_sha256": "161989b549d429077bba1cea024cf3fda1a8976584d019e878ccefafaa85ec65",
+          "change": "label-blind topology permutation, opaque evidence IDs, and evidence display-order permutation"
+        }
+      ],
+      "independent_review_status": "completed_two_synthetic_blinded_reviews_and_blinded_adjudication_v0.4",
+      "canonical_case_sha256": "be5ad82447c94ca38536149448134a5c1948651a0512643e2d4fda13c65d51cb"
+    },
+    {
+      "scenario_id": "RB-FIN-03",
+      "author_or_generator_id": "RAER-benchmark-construction-team",
+      "creation_date": "2026-08-12",
+      "domain_rationale": "Tests evidence revalidation for release supplier or customer payment in finance.",
+      "source_type": "independently_authored_synthetic_scenario",
+      "source_reference_or_synthetic_recipe": "RAER-B96-v0.1 domain-archetype matrix; no operational record or published scenario copied",
+      "license_or_permission_status": "original_project_material",
+      "revision_history": [
+        {
+          "version": "0.1",
+          "change": "initial construction"
+        },
+        {
+          "version": "0.2",
+          "change": "blinded prose remediation; immutable design fields preserved"
+        },
+        {
+          "version": "0.3",
+          "change": "case-level blinded prose rewrite; immutable design preserved"
+        },
+        {
+          "version": "0.4",
+          "date": "2026-08-12",
+          "author_or_generator_id": "RAER-benchmark-construction-team",
+          "parent_revision_chain_sha256": "161989b549d429077bba1cea024cf3fda1a8976584d019e878ccefafaa85ec65",
+          "change": "label-blind topology permutation, opaque evidence IDs, and evidence display-order permutation"
+        }
+      ],
+      "independent_review_status": "completed_two_synthetic_blinded_reviews_and_blinded_adjudication_v0.4",
+      "canonical_case_sha256": "fe8bd09453eb86c50d898e4af36c4d3f3ab53079cdb290faf73c83d8868129ec"
+    },
+    {
+      "scenario_id": "RB-FIN-04",
+      "author_or_generator_id": "RAER-benchmark-construction-team",
+      "creation_date": "2026-08-12",
+      "domain_rationale": "Tests evidence revalidation for refund or credit in finance.",
+      "source_type": "independently_authored_synthetic_scenario",
+      "source_reference_or_synthetic_recipe": "RAER-B96-v0.1 domain-archetype matrix; no operational record or published scenario copied",
+      "license_or_permission_status": "original_project_material",
+      "revision_history": [
+        {
+          "version": "0.1",
+          "change": "initial construction"
+        },
+        {
+          "version": "0.2",
+          "change": "blinded prose remediation; immutable design fields preserved"
+        },
+        {
+          "version": "0.3",
+          "change": "case-level blinded prose rewrite; immutable design preserved"
+        },
+        {
+          "version": "0.4",
+          "date": "2026-08-12",
+          "author_or_generator_id": "RAER-benchmark-construction-team",
+          "parent_revision_chain_sha256": "161989b549d429077bba1cea024cf3fda1a8976584d019e878ccefafaa85ec65",
+          "change": "label-blind topology permutation, opaque evidence IDs, and evidence display-order permutation"
+        }
+      ],
+      "independent_review_status": "completed_two_synthetic_blinded_reviews_and_blinded_adjudication_v0.4",
+      "canonical_case_sha256": "90019ed5b806348a654656fb9e0cac5dd04ff325c4a7dcf25a629eb04ab71268"
+    },
+    {
+      "scenario_id": "RB-FIN-05",
+      "author_or_generator_id": "RAER-benchmark-construction-team",
+      "creation_date": "2026-08-12",
+      "domain_rationale": "Tests evidence revalidation for refund or credit in finance.",
+      "source_type": "independently_authored_synthetic_scenario",
+      "source_reference_or_synthetic_recipe": "RAER-B96-v0.1 domain-archetype matrix; no operational record or published scenario copied",
+      "license_or_permission_status": "original_project_material",
+      "revision_history": [
+        {
+          "version": "0.1",
+          "change": "initial construction"
+        },
+        {
+          "version": "0.2",
+          "change": "blinded prose remediation; immutable design fields preserved"
+        },
+        {
+          "version": "0.3",
+          "change": "case-level blinded prose rewrite; immutable design preserved"
+        },
+        {
+          "version": "0.4",
+          "date": "2026-08-12",
+          "author_or_generator_id": "RAER-benchmark-construction-team",
+          "parent_revision_chain_sha256": "161989b549d429077bba1cea024cf3fda1a8976584d019e878ccefafaa85ec65",
+          "change": "label-blind topology permutation, opaque evidence IDs, and evidence display-order permutation"
+        }
+      ],
+      "independent_review_status": "completed_two_synthetic_blinded_reviews_and_blinded_adjudication_v0.4",
+      "canonical_case_sha256": "ebb281b05133ee6822c0653193a0182dae1690385dca15dbf686fca50703f990"
+    },
+    {
+      "scenario_id": "RB-FIN-06",
+      "author_or_generator_id": "RAER-benchmark-construction-team",
+      "creation_date": "2026-08-12",
+      "domain_rationale": "Tests evidence revalidation for refund or credit in finance.",
+      "source_type": "independently_authored_synthetic_scenario",
+      "source_reference_or_synthetic_recipe": "RAER-B96-v0.1 domain-archetype matrix; no operational record or published scenario copied",
+      "license_or_permission_status": "original_project_material",
+      "revision_history": [
+        {
+          "version": "0.1",
+          "change": "initial construction"
+        },
+        {
+          "version": "0.2",
+          "change": "blinded prose remediation; immutable design fields preserved"
+        },
+        {
+          "version": "0.3",
+          "change": "case-level blinded prose rewrite; immutable design preserved"
+        },
+        {
+          "version": "0.4",
+          "date": "2026-08-12",
+          "author_or_generator_id": "RAER-benchmark-construction-team",
+          "parent_revision_chain_sha256": "161989b549d429077bba1cea024cf3fda1a8976584d019e878ccefafaa85ec65",
+          "change": "label-blind topology permutation, opaque evidence IDs, and evidence display-order permutation"
+        }
+      ],
+      "independent_review_status": "completed_two_synthetic_blinded_reviews_and_blinded_adjudication_v0.4",
+      "canonical_case_sha256": "7dcedf3fe811f0987674788377ff3c266186d80e88a55382baf2493c8bddfa2d"
+    },
+    {
+      "scenario_id": "RB-FIN-07",
+      "author_or_generator_id": "RAER-benchmark-construction-team",
+      "creation_date": "2026-08-12",
+      "domain_rationale": "Tests evidence revalidation for invoice reject or hold in finance.",
+      "source_type": "independently_authored_synthetic_scenario",
+      "source_reference_or_synthetic_recipe": "RAER-B96-v0.1 domain-archetype matrix; no operational record or published scenario copied",
+      "license_or_permission_status": "original_project_material",
+      "revision_history": [
+        {
+          "version": "0.1",
+          "change": "initial construction"
+        },
+        {
+          "version": "0.2",
+          "change": "blinded prose remediation; immutable design fields preserved"
+        },
+        {
+          "version": "0.3",
+          "change": "case-level blinded prose rewrite; immutable design preserved"
+        },
+        {
+          "version": "0.4",
+          "date": "2026-08-12",
+          "author_or_generator_id": "RAER-benchmark-construction-team",
+          "parent_revision_chain_sha256": "161989b549d429077bba1cea024cf3fda1a8976584d019e878ccefafaa85ec65",
+          "change": "label-blind topology permutation, opaque evidence IDs, and evidence display-order permutation"
+        }
+      ],
+      "independent_review_status": "completed_two_synthetic_blinded_reviews_and_blinded_adjudication_v0.4",
+      "canonical_case_sha256": "f43d83e871ccce17cf33fac01abfa6f9d25773144e6fab36f136d5c12244313f"
+    },
+    {
+      "scenario_id": "RB-FIN-08",
+      "author_or_generator_id": "RAER-benchmark-construction-team",
+      "creation_date": "2026-08-12",
+      "domain_rationale": "Tests evidence revalidation for invoice reject or hold in finance.",
+      "source_type": "independently_authored_synthetic_scenario",
+      "source_reference_or_synthetic_recipe": "RAER-B96-v0.1 domain-archetype matrix; no operational record or published scenario copied",
+      "license_or_permission_status": "original_project_material",
+      "revision_history": [
+        {
+          "version": "0.1",
+          "change": "initial construction"
+        },
+        {
+          "version": "0.2",
+          "change": "blinded prose remediation; immutable design fields preserved"
+        },
+        {
+          "version": "0.3",
+          "change": "case-level blinded prose rewrite; immutable design preserved"
+        },
+        {
+          "version": "0.4",
+          "date": "2026-08-12",
+          "author_or_generator_id": "RAER-benchmark-construction-team",
+          "parent_revision_chain_sha256": "161989b549d429077bba1cea024cf3fda1a8976584d019e878ccefafaa85ec65",
+          "change": "label-blind topology permutation, opaque evidence IDs, and evidence display-order permutation"
+        }
+      ],
+      "independent_review_status": "completed_two_synthetic_blinded_reviews_and_blinded_adjudication_v0.4",
+      "canonical_case_sha256": "2711dd7584650297fc076ee156f08e87b84eda20edf0c581e13c2ee216a3e41d"
+    },
+    {
+      "scenario_id": "RB-FIN-09",
+      "author_or_generator_id": "RAER-benchmark-construction-team",
+      "creation_date": "2026-08-12",
+      "domain_rationale": "Tests evidence revalidation for invoice reject or hold in finance.",
+      "source_type": "independently_authored_synthetic_scenario",
+      "source_reference_or_synthetic_recipe": "RAER-B96-v0.1 domain-archetype matrix; no operational record or published scenario copied",
+      "license_or_permission_status": "original_project_material",
+      "revision_history": [
+        {
+          "version": "0.1",
+          "change": "initial construction"
+        },
+        {
+          "version": "0.2",
+          "change": "blinded prose remediation; immutable design fields preserved"
+        },
+        {
+          "version": "0.3",
+          "change": "case-level blinded prose rewrite; immutable design preserved"
+        },
+        {
+          "version": "0.4",
+          "date": "2026-08-12",
+          "author_or_generator_id": "RAER-benchmark-construction-team",
+          "parent_revision_chain_sha256": "161989b549d429077bba1cea024cf3fda1a8976584d019e878ccefafaa85ec65",
+          "change": "label-blind topology permutation, opaque evidence IDs, and evidence display-order permutation"
+        }
+      ],
+      "independent_review_status": "completed_two_synthetic_blinded_reviews_and_blinded_adjudication_v0.4",
+      "canonical_case_sha256": "5c0bccab4cd4e236176906f2cb39f73674a0b370d4360d20aeeb6009063fea87"
+    },
+    {
+      "scenario_id": "RB-FIN-10",
+      "author_or_generator_id": "RAER-benchmark-construction-team",
+      "creation_date": "2026-08-12",
+      "domain_rationale": "Tests evidence revalidation for change bank or beneficiary details in finance.",
+      "source_type": "independently_authored_synthetic_scenario",
+      "source_reference_or_synthetic_recipe": "RAER-B96-v0.1 domain-archetype matrix; no operational record or published scenario copied",
+      "license_or_permission_status": "original_project_material",
+      "revision_history": [
+        {
+          "version": "0.1",
+          "change": "initial construction"
+        },
+        {
+          "version": "0.2",
+          "change": "blinded prose remediation; immutable design fields preserved"
+        },
+        {
+          "version": "0.3",
+          "change": "case-level blinded prose rewrite; immutable design preserved"
+        },
+        {
+          "version": "0.4",
+          "date": "2026-08-12",
+          "author_or_generator_id": "RAER-benchmark-construction-team",
+          "parent_revision_chain_sha256": "161989b549d429077bba1cea024cf3fda1a8976584d019e878ccefafaa85ec65",
+          "change": "label-blind topology permutation, opaque evidence IDs, and evidence display-order permutation"
+        }
+      ],
+      "independent_review_status": "completed_two_synthetic_blinded_reviews_and_blinded_adjudication_v0.4",
+      "canonical_case_sha256": "de970752494ab5deac0ab969394d0ee257e455e88e47e59402772e09042d2fe4"
+    },
+    {
+      "scenario_id": "RB-FIN-11",
+      "author_or_generator_id": "RAER-benchmark-construction-team",
+      "creation_date": "2026-08-12",
+      "domain_rationale": "Tests evidence revalidation for change bank or beneficiary details in finance.",
+      "source_type": "independently_authored_synthetic_scenario",
+      "source_reference_or_synthetic_recipe": "RAER-B96-v0.1 domain-archetype matrix; no operational record or published scenario copied",
+      "license_or_permission_status": "original_project_material",
+      "revision_history": [
+        {
+          "version": "0.1",
+          "change": "initial construction"
+        },
+        {
+          "version": "0.2",
+          "change": "blinded prose remediation; immutable design fields preserved"
+        },
+        {
+          "version": "0.3",
+          "change": "case-level blinded prose rewrite; immutable design preserved"
+        },
+        {
+          "version": "0.4",
+          "date": "2026-08-12",
+          "author_or_generator_id": "RAER-benchmark-construction-team",
+          "parent_revision_chain_sha256": "161989b549d429077bba1cea024cf3fda1a8976584d019e878ccefafaa85ec65",
+          "change": "label-blind topology permutation, opaque evidence IDs, and evidence display-order permutation"
+        }
+      ],
+      "independent_review_status": "completed_two_synthetic_blinded_reviews_and_blinded_adjudication_v0.4",
+      "canonical_case_sha256": "0eb060686d66cdbc37a54c75d6641477535be0f28bf136dc4220bae512cc0c47"
+    },
+    {
+      "scenario_id": "RB-FIN-12",
+      "author_or_generator_id": "RAER-benchmark-construction-team",
+      "creation_date": "2026-08-12",
+      "domain_rationale": "Tests evidence revalidation for change bank or beneficiary details in finance.",
+      "source_type": "independently_authored_synthetic_scenario",
+      "source_reference_or_synthetic_recipe": "RAER-B96-v0.1 domain-archetype matrix; no operational record or published scenario copied",
+      "license_or_permission_status": "original_project_material",
+      "revision_history": [
+        {
+          "version": "0.1",
+          "change": "initial construction"
+        },
+        {
+          "version": "0.2",
+          "change": "blinded prose remediation; immutable design fields preserved"
+        },
+        {
+          "version": "0.3",
+          "change": "case-level blinded prose rewrite; immutable design preserved"
+        },
+        {
+          "version": "0.4",
+          "date": "2026-08-12",
+          "author_or_generator_id": "RAER-benchmark-construction-team",
+          "parent_revision_chain_sha256": "161989b549d429077bba1cea024cf3fda1a8976584d019e878ccefafaa85ec65",
+          "change": "label-blind topology permutation, opaque evidence IDs, and evidence display-order permutation"
+        }
+      ],
+      "independent_review_status": "completed_two_synthetic_blinded_reviews_and_blinded_adjudication_v0.4",
+      "canonical_case_sha256": "5c4e4cbf9bfbb480b4007855c046ac93be1b5cc708db28d55b130d491b7ac48a"
+    },
+    {
+      "scenario_id": "RB-FIN-13",
+      "author_or_generator_id": "RAER-benchmark-construction-team",
+      "creation_date": "2026-08-12",
+      "domain_rationale": "Tests evidence revalidation for approve purchase or expense in finance.",
+      "source_type": "independently_authored_synthetic_scenario",
+      "source_reference_or_synthetic_recipe": "RAER-B96-v0.1 domain-archetype matrix; no operational record or published scenario copied",
+      "license_or_permission_status": "original_project_material",
+      "revision_history": [
+        {
+          "version": "0.1",
+          "change": "initial construction"
+        },
+        {
+          "version": "0.2",
+          "change": "blinded prose remediation; immutable design fields preserved"
+        },
+        {
+          "version": "0.3",
+          "change": "case-level blinded prose rewrite; immutable design preserved"
+        },
+        {
+          "version": "0.4",
+          "date": "2026-08-12",
+          "author_or_generator_id": "RAER-benchmark-construction-team",
+          "parent_revision_chain_sha256": "161989b549d429077bba1cea024cf3fda1a8976584d019e878ccefafaa85ec65",
+          "change": "label-blind topology permutation, opaque evidence IDs, and evidence display-order permutation"
+        }
+      ],
+      "independent_review_status": "completed_two_synthetic_blinded_reviews_and_blinded_adjudication_v0.4",
+      "canonical_case_sha256": "1f29745cf1e4fd5331e10929b0cd65d17b410995380c84b89695b40e39c794ad"
+    },
+    {
+      "scenario_id": "RB-FIN-14",
+      "author_or_generator_id": "RAER-benchmark-construction-team",
+      "creation_date": "2026-08-12",
+      "domain_rationale": "Tests evidence revalidation for approve purchase or expense in finance.",
+      "source_type": "independently_authored_synthetic_scenario",
+      "source_reference_or_synthetic_recipe": "RAER-B96-v0.1 domain-archetype matrix; no operational record or published scenario copied",
+      "license_or_permission_status": "original_project_material",
+      "revision_history": [
+        {
+          "version": "0.1",
+          "change": "initial construction"
+        },
+        {
+          "version": "0.2",
+          "change": "blinded prose remediation; immutable design fields preserved"
+        },
+        {
+          "version": "0.3",
+          "change": "case-level blinded prose rewrite; immutable design preserved"
+        },
+        {
+          "version": "0.4",
+          "date": "2026-08-12",
+          "author_or_generator_id": "RAER-benchmark-construction-team",
+          "parent_revision_chain_sha256": "161989b549d429077bba1cea024cf3fda1a8976584d019e878ccefafaa85ec65",
+          "change": "label-blind topology permutation, opaque evidence IDs, and evidence display-order permutation"
+        }
+      ],
+      "independent_review_status": "completed_two_synthetic_blinded_reviews_and_blinded_adjudication_v0.4",
+      "canonical_case_sha256": "1b654095540024389434ca43934c5e213506093efbe7cbd6c4a012d2facbc720"
+    },
+    {
+      "scenario_id": "RB-FIN-15",
+      "author_or_generator_id": "RAER-benchmark-construction-team",
+      "creation_date": "2026-08-12",
+      "domain_rationale": "Tests evidence revalidation for close or reclassify financial record in finance.",
+      "source_type": "independently_authored_synthetic_scenario",
+      "source_reference_or_synthetic_recipe": "RAER-B96-v0.1 domain-archetype matrix; no operational record or published scenario copied",
+      "license_or_permission_status": "original_project_material",
+      "revision_history": [
+        {
+          "version": "0.1",
+          "change": "initial construction"
+        },
+        {
+          "version": "0.2",
+          "change": "blinded prose remediation; immutable design fields preserved"
+        },
+        {
+          "version": "0.3",
+          "change": "case-level blinded prose rewrite; immutable design preserved"
+        },
+        {
+          "version": "0.4",
+          "date": "2026-08-12",
+          "author_or_generator_id": "RAER-benchmark-construction-team",
+          "parent_revision_chain_sha256": "161989b549d429077bba1cea024cf3fda1a8976584d019e878ccefafaa85ec65",
+          "change": "label-blind topology permutation, opaque evidence IDs, and evidence display-order permutation"
+        }
+      ],
+      "independent_review_status": "completed_two_synthetic_blinded_reviews_and_blinded_adjudication_v0.4",
+      "canonical_case_sha256": "3cd9924822fd11877eaeecbdcde81c83eb24f0d109bbbed448d55b3b722a4244"
+    },
+    {
+      "scenario_id": "RB-FIN-16",
+      "author_or_generator_id": "RAER-benchmark-construction-team",
+      "creation_date": "2026-08-12",
+      "domain_rationale": "Tests evidence revalidation for close or reclassify financial record in finance.",
+      "source_type": "independently_authored_synthetic_scenario",
+      "source_reference_or_synthetic_recipe": "RAER-B96-v0.1 domain-archetype matrix; no operational record or published scenario copied",
+      "license_or_permission_status": "original_project_material",
+      "revision_history": [
+        {
+          "version": "0.1",
+          "change": "initial construction"
+        },
+        {
+          "version": "0.2",
+          "change": "blinded prose remediation; immutable design fields preserved"
+        },
+        {
+          "version": "0.3",
+          "change": "case-level blinded prose rewrite; immutable design preserved"
+        },
+        {
+          "version": "0.4",
+          "date": "2026-08-12",
+          "author_or_generator_id": "RAER-benchmark-construction-team",
+          "parent_revision_chain_sha256": "161989b549d429077bba1cea024cf3fda1a8976584d019e878ccefafaa85ec65",
+          "change": "label-blind topology permutation, opaque evidence IDs, and evidence display-order permutation"
+        }
+      ],
+      "independent_review_status": "completed_two_synthetic_blinded_reviews_and_blinded_adjudication_v0.4",
+      "canonical_case_sha256": "4e3c8589643cb49b623d3987485cbaced5416de6dd6b1504408b2dcc4f3edaf8"
+    },
+    {
+      "scenario_id": "RB-HCA-01",
+      "author_or_generator_id": "RAER-benchmark-construction-team",
+      "creation_date": "2026-08-12",
+      "domain_rationale": "Tests evidence revalidation for schedule cancel or reschedule service in healthcare administration.",
+      "source_type": "independently_authored_synthetic_scenario",
+      "source_reference_or_synthetic_recipe": "RAER-B96-v0.1 domain-archetype matrix; no operational record or published scenario copied",
+      "license_or_permission_status": "original_project_material",
+      "revision_history": [
+        {
+          "version": "0.1",
+          "change": "initial construction"
+        },
+        {
+          "version": "0.2",
+          "change": "blinded prose remediation; immutable design fields preserved"
+        },
+        {
+          "version": "0.3",
+          "change": "case-level blinded prose rewrite; immutable design preserved"
+        },
+        {
+          "version": "0.4",
+          "date": "2026-08-12",
+          "author_or_generator_id": "RAER-benchmark-construction-team",
+          "parent_revision_chain_sha256": "161989b549d429077bba1cea024cf3fda1a8976584d019e878ccefafaa85ec65",
+          "change": "label-blind topology permutation, opaque evidence IDs, and evidence display-order permutation"
+        }
+      ],
+      "independent_review_status": "completed_two_synthetic_blinded_reviews_and_blinded_adjudication_v0.4",
+      "canonical_case_sha256": "9943d29b7a076cdfdb43395309d7668563c8f3c81c199412c052490f7daa73c8"
+    },
+    {
+      "scenario_id": "RB-HCA-02",
+      "author_or_generator_id": "RAER-benchmark-construction-team",
+      "creation_date": "2026-08-12",
+      "domain_rationale": "Tests evidence revalidation for schedule cancel or reschedule service in healthcare administration.",
+      "source_type": "independently_authored_synthetic_scenario",
+      "source_reference_or_synthetic_recipe": "RAER-B96-v0.1 domain-archetype matrix; no operational record or published scenario copied",
+      "license_or_permission_status": "original_project_material",
+      "revision_history": [
+        {
+          "version": "0.1",
+          "change": "initial construction"
+        },
+        {
+          "version": "0.2",
+          "change": "blinded prose remediation; immutable design fields preserved"
+        },
+        {
+          "version": "0.3",
+          "change": "case-level blinded prose rewrite; immutable design preserved"
+        },
+        {
+          "version": "0.4",
+          "date": "2026-08-12",
+          "author_or_generator_id": "RAER-benchmark-construction-team",
+          "parent_revision_chain_sha256": "161989b549d429077bba1cea024cf3fda1a8976584d019e878ccefafaa85ec65",
+          "change": "label-blind topology permutation, opaque evidence IDs, and evidence display-order permutation"
+        }
+      ],
+      "independent_review_status": "completed_two_synthetic_blinded_reviews_and_blinded_adjudication_v0.4",
+      "canonical_case_sha256": "bf529a1d3e24d57f0a560b28ca03ab242a22d6dcab756ea324e47cf66886ff53"
+    },
+    {
+      "scenario_id": "RB-HCA-03",
+      "author_or_generator_id": "RAER-benchmark-construction-team",
+      "creation_date": "2026-08-12",
+      "domain_rationale": "Tests evidence revalidation for schedule cancel or reschedule service in healthcare administration.",
+      "source_type": "independently_authored_synthetic_scenario",
+      "source_reference_or_synthetic_recipe": "RAER-B96-v0.1 domain-archetype matrix; no operational record or published scenario copied",
+      "license_or_permission_status": "original_project_material",
+      "revision_history": [
+        {
+          "version": "0.1",
+          "change": "initial construction"
+        },
+        {
+          "version": "0.2",
+          "change": "blinded prose remediation; immutable design fields preserved"
+        },
+        {
+          "version": "0.3",
+          "change": "case-level blinded prose rewrite; immutable design preserved"
+        },
+        {
+          "version": "0.4",
+          "date": "2026-08-12",
+          "author_or_generator_id": "RAER-benchmark-construction-team",
+          "parent_revision_chain_sha256": "161989b549d429077bba1cea024cf3fda1a8976584d019e878ccefafaa85ec65",
+          "change": "label-blind topology permutation, opaque evidence IDs, and evidence display-order permutation"
+        }
+      ],
+      "independent_review_status": "completed_two_synthetic_blinded_reviews_and_blinded_adjudication_v0.4",
+      "canonical_case_sha256": "bd10bbb3c7be2cc55c7854ec8d441d697705f9e0fd77b123234a583e88827b0b"
+    },
+    {
+      "scenario_id": "RB-HCA-04",
+      "author_or_generator_id": "RAER-benchmark-construction-team",
+      "creation_date": "2026-08-12",
+      "domain_rationale": "Tests evidence revalidation for send reminder or instruction in healthcare administration.",
+      "source_type": "independently_authored_synthetic_scenario",
+      "source_reference_or_synthetic_recipe": "RAER-B96-v0.1 domain-archetype matrix; no operational record or published scenario copied",
+      "license_or_permission_status": "original_project_material",
+      "revision_history": [
+        {
+          "version": "0.1",
+          "change": "initial construction"
+        },
+        {
+          "version": "0.2",
+          "change": "blinded prose remediation; immutable design fields preserved"
+        },
+        {
+          "version": "0.3",
+          "change": "case-level blinded prose rewrite; immutable design preserved"
+        },
+        {
+          "version": "0.4",
+          "date": "2026-08-12",
+          "author_or_generator_id": "RAER-benchmark-construction-team",
+          "parent_revision_chain_sha256": "161989b549d429077bba1cea024cf3fda1a8976584d019e878ccefafaa85ec65",
+          "change": "label-blind topology permutation, opaque evidence IDs, and evidence display-order permutation"
+        }
+      ],
+      "independent_review_status": "completed_two_synthetic_blinded_reviews_and_blinded_adjudication_v0.4",
+      "canonical_case_sha256": "0844dc2c9b6a3991c7292bb61397f9ccd72d388499216eb305afad5c1e45edb7"
+    },
+    {
+      "scenario_id": "RB-HCA-05",
+      "author_or_generator_id": "RAER-benchmark-construction-team",
+      "creation_date": "2026-08-12",
+      "domain_rationale": "Tests evidence revalidation for send reminder or instruction in healthcare administration.",
+      "source_type": "independently_authored_synthetic_scenario",
+      "source_reference_or_synthetic_recipe": "RAER-B96-v0.1 domain-archetype matrix; no operational record or published scenario copied",
+      "license_or_permission_status": "original_project_material",
+      "revision_history": [
+        {
+          "version": "0.1",
+          "change": "initial construction"
+        },
+        {
+          "version": "0.2",
+          "change": "blinded prose remediation; immutable design fields preserved"
+        },
+        {
+          "version": "0.3",
+          "change": "case-level blinded prose rewrite; immutable design preserved"
+        },
+        {
+          "version": "0.4",
+          "date": "2026-08-12",
+          "author_or_generator_id": "RAER-benchmark-construction-team",
+          "parent_revision_chain_sha256": "161989b549d429077bba1cea024cf3fda1a8976584d019e878ccefafaa85ec65",
+          "change": "label-blind topology permutation, opaque evidence IDs, and evidence display-order permutation"
+        }
+      ],
+      "independent_review_status": "completed_two_synthetic_blinded_reviews_and_blinded_adjudication_v0.4",
+      "canonical_case_sha256": "648670d741a38215ecd94f90f002a428ff0f20113aded8c44cb0d429aecef1d3"
+    },
+    {
+      "scenario_id": "RB-HCA-06",
+      "author_or_generator_id": "RAER-benchmark-construction-team",
+      "creation_date": "2026-08-12",
+      "domain_rationale": "Tests evidence revalidation for send reminder or instruction in healthcare administration.",
+      "source_type": "independently_authored_synthetic_scenario",
+      "source_reference_or_synthetic_recipe": "RAER-B96-v0.1 domain-archetype matrix; no operational record or published scenario copied",
+      "license_or_permission_status": "original_project_material",
+      "revision_history": [
+        {
+          "version": "0.1",
+          "change": "initial construction"
+        },
+        {
+          "version": "0.2",
+          "change": "blinded prose remediation; immutable design fields preserved"
+        },
+        {
+          "version": "0.3",
+          "change": "case-level blinded prose rewrite; immutable design preserved"
+        },
+        {
+          "version": "0.4",
+          "date": "2026-08-12",
+          "author_or_generator_id": "RAER-benchmark-construction-team",
+          "parent_revision_chain_sha256": "161989b549d429077bba1cea024cf3fda1a8976584d019e878ccefafaa85ec65",
+          "change": "label-blind topology permutation, opaque evidence IDs, and evidence display-order permutation"
+        }
+      ],
+      "independent_review_status": "completed_two_synthetic_blinded_reviews_and_blinded_adjudication_v0.4",
+      "canonical_case_sha256": "41352914d54f1ae72e9605f1c3ee7e69f077e2511b32954caa9d8ca5f7bd2de8"
+    },
+    {
+      "scenario_id": "RB-HCA-07",
+      "author_or_generator_id": "RAER-benchmark-construction-team",
+      "creation_date": "2026-08-12",
+      "domain_rationale": "Tests evidence revalidation for transmit record to payer or provider in healthcare administration.",
+      "source_type": "independently_authored_synthetic_scenario",
+      "source_reference_or_synthetic_recipe": "RAER-B96-v0.1 domain-archetype matrix; no operational record or published scenario copied",
+      "license_or_permission_status": "original_project_material",
+      "revision_history": [
+        {
+          "version": "0.1",
+          "change": "initial construction"
+        },
+        {
+          "version": "0.2",
+          "change": "blinded prose remediation; immutable design fields preserved"
+        },
+        {
+          "version": "0.3",
+          "change": "case-level blinded prose rewrite; immutable design preserved"
+        },
+        {
+          "version": "0.4",
+          "date": "2026-08-12",
+          "author_or_generator_id": "RAER-benchmark-construction-team",
+          "parent_revision_chain_sha256": "161989b549d429077bba1cea024cf3fda1a8976584d019e878ccefafaa85ec65",
+          "change": "label-blind topology permutation, opaque evidence IDs, and evidence display-order permutation"
+        }
+      ],
+      "independent_review_status": "completed_two_synthetic_blinded_reviews_and_blinded_adjudication_v0.4",
+      "canonical_case_sha256": "2dc23599c89ebedb280eb42c070bcc8ab0a1b9a75bde13f3a542c1cf64e09911"
+    },
+    {
+      "scenario_id": "RB-HCA-08",
+      "author_or_generator_id": "RAER-benchmark-construction-team",
+      "creation_date": "2026-08-12",
+      "domain_rationale": "Tests evidence revalidation for transmit record to payer or provider in healthcare administration.",
+      "source_type": "independently_authored_synthetic_scenario",
+      "source_reference_or_synthetic_recipe": "RAER-B96-v0.1 domain-archetype matrix; no operational record or published scenario copied",
+      "license_or_permission_status": "original_project_material",
+      "revision_history": [
+        {
+          "version": "0.1",
+          "change": "initial construction"
+        },
+        {
+          "version": "0.2",
+          "change": "blinded prose remediation; immutable design fields preserved"
+        },
+        {
+          "version": "0.3",
+          "change": "case-level blinded prose rewrite; immutable design preserved"
+        },
+        {
+          "version": "0.4",
+          "date": "2026-08-12",
+          "author_or_generator_id": "RAER-benchmark-construction-team",
+          "parent_revision_chain_sha256": "161989b549d429077bba1cea024cf3fda1a8976584d019e878ccefafaa85ec65",
+          "change": "label-blind topology permutation, opaque evidence IDs, and evidence display-order permutation"
+        }
+      ],
+      "independent_review_status": "completed_two_synthetic_blinded_reviews_and_blinded_adjudication_v0.4",
+      "canonical_case_sha256": "d82917791c7a86bbbd743d87853081127824ed6c7d9d4faf1e4f485d07218222"
+    },
+    {
+      "scenario_id": "RB-HCA-09",
+      "author_or_generator_id": "RAER-benchmark-construction-team",
+      "creation_date": "2026-08-12",
+      "domain_rationale": "Tests evidence revalidation for transmit record to payer or provider in healthcare administration.",
+      "source_type": "independently_authored_synthetic_scenario",
+      "source_reference_or_synthetic_recipe": "RAER-B96-v0.1 domain-archetype matrix; no operational record or published scenario copied",
+      "license_or_permission_status": "original_project_material",
+      "revision_history": [
+        {
+          "version": "0.1",
+          "change": "initial construction"
+        },
+        {
+          "version": "0.2",
+          "change": "blinded prose remediation; immutable design fields preserved"
+        },
+        {
+          "version": "0.3",
+          "change": "case-level blinded prose rewrite; immutable design preserved"
+        },
+        {
+          "version": "0.4",
+          "date": "2026-08-12",
+          "author_or_generator_id": "RAER-benchmark-construction-team",
+          "parent_revision_chain_sha256": "161989b549d429077bba1cea024cf3fda1a8976584d019e878ccefafaa85ec65",
+          "change": "label-blind topology permutation, opaque evidence IDs, and evidence display-order permutation"
+        }
+      ],
+      "independent_review_status": "completed_two_synthetic_blinded_reviews_and_blinded_adjudication_v0.4",
+      "canonical_case_sha256": "6644fbb5232b216ddf4dbdd742d65c2f4db45ec7d31f899b650894ec0bb1ff39"
+    },
+    {
+      "scenario_id": "RB-HCA-10",
+      "author_or_generator_id": "RAER-benchmark-construction-team",
+      "creation_date": "2026-08-12",
+      "domain_rationale": "Tests evidence revalidation for update coverage or referral in healthcare administration.",
+      "source_type": "independently_authored_synthetic_scenario",
+      "source_reference_or_synthetic_recipe": "RAER-B96-v0.1 domain-archetype matrix; no operational record or published scenario copied",
+      "license_or_permission_status": "original_project_material",
+      "revision_history": [
+        {
+          "version": "0.1",
+          "change": "initial construction"
+        },
+        {
+          "version": "0.2",
+          "change": "blinded prose remediation; immutable design fields preserved"
+        },
+        {
+          "version": "0.3",
+          "change": "case-level blinded prose rewrite; immutable design preserved"
+        },
+        {
+          "version": "0.4",
+          "date": "2026-08-12",
+          "author_or_generator_id": "RAER-benchmark-construction-team",
+          "parent_revision_chain_sha256": "161989b549d429077bba1cea024cf3fda1a8976584d019e878ccefafaa85ec65",
+          "change": "label-blind topology permutation, opaque evidence IDs, and evidence display-order permutation"
+        }
+      ],
+      "independent_review_status": "completed_two_synthetic_blinded_reviews_and_blinded_adjudication_v0.4",
+      "canonical_case_sha256": "67b3339e0eab181b4222c7a5e88a54f99ee569c20805e03996aed6f39ff3109b"
+    },
+    {
+      "scenario_id": "RB-HCA-11",
+      "author_or_generator_id": "RAER-benchmark-construction-team",
+      "creation_date": "2026-08-12",
+      "domain_rationale": "Tests evidence revalidation for update coverage or referral in healthcare administration.",
+      "source_type": "independently_authored_synthetic_scenario",
+      "source_reference_or_synthetic_recipe": "RAER-B96-v0.1 domain-archetype matrix; no operational record or published scenario copied",
+      "license_or_permission_status": "original_project_material",
+      "revision_history": [
+        {
+          "version": "0.1",
+          "change": "initial construction"
+        },
+        {
+          "version": "0.2",
+          "change": "blinded prose remediation; immutable design fields preserved"
+        },
+        {
+          "version": "0.3",
+          "change": "case-level blinded prose rewrite; immutable design preserved"
+        },
+        {
+          "version": "0.4",
+          "date": "2026-08-12",
+          "author_or_generator_id": "RAER-benchmark-construction-team",
+          "parent_revision_chain_sha256": "161989b549d429077bba1cea024cf3fda1a8976584d019e878ccefafaa85ec65",
+          "change": "label-blind topology permutation, opaque evidence IDs, and evidence display-order permutation"
+        }
+      ],
+      "independent_review_status": "completed_two_synthetic_blinded_reviews_and_blinded_adjudication_v0.4",
+      "canonical_case_sha256": "40019ec3e5aa41a9ce45eff4f0f47555f3432164b7a47e61abcdbd2e5b2e1b35"
+    },
+    {
+      "scenario_id": "RB-HCA-12",
+      "author_or_generator_id": "RAER-benchmark-construction-team",
+      "creation_date": "2026-08-12",
+      "domain_rationale": "Tests evidence revalidation for update coverage or referral in healthcare administration.",
+      "source_type": "independently_authored_synthetic_scenario",
+      "source_reference_or_synthetic_recipe": "RAER-B96-v0.1 domain-archetype matrix; no operational record or published scenario copied",
+      "license_or_permission_status": "original_project_material",
+      "revision_history": [
+        {
+          "version": "0.1",
+          "change": "initial construction"
+        },
+        {
+          "version": "0.2",
+          "change": "blinded prose remediation; immutable design fields preserved"
+        },
+        {
+          "version": "0.3",
+          "change": "case-level blinded prose rewrite; immutable design preserved"
+        },
+        {
+          "version": "0.4",
+          "date": "2026-08-12",
+          "author_or_generator_id": "RAER-benchmark-construction-team",
+          "parent_revision_chain_sha256": "161989b549d429077bba1cea024cf3fda1a8976584d019e878ccefafaa85ec65",
+          "change": "label-blind topology permutation, opaque evidence IDs, and evidence display-order permutation"
+        }
+      ],
+      "independent_review_status": "completed_two_synthetic_blinded_reviews_and_blinded_adjudication_v0.4",
+      "canonical_case_sha256": "d778b371f858ad09743e1438f7cce14dd04f3b992576393f5f29906ec44c89bf"
+    },
+    {
+      "scenario_id": "RB-HCA-13",
+      "author_or_generator_id": "RAER-benchmark-construction-team",
+      "creation_date": "2026-08-12",
+      "domain_rationale": "Tests evidence revalidation for release administrative result or notice in healthcare administration.",
+      "source_type": "independently_authored_synthetic_scenario",
+      "source_reference_or_synthetic_recipe": "RAER-B96-v0.1 domain-archetype matrix; no operational record or published scenario copied",
+      "license_or_permission_status": "original_project_material",
+      "revision_history": [
+        {
+          "version": "0.1",
+          "change": "initial construction"
+        },
+        {
+          "version": "0.2",
+          "change": "blinded prose remediation; immutable design fields preserved"
+        },
+        {
+          "version": "0.3",
+          "change": "case-level blinded prose rewrite; immutable design preserved"
+        },
+        {
+          "version": "0.4",
+          "date": "2026-08-12",
+          "author_or_generator_id": "RAER-benchmark-construction-team",
+          "parent_revision_chain_sha256": "161989b549d429077bba1cea024cf3fda1a8976584d019e878ccefafaa85ec65",
+          "change": "label-blind topology permutation, opaque evidence IDs, and evidence display-order permutation"
+        }
+      ],
+      "independent_review_status": "completed_two_synthetic_blinded_reviews_and_blinded_adjudication_v0.4",
+      "canonical_case_sha256": "b5e8000888c4b41b3c2d0be7030aa870e2936f86ea2a9d67a0365438e0fe8012"
+    },
+    {
+      "scenario_id": "RB-HCA-14",
+      "author_or_generator_id": "RAER-benchmark-construction-team",
+      "creation_date": "2026-08-12",
+      "domain_rationale": "Tests evidence revalidation for release administrative result or notice in healthcare administration.",
+      "source_type": "independently_authored_synthetic_scenario",
+      "source_reference_or_synthetic_recipe": "RAER-B96-v0.1 domain-archetype matrix; no operational record or published scenario copied",
+      "license_or_permission_status": "original_project_material",
+      "revision_history": [
+        {
+          "version": "0.1",
+          "change": "initial construction"
+        },
+        {
+          "version": "0.2",
+          "change": "blinded prose remediation; immutable design fields preserved"
+        },
+        {
+          "version": "0.3",
+          "change": "case-level blinded prose rewrite; immutable design preserved"
+        },
+        {
+          "version": "0.4",
+          "date": "2026-08-12",
+          "author_or_generator_id": "RAER-benchmark-construction-team",
+          "parent_revision_chain_sha256": "161989b549d429077bba1cea024cf3fda1a8976584d019e878ccefafaa85ec65",
+          "change": "label-blind topology permutation, opaque evidence IDs, and evidence display-order permutation"
+        }
+      ],
+      "independent_review_status": "completed_two_synthetic_blinded_reviews_and_blinded_adjudication_v0.4",
+      "canonical_case_sha256": "cdbd3949caed8f7286831f68c2d0a84d2d853da59c92812942310e3580b6d9e2"
+    },
+    {
+      "scenario_id": "RB-HCA-15",
+      "author_or_generator_id": "RAER-benchmark-construction-team",
+      "creation_date": "2026-08-12",
+      "domain_rationale": "Tests evidence revalidation for merge or correct patient identity record in healthcare administration.",
+      "source_type": "independently_authored_synthetic_scenario",
+      "source_reference_or_synthetic_recipe": "RAER-B96-v0.1 domain-archetype matrix; no operational record or published scenario copied",
+      "license_or_permission_status": "original_project_material",
+      "revision_history": [
+        {
+          "version": "0.1",
+          "change": "initial construction"
+        },
+        {
+          "version": "0.2",
+          "change": "blinded prose remediation; immutable design fields preserved"
+        },
+        {
+          "version": "0.3",
+          "change": "case-level blinded prose rewrite; immutable design preserved"
+        },
+        {
+          "version": "0.4",
+          "date": "2026-08-12",
+          "author_or_generator_id": "RAER-benchmark-construction-team",
+          "parent_revision_chain_sha256": "161989b549d429077bba1cea024cf3fda1a8976584d019e878ccefafaa85ec65",
+          "change": "label-blind topology permutation, opaque evidence IDs, and evidence display-order permutation"
+        }
+      ],
+      "independent_review_status": "completed_two_synthetic_blinded_reviews_and_blinded_adjudication_v0.4",
+      "canonical_case_sha256": "5be4c4cfe610008526acf85390bf39d262b720fa474b42f271d34aa3b0e91043"
+    },
+    {
+      "scenario_id": "RB-HCA-16",
+      "author_or_generator_id": "RAER-benchmark-construction-team",
+      "creation_date": "2026-08-12",
+      "domain_rationale": "Tests evidence revalidation for merge or correct patient identity record in healthcare administration.",
+      "source_type": "independently_authored_synthetic_scenario",
+      "source_reference_or_synthetic_recipe": "RAER-B96-v0.1 domain-archetype matrix; no operational record or published scenario copied",
+      "license_or_permission_status": "original_project_material",
+      "revision_history": [
+        {
+          "version": "0.1",
+          "change": "initial construction"
+        },
+        {
+          "version": "0.2",
+          "change": "blinded prose remediation; immutable design fields preserved"
+        },
+        {
+          "version": "0.3",
+          "change": "case-level blinded prose rewrite; immutable design preserved"
+        },
+        {
+          "version": "0.4",
+          "date": "2026-08-12",
+          "author_or_generator_id": "RAER-benchmark-construction-team",
+          "parent_revision_chain_sha256": "161989b549d429077bba1cea024cf3fda1a8976584d019e878ccefafaa85ec65",
+          "change": "label-blind topology permutation, opaque evidence IDs, and evidence display-order permutation"
+        }
+      ],
+      "independent_review_status": "completed_two_synthetic_blinded_reviews_and_blinded_adjudication_v0.4",
+      "canonical_case_sha256": "306ea88e61bb26742ce84ef7d0da63b6bae27e510119e8496b653f045609879e"
+    },
+    {
+      "scenario_id": "RB-PRI-01",
+      "author_or_generator_id": "RAER-benchmark-construction-team",
+      "creation_date": "2026-08-12",
+      "domain_rationale": "Tests evidence revalidation for send personalized communication in privacy.",
+      "source_type": "independently_authored_synthetic_scenario",
+      "source_reference_or_synthetic_recipe": "RAER-B96-v0.1 domain-archetype matrix; no operational record or published scenario copied",
+      "license_or_permission_status": "original_project_material",
+      "revision_history": [
+        {
+          "version": "0.1",
+          "change": "initial construction"
+        },
+        {
+          "version": "0.2",
+          "change": "blinded prose remediation; immutable design fields preserved"
+        },
+        {
+          "version": "0.4",
+          "date": "2026-08-12",
+          "author_or_generator_id": "RAER-benchmark-construction-team",
+          "parent_revision_chain_sha256": "b2c634286b65471388c182bbe4a791a75cb48183136fa13cb9d431e6f7e4b854",
+          "change": "label-blind topology permutation, opaque evidence IDs, and evidence display-order permutation"
+        }
+      ],
+      "independent_review_status": "completed_two_synthetic_blinded_reviews_and_blinded_adjudication_v0.4",
+      "canonical_case_sha256": "bb4257202ba0c9635224825c49d0e6f57807a732194278213e45af59d12f6fa3"
+    },
+    {
+      "scenario_id": "RB-PRI-02",
+      "author_or_generator_id": "RAER-benchmark-construction-team",
+      "creation_date": "2026-08-12",
+      "domain_rationale": "Tests evidence revalidation for send personalized communication in privacy.",
+      "source_type": "independently_authored_synthetic_scenario",
+      "source_reference_or_synthetic_recipe": "RAER-B96-v0.1 domain-archetype matrix; no operational record or published scenario copied",
+      "license_or_permission_status": "original_project_material",
+      "revision_history": [
+        {
+          "version": "0.1",
+          "change": "initial construction"
+        },
+        {
+          "version": "0.2",
+          "change": "blinded prose remediation; immutable design fields preserved"
+        },
+        {
+          "version": "0.4",
+          "date": "2026-08-12",
+          "author_or_generator_id": "RAER-benchmark-construction-team",
+          "parent_revision_chain_sha256": "b2c634286b65471388c182bbe4a791a75cb48183136fa13cb9d431e6f7e4b854",
+          "change": "label-blind topology permutation, opaque evidence IDs, and evidence display-order permutation"
+        }
+      ],
+      "independent_review_status": "completed_two_synthetic_blinded_reviews_and_blinded_adjudication_v0.4",
+      "canonical_case_sha256": "53dbe4734f2e74802807f4c5b1f0bb246824ee12f0ced51465f16612d1bb949a"
+    },
+    {
+      "scenario_id": "RB-PRI-03",
+      "author_or_generator_id": "RAER-benchmark-construction-team",
+      "creation_date": "2026-08-12",
+      "domain_rationale": "Tests evidence revalidation for send personalized communication in privacy.",
+      "source_type": "independently_authored_synthetic_scenario",
+      "source_reference_or_synthetic_recipe": "RAER-B96-v0.1 domain-archetype matrix; no operational record or published scenario copied",
+      "license_or_permission_status": "original_project_material",
+      "revision_history": [
+        {
+          "version": "0.1",
+          "change": "initial construction"
+        },
+        {
+          "version": "0.2",
+          "change": "blinded prose remediation; immutable design fields preserved"
+        },
+        {
+          "version": "0.4",
+          "date": "2026-08-12",
+          "author_or_generator_id": "RAER-benchmark-construction-team",
+          "parent_revision_chain_sha256": "b2c634286b65471388c182bbe4a791a75cb48183136fa13cb9d431e6f7e4b854",
+          "change": "label-blind topology permutation, opaque evidence IDs, and evidence display-order permutation"
+        }
+      ],
+      "independent_review_status": "completed_two_synthetic_blinded_reviews_and_blinded_adjudication_v0.4",
+      "canonical_case_sha256": "03b3360ee46ef005541962ba982efd7668cdb71f6f843e7220ec2cad4c8276cc"
+    },
+    {
+      "scenario_id": "RB-PRI-04",
+      "author_or_generator_id": "RAER-benchmark-construction-team",
+      "creation_date": "2026-08-12",
+      "domain_rationale": "Tests evidence revalidation for export or share personal records in privacy.",
+      "source_type": "independently_authored_synthetic_scenario",
+      "source_reference_or_synthetic_recipe": "RAER-B96-v0.1 domain-archetype matrix; no operational record or published scenario copied",
+      "license_or_permission_status": "original_project_material",
+      "revision_history": [
+        {
+          "version": "0.1",
+          "change": "initial construction"
+        },
+        {
+          "version": "0.2",
+          "change": "blinded prose remediation; immutable design fields preserved"
+        },
+        {
+          "version": "0.4",
+          "date": "2026-08-12",
+          "author_or_generator_id": "RAER-benchmark-construction-team",
+          "parent_revision_chain_sha256": "b2c634286b65471388c182bbe4a791a75cb48183136fa13cb9d431e6f7e4b854",
+          "change": "label-blind topology permutation, opaque evidence IDs, and evidence display-order permutation"
+        }
+      ],
+      "independent_review_status": "completed_two_synthetic_blinded_reviews_and_blinded_adjudication_v0.4",
+      "canonical_case_sha256": "844f11997ee73ab4a463d04327e5b700dce3ac255806b6896b556ff4f429efde"
+    },
+    {
+      "scenario_id": "RB-PRI-05",
+      "author_or_generator_id": "RAER-benchmark-construction-team",
+      "creation_date": "2026-08-12",
+      "domain_rationale": "Tests evidence revalidation for export or share personal records in privacy.",
+      "source_type": "independently_authored_synthetic_scenario",
+      "source_reference_or_synthetic_recipe": "RAER-B96-v0.1 domain-archetype matrix; no operational record or published scenario copied",
+      "license_or_permission_status": "original_project_material",
+      "revision_history": [
+        {
+          "version": "0.1",
+          "change": "initial construction"
+        },
+        {
+          "version": "0.2",
+          "change": "blinded prose remediation; immutable design fields preserved"
+        },
+        {
+          "version": "0.4",
+          "date": "2026-08-12",
+          "author_or_generator_id": "RAER-benchmark-construction-team",
+          "parent_revision_chain_sha256": "b2c634286b65471388c182bbe4a791a75cb48183136fa13cb9d431e6f7e4b854",
+          "change": "label-blind topology permutation, opaque evidence IDs, and evidence display-order permutation"
+        }
+      ],
+      "independent_review_status": "completed_two_synthetic_blinded_reviews_and_blinded_adjudication_v0.4",
+      "canonical_case_sha256": "6c8510e580154e50852dad7fa2e3a44b7720c9aadf91bb3a98a177b23ee8f15c"
+    },
+    {
+      "scenario_id": "RB-PRI-06",
+      "author_or_generator_id": "RAER-benchmark-construction-team",
+      "creation_date": "2026-08-12",
+      "domain_rationale": "Tests evidence revalidation for export or share personal records in privacy.",
+      "source_type": "independently_authored_synthetic_scenario",
+      "source_reference_or_synthetic_recipe": "RAER-B96-v0.1 domain-archetype matrix; no operational record or published scenario copied",
+      "license_or_permission_status": "original_project_material",
+      "revision_history": [
+        {
+          "version": "0.1",
+          "change": "initial construction"
+        },
+        {
+          "version": "0.2",
+          "change": "blinded prose remediation; immutable design fields preserved"
+        },
+        {
+          "version": "0.4",
+          "date": "2026-08-12",
+          "author_or_generator_id": "RAER-benchmark-construction-team",
+          "parent_revision_chain_sha256": "b2c634286b65471388c182bbe4a791a75cb48183136fa13cb9d431e6f7e4b854",
+          "change": "label-blind topology permutation, opaque evidence IDs, and evidence display-order permutation"
+        }
+      ],
+      "independent_review_status": "completed_two_synthetic_blinded_reviews_and_blinded_adjudication_v0.4",
+      "canonical_case_sha256": "d1e1f1ecdaff1ad014d923d2e5cae798d5f3c84f89cabdb54b54719ba5ef6bef"
+    },
+    {
+      "scenario_id": "RB-PRI-07",
+      "author_or_generator_id": "RAER-benchmark-construction-team",
+      "creation_date": "2026-08-12",
+      "domain_rationale": "Tests evidence revalidation for delete or archive personal data in privacy.",
+      "source_type": "independently_authored_synthetic_scenario",
+      "source_reference_or_synthetic_recipe": "RAER-B96-v0.1 domain-archetype matrix; no operational record or published scenario copied",
+      "license_or_permission_status": "original_project_material",
+      "revision_history": [
+        {
+          "version": "0.1",
+          "change": "initial construction"
+        },
+        {
+          "version": "0.2",
+          "change": "blinded prose remediation; immutable design fields preserved"
+        },
+        {
+          "version": "0.4",
+          "date": "2026-08-12",
+          "author_or_generator_id": "RAER-benchmark-construction-team",
+          "parent_revision_chain_sha256": "b2c634286b65471388c182bbe4a791a75cb48183136fa13cb9d431e6f7e4b854",
+          "change": "label-blind topology permutation, opaque evidence IDs, and evidence display-order permutation"
+        }
+      ],
+      "independent_review_status": "completed_two_synthetic_blinded_reviews_and_blinded_adjudication_v0.4",
+      "canonical_case_sha256": "fb4696cdbcf5676eae2fbfe7fbc3563465161a1452d4361ddac2129866a04bce"
+    },
+    {
+      "scenario_id": "RB-PRI-08",
+      "author_or_generator_id": "RAER-benchmark-construction-team",
+      "creation_date": "2026-08-12",
+      "domain_rationale": "Tests evidence revalidation for delete or archive personal data in privacy.",
+      "source_type": "independently_authored_synthetic_scenario",
+      "source_reference_or_synthetic_recipe": "RAER-B96-v0.1 domain-archetype matrix; no operational record or published scenario copied",
+      "license_or_permission_status": "original_project_material",
+      "revision_history": [
+        {
+          "version": "0.1",
+          "change": "initial construction"
+        },
+        {
+          "version": "0.2",
+          "change": "blinded prose remediation; immutable design fields preserved"
+        },
+        {
+          "version": "0.4",
+          "date": "2026-08-12",
+          "author_or_generator_id": "RAER-benchmark-construction-team",
+          "parent_revision_chain_sha256": "b2c634286b65471388c182bbe4a791a75cb48183136fa13cb9d431e6f7e4b854",
+          "change": "label-blind topology permutation, opaque evidence IDs, and evidence display-order permutation"
+        }
+      ],
+      "independent_review_status": "completed_two_synthetic_blinded_reviews_and_blinded_adjudication_v0.4",
+      "canonical_case_sha256": "90493183316506bdc88bdd1318fb99f09f01f1301201d670041628fd3333f775"
+    },
+    {
+      "scenario_id": "RB-PRI-09",
+      "author_or_generator_id": "RAER-benchmark-construction-team",
+      "creation_date": "2026-08-12",
+      "domain_rationale": "Tests evidence revalidation for delete or archive personal data in privacy.",
+      "source_type": "independently_authored_synthetic_scenario",
+      "source_reference_or_synthetic_recipe": "RAER-B96-v0.1 domain-archetype matrix; no operational record or published scenario copied",
+      "license_or_permission_status": "original_project_material",
+      "revision_history": [
+        {
+          "version": "0.1",
+          "change": "initial construction"
+        },
+        {
+          "version": "0.2",
+          "change": "blinded prose remediation; immutable design fields preserved"
+        },
+        {
+          "version": "0.4",
+          "date": "2026-08-12",
+          "author_or_generator_id": "RAER-benchmark-construction-team",
+          "parent_revision_chain_sha256": "b2c634286b65471388c182bbe4a791a75cb48183136fa13cb9d431e6f7e4b854",
+          "change": "label-blind topology permutation, opaque evidence IDs, and evidence display-order permutation"
+        }
+      ],
+      "independent_review_status": "completed_two_synthetic_blinded_reviews_and_blinded_adjudication_v0.4",
+      "canonical_case_sha256": "12ba67e2c721ec79a60841d4548558a9da17ba68bbea3cbd86a6a69d9bd348bf"
+    },
+    {
+      "scenario_id": "RB-PRI-10",
+      "author_or_generator_id": "RAER-benchmark-construction-team",
+      "creation_date": "2026-08-12",
+      "domain_rationale": "Tests evidence revalidation for change consent or preference state in privacy.",
+      "source_type": "independently_authored_synthetic_scenario",
+      "source_reference_or_synthetic_recipe": "RAER-B96-v0.1 domain-archetype matrix; no operational record or published scenario copied",
+      "license_or_permission_status": "original_project_material",
+      "revision_history": [
+        {
+          "version": "0.1",
+          "change": "initial construction"
+        },
+        {
+          "version": "0.2",
+          "change": "blinded prose remediation; immutable design fields preserved"
+        },
+        {
+          "version": "0.4",
+          "date": "2026-08-12",
+          "author_or_generator_id": "RAER-benchmark-construction-team",
+          "parent_revision_chain_sha256": "b2c634286b65471388c182bbe4a791a75cb48183136fa13cb9d431e6f7e4b854",
+          "change": "label-blind topology permutation, opaque evidence IDs, and evidence display-order permutation"
+        }
+      ],
+      "independent_review_status": "completed_two_synthetic_blinded_reviews_and_blinded_adjudication_v0.4",
+      "canonical_case_sha256": "a26596dbf138eca936daae459e2ce9dbb7cca98c9e7e0c8780b60e660be24ac4"
+    },
+    {
+      "scenario_id": "RB-PRI-11",
+      "author_or_generator_id": "RAER-benchmark-construction-team",
+      "creation_date": "2026-08-12",
+      "domain_rationale": "Tests evidence revalidation for change consent or preference state in privacy.",
+      "source_type": "independently_authored_synthetic_scenario",
+      "source_reference_or_synthetic_recipe": "RAER-B96-v0.1 domain-archetype matrix; no operational record or published scenario copied",
+      "license_or_permission_status": "original_project_material",
+      "revision_history": [
+        {
+          "version": "0.1",
+          "change": "initial construction"
+        },
+        {
+          "version": "0.2",
+          "change": "blinded prose remediation; immutable design fields preserved"
+        },
+        {
+          "version": "0.4",
+          "date": "2026-08-12",
+          "author_or_generator_id": "RAER-benchmark-construction-team",
+          "parent_revision_chain_sha256": "b2c634286b65471388c182bbe4a791a75cb48183136fa13cb9d431e6f7e4b854",
+          "change": "label-blind topology permutation, opaque evidence IDs, and evidence display-order permutation"
+        }
+      ],
+      "independent_review_status": "completed_two_synthetic_blinded_reviews_and_blinded_adjudication_v0.4",
+      "canonical_case_sha256": "e42fe22404e1be0a6a6853b9fc25c5e7494e94e7424f80f63fa6ed87879026ad"
+    },
+    {
+      "scenario_id": "RB-PRI-12",
+      "author_or_generator_id": "RAER-benchmark-construction-team",
+      "creation_date": "2026-08-12",
+      "domain_rationale": "Tests evidence revalidation for change consent or preference state in privacy.",
+      "source_type": "independently_authored_synthetic_scenario",
+      "source_reference_or_synthetic_recipe": "RAER-B96-v0.1 domain-archetype matrix; no operational record or published scenario copied",
+      "license_or_permission_status": "original_project_material",
+      "revision_history": [
+        {
+          "version": "0.1",
+          "change": "initial construction"
+        },
+        {
+          "version": "0.2",
+          "change": "blinded prose remediation; immutable design fields preserved"
+        },
+        {
+          "version": "0.4",
+          "date": "2026-08-12",
+          "author_or_generator_id": "RAER-benchmark-construction-team",
+          "parent_revision_chain_sha256": "b2c634286b65471388c182bbe4a791a75cb48183136fa13cb9d431e6f7e4b854",
+          "change": "label-blind topology permutation, opaque evidence IDs, and evidence display-order permutation"
+        }
+      ],
+      "independent_review_status": "completed_two_synthetic_blinded_reviews_and_blinded_adjudication_v0.4",
+      "canonical_case_sha256": "f7072929375279aae5ad2fcdfbe664348d90cafde0b781e1315a854f623a87cf"
+    },
+    {
+      "scenario_id": "RB-PRI-13",
+      "author_or_generator_id": "RAER-benchmark-construction-team",
+      "creation_date": "2026-08-12",
+      "domain_rationale": "Tests evidence revalidation for fulfill access or correction request in privacy.",
+      "source_type": "independently_authored_synthetic_scenario",
+      "source_reference_or_synthetic_recipe": "RAER-B96-v0.1 domain-archetype matrix; no operational record or published scenario copied",
+      "license_or_permission_status": "original_project_material",
+      "revision_history": [
+        {
+          "version": "0.1",
+          "change": "initial construction"
+        },
+        {
+          "version": "0.2",
+          "change": "blinded prose remediation; immutable design fields preserved"
+        },
+        {
+          "version": "0.4",
+          "date": "2026-08-12",
+          "author_or_generator_id": "RAER-benchmark-construction-team",
+          "parent_revision_chain_sha256": "b2c634286b65471388c182bbe4a791a75cb48183136fa13cb9d431e6f7e4b854",
+          "change": "label-blind topology permutation, opaque evidence IDs, and evidence display-order permutation"
+        }
+      ],
+      "independent_review_status": "completed_two_synthetic_blinded_reviews_and_blinded_adjudication_v0.4",
+      "canonical_case_sha256": "28d252f91908ddc5d8e9617242013f144343a0afb7bebbec1ca040abef020b93"
+    },
+    {
+      "scenario_id": "RB-PRI-14",
+      "author_or_generator_id": "RAER-benchmark-construction-team",
+      "creation_date": "2026-08-12",
+      "domain_rationale": "Tests evidence revalidation for fulfill access or correction request in privacy.",
+      "source_type": "independently_authored_synthetic_scenario",
+      "source_reference_or_synthetic_recipe": "RAER-B96-v0.1 domain-archetype matrix; no operational record or published scenario copied",
+      "license_or_permission_status": "original_project_material",
+      "revision_history": [
+        {
+          "version": "0.1",
+          "change": "initial construction"
+        },
+        {
+          "version": "0.2",
+          "change": "blinded prose remediation; immutable design fields preserved"
+        },
+        {
+          "version": "0.4",
+          "date": "2026-08-12",
+          "author_or_generator_id": "RAER-benchmark-construction-team",
+          "parent_revision_chain_sha256": "b2c634286b65471388c182bbe4a791a75cb48183136fa13cb9d431e6f7e4b854",
+          "change": "label-blind topology permutation, opaque evidence IDs, and evidence display-order permutation"
+        }
+      ],
+      "independent_review_status": "completed_two_synthetic_blinded_reviews_and_blinded_adjudication_v0.4",
+      "canonical_case_sha256": "cac116e3ab21e9648a96d927f6a7c3fd7b78f44399c5b194006c6b2f942900da"
+    },
+    {
+      "scenario_id": "RB-PRI-15",
+      "author_or_generator_id": "RAER-benchmark-construction-team",
+      "creation_date": "2026-08-12",
+      "domain_rationale": "Tests evidence revalidation for activate or remove legal hold in privacy.",
+      "source_type": "independently_authored_synthetic_scenario",
+      "source_reference_or_synthetic_recipe": "RAER-B96-v0.1 domain-archetype matrix; no operational record or published scenario copied",
+      "license_or_permission_status": "original_project_material",
+      "revision_history": [
+        {
+          "version": "0.1",
+          "change": "initial construction"
+        },
+        {
+          "version": "0.2",
+          "change": "blinded prose remediation; immutable design fields preserved"
+        },
+        {
+          "version": "0.4",
+          "date": "2026-08-12",
+          "author_or_generator_id": "RAER-benchmark-construction-team",
+          "parent_revision_chain_sha256": "b2c634286b65471388c182bbe4a791a75cb48183136fa13cb9d431e6f7e4b854",
+          "change": "label-blind topology permutation, opaque evidence IDs, and evidence display-order permutation"
+        }
+      ],
+      "independent_review_status": "completed_two_synthetic_blinded_reviews_and_blinded_adjudication_v0.4",
+      "canonical_case_sha256": "e20f4456b80e2bbaedcfa2b4451873866db8b1ccc1c4d3d2ff5bb8e1c59fc946"
+    },
+    {
+      "scenario_id": "RB-PRI-16",
+      "author_or_generator_id": "RAER-benchmark-construction-team",
+      "creation_date": "2026-08-12",
+      "domain_rationale": "Tests evidence revalidation for activate or remove legal hold in privacy.",
+      "source_type": "independently_authored_synthetic_scenario",
+      "source_reference_or_synthetic_recipe": "RAER-B96-v0.1 domain-archetype matrix; no operational record or published scenario copied",
+      "license_or_permission_status": "original_project_material",
+      "revision_history": [
+        {
+          "version": "0.1",
+          "change": "initial construction"
+        },
+        {
+          "version": "0.2",
+          "change": "blinded prose remediation; immutable design fields preserved"
+        },
+        {
+          "version": "0.4",
+          "date": "2026-08-12",
+          "author_or_generator_id": "RAER-benchmark-construction-team",
+          "parent_revision_chain_sha256": "b2c634286b65471388c182bbe4a791a75cb48183136fa13cb9d431e6f7e4b854",
+          "change": "label-blind topology permutation, opaque evidence IDs, and evidence display-order permutation"
+        }
+      ],
+      "independent_review_status": "completed_two_synthetic_blinded_reviews_and_blinded_adjudication_v0.4",
+      "canonical_case_sha256": "07168732c1a34773332f3fe55476eaa5bc9c00e069cc67e42829a01b6a01e955"
+    },
+    {
+      "scenario_id": "RB-COM-01",
+      "author_or_generator_id": "RAER-benchmark-construction-team",
+      "creation_date": "2026-08-12",
+      "domain_rationale": "Tests evidence revalidation for cancel or modify order in commerce.",
+      "source_type": "independently_authored_synthetic_scenario",
+      "source_reference_or_synthetic_recipe": "RAER-B96-v0.1 domain-archetype matrix; no operational record or published scenario copied",
+      "license_or_permission_status": "original_project_material",
+      "revision_history": [
+        {
+          "version": "0.1",
+          "change": "initial construction"
+        },
+        {
+          "version": "0.2",
+          "change": "blinded prose remediation; immutable design fields preserved"
+        },
+        {
+          "version": "0.4",
+          "date": "2026-08-12",
+          "author_or_generator_id": "RAER-benchmark-construction-team",
+          "parent_revision_chain_sha256": "b2c634286b65471388c182bbe4a791a75cb48183136fa13cb9d431e6f7e4b854",
+          "change": "label-blind topology permutation, opaque evidence IDs, and evidence display-order permutation"
+        }
+      ],
+      "independent_review_status": "completed_two_synthetic_blinded_reviews_and_blinded_adjudication_v0.4",
+      "canonical_case_sha256": "b1bfa6993f590aef5b5ac27f03e1cc7429d205bd32cada76ffc51f96dcc4ecc6"
+    },
+    {
+      "scenario_id": "RB-COM-02",
+      "author_or_generator_id": "RAER-benchmark-construction-team",
+      "creation_date": "2026-08-12",
+      "domain_rationale": "Tests evidence revalidation for cancel or modify order in commerce.",
+      "source_type": "independently_authored_synthetic_scenario",
+      "source_reference_or_synthetic_recipe": "RAER-B96-v0.1 domain-archetype matrix; no operational record or published scenario copied",
+      "license_or_permission_status": "original_project_material",
+      "revision_history": [
+        {
+          "version": "0.1",
+          "change": "initial construction"
+        },
+        {
+          "version": "0.2",
+          "change": "blinded prose remediation; immutable design fields preserved"
+        },
+        {
+          "version": "0.4",
+          "date": "2026-08-12",
+          "author_or_generator_id": "RAER-benchmark-construction-team",
+          "parent_revision_chain_sha256": "b2c634286b65471388c182bbe4a791a75cb48183136fa13cb9d431e6f7e4b854",
+          "change": "label-blind topology permutation, opaque evidence IDs, and evidence display-order permutation"
+        }
+      ],
+      "independent_review_status": "completed_two_synthetic_blinded_reviews_and_blinded_adjudication_v0.4",
+      "canonical_case_sha256": "4aa1401376a3013f666bb25e7f3cacd4c3cf1bcca6eeca506f8a6a75f2004cb3"
+    },
+    {
+      "scenario_id": "RB-COM-03",
+      "author_or_generator_id": "RAER-benchmark-construction-team",
+      "creation_date": "2026-08-12",
+      "domain_rationale": "Tests evidence revalidation for cancel or modify order in commerce.",
+      "source_type": "independently_authored_synthetic_scenario",
+      "source_reference_or_synthetic_recipe": "RAER-B96-v0.1 domain-archetype matrix; no operational record or published scenario copied",
+      "license_or_permission_status": "original_project_material",
+      "revision_history": [
+        {
+          "version": "0.1",
+          "change": "initial construction"
+        },
+        {
+          "version": "0.2",
+          "change": "blinded prose remediation; immutable design fields preserved"
+        },
+        {
+          "version": "0.4",
+          "date": "2026-08-12",
+          "author_or_generator_id": "RAER-benchmark-construction-team",
+          "parent_revision_chain_sha256": "b2c634286b65471388c182bbe4a791a75cb48183136fa13cb9d431e6f7e4b854",
+          "change": "label-blind topology permutation, opaque evidence IDs, and evidence display-order permutation"
+        }
+      ],
+      "independent_review_status": "completed_two_synthetic_blinded_reviews_and_blinded_adjudication_v0.4",
+      "canonical_case_sha256": "079ca54999f83e89982c21bb887ead256c35dfa278cd0d1fb4002722fd8ced7e"
+    },
+    {
+      "scenario_id": "RB-COM-04",
+      "author_or_generator_id": "RAER-benchmark-construction-team",
+      "creation_date": "2026-08-12",
+      "domain_rationale": "Tests evidence revalidation for apply discount or price adjustment in commerce.",
+      "source_type": "independently_authored_synthetic_scenario",
+      "source_reference_or_synthetic_recipe": "RAER-B96-v0.1 domain-archetype matrix; no operational record or published scenario copied",
+      "license_or_permission_status": "original_project_material",
+      "revision_history": [
+        {
+          "version": "0.1",
+          "change": "initial construction"
+        },
+        {
+          "version": "0.2",
+          "change": "blinded prose remediation; immutable design fields preserved"
+        },
+        {
+          "version": "0.4",
+          "date": "2026-08-12",
+          "author_or_generator_id": "RAER-benchmark-construction-team",
+          "parent_revision_chain_sha256": "b2c634286b65471388c182bbe4a791a75cb48183136fa13cb9d431e6f7e4b854",
+          "change": "label-blind topology permutation, opaque evidence IDs, and evidence display-order permutation"
+        }
+      ],
+      "independent_review_status": "completed_two_synthetic_blinded_reviews_and_blinded_adjudication_v0.4",
+      "canonical_case_sha256": "2bedd7c64d46b0d873912aa499d9c0bd5f722ca059f5ef8d13ff98308fe41e5a"
+    },
+    {
+      "scenario_id": "RB-COM-05",
+      "author_or_generator_id": "RAER-benchmark-construction-team",
+      "creation_date": "2026-08-12",
+      "domain_rationale": "Tests evidence revalidation for apply discount or price adjustment in commerce.",
+      "source_type": "independently_authored_synthetic_scenario",
+      "source_reference_or_synthetic_recipe": "RAER-B96-v0.1 domain-archetype matrix; no operational record or published scenario copied",
+      "license_or_permission_status": "original_project_material",
+      "revision_history": [
+        {
+          "version": "0.1",
+          "change": "initial construction"
+        },
+        {
+          "version": "0.2",
+          "change": "blinded prose remediation; immutable design fields preserved"
+        },
+        {
+          "version": "0.4",
+          "date": "2026-08-12",
+          "author_or_generator_id": "RAER-benchmark-construction-team",
+          "parent_revision_chain_sha256": "b2c634286b65471388c182bbe4a791a75cb48183136fa13cb9d431e6f7e4b854",
+          "change": "label-blind topology permutation, opaque evidence IDs, and evidence display-order permutation"
+        }
+      ],
+      "independent_review_status": "completed_two_synthetic_blinded_reviews_and_blinded_adjudication_v0.4",
+      "canonical_case_sha256": "7e786e83662c7903ab48d9da73ceac465ea631d838584a94206e8f9a3181924d"
+    },
+    {
+      "scenario_id": "RB-COM-06",
+      "author_or_generator_id": "RAER-benchmark-construction-team",
+      "creation_date": "2026-08-12",
+      "domain_rationale": "Tests evidence revalidation for apply discount or price adjustment in commerce.",
+      "source_type": "independently_authored_synthetic_scenario",
+      "source_reference_or_synthetic_recipe": "RAER-B96-v0.1 domain-archetype matrix; no operational record or published scenario copied",
+      "license_or_permission_status": "original_project_material",
+      "revision_history": [
+        {
+          "version": "0.1",
+          "change": "initial construction"
+        },
+        {
+          "version": "0.2",
+          "change": "blinded prose remediation; immutable design fields preserved"
+        },
+        {
+          "version": "0.4",
+          "date": "2026-08-12",
+          "author_or_generator_id": "RAER-benchmark-construction-team",
+          "parent_revision_chain_sha256": "b2c634286b65471388c182bbe4a791a75cb48183136fa13cb9d431e6f7e4b854",
+          "change": "label-blind topology permutation, opaque evidence IDs, and evidence display-order permutation"
+        }
+      ],
+      "independent_review_status": "completed_two_synthetic_blinded_reviews_and_blinded_adjudication_v0.4",
+      "canonical_case_sha256": "ea2f0fd54e7e6fe1a52a3af86e8ca64b78f18415b1a6aa483718444fcd17c31a"
+    },
+    {
+      "scenario_id": "RB-COM-07",
+      "author_or_generator_id": "RAER-benchmark-construction-team",
+      "creation_date": "2026-08-12",
+      "domain_rationale": "Tests evidence revalidation for reserve or release inventory in commerce.",
+      "source_type": "independently_authored_synthetic_scenario",
+      "source_reference_or_synthetic_recipe": "RAER-B96-v0.1 domain-archetype matrix; no operational record or published scenario copied",
+      "license_or_permission_status": "original_project_material",
+      "revision_history": [
+        {
+          "version": "0.1",
+          "change": "initial construction"
+        },
+        {
+          "version": "0.2",
+          "change": "blinded prose remediation; immutable design fields preserved"
+        },
+        {
+          "version": "0.4",
+          "date": "2026-08-12",
+          "author_or_generator_id": "RAER-benchmark-construction-team",
+          "parent_revision_chain_sha256": "b2c634286b65471388c182bbe4a791a75cb48183136fa13cb9d431e6f7e4b854",
+          "change": "label-blind topology permutation, opaque evidence IDs, and evidence display-order permutation"
+        }
+      ],
+      "independent_review_status": "completed_two_synthetic_blinded_reviews_and_blinded_adjudication_v0.4",
+      "canonical_case_sha256": "87800d82d17ed5e4e9105073cc9f47aeb8962c7d80079572d2dff2ef7830e943"
+    },
+    {
+      "scenario_id": "RB-COM-08",
+      "author_or_generator_id": "RAER-benchmark-construction-team",
+      "creation_date": "2026-08-12",
+      "domain_rationale": "Tests evidence revalidation for reserve or release inventory in commerce.",
+      "source_type": "independently_authored_synthetic_scenario",
+      "source_reference_or_synthetic_recipe": "RAER-B96-v0.1 domain-archetype matrix; no operational record or published scenario copied",
+      "license_or_permission_status": "original_project_material",
+      "revision_history": [
+        {
+          "version": "0.1",
+          "change": "initial construction"
+        },
+        {
+          "version": "0.2",
+          "change": "blinded prose remediation; immutable design fields preserved"
+        },
+        {
+          "version": "0.4",
+          "date": "2026-08-12",
+          "author_or_generator_id": "RAER-benchmark-construction-team",
+          "parent_revision_chain_sha256": "b2c634286b65471388c182bbe4a791a75cb48183136fa13cb9d431e6f7e4b854",
+          "change": "label-blind topology permutation, opaque evidence IDs, and evidence display-order permutation"
+        }
+      ],
+      "independent_review_status": "completed_two_synthetic_blinded_reviews_and_blinded_adjudication_v0.4",
+      "canonical_case_sha256": "4638528124ad5d3d02a191c1d60317c213debc5a5c6ad17c4f11e017bb632a04"
+    },
+    {
+      "scenario_id": "RB-COM-09",
+      "author_or_generator_id": "RAER-benchmark-construction-team",
+      "creation_date": "2026-08-12",
+      "domain_rationale": "Tests evidence revalidation for reserve or release inventory in commerce.",
+      "source_type": "independently_authored_synthetic_scenario",
+      "source_reference_or_synthetic_recipe": "RAER-B96-v0.1 domain-archetype matrix; no operational record or published scenario copied",
+      "license_or_permission_status": "original_project_material",
+      "revision_history": [
+        {
+          "version": "0.1",
+          "change": "initial construction"
+        },
+        {
+          "version": "0.2",
+          "change": "blinded prose remediation; immutable design fields preserved"
+        },
+        {
+          "version": "0.4",
+          "date": "2026-08-12",
+          "author_or_generator_id": "RAER-benchmark-construction-team",
+          "parent_revision_chain_sha256": "b2c634286b65471388c182bbe4a791a75cb48183136fa13cb9d431e6f7e4b854",
+          "change": "label-blind topology permutation, opaque evidence IDs, and evidence display-order permutation"
+        }
+      ],
+      "independent_review_status": "completed_two_synthetic_blinded_reviews_and_blinded_adjudication_v0.4",
+      "canonical_case_sha256": "0650592b4f2397cf92045939482c2ac616f1c2d17c37d4c152af37661178ab61"
+    },
+    {
+      "scenario_id": "RB-COM-10",
+      "author_or_generator_id": "RAER-benchmark-construction-team",
+      "creation_date": "2026-08-12",
+      "domain_rationale": "Tests evidence revalidation for reroute or change fulfillment in commerce.",
+      "source_type": "independently_authored_synthetic_scenario",
+      "source_reference_or_synthetic_recipe": "RAER-B96-v0.1 domain-archetype matrix; no operational record or published scenario copied",
+      "license_or_permission_status": "original_project_material",
+      "revision_history": [
+        {
+          "version": "0.1",
+          "change": "initial construction"
+        },
+        {
+          "version": "0.2",
+          "change": "blinded prose remediation; immutable design fields preserved"
+        },
+        {
+          "version": "0.4",
+          "date": "2026-08-12",
+          "author_or_generator_id": "RAER-benchmark-construction-team",
+          "parent_revision_chain_sha256": "b2c634286b65471388c182bbe4a791a75cb48183136fa13cb9d431e6f7e4b854",
+          "change": "label-blind topology permutation, opaque evidence IDs, and evidence display-order permutation"
+        }
+      ],
+      "independent_review_status": "completed_two_synthetic_blinded_reviews_and_blinded_adjudication_v0.4",
+      "canonical_case_sha256": "2c54f8ce0865013df10ad17cd76af87b5986c1d3e9d7a30b3d4af77a56954b23"
+    },
+    {
+      "scenario_id": "RB-COM-11",
+      "author_or_generator_id": "RAER-benchmark-construction-team",
+      "creation_date": "2026-08-12",
+      "domain_rationale": "Tests evidence revalidation for reroute or change fulfillment in commerce.",
+      "source_type": "independently_authored_synthetic_scenario",
+      "source_reference_or_synthetic_recipe": "RAER-B96-v0.1 domain-archetype matrix; no operational record or published scenario copied",
+      "license_or_permission_status": "original_project_material",
+      "revision_history": [
+        {
+          "version": "0.1",
+          "change": "initial construction"
+        },
+        {
+          "version": "0.2",
+          "change": "blinded prose remediation; immutable design fields preserved"
+        },
+        {
+          "version": "0.4",
+          "date": "2026-08-12",
+          "author_or_generator_id": "RAER-benchmark-construction-team",
+          "parent_revision_chain_sha256": "b2c634286b65471388c182bbe4a791a75cb48183136fa13cb9d431e6f7e4b854",
+          "change": "label-blind topology permutation, opaque evidence IDs, and evidence display-order permutation"
+        }
+      ],
+      "independent_review_status": "completed_two_synthetic_blinded_reviews_and_blinded_adjudication_v0.4",
+      "canonical_case_sha256": "15b62a9a885ebb8ca3f1ffb149caf8a2cfd26d2515ca3e5d98967a41d9196321"
+    },
+    {
+      "scenario_id": "RB-COM-12",
+      "author_or_generator_id": "RAER-benchmark-construction-team",
+      "creation_date": "2026-08-12",
+      "domain_rationale": "Tests evidence revalidation for reroute or change fulfillment in commerce.",
+      "source_type": "independently_authored_synthetic_scenario",
+      "source_reference_or_synthetic_recipe": "RAER-B96-v0.1 domain-archetype matrix; no operational record or published scenario copied",
+      "license_or_permission_status": "original_project_material",
+      "revision_history": [
+        {
+          "version": "0.1",
+          "change": "initial construction"
+        },
+        {
+          "version": "0.2",
+          "change": "blinded prose remediation; immutable design fields preserved"
+        },
+        {
+          "version": "0.4",
+          "date": "2026-08-12",
+          "author_or_generator_id": "RAER-benchmark-construction-team",
+          "parent_revision_chain_sha256": "b2c634286b65471388c182bbe4a791a75cb48183136fa13cb9d431e6f7e4b854",
+          "change": "label-blind topology permutation, opaque evidence IDs, and evidence display-order permutation"
+        }
+      ],
+      "independent_review_status": "completed_two_synthetic_blinded_reviews_and_blinded_adjudication_v0.4",
+      "canonical_case_sha256": "8b16f21729ba214cece62592576bbfea6025c804f001f3c30f2d37ff9fcf9156"
+    },
+    {
+      "scenario_id": "RB-COM-13",
+      "author_or_generator_id": "RAER-benchmark-construction-team",
+      "creation_date": "2026-08-12",
+      "domain_rationale": "Tests evidence revalidation for issue refund or store credit in commerce.",
+      "source_type": "independently_authored_synthetic_scenario",
+      "source_reference_or_synthetic_recipe": "RAER-B96-v0.1 domain-archetype matrix; no operational record or published scenario copied",
+      "license_or_permission_status": "original_project_material",
+      "revision_history": [
+        {
+          "version": "0.1",
+          "change": "initial construction"
+        },
+        {
+          "version": "0.2",
+          "change": "blinded prose remediation; immutable design fields preserved"
+        },
+        {
+          "version": "0.4",
+          "date": "2026-08-12",
+          "author_or_generator_id": "RAER-benchmark-construction-team",
+          "parent_revision_chain_sha256": "b2c634286b65471388c182bbe4a791a75cb48183136fa13cb9d431e6f7e4b854",
+          "change": "label-blind topology permutation, opaque evidence IDs, and evidence display-order permutation"
+        }
+      ],
+      "independent_review_status": "completed_two_synthetic_blinded_reviews_and_blinded_adjudication_v0.4",
+      "canonical_case_sha256": "6b73f397982ba01e3c5d2589d5e7aacf247b92de19862e980d67e6b5ddb0fbcf"
+    },
+    {
+      "scenario_id": "RB-COM-14",
+      "author_or_generator_id": "RAER-benchmark-construction-team",
+      "creation_date": "2026-08-12",
+      "domain_rationale": "Tests evidence revalidation for issue refund or store credit in commerce.",
+      "source_type": "independently_authored_synthetic_scenario",
+      "source_reference_or_synthetic_recipe": "RAER-B96-v0.1 domain-archetype matrix; no operational record or published scenario copied",
+      "license_or_permission_status": "original_project_material",
+      "revision_history": [
+        {
+          "version": "0.1",
+          "change": "initial construction"
+        },
+        {
+          "version": "0.2",
+          "change": "blinded prose remediation; immutable design fields preserved"
+        },
+        {
+          "version": "0.4",
+          "date": "2026-08-12",
+          "author_or_generator_id": "RAER-benchmark-construction-team",
+          "parent_revision_chain_sha256": "b2c634286b65471388c182bbe4a791a75cb48183136fa13cb9d431e6f7e4b854",
+          "change": "label-blind topology permutation, opaque evidence IDs, and evidence display-order permutation"
+        }
+      ],
+      "independent_review_status": "completed_two_synthetic_blinded_reviews_and_blinded_adjudication_v0.4",
+      "canonical_case_sha256": "81d192349b7c9a9f0f8fb65cd7c22e1681d992ff0c91ba79ca4a013894e50e4a"
+    },
+    {
+      "scenario_id": "RB-COM-15",
+      "author_or_generator_id": "RAER-benchmark-construction-team",
+      "creation_date": "2026-08-12",
+      "domain_rationale": "Tests evidence revalidation for approve exception or replacement in commerce.",
+      "source_type": "independently_authored_synthetic_scenario",
+      "source_reference_or_synthetic_recipe": "RAER-B96-v0.1 domain-archetype matrix; no operational record or published scenario copied",
+      "license_or_permission_status": "original_project_material",
+      "revision_history": [
+        {
+          "version": "0.1",
+          "change": "initial construction"
+        },
+        {
+          "version": "0.2",
+          "change": "blinded prose remediation; immutable design fields preserved"
+        },
+        {
+          "version": "0.4",
+          "date": "2026-08-12",
+          "author_or_generator_id": "RAER-benchmark-construction-team",
+          "parent_revision_chain_sha256": "b2c634286b65471388c182bbe4a791a75cb48183136fa13cb9d431e6f7e4b854",
+          "change": "label-blind topology permutation, opaque evidence IDs, and evidence display-order permutation"
+        }
+      ],
+      "independent_review_status": "completed_two_synthetic_blinded_reviews_and_blinded_adjudication_v0.4",
+      "canonical_case_sha256": "78907453ef55b9a0e70b2d9e2e6f7b7669bc1ebe4f5c0bbd6ca0e8155e916bdb"
+    },
+    {
+      "scenario_id": "RB-COM-16",
+      "author_or_generator_id": "RAER-benchmark-construction-team",
+      "creation_date": "2026-08-12",
+      "domain_rationale": "Tests evidence revalidation for approve exception or replacement in commerce.",
+      "source_type": "independently_authored_synthetic_scenario",
+      "source_reference_or_synthetic_recipe": "RAER-B96-v0.1 domain-archetype matrix; no operational record or published scenario copied",
+      "license_or_permission_status": "original_project_material",
+      "revision_history": [
+        {
+          "version": "0.1",
+          "change": "initial construction"
+        },
+        {
+          "version": "0.2",
+          "change": "blinded prose remediation; immutable design fields preserved"
+        },
+        {
+          "version": "0.4",
+          "date": "2026-08-12",
+          "author_or_generator_id": "RAER-benchmark-construction-team",
+          "parent_revision_chain_sha256": "b2c634286b65471388c182bbe4a791a75cb48183136fa13cb9d431e6f7e4b854",
+          "change": "label-blind topology permutation, opaque evidence IDs, and evidence display-order permutation"
+        }
+      ],
+      "independent_review_status": "completed_two_synthetic_blinded_reviews_and_blinded_adjudication_v0.4",
+      "canonical_case_sha256": "ee35f732bdcd6851a3b52211ccaea6ad5350da46380ffb218b31573ef5721704"
+    },
+    {
+      "scenario_id": "RB-HR-01",
+      "author_or_generator_id": "RAER-benchmark-construction-team",
+      "creation_date": "2026-08-12",
+      "domain_rationale": "Tests evidence revalidation for send compensation or employment notice in human resources.",
+      "source_type": "independently_authored_synthetic_scenario",
+      "source_reference_or_synthetic_recipe": "RAER-B96-v0.1 domain-archetype matrix; no operational record or published scenario copied",
+      "license_or_permission_status": "original_project_material",
+      "revision_history": [
+        {
+          "version": "0.1",
+          "change": "initial construction"
+        },
+        {
+          "version": "0.2",
+          "change": "blinded prose remediation; immutable design fields preserved"
+        },
+        {
+          "version": "0.4",
+          "date": "2026-08-12",
+          "author_or_generator_id": "RAER-benchmark-construction-team",
+          "parent_revision_chain_sha256": "b2c634286b65471388c182bbe4a791a75cb48183136fa13cb9d431e6f7e4b854",
+          "change": "label-blind topology permutation, opaque evidence IDs, and evidence display-order permutation"
+        }
+      ],
+      "independent_review_status": "completed_two_synthetic_blinded_reviews_and_blinded_adjudication_v0.4",
+      "canonical_case_sha256": "5589694646d0bd4f1f49b83629a950c048c8b1dd47d30ab932393f8908483474"
+    },
+    {
+      "scenario_id": "RB-HR-02",
+      "author_or_generator_id": "RAER-benchmark-construction-team",
+      "creation_date": "2026-08-12",
+      "domain_rationale": "Tests evidence revalidation for send compensation or employment notice in human resources.",
+      "source_type": "independently_authored_synthetic_scenario",
+      "source_reference_or_synthetic_recipe": "RAER-B96-v0.1 domain-archetype matrix; no operational record or published scenario copied",
+      "license_or_permission_status": "original_project_material",
+      "revision_history": [
+        {
+          "version": "0.1",
+          "change": "initial construction"
+        },
+        {
+          "version": "0.2",
+          "change": "blinded prose remediation; immutable design fields preserved"
+        },
+        {
+          "version": "0.4",
+          "date": "2026-08-12",
+          "author_or_generator_id": "RAER-benchmark-construction-team",
+          "parent_revision_chain_sha256": "b2c634286b65471388c182bbe4a791a75cb48183136fa13cb9d431e6f7e4b854",
+          "change": "label-blind topology permutation, opaque evidence IDs, and evidence display-order permutation"
+        }
+      ],
+      "independent_review_status": "completed_two_synthetic_blinded_reviews_and_blinded_adjudication_v0.4",
+      "canonical_case_sha256": "851782b69c7eb8aca5f1aba96157d3b2de89e2e6d8a81dc73e22b10e14e28040"
+    },
+    {
+      "scenario_id": "RB-HR-03",
+      "author_or_generator_id": "RAER-benchmark-construction-team",
+      "creation_date": "2026-08-12",
+      "domain_rationale": "Tests evidence revalidation for send compensation or employment notice in human resources.",
+      "source_type": "independently_authored_synthetic_scenario",
+      "source_reference_or_synthetic_recipe": "RAER-B96-v0.1 domain-archetype matrix; no operational record or published scenario copied",
+      "license_or_permission_status": "original_project_material",
+      "revision_history": [
+        {
+          "version": "0.1",
+          "change": "initial construction"
+        },
+        {
+          "version": "0.2",
+          "change": "blinded prose remediation; immutable design fields preserved"
+        },
+        {
+          "version": "0.4",
+          "date": "2026-08-12",
+          "author_or_generator_id": "RAER-benchmark-construction-team",
+          "parent_revision_chain_sha256": "b2c634286b65471388c182bbe4a791a75cb48183136fa13cb9d431e6f7e4b854",
+          "change": "label-blind topology permutation, opaque evidence IDs, and evidence display-order permutation"
+        }
+      ],
+      "independent_review_status": "completed_two_synthetic_blinded_reviews_and_blinded_adjudication_v0.4",
+      "canonical_case_sha256": "608e26a10e34af6a21c9329d2784c0085cd467c8687f475a518d2af79959e93c"
+    },
+    {
+      "scenario_id": "RB-HR-04",
+      "author_or_generator_id": "RAER-benchmark-construction-team",
+      "creation_date": "2026-08-12",
+      "domain_rationale": "Tests evidence revalidation for change roster shift or on call assignment in human resources.",
+      "source_type": "independently_authored_synthetic_scenario",
+      "source_reference_or_synthetic_recipe": "RAER-B96-v0.1 domain-archetype matrix; no operational record or published scenario copied",
+      "license_or_permission_status": "original_project_material",
+      "revision_history": [
+        {
+          "version": "0.1",
+          "change": "initial construction"
+        },
+        {
+          "version": "0.2",
+          "change": "blinded prose remediation; immutable design fields preserved"
+        },
+        {
+          "version": "0.4",
+          "date": "2026-08-12",
+          "author_or_generator_id": "RAER-benchmark-construction-team",
+          "parent_revision_chain_sha256": "b2c634286b65471388c182bbe4a791a75cb48183136fa13cb9d431e6f7e4b854",
+          "change": "label-blind topology permutation, opaque evidence IDs, and evidence display-order permutation"
+        }
+      ],
+      "independent_review_status": "completed_two_synthetic_blinded_reviews_and_blinded_adjudication_v0.4",
+      "canonical_case_sha256": "f72e5cd9cdb2d749bec6bba48e85cb5743ff4e982e1228663d304c343327d845"
+    },
+    {
+      "scenario_id": "RB-HR-05",
+      "author_or_generator_id": "RAER-benchmark-construction-team",
+      "creation_date": "2026-08-12",
+      "domain_rationale": "Tests evidence revalidation for change roster shift or on call assignment in human resources.",
+      "source_type": "independently_authored_synthetic_scenario",
+      "source_reference_or_synthetic_recipe": "RAER-B96-v0.1 domain-archetype matrix; no operational record or published scenario copied",
+      "license_or_permission_status": "original_project_material",
+      "revision_history": [
+        {
+          "version": "0.1",
+          "change": "initial construction"
+        },
+        {
+          "version": "0.2",
+          "change": "blinded prose remediation; immutable design fields preserved"
+        },
+        {
+          "version": "0.4",
+          "date": "2026-08-12",
+          "author_or_generator_id": "RAER-benchmark-construction-team",
+          "parent_revision_chain_sha256": "b2c634286b65471388c182bbe4a791a75cb48183136fa13cb9d431e6f7e4b854",
+          "change": "label-blind topology permutation, opaque evidence IDs, and evidence display-order permutation"
+        }
+      ],
+      "independent_review_status": "completed_two_synthetic_blinded_reviews_and_blinded_adjudication_v0.4",
+      "canonical_case_sha256": "a45eb491d5ddc6a87cf5ede46d279e8aac7f7bdb562c39a8f1e5c0a39353e658"
+    },
+    {
+      "scenario_id": "RB-HR-06",
+      "author_or_generator_id": "RAER-benchmark-construction-team",
+      "creation_date": "2026-08-12",
+      "domain_rationale": "Tests evidence revalidation for change roster shift or on call assignment in human resources.",
+      "source_type": "independently_authored_synthetic_scenario",
+      "source_reference_or_synthetic_recipe": "RAER-B96-v0.1 domain-archetype matrix; no operational record or published scenario copied",
+      "license_or_permission_status": "original_project_material",
+      "revision_history": [
+        {
+          "version": "0.1",
+          "change": "initial construction"
+        },
+        {
+          "version": "0.2",
+          "change": "blinded prose remediation; immutable design fields preserved"
+        },
+        {
+          "version": "0.4",
+          "date": "2026-08-12",
+          "author_or_generator_id": "RAER-benchmark-construction-team",
+          "parent_revision_chain_sha256": "b2c634286b65471388c182bbe4a791a75cb48183136fa13cb9d431e6f7e4b854",
+          "change": "label-blind topology permutation, opaque evidence IDs, and evidence display-order permutation"
+        }
+      ],
+      "independent_review_status": "completed_two_synthetic_blinded_reviews_and_blinded_adjudication_v0.4",
+      "canonical_case_sha256": "9ec2b3ec8c535687dead30ea6fa6ab79f02260c759fdef90b72c0abcc7c57ed7"
+    },
+    {
+      "scenario_id": "RB-HR-07",
+      "author_or_generator_id": "RAER-benchmark-construction-team",
+      "creation_date": "2026-08-12",
+      "domain_rationale": "Tests evidence revalidation for archive or reopen candidate record in human resources.",
+      "source_type": "independently_authored_synthetic_scenario",
+      "source_reference_or_synthetic_recipe": "RAER-B96-v0.1 domain-archetype matrix; no operational record or published scenario copied",
+      "license_or_permission_status": "original_project_material",
+      "revision_history": [
+        {
+          "version": "0.1",
+          "change": "initial construction"
+        },
+        {
+          "version": "0.2",
+          "change": "blinded prose remediation; immutable design fields preserved"
+        },
+        {
+          "version": "0.4",
+          "date": "2026-08-12",
+          "author_or_generator_id": "RAER-benchmark-construction-team",
+          "parent_revision_chain_sha256": "b2c634286b65471388c182bbe4a791a75cb48183136fa13cb9d431e6f7e4b854",
+          "change": "label-blind topology permutation, opaque evidence IDs, and evidence display-order permutation"
+        }
+      ],
+      "independent_review_status": "completed_two_synthetic_blinded_reviews_and_blinded_adjudication_v0.4",
+      "canonical_case_sha256": "102f451f4fd8653e9c687771d0836c700356a60e80b4de15b21ceb709087246e"
+    },
+    {
+      "scenario_id": "RB-HR-08",
+      "author_or_generator_id": "RAER-benchmark-construction-team",
+      "creation_date": "2026-08-12",
+      "domain_rationale": "Tests evidence revalidation for archive or reopen candidate record in human resources.",
+      "source_type": "independently_authored_synthetic_scenario",
+      "source_reference_or_synthetic_recipe": "RAER-B96-v0.1 domain-archetype matrix; no operational record or published scenario copied",
+      "license_or_permission_status": "original_project_material",
+      "revision_history": [
+        {
+          "version": "0.1",
+          "change": "initial construction"
+        },
+        {
+          "version": "0.2",
+          "change": "blinded prose remediation; immutable design fields preserved"
+        },
+        {
+          "version": "0.4",
+          "date": "2026-08-12",
+          "author_or_generator_id": "RAER-benchmark-construction-team",
+          "parent_revision_chain_sha256": "b2c634286b65471388c182bbe4a791a75cb48183136fa13cb9d431e6f7e4b854",
+          "change": "label-blind topology permutation, opaque evidence IDs, and evidence display-order permutation"
+        }
+      ],
+      "independent_review_status": "completed_two_synthetic_blinded_reviews_and_blinded_adjudication_v0.4",
+      "canonical_case_sha256": "b232f49b21c97cc2190b951fd54fd429c69d13280e87fdf385d3370fdf87ef9c"
+    },
+    {
+      "scenario_id": "RB-HR-09",
+      "author_or_generator_id": "RAER-benchmark-construction-team",
+      "creation_date": "2026-08-12",
+      "domain_rationale": "Tests evidence revalidation for archive or reopen candidate record in human resources.",
+      "source_type": "independently_authored_synthetic_scenario",
+      "source_reference_or_synthetic_recipe": "RAER-B96-v0.1 domain-archetype matrix; no operational record or published scenario copied",
+      "license_or_permission_status": "original_project_material",
+      "revision_history": [
+        {
+          "version": "0.1",
+          "change": "initial construction"
+        },
+        {
+          "version": "0.2",
+          "change": "blinded prose remediation; immutable design fields preserved"
+        },
+        {
+          "version": "0.4",
+          "date": "2026-08-12",
+          "author_or_generator_id": "RAER-benchmark-construction-team",
+          "parent_revision_chain_sha256": "b2c634286b65471388c182bbe4a791a75cb48183136fa13cb9d431e6f7e4b854",
+          "change": "label-blind topology permutation, opaque evidence IDs, and evidence display-order permutation"
+        }
+      ],
+      "independent_review_status": "completed_two_synthetic_blinded_reviews_and_blinded_adjudication_v0.4",
+      "canonical_case_sha256": "54cb17fa56b7fd9e5bb500c7b3c2ff3b63f8e6d6b91aa7acc1bb576239f4003b"
+    },
+    {
+      "scenario_id": "RB-HR-10",
+      "author_or_generator_id": "RAER-benchmark-construction-team",
+      "creation_date": "2026-08-12",
+      "domain_rationale": "Tests evidence revalidation for start or end worker access workflow in human resources.",
+      "source_type": "independently_authored_synthetic_scenario",
+      "source_reference_or_synthetic_recipe": "RAER-B96-v0.1 domain-archetype matrix; no operational record or published scenario copied",
+      "license_or_permission_status": "original_project_material",
+      "revision_history": [
+        {
+          "version": "0.1",
+          "change": "initial construction"
+        },
+        {
+          "version": "0.2",
+          "change": "blinded prose remediation; immutable design fields preserved"
+        },
+        {
+          "version": "0.4",
+          "date": "2026-08-12",
+          "author_or_generator_id": "RAER-benchmark-construction-team",
+          "parent_revision_chain_sha256": "b2c634286b65471388c182bbe4a791a75cb48183136fa13cb9d431e6f7e4b854",
+          "change": "label-blind topology permutation, opaque evidence IDs, and evidence display-order permutation"
+        }
+      ],
+      "independent_review_status": "completed_two_synthetic_blinded_reviews_and_blinded_adjudication_v0.4",
+      "canonical_case_sha256": "e9bafa37cc7b9d17eea92818233ce11aab1dd4d34786bce18960435bff689957"
+    },
+    {
+      "scenario_id": "RB-HR-11",
+      "author_or_generator_id": "RAER-benchmark-construction-team",
+      "creation_date": "2026-08-12",
+      "domain_rationale": "Tests evidence revalidation for start or end worker access workflow in human resources.",
+      "source_type": "independently_authored_synthetic_scenario",
+      "source_reference_or_synthetic_recipe": "RAER-B96-v0.1 domain-archetype matrix; no operational record or published scenario copied",
+      "license_or_permission_status": "original_project_material",
+      "revision_history": [
+        {
+          "version": "0.1",
+          "change": "initial construction"
+        },
+        {
+          "version": "0.2",
+          "change": "blinded prose remediation; immutable design fields preserved"
+        },
+        {
+          "version": "0.4",
+          "date": "2026-08-12",
+          "author_or_generator_id": "RAER-benchmark-construction-team",
+          "parent_revision_chain_sha256": "b2c634286b65471388c182bbe4a791a75cb48183136fa13cb9d431e6f7e4b854",
+          "change": "label-blind topology permutation, opaque evidence IDs, and evidence display-order permutation"
+        }
+      ],
+      "independent_review_status": "completed_two_synthetic_blinded_reviews_and_blinded_adjudication_v0.4",
+      "canonical_case_sha256": "5dec7a5d76376f2f7540269cbbf10796b40a14d3d5ac576f36c7cf5630d0b1f5"
+    },
+    {
+      "scenario_id": "RB-HR-12",
+      "author_or_generator_id": "RAER-benchmark-construction-team",
+      "creation_date": "2026-08-12",
+      "domain_rationale": "Tests evidence revalidation for start or end worker access workflow in human resources.",
+      "source_type": "independently_authored_synthetic_scenario",
+      "source_reference_or_synthetic_recipe": "RAER-B96-v0.1 domain-archetype matrix; no operational record or published scenario copied",
+      "license_or_permission_status": "original_project_material",
+      "revision_history": [
+        {
+          "version": "0.1",
+          "change": "initial construction"
+        },
+        {
+          "version": "0.2",
+          "change": "blinded prose remediation; immutable design fields preserved"
+        },
+        {
+          "version": "0.4",
+          "date": "2026-08-12",
+          "author_or_generator_id": "RAER-benchmark-construction-team",
+          "parent_revision_chain_sha256": "b2c634286b65471388c182bbe4a791a75cb48183136fa13cb9d431e6f7e4b854",
+          "change": "label-blind topology permutation, opaque evidence IDs, and evidence display-order permutation"
+        }
+      ],
+      "independent_review_status": "completed_two_synthetic_blinded_reviews_and_blinded_adjudication_v0.4",
+      "canonical_case_sha256": "f9e6f68dd937fa41fa1612a2fd8b84f15c5296527748b0128e76f40581a679d1"
+    },
+    {
+      "scenario_id": "RB-HR-13",
+      "author_or_generator_id": "RAER-benchmark-construction-team",
+      "creation_date": "2026-08-12",
+      "domain_rationale": "Tests evidence revalidation for change leave or benefit record in human resources.",
+      "source_type": "independently_authored_synthetic_scenario",
+      "source_reference_or_synthetic_recipe": "RAER-B96-v0.1 domain-archetype matrix; no operational record or published scenario copied",
+      "license_or_permission_status": "original_project_material",
+      "revision_history": [
+        {
+          "version": "0.1",
+          "change": "initial construction"
+        },
+        {
+          "version": "0.2",
+          "change": "blinded prose remediation; immutable design fields preserved"
+        },
+        {
+          "version": "0.4",
+          "date": "2026-08-12",
+          "author_or_generator_id": "RAER-benchmark-construction-team",
+          "parent_revision_chain_sha256": "b2c634286b65471388c182bbe4a791a75cb48183136fa13cb9d431e6f7e4b854",
+          "change": "label-blind topology permutation, opaque evidence IDs, and evidence display-order permutation"
+        }
+      ],
+      "independent_review_status": "completed_two_synthetic_blinded_reviews_and_blinded_adjudication_v0.4",
+      "canonical_case_sha256": "870032ec81b11c0aabf16e77912dd6e4cad268a670789b062580fb5bc32a6bd3"
+    },
+    {
+      "scenario_id": "RB-HR-14",
+      "author_or_generator_id": "RAER-benchmark-construction-team",
+      "creation_date": "2026-08-12",
+      "domain_rationale": "Tests evidence revalidation for change leave or benefit record in human resources.",
+      "source_type": "independently_authored_synthetic_scenario",
+      "source_reference_or_synthetic_recipe": "RAER-B96-v0.1 domain-archetype matrix; no operational record or published scenario copied",
+      "license_or_permission_status": "original_project_material",
+      "revision_history": [
+        {
+          "version": "0.1",
+          "change": "initial construction"
+        },
+        {
+          "version": "0.2",
+          "change": "blinded prose remediation; immutable design fields preserved"
+        },
+        {
+          "version": "0.4",
+          "date": "2026-08-12",
+          "author_or_generator_id": "RAER-benchmark-construction-team",
+          "parent_revision_chain_sha256": "b2c634286b65471388c182bbe4a791a75cb48183136fa13cb9d431e6f7e4b854",
+          "change": "label-blind topology permutation, opaque evidence IDs, and evidence display-order permutation"
+        }
+      ],
+      "independent_review_status": "completed_two_synthetic_blinded_reviews_and_blinded_adjudication_v0.4",
+      "canonical_case_sha256": "5bb60fc2f7fd0e185a0b49d908fe494524720a8c2eab15c6940f783d2679ca9b"
+    },
+    {
+      "scenario_id": "RB-HR-15",
+      "author_or_generator_id": "RAER-benchmark-construction-team",
+      "creation_date": "2026-08-12",
+      "domain_rationale": "Tests evidence revalidation for transfer or correct worker record in human resources.",
+      "source_type": "independently_authored_synthetic_scenario",
+      "source_reference_or_synthetic_recipe": "RAER-B96-v0.1 domain-archetype matrix; no operational record or published scenario copied",
+      "license_or_permission_status": "original_project_material",
+      "revision_history": [
+        {
+          "version": "0.1",
+          "change": "initial construction"
+        },
+        {
+          "version": "0.2",
+          "change": "blinded prose remediation; immutable design fields preserved"
+        },
+        {
+          "version": "0.4",
+          "date": "2026-08-12",
+          "author_or_generator_id": "RAER-benchmark-construction-team",
+          "parent_revision_chain_sha256": "b2c634286b65471388c182bbe4a791a75cb48183136fa13cb9d431e6f7e4b854",
+          "change": "label-blind topology permutation, opaque evidence IDs, and evidence display-order permutation"
+        }
+      ],
+      "independent_review_status": "completed_two_synthetic_blinded_reviews_and_blinded_adjudication_v0.4",
+      "canonical_case_sha256": "e01fc84f8af9b31fa3591073d7d75eca2e9ef68729c96914ec48079a32d0ffa8"
+    },
+    {
+      "scenario_id": "RB-HR-16",
+      "author_or_generator_id": "RAER-benchmark-construction-team",
+      "creation_date": "2026-08-12",
+      "domain_rationale": "Tests evidence revalidation for transfer or correct worker record in human resources.",
+      "source_type": "independently_authored_synthetic_scenario",
+      "source_reference_or_synthetic_recipe": "RAER-B96-v0.1 domain-archetype matrix; no operational record or published scenario copied",
+      "license_or_permission_status": "original_project_material",
+      "revision_history": [
+        {
+          "version": "0.1",
+          "change": "initial construction"
+        },
+        {
+          "version": "0.2",
+          "change": "blinded prose remediation; immutable design fields preserved"
+        },
+        {
+          "version": "0.4",
+          "date": "2026-08-12",
+          "author_or_generator_id": "RAER-benchmark-construction-team",
+          "parent_revision_chain_sha256": "b2c634286b65471388c182bbe4a791a75cb48183136fa13cb9d431e6f7e4b854",
+          "change": "label-blind topology permutation, opaque evidence IDs, and evidence display-order permutation"
+        }
+      ],
+      "independent_review_status": "completed_two_synthetic_blinded_reviews_and_blinded_adjudication_v0.4",
+      "canonical_case_sha256": "a3ca033087e59fe16bc61a794da5785a1f30ed14054a0f69cc7838d766c3202c"
+    }
+  ]
+}

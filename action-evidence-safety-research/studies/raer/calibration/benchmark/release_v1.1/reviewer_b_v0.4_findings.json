@@ -1,0 +1,991 @@
+{
+  "review_type": "synthetic_ai_blinded_clarity_review",
+  "reviewer_id": "B",
+  "human_validation": false,
+  "source_version": "candidate_v0.4",
+  "case_count_reviewed": 96,
+  "recommendation": "PASS",
+  "pass_rule_applied": "PASS requires no blocking clarity, leakage, predictability, or pattern issue.",
+  "summary": {
+    "realism": "All cases specify operational scale, affected parties or systems, timing, reversal, durable effects, and governing authority.",
+    "scoreability": "All five rubric dimensions are scoreable from explicit case facts, concrete prerequisites, and visible validation topology.",
+    "ambiguity": "Residual ambiguity is low and does not prevent consistent lower-boundary scoring.",
+    "leakage": "No direct outcome, observed check result, action decision, or hidden-class wording was observed.",
+    "identifier_topology_predictability": "Opaque evidence identifiers do not expose kind, and topology arrangements do not repeat by visible scenario suffix.",
+    "templating": "Some domains retain repeated grammatical frames, but predicates, records, contexts, and checks are substantively case-specific; this is nonblocking."
+  },
+  "blocking_findings": [],
+  "nonblocking_findings": [
+    {
+      "finding_id": "B-V04-STYLE-01",
+      "affected_domains": [
+        "privacy",
+        "commerce",
+        "human_resources"
+      ],
+      "issue": "Evidence prose often reuses Whether/as recorded and Query/Validate/Compare framing; optional copyediting could improve naturalness without changing scoreability."
+    }
+  ],
+  "case_findings": [
+    {
+      "scenario_id": "RB-CYB-01",
+      "realism": "adequate",
+      "scoreability": "adequate",
+      "ambiguity": "low",
+      "direct_leakage": "none_observed",
+      "identifier_topology_predictability": "none_observed",
+      "templating": "low",
+      "blocking_issue": false
+    },
+    {
+      "scenario_id": "RB-CYB-02",
+      "realism": "adequate",
+      "scoreability": "adequate",
+      "ambiguity": "low",
+      "direct_leakage": "none_observed",
+      "identifier_topology_predictability": "none_observed",
+      "templating": "low",
+      "blocking_issue": false
+    },
+    {
+      "scenario_id": "RB-CYB-03",
+      "realism": "adequate",
+      "scoreability": "adequate",
+      "ambiguity": "low",
+      "direct_leakage": "none_observed",
+      "identifier_topology_predictability": "none_observed",
+      "templating": "low",
+      "blocking_issue": false
+    },
+    {
+      "scenario_id": "RB-CYB-04",
+      "realism": "adequate",
+      "scoreability": "adequate",
+      "ambiguity": "low",
+      "direct_leakage": "none_observed",
+      "identifier_topology_predictability": "none_observed",
+      "templating": "low",
+      "blocking_issue": false
+    },
+    {
+      "scenario_id": "RB-CYB-05",
+      "realism": "adequate",
+      "scoreability": "adequate",
+      "ambiguity": "low",
+      "direct_leakage": "none_observed",
+      "identifier_topology_predictability": "none_observed",
+      "templating": "low",
+      "blocking_issue": false
+    },
+    {
+      "scenario_id": "RB-CYB-06",
+      "realism": "adequate",
+      "scoreability": "adequate",
+      "ambiguity": "low",
+      "direct_leakage": "none_observed",
+      "identifier_topology_predictability": "none_observed",
+      "templating": "low",
+      "blocking_issue": false
+    },
+    {
+      "scenario_id": "RB-CYB-07",
+      "realism": "adequate",
+      "scoreability": "adequate",
+      "ambiguity": "low",
+      "direct_leakage": "none_observed",
+      "identifier_topology_predictability": "none_observed",
+      "templating": "low",
+      "blocking_issue": false
+    },
+    {
+      "scenario_id": "RB-CYB-08",
+      "realism": "adequate",
+      "scoreability": "adequate",
+      "ambiguity": "low",
+      "direct_leakage": "none_observed",
+      "identifier_topology_predictability": "none_observed",
+      "templating": "low",
+      "blocking_issue": false
+    },
+    {
+      "scenario_id": "RB-CYB-09",
+      "realism": "adequate",
+      "scoreability": "adequate",
+      "ambiguity": "low",
+      "direct_leakage": "none_observed",
+      "identifier_topology_predictability": "none_observed",
+      "templating": "low",
+      "blocking_issue": false
+    },
+    {
+      "scenario_id": "RB-CYB-10",
+      "realism": "adequate",
+      "scoreability": "adequate",
+      "ambiguity": "low",
+      "direct_leakage": "none_observed",
+      "identifier_topology_predictability": "none_observed",
+      "templating": "low",
+      "blocking_issue": false
+    },
+    {
+      "scenario_id": "RB-CYB-11",
+      "realism": "adequate",
+      "scoreability": "adequate",
+      "ambiguity": "low",
+      "direct_leakage": "none_observed",
+      "identifier_topology_predictability": "none_observed",
+      "templating": "low",
+      "blocking_issue": false
+    },
+    {
+      "scenario_id": "RB-CYB-12",
+      "realism": "adequate",
+      "scoreability": "adequate",
+      "ambiguity": "low",
+      "direct_leakage": "none_observed",
+      "identifier_topology_predictability": "none_observed",
+      "templating": "low",
+      "blocking_issue": false
+    },
+    {
+      "scenario_id": "RB-CYB-13",
+      "realism": "adequate",
+      "scoreability": "adequate",
+      "ambiguity": "low",
+      "direct_leakage": "none_observed",
+      "identifier_topology_predictability": "none_observed",
+      "templating": "low",
+      "blocking_issue": false
+    },
+    {
+      "scenario_id": "RB-CYB-14",
+      "realism": "adequate",
+      "scoreability": "adequate",
+      "ambiguity": "low",
+      "direct_leakage": "none_observed",
+      "identifier_topology_predictability": "none_observed",
+      "templating": "low",
+      "blocking_issue": false
+    },
+    {
+      "scenario_id": "RB-CYB-15",
+      "realism": "adequate",
+      "scoreability": "adequate",
+      "ambiguity": "low",
+      "direct_leakage": "none_observed",
+      "identifier_topology_predictability": "none_observed",
+      "templating": "low",
+      "blocking_issue": false
+    },
+    {
+      "scenario_id": "RB-CYB-16",
+      "realism": "adequate",
+      "scoreability": "adequate",
+      "ambiguity": "low",
+      "direct_leakage": "none_observed",
+      "identifier_topology_predictability": "none_observed",
+      "templating": "low",
+      "blocking_issue": false
+    },
+    {
+      "scenario_id": "RB-FIN-01",
+      "realism": "adequate",
+      "scoreability": "adequate",
+      "ambiguity": "low",
+      "direct_leakage": "none_observed",
+      "identifier_topology_predictability": "none_observed",
+      "templating": "low",
+      "blocking_issue": false
+    },
+    {
+      "scenario_id": "RB-FIN-02",
+      "realism": "adequate",
+      "scoreability": "adequate",
+      "ambiguity": "low",
+      "direct_leakage": "none_observed",
+      "identifier_topology_predictability": "none_observed",
+      "templating": "low",
+      "blocking_issue": false
+    },
+    {
+      "scenario_id": "RB-FIN-03",
+      "realism": "adequate",
+      "scoreability": "adequate",
+      "ambiguity": "low",
+      "direct_leakage": "none_observed",
+      "identifier_topology_predictability": "none_observed",
+      "templating": "low",
+      "blocking_issue": false
+    },
+    {
+      "scenario_id": "RB-FIN-04",
+      "realism": "adequate",
+      "scoreability": "adequate",
+      "ambiguity": "low",
+      "direct_leakage": "none_observed",
+      "identifier_topology_predictability": "none_observed",
+      "templating": "low",
+      "blocking_issue": false
+    },
+    {
+      "scenario_id": "RB-FIN-05",
+      "realism": "adequate",
+      "scoreability": "adequate",
+      "ambiguity": "low",
+      "direct_leakage": "none_observed",
+      "identifier_topology_predictability": "none_observed",
+      "templating": "low",
+      "blocking_issue": false
+    },
+    {
+      "scenario_id": "RB-FIN-06",
+      "realism": "adequate",
+      "scoreability": "adequate",
+      "ambiguity": "low",
+      "direct_leakage": "none_observed",
+      "identifier_topology_predictability": "none_observed",
+      "templating": "low",
+      "blocking_issue": false
+    },
+    {
+      "scenario_id": "RB-FIN-07",
+      "realism": "adequate",
+      "scoreability": "adequate",
+      "ambiguity": "low",
+      "direct_leakage": "none_observed",
+      "identifier_topology_predictability": "none_observed",
+      "templating": "low",
+      "blocking_issue": false
+    },
+    {
+      "scenario_id": "RB-FIN-08",
+      "realism": "adequate",
+      "scoreability": "adequate",
+      "ambiguity": "low",
+      "direct_leakage": "none_observed",
+      "identifier_topology_predictability": "none_observed",
+      "templating": "low",
+      "blocking_issue": false
+    },
+    {
+      "scenario_id": "RB-FIN-09",
+      "realism": "adequate",
+      "scoreability": "adequate",
+      "ambiguity": "low",
+      "direct_leakage": "none_observed",
+      "identifier_topology_predictability": "none_observed",
+      "templating": "low",
+      "blocking_issue": false
+    },
+    {
+      "scenario_id": "RB-FIN-10",
+      "realism": "adequate",
+      "scoreability": "adequate",
+      "ambiguity": "low",
+      "direct_leakage": "none_observed",
+      "identifier_topology_predictability": "none_observed",
+      "templating": "low",
+      "blocking_issue": false
+    },
+    {
+      "scenario_id": "RB-FIN-11",
+      "realism": "adequate",
+      "scoreability": "adequate",
+      "ambiguity": "low",
+      "direct_leakage": "none_observed",
+      "identifier_topology_predictability": "none_observed",
+      "templating": "low",
+      "blocking_issue": false
+    },
+    {
+      "scenario_id": "RB-FIN-12",
+      "realism": "adequate",
+      "scoreability": "adequate",
+      "ambiguity": "low",
+      "direct_leakage": "none_observed",
+      "identifier_topology_predictability": "none_observed",
+      "templating": "low",
+      "blocking_issue": false
+    },
+    {
+      "scenario_id": "RB-FIN-13",
+      "realism": "adequate",
+      "scoreability": "adequate",
+      "ambiguity": "low",
+      "direct_leakage": "none_observed",
+      "identifier_topology_predictability": "none_observed",
+      "templating": "low",
+      "blocking_issue": false
+    },
+    {
+      "scenario_id": "RB-FIN-14",
+      "realism": "adequate",
+      "scoreability": "adequate",
+      "ambiguity": "low",
+      "direct_leakage": "none_observed",
+      "identifier_topology_predictability": "none_observed",
+      "templating": "low",
+      "blocking_issue": false
+    },
+    {
+      "scenario_id": "RB-FIN-15",
+      "realism": "adequate",
+      "scoreability": "adequate",
+      "ambiguity": "low",
+      "direct_leakage": "none_observed",
+      "identifier_topology_predictability": "none_observed",
+      "templating": "low",
+      "blocking_issue": false
+    },
+    {
+      "scenario_id": "RB-FIN-16",
+      "realism": "adequate",
+      "scoreability": "adequate",
+      "ambiguity": "low",
+      "direct_leakage": "none_observed",
+      "identifier_topology_predictability": "none_observed",
+      "templating": "low",
+      "blocking_issue": false
+    },
+    {
+      "scenario_id": "RB-HCA-01",
+      "realism": "adequate",
+      "scoreability": "adequate",
+      "ambiguity": "low",
+      "direct_leakage": "none_observed",
+      "identifier_topology_predictability": "none_observed",
+      "templating": "low",
+      "blocking_issue": false
+    },
+    {
+      "scenario_id": "RB-HCA-02",
+      "realism": "adequate",
+      "scoreability": "adequate",
+      "ambiguity": "low",
+      "direct_leakage": "none_observed",
+      "identifier_topology_predictability": "none_observed",
+      "templating": "low",
+      "blocking_issue": false
+    },
+    {
+      "scenario_id": "RB-HCA-03",
+      "realism": "adequate",
+      "scoreability": "adequate",
+      "ambiguity": "low",
+      "direct_leakage": "none_observed",
+      "identifier_topology_predictability": "none_observed",
+      "templating": "low",
+      "blocking_issue": false
+    },
+    {
+      "scenario_id": "RB-HCA-04",
+      "realism": "adequate",
+      "scoreability": "adequate",
+      "ambiguity": "low",
+      "direct_leakage": "none_observed",
+      "identifier_topology_predictability": "none_observed",
+      "templating": "low",
+      "blocking_issue": false
+    },
+    {
+      "scenario_id": "RB-HCA-05",
+      "realism": "adequate",
+      "scoreability": "adequate",
+      "ambiguity": "low",
+      "direct_leakage": "none_observed",
+      "identifier_topology_predictability": "none_observed",
+      "templating": "low",
+      "blocking_issue": false
+    },
+    {
+      "scenario_id": "RB-HCA-06",
+      "realism": "adequate",
+      "scoreability": "adequate",
+      "ambiguity": "low",
+      "direct_leakage": "none_observed",
+      "identifier_topology_predictability": "none_observed",
+      "templating": "low",
+      "blocking_issue": false
+    },
+    {
+      "scenario_id": "RB-HCA-07",
+      "realism": "adequate",
+      "scoreability": "adequate",
+      "ambiguity": "low",
+      "direct_leakage": "none_observed",
+      "identifier_topology_predictability": "none_observed",
+      "templating": "low",
+      "blocking_issue": false
+    },
+    {
+      "scenario_id": "RB-HCA-08",
+      "realism": "adequate",
+      "scoreability": "adequate",
+      "ambiguity": "low",
+      "direct_leakage": "none_observed",
+      "identifier_topology_predictability": "none_observed",
+      "templating": "low",
+      "blocking_issue": false
+    },
+    {
+      "scenario_id": "RB-HCA-09",
+      "realism": "adequate",
+      "scoreability": "adequate",
+      "ambiguity": "low",
+      "direct_leakage": "none_observed",
+      "identifier_topology_predictability": "none_observed",
+      "templating": "low",
+      "blocking_issue": false
+    },
+    {
+      "scenario_id": "RB-HCA-10",
+      "realism": "adequate",
+      "scoreability": "adequate",
+      "ambiguity": "low",
+      "direct_leakage": "none_observed",
+      "identifier_topology_predictability": "none_observed",
+      "templating": "low",
+      "blocking_issue": false
+    },
+    {
+      "scenario_id": "RB-HCA-11",
+      "realism": "adequate",
+      "scoreability": "adequate",
+      "ambiguity": "low",
+      "direct_leakage": "none_observed",
+      "identifier_topology_predictability": "none_observed",
+      "templating": "low",
+      "blocking_issue": false
+    },
+    {
+      "scenario_id": "RB-HCA-12",
+      "realism": "adequate",
+      "scoreability": "adequate",
+      "ambiguity": "low",
+      "direct_leakage": "none_observed",
+      "identifier_topology_predictability": "none_observed",
+      "templating": "low",
+      "blocking_issue": false
+    },
+    {
+      "scenario_id": "RB-HCA-13",
+      "realism": "adequate",
+      "scoreability": "adequate",
+      "ambiguity": "low",
+      "direct_leakage": "none_observed",
+      "identifier_topology_predictability": "none_observed",
+      "templating": "low",
+      "blocking_issue": false
+    },
+    {
+      "scenario_id": "RB-HCA-14",
+      "realism": "adequate",
+      "scoreability": "adequate",
+      "ambiguity": "low",
+      "direct_leakage": "none_observed",
+      "identifier_topology_predictability": "none_observed",
+      "templating": "low",
+      "blocking_issue": false
+    },
+    {
+      "scenario_id": "RB-HCA-15",
+      "realism": "adequate",
+      "scoreability": "adequate",
+      "ambiguity": "low",
+      "direct_leakage": "none_observed",
+      "identifier_topology_predictability": "none_observed",
+      "templating": "low",
+      "blocking_issue": false
+    },
+    {
+      "scenario_id": "RB-HCA-16",
+      "realism": "adequate",
+      "scoreability": "adequate",
+      "ambiguity": "low",
+      "direct_leakage": "none_observed",
+      "identifier_topology_predictability": "none_observed",
+      "templating": "low",
+      "blocking_issue": false
+    },
+    {
+      "scenario_id": "RB-PRI-01",
+      "realism": "adequate",
+      "scoreability": "adequate",
+      "ambiguity": "low",
+      "direct_leakage": "none_observed",
+      "identifier_topology_predictability": "none_observed",
+      "templating": "minor_repeated_sentence_frame",
+      "blocking_issue": false
+    },
+    {
+      "scenario_id": "RB-PRI-02",
+      "realism": "adequate",
+      "scoreability": "adequate",
+      "ambiguity": "low",
+      "direct_leakage": "none_observed",
+      "identifier_topology_predictability": "none_observed",
+      "templating": "minor_repeated_sentence_frame",
+      "blocking_issue": false
+    },
+    {
+      "scenario_id": "RB-PRI-03",
+      "realism": "adequate",
+      "scoreability": "adequate",
+      "ambiguity": "low",
+      "direct_leakage": "none_observed",
+      "identifier_topology_predictability": "none_observed",
+      "templating": "minor_repeated_sentence_frame",
+      "blocking_issue": false
+    },
+    {
+      "scenario_id": "RB-PRI-04",
+      "realism": "adequate",
+      "scoreability": "adequate",
+      "ambiguity": "low",
+      "direct_leakage": "none_observed",
+      "identifier_topology_predictability": "none_observed",
+      "templating": "minor_repeated_sentence_frame",
+      "blocking_issue": false
+    },
+    {
+      "scenario_id": "RB-PRI-05",
+      "realism": "adequate",
+      "scoreability": "adequate",
+      "ambiguity": "low",
+      "direct_leakage": "none_observed",
+      "identifier_topology_predictability": "none_observed",
+      "templating": "minor_repeated_sentence_frame",
+      "blocking_issue": false
+    },
+    {
+      "scenario_id": "RB-PRI-06",
+      "realism": "adequate",
+      "scoreability": "adequate",
+      "ambiguity": "low",
+      "direct_leakage": "none_observed",
+      "identifier_topology_predictability": "none_observed",
+      "templating": "minor_repeated_sentence_frame",
+      "blocking_issue": false
+    },
+    {
+      "scenario_id": "RB-PRI-07",
+      "realism": "adequate",
+      "scoreability": "adequate",
+      "ambiguity": "low",
+      "direct_leakage": "none_observed",
+      "identifier_topology_predictability": "none_observed",
+      "templating": "minor_repeated_sentence_frame",
+      "blocking_issue": false
+    },
+    {
+      "scenario_id": "RB-PRI-08",
+      "realism": "adequate",
+      "scoreability": "adequate",
+      "ambiguity": "low",
+      "direct_leakage": "none_observed",
+      "identifier_topology_predictability": "none_observed",
+      "templating": "minor_repeated_sentence_frame",
+      "blocking_issue": false
+    },
+    {
+      "scenario_id": "RB-PRI-09",
+      "realism": "adequate",
+      "scoreability": "adequate",
+      "ambiguity": "low",
+      "direct_leakage": "none_observed",
+      "identifier_topology_predictability": "none_observed",
+      "templating": "minor_repeated_sentence_frame",
+      "blocking_issue": false
+    },
+    {
+      "scenario_id": "RB-PRI-10",
+      "realism": "adequate",
+      "scoreability": "adequate",
+      "ambiguity": "low",
+      "direct_leakage": "none_observed",
+      "identifier_topology_predictability": "none_observed",
+      "templating": "minor_repeated_sentence_frame",
+      "blocking_issue": false
+    },
+    {
+      "scenario_id": "RB-PRI-11",
+      "realism": "adequate",
+      "scoreability": "adequate",
+      "ambiguity": "low",
+      "direct_leakage": "none_observed",
+      "identifier_topology_predictability": "none_observed",
+      "templating": "minor_repeated_sentence_frame",
+      "blocking_issue": false
+    },
+    {
+      "scenario_id": "RB-PRI-12",
+      "realism": "adequate",
+      "scoreability": "adequate",
+      "ambiguity": "low",
+      "direct_leakage": "none_observed",
+      "identifier_topology_predictability": "none_observed",
+      "templating": "minor_repeated_sentence_frame",
+      "blocking_issue": false
+    },
+    {
+      "scenario_id": "RB-PRI-13",
+      "realism": "adequate",
+      "scoreability": "adequate",
+      "ambiguity": "low",
+      "direct_leakage": "none_observed",
+      "identifier_topology_predictability": "none_observed",
+      "templating": "minor_repeated_sentence_frame",
+      "blocking_issue": false
+    },
+    {
+      "scenario_id": "RB-PRI-14",
+      "realism": "adequate",
+      "scoreability": "adequate",
+      "ambiguity": "low",
+      "direct_leakage": "none_observed",
+      "identifier_topology_predictability": "none_observed",
+      "templating": "minor_repeated_sentence_frame",
+      "blocking_issue": false
+    },
+    {
+      "scenario_id": "RB-PRI-15",
+      "realism": "adequate",
+      "scoreability": "adequate",
+      "ambiguity": "low",
+      "direct_leakage": "none_observed",
+      "identifier_topology_predictability": "none_observed",
+      "templating": "minor_repeated_sentence_frame",
+      "blocking_issue": false
+    },
+    {
+      "scenario_id": "RB-PRI-16",
+      "realism": "adequate",
+      "scoreability": "adequate",
+      "ambiguity": "low",
+      "direct_leakage": "none_observed",
+      "identifier_topology_predictability": "none_observed",
+      "templating": "minor_repeated_sentence_frame",
+      "blocking_issue": false
+    },
+    {
+      "scenario_id": "RB-COM-01",
+      "realism": "adequate",
+      "scoreability": "adequate",
+      "ambiguity": "low",
+      "direct_leakage": "none_observed",
+      "identifier_topology_predictability": "none_observed",
+      "templating": "minor_repeated_sentence_frame",
+      "blocking_issue": false
+    },
+    {
+      "scenario_id": "RB-COM-02",
+      "realism": "adequate",
+      "scoreability": "adequate",
+      "ambiguity": "low",
+      "direct_leakage": "none_observed",
+      "identifier_topology_predictability": "none_observed",
+      "templating": "minor_repeated_sentence_frame",
+      "blocking_issue": false
+    },
+    {
+      "scenario_id": "RB-COM-03",
+      "realism": "adequate",
+      "scoreability": "adequate",
+      "ambiguity": "low",
+      "direct_leakage": "none_observed",
+      "identifier_topology_predictability": "none_observed",
+      "templating": "minor_repeated_sentence_frame",
+      "blocking_issue": false
+    },
+    {
+      "scenario_id": "RB-COM-04",
+      "realism": "adequate",
+      "scoreability": "adequate",
+      "ambiguity": "low",
+      "direct_leakage": "none_observed",
+      "identifier_topology_predictability": "none_observed",
+      "templating": "minor_repeated_sentence_frame",
+      "blocking_issue": false
+    },
+    {
+      "scenario_id": "RB-COM-05",
+      "realism": "adequate",
+      "scoreability": "adequate",
+      "ambiguity": "low",
+      "direct_leakage": "none_observed",
+      "identifier_topology_predictability": "none_observed",
+      "templating": "minor_repeated_sentence_frame",
+      "blocking_issue": false
+    },
+    {
+      "scenario_id": "RB-COM-06",
+      "realism": "adequate",
+      "scoreability": "adequate",
+      "ambiguity": "low",
+      "direct_leakage": "none_observed",
+      "identifier_topology_predictability": "none_observed",
+      "templating": "minor_repeated_sentence_frame",
+      "blocking_issue": false
+    },
+    {
+      "scenario_id": "RB-COM-07",
+      "realism": "adequate",
+      "scoreability": "adequate",
+      "ambiguity": "low",
+      "direct_leakage": "none_observed",
+      "identifier_topology_predictability": "none_observed",
+      "templating": "minor_repeated_sentence_frame",
+      "blocking_issue": false
+    },
+    {
+      "scenario_id": "RB-COM-08",
+      "realism": "adequate",
+      "scoreability": "adequate",
+      "ambiguity": "low",
+      "direct_leakage": "none_observed",
+      "identifier_topology_predictability": "none_observed",
+      "templating": "minor_repeated_sentence_frame",
+      "blocking_issue": false
+    },
+    {
+      "scenario_id": "RB-COM-09",
+      "realism": "adequate",
+      "scoreability": "adequate",
+      "ambiguity": "low",
+      "direct_leakage": "none_observed",
+      "identifier_topology_predictability": "none_observed",
+      "templating": "minor_repeated_sentence_frame",
+      "blocking_issue": false
+    },
+    {
+      "scenario_id": "RB-COM-10",
+      "realism": "adequate",
+      "scoreability": "adequate",
+      "ambiguity": "low",
+      "direct_leakage": "none_observed",
+      "identifier_topology_predictability": "none_observed",
+      "templating": "minor_repeated_sentence_frame",
+      "blocking_issue": false
+    },
+    {
+      "scenario_id": "RB-COM-11",
+      "realism": "adequate",
+      "scoreability": "adequate",
+      "ambiguity": "low",
+      "direct_leakage": "none_observed",
+      "identifier_topology_predictability": "none_observed",
+      "templating": "minor_repeated_sentence_frame",
+      "blocking_issue": false
+    },
+    {
+      "scenario_id": "RB-COM-12",
+      "realism": "adequate",
+      "scoreability": "adequate",
+      "ambiguity": "low",
+      "direct_leakage": "none_observed",
+      "identifier_topology_predictability": "none_observed",
+      "templating": "minor_repeated_sentence_frame",
+      "blocking_issue": false
+    },
+    {
+      "scenario_id": "RB-COM-13",
+      "realism": "adequate",
+      "scoreability": "adequate",
+      "ambiguity": "low",
+      "direct_leakage": "none_observed",
+      "identifier_topology_predictability": "none_observed",
+      "templating": "minor_repeated_sentence_frame",
+      "blocking_issue": false
+    },
+    {
+      "scenario_id": "RB-COM-14",
+      "realism": "adequate",
+      "scoreability": "adequate",
+      "ambiguity": "low",
+      "direct_leakage": "none_observed",
+      "identifier_topology_predictability": "none_observed",
+      "templating": "minor_repeated_sentence_frame",
+      "blocking_issue": false
+    },
+    {
+      "scenario_id": "RB-COM-15",
+      "realism": "adequate",
+      "scoreability": "adequate",
+      "ambiguity": "low",
+      "direct_leakage": "none_observed",
+      "identifier_topology_predictability": "none_observed",
+      "templating": "minor_repeated_sentence_frame",
+      "blocking_issue": false
+    },
+    {
+      "scenario_id": "RB-COM-16",
+      "realism": "adequate",
+      "scoreability": "adequate",
+      "ambiguity": "low",
+      "direct_leakage": "none_observed",
+      "identifier_topology_predictability": "none_observed",
+      "templating": "minor_repeated_sentence_frame",
+      "blocking_issue": false
+    },
+    {
+      "scenario_id": "RB-HR-01",
+      "realism": "adequate",
+      "scoreability": "adequate",
+      "ambiguity": "low",
+      "direct_leakage": "none_observed",
+      "identifier_topology_predictability": "none_observed",
+      "templating": "minor_repeated_sentence_frame",
+      "blocking_issue": false
+    },
+    {
+      "scenario_id": "RB-HR-02",
+      "realism": "adequate",
+      "scoreability": "adequate",
+      "ambiguity": "low",
+      "direct_leakage": "none_observed",
+      "identifier_topology_predictability": "none_observed",
+      "templating": "minor_repeated_sentence_frame",
+      "blocking_issue": false
+    },
+    {
+      "scenario_id": "RB-HR-03",
+      "realism": "adequate",
+      "scoreability": "adequate",
+      "ambiguity": "low",
+      "direct_leakage": "none_observed",
+      "identifier_topology_predictability": "none_observed",
+      "templating": "minor_repeated_sentence_frame",
+      "blocking_issue": false
+    },
+    {
+      "scenario_id": "RB-HR-04",
+      "realism": "adequate",
+      "scoreability": "adequate",
+      "ambiguity": "low",
+      "direct_leakage": "none_observed",
+      "identifier_topology_predictability": "none_observed",
+      "templating": "minor_repeated_sentence_frame",
+      "blocking_issue": false
+    },
+    {
+      "scenario_id": "RB-HR-05",
+      "realism": "adequate",
+      "scoreability": "adequate",
+      "ambiguity": "low",
+      "direct_leakage": "none_observed",
+      "identifier_topology_predictability": "none_observed",
+      "templating": "minor_repeated_sentence_frame",
+      "blocking_issue": false
+    },
+    {
+      "scenario_id": "RB-HR-06",
+      "realism": "adequate",
+      "scoreability": "adequate",
+      "ambiguity": "low",
+      "direct_leakage": "none_observed",
+      "identifier_topology_predictability": "none_observed",
+      "templating": "minor_repeated_sentence_frame",
+      "blocking_issue": false
+    },
+    {
+      "scenario_id": "RB-HR-07",
+      "realism": "adequate",
+      "scoreability": "adequate",
+      "ambiguity": "low",
+      "direct_leakage": "none_observed",
+      "identifier_topology_predictability": "none_observed",
+      "templating": "minor_repeated_sentence_frame",
+      "blocking_issue": false
+    },
+    {
+      "scenario_id": "RB-HR-08",
+      "realism": "adequate",
+      "scoreability": "adequate",
+      "ambiguity": "low",
+      "direct_leakage": "none_observed",
+      "identifier_topology_predictability": "none_observed",
+      "templating": "minor_repeated_sentence_frame",
+      "blocking_issue": false
+    },
+    {
+      "scenario_id": "RB-HR-09",
+      "realism": "adequate",
+      "scoreability": "adequate",
+      "ambiguity": "low",
+      "direct_leakage": "none_observed",
+      "identifier_topology_predictability": "none_observed",
+      "templating": "minor_repeated_sentence_frame",
+      "blocking_issue": false
+    },
+    {
+      "scenario_id": "RB-HR-10",
+      "realism": "adequate",
+      "scoreability": "adequate",
+      "ambiguity": "low",
+      "direct_leakage": "none_observed",
+      "identifier_topology_predictability": "none_observed",
+      "templating": "minor_repeated_sentence_frame",
+      "blocking_issue": false
+    },
+    {
+      "scenario_id": "RB-HR-11",
+      "realism": "adequate",
+      "scoreability": "adequate",
+      "ambiguity": "low",
+      "direct_leakage": "none_observed",
+      "identifier_topology_predictability": "none_observed",
+      "templating": "minor_repeated_sentence_frame",
+      "blocking_issue": false
+    },
+    {
+      "scenario_id": "RB-HR-12",
+      "realism": "adequate",
+      "scoreability": "adequate",
+      "ambiguity": "low",
+      "direct_leakage": "none_observed",
+      "identifier_topology_predictability": "none_observed",
+      "templating": "minor_repeated_sentence_frame",
+      "blocking_issue": false
+    },
+    {
+      "scenario_id": "RB-HR-13",
+      "realism": "adequate",
+      "scoreability": "adequate",
+      "ambiguity": "low",
+      "direct_leakage": "none_observed",
+      "identifier_topology_predictability": "none_observed",
+      "templating": "minor_repeated_sentence_frame",
+      "blocking_issue": false
+    },
+    {
+      "scenario_id": "RB-HR-14",
+      "realism": "adequate",
+      "scoreability": "adequate",
+      "ambiguity": "low",
+      "direct_leakage": "none_observed",
+      "identifier_topology_predictability": "none_observed",
+      "templating": "minor_repeated_sentence_frame",
+      "blocking_issue": false
+    },
+    {
+      "scenario_id": "RB-HR-15",
+      "realism": "adequate",
+      "scoreability": "adequate",
+      "ambiguity": "low",
+      "direct_leakage": "none_observed",
+      "identifier_topology_predictability": "none_observed",
+      "templating": "minor_repeated_sentence_frame",
+      "blocking_issue": false
+    },
+    {
+      "scenario_id": "RB-HR-16",
+      "realism": "adequate",
+      "scoreability": "adequate",
+      "ambiguity": "low",
+      "direct_leakage": "none_observed",
+      "identifier_topology_predictability": "none_observed",
+      "templating": "minor_repeated_sentence_frame",
+      "blocking_issue": false
+    }
+  ]
+}

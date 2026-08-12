@@ -1,0 +1,66 @@
+{
+  "specification_id": "RAER-V2-METHOD-SPECIFICATION-1.0",
+  "status": "PROSPECTIVE_BEFORE_V2_POLICY_RESULTS",
+  "effective_date": "2026-08-12",
+  "motivation": "RAER v1 reduced harmful actions and validation cost relative to FIXED_0.20 on validation but failed its safe-completion constraint because a hard residual-risk threshold caused unnecessary abstention.",
+  "research_contribution": "An abstention-aware, authorization-sensitive, budgeted evidence-revalidation objective with controlled budget-boundary slack.",
+  "unchanged_components": {
+    "invalidity_estimator": "E0 fixed monotone logistic estimator from the frozen v1 calibration",
+    "action_harm": "h=(C/5)*(0.5+0.5*(I-1)/4)",
+    "criticality_weight": "w_i=W_i/5",
+    "validation_cost": "c_i=K_i/5",
+    "verifier_error_floor": 0.01,
+    "correlation_uplift": 0.20,
+    "subset_solver": "exact enumeration with deterministic tie breaking"
+  },
+  "expected_loss_objective": {
+    "configuration": "theta=(lambda_A,lambda_C,delta,theta_auth), with lambda_H=1 and lambda_slack=1 fixed",
+    "valid_check_branch": "For candidate subset S, set q_i'=0.01 for i in S and q_i'=q_i otherwise.",
+    "residual_harm": "R(S)=h*[1-product_i(1-q_i'*w_i)]+the frozen correlated-prerequisite uplift, capped at h.",
+    "safe_probability_proxy": "P_safe(S)=product_i(1-q_i'). This is a pre-outcome model quantity, not an observed label.",
+    "act_loss": "L_act(S)=lambda_H*R(S)",
+    "abstention_loss": "L_abstain(S)=lambda_A*P_safe(S)",
+    "decision_after_all_selected_checks_are_valid": "ACT when L_act(S)<=L_abstain(S); otherwise ABSTAIN.",
+    "objective": "J(S)=lambda_C*sum_{i in S}c_i+lambda_slack*max(0,sum_{i in S}c_i-B)+min[L_act(S),L_abstain(S)].",
+    "selection": "Choose the feasible subset minimizing J; ties are resolved by lower total cost, lower residual harm, fewer checks, then lexicographic evidence IDs.",
+    "observed_invalid_check": "If any selected prerequisite is invalid, ASK when any detected invalid item is authorization evidence; otherwise REFRESH. This overrides the planned ACT/ABSTAIN decision."
+  },
+  "budget_rule": {
+    "constraint": "sum c_i <= B+delta",
+    "candidate_delta": [0.0, 0.05],
+    "maximum_allowed_slack_per_case": 0.05,
+    "slack_penalty": 1.0,
+    "interpretation": "The 0.05 allowance addresses fractional boundary mismatch only; it does not permit the cost of another full K unit.",
+    "reporting": ["positive-slack case rate", "mean slack over all cases", "maximum slack", "outcomes dependent on slack"]
+  },
+  "authorization_safeguard": {
+    "trigger": "authorization sensitivity S>=4 and q_i*w_i>=theta_auth for an authorization prerequisite",
+    "candidate_theta_auth": [0.08, 0.12],
+    "required_behavior": "Every triggered authorization prerequisite must be included in S.",
+    "infeasible_behavior": "If the required authorization set cannot fit within B+delta, the policy must ABSTAIN; it may not silently omit the safeguard.",
+    "gate_metric": "harmful actions caused by an unchecked triggered authorization prerequisite"
+  },
+  "safe_completion_constraint": {
+    "level": "aggregate out-of-fold design gate, not case-label access during evidence selection",
+    "rule": "RAER v2 safe completion on all-valid cases must be within 0.05 of the best registered comparator.",
+    "selection_eligibility": "A configuration is eligible on inner design data only when it satisfies the safe-completion rule, has harmful-action rate no worse than FIXED_0.20, has zero triggered-authorization harmful actions, positive-slack use rate <=0.25, mean slack <=0.025, and maximum slack <=0.05."
+  },
+  "candidate_grid": {
+    "lambda_H": [1.0],
+    "lambda_A": [0.25, 0.5, 0.75, 1.0, 1.5],
+    "lambda_C": [0.02, 0.05, 0.1, 0.2],
+    "delta": [0.0, 0.05],
+    "theta_auth": [0.08, 0.12],
+    "lambda_slack": [1.0],
+    "configuration_count": 80
+  },
+  "policy_comparators": ["STATIC", "CONTRACT_ONLY", "FIXED_0.10", "FIXED_0.20", "FIXED_0.35", "FIXED_0.50", "ALWAYS_REFRESH", "RAER_V1"],
+  "ablation_variants": ["V2_NO_ABSTENTION_LOSS", "V2_NO_AUTHORIZATION_SAFEGUARD", "V2_NO_SLACK", "V2_NO_CORRELATION_UPLIFT"],
+  "prohibitions": [
+    "No held-out labels during formulation, implementation, design selection, or design gate analysis",
+    "No E0 coefficient refitting",
+    "No alteration of v1 case text, labels, reviewer scores, or partitions",
+    "No post-result expansion of the candidate grid",
+    "No relabelling of the exposed 72 cases as confirmatory evidence"
+  ]
+}

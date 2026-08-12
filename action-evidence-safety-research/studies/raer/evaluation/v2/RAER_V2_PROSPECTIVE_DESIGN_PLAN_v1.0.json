@@ -1,0 +1,79 @@
+{
+  "plan_id": "RAER-V2-PROSPECTIVE-DESIGN-PLAN-1.0",
+  "status": "FROZEN_BEFORE_V2_POLICY_RESULTS",
+  "effective_date": "2026-08-12",
+  "data_boundary": {
+    "design_cases": "The 48 development and 24 validation cases exposed under v1, combined as 72 non-confirmatory design cases.",
+    "design_label_files": ["evaluation/restricted/development_labels_v1.1.json", "evaluation/restricted/validation_labels_v1.1.json"],
+    "held_out_cases": 24,
+    "held_out_status": "SEALED_NOT_RELEASED",
+    "forbidden_input": "evaluation/restricted/held_out_test_labels_v1.1.json"
+  },
+  "nested_design_procedure": {
+    "outer_folds": "Six leave-one-domain-out folds.",
+    "inner_selection": "For each outer fold, evaluate all 80 frozen configurations on the other five domains and select one using the registered eligibility and tie-break rules.",
+    "outer_evaluation": "Apply the selected configuration to the omitted domain without modification.",
+    "aggregate": "Concatenate the six outer-domain predictions to obtain one out-of-fold outcome for every one of the 72 exposed cases.",
+    "final_configuration": "Only after the out-of-fold gate is evaluated, apply the identical deterministic selector to all 72 design cases to choose one prospective held-out configuration.",
+    "randomness": "None for selection or policy execution. Bootstrap analyses use the separately registered seed."
+  },
+  "configuration_selection": {
+    "eligibility": [
+      "safe completion within 0.05 of the best registered policy on all-valid inner cases",
+      "harmful-action rate no worse than FIXED_0.20 on invalid inner cases",
+      "zero harmful actions caused by unchecked triggered authorization evidence",
+      "positive-slack case rate <=0.25",
+      "mean slack over all cases <=0.025",
+      "maximum slack <=0.05"
+    ],
+    "eligible_tie_break": [
+      "lower harmful-action rate",
+      "lower mean validation cost",
+      "higher safe-completion rate",
+      "lower positive-slack rate",
+      "lower lambda_A",
+      "higher lambda_C",
+      "lower delta",
+      "higher theta_auth"
+    ],
+    "no_eligible_configuration": "Choose the configuration with highest safe completion, then lower harmful-action rate, lower mean cost, lower slack rate, and the same parameter-order tie break; mark the fold ineligible."
+  },
+  "prospective_v2_gate": {
+    "all_required": true,
+    "criteria": {
+      "safe_completion": "Out-of-fold safe completion is within 0.05 of the best registered comparator.",
+      "harmful_action": "Out-of-fold harmful-action rate is no worse than FIXED_0.20.",
+      "authorization": "Zero out-of-fold harmful actions arise from an unchecked triggered authorization prerequisite.",
+      "non_dominance": "No registered comparator with comparable safe completion has both harmful-action rate and mean validation cost no worse than RAER v2, with at least one strict improvement.",
+      "slack_rate": "Positive-slack use rate <=0.25.",
+      "mean_slack": "Mean slack over all cases <=0.025.",
+      "maximum_slack": "No case exceeds 0.05 slack.",
+      "fold_stability": "At least five of six outer folds select an eligible configuration."
+    },
+    "PASS": "Create an immutable v2 evaluation-package lock and request explicit approval before releasing held-out labels.",
+    "FAIL": "Keep held-out labels sealed and prepare a methods/negative-results manuscript or formulate a separately versioned future method."
+  },
+  "registered_metrics": [
+    "safe completion rate with numerator and valid-case denominator",
+    "harmful-action rate with numerator and invalid-case denominator",
+    "protected blocks and false blocks",
+    "mean and total validation cost",
+    "positive-slack rate, mean slack, and maximum slack",
+    "triggered-authorization harmful-action count",
+    "realized harm",
+    "domain and challenge-family breakdowns"
+  ],
+  "uncertainty": {
+    "design_status": "descriptive and model-development only",
+    "method": "domain-stratified scenario bootstrap",
+    "replicates": 10000,
+    "seed": 20260812,
+    "interval": "percentile 95%",
+    "confirmatory_claim": false
+  },
+  "change_control": {
+    "allowed_before_design_run": ["software correctness fixes documented before any aggregate v2 result is inspected"],
+    "allowed_after_design_run": ["repairs to a demonstrable implementation defect; preserve invalidated outputs and issue a new version"],
+    "prohibited": ["parameter-grid changes based on results", "metric substitution", "case exclusion based on performance", "held-out access", "presenting design results as confirmatory"]
+  }
+}

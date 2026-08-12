@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this repository, cite the relevant study and this software record."
+title: "Action Evidence Safety Research"
+type: software
+version: 0.1.0
+date-released: 2026-08-12
+authors:
+  - family-names: "Rasool"
+    given-names: "Shaik Khaja Nayab"
+license: MIT
+abstract: >-
+  A research monorepo for methods, benchmarks, and prospective evaluations of
+  evidence validity, authorization, abstention, and safety before consequential
+  automated actions. The first study is Risk-Adaptive Evidence Revalidation.
+keywords:
+  - evidence revalidation
+  - agent safety
+  - authorization
+  - abstention
+  - tool actions
+  - prospective evaluation
+

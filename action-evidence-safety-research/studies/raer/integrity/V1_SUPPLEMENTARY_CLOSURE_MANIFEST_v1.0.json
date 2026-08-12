@@ -1,0 +1,40 @@
+{
+  "closure_id": "RAER-v1-SUPPLEMENTARY-CLOSURE-1.0",
+  "created_at_utc": "2026-08-12T13:58:00.681849+00:00",
+  "purpose": "Add final workbook and evaluation hashes without mutating the RAER-B96-v1.1 benchmark release lock.",
+  "benchmark_release_lock": {
+    "path": "calibration/benchmark/release_v1.1/BENCHMARK_RELEASE_LOCK_v1.1.json",
+    "sha256": "8c3b68d4d26eabe55dafb8700b945e5fbbafbe9296af8a3b57bc049fdd092325",
+    "mutated": false
+  },
+  "decision": "STOP_PIVOT_BEFORE_HELD_OUT",
+  "held_out_status": "SEALED_NOT_ACCESSED",
+  "held_out_label_release_exists": false,
+  "artifacts": {
+    "output/xlsx/RAER_Benchmark_Reviewer_Transparency_v1.1.xlsx": "e1c04871a51622972e4b7b18fe54f31823f24db2ec2c23b56966cdd1307da028",
+    "output/xlsx/RAER_Benchmark_Coordinator_Master_RESTRICTED_v1.1.xlsx": "65ee09f6e750f3774e510b47d5b397b6a6e8d929748f0064a51e4df7ed00eb26",
+    "evaluation/STATISTICAL_ANALYSIS_PLAN_v1.0.json": "de6c90d16192431515cb636591520863d7951f6cb072e54fa90aa8c08b958922",
+    "evaluation/raer_benchmark.py": "4e7e03511d71cda219834797e58704e1b979cf68b08444288bc4381463f4d290",
+    "evaluation/test_raer_benchmark.py": "a0d7594dd2d390cd64a333b25da69c2f69ad97199940682b4804a0886e027265",
+    "evaluation/evaluate_decision_gate.py": "21937da84904d74cf3102cc5dc866e7410ec48f4dde39530d47831a76dab1c6d",
+    "evaluation/restricted/LABEL_ACCESS_LOG.jsonl": "d377b438e89aaf5a63cbd3263c80c4cfac6364cbcbb5a9282e9dc23175f041d8",
+    "evaluation/restricted/VALIDATION_AUTHORIZATION_v1.0.json": "fd9ad47b1ea13cfaff9367350df04de6061c9399ac43a1368f7fb7c8a5e73f65",
+    "evaluation/restricted/development_labels_v1.1.json": "2729f7269c23bf68da6707646e3a297552fd01c595f19e9eb939dca0887af8b3",
+    "evaluation/restricted/validation_labels_v1.1.json": "81c3788ce59d73630f50b9f513ab9cfec46d4c8fcb67d1aea91792457230ae60",
+    "evaluation/results/development_v1.0/policy_outcomes.csv": "a224603e5478f5c9ab6d0810e06c77286d49fa67a9cfe2f77962c5f01ad90190",
+    "evaluation/results/development_v1.0/policy_summary.csv": "59d06dc6e4f061ede97323dc8ca2bb2850e99d848fffd0ecd374a7f2c0ae4609",
+    "evaluation/results/development_v1.0/run_manifest.json": "1928e522773b0d0b3c614eeebe94d86670640c7f3cab4fc5f19f5fb34f5c28bc",
+    "evaluation/results/development_v1.0/decision_gate.json": "19b793a1885e9dd80de8e7989b78c70aa4f1a4da60b18b94b2699b78680c0dc1",
+    "evaluation/results/validation_v1.0/policy_outcomes.csv": "b0387f4c45cedc8a1c63489af2e41e36cc2346cf656a76ddd6a9855072d0e075",
+    "evaluation/results/validation_v1.0/policy_summary.csv": "b5bfa1992d0e21343185e17c2f8a34bdc2b937f2b4943cf60d835b50fc1854ed",
+    "evaluation/results/validation_v1.0/run_manifest.json": "f49b61543828564213b0a4ecff7136b304e41667b90e7bbe1beee45f7e0418e8",
+    "evaluation/results/validation_v1.0/decision_gate.json": "20aec66bc4b628d3b8b6f5ea77b0ee32e2598c53f5d02aaaee8d81658b43af87",
+    "evaluation/VALIDATION_STOP_RECORD_v1.0.json": "d93bb7dbd53022cc2dbe5d4e9a6c266307d26b9f4fbf1e229d74e0851de0c493",
+    "evaluation/results/PREHELDOUT_FAILURE_DIAGNOSIS_v1.0.json": "398c354c5910ecc94878bc0c18faad531f7a68ca8392c8cc5429d5c7bf1e057b"
+  },
+  "workbook_roles": {
+    "output/xlsx/RAER_Benchmark_Reviewer_Transparency_v1.1.xlsx": "label-free sharing and review transparency",
+    "output/xlsx/RAER_Benchmark_Coordinator_Master_RESTRICTED_v1.1.xlsx": "restricted coordinator custody; never share with blinded reviewers"
+  },
+  "research_boundary": "V1 is a stopped pre-held-out experiment. Its development and validation results are design evidence only and cannot be relabelled as confirmatory v2 evidence."
+}

@@ -1,0 +1,13 @@
+{
+  "partition": "development",
+  "status": "DIAGNOSTIC_NOT_CONFIRMATORY",
+  "scenario_count": 48,
+  "policy_count": 8,
+  "outcome_count": 384,
+  "release_lock_sha256": "8c3b68d4d26eabe55dafb8700b945e5fbbafbe9296af8a3b57bc049fdd092325",
+  "analysis_plan_sha256": "de6c90d16192431515cb636591520863d7951f6cb072e54fa90aa8c08b958922",
+  "label_release_sha256": "2729f7269c23bf68da6707646e3a297552fd01c595f19e9eb939dca0887af8b3",
+  "runner_sha256": "4e7e03511d71cda219834797e58704e1b979cf68b08444288bc4381463f4d290",
+  "randomness": "none",
+  "external_calls": "none"
+}

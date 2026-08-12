@@ -1,0 +1,44 @@
+{
+  "review_type": "synthetic_ai_ai_consistency",
+  "human_validation": false,
+  "decision": "ADJUDICATION_REQUIRED",
+  "metrics": {
+    "C": {
+      "n": 96,
+      "exact_agreement": 0.7083333333333334,
+      "within_one": 1.0,
+      "mean_absolute_difference": 0.2916666666666667,
+      "two_plus_count": 0
+    },
+    "I": {
+      "n": 96,
+      "exact_agreement": 0.7916666666666666,
+      "within_one": 0.9895833333333334,
+      "mean_absolute_difference": 0.21875,
+      "two_plus_count": 1
+    },
+    "S": {
+      "n": 96,
+      "exact_agreement": 0.7604166666666666,
+      "within_one": 0.9791666666666666,
+      "mean_absolute_difference": 0.2604166666666667,
+      "two_plus_count": 2
+    },
+    "W": {
+      "n": 288,
+      "exact_agreement": 0.3125,
+      "within_one": 0.9270833333333334,
+      "mean_absolute_difference": 0.7604166666666666,
+      "two_plus_count": 21
+    },
+    "K": {
+      "n": 288,
+      "exact_agreement": 1.0,
+      "within_one": 1.0,
+      "mean_absolute_difference": 0.0,
+      "two_plus_count": 0
+    }
+  },
+  "visible_disagreements": 269,
+  "limitation": "Not human inter-rater reliability."
+}

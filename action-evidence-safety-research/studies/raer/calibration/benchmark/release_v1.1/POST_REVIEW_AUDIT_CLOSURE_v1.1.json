@@ -1,0 +1,31 @@
+{
+  "artifact_type": "post_review_audit_closure",
+  "release_id": "RAER-B96-v1.1",
+  "created_at_utc": "2026-08-12T12:45:16.134634+00:00",
+  "historical_audit_preserved": "independent_quality_audit.json",
+  "historical_decision": "REJECT_PRE_FREEZE",
+  "scope": "Close only the review-pending conditions recorded by the historical pre-freeze audit; no benchmark cases, labels, scores, or thresholds are altered.",
+  "closures": {
+    "PROV-04": {
+      "status": "PASS",
+      "basis": "Two fresh blinded synthetic v0.4 reviews returned PASS for all 96 cases, followed by explicit blinded adjudication of every disagreement.",
+      "reviewer_a_sha256": "379db2322fb3f61f95bd0504a19289ace5145a40c2b2982f3a0edd0426015af1",
+      "reviewer_b_sha256": "87ca2525e67314eb97ae20674b46d3a8815d49a07d0aca81503c47aeddffdf61",
+      "adjudicated_master_sha256": "e8625c14b232601bb1ee065c254c9923cbe7989fdde7f7ed19eacfeb4cfb3e47",
+      "adjudication_register_sha256": "d422b083e5e07210161e4c4a877bedc0da43f1b4dd0453ced84b97524abb71b3"
+    },
+    "SPLIT-01": {
+      "status": "PASS_COORDINATOR_CHECK",
+      "basis": "Coordinator-side cross-inventory and deterministic split verification completed after the restricted artifacts were assembled."
+    },
+    "DUP-02": {
+      "status": "PASS_COORDINATOR_CHECK",
+      "basis": "Coordinator-side cross-inventory overlap check found zero scenario overlaps with the pilot and calibration inventories."
+    }
+  },
+  "final_decision": "PASS_FOR_DEVELOPMENT",
+  "limitations": [
+    "Reviews are synthetic AI-AI consistency checks, not human inter-rater validation.",
+    "This closure authorizes development evaluation only and makes no effectiveness claim."
+  ]
+}

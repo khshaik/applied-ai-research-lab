@@ -1,0 +1,52 @@
+{
+  "plan_id": "RAER-B96-CONFIRMATORY-SAP-v1.0",
+  "status": "FROZEN_BEFORE_DEVELOPMENT_OUTCOMES",
+  "effective_date": "2026-08-12",
+  "research_question": "Under a fixed evidence-validation budget, does RAER reduce harmful actions relative to registered non-adaptive policies while preserving comparable safe completion?",
+  "unit_of_analysis": "scenario",
+  "primary_comparison": "RAER versus FIXED_0.20",
+  "frozen_method": {
+    "invalidity_estimator": "E0 fixed monotone logistic formula",
+    "tau0": 0.22,
+    "alpha": 0.30,
+    "correlation_uplift": 0.20,
+    "verifier_error_floor": 0.01,
+    "solver": "exact enumeration of all evidence subsets within the RAER scenario budget"
+  },
+  "registered_policies": ["STATIC", "CONTRACT_ONLY", "FIXED_0.10", "FIXED_0.20", "FIXED_0.35", "FIXED_0.50", "ALWAYS_REFRESH", "RAER"],
+  "comparator_budget_rule": "Comparators retain all checks declared by their registered rule even when their total exceeds the scenario budget; budget-exceedance rate is reported. RAER alone is constrained by the scenario budget because budgeted selection is the method under test.",
+  "primary_outcomes": {
+    "harmful_action_rate": "harmful actions divided by scenarios containing at least one invalid prerequisite",
+    "safe_completion_rate": "safe successes divided by all-valid scenarios",
+    "mean_validation_cost": "mean sum of K/5 for selected evidence over all scenarios"
+  },
+  "secondary_outcomes": ["protected block count", "false block rate", "total validation cost", "budget-exceedance rate", "realized harm weighted by frozen h", "check count"],
+  "paired_comparison": "Report scenario-paired policy outcome differences and display every numerator and denominator; do not substitute unpaired denominators.",
+  "uncertainty": {
+    "method": "nonparametric scenario bootstrap stratified within domain",
+    "replicates": 10000,
+    "seed": 20260812,
+    "interval": "two-sided percentile 95%",
+    "small_sample_note": "Intervals and individual failure categories take precedence over nominal significance because held-out n=24."
+  },
+  "prespecified_strata": ["domain", "construction_stratum", "challenge_family", "budget band", "action consequence band"],
+  "non_dominance_rule": "A policy dominates RAER when it has comparable safe completion (within five percentage points of the best registered policy), harmful-action rate no higher than RAER, mean validation cost no higher than RAER, and at least one of harm or cost is strictly lower.",
+  "decision_rule": {
+    "GO": "RAER is non-dominated, safe completion is within five percentage points of the best registered policy, and it offers a useful safety-cost position.",
+    "QUALIFIED_GO": "The useful position occurs only in a prespecified domain or stratum and claims are narrowed accordingly.",
+    "REVISE": "A documented label-independent implementation defect invalidates the run; the invalid run remains preserved.",
+    "STOP_PIVOT": "A registered fixed or contract policy dominates RAER or RAER offers no meaningful safety-cost advantage."
+  },
+  "missing_and_failure_rules": {
+    "missing_visible_field": "block execution and record schema_failure; do not impute",
+    "unresolved_label_reference": "block the affected partition and record integrity_failure",
+    "no_affordable_raer_subset": "select the affordable subset with minimum residual risk and ABSTAIN unless a checked invalid prerequisite already blocks action",
+    "tie_breaking": "cost, residual risk, then lexicographic evidence ID as frozen in the calibration solver",
+    "execution_error": "retain the case and classify as execution_failure; no outcome-informed exclusion"
+  },
+  "correlated_prerequisites": "Use only the predeclared correlation group from the restricted label record. Apply the frozen maximum unchecked-pair uplift once, capped at h.",
+  "development_changes_allowed": ["software defect repair", "logging improvement", "schema-validation repair", "correction of a demonstrable encoding error without reference to result direction"],
+  "changes_prohibited": ["parameter retuning", "case rewriting based on policy results", "metric substitution", "outcome-informed exclusion", "validation-label access during development", "held-out-label access before evaluation-package lock"],
+  "confirmatory_boundary": "Only the single held-out test executed from the frozen evaluation package is confirmatory. Development and validation results are diagnostic.",
+  "reporting_limits": ["No claim of human inter-rater reliability", "No claim of global novelty", "No effectiveness claim before held-out execution", "All post-held-out modifications are exploratory"]
+}

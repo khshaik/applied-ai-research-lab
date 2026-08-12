@@ -1,0 +1,17 @@
+.DS_Store
+.idea/
+.vscode/
+**/__pycache__/
+**/*.py[cod]
+**/.pytest_cache/
+**/.venv/
+**/tmp/
+**/qa/
+**/renders/
+**/investigator_label_vault.json
+**/held_out_test_labels*.json
+**/*Coordinator*RESTRICTED*.xlsx
+**/LABEL_ACCESS_LOG.jsonl
+**/similarity-reports/
+**/submission-portal-exports/
+

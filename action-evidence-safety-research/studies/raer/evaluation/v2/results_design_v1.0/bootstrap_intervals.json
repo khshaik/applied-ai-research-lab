@@ -1,0 +1,200 @@
+{
+  "STATIC": {
+    "safe_completion_rate_on_valid": {
+      "lower_95": 1.0,
+      "upper_95": 1.0,
+      "replicates": 10000
+    },
+    "harmful_action_rate_on_invalid": {
+      "lower_95": 1.0,
+      "upper_95": 1.0,
+      "replicates": 10000
+    },
+    "mean_check_cost": {
+      "lower_95": 0.0,
+      "upper_95": 0.0,
+      "replicates": 10000
+    },
+    "positive_slack_rate": {
+      "lower_95": 0.0,
+      "upper_95": 0.0,
+      "replicates": 10000
+    }
+  },
+  "CONTRACT_ONLY": {
+    "safe_completion_rate_on_valid": {
+      "lower_95": 1.0,
+      "upper_95": 1.0,
+      "replicates": 10000
+    },
+    "harmful_action_rate_on_invalid": {
+      "lower_95": 0.10810810810810811,
+      "upper_95": 0.3488372093023256,
+      "replicates": 10000
+    },
+    "mean_check_cost": {
+      "lower_95": 0.8944444444444444,
+      "upper_95": 1.0166666666666666,
+      "replicates": 10000
+    },
+    "positive_slack_rate": {
+      "lower_95": 0.0,
+      "upper_95": 0.0,
+      "replicates": 10000
+    }
+  },
+  "FIXED_0.10": {
+    "safe_completion_rate_on_valid": {
+      "lower_95": 1.0,
+      "upper_95": 1.0,
+      "replicates": 10000
+    },
+    "harmful_action_rate_on_invalid": {
+      "lower_95": 0.0,
+      "upper_95": 0.0,
+      "replicates": 10000
+    },
+    "mean_check_cost": {
+      "lower_95": 1.211111111111111,
+      "upper_95": 1.4222222222222223,
+      "replicates": 10000
+    },
+    "positive_slack_rate": {
+      "lower_95": 0.0,
+      "upper_95": 0.0,
+      "replicates": 10000
+    }
+  },
+  "FIXED_0.20": {
+    "safe_completion_rate_on_valid": {
+      "lower_95": 1.0,
+      "upper_95": 1.0,
+      "replicates": 10000
+    },
+    "harmful_action_rate_on_invalid": {
+      "lower_95": 0.2571428571428571,
+      "upper_95": 0.5454545454545454,
+      "replicates": 10000
+    },
+    "mean_check_cost": {
+      "lower_95": 0.6805555555555555,
+      "upper_95": 0.9222222222222219,
+      "replicates": 10000
+    },
+    "positive_slack_rate": {
+      "lower_95": 0.0,
+      "upper_95": 0.0,
+      "replicates": 10000
+    }
+  },
+  "FIXED_0.35": {
+    "safe_completion_rate_on_valid": {
+      "lower_95": 1.0,
+      "upper_95": 1.0,
+      "replicates": 10000
+    },
+    "harmful_action_rate_on_invalid": {
+      "lower_95": 0.7906976744186046,
+      "upper_95": 0.975609756097561,
+      "replicates": 10000
+    },
+    "mean_check_cost": {
+      "lower_95": 0.09444444444444447,
+      "upper_95": 0.2083333333333333,
+      "replicates": 10000
+    },
+    "positive_slack_rate": {
+      "lower_95": 0.0,
+      "upper_95": 0.0,
+      "replicates": 10000
+    }
+  },
+  "FIXED_0.50": {
+    "safe_completion_rate_on_valid": {
+      "lower_95": 1.0,
+      "upper_95": 1.0,
+      "replicates": 10000
+    },
+    "harmful_action_rate_on_invalid": {
+      "lower_95": 1.0,
+      "upper_95": 1.0,
+      "replicates": 10000
+    },
+    "mean_check_cost": {
+      "lower_95": 0.0,
+      "upper_95": 0.0,
+      "replicates": 10000
+    },
+    "positive_slack_rate": {
+      "lower_95": 0.0,
+      "upper_95": 0.0,
+      "replicates": 10000
+    }
+  },
+  "ALWAYS_REFRESH": {
+    "safe_completion_rate_on_valid": {
+      "lower_95": 1.0,
+      "upper_95": 1.0,
+      "replicates": 10000
+    },
+    "harmful_action_rate_on_invalid": {
+      "lower_95": 0.0,
+      "upper_95": 0.0,
+      "replicates": 10000
+    },
+    "mean_check_cost": {
+      "lower_95": 1.369444444444444,
+      "upper_95": 1.538888888888889,
+      "replicates": 10000
+    },
+    "positive_slack_rate": {
+      "lower_95": 0.0,
+      "upper_95": 0.0,
+      "replicates": 10000
+    }
+  },
+  "RAER_V1": {
+    "safe_completion_rate_on_valid": {
+      "lower_95": 0.41379310344827586,
+      "upper_95": 0.7666666666666667,
+      "replicates": 10000
+    },
+    "harmful_action_rate_on_invalid": {
+      "lower_95": 0.2222222222222222,
+      "upper_95": 0.4888888888888889,
+      "replicates": 10000
+    },
+    "mean_check_cost": {
+      "lower_95": 0.2999999999999999,
+      "upper_95": 0.42777777777777765,
+      "replicates": 10000
+    },
+    "positive_slack_rate": {
+      "lower_95": 0.0,
+      "upper_95": 0.0,
+      "replicates": 10000
+    }
+  },
+  "RAER_V2_OUT_OF_FOLD": {
+    "safe_completion_rate_on_valid": {
+      "lower_95": 0.8148148148148148,
+      "upper_95": 1.0,
+      "replicates": 10000
+    },
+    "harmful_action_rate_on_invalid": {
+      "lower_95": 0.18181818181818182,
+      "upper_95": 0.4489795918367347,
+      "replicates": 10000
+    },
+    "mean_check_cost": {
+      "lower_95": 0.4805555555555558,
+      "upper_95": 0.6111111111111115,
+      "replicates": 10000
+    },
+    "positive_slack_rate": {
+      "lower_95": 0.08333333333333333,
+      "upper_95": 0.25,
+      "replicates": 10000
+    }
+  }
+}

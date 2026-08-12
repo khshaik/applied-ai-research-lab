@@ -1,0 +1,18 @@
+{
+  "design_run_id": "RAER-V2-DESIGN-1.0",
+  "decision": "FAIL_KEEP_HELD_OUT_SEALED",
+  "pre_execution_lock_sha256": "5cfea5d4b0d94ba07a6bd0ca14c6bd4b4164a44dcc97161c7e81d6c3bae76c39",
+  "randomness": "bootstrap only; seed 20260812",
+  "external_calls": "none",
+  "held_out_labels_accessed": false,
+  "outputs": {
+    "evaluation/v2/results_design_v1.0/ablations.csv": "25ef3a80139e8ba316660ce5d773948d1c8a4881ad030d79060c9766e1af6875",
+    "evaluation/v2/results_design_v1.0/all_design_configuration_summary.csv": "b66e24248cf095d569eea3a7b69fd1c921bdce7601ad244f8c8ae2bf2385c0ea",
+    "evaluation/v2/results_design_v1.0/bootstrap_intervals.json": "9a1793fc8c24098c74cb22df9e2635bff4dccacd9211c9831429cc28ceb84206",
+    "evaluation/v2/results_design_v1.0/final_design_fit_outcomes.csv": "f2fa7584b9d36416faa516126d9f904716aa4b291cdee726c9693603eed8c946",
+    "evaluation/v2/results_design_v1.0/oof_policy_outcomes.csv": "6a0a1db9b4669e8b422a56b92dddc4147198a2bed44725536c77393e5e15b519",
+    "evaluation/v2/results_design_v1.0/oof_policy_summary.csv": "494d3b79960ee14f8f08bf761b114627934a5e81acca380a4a502a917813ee97",
+    "evaluation/v2/results_design_v1.0/outer_fold_selection.csv": "75d169490463e36ba7feaa2685a6d8278021c44922afd7e8867cd886abcd61fb",
+    "evaluation/v2/results_design_v1.0/v2_design_gate.json": "19efd0c2f54f91ee1827ca9c2b7a51d3e790757e17168af562e64c2cef0e1f54"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "phase": "validation",
+  "decision": "STOP_BEFORE_HELD_OUT",
+  "safe_completion_gate_passed": false,
+  "best_safe_completion": 1.0,
+  "raer_safe_completion": 0.7272727272727273,
+  "raer_harmful_action_rate": 0.23076923076923078,
+  "raer_mean_validation_cost": 0.3333333333333334,
+  "dominating_comparators": [],
+  "interpretation": "Apply the frozen phase boundary without parameter retuning."
+}

@@ -1,0 +1,15 @@
+[project]
+name = "action-evidence-safety-research"
+version = "0.1.0"
+description = "Research artifacts for safe consequential actions under mutable evidence and authorization."
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [
+  { name = "Shaik Khaja Nayab Rasool", email = "shaik.khajanayabrasool@gmail.com" }
+]
+keywords = ["agent-safety", "evidence-revalidation", "authorization", "abstention"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+

@@ -1,0 +1,65 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "RAER reviewer-visible benchmark v0.4",
+  "type": "object",
+  "required": [
+    "benchmark_id",
+    "case_count",
+    "evidence_count",
+    "scenarios"
+  ],
+  "properties": {
+    "benchmark_id": {
+      "type": "string"
+    },
+    "case_count": {
+      "const": 96
+    },
+    "evidence_count": {
+      "const": 288
+    },
+    "scenarios": {
+      "type": "array",
+      "minItems": 96,
+      "maxItems": 96,
+      "items": {
+        "type": "object",
+        "required": [
+          "scenario_id",
+          "domain",
+          "archetype",
+          "action",
+          "action_context",
+          "budget_units",
+          "evidence"
+        ],
+        "properties": {
+          "scenario_id": {
+            "type": "string",
+            "pattern": "^RB-(CYB|FIN|HCA|PRI|COM|HR)-[0-9]{2}$"
+          },
+          "domain": {
+            "type": "string"
+          },
+          "archetype": {
+            "type": "string"
+          },
+          "action": {
+            "type": "string"
+          },
+          "action_context": {
+            "type": "string"
+          },
+          "budget_units": {
+            "type": "number"
+          },
+          "evidence": {
+            "type": "array",
+            "minItems": 3,
+            "maxItems": 3
+          }
+        }
+      }
+    }
+  }
+}

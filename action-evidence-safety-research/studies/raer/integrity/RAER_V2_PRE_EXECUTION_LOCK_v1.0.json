@@ -1,0 +1,30 @@
+{
+  "lock_id": "RAER-V2-PRE-EXECUTION-LOCK-1.0",
+  "status": "LOCKED_BEFORE_V2_AGGREGATE_RESULTS",
+  "created_at_utc": "2026-08-12T14:06:05.973102+00:00",
+  "candidate_configuration_count": 80,
+  "design_case_count": 72,
+  "design_partitions": [
+    "development",
+    "validation"
+  ],
+  "held_out_status": "SEALED_NOT_RELEASED",
+  "files": {
+    "evaluation/V1_SUPPLEMENTARY_CLOSURE_MANIFEST_v1.0.json": "ec1870e6e159dceb87e9fac69f0955c4e0d05d8e891ec564684de25c9508debe",
+    "evaluation/v2/RAER_V2_METHOD_SPECIFICATION_v1.0.json": "56b4f4439ca67c14fb017494d2899b91623d19b2bdee088e0b96289c9daa9958",
+    "evaluation/v2/RAER_V2_PROSPECTIVE_DESIGN_PLAN_v1.0.json": "5b5093660580c2f7173577efaf3bf4cc45f53100d0c2de84e436528598b46d09",
+    "output/docx/RAER_v2_Formal_Objective_and_Prospective_Design_Protocol_v1.0.docx": "da2e3a6d5b08cbe47178bdc349cb0057c58013ef70648cfac19a9fc2fbc3b5ed",
+    "evaluation/v2/raer_v2_design.py": "40e1318fb357281c25fb44e1f7675e7a60abacdaefa7d46ef585435ba387fdb2",
+    "evaluation/v2/test_raer_v2_design.py": "765fdb93024ac25000204a74a0452fe0f8af855e2a630cc8df279d56bc1780f8",
+    "evaluation/restricted/development_labels_v1.1.json": "2729f7269c23bf68da6707646e3a297552fd01c595f19e9eb939dca0887af8b3",
+    "evaluation/restricted/validation_labels_v1.1.json": "81c3788ce59d73630f50b9f513ab9cfec46d4c8fcb67d1aea91792457230ae60",
+    "calibration/benchmark/release_v1.1/BENCHMARK_RELEASE_LOCK_v1.1.json": "8c3b68d4d26eabe55dafb8700b945e5fbbafbe9296af8a3b57bc049fdd092325"
+  },
+  "prohibitions": [
+    "No held-out access",
+    "No grid changes",
+    "No estimator refit",
+    "No outcome-informed case exclusion",
+    "No confirmatory claim from design data"
+  ]
+}

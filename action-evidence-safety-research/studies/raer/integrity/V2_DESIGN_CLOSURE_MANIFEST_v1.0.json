@@ -1,0 +1,27 @@
+{
+  "closure_id": "RAER-V2-DESIGN-CLOSURE-1.0",
+  "created_at_utc": "2026-08-12T14:07:29.059534+00:00",
+  "status": "CLOSED_AFTER_PROSPECTIVE_DESIGN_GATE_FAILURE",
+  "decision": "FAIL_KEEP_HELD_OUT_SEALED",
+  "held_out_labels_accessed": false,
+  "held_out_status": "SEALED_NOT_RELEASED",
+  "artifact_count": 15,
+  "artifacts": {
+    "evaluation/v2/RAER_V2_PRE_EXECUTION_LOCK_v1.0.json": "5cfea5d4b0d94ba07a6bd0ca14c6bd4b4164a44dcc97161c7e81d6c3bae76c39",
+    "evaluation/v2/RAER_V2_METHOD_SPECIFICATION_v1.0.json": "56b4f4439ca67c14fb017494d2899b91623d19b2bdee088e0b96289c9daa9958",
+    "evaluation/v2/RAER_V2_PROSPECTIVE_DESIGN_PLAN_v1.0.json": "5b5093660580c2f7173577efaf3bf4cc45f53100d0c2de84e436528598b46d09",
+    "output/docx/RAER_v2_Formal_Objective_and_Prospective_Design_Protocol_v1.0.docx": "da2e3a6d5b08cbe47178bdc349cb0057c58013ef70648cfac19a9fc2fbc3b5ed",
+    "evaluation/v2/raer_v2_design.py": "40e1318fb357281c25fb44e1f7675e7a60abacdaefa7d46ef585435ba387fdb2",
+    "evaluation/v2/test_raer_v2_design.py": "765fdb93024ac25000204a74a0452fe0f8af855e2a630cc8df279d56bc1780f8",
+    "evaluation/v2/results_design_v1.0/outer_fold_selection.csv": "75d169490463e36ba7feaa2685a6d8278021c44922afd7e8867cd886abcd61fb",
+    "evaluation/v2/results_design_v1.0/oof_policy_outcomes.csv": "6a0a1db9b4669e8b422a56b92dddc4147198a2bed44725536c77393e5e15b519",
+    "evaluation/v2/results_design_v1.0/oof_policy_summary.csv": "494d3b79960ee14f8f08bf761b114627934a5e81acca380a4a502a917813ee97",
+    "evaluation/v2/results_design_v1.0/all_design_configuration_summary.csv": "b66e24248cf095d569eea3a7b69fd1c921bdce7601ad244f8c8ae2bf2385c0ea",
+    "evaluation/v2/results_design_v1.0/final_design_fit_outcomes.csv": "f2fa7584b9d36416faa516126d9f904716aa4b291cdee726c9693603eed8c946",
+    "evaluation/v2/results_design_v1.0/ablations.csv": "25ef3a80139e8ba316660ce5d773948d1c8a4881ad030d79060c9766e1af6875",
+    "evaluation/v2/results_design_v1.0/bootstrap_intervals.json": "9a1793fc8c24098c74cb22df9e2635bff4dccacd9211c9831429cc28ceb84206",
+    "evaluation/v2/results_design_v1.0/v2_design_gate.json": "19efd0c2f54f91ee1827ca9c2b7a51d3e790757e17168af562e64c2cef0e1f54",
+    "evaluation/v2/results_design_v1.0/design_manifest.json": "0c23632f8ba4bbea36302010763e060727cee14c89368a686429d2936ccd312a"
+  },
+  "research_boundary": "The 72 exposed cases are design evidence only. No v2 confirmatory claim is permitted, and the 24-case held-out partition must remain sealed under this protocol."
+}

@@ -1,0 +1,29 @@
+{
+  "artifact_type": "independent_pre_freeze_quality_audit",
+  "candidate_version": "v0.4",
+  "restricted_data_accessed": false,
+  "decision": "REJECT_PRE_FREEZE",
+  "reason": "The reviewer-visible package passes structure, leakage, anti-shortcut, duplication, hash, revision, manifest, and build-log checks, but independent review remains pending for all 96 cases; cross-inventory split isolation is not locally evaluable.",
+  "gate_results": [
+    {"gate_id":"STRUCT-01","status":"PASS","measurements":{"parse_errors":0,"schema_errors":0,"scenario_count":96,"unique_scenario_ids":96,"evidence_count":288}},
+    {"gate_id":"LEAK-01","status":"PASS","measurements":{"forbidden_term_matches":0}},
+    {"gate_id":"LEAK-02","status":"PASS","measurements":{"non_allowlisted_scenario_ids":0,"non_opaque_evidence_ids":0,"semantic_suffixes":0,"scenario_ordinal_cross_domain_topology_accuracy":0.3125,"scenario_ordinal_cross_domain_display_order_accuracy":0.3333333333,"opaque_id_full_token_cross_domain_topology_accuracy":0.25,"opaque_id_full_token_cross_domain_display_order_accuracy":0.3333333333,"chance_baseline":0.25},"reason":"The prior deterministic shortcut is absent: ordinal and opaque-ID prediction is at or near baseline and does not encode topology or display order."},
+    {"gate_id":"LEAK-03","status":"PASS","measurements":{"unapproved_input_dependencies":0,"restricted_path_references":0,"unhashed_inputs":0,"build_status":"PASS","decision_use_of_restricted_values":false}},
+    {"gate_id":"SPLIT-01","status":"NOT_EVALUABLE","measurements":{"scenario_hash_overlaps":null,"evidence_hash_overlaps":null},"reason":"Prior inventories and split data were prohibited."},
+    {"gate_id":"DUP-01","status":"PASS","measurements":{"duplicate_scenario_pairs":0,"duplicate_evidence_pairs":0}},
+    {"gate_id":"DUP-02","status":"NOT_EVALUABLE","measurements":{"within_candidate_pairs_similarity_gte_0_80":0,"cross_split_pairs_similarity_gte_0_70":null},"reason":"Registered token five-gram Jaccard plus deterministic 256-component MinHash passes within-package; cross-split input was prohibited."},
+    {"gate_id":"DUP-03","status":"PASS","measurements":{"largest_cluster_cases":1,"clusters_over_4_cases":0,"single_template_share":0.0104166667}},
+    {"gate_id":"DUP-04","status":"PASS","measurements":{"clusters_over_8_rows":0,"maximum_verbatim_check_description_share":0.0034722222}},
+    {"gate_id":"PROV-01","status":"PASS","measurements":{"complete_records":96,"missing_required_values":0,"invalid_dates":0,"unresolved_permission_status":0}},
+    {"gate_id":"PROV-02","status":"PASS","measurements":{"case_hash_mismatches":0,"missing_case_hashes":0,"manifest_file_hash_mismatches":0,"duplicate_version_ids":0}},
+    {"gate_id":"PROV-03","status":"PASS","measurements":{"broken_parent_links":0,"non_monotonic_versions":0,"unattributed_changes":0,"post_freeze_mutations":0}},
+    {"gate_id":"PROV-04","status":"FAIL","measurements":{"independently_reviewed_cases":0,"pending_review_cases":96,"self_review_only_cases":0,"open_provenance_findings":96}},
+    {"gate_id":"COVER-01","status":"PASS","measurements":{"distinct_domains":6,"cases_per_domain":16,"largest_domain_share":0.1666666667}},
+    {"gate_id":"OPS-01","status":"PASS","measurements":{"duplicate_evidence_ids_within_case":0,"orphan_references":0,"broken_cross_references":0}},
+    {"gate_id":"OPS-02","status":"PASS","measurements":{"unexpected_members":0,"macros":0,"external_links":0,"hidden_objects":0,"encrypted_members":0}}
+  ],
+  "duplicate_pair_report": {"within_candidate_pairs_similarity_gte_0_80":[],"within_candidate_template_clusters_gte_0_65":[],"evidence_clusters_gte_0_85":[]},
+  "leakage_findings": [],
+  "provenance": {"records":96,"case_hash_mismatches":0,"revision_parent_hash_mismatches":0,"independent_review_status":{"v0.4_recheck_pending":96}},
+  "integrity": {"manifest_file_hash_mismatches":0,"manifest_case_hash_mismatches":0,"provenance_case_hash_mismatches":0,"build_log_status":"PASS","labels_used_for_decisions":false}
+}

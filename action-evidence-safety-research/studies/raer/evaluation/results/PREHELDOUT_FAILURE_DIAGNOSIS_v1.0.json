@@ -1,0 +1,484 @@
+{
+  "scope": "development and validation only; held-out labels not accessed",
+  "scenario_count": 72,
+  "outcomes": {
+    "safe_success": 16,
+    "harmful_action": 16,
+    "protected_block": 29,
+    "false_block": 11
+  },
+  "false_block_count": 11,
+  "harmful_action_count": 16,
+  "protected_block_count": 29,
+  "false_blocks_by_domain": {
+    "cybersecurity": 1,
+    "finance": 3,
+    "human_resources": 3,
+    "privacy": 3,
+    "healthcare_administration": 1
+  },
+  "harmful_actions_by_domain": {
+    "commerce": 5,
+    "cybersecurity": 1,
+    "finance": 1,
+    "healthcare_administration": 3,
+    "human_resources": 2,
+    "privacy": 4
+  },
+  "false_block_mechanism": {
+    "abstentions": 11,
+    "budget_insufficient_for_threshold": 11,
+    "threshold_unreachable_even_without_budget": 0
+  },
+  "missed_invalid_kinds": {
+    "state": 5,
+    "scope": 5,
+    "authorization": 6
+  },
+  "false_block_details": [
+    {
+      "scenario_id": "RB-CYB-03",
+      "partition": "development",
+      "domain": "cybersecurity",
+      "budget": 0.95,
+      "minimum_cost_to_threshold": 1.2,
+      "budget_gap": 0.25,
+      "risk_before": 0.28856867506779793,
+      "risk_after": 0.18753572229552906,
+      "risk_threshold": 0.1738,
+      "decision": "ABSTAIN"
+    },
+    {
+      "scenario_id": "RB-FIN-04",
+      "partition": "development",
+      "domain": "finance",
+      "budget": 1.15,
+      "minimum_cost_to_threshold": 2.2,
+      "budget_gap": 1.0500000000000003,
+      "risk_before": 0.46980191066992333,
+      "risk_after": 0.3093338244188674,
+      "risk_threshold": 0.16720000000000002,
+      "decision": "ABSTAIN"
+    },
+    {
+      "scenario_id": "RB-FIN-06",
+      "partition": "development",
+      "domain": "finance",
+      "budget": 0.75,
+      "minimum_cost_to_threshold": 0.8,
+      "budget_gap": 0.050000000000000044,
+      "risk_before": 0.39983708427481157,
+      "risk_after": 0.2230936232810531,
+      "risk_threshold": 0.16720000000000002,
+      "decision": "ABSTAIN"
+    },
+    {
+      "scenario_id": "RB-HR-01",
+      "partition": "development",
+      "domain": "human_resources",
+      "budget": 0.55,
+      "minimum_cost_to_threshold": 0.6,
+      "budget_gap": 0.04999999999999993,
+      "risk_before": 0.28585274384085557,
+      "risk_after": 0.24785316086505366,
+      "risk_threshold": 0.1738,
+      "decision": "ABSTAIN"
+    },
+    {
+      "scenario_id": "RB-HR-02",
+      "partition": "development",
+      "domain": "human_resources",
+      "budget": 0.75,
+      "minimum_cost_to_threshold": 0.8,
+      "budget_gap": 0.050000000000000044,
+      "risk_before": 0.350179316472424,
+      "risk_after": 0.23959559091015017,
+      "risk_threshold": 0.1738,
+      "decision": "ABSTAIN"
+    },
+    {
+      "scenario_id": "RB-HR-03",
+      "partition": "development",
+      "domain": "human_resources",
+      "budget": 0.95,
+      "minimum_cost_to_threshold": 1.4,
+      "budget_gap": 0.44999999999999996,
+      "risk_before": 0.28856867506779793,
+      "risk_after": 0.18753572229552898,
+      "risk_threshold": 0.1738,
+      "decision": "ABSTAIN"
+    },
+    {
+      "scenario_id": "RB-PRI-04",
+      "partition": "development",
+      "domain": "privacy",
+      "budget": 1.15,
+      "minimum_cost_to_threshold": 1.2,
+      "budget_gap": 0.050000000000000044,
+      "risk_before": 0.49036219296707095,
+      "risk_after": 0.19325428963990535,
+      "risk_threshold": 0.16720000000000002,
+      "decision": "ABSTAIN"
+    },
+    {
+      "scenario_id": "RB-PRI-05",
+      "partition": "development",
+      "domain": "privacy",
+      "budget": 0.55,
+      "minimum_cost_to_threshold": 1.0,
+      "budget_gap": 0.44999999999999996,
+      "risk_before": 0.3106724017033828,
+      "risk_after": 0.19760715559663256,
+      "risk_threshold": 0.16720000000000002,
+      "decision": "ABSTAIN"
+    },
+    {
+      "scenario_id": "RB-FIN-02",
+      "partition": "validation",
+      "domain": "finance",
+      "budget": 0.75,
+      "minimum_cost_to_threshold": 0.8,
+      "budget_gap": 0.050000000000000044,
+      "risk_before": 0.350179316472424,
+      "risk_after": 0.18184154520975546,
+      "risk_threshold": 0.1738,
+      "decision": "ABSTAIN"
+    },
+    {
+      "scenario_id": "RB-HCA-01",
+      "partition": "validation",
+      "domain": "healthcare_administration",
+      "budget": 0.55,
+      "minimum_cost_to_threshold": 0.6,
+      "budget_gap": 0.04999999999999993,
+      "risk_before": 0.20249547381213673,
+      "risk_after": 0.20249547381213673,
+      "risk_threshold": 0.18535000000000001,
+      "decision": "ABSTAIN"
+    },
+    {
+      "scenario_id": "RB-PRI-06",
+      "partition": "validation",
+      "domain": "privacy",
+      "budget": 0.75,
+      "minimum_cost_to_threshold": 0.8,
+      "budget_gap": 0.050000000000000044,
+      "risk_before": 0.4451860672182491,
+      "risk_after": 0.22425674097605103,
+      "risk_threshold": 0.16720000000000002,
+      "decision": "ABSTAIN"
+    }
+  ],
+  "harmful_action_details": [
+    {
+      "scenario_id": "RB-COM-07",
+      "partition": "development",
+      "domain": "commerce",
+      "challenge_family": "staleness_or_dependent_change",
+      "checked": [],
+      "missed_invalid": [
+        {
+          "evidence_id": "RB-COM-07-X349DCA89",
+          "kind": "state",
+          "q": 0.19389056680117348,
+          "w": 0.6,
+          "cost": 0.4
+        }
+      ],
+      "risk_after": 0.18062021139732107,
+      "risk_threshold": 0.1903
+    },
+    {
+      "scenario_id": "RB-COM-09",
+      "partition": "development",
+      "domain": "commerce",
+      "challenge_family": "staleness_or_dependent_change",
+      "checked": [],
+      "missed_invalid": [
+        {
+          "evidence_id": "RB-COM-09-X04CC75BC",
+          "kind": "scope",
+          "q": 0.16622118591789062,
+          "w": 0.8,
+          "cost": 0.2
+        }
+      ],
+      "risk_after": 0.16466855003738815,
+      "risk_threshold": 0.1903
+    },
+    {
+      "scenario_id": "RB-COM-11",
+      "partition": "development",
+      "domain": "commerce",
+      "challenge_family": "staleness_or_dependent_change",
+      "checked": [
+        "RB-COM-11-X4BB922CE"
+      ],
+      "missed_invalid": [
+        {
+          "evidence_id": "RB-COM-11-XE67C8006",
+          "kind": "authorization",
+          "q": 0.38380295683608023,
+          "w": 0.8,
+          "cost": 0.6
+        }
+      ],
+      "risk_after": 0.16422951310087258,
+      "risk_threshold": 0.1903
+    },
+    {
+      "scenario_id": "RB-COM-12",
+      "partition": "development",
+      "domain": "commerce",
+      "challenge_family": "staleness_or_dependent_change",
+      "checked": [
+        "RB-COM-12-XFCBC3435"
+      ],
+      "missed_invalid": [
+        {
+          "evidence_id": "RB-COM-12-X0BA83FE9",
+          "kind": "scope",
+          "q": 0.2575616829760094,
+          "w": 0.8,
+          "cost": 0.2
+        }
+      ],
+      "risk_after": 0.1642102356616521,
+      "risk_threshold": 0.1903
+    },
+    {
+      "scenario_id": "RB-CYB-10",
+      "partition": "development",
+      "domain": "cybersecurity",
+      "challenge_family": "staleness_or_dependent_change",
+      "checked": [
+        "RB-CYB-10-X8CA37DDE"
+      ],
+      "missed_invalid": [
+        {
+          "evidence_id": "RB-CYB-10-XFEF94B0C",
+          "kind": "state",
+          "q": 0.14695566792303646,
+          "w": 0.8,
+          "cost": 0.2
+        }
+      ],
+      "risk_after": 0.14127736561357318,
+      "risk_threshold": 0.18535000000000001
+    },
+    {
+      "scenario_id": "RB-FIN-08",
+      "partition": "development",
+      "domain": "finance",
+      "challenge_family": "staleness_or_dependent_change",
+      "checked": [
+        "RB-FIN-08-XF774B76C"
+      ],
+      "missed_invalid": [
+        {
+          "evidence_id": "RB-FIN-08-XB12F7309",
+          "kind": "authorization",
+          "q": 0.1176261802088231,
+          "w": 0.8,
+          "cost": 0.2
+        }
+      ],
+      "risk_after": 0.1573571532997529,
+      "risk_threshold": 0.18535000000000001
+    },
+    {
+      "scenario_id": "RB-HCA-08",
+      "partition": "development",
+      "domain": "healthcare_administration",
+      "challenge_family": "staleness_or_dependent_change",
+      "checked": [
+        "RB-HCA-08-X0066A66A",
+        "RB-HCA-08-X72C5B931"
+      ],
+      "missed_invalid": [
+        {
+          "evidence_id": "RB-HCA-08-XE18E0489",
+          "kind": "authorization",
+          "q": 0.1176261802088231,
+          "w": 1.0,
+          "cost": 0.8
+        }
+      ],
+      "risk_after": 0.10675065524758481,
+      "risk_threshold": 0.16720000000000002
+    },
+    {
+      "scenario_id": "RB-HCA-10",
+      "partition": "development",
+      "domain": "healthcare_administration",
+      "challenge_family": "staleness_or_dependent_change",
+      "checked": [
+        "RB-HCA-10-X265C5DC6"
+      ],
+      "missed_invalid": [
+        {
+          "evidence_id": "RB-HCA-10-X5E6F522E",
+          "kind": "state",
+          "q": 0.14695566792303646,
+          "w": 0.6,
+          "cost": 0.8
+        }
+      ],
+      "risk_after": 0.14708952577612122,
+      "risk_threshold": 0.18535000000000001
+    },
+    {
+      "scenario_id": "RB-HCA-12",
+      "partition": "development",
+      "domain": "healthcare_administration",
+      "challenge_family": "staleness_or_dependent_change",
+      "checked": [
+        "RB-HCA-12-X15011E3B"
+      ],
+      "missed_invalid": [
+        {
+          "evidence_id": "RB-HCA-12-X0886DADB",
+          "kind": "scope",
+          "q": 0.2575616829760094,
+          "w": 0.8,
+          "cost": 0.8
+        }
+      ],
+      "risk_after": 0.18436252024865102,
+      "risk_threshold": 0.18535000000000001
+    },
+    {
+      "scenario_id": "RB-HR-09",
+      "partition": "development",
+      "domain": "human_resources",
+      "challenge_family": "staleness_or_dependent_change",
+      "checked": [],
+      "missed_invalid": [
+        {
+          "evidence_id": "RB-HR-09-X864E6186",
+          "kind": "scope",
+          "q": 0.16622118591789062,
+          "w": 0.8,
+          "cost": 0.8
+        }
+      ],
+      "risk_after": 0.12807553891796855,
+      "risk_threshold": 0.1969
+    },
+    {
+      "scenario_id": "RB-PRI-08",
+      "partition": "development",
+      "domain": "privacy",
+      "challenge_family": "staleness_or_dependent_change",
+      "checked": [
+        "RB-PRI-08-X670B3C00"
+      ],
+      "missed_invalid": [
+        {
+          "evidence_id": "RB-PRI-08-X53FD6F42",
+          "kind": "authorization",
+          "q": 0.1176261802088231,
+          "w": 1.0,
+          "cost": 0.8
+        }
+      ],
+      "risk_after": 0.17416671104060405,
+      "risk_threshold": 0.18535000000000001
+    },
+    {
+      "scenario_id": "RB-PRI-10",
+      "partition": "development",
+      "domain": "privacy",
+      "challenge_family": "staleness_or_dependent_change",
+      "checked": [],
+      "missed_invalid": [
+        {
+          "evidence_id": "RB-PRI-10-X973B322E",
+          "kind": "state",
+          "q": 0.14695566792303646,
+          "w": 0.6,
+          "cost": 0.6
+        }
+      ],
+      "risk_after": 0.1577799978991546,
+      "risk_threshold": 0.1969
+    },
+    {
+      "scenario_id": "RB-PRI-12",
+      "partition": "development",
+      "domain": "privacy",
+      "challenge_family": "staleness_or_dependent_change",
+      "checked": [
+        "RB-PRI-12-X1671CBBB"
+      ],
+      "missed_invalid": [
+        {
+          "evidence_id": "RB-PRI-12-XB44DEFCD",
+          "kind": "scope",
+          "q": 0.2575616829760094,
+          "w": 0.8,
+          "cost": 0.8
+        }
+      ],
+      "risk_after": 0.18436252024865102,
+      "risk_threshold": 0.18535000000000001
+    },
+    {
+      "scenario_id": "RB-COM-08",
+      "partition": "validation",
+      "domain": "commerce",
+      "challenge_family": "staleness_or_dependent_change",
+      "checked": [],
+      "missed_invalid": [
+        {
+          "evidence_id": "RB-COM-08-X03EAA6B3",
+          "kind": "authorization",
+          "q": 0.1176261802088231,
+          "w": 0.8,
+          "cost": 0.6
+        }
+      ],
+      "risk_after": 0.1386463134585908,
+      "risk_threshold": 0.20020000000000002
+    },
+    {
+      "scenario_id": "RB-HR-08",
+      "partition": "validation",
+      "domain": "human_resources",
+      "challenge_family": "staleness_or_dependent_change",
+      "checked": [],
+      "missed_invalid": [
+        {
+          "evidence_id": "RB-HR-08-X8CB9B160",
+          "kind": "authorization",
+          "q": 0.1176261802088231,
+          "w": 0.8,
+          "cost": 0.8
+        }
+      ],
+      "risk_after": 0.16175403236835595,
+      "risk_threshold": 0.1969
+    },
+    {
+      "scenario_id": "RB-PRI-07",
+      "partition": "validation",
+      "domain": "privacy",
+      "challenge_family": "staleness_or_dependent_change",
+      "checked": [
+        "RB-PRI-07-X37B103B3"
+      ],
+      "missed_invalid": [
+        {
+          "evidence_id": "RB-PRI-07-X5551EDD8",
+          "kind": "state",
+          "q": 0.19389056680117348,
+          "w": 1.0,
+          "cost": 0.8
+        }
+      ],
+      "risk_after": 0.15060168009126274,
+      "risk_threshold": 0.18535000000000001
+    }
+  ],
+  "interpretation": "The frozen formulation trades validation cost for both lower harm and frequent abstention; diagnosis is descriptive and cannot justify retrospective retuning."
+}
