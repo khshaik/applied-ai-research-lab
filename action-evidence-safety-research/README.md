@@ -1,6 +1,29 @@
-# Action Evidence Safety Research
+<h1 align="center">Action Evidence Safety: From Stale Evidence to Safe Execution</h1>
 
-`Python 3.11+` · `JSON` · `CSV` · `unittest` · `SHA-256` · `GitHub Actions` · `Microsoft Word` · `PDF`
+<p align="center"><strong>An end-to-end research framework for deciding what to revalidate, when to abstain, and how to protect authorization before consequential automated actions</strong></p>
+
+<p align="center">Evidence revalidation · Authorization safety · Budgeted validation · Prospective evaluation</p>
+
+<p align="center">
+  <img alt="Python 3.11+" src="https://img.shields.io/badge/Python-3.11%2B-3776AB?logo=python&logoColor=white">
+  <img alt="Standard library" src="https://img.shields.io/badge/Runtime-Standard%20Library-4B8BBE">
+  <img alt="JSON" src="https://img.shields.io/badge/Data-JSON-292929?logo=json&logoColor=white">
+  <img alt="CSV" src="https://img.shields.io/badge/Data-CSV-217346">
+  <img alt="unittest" src="https://img.shields.io/badge/Testing-unittest-6C4FBB">
+  <img alt="SHA-256" src="https://img.shields.io/badge/Integrity-SHA--256-E67E22">
+  <img alt="GitHub Actions" src="https://img.shields.io/badge/CI-GitHub%20Actions-2088FF?logo=githubactions&logoColor=white">
+  <img alt="Microsoft Word" src="https://img.shields.io/badge/Manuscript-Word-2B579A?logo=microsoftword&logoColor=white">
+  <img alt="PDF" src="https://img.shields.io/badge/Publication-PDF-B30B00?logo=adobeacrobatreader&logoColor=white">
+</p>
+
+<p align="center">
+  <a href="#the-problem-in-one-minute"><strong>Problem</strong></a> ·
+  <a href="#method-overview"><strong>Method</strong></a> ·
+  <a href="#benchmark-design"><strong>Benchmark</strong></a> ·
+  <a href="#main-design-stage-results"><strong>Results</strong></a> ·
+  <a href="#papers-and-submission-files"><strong>Papers &amp; Artifacts</strong></a> ·
+  <a href="#reproducibility-expectations"><strong>Reproducibility</strong></a>
+</p>
 
 Research on whether consequential automated actions should proceed when their authorization, policy, identity, scope, or operational prerequisites may have changed.
 
