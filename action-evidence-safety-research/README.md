@@ -473,3 +473,57 @@ When referencing the project, distinguish between the repository, the RAER metho
 Do not state that RAER v2 was validated, proven superior, or shown to be deployment-ready. A faithful summary is:
 
 > RAER v2 showed a promising descriptive harm-cost trade-off on exposed design data but did not satisfy its prospectively registered safe-completion criterion; the held-out test partition remained sealed.
+
+## Research interpretation, limitations, and forward agenda
+
+This section connects the registered hypothesis, observed outcome, defensible conclusion, and next research questions. It introduces no new experiment or effectiveness claim.
+
+### Concrete hypothesis and observed outcome
+
+The prospective RAER v2 hypothesis was an **all-criteria design hypothesis**: when configurations were selected by leave-one-domain-out evaluation on the 72 exposed cases, RAER v2 had to satisfy every frozen safety, completion, cost, authorization, non-dominance, slack, and fold-stability condition. A favorable result on one metric could not compensate for failure on another.
+
+| Tested proposition | Observed design-stage outcome | What the result supports |
+|---|---|---|
+| Reduce harmful actions relative to `FIXED_0.20` without exceeding its harm rate | 14/45 harmful actions for RAER v2 versus 18/45 for `FIXED_0.20` | A favorable descriptive harm signal on the exposed cases |
+| Use validation resources more selectively | Mean validation cost of 0.547 versus 0.800 | A descriptive cost advantage under the benchmark cost model |
+| Protect triggered authorization prerequisites | Zero authorization-related harmful actions | The frozen safeguard worked on the authorization events represented in the design set |
+| Preserve safe completion at or above the registered threshold | 25/27 safe completions (92.6%) versus the required 95% | The completion proposition was not supported; two valid actions were blocked |
+| Pass the complete prospective gate | Seven of eight criteria passed | The composite RAER v2 design hypothesis was **not supported** |
+
+This was a narrow numerical miss, but it remains a binding failure. With 27 valid cases, 26 safe completions would have exceeded 95%; the observed 25 cannot be replaced by the more favorable all-design fitted result. The correct conclusion is that RAER v2 is **promising but unvalidated**: it exposed a potentially useful harm-cost-authorization trade-off while also revealing that configuration selection did not preserve the required safe-completion level across held-out domains.
+
+### Conclusions that can and cannot be drawn
+
+The study supports three methodological conclusions. First, action-specific evidence revalidation can be represented as an interpretable, budget-constrained decision problem rather than a refresh-all or fixed-threshold rule. Second, authorization can be treated as a distinct safety condition instead of merely another evidence feature. Third, a prospective multi-criterion gate can prevent favorable harm and cost measurements from masking an operationally important completion failure.
+
+The study does **not** establish superiority, deployment readiness, real-world effectiveness, calibrated risk probabilities, or generalization beyond the constructed benchmark. It also does not show that the proposed problem has been solved. Its most concrete negative finding is that safety-oriented evidence selection may unnecessarily block valid actions when a configuration learned across some domains is transferred to another domain.
+
+### Limitations and what they convey
+
+| Limitation | Consequence for interpretation |
+|---|---|
+| Constructed scenarios rather than operational records | Results test controlled method behavior, not performance in a live organization or production workflow |
+| Only 27 all-valid design cases | Safe-completion estimates are coarse; a single case changes whether the 95% threshold is crossed |
+| Exposed development and validation cases used as design data | Reported results are useful for method development and failure analysis, but are not confirmatory evidence |
+| Synthetic reviewers used for rubric and ambiguity stress testing | Their agreement indicates AI–AI consistency, not independent human expert validity or human inter-rater reliability |
+| Frozen invalidity estimates and rubric scores are proxy quantities | Their interpretability does not make them calibrated probabilities of real-world evidence failure |
+| Six represented application domains | Cross-domain instability can be studied, but transfer to unrepresented industries, institutions, or action types remains unknown |
+| Three prerequisites per scenario and a simplified cost budget | Findings may not persist in larger dependency graphs, continuous workflows, or systems with variable latency and partial observability |
+| No operational deployment or external replication | Security, policy, usability, latency, organizational, and human-oversight effects remain unmeasured |
+| Sealed 24-case test partition not opened | No confirmatory held-out claim is available; preserving the seal protects a future one-time evaluation |
+
+These limitations do not invalidate the design-stage result. They define its evidential boundary: the work is a reproducible methods and prospective failure-analysis study, not a field validation.
+
+### Future research and testable next findings
+
+The next phase should be separately registered as RAER v3 and should avoid repeated tuning on the same 72 cases. Priority work is:
+
+1. Construct new design cases, with additional all-valid and boundary cases, before changing the objective or thresholds.
+2. Test whether a completion-aware or domain-robust selection rule eliminates the observed false blocks without losing the harm, authorization, and validation-cost behavior seen in v2.
+3. Obtain independent human-domain review of consequence, irreversibility, authorization sensitivity, criticality, cost, scenario realism, and missing prerequisites.
+4. Evaluate larger and correlated prerequisite graphs, heterogeneous validation latency, partial check failure, uncertain authority, and dynamic validation budgets.
+5. Calibrate evidence-invalidity estimates against timestamped operational or high-fidelity simulated state transitions without using post-action outcomes as pre-action features.
+6. Conduct preregistered external replication across institutions and application domains before making deployment or generalization claims.
+7. Open the existing held-out partition only after the successor method, code, parameters, comparators, metrics, and decision gate are frozen; execute that evaluation once and report every outcome.
+
+The most important future hypothesis is therefore falsifiable: a prospectively frozen successor can meet the safe-completion requirement while retaining a non-dominated harmful-action and validation-cost position, including zero systematic authorization failures. If it cannot, the appropriate conclusion is that the current RAER formulation requires a substantive methodological pivot rather than a relaxed threshold.
