@@ -81,6 +81,17 @@ Shaik Khaja Nayab Rasool.
 | Current conclusion | Promising descriptive safety-cost trade-off, but the prespecified design hypothesis was not supported |
 | Publication framing | Transparent methods and prospective negative-results paper |
 
+### Dossier coverage at a glance
+
+| Research-project requirement | Where it is documented |
+|---|---|
+| Direct artifact links | [Papers and submission files](#papers-and-submission-files), [Tables, figures, and result artifacts](#tables-figures-and-result-artifacts), and [Reproducibility map](#reproducibility-map) |
+| Explicit hypothesis and outcome | [Hypothesis and decision rule](#hypothesis-and-decision-rule) and [Main design-stage results](#main-design-stage-results) |
+| Benchmark coverage | [Benchmark design](#benchmark-design) and the [reviewer-visible benchmark](studies/raer/calibration/benchmark/release_v1.1/reviewer_visible_cases.json) |
+| Analytical methods | [Method overview](#method-overview) and [Analysis performed](#analysis-performed) |
+| Technology boundaries | [Key technologies and libraries](#key-technologies-and-libraries) and [Technology boundaries](#technology-boundaries) |
+| Reproducibility expectations | [Quick verification](#quick-verification), [Reproducibility map](#reproducibility-map), and [Reproducibility expectations](#reproducibility-expectations) |
+
 ### Problem statement
 
 Automated systems may prepare an action using evidence that was correct when observed but no longer valid when the action is executed. Authorization may be revoked, a policy may change, an identity binding may expire, or operational state may drift. Rechecking every prerequisite can consume latency, money, rate limits, or human attention, while reusing every stored observation can permit an unsafe or unauthorized action.
@@ -210,6 +221,18 @@ The authoritative machine-readable decision is [v2_design_gate.json](studies/rae
 
 The evaluation runtime deliberately has no mandatory NumPy, pandas, scikit-learn, orchestration-framework, model-provider, or external API dependency. This keeps the reference computation inspectable and reproducible with the Python standard library.
 
+### Technology boundaries
+
+The repository separates the **research method**, **reference implementation**, and **possible deployment context**:
+
+- RAER is a deterministic evidence-selection and action-control method, not a language model, agent framework, tool router, or workflow orchestrator.
+- The committed evaluator does not call an LLM, external API, database, vector store, browser, or live operational system.
+- The constructed benchmark does not contain production telemetry or claim to simulate every behavior of a deployed agent.
+- Synthetic model review supported rubric and scenario stress testing, but it is not part of runtime inference and is not treated as independent human validation.
+- Word and PDF applications were used for manuscript preparation and visual verification; they are not dependencies of the analytical evaluator.
+- A production integration would require separate work on authoritative data connectors, identity and access control, policy enforcement, latency, monitoring, audit logging, fault handling, security testing, and external validation.
+- Any future implementation using an agentic or multi-agent architecture must preserve the same evidence/label separation and may not infer hidden validity labels from benchmark construction patterns.
+
 ### Papers and submission files
 
 | Artifact | Format | Purpose |
@@ -253,6 +276,29 @@ Future figures should be generated from immutable CSV/JSON results by a versione
 | Claim support | [Claim-to-evidence ledger](studies/raer/integrity/RAER_Claim_to_Evidence_Ledger_v0.2.csv) |
 | Citation checks | [Citation-verification log](studies/raer/integrity/RAER_Citation_Verification_Log_v0.2.csv) |
 | Repository boundary check | [verify_repository.py](scripts/verify_repository.py) |
+
+### Reproducibility expectations
+
+A reproduction should satisfy all of the following conditions:
+
+1. Use Python 3.11 or later and run the repository from a clean checkout.
+2. Do not add, reconstruct, or inspect the sealed 24-case held-out label partition.
+3. Preserve the frozen benchmark text, partitions, scoring records, estimator coefficients, candidate grid, comparator definitions, bootstrap seed, and gate thresholds.
+4. Run `make verify` before interpreting results; all 15 unit tests and the restricted-artifact boundary check must pass.
+5. Treat the committed CSV and JSON outputs as immutable historical results. Recomputed outputs should be written to a separate directory and compared against the recorded manifests.
+6. Record the operating system, Python version, commit hash, commands executed, and any deviation from the frozen protocol.
+7. Report both favorable and unfavorable metrics, including the two false blocks and the failed safe-completion criterion.
+8. Do not describe design-data reproduction as an independent held-out replication or effectiveness validation.
+
+Minimum verification commands:
+
+```bash
+git rev-parse HEAD
+python3 --version
+make verify
+```
+
+A scientifically faithful reproduction should recover the registered decision `FAIL_KEEP_HELD_OUT_SEALED`. A different result should be investigated as a code, input, environment, or protocol deviation rather than silently replacing the historical record.
 
 ### Research-integrity safeguards
 
