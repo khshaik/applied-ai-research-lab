@@ -31,6 +31,58 @@ This repository is a research monorepo: each study has an isolated protocol, ben
 
 > **Double-blind review notice:** keep this repository **private** while an identified manuscript is under double-blind review. The `papers/thinkai-2026/` directory and repository license identify the author. Do not publish the repository or create a public Zenodo deposit until the venue permits deanonymization.
 
+## Author
+
+Shaik Khaja Nayab Rasool.
+
+---
+
+## Research project dossier
+
+### Project identity
+
+**Risk-Adaptive Evidence Revalidation for Consequential Tool Actions**<br>
+*A prospective failure analysis of budgeted, authorization-sensitive evidence checking before an automated action.*
+
+| Item | Description |
+|---|---|
+| Research area | AI safety, agentic systems, decision-making under uncertainty, evidence validity, authorization governance |
+| Study type | Methods research with a constructed benchmark and prospectively specified design gate |
+| Primary method | Risk-Adaptive Evidence Revalidation (RAER v2) |
+| Unit of analysis | A proposed consequential action with three mutable evidence prerequisites |
+| Evaluation scope | 72 exposed design cases across six domains; 24 held-out cases remain sealed |
+| Current conclusion | Promising descriptive safety-cost trade-off, but the prespecified design hypothesis was not supported |
+| Publication framing | Transparent methods and prospective negative-results paper |
+
+### Dossier coverage at a glance
+
+| Research-project requirement | Where it is documented |
+|---|---|
+| Direct artifact links | [Papers and submission files](#papers-and-submission-files), [Tables, figures, and result artifacts](#tables-figures-and-result-artifacts), and [Reproducibility map](#reproducibility-map) |
+| Explicit hypothesis and outcome | [Hypothesis and decision rule](#hypothesis-and-decision-rule) and [Main design-stage results](#main-design-stage-results) |
+| Benchmark coverage | [Benchmark design](#benchmark-design) and the [reviewer-visible benchmark](studies/raer/calibration/benchmark/release_v1.1/reviewer_visible_cases.json) |
+| Analytical methods | [Method overview](#method-overview) and [Analysis performed](#analysis-performed) |
+| Technology boundaries | [Key technologies and libraries](#key-technologies-and-libraries) and [Technology boundaries](#technology-boundaries) |
+| Reproducibility expectations | [Quick verification](#quick-verification), [Reproducibility map](#reproducibility-map), and [Reproducibility expectations](#reproducibility-expectations) |
+
+### Problem statement
+
+Automated systems may prepare an action using evidence that was correct when observed but no longer valid when the action is executed. Authorization may be revoked, a policy may change, an identity binding may expire, or operational state may drift. Rechecking every prerequisite can consume latency, money, rate limits, or human attention, while reusing every stored observation can permit an unsafe or unauthorized action.
+
+The research problem is therefore:
+
+> How should an automated system select which action-specific prerequisites to revalidate under a limited validation budget, while balancing harmful action, unnecessary abstention, validation cost, authorization safety, and safe task completion?
+
+RAER addresses the decision before execution. It does not evaluate which commercial tool or agent framework performs best.
+
+### Research questions
+
+1. Can action-specific prerequisite revalidation reduce harmful actions without requiring exhaustive evidence refresh?
+2. Can harmful-action loss, abstention loss, and validation cost be combined in an interpretable constrained objective?
+3. Does a prespecified authorization safeguard prevent harmful actions caused by unchecked, invalid authorization evidence?
+4. Can a configuration selected on five domains transfer to a sixth domain without materially degrading safe completion?
+5. Can prospective gates and sealed test data prevent favorable descriptive results from being overstated as validation?
+
 ## The problem in one minute
 
 Many automated actions are safe only while several supporting facts remain valid. A system may verify those facts when planning an action, but the world can change before execution.
@@ -201,58 +253,6 @@ make verify
 ## Reuse and citation
 
 Code and repository-owned data are licensed under the MIT License unless a file states otherwise. Citation metadata are provided in [`CITATION.cff`](CITATION.cff). Referenced publications remain subject to their respective rights.
-
-## Author
-
-Shaik Khaja Nayab Rasool.
-
----
-
-## Research project dossier
-
-### Project identity
-
-**Risk-Adaptive Evidence Revalidation for Consequential Tool Actions**<br>
-*A prospective failure analysis of budgeted, authorization-sensitive evidence checking before an automated action.*
-
-| Item | Description |
-|---|---|
-| Research area | AI safety, agentic systems, decision-making under uncertainty, evidence validity, authorization governance |
-| Study type | Methods research with a constructed benchmark and prospectively specified design gate |
-| Primary method | Risk-Adaptive Evidence Revalidation (RAER v2) |
-| Unit of analysis | A proposed consequential action with three mutable evidence prerequisites |
-| Evaluation scope | 72 exposed design cases across six domains; 24 held-out cases remain sealed |
-| Current conclusion | Promising descriptive safety-cost trade-off, but the prespecified design hypothesis was not supported |
-| Publication framing | Transparent methods and prospective negative-results paper |
-
-### Dossier coverage at a glance
-
-| Research-project requirement | Where it is documented |
-|---|---|
-| Direct artifact links | [Papers and submission files](#papers-and-submission-files), [Tables, figures, and result artifacts](#tables-figures-and-result-artifacts), and [Reproducibility map](#reproducibility-map) |
-| Explicit hypothesis and outcome | [Hypothesis and decision rule](#hypothesis-and-decision-rule) and [Main design-stage results](#main-design-stage-results) |
-| Benchmark coverage | [Benchmark design](#benchmark-design) and the [reviewer-visible benchmark](studies/raer/calibration/benchmark/release_v1.1/reviewer_visible_cases.json) |
-| Analytical methods | [Method overview](#method-overview) and [Analysis performed](#analysis-performed) |
-| Technology boundaries | [Key technologies and libraries](#key-technologies-and-libraries) and [Technology boundaries](#technology-boundaries) |
-| Reproducibility expectations | [Quick verification](#quick-verification), [Reproducibility map](#reproducibility-map), and [Reproducibility expectations](#reproducibility-expectations) |
-
-### Problem statement
-
-Automated systems may prepare an action using evidence that was correct when observed but no longer valid when the action is executed. Authorization may be revoked, a policy may change, an identity binding may expire, or operational state may drift. Rechecking every prerequisite can consume latency, money, rate limits, or human attention, while reusing every stored observation can permit an unsafe or unauthorized action.
-
-The research problem is therefore:
-
-> How should an automated system select which action-specific prerequisites to revalidate under a limited validation budget, while balancing harmful action, unnecessary abstention, validation cost, authorization safety, and safe task completion?
-
-RAER addresses the decision before execution. It does not evaluate which commercial tool or agent framework performs best.
-
-### Research questions
-
-1. Can action-specific prerequisite revalidation reduce harmful actions without requiring exhaustive evidence refresh?
-2. Can harmful-action loss, abstention loss, and validation cost be combined in an interpretable constrained objective?
-3. Does a prespecified authorization safeguard prevent harmful actions caused by unchecked, invalid authorization evidence?
-4. Can a configuration selected on five domains transfer to a sixth domain without materially degrading safe completion?
-5. Can prospective gates and sealed test data prevent favorable descriptive results from being overstated as validation?
 
 ### Hypothesis and decision rule
 
