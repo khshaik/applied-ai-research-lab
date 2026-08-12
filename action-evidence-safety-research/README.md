@@ -1,10 +1,131 @@
 # Action Evidence Safety Research
 
+`Python 3.11+` · `JSON` · `CSV` · `unittest` · `SHA-256` · `GitHub Actions` · `Microsoft Word` · `PDF`
+
 Research on whether consequential automated actions should proceed when their authorization, policy, identity, scope, or operational prerequisites may have changed.
 
 This repository is a research monorepo: each study has an isolated protocol, benchmark, implementation, results, integrity record, and paper directory. The first study is **Risk-Adaptive Evidence Revalidation (RAER)**.
 
 > **Double-blind review notice:** keep this repository **private** while an identified manuscript is under double-blind review. The `papers/thinkai-2026/` directory and repository license identify the author. Do not publish the repository or create a public Zenodo deposit until the venue permits deanonymization.
+
+## The problem in one minute
+
+Many automated actions are safe only while several supporting facts remain valid. A system may verify those facts when planning an action, but the world can change before execution.
+
+```text
+Evidence collected            State changes                 Action executes
+        t0                         t1                              t2
+        |                          |                               |
+ "Approved and valid"    authorization revoked,        system still relies on
+                         policy updated, identity         the evidence from t0
+                         changed, resource moved
+```
+
+The central risk is a **time-of-check to time-of-action evidence gap**. The system may reason correctly from its stored evidence and still perform the wrong action because one prerequisite became invalid after it was observed.
+
+Checking everything again is not always practical. Authoritative validation may require a human approval, a slow system of record, a paid service, a rate-limited API, or an operational interruption. The system must decide:
+
+1. Which evidence is important enough to revalidate now?
+2. Which checks fit within the available cost or latency budget?
+3. Should the action proceed if all selected checks remain valid?
+4. Should the system refresh state, request renewed authority, or abstain?
+5. How can safety improve without blocking too many valid actions?
+
+RAER studies this decision boundary before execution.
+
+## Why ordinary controls do not completely resolve it
+
+Existing controls remain necessary, but each usually addresses only part of the problem:
+
+| Existing control | What it helps with | Remaining gap studied here |
+|---|---|---|
+| Authentication | Confirms who or what is making a request | Does not prove that a previously granted action-specific authorization is still active |
+| Access control | Checks a permission against a policy | May not cover changed purpose, scope, consent, state, or dependent prerequisites |
+| Input validation | Checks syntax, type, and allowed values | Cannot establish that an externally observed fact is still current |
+| Transaction checks | Protect consistency at commit time | May not identify which upstream evidence should be refreshed before commitment |
+| Confidence scoring | Estimates model or prediction confidence | Is not the same as validity of authorization, identity, policy, inventory, or operational state |
+| Refresh everything | Minimizes stale-evidence reuse | Can be too costly, slow, disruptive, or impossible under a validation budget |
+| Fixed refresh threshold | Rechecks evidence above one cutoff | Can ignore action consequence, evidence criticality, correlation, and authorization sensitivity |
+| Human approval | Adds accountable oversight | Human attention is limited and still depends on current, correctly scoped evidence |
+
+The open engineering and research challenge is not the absence of authentication, policy enforcement, or validation tools. It is the absence of a generally validated decision mechanism that jointly handles **mutable action prerequisites, limited validation resources, authorization safeguards, abstention cost, and safe completion across domains**. RAER is an experimental method for that combined problem; the present results do not establish that it has solved it.
+
+## Cross-industry examples
+
+The following are illustrative problem scenarios, not reports of real incidents and not additional benchmark results.
+
+### Healthcare and medical administration
+
+A system prepares to schedule or authorize a high-cost procedure using a referral, patient identity match, payer authorization, and current clinical order. Before execution, the authorization expires or the clinical order changes.
+
+- **If it acts:** the patient may receive an incorrectly scheduled service, experience a billing dispute, or bypass a required clinical review.
+- **If it always abstains:** valid and time-sensitive care may be delayed.
+- **Evidence-selection problem:** determine whether to recheck authorization, patient-order binding, eligibility, or all prerequisites within the available time.
+
+RAER does not provide medical advice or clinical validation. It studies the pre-action evidence-control problem around an administrative action.
+
+### Banking, payments, and finance
+
+A payment workflow prepares a beneficiary change or fund transfer using identity verification, account status, transaction authority, and fraud-screening state. Authority is revoked or the destination account changes after the evidence was collected.
+
+- **If it acts:** funds may be sent without current authority or to an invalid destination.
+- **If it refreshes everything:** the transaction may miss a legitimate settlement deadline and incur unnecessary cost.
+- **Evidence-selection problem:** prioritize high-consequence authorization and destination-binding checks without treating every transaction as equally risky.
+
+### E-commerce and digital marketplaces
+
+An order service prepares a refund, cancellation, address change, price correction, or inventory commitment. Customer authorization, catalogue price, fulfillment state, or available inventory changes before commitment.
+
+- **If it acts:** the service may refund the wrong party, ship to an outdated address, apply an invalid price, or promise unavailable inventory.
+- **If it blocks too often:** legitimate purchases and customer-service requests fail.
+- **Evidence-selection problem:** balance customer authorization, order state, fulfilment state, and validation cost for the proposed action.
+
+### Transportation and logistics
+
+A dispatch system prepares to reroute a vehicle, release a shipment, assign a driver, or change a delivery destination. Driver eligibility, cargo restrictions, route conditions, customer authority, or vehicle availability changes after planning.
+
+- **If it acts:** a shipment may be released to the wrong destination, a route may violate a new restriction, or an unavailable resource may be assigned.
+- **If it revalidates every dependency:** time-critical dispatch can become too slow.
+- **Evidence-selection problem:** identify the minimum sufficient checks while treating safety-critical and authorization evidence conservatively.
+
+Transportation is an illustrative extension domain; it is not one of the six domains in the current RAER-B96 benchmark.
+
+### Cybersecurity and access operations
+
+A security workflow prepares to release quarantined content, rotate credentials, isolate a host, or change access using a ticket, asset state, policy, incident severity, and approver authority. The incident classification or approval changes before execution.
+
+- **If it acts:** it may restore malicious content, revoke legitimate access, or execute a privileged change without current authority.
+- **If it abstains indiscriminately:** incident response may be delayed.
+- **Evidence-selection problem:** revalidate the prerequisites whose invalidity would make the specific action unsafe or impermissible.
+
+### Privacy and data governance
+
+A workflow prepares to send a campaign, export records, apply a retention action, or satisfy a data-subject request. Consent, identity binding, legal hold, jurisdiction, or requested scope changes before execution.
+
+- **If it acts:** data may be disclosed, retained, deleted, or processed outside the current authorized scope.
+- **If it blocks every uncertain case:** legitimate rights requests and operational obligations may not be completed on time.
+- **Evidence-selection problem:** give authorization and scope evidence special treatment while controlling unnecessary abstention.
+
+### Human resources and workforce systems
+
+A workforce workflow prepares an offer, compensation update, access change, schedule adjustment, or offboarding action. Manager approval, employment state, labor constraint, or effective date changes before execution.
+
+- **If it acts:** the wrong access, payment, employment, or scheduling state may be committed.
+- **If it delays every action:** onboarding, payroll, staffing, and offboarding workflows may be disrupted.
+- **Evidence-selection problem:** recheck the most consequential and irreversible prerequisites within the operational budget.
+
+## The desired safety behavior
+
+RAER separates four outcomes that are often collapsed into a single proceed/deny response:
+
+| Decision | Meaning |
+|---|---|
+| `ACT` | Selected checks remain valid and modeled action loss is acceptable |
+| `REFRESH` | A checked state, policy, identity, or scope prerequisite is invalid and updated evidence is required |
+| `ASK` | A checked authorization prerequisite is invalid and renewed human or institutional authority is required |
+| `ABSTAIN` | Available checks and modeled risk do not justify executing the action within the allowed budget |
+
+The goal is not maximum automation. It is a defensible balance among safety, completion, authority, and validation cost—with every trade-off recorded and evaluated prospectively.
 
 ## Current study
 
