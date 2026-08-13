@@ -1,0 +1,77 @@
+{
+  "manifest_version": "1.0",
+  "created_on": "2026-08-13",
+  "status": "AUTHOR_AND_FORMAT_INPUTS_INCORPORATED_SIMILARITY_CHECK_PENDING",
+  "paper_framing": "methods and prospective negative calibration",
+  "held_out_created_or_accessed": false,
+  "similarity_percentage": null,
+  "similarity_status": "PENDING_INSTITUTION_APPROVED_CHECK",
+  "format_basis": {
+    "venue_confirmation": "User confirmed ThinkAI 2026 retains 12-15 pages, Springer LNCS/CCIS one column, and double-blind review.",
+    "retained_reference": "action-evidence-safety-research/output/docx/RAER_v2_ThinkAI2026_CAMERA_READY_v1.0.docx",
+    "retained_reference_sha256": "488bcb1aa76e7df781ff92f11658c293c31584a983e7412a4d917f90d4178791",
+    "reference_content_reused": false
+  },
+  "author": {
+    "name": "Shaik Khaja Nayab Rasool",
+    "affiliation": "KLU University, Moinabad Road, near the TS Police Academy, Aziznagar, Hyderabad, Telangana 500075, India",
+    "email": "shaik.khajanayabrasool@gmail.com",
+    "orcid": null
+  },
+  "rendering": {
+    "engine": "Microsoft Word PDF export",
+    "anonymous_pages": 14,
+    "camera_ready_pages": 14,
+    "all_anonymous_pages_visually_reviewed": true,
+    "camera_ready_differential_pages_visually_reviewed": true,
+    "tables_1_to_8_rendered": true,
+    "equations_1_to_5_rendered": true,
+    "figures_1_to_3_rendered": true,
+    "pdf_interpreter_check": "PASS",
+    "anonymous_identity_scan": "PASS"
+  },
+  "artifacts": [
+    {
+      "relative_path": "publication/output/docx/OVAR_ThinkAI2026_Anonymous_Review_Manuscript_v1.0.docx",
+      "sha256": "8776c00e5ab4c44ea7c333405aeea0d30e41c0e54ed3343ed458abadae76220d",
+      "bytes": 265385,
+      "role": "Double-blind review manuscript"
+    },
+    {
+      "relative_path": "publication/output/pdf/OVAR_ThinkAI2026_Anonymous_Review_Manuscript_v1.0.pdf",
+      "sha256": "17ef9e985b4abb20843d48b0c29f103e109c3838ad4591d1056cc7c21c8dcf7f",
+      "bytes": 663734,
+      "role": "Double-blind submission PDF"
+    },
+    {
+      "relative_path": "publication/output/docx/OVAR_ThinkAI2026_CAMERA_READY_v1.0.docx",
+      "sha256": "09253f98f0158fadad5ddac510df07dfb001a06b5eec05658589410b92ee3e52",
+      "bytes": 265846,
+      "role": "Identified camera-ready manuscript"
+    },
+    {
+      "relative_path": "publication/output/pdf/OVAR_ThinkAI2026_CAMERA_READY_v1.0.pdf",
+      "sha256": "fd66bb2c0f87b8af5b4aecb82e71a3e62c6a7701490debeb4296c89e8f246358",
+      "bytes": 697853,
+      "role": "Identified camera-ready PDF"
+    },
+    {
+      "relative_path": "publication/build_manuscript.py",
+      "sha256": "d410306beb127b1431a9d9b34fb5b216b1d2782aac9d30e0a93397d37fb6468c",
+      "bytes": 56277,
+      "role": "Reference-derived reproducible manuscript and figure builder"
+    },
+    {
+      "relative_path": "publication/CLAIM_TO_EVIDENCE_LEDGER_v1.0.csv",
+      "sha256": "402665d0bec195a646fe27869df0e5fbb5a2e646acf18889021d1caf6dd99277",
+      "bytes": 4087,
+      "role": "Publication claim control"
+    },
+    {
+      "relative_path": "publication/SUBMISSION_READINESS_CHECKLIST_v1.0.md",
+      "sha256": "5247fce1a92756d2652ee18e9237c92aa8b782fa64668255a5a233c3cc9e1524",
+      "bytes": 3413,
+      "role": "Remaining submission controls"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+source_id,source_type,title,url,closest_overlap,initial_disposition,verified_on
+S01,scholarly,"AI Tokenomics: The Economics of Tokens, Computation, and Pricing in Foundation Models",https://arxiv.org/abs/2606.24616,"workflow production; enterprise allocation; value; marginal productivity",closest-must-cite,2026-08-12
+S02,scholarly,"Token Economics for LLM Agents: A Dual-View Study from Computing and Economics",https://arxiv.org/abs/2605.09104,"token economics; budgets; agent ecosystems; security",closest-must-cite,2026-08-12
+S03,scholarly,"Agentic AI Systems Should Be Designed as Marginal Token Allocators",https://arxiv.org/abs/2605.01214,"marginal value; cost; latency; risk allocation",closest-must-cite,2026-08-12
+S04,scholarly,"Tokenomics: Quantifying Where Tokens Are Used in Agentic Software Engineering",https://arxiv.org/abs/2601.14470,"token distribution in multi-agent software work",must-cite,2026-08-12
+S05,scholarly,"How Do AI Agents Spend Your Money? Analyzing and Predicting Token Consumption in Agentic Coding Tasks",https://arxiv.org/abs/2604.22750,"token variability; accuracy relationship; cost prediction",must-cite,2026-08-12
+S06,scholarly,"Towards Optimizing the Costs of LLM Usage",https://arxiv.org/abs/2402.01742,"quality-cost-latency optimization; model selection; token reduction",must-cite,2026-08-12
+S07,scholarly,"AI Strategy: How to Choose What AI Product to Implement",https://arxiv.org/abs/2607.23733,"expected ROI; AI portfolio selection",closest-must-cite,2026-08-12
+S08,scholarly,"Transferability of Token Usage Rights: A Design Space Analysis of Generative AI Services",https://arxiv.org/abs/2604.26683,"carry-over; transfer; co-management; conversion",closest-must-cite,2026-08-12
+S09,standard,NIST AI Risk Management Framework Core,https://airc.nist.gov/airmf-resources/airmf/5-sec-core/,"business value; benefits; costs; benchmarks; governance",must-align,2026-08-12
+S10,practice,FinOps for AI,https://www.finops.org/framework/technology-categories/ai/,"AI allocation; forecasting; optimization; governance; value",closest-must-cite,2026-08-12
+S11,practice,How to Build a Generative AI Cost and Usage Tracker,https://www.finops.org/wg/how-to-build-a-generative-ai-cost-and-usage-tracker/,"token tracking; cost attribution; shared capacity",must-cite,2026-08-12
+S12,practice,Tokenomics: Managing AI Value in SaaS Model Token Costs,https://www.finops.org/wg/token-economics-saas/,"token cost framework; budgets; unit costs; governance",closest-must-cite,2026-08-12
+S13,software,LiteLLM,https://github.com/BerriAI/litellm,"gateway; spend tracking; virtual keys; routing; logging",implementation-baseline,2026-08-12
+S14,software,Langfuse,https://github.com/langfuse/langfuse,"observability; evaluation; traces; metrics",telemetry-input,2026-08-12
+S15,software,OpenLIT,https://github.com/openlit/openlit,"OpenTelemetry; token cost; evaluation; GPU monitoring",telemetry-input,2026-08-12
+S16,software,Opik,https://github.com/comet-ml/opik,"tracing; evaluation; monitoring; optimization",telemetry-input,2026-08-12
+S17,software,OpenInference,https://github.com/Arize-ai/openinference,"AI trace semantic conventions",telemetry-input,2026-08-12
+S18,working-paper,"Measuring Enterprise AI Value in the Agentic AI Era: A Closed-Loop Framework for Adoption, Decision Intelligence, and ROI Optimization",https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6986058,"closed-loop enterprise AI value and ROI optimization",closest-forces-narrowing,2026-08-12
+S19,working-paper,"A Multi-Layer Framework for Evaluating the Return on Investment of AI Projects",https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6732598,"readiness; ROIC value drivers; stage gates; risk adjustment; decision scorecard",closest-forces-narrowing,2026-08-12
+S20,scholarly,"FrugalGPT: How to Use Large Language Models While Reducing Cost and Improving Performance",https://arxiv.org/abs/2305.05176,"LLM cascade; inference cost and quality optimization",method-baseline,2026-08-12
+S21,scholarly,"RouteLLM: Learning to Route LLMs with Preference Data",https://arxiv.org/abs/2406.18665,"dynamic routing; cost-quality optimization",method-baseline,2026-08-12
+S22,scholarly,"AutoMix: Automatically Mixing Language Models",https://arxiv.org/abs/2310.12963,"POMDP routing; cost-quality optimization",method-baseline,2026-08-12
+S23,scholarly,"LLMLingua: Compressing Prompts for Accelerated Inference of Large Language Models",https://arxiv.org/abs/2310.05736,"prompt compression; token cost reduction",optimization-baseline,2026-08-12
+S24,scholarly,"Token-Budget-Aware LLM Reasoning",https://aclanthology.org/2025.findings-acl.1274/,"adaptive reasoning-token budgets",optimization-baseline,2026-08-12
+S25,scholarly,"Reasoning in Token Economies: Budget-Aware Evaluation of LLM Reasoning Strategies",https://aclanthology.org/2024.emnlp-main.1112/,"compute-matched cost-performance evaluation",evaluation-baseline,2026-08-12
+S26,scholarly,"Cut the Crap: An Economical Communication Pipeline for LLM-based Multi-Agent Systems",https://arxiv.org/abs/2410.02506,"multi-agent communication pruning and token efficiency",optimization-baseline,2026-08-12
+S27,scholarly,"Budget-Aware Anytime Reasoning with LLM-Synthesized Preference Data",https://aclanthology.org/2026.findings-acl.417/,"quality improvement under fixed reasoning budget",optimization-baseline,2026-08-12
+S28,scholarly,"Experimental Evidence on the Productivity Effects of Generative Artificial Intelligence",https://doi.org/10.1126/science.adh2586,"preregistered causal productivity and quality measurement",outcome-method-baseline,2026-08-12
+S29,scholarly,"Generative AI at Work",https://doi.org/10.1093/qje/qjae044,"field productivity effects; quality and worker heterogeneity",outcome-method-baseline,2026-08-12
+S30,scholarly,"The Impact of AI on Developer Productivity: Evidence from GitHub Copilot",https://arxiv.org/abs/2302.06590,"controlled productivity experiment",outcome-method-baseline,2026-08-12
+S31,standard,"ISO/IEC 42001:2023 Artificial intelligence management system",https://www.iso.org/standard/42001,"organizational AI management; risk; opportunity; continuous improvement",must-align,2026-08-12
+S32,standard,"OpenTelemetry Generative AI Semantic Conventions",https://opentelemetry.io/docs/specs/semconv/registry/attributes/gen-ai/,"standardized model workflow token and trace attributes",schema-baseline,2026-08-12
+S33,standard,"FinOps Open Cost and Usage Specification",https://focus.finops.org/,"normalized technology cost and usage schema",schema-baseline,2026-08-12
+S34,patent,"US20260119922A1 Dynamic and adaptive prediction of model costs prior to utilization of AI models",https://patents.google.com/patent/US20260119922A1/en,"pre-execution agent cost prediction and blocking",patent-boundary,2026-08-12
+S35,patent,"US12524210B2 Hybrid inference system for COGS reduction",https://patents.google.com/patent/US12524210B2/,"acceptance-aware local/remote model routing and COGS reduction",patent-boundary,2026-08-12
+S36,patent,"US20250097163A1 Resource allocation for accessing cloud based services",https://patents.google.com/patent/US20250097163A1/en,"allocation of GenAI cloud-service resources among clients",patent-boundary,2026-08-12
+S37,patent,"US20250363200A1 Dynamic enforcement of management rules associated with AI pipeline model routing",https://patents.google.com/patent/US20250363200A1,"cost quality latency rules and tenant willingness-to-pay routing",patent-boundary,2026-08-12
+S38,scholarly,"Can LLM Agents Be CFOs? A Benchmark for Resource Allocation in Dynamic Enterprise Environments",https://arxiv.org/abs/2603.23638,"long-horizon enterprise resource allocation under uncertainty",evaluation-boundary,2026-08-12
+S39,scholarly,"Does Generative AI Narrow Education-Based Productivity Gaps? Evidence from a Randomized Experiment",https://www.nber.org/papers/w34851,"causal productivity and heterogeneous access effects",outcome-fairness-baseline,2026-08-12

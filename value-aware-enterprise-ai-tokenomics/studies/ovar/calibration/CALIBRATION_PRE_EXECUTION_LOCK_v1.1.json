@@ -1,0 +1,87 @@
+{
+  "lock_version": "1.1",
+  "status": "CALIBRATION_PRE_EXECUTION_LOCK",
+  "created_at": "2026-08-13T13:10:52.469Z",
+  "execution_authorized": true,
+  "policy_results_absent": true,
+  "reference_labels_constructed": true,
+  "human_validation": false,
+  "case_count": 48,
+  "artifacts": [
+    {
+      "relative_path": "calibration/CALIBRATION_DESIGN_PROTOCOL_v1.0.md",
+      "sha256": "3fff3b4292fb45e1104942e4a0fafc5712c7f83f0e1bc730f4b39536257978da",
+      "bytes": 3984
+    },
+    {
+      "relative_path": "calibration/REFERENCE_ADJUDICATION_PROTOCOL_v1.0.md",
+      "sha256": "663d8e0d18dc166ec7547e5f1221519503fcc7ec6da46a358cc9e788e8eced61",
+      "bytes": 4034
+    },
+    {
+      "relative_path": "calibration/PROSPECTIVE_ANALYSIS_PLAN_v1.0.md",
+      "sha256": "366753d9e7701fd160c29ac68e9083d3a5dab1c0a16879dc847aac3b498c903b",
+      "bytes": 2953
+    },
+    {
+      "relative_path": "calibration/schema/construct_review_case_schema_v1.0.json",
+      "sha256": "2c874694aef83182bd396f0202ab60003478b10c715bfa2d8d5a32faa4aa836a",
+      "bytes": 3775
+    },
+    {
+      "relative_path": "calibration/schema/reference_record_schema_v1.0.json",
+      "sha256": "71e6af0ee35761a608b86d52668a9fec82fa881ada9021963b00ec3c0f19eed5",
+      "bytes": 1661
+    },
+    {
+      "relative_path": "calibration/candidate_v1.1/construct_review_cases.json",
+      "sha256": "8347910ebcfa3129f0e32ee9c268e418d4b3c290241a43f59113e700e821f9c1",
+      "bytes": 135629
+    },
+    {
+      "relative_path": "calibration/restricted/construction_registry_RESTRICTED_v1.1.json",
+      "sha256": "f931252e51cfa3e28b597303906fd20ee9f13fd3dc9f4384b7ff5d0cb55607b6",
+      "bytes": 8776
+    },
+    {
+      "relative_path": "calibration/restricted/reference_labels_RESTRICTED_v1.0.json",
+      "sha256": "d7ae3e0508103e0c86b94b94b840dd6980187f43345405114618a5d8ce067418",
+      "bytes": 44072
+    },
+    {
+      "relative_path": "calibration/review/consolidated_v1.1/construct_recheck_metrics_v1.1.json",
+      "sha256": "8a3a51bed1c98a9be8dcf149fae50b7c6adb2e51b5ca0a0ad6444dcd566b46b9",
+      "bytes": 11132
+    },
+    {
+      "relative_path": "calibration/review/consolidated_v1.1/CONSTRUCT_RECHECK_LOCK_v1.1.json",
+      "sha256": "2a860c861d4a01c0248c91f8fc1a29d684db85a1ecf412b861a8f5871f12ef43",
+      "bytes": 690
+    },
+    {
+      "relative_path": "calibration/tests/candidate_v1.0.test.mjs",
+      "sha256": "391c118f3dea1644e99fcbb7066ec04f87045f753f1ff75747b837e7559a413e",
+      "bytes": 3074
+    },
+    {
+      "relative_path": "calibration/tests/reference_labels_v1.0.test.mjs",
+      "sha256": "e55a26957bbf8b332bf88ccb528fc6373955ac31684b4fef28f5bab6d75b2775",
+      "bytes": 3013
+    },
+    {
+      "relative_path": "calibration/implementation/calibration_policies_v1.0.mjs",
+      "sha256": "c679c230d56b814b2745ef29a42aa3bdfc0da155eb7c25a59ef17ea0175d639c",
+      "bytes": 13953
+    },
+    {
+      "relative_path": "calibration/tests/calibration_policies_v1.0.test.mjs",
+      "sha256": "25d8f3a4e1b1bcf7c70477fe4ed37bff4f0580cd3f069fde2277ea28f5afd6e3",
+      "bytes": 6065
+    },
+    {
+      "relative_path": "calibration/implementation/run_calibration_once_v1.0.mjs",
+      "sha256": "01c6c39c2e516b6d586667818ab72db66ef1290cd274c1e4f9f20adff0751429",
+      "bytes": 6324
+    }
+  ]
+}

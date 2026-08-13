@@ -1,0 +1,4624 @@
+{
+  "metadata": {
+    "study": "OVAR prospective constructed calibration",
+    "version": "1.0",
+    "confirmatory": false,
+    "executed_at": "2026-08-13T13:11:41.466Z",
+    "lock_sha256": "f9648e2305d996ea74e73c7bd4736eabc8744434e70bb906c328a6184c66d2f8",
+    "case_count": 48
+  },
+  "decisions": [
+    {
+      "policy": "USAGE_ONLY",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R001",
+      "input_hash": "41ccb41d87a7d0f027f7296df1fa0d5719235fec0dd123c2937cc3589f031b0e",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "high utilization within budget"
+      ],
+      "measurement_cost": 0.05,
+      "receipt_hash": "22cfdbb6e4a99cc6e149420b0df80cb7ca81ffe672ad493d5efc9081f03adf9b",
+      "domain": "HEALTHCARE",
+      "reference_roi_state": "INDETERMINATE",
+      "reference_action": "INDETERMINATE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "SELF_REPORTED_VALUE",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R001",
+      "input_hash": "262fd66649a2cb752216e938eeb514a52c7b4836e6d2cccd3952f892e6ff23fb",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "reported benefit exceeds provider cost by scale margin"
+      ],
+      "measurement_cost": 0.1,
+      "receipt_hash": "eb899c2282f86c802ffc42fd9c924a1a4c8b035069d5be379430be3f76677567",
+      "domain": "HEALTHCARE",
+      "reference_roi_state": "INDETERMINATE",
+      "reference_action": "INDETERMINATE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "COST_QUALITY",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R001",
+      "input_hash": "701583072212ea46ab4e1a1384507460a73f7c546864fe98de8fe16abdc43a27",
+      "roi_state": "POSITIVE",
+      "action": "CONTINUE_PILOT",
+      "reasons": [
+        "acceptable technical quality"
+      ],
+      "measurement_cost": 0.2,
+      "receipt_hash": "83e85497770fae8c9b76a146e58f585cefd01b8e91b8cb67341f88e72bea693d",
+      "domain": "HEALTHCARE",
+      "reference_roi_state": "INDETERMINATE",
+      "reference_action": "INDETERMINATE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "OUTCOME_FLAT",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R001",
+      "input_hash": "aa77bcc109d2b6eb60ea913dc14a3076fd2a50b473bcc388baad0b32c9732c0f",
+      "roi_state": "INDETERMINATE",
+      "action": "INDETERMINATE",
+      "reasons": [
+        "mandatory outcome evidence, baseline, or attribution requirement not met"
+      ],
+      "measurement_cost": 0.65,
+      "receipt_hash": "82a7ad12a8b61c297c14bad074bd2a7c47e7bcc051a46bd211a49aca3a9f9661",
+      "domain": "HEALTHCARE",
+      "reference_roi_state": "INDETERMINATE",
+      "reference_action": "INDETERMINATE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "OVAR_LEDGER",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R001",
+      "input_hash": "62b33da67d030c3d2a52e60fa2a296e5b11a7b983379e5bfd970b342581073ae",
+      "roi_state": "INDETERMINATE",
+      "action": "INDETERMINATE",
+      "reasons": [
+        "mandatory outcome evidence, baseline, or attribution requirement not met"
+      ],
+      "measurement_cost": 0.8,
+      "authorization_status": "CONDITIONAL_OR_SCOPE_LIMITED",
+      "risk_tier": "MODERATE",
+      "expected_harm_cost": 6928,
+      "receipt_hash": "74239af0bb61d95a55c8de4d2bf943b26b1ad605f162eb7742c7299a936c898d",
+      "domain": "HEALTHCARE",
+      "reference_roi_state": "INDETERMINATE",
+      "reference_action": "INDETERMINATE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "USAGE_ONLY",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R002",
+      "input_hash": "b693df24d64609709e0adcd8c4e2b9b4d63e519c929932e8216e6ba49971f6bb",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "high utilization within budget"
+      ],
+      "measurement_cost": 0.05,
+      "receipt_hash": "5bc63b615d95d054eebef9be74069ba4ed1ae626a6d76f2ebd27e2ad1d84ad95",
+      "domain": "CYBERSECURITY",
+      "reference_roi_state": "NEUTRAL",
+      "reference_action": "REVISE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "SELF_REPORTED_VALUE",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R002",
+      "input_hash": "caa0bc15c1fcd15a40c524e53846ccf8ac346f7cf57c1151b80b9755b0a8f744",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "reported benefit exceeds provider cost by scale margin"
+      ],
+      "measurement_cost": 0.1,
+      "receipt_hash": "adf9e62c5647836155ae8f6fae3339cfd9258e7c45ed2d2beb4522b196f0472b",
+      "domain": "CYBERSECURITY",
+      "reference_roi_state": "NEUTRAL",
+      "reference_action": "REVISE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "COST_QUALITY",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R002",
+      "input_hash": "700a4c107375cec36c4f500e62b36030ffaa1cc2dce50d49f5ccd994fd37f15e",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "high technical quality within direct-cost budget"
+      ],
+      "measurement_cost": 0.2,
+      "receipt_hash": "517a3928dbcc26cf78733fc93760477353d92b3f22f856ddfd9bef88f97634b4",
+      "domain": "CYBERSECURITY",
+      "reference_roi_state": "NEUTRAL",
+      "reference_action": "REVISE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "OUTCOME_FLAT",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R002",
+      "input_hash": "26c33806de1f0ab38ab8150ae6a500fd7ccaafc0a2def9f90b6f2c7704b9ff3a",
+      "roi_state": "NEGATIVE",
+      "action": "STOP",
+      "reasons": [
+        "upper net-value bound below zero"
+      ],
+      "measurement_cost": 0.65,
+      "fully_loaded_cost": 285500,
+      "incremental_outcome_value": 182160,
+      "expected_harm_cost": 0,
+      "net_value": -103340,
+      "lower_bound": -164340,
+      "upper_bound": -42340,
+      "receipt_hash": "5b8beb89ae2990363b9321093eb5ada9ba1dcfac474793ca596400e716700bdd",
+      "domain": "CYBERSECURITY",
+      "reference_roi_state": "NEUTRAL",
+      "reference_action": "REVISE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "OVAR_LEDGER",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R002",
+      "input_hash": "9f315753f25b914e2bae76e1e92074b39680ad3c2cca982e439959873f7fb7bd",
+      "roi_state": "NEGATIVE",
+      "action": "STOP",
+      "reasons": [
+        "upper net-value bound below zero"
+      ],
+      "measurement_cost": 0.8,
+      "fully_loaded_cost": 285500,
+      "incremental_outcome_value": 182160,
+      "expected_harm_cost": 57100,
+      "net_value": -160440,
+      "lower_bound": -221440,
+      "upper_bound": -99440,
+      "authorization_status": "CONDITIONAL_OR_SCOPE_LIMITED",
+      "risk_tier": "HIGH",
+      "receipt_hash": "6bfb8a4433f9485c91e462c96beb5ceaaf642b63d0773a98951e95c9097e2d51",
+      "domain": "CYBERSECURITY",
+      "reference_roi_state": "NEUTRAL",
+      "reference_action": "REVISE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "USAGE_ONLY",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R003",
+      "input_hash": "4ebb0a4ae526d9c40856cd17eeb0b66349e28acc37a70fc258bcbc595b05a8ac",
+      "roi_state": "POSITIVE",
+      "action": "CONTINUE_PILOT",
+      "reasons": [
+        "moderate utilization within budget"
+      ],
+      "measurement_cost": 0.05,
+      "receipt_hash": "ac2d573293890dc13a4167a3f4c025290262eb30023e7f23cab391c34d9e5700",
+      "domain": "FINANCIAL_SERVICES",
+      "reference_roi_state": "NEUTRAL",
+      "reference_action": "REVISE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "SELF_REPORTED_VALUE",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R003",
+      "input_hash": "8b3c05384ec51f0578abed75bec604b8968d0312f586f262076f166a9412e74f",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "reported benefit exceeds provider cost by scale margin"
+      ],
+      "measurement_cost": 0.1,
+      "receipt_hash": "478ac8fce8e5ca42e24b24ef8f54e69885fb036d3abd14319e29a0f939c13131",
+      "domain": "FINANCIAL_SERVICES",
+      "reference_roi_state": "NEUTRAL",
+      "reference_action": "REVISE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "COST_QUALITY",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R003",
+      "input_hash": "340c5ffcd840c80c12b6c8b2e6a8fd4ab7fe8ef45e51b2671cd0e4e60db728ac",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "high technical quality within direct-cost budget"
+      ],
+      "measurement_cost": 0.2,
+      "receipt_hash": "87e8c46ae811e61093bf3a02e984b0cb2b6c1938d80b692bad100ee1a1fbbd82",
+      "domain": "FINANCIAL_SERVICES",
+      "reference_roi_state": "NEUTRAL",
+      "reference_action": "REVISE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "OUTCOME_FLAT",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R003",
+      "input_hash": "43d4d6c6106c381e14276b2237af95843a2aec46cea905dc1dc245f083b34c5c",
+      "roi_state": "INDETERMINATE",
+      "action": "INDETERMINATE",
+      "reasons": [
+        "mandatory outcome evidence, baseline, or attribution requirement not met"
+      ],
+      "measurement_cost": 0.65,
+      "receipt_hash": "b6b6daccc82bcd4c5ea29c9b484e425f658eb5dd7a780b7a2756ba9e93811d61",
+      "domain": "FINANCIAL_SERVICES",
+      "reference_roi_state": "NEUTRAL",
+      "reference_action": "REVISE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "OVAR_LEDGER",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R003",
+      "input_hash": "761a240883ebeddf07fe9dc24fce1f99e6e830a0669cdb5b7a18516cbe60c369",
+      "roi_state": "INDETERMINATE",
+      "action": "INDETERMINATE",
+      "reasons": [
+        "mandatory outcome evidence, baseline, or attribution requirement not met"
+      ],
+      "measurement_cost": 0.8,
+      "authorization_status": "CONDITIONAL_OR_SCOPE_LIMITED",
+      "risk_tier": "MODERATE",
+      "expected_harm_cost": 13472,
+      "receipt_hash": "c85cf507d3b83468f729c309ff4759776b6abca6013f15467d9fc4a6493c8e2e",
+      "domain": "FINANCIAL_SERVICES",
+      "reference_roi_state": "NEUTRAL",
+      "reference_action": "REVISE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "USAGE_ONLY",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R004",
+      "input_hash": "524ee619027f64376b95f71c5ed6da13644a0e0d46bca4d33ec658d90da47c4a",
+      "roi_state": "POSITIVE",
+      "action": "CONTINUE_PILOT",
+      "reasons": [
+        "moderate utilization within budget"
+      ],
+      "measurement_cost": 0.05,
+      "receipt_hash": "17cf3658badbf3042761d965f710b86e60108f41e6b3a64e4d6797e0b966ba92",
+      "domain": "CYBERSECURITY",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "SCALE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "SELF_REPORTED_VALUE",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R004",
+      "input_hash": "c16a36d64de28dffa2d473c20838d71d82a3809c855a759f0333fed31247a7fd",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "reported benefit exceeds provider cost by scale margin"
+      ],
+      "measurement_cost": 0.1,
+      "receipt_hash": "7c506a0b814b25d68090180a360c6e9a3e7917e9f0d5a9759c6a90e3d316032c",
+      "domain": "CYBERSECURITY",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "SCALE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "COST_QUALITY",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R004",
+      "input_hash": "fe8fd2895cb29de1be303ba7fcc27ea8d5c09572af1be1eb44b6692f0beeafc1",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "high technical quality within direct-cost budget"
+      ],
+      "measurement_cost": 0.2,
+      "receipt_hash": "6b1cc8a6e377a436bac6713ffac285731488e4659758a09585df75dce8cc102b",
+      "domain": "CYBERSECURITY",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "SCALE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "OUTCOME_FLAT",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R004",
+      "input_hash": "55d79cbf5d384a2f3b6dfbaebd0b5b847aaf21897cf899d40d87050921e139da",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "lower net-value bound above zero"
+      ],
+      "measurement_cost": 0.65,
+      "fully_loaded_cost": 132900,
+      "incremental_outcome_value": 167440,
+      "expected_harm_cost": 0,
+      "net_value": 34540,
+      "lower_bound": 2540,
+      "upper_bound": 66540,
+      "receipt_hash": "0dd4886328b62958416e1c58a1ebd69ea670e40eff725bd2899008639d7f29dc",
+      "domain": "CYBERSECURITY",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "SCALE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "OVAR_LEDGER",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R004",
+      "input_hash": "577da9b7c55369e2041e2ad348b5a528354ffaed7259cb66e21d48ab86c908e9",
+      "roi_state": "NEGATIVE",
+      "action": "STOP",
+      "reasons": [
+        "material authorization evidence is absent, expired, or out of scope"
+      ],
+      "measurement_cost": 0.8,
+      "authorization_status": "MATERIALLY_ABSENT_EXPIRED_OR_OUT_OF_SCOPE",
+      "risk_tier": "MODERATE",
+      "expected_harm_cost": 10632,
+      "fully_loaded_cost": 132900,
+      "receipt_hash": "5dcaf9fdf9c31339e2adab3dd844d19160b4c7e11a33e4914cfc3a7e365f85e4",
+      "domain": "CYBERSECURITY",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "SCALE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "USAGE_ONLY",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R005",
+      "input_hash": "a6aed2cee4817457558ae01a7271eb8191ef337d26537eafe66f271cb254ef0f",
+      "roi_state": "POSITIVE",
+      "action": "CONTINUE_PILOT",
+      "reasons": [
+        "moderate utilization within budget"
+      ],
+      "measurement_cost": 0.05,
+      "receipt_hash": "45ec0ae7646aea787ed3f7de410c2a8ac16fad9e3e4eaca29e1d5f947e88bc2e",
+      "domain": "CUSTOMER_OPERATIONS",
+      "reference_roi_state": "INDETERMINATE",
+      "reference_action": "INDETERMINATE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "SELF_REPORTED_VALUE",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R005",
+      "input_hash": "38ba172f8eca7b59d97488fe1b99191e9d25bf2d08f45565deeeb61a44c6475a",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "reported benefit exceeds provider cost by scale margin"
+      ],
+      "measurement_cost": 0.1,
+      "receipt_hash": "7ebcded329147108a32cc6bb38323d44776e45ffa3813044d4b2d327afcb378c",
+      "domain": "CUSTOMER_OPERATIONS",
+      "reference_roi_state": "INDETERMINATE",
+      "reference_action": "INDETERMINATE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "COST_QUALITY",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R005",
+      "input_hash": "1b25ccceea116faee3e2daf2c28e6d2d1bc741765308a44218ff77dcfaba0161",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "high technical quality within direct-cost budget"
+      ],
+      "measurement_cost": 0.2,
+      "receipt_hash": "6db276045ecaeb90745adff351025c055344084f55b4efbc85f13bfa1b0a2301",
+      "domain": "CUSTOMER_OPERATIONS",
+      "reference_roi_state": "INDETERMINATE",
+      "reference_action": "INDETERMINATE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "OUTCOME_FLAT",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R005",
+      "input_hash": "b24a5132e2244530899def883d9505744f320f631e05b52d00f2442db5054353",
+      "roi_state": "NEUTRAL",
+      "action": "REVISE",
+      "reasons": [
+        "net-value interval crosses zero"
+      ],
+      "measurement_cost": 0.65,
+      "fully_loaded_cost": 131900,
+      "incremental_outcome_value": 161280,
+      "expected_harm_cost": 0,
+      "net_value": 29380,
+      "lower_bound": -154620,
+      "upper_bound": 213380,
+      "receipt_hash": "9e70c889436d4c9f989c9a01b31ad48a7ed7231e2c7162cac5f2f75adb8a95ad",
+      "domain": "CUSTOMER_OPERATIONS",
+      "reference_roi_state": "INDETERMINATE",
+      "reference_action": "INDETERMINATE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "OVAR_LEDGER",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R005",
+      "input_hash": "ed580bdde832a2ba20933489623d1b5a3da49927e12ad0c3431439dbe2369f6b",
+      "roi_state": "NEUTRAL",
+      "action": "REVISE",
+      "reasons": [
+        "net-value interval crosses zero"
+      ],
+      "measurement_cost": 0.8,
+      "fully_loaded_cost": 131900,
+      "incremental_outcome_value": 161280,
+      "expected_harm_cost": 10552,
+      "net_value": 18828,
+      "lower_bound": -165172,
+      "upper_bound": 202828,
+      "authorization_status": "CONDITIONAL_OR_SCOPE_LIMITED",
+      "risk_tier": "MODERATE",
+      "receipt_hash": "c54f0cdbd6b1dc9addb963f58d5e76b169285d49e9620cd0906c529b0412545a",
+      "domain": "CUSTOMER_OPERATIONS",
+      "reference_roi_state": "INDETERMINATE",
+      "reference_action": "INDETERMINATE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "USAGE_ONLY",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R006",
+      "input_hash": "4e366fa8ec93bf3927cfaf129a15df50ee3dd029e3d3b161116a1fa8acb0f7a7",
+      "roi_state": "NEUTRAL",
+      "action": "REVISE",
+      "reasons": [
+        "low utilization"
+      ],
+      "measurement_cost": 0.05,
+      "receipt_hash": "785cbbd81b787f2ff0013616d0d3276e0f1498add3698b1c5ad888bb4ebb48f0",
+      "domain": "CUSTOMER_OPERATIONS",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "SCALE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "SELF_REPORTED_VALUE",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R006",
+      "input_hash": "d48933c655bca4851316a7ac3c374f22e1df1596e75e2003f1cf0a64e4b05e6c",
+      "roi_state": "POSITIVE",
+      "action": "CONTINUE_PILOT",
+      "reasons": [
+        "reported benefit exceeds provider cost"
+      ],
+      "measurement_cost": 0.1,
+      "receipt_hash": "c3cbd4ac447cf6804cc0ff5b544ea52fc6e3a55199b8a609b98954b2a2fb8cc2",
+      "domain": "CUSTOMER_OPERATIONS",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "SCALE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "COST_QUALITY",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R006",
+      "input_hash": "c1cfc6ba395bef8bba658980920c6424fc0d25f47fd564e50498344de56fdb75",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "high technical quality within direct-cost budget"
+      ],
+      "measurement_cost": 0.2,
+      "receipt_hash": "9dfac4072765dcf86e850e97581c452418a5cb2970b07b83a62a9e34de8358b8",
+      "domain": "CUSTOMER_OPERATIONS",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "SCALE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "OUTCOME_FLAT",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R006",
+      "input_hash": "a839811c87250070cd4658c430f1fddf2c899dae81981ff06922b2fb0ae1b2c7",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "lower net-value bound above zero"
+      ],
+      "measurement_cost": 0.65,
+      "fully_loaded_cost": 44400,
+      "incremental_outcome_value": 186150,
+      "expected_harm_cost": 0,
+      "net_value": 141750,
+      "lower_bound": 58750,
+      "upper_bound": 224750,
+      "receipt_hash": "c57cd75e1237e5261bad043cdc66207e6dd57a3b15630510067669f98e88d447",
+      "domain": "CUSTOMER_OPERATIONS",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "SCALE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "OVAR_LEDGER",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R006",
+      "input_hash": "db78e12b5221badd104e40ba1c809c2f69d55d34107517f54a7e8a7b9ac29568",
+      "roi_state": "POSITIVE",
+      "action": "CONTINUE_PILOT",
+      "reasons": [
+        "lower net-value bound above zero",
+        "authorization is conditional or scope-limited"
+      ],
+      "measurement_cost": 0.8,
+      "fully_loaded_cost": 44400,
+      "incremental_outcome_value": 186150,
+      "expected_harm_cost": 888,
+      "net_value": 140862,
+      "lower_bound": 57862,
+      "upper_bound": 223862,
+      "authorization_status": "CONDITIONAL_OR_SCOPE_LIMITED",
+      "risk_tier": "LOW",
+      "receipt_hash": "4b1ebbb171d5e80c2cf97688158e63a33022af2738f2e739715dbe367ed00938",
+      "domain": "CUSTOMER_OPERATIONS",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "SCALE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "USAGE_ONLY",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R007",
+      "input_hash": "f44fe7193036275cff2a4091cb0679896a962795381b94850148a71517a1d873",
+      "roi_state": "POSITIVE",
+      "action": "CONTINUE_PILOT",
+      "reasons": [
+        "moderate utilization within budget"
+      ],
+      "measurement_cost": 0.05,
+      "receipt_hash": "dc6fd506ac4f879303d6c3cd9158935e6212c33d2e0973cfeadc6594058d0b7d",
+      "domain": "FINANCIAL_SERVICES",
+      "reference_roi_state": "NEGATIVE",
+      "reference_action": "STOP",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "SELF_REPORTED_VALUE",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R007",
+      "input_hash": "7a2ee14768dd29b85c04aac6d8056765ac8d31302ce43d44826ba23af645bc4f",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "reported benefit exceeds provider cost by scale margin"
+      ],
+      "measurement_cost": 0.1,
+      "receipt_hash": "eb6f09934707ea4d12fbcc0c99bb6aa3d06cd91b5e8ea14fb432810c33ab6e35",
+      "domain": "FINANCIAL_SERVICES",
+      "reference_roi_state": "NEGATIVE",
+      "reference_action": "STOP",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "COST_QUALITY",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R007",
+      "input_hash": "a4687413023cfdb19a94639c20c2036b276627ab9e12c902696d4d462a44f339",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "high technical quality within direct-cost budget"
+      ],
+      "measurement_cost": 0.2,
+      "receipt_hash": "99e4ed859d11fff633eb5d1bb2cbf1d7473f67787f4ca9224570f69187f06f51",
+      "domain": "FINANCIAL_SERVICES",
+      "reference_roi_state": "NEGATIVE",
+      "reference_action": "STOP",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "OUTCOME_FLAT",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R007",
+      "input_hash": "f3d8b68e3a329a2a9ebf8b8e96f9b499d8f29a083dabeac460cd4d2119e5ff2f",
+      "roi_state": "NEGATIVE",
+      "action": "STOP",
+      "reasons": [
+        "upper net-value bound below zero"
+      ],
+      "measurement_cost": 0.65,
+      "fully_loaded_cost": 279200,
+      "incremental_outcome_value": 139300,
+      "expected_harm_cost": 0,
+      "net_value": -139900,
+      "lower_bound": -192900,
+      "upper_bound": -86900,
+      "receipt_hash": "07d0a492f82228f57a7c62bc2e79d91a9ef40bd3906fdb108b6160586e412c26",
+      "domain": "FINANCIAL_SERVICES",
+      "reference_roi_state": "NEGATIVE",
+      "reference_action": "STOP",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "OVAR_LEDGER",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R007",
+      "input_hash": "f63e0d6ca9a61e7bcaf324c5a3eeadbf1226bb8b67f87ddf92a27c7b7d876c18",
+      "roi_state": "NEGATIVE",
+      "action": "STOP",
+      "reasons": [
+        "upper net-value bound below zero"
+      ],
+      "measurement_cost": 0.8,
+      "fully_loaded_cost": 279200,
+      "incremental_outcome_value": 139300,
+      "expected_harm_cost": 22336,
+      "net_value": -162236,
+      "lower_bound": -215236,
+      "upper_bound": -109236,
+      "authorization_status": "CONDITIONAL_OR_SCOPE_LIMITED",
+      "risk_tier": "MODERATE",
+      "receipt_hash": "4821fdb1894a501ae1b2d0c8d20b91e9487a35872740c0ba2a72a2e31dedbdf4",
+      "domain": "FINANCIAL_SERVICES",
+      "reference_roi_state": "NEGATIVE",
+      "reference_action": "STOP",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "USAGE_ONLY",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R008",
+      "input_hash": "b835876ec7a41620dc837362aff0bc1a9e879e20a1d320f0a767561a4e94c0bb",
+      "roi_state": "POSITIVE",
+      "action": "CONTINUE_PILOT",
+      "reasons": [
+        "moderate utilization within budget"
+      ],
+      "measurement_cost": 0.05,
+      "receipt_hash": "5821134680afee895ccd617bac8b913116b3825a7c25dc93eac0cbe55336b2a5",
+      "domain": "HEALTHCARE",
+      "reference_roi_state": "NEGATIVE",
+      "reference_action": "STOP",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "SELF_REPORTED_VALUE",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R008",
+      "input_hash": "3c22438b5fd6ced1e7aee3af4923443d91877e6f9270d12bdb9692180b824097",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "reported benefit exceeds provider cost by scale margin"
+      ],
+      "measurement_cost": 0.1,
+      "receipt_hash": "94dfa88a1d23bdddd61dd8a95649e4587c1b4e067f664775020d6937c4e9d965",
+      "domain": "HEALTHCARE",
+      "reference_roi_state": "NEGATIVE",
+      "reference_action": "STOP",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "COST_QUALITY",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R008",
+      "input_hash": "3cac3882aa2fd1b51045ca44d8b6153e37516f555be9ff089d06e0c315bc8a47",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "high technical quality within direct-cost budget"
+      ],
+      "measurement_cost": 0.2,
+      "receipt_hash": "eadc56ec82163b7819598eeb650766ad5b9677708b40c60e5858816e543cf84d",
+      "domain": "HEALTHCARE",
+      "reference_roi_state": "NEGATIVE",
+      "reference_action": "STOP",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "OUTCOME_FLAT",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R008",
+      "input_hash": "1b1b12ab5c780dcad019399781080f3ac9daf4dd74b244188a1013c7e1b39b2f",
+      "roi_state": "NEGATIVE",
+      "action": "STOP",
+      "reasons": [
+        "upper net-value bound below zero"
+      ],
+      "measurement_cost": 0.65,
+      "fully_loaded_cost": 109700,
+      "incremental_outcome_value": 73800,
+      "expected_harm_cost": 0,
+      "net_value": -35900,
+      "lower_bound": -53900,
+      "upper_bound": -17900,
+      "receipt_hash": "38239296dec924a08c9608ab1999ca7f2968fad7a8d8f1b2d17a6074241fa51f",
+      "domain": "HEALTHCARE",
+      "reference_roi_state": "NEGATIVE",
+      "reference_action": "STOP",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "OVAR_LEDGER",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R008",
+      "input_hash": "128725a6f7dd63ae21e191380b62544a4961544e3d0bc4efb4e1096f8b024d92",
+      "roi_state": "NEGATIVE",
+      "action": "STOP",
+      "reasons": [
+        "material authorization evidence is absent, expired, or out of scope"
+      ],
+      "measurement_cost": 0.8,
+      "authorization_status": "MATERIALLY_ABSENT_EXPIRED_OR_OUT_OF_SCOPE",
+      "risk_tier": "HIGH",
+      "expected_harm_cost": 21940,
+      "fully_loaded_cost": 109700,
+      "receipt_hash": "1c5e98b45ee39b7ea3f33243e2717de4a6c13952bb89181b4e69816573194697",
+      "domain": "HEALTHCARE",
+      "reference_roi_state": "NEGATIVE",
+      "reference_action": "STOP",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "USAGE_ONLY",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R009",
+      "input_hash": "50f4c0856e05cac54901a401822139a99afaa7a5f24e1b23ce832077f86acaf0",
+      "roi_state": "POSITIVE",
+      "action": "CONTINUE_PILOT",
+      "reasons": [
+        "moderate utilization within budget"
+      ],
+      "measurement_cost": 0.05,
+      "receipt_hash": "f53aa19a0c9eb91b49b32e08d24fb6addc72904681b2ff5ddd45efdaed8c3ac7",
+      "domain": "CYBERSECURITY",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "SCALE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "SELF_REPORTED_VALUE",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R009",
+      "input_hash": "ae53321754a91633ab60ed648f87ff96b7b2f85561f07299664578b983252a75",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "reported benefit exceeds provider cost by scale margin"
+      ],
+      "measurement_cost": 0.1,
+      "receipt_hash": "ef14734e0d239a372954128ccda8d1f527e5ea7bf6784619d3092c754a6b2f6c",
+      "domain": "CYBERSECURITY",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "SCALE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "COST_QUALITY",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R009",
+      "input_hash": "0bdf575ee98c6e667b545ff35fdae284a73fef6e5672832bce7a8614a710faac",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "high technical quality within direct-cost budget"
+      ],
+      "measurement_cost": 0.2,
+      "receipt_hash": "c6c8d1631b77a710078338cccb4e9d9b0a1da590c1d2b444cb44337fce3567a4",
+      "domain": "CYBERSECURITY",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "SCALE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "OUTCOME_FLAT",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R009",
+      "input_hash": "5037924752e94f37e1cd45cb48491d7e17049472bf828f1e73dad92d02a4c620",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "lower net-value bound above zero"
+      ],
+      "measurement_cost": 0.65,
+      "fully_loaded_cost": 161300,
+      "incremental_outcome_value": 293880,
+      "expected_harm_cost": 0,
+      "net_value": 132580,
+      "lower_bound": 90580,
+      "upper_bound": 174580,
+      "receipt_hash": "339fe3f0a080ec2ad618704ea92a54445864eff5a74867e607b99d5874f430b9",
+      "domain": "CYBERSECURITY",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "SCALE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "OVAR_LEDGER",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R009",
+      "input_hash": "b95865b78df69904e94304302989fcb5f31c0e54b604871d1b60f1b5573ae42b",
+      "roi_state": "POSITIVE",
+      "action": "CONTINUE_PILOT",
+      "reasons": [
+        "lower net-value bound above zero",
+        "authorization is conditional or scope-limited"
+      ],
+      "measurement_cost": 0.8,
+      "fully_loaded_cost": 161300,
+      "incremental_outcome_value": 293880,
+      "expected_harm_cost": 32260,
+      "net_value": 100320,
+      "lower_bound": 58320,
+      "upper_bound": 142320,
+      "authorization_status": "CONDITIONAL_OR_SCOPE_LIMITED",
+      "risk_tier": "HIGH",
+      "receipt_hash": "c6f8eca1e79f0eca2988da27b5894c5e9e7b19ea425d601f85c2099ba855531b",
+      "domain": "CYBERSECURITY",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "SCALE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "USAGE_ONLY",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R010",
+      "input_hash": "01ab8cf109e90dd9e43dee539ee4120aef671bec2252017e01e1fa000565dbdb",
+      "roi_state": "POSITIVE",
+      "action": "CONTINUE_PILOT",
+      "reasons": [
+        "moderate utilization within budget"
+      ],
+      "measurement_cost": 0.05,
+      "receipt_hash": "36ba672542de7f33cdd79c56d610ba57ea5d21218abf4ee796f65ffb3e6d36dc",
+      "domain": "TRANSPORT_LOGISTICS",
+      "reference_roi_state": "INDETERMINATE",
+      "reference_action": "INDETERMINATE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "SELF_REPORTED_VALUE",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R010",
+      "input_hash": "08502fcaa677da12f092d142aaf5f6df59465a86b37f37d4a77cbdede5ed4f72",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "reported benefit exceeds provider cost by scale margin"
+      ],
+      "measurement_cost": 0.1,
+      "receipt_hash": "b8a6d1f5cb9a743812b5c15fb4b3d26aedce7296210fe1fa2617338f41586f73",
+      "domain": "TRANSPORT_LOGISTICS",
+      "reference_roi_state": "INDETERMINATE",
+      "reference_action": "INDETERMINATE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "COST_QUALITY",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R010",
+      "input_hash": "b6724428349df6f98a2a0bf490968aafff08f4ca7cfbe9d82e94f8373d55df3c",
+      "roi_state": "POSITIVE",
+      "action": "CONTINUE_PILOT",
+      "reasons": [
+        "acceptable technical quality"
+      ],
+      "measurement_cost": 0.2,
+      "receipt_hash": "abae6e58f2613aebb77479454afe53c89133fcdce32c383910e8f4b4787e1a4c",
+      "domain": "TRANSPORT_LOGISTICS",
+      "reference_roi_state": "INDETERMINATE",
+      "reference_action": "INDETERMINATE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "OUTCOME_FLAT",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R010",
+      "input_hash": "fff75b7b0bbc0c3a29b11df2bdd69b82b47c7215c7ce940bfaa1e602c3059af7",
+      "roi_state": "NEUTRAL",
+      "action": "REVISE",
+      "reasons": [
+        "net-value interval crosses zero"
+      ],
+      "measurement_cost": 0.65,
+      "fully_loaded_cost": 223600,
+      "incremental_outcome_value": 176290,
+      "expected_harm_cost": 0,
+      "net_value": -47310,
+      "lower_bound": -258310,
+      "upper_bound": 163690,
+      "receipt_hash": "948b04e6bcc8c6449f4aa0cd06088cfd7fb4b4ca036652ca8fc804dcd865c4db",
+      "domain": "TRANSPORT_LOGISTICS",
+      "reference_roi_state": "INDETERMINATE",
+      "reference_action": "INDETERMINATE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "OVAR_LEDGER",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R010",
+      "input_hash": "3c564081686e6b4c100afe2ceb5bde56487f85d0ed3113d0185feeeef4d447f4",
+      "roi_state": "NEUTRAL",
+      "action": "REVISE",
+      "reasons": [
+        "net-value interval crosses zero"
+      ],
+      "measurement_cost": 0.8,
+      "fully_loaded_cost": 223600,
+      "incremental_outcome_value": 176290,
+      "expected_harm_cost": 17888,
+      "net_value": -65198,
+      "lower_bound": -276198,
+      "upper_bound": 145802,
+      "authorization_status": "CONDITIONAL_OR_SCOPE_LIMITED",
+      "risk_tier": "MODERATE",
+      "receipt_hash": "93f59d565c90316893cf3f437e4f5a264106efe41f03228b82b4d2ba7fc52029",
+      "domain": "TRANSPORT_LOGISTICS",
+      "reference_roi_state": "INDETERMINATE",
+      "reference_action": "INDETERMINATE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "USAGE_ONLY",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R011",
+      "input_hash": "9d6484a5c2d2a3daae46e5c7f4a58cf71e7f8ad6ef304a7410e51acebfffae68",
+      "roi_state": "POSITIVE",
+      "action": "CONTINUE_PILOT",
+      "reasons": [
+        "moderate utilization within budget"
+      ],
+      "measurement_cost": 0.05,
+      "receipt_hash": "ce906f5953f03e02bafa54124829995e36e9c229decf6cce8173e107e823c536",
+      "domain": "FINANCIAL_SERVICES",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "CONTINUE_PILOT",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "SELF_REPORTED_VALUE",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R011",
+      "input_hash": "df3b02d002696321898ef8a85d0b9cab3267fdeddd06fb6b2b2354518b3061a8",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "reported benefit exceeds provider cost by scale margin"
+      ],
+      "measurement_cost": 0.1,
+      "receipt_hash": "22635f4c06178105e733f445c91ceb704be655556ee28cea281078dcb8ed66d5",
+      "domain": "FINANCIAL_SERVICES",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "CONTINUE_PILOT",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "COST_QUALITY",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R011",
+      "input_hash": "9a6ecdf5aa1535858a651d2da1e8c725b0a704914bdbfcf38d0145f8a4214782",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "high technical quality within direct-cost budget"
+      ],
+      "measurement_cost": 0.2,
+      "receipt_hash": "c89472c15f41433efd74814ee8d73ca900deba58e3108110f6ee2d04479b620b",
+      "domain": "FINANCIAL_SERVICES",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "CONTINUE_PILOT",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "OUTCOME_FLAT",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R011",
+      "input_hash": "33d8e34d641549b8968578c0d3242d87fb33c7b0611d00bbf7fd336ac4da0050",
+      "roi_state": "NEUTRAL",
+      "action": "REVISE",
+      "reasons": [
+        "net-value interval crosses zero"
+      ],
+      "measurement_cost": 0.65,
+      "fully_loaded_cost": 143300,
+      "incremental_outcome_value": 131580,
+      "expected_harm_cost": 0,
+      "net_value": -11720,
+      "lower_bound": -48720,
+      "upper_bound": 25280,
+      "receipt_hash": "acb34865e15dac0e3f8b8058c244b821de9669a67df32ff22de4d626d66a2ca0",
+      "domain": "FINANCIAL_SERVICES",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "CONTINUE_PILOT",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "OVAR_LEDGER",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R011",
+      "input_hash": "0735af844a6972f6738d3ce45542bea6e422c2f763d1243416de8f2479f14505",
+      "roi_state": "NEGATIVE",
+      "action": "STOP",
+      "reasons": [
+        "material authorization evidence is absent, expired, or out of scope"
+      ],
+      "measurement_cost": 0.8,
+      "authorization_status": "MATERIALLY_ABSENT_EXPIRED_OR_OUT_OF_SCOPE",
+      "risk_tier": "MODERATE",
+      "expected_harm_cost": 11464,
+      "fully_loaded_cost": 143300,
+      "receipt_hash": "0c6b4600921459e67f8d065a0e7ee81ef3bbc1254c59decc630eb7ca5f912cc2",
+      "domain": "FINANCIAL_SERVICES",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "CONTINUE_PILOT",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "USAGE_ONLY",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R012",
+      "input_hash": "67deae238a3e236a2ebad4b3338526d357be2a933e6a67e527a4a506e991db76",
+      "roi_state": "NEUTRAL",
+      "action": "REVISE",
+      "reasons": [
+        "low utilization"
+      ],
+      "measurement_cost": 0.05,
+      "receipt_hash": "6dfa23c47c69c19199337c1ebf38745e898dd4ca922e19a7711fe0bb916fd592",
+      "domain": "ECOMMERCE",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "SCALE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "SELF_REPORTED_VALUE",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R012",
+      "input_hash": "b6bd4b94ef76678ddbb26c1f41da50ec09505c443978e36e07d7afb3c1de19a8",
+      "roi_state": "POSITIVE",
+      "action": "CONTINUE_PILOT",
+      "reasons": [
+        "reported benefit exceeds provider cost"
+      ],
+      "measurement_cost": 0.1,
+      "receipt_hash": "f973ad4d2f7c304f315ee42148cdf74b198c65900fd7c3d29a9aaf96c962a5b1",
+      "domain": "ECOMMERCE",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "SCALE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "COST_QUALITY",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R012",
+      "input_hash": "70e359522439e5fefb2c1b8bbd0c8d5c004b25ce3c97e52c0dd5111ce27055fa",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "high technical quality within direct-cost budget"
+      ],
+      "measurement_cost": 0.2,
+      "receipt_hash": "d69b5ada66722c6f23853a90d75c52e0105a79feaf9198ce9d91a4d71a0fb336",
+      "domain": "ECOMMERCE",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "SCALE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "OUTCOME_FLAT",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R012",
+      "input_hash": "a0c98ef855985c5f1ba870066478acb2cd9a61439edc3833b5bbc8d1147e6bf1",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "lower net-value bound above zero"
+      ],
+      "measurement_cost": 0.65,
+      "fully_loaded_cost": 42500,
+      "incremental_outcome_value": 271760,
+      "expected_harm_cost": 0,
+      "net_value": 229260,
+      "lower_bound": 117260,
+      "upper_bound": 341260,
+      "receipt_hash": "9844272590100ae14ddb985f0d3a8e04919b31feb424409795eb33b3278eab04",
+      "domain": "ECOMMERCE",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "SCALE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "OVAR_LEDGER",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R012",
+      "input_hash": "67b4ab0d0d9a1839f35c836ae3d92c6f268b65d75b5474e2523750d52e01a1aa",
+      "roi_state": "POSITIVE",
+      "action": "CONTINUE_PILOT",
+      "reasons": [
+        "lower net-value bound above zero",
+        "authorization is conditional or scope-limited"
+      ],
+      "measurement_cost": 0.8,
+      "fully_loaded_cost": 42500,
+      "incremental_outcome_value": 271760,
+      "expected_harm_cost": 3400,
+      "net_value": 225860,
+      "lower_bound": 113860,
+      "upper_bound": 337860,
+      "authorization_status": "CONDITIONAL_OR_SCOPE_LIMITED",
+      "risk_tier": "MODERATE",
+      "receipt_hash": "2829dd8688ca0b208f829aa8d4a78c9c49968ae53ed4b7a838ef4c45e00e9430",
+      "domain": "ECOMMERCE",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "SCALE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "USAGE_ONLY",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R013",
+      "input_hash": "280f7a2589da90c284fc16e6de5cae2e55f188d05ebd0578ae9f4377e9c4dfc0",
+      "roi_state": "POSITIVE",
+      "action": "CONTINUE_PILOT",
+      "reasons": [
+        "moderate utilization within budget"
+      ],
+      "measurement_cost": 0.05,
+      "receipt_hash": "131200d5d95d0c7764588bf93e32cfca252de5ce78ed3243ea3f67cc4b9abbeb",
+      "domain": "FINANCIAL_SERVICES",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "SCALE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "SELF_REPORTED_VALUE",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R013",
+      "input_hash": "6b325dd24f84aa9fea47b22388aa8bf97482ed6c198086dd26e65a02fefd8899",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "reported benefit exceeds provider cost by scale margin"
+      ],
+      "measurement_cost": 0.1,
+      "receipt_hash": "cc051b3de7189be2d6befcf92a07e3c8e1294581588e395e0333379751fa24e5",
+      "domain": "FINANCIAL_SERVICES",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "SCALE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "COST_QUALITY",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R013",
+      "input_hash": "d963204d1c2a7dd8730ac6a94d71fa2550a48afeda3d4a2142adc73c4fa83506",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "high technical quality within direct-cost budget"
+      ],
+      "measurement_cost": 0.2,
+      "receipt_hash": "0d0dda692fd16356cd01491dd37ea724a459d1afff38d4f5713770f768abdc39",
+      "domain": "FINANCIAL_SERVICES",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "SCALE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "OUTCOME_FLAT",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R013",
+      "input_hash": "bde665ef6b0b295e5d92820a6e0ff8717f527276eaf11708bb12975357d42c1d",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "lower net-value bound above zero"
+      ],
+      "measurement_cost": 0.65,
+      "fully_loaded_cost": 129500,
+      "incremental_outcome_value": 217120,
+      "expected_harm_cost": 0,
+      "net_value": 87620,
+      "lower_bound": 53620,
+      "upper_bound": 121620,
+      "receipt_hash": "e33f742be94e545c74197e73a64bced3a015e88ad0f02afa69d1051c3421b047",
+      "domain": "FINANCIAL_SERVICES",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "SCALE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "OVAR_LEDGER",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R013",
+      "input_hash": "106ace0889773fff75e244322d5308deafda068a4f691a25779c55e3912584e5",
+      "roi_state": "POSITIVE",
+      "action": "CONTINUE_PILOT",
+      "reasons": [
+        "lower net-value bound above zero",
+        "authorization is conditional or scope-limited"
+      ],
+      "measurement_cost": 0.8,
+      "fully_loaded_cost": 129500,
+      "incremental_outcome_value": 217120,
+      "expected_harm_cost": 10360,
+      "net_value": 77260,
+      "lower_bound": 43260,
+      "upper_bound": 111260,
+      "authorization_status": "CONDITIONAL_OR_SCOPE_LIMITED",
+      "risk_tier": "MODERATE",
+      "receipt_hash": "1966b115b6fb38a3d4659c5e3392c135714e64665e231e1c62fa006274d42312",
+      "domain": "FINANCIAL_SERVICES",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "SCALE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "USAGE_ONLY",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R014",
+      "input_hash": "3fdea9804f21a344d992b4231afb4df493a2235a022ff8f28ac64af5f3e65264",
+      "roi_state": "POSITIVE",
+      "action": "CONTINUE_PILOT",
+      "reasons": [
+        "moderate utilization within budget"
+      ],
+      "measurement_cost": 0.05,
+      "receipt_hash": "e289a76ca0c0f6cf4bd74708e8996be6a5139187d50e05e9ea3cac58d3ae78c6",
+      "domain": "CYBERSECURITY",
+      "reference_roi_state": "NEUTRAL",
+      "reference_action": "REVISE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "SELF_REPORTED_VALUE",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R014",
+      "input_hash": "af63e3086490b449f0237da437171f36e3ec1c2572fe7bae87b0a4b0a6143a4f",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "reported benefit exceeds provider cost by scale margin"
+      ],
+      "measurement_cost": 0.1,
+      "receipt_hash": "b3ea03f8ad94a5092ec5836b74b5b75ed136957dfe51c548dba5d7b81f2efe11",
+      "domain": "CYBERSECURITY",
+      "reference_roi_state": "NEUTRAL",
+      "reference_action": "REVISE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "COST_QUALITY",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R014",
+      "input_hash": "639e8ed1834d5260693780a34b05dadc2fe4a5b9ad446d2a7e3ac8bc1e6ec4cc",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "high technical quality within direct-cost budget"
+      ],
+      "measurement_cost": 0.2,
+      "receipt_hash": "abddceb4ee7f2510fe623669e649021c114441b191315340191c10ab818f42f6",
+      "domain": "CYBERSECURITY",
+      "reference_roi_state": "NEUTRAL",
+      "reference_action": "REVISE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "OUTCOME_FLAT",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R014",
+      "input_hash": "8b0b15a85ada9ebde3f3ea29782e347fb96fa0c7a18359c3136fd1e0e01e7e00",
+      "roi_state": "NEUTRAL",
+      "action": "REVISE",
+      "reasons": [
+        "net-value interval crosses zero"
+      ],
+      "measurement_cost": 0.65,
+      "fully_loaded_cost": 146900,
+      "incremental_outcome_value": 154200,
+      "expected_harm_cost": 0,
+      "net_value": 7300,
+      "lower_bound": -96700,
+      "upper_bound": 111300,
+      "receipt_hash": "52878d93bb98ec02c60ed3705f07808559956625a4af2ac28e1ee18d4b5d7d63",
+      "domain": "CYBERSECURITY",
+      "reference_roi_state": "NEUTRAL",
+      "reference_action": "REVISE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "OVAR_LEDGER",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R014",
+      "input_hash": "feb4e673009bd99bb465e249664be8fe346a855539422aa9270ce2b30ba275e6",
+      "roi_state": "NEUTRAL",
+      "action": "REVISE",
+      "reasons": [
+        "net-value interval crosses zero"
+      ],
+      "measurement_cost": 0.8,
+      "fully_loaded_cost": 146900,
+      "incremental_outcome_value": 154200,
+      "expected_harm_cost": 11752,
+      "net_value": -4452,
+      "lower_bound": -108452,
+      "upper_bound": 99548,
+      "authorization_status": "CONDITIONAL_OR_SCOPE_LIMITED",
+      "risk_tier": "MODERATE",
+      "receipt_hash": "75a52e8dc6194967dbedbe1f0073d7c3fb5afca8771386adc1ea7a42fd99ada3",
+      "domain": "CYBERSECURITY",
+      "reference_roi_state": "NEUTRAL",
+      "reference_action": "REVISE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "USAGE_ONLY",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R015",
+      "input_hash": "bb6346b90e611e81084eb766d146beb8bab46a96a8adf34729f6d2b6bef3950c",
+      "roi_state": "POSITIVE",
+      "action": "CONTINUE_PILOT",
+      "reasons": [
+        "moderate utilization within budget"
+      ],
+      "measurement_cost": 0.05,
+      "receipt_hash": "05bf086b26642349b169488b40caa39b26e3cbbcad69177b702dfe4cb7eb9f7e",
+      "domain": "ECOMMERCE",
+      "reference_roi_state": "INDETERMINATE",
+      "reference_action": "INDETERMINATE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "SELF_REPORTED_VALUE",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R015",
+      "input_hash": "1ae37aabbbf542bf323a4a378fa187b0319ce52e936009160b1ad69b80e7babe",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "reported benefit exceeds provider cost by scale margin"
+      ],
+      "measurement_cost": 0.1,
+      "receipt_hash": "4229e350bf39bd66f4f446e4246a3f200f5505c3152ef9e3e32df17042fe466f",
+      "domain": "ECOMMERCE",
+      "reference_roi_state": "INDETERMINATE",
+      "reference_action": "INDETERMINATE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "COST_QUALITY",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R015",
+      "input_hash": "f28caa5d870703aef9f059457aa30e944172ecba246e1eda6811ac703e78ef4f",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "high technical quality within direct-cost budget"
+      ],
+      "measurement_cost": 0.2,
+      "receipt_hash": "2d143e8776165d1f955ca044b8835a9969c6e8b14be550f109cedf07f1667907",
+      "domain": "ECOMMERCE",
+      "reference_roi_state": "INDETERMINATE",
+      "reference_action": "INDETERMINATE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "OUTCOME_FLAT",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R015",
+      "input_hash": "b4fef93344b2fe9104127f3323e7bd153ca6033d723abf5d4f372aabd6fedeb3",
+      "roi_state": "NEUTRAL",
+      "action": "REVISE",
+      "reasons": [
+        "net-value interval crosses zero"
+      ],
+      "measurement_cost": 0.65,
+      "fully_loaded_cost": 93000,
+      "incremental_outcome_value": 121440,
+      "expected_harm_cost": 0,
+      "net_value": 28440,
+      "lower_bound": -110560,
+      "upper_bound": 167440,
+      "receipt_hash": "a81a4664898986754ba842e3d63b658f838f779a05cbac7684ca23a28618ad62",
+      "domain": "ECOMMERCE",
+      "reference_roi_state": "INDETERMINATE",
+      "reference_action": "INDETERMINATE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "OVAR_LEDGER",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R015",
+      "input_hash": "2f37936e152c5983ab63a2c128922d6f6466b6ac72df5bcabafe4a628c2d0d4e",
+      "roi_state": "NEUTRAL",
+      "action": "REVISE",
+      "reasons": [
+        "net-value interval crosses zero"
+      ],
+      "measurement_cost": 0.8,
+      "fully_loaded_cost": 93000,
+      "incremental_outcome_value": 121440,
+      "expected_harm_cost": 7440,
+      "net_value": 21000,
+      "lower_bound": -118000,
+      "upper_bound": 160000,
+      "authorization_status": "CONDITIONAL_OR_SCOPE_LIMITED",
+      "risk_tier": "MODERATE",
+      "receipt_hash": "f5f3cf5adf97c2a87a2e72cb30027907a7a112ab1c239bbd777605920fe0711c",
+      "domain": "ECOMMERCE",
+      "reference_roi_state": "INDETERMINATE",
+      "reference_action": "INDETERMINATE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "USAGE_ONLY",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R016",
+      "input_hash": "b43524bf5671aabc0f0d513c1164d3586b9bf040bcbf23c0ee112ae02db95af4",
+      "roi_state": "POSITIVE",
+      "action": "CONTINUE_PILOT",
+      "reasons": [
+        "moderate utilization within budget"
+      ],
+      "measurement_cost": 0.05,
+      "receipt_hash": "ed303de5e2b0a0f96b633e21fceb250a50239c5eac4ea6e4cbb6f938ab4907b0",
+      "domain": "ECOMMERCE",
+      "reference_roi_state": "INDETERMINATE",
+      "reference_action": "INDETERMINATE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "SELF_REPORTED_VALUE",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R016",
+      "input_hash": "50fd2d1ab1f4e1c929f1adbedd01ec4adeb7c0ed6e9d7ff6a72b2fcb82c90fcf",
+      "roi_state": "POSITIVE",
+      "action": "CONTINUE_PILOT",
+      "reasons": [
+        "reported benefit exceeds provider cost"
+      ],
+      "measurement_cost": 0.1,
+      "receipt_hash": "c21f3a0a20083adead73323f33995c02941971c1d613a995310b2648132e5bde",
+      "domain": "ECOMMERCE",
+      "reference_roi_state": "INDETERMINATE",
+      "reference_action": "INDETERMINATE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "COST_QUALITY",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R016",
+      "input_hash": "f9783657cacd4ffa55403d40b3a984e89b1a7d1080ba32297073981d751df6e9",
+      "roi_state": "POSITIVE",
+      "action": "CONTINUE_PILOT",
+      "reasons": [
+        "acceptable technical quality"
+      ],
+      "measurement_cost": 0.2,
+      "receipt_hash": "9fa4bafd920fd939b4fb49b51d452de878d078897dbf23af06ecbfb8f530cfb8",
+      "domain": "ECOMMERCE",
+      "reference_roi_state": "INDETERMINATE",
+      "reference_action": "INDETERMINATE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "OUTCOME_FLAT",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R016",
+      "input_hash": "0a9b205284c3d9ec53daf0eb3eb3821328fb60a06a35148fe245b6effca6c3af",
+      "roi_state": "INDETERMINATE",
+      "action": "INDETERMINATE",
+      "reasons": [
+        "mandatory outcome evidence, baseline, or attribution requirement not met"
+      ],
+      "measurement_cost": 0.65,
+      "receipt_hash": "67c28a710addb0775e76f7a94430949d8846e9510ba730d361770d1122917908",
+      "domain": "ECOMMERCE",
+      "reference_roi_state": "INDETERMINATE",
+      "reference_action": "INDETERMINATE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "OVAR_LEDGER",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R016",
+      "input_hash": "c3ebd1ac21bcd549e55fa87678176488ba1a0cf4a7ff43b0c4e6e20e86d1f5e3",
+      "roi_state": "INDETERMINATE",
+      "action": "INDETERMINATE",
+      "reasons": [
+        "mandatory outcome evidence, baseline, or attribution requirement not met"
+      ],
+      "measurement_cost": 0.8,
+      "authorization_status": "CLEAR_CURRENT_IN_SCOPE",
+      "risk_tier": "MODERATE",
+      "expected_harm_cost": 5688,
+      "receipt_hash": "807a045c53dcbde10f3c37cb9e074996db730eb0f17ed5616f5a46e68ce5504d",
+      "domain": "ECOMMERCE",
+      "reference_roi_state": "INDETERMINATE",
+      "reference_action": "INDETERMINATE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "USAGE_ONLY",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R017",
+      "input_hash": "ad44f63d076853721b17114b819211575a04959103ca5ee366655182a115790b",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "high utilization within budget"
+      ],
+      "measurement_cost": 0.05,
+      "receipt_hash": "2d04a65344e4d3c160db583920f11a69e963095d5f86c9153780d6ee575c2617",
+      "domain": "CYBERSECURITY",
+      "reference_roi_state": "INDETERMINATE",
+      "reference_action": "INDETERMINATE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "SELF_REPORTED_VALUE",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R017",
+      "input_hash": "a6a2470ef92be59cbdd5f19e40a6f77337ad889deb659ef98f3474c6e11b22fd",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "reported benefit exceeds provider cost by scale margin"
+      ],
+      "measurement_cost": 0.1,
+      "receipt_hash": "33500ed274492d75cd9e6e82917293355fe83adff898e86c8d685cca8a55c2b5",
+      "domain": "CYBERSECURITY",
+      "reference_roi_state": "INDETERMINATE",
+      "reference_action": "INDETERMINATE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "COST_QUALITY",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R017",
+      "input_hash": "07adafc40bcd2cd4355200a72c5087c6191916e7d3e1e6f1c2cc86dfcecf5dac",
+      "roi_state": "POSITIVE",
+      "action": "CONTINUE_PILOT",
+      "reasons": [
+        "acceptable technical quality"
+      ],
+      "measurement_cost": 0.2,
+      "receipt_hash": "2ef100d0e18f4eb183a1b640a8dc559c7263a66a2b176146cf31b38938c8a779",
+      "domain": "CYBERSECURITY",
+      "reference_roi_state": "INDETERMINATE",
+      "reference_action": "INDETERMINATE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "OUTCOME_FLAT",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R017",
+      "input_hash": "8a0903ffdfd5f2c826a1daba99636798276e095f6b2c8a3e99575138b092d957",
+      "roi_state": "INDETERMINATE",
+      "action": "INDETERMINATE",
+      "reasons": [
+        "mandatory outcome evidence, baseline, or attribution requirement not met"
+      ],
+      "measurement_cost": 0.65,
+      "receipt_hash": "e91b8e9391dcddd2b0c27701de01aa73232e6d95d789aafd9fc9cd1509fd1bce",
+      "domain": "CYBERSECURITY",
+      "reference_roi_state": "INDETERMINATE",
+      "reference_action": "INDETERMINATE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "OVAR_LEDGER",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R017",
+      "input_hash": "c58ff9cdf1e83ebd3482d12285bd566e5da3bdc7e3613dcc46238cd6c54b7a2d",
+      "roi_state": "INDETERMINATE",
+      "action": "INDETERMINATE",
+      "reasons": [
+        "mandatory outcome evidence, baseline, or attribution requirement not met"
+      ],
+      "measurement_cost": 0.8,
+      "authorization_status": "CONDITIONAL_OR_SCOPE_LIMITED",
+      "risk_tier": "MODERATE",
+      "expected_harm_cost": 6568,
+      "receipt_hash": "e4c2678fdd34e0f8a11d2828e4c2119ba6b55490660abea90904459fa1d0adb8",
+      "domain": "CYBERSECURITY",
+      "reference_roi_state": "INDETERMINATE",
+      "reference_action": "INDETERMINATE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "USAGE_ONLY",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R018",
+      "input_hash": "b439fdd624ebc0829e0c7a392fae71fc4897cd349eaebb66cc8c4f3e099e6b7c",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "high utilization within budget"
+      ],
+      "measurement_cost": 0.05,
+      "receipt_hash": "206f22e5aadf90773a878f3d5b275c85e2796d44c4921bbf49795265ff8add60",
+      "domain": "FINANCIAL_SERVICES",
+      "reference_roi_state": "INDETERMINATE",
+      "reference_action": "INDETERMINATE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "SELF_REPORTED_VALUE",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R018",
+      "input_hash": "0a3acb50750396a0b677875ec22f27b44f3420999d1bb2a0e3215c95c9728bfc",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "reported benefit exceeds provider cost by scale margin"
+      ],
+      "measurement_cost": 0.1,
+      "receipt_hash": "b75dae814367d2984afbdd52978c94bcd1f9cad69544b2b158d383bcebc6c744",
+      "domain": "FINANCIAL_SERVICES",
+      "reference_roi_state": "INDETERMINATE",
+      "reference_action": "INDETERMINATE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "COST_QUALITY",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R018",
+      "input_hash": "12781b7e6483f65d96f4bac8be062cd629a4184ed9d8cfc05037c690e1c73e2f",
+      "roi_state": "POSITIVE",
+      "action": "CONTINUE_PILOT",
+      "reasons": [
+        "acceptable technical quality"
+      ],
+      "measurement_cost": 0.2,
+      "receipt_hash": "5f49f8d11c307e1a70a4ae4ee94c82a16e9e5026929a6a228033776fba9a52de",
+      "domain": "FINANCIAL_SERVICES",
+      "reference_roi_state": "INDETERMINATE",
+      "reference_action": "INDETERMINATE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "OUTCOME_FLAT",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R018",
+      "input_hash": "1807402b39101a339c097bfa7e60aea9d3b01dcde5359abbcbc20c49fcf6f0dd",
+      "roi_state": "INDETERMINATE",
+      "action": "INDETERMINATE",
+      "reasons": [
+        "mandatory outcome evidence, baseline, or attribution requirement not met"
+      ],
+      "measurement_cost": 0.65,
+      "receipt_hash": "43fc8b1f4fbc6caa46b47f759fcdd7e2aa5c05355f611ac6e73d147b1adc87df",
+      "domain": "FINANCIAL_SERVICES",
+      "reference_roi_state": "INDETERMINATE",
+      "reference_action": "INDETERMINATE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "OVAR_LEDGER",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R018",
+      "input_hash": "85813268d859a93adc945d465a2eef4aa7d83b9ebad33653076bd9b3fbbe5ff6",
+      "roi_state": "INDETERMINATE",
+      "action": "INDETERMINATE",
+      "reasons": [
+        "mandatory outcome evidence, baseline, or attribution requirement not met"
+      ],
+      "measurement_cost": 0.8,
+      "authorization_status": "CONDITIONAL_OR_SCOPE_LIMITED",
+      "risk_tier": "LOW",
+      "expected_harm_cost": 1390,
+      "receipt_hash": "217ed1f440563512dd18942b8c5d070cc2718f5887cb409f7f7f4b53a819e2b9",
+      "domain": "FINANCIAL_SERVICES",
+      "reference_roi_state": "INDETERMINATE",
+      "reference_action": "INDETERMINATE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "USAGE_ONLY",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R019",
+      "input_hash": "182df6b2d916972951cb26a8f08e20968b2371e68860ad7457416f0201fb8a50",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "high utilization within budget"
+      ],
+      "measurement_cost": 0.05,
+      "receipt_hash": "5705fec0211778b744c865bdbd2a0c603ce8c3ab93f5ea5ea53658ce1a8dcc19",
+      "domain": "TRANSPORT_LOGISTICS",
+      "reference_roi_state": "NEGATIVE",
+      "reference_action": "STOP",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "SELF_REPORTED_VALUE",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R019",
+      "input_hash": "cf9f5ce5dcbcbda4a41fe8045e7f96deac06ce544ef7d947c4fc005cd574a7dc",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "reported benefit exceeds provider cost by scale margin"
+      ],
+      "measurement_cost": 0.1,
+      "receipt_hash": "9305eb198e501969eaf615a3134bab943b7decc7afbb6044491e216a60d6b8f0",
+      "domain": "TRANSPORT_LOGISTICS",
+      "reference_roi_state": "NEGATIVE",
+      "reference_action": "STOP",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "COST_QUALITY",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R019",
+      "input_hash": "9811db4164b53a89c0a5093e71a5edbf6861a263f3105275b75b64738f9228bd",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "high technical quality within direct-cost budget"
+      ],
+      "measurement_cost": 0.2,
+      "receipt_hash": "37d2b1069cee9f1dcb35ac249d69fe4d7fe91779fe9512f985ba3156e7a96d2e",
+      "domain": "TRANSPORT_LOGISTICS",
+      "reference_roi_state": "NEGATIVE",
+      "reference_action": "STOP",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "OUTCOME_FLAT",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R019",
+      "input_hash": "5f2ab19c72672c0ac97e39d6bdddad64e60f4a8cdd437d4b4a21deb12a00f871",
+      "roi_state": "NEGATIVE",
+      "action": "STOP",
+      "reasons": [
+        "upper net-value bound below zero"
+      ],
+      "measurement_cost": 0.65,
+      "fully_loaded_cost": 297200,
+      "incremental_outcome_value": 142740,
+      "expected_harm_cost": 0,
+      "net_value": -154460,
+      "lower_bound": -218460,
+      "upper_bound": -90460,
+      "receipt_hash": "319220b5e7fee261184496f735d1265115a0314a2d113b4906a82006214d8c0b",
+      "domain": "TRANSPORT_LOGISTICS",
+      "reference_roi_state": "NEGATIVE",
+      "reference_action": "STOP",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "OVAR_LEDGER",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R019",
+      "input_hash": "c70b186b38ed2c06644c94b30448d441968a2e25cdea846112197e618c3c0e5c",
+      "roi_state": "NEGATIVE",
+      "action": "STOP",
+      "reasons": [
+        "upper net-value bound below zero"
+      ],
+      "measurement_cost": 0.8,
+      "fully_loaded_cost": 297200,
+      "incremental_outcome_value": 142740,
+      "expected_harm_cost": 23776,
+      "net_value": -178236,
+      "lower_bound": -242236,
+      "upper_bound": -114236,
+      "authorization_status": "CONDITIONAL_OR_SCOPE_LIMITED",
+      "risk_tier": "MODERATE",
+      "receipt_hash": "4858b6bcb0a14747d634201e02d312b9cdc0f801559a305bcecb0ccb56eae9e7",
+      "domain": "TRANSPORT_LOGISTICS",
+      "reference_roi_state": "NEGATIVE",
+      "reference_action": "STOP",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "USAGE_ONLY",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R020",
+      "input_hash": "8a3025378231956a29e23fc8c77593ab3a6bb5c35b6b8a9bec01f8b8809af273",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "high utilization within budget"
+      ],
+      "measurement_cost": 0.05,
+      "receipt_hash": "6c43b9621f725134747fe68ca62e5731cd3384fd01fecae8aceb5cc157b5640e",
+      "domain": "CUSTOMER_OPERATIONS",
+      "reference_roi_state": "NEGATIVE",
+      "reference_action": "STOP",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "SELF_REPORTED_VALUE",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R020",
+      "input_hash": "37e402d2eded67beac5f9f46ac96e40c369d89f6463863ed343e763f0f0cdb8f",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "reported benefit exceeds provider cost by scale margin"
+      ],
+      "measurement_cost": 0.1,
+      "receipt_hash": "2da6d9db8bf644b0b6dd14aa3f7972d779e5a4cfc4f3f24f00c06e05cbc4d4d8",
+      "domain": "CUSTOMER_OPERATIONS",
+      "reference_roi_state": "NEGATIVE",
+      "reference_action": "STOP",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "COST_QUALITY",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R020",
+      "input_hash": "87b882c4e32b4971142b8bc962c5716beb52b5b9b906554230fc3f76fe94ad85",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "high technical quality within direct-cost budget"
+      ],
+      "measurement_cost": 0.2,
+      "receipt_hash": "5143cfc7f9f54f8e42f1a79e2d5e076fbc4cb4d209e18c1024807a95fd2ca5c5",
+      "domain": "CUSTOMER_OPERATIONS",
+      "reference_roi_state": "NEGATIVE",
+      "reference_action": "STOP",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "OUTCOME_FLAT",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R020",
+      "input_hash": "85872e5c7c6fbc0a62a3a75acfcffebc1f2e07a585711a08efa13b4254db482f",
+      "roi_state": "NEGATIVE",
+      "action": "STOP",
+      "reasons": [
+        "upper net-value bound below zero"
+      ],
+      "measurement_cost": 0.65,
+      "fully_loaded_cost": 355600,
+      "incremental_outcome_value": 178600,
+      "expected_harm_cost": 0,
+      "net_value": -177000,
+      "lower_bound": -250000,
+      "upper_bound": -104000,
+      "receipt_hash": "d18de04642a38d5064236d265c0d74b7e3de5251b48b865745db31bd274d5b6a",
+      "domain": "CUSTOMER_OPERATIONS",
+      "reference_roi_state": "NEGATIVE",
+      "reference_action": "STOP",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "OVAR_LEDGER",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R020",
+      "input_hash": "4e882eb9482c7c39a08659e24e3a96366cc4be57c7949b7b32ed8bc0a70390dc",
+      "roi_state": "NEGATIVE",
+      "action": "STOP",
+      "reasons": [
+        "upper net-value bound below zero"
+      ],
+      "measurement_cost": 0.8,
+      "fully_loaded_cost": 355600,
+      "incremental_outcome_value": 178600,
+      "expected_harm_cost": 28448,
+      "net_value": -205448,
+      "lower_bound": -278448,
+      "upper_bound": -132448,
+      "authorization_status": "CONDITIONAL_OR_SCOPE_LIMITED",
+      "risk_tier": "MODERATE",
+      "receipt_hash": "2b5b677d3b0749802a51f0ebd98c06ee94e08c871e394b7a8c13890cf9d87353",
+      "domain": "CUSTOMER_OPERATIONS",
+      "reference_roi_state": "NEGATIVE",
+      "reference_action": "STOP",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "USAGE_ONLY",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R021",
+      "input_hash": "64a66dce307a25e7c85f2c5ac3913a8869ab0dd92eede0181ced5c5f8950ee70",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "high utilization within budget"
+      ],
+      "measurement_cost": 0.05,
+      "receipt_hash": "c1ddb4ae581fbe1399f0649b40fe89da2e092f7693d4d6a3addacc4d00de1bae",
+      "domain": "HEALTHCARE",
+      "reference_roi_state": "NEGATIVE",
+      "reference_action": "STOP",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "SELF_REPORTED_VALUE",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R021",
+      "input_hash": "882b2683ef09034395242ff547d8f034607d31121b68314b919313463ea13daa",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "reported benefit exceeds provider cost by scale margin"
+      ],
+      "measurement_cost": 0.1,
+      "receipt_hash": "ac818b4fe039d8a50093bb81038f042692c30b35c4ddbaea909968d5e84d89bc",
+      "domain": "HEALTHCARE",
+      "reference_roi_state": "NEGATIVE",
+      "reference_action": "STOP",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "COST_QUALITY",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R021",
+      "input_hash": "6c1a60ba4931f4092e5c774c2e15e9cb71b919a1ff2996cc97b97fd34ffa2d2c",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "high technical quality within direct-cost budget"
+      ],
+      "measurement_cost": 0.2,
+      "receipt_hash": "22ca3d1cb1a91705d741d2c105316a3f8cab856430c7f32064317d4067103d1f",
+      "domain": "HEALTHCARE",
+      "reference_roi_state": "NEGATIVE",
+      "reference_action": "STOP",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "OUTCOME_FLAT",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R021",
+      "input_hash": "6816a551faef42ae678b21609561b4b9b1c4a8d4f141aa5598ac7ba1e810dda1",
+      "roi_state": "NEGATIVE",
+      "action": "STOP",
+      "reasons": [
+        "upper net-value bound below zero"
+      ],
+      "measurement_cost": 0.65,
+      "fully_loaded_cost": 288600,
+      "incremental_outcome_value": -7380,
+      "expected_harm_cost": 0,
+      "net_value": -295980,
+      "lower_bound": -317980,
+      "upper_bound": -273980,
+      "receipt_hash": "86c847b60daf4ba21d87a2f8a7b9fada35b9c5571e8b1997590456223fd294de",
+      "domain": "HEALTHCARE",
+      "reference_roi_state": "NEGATIVE",
+      "reference_action": "STOP",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "OVAR_LEDGER",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R021",
+      "input_hash": "f0a70433ae8b5d4263e95556fc89f185e27ae94db00fb28f1d18b3912417cea8",
+      "roi_state": "NEGATIVE",
+      "action": "STOP",
+      "reasons": [
+        "upper net-value bound below zero"
+      ],
+      "measurement_cost": 0.8,
+      "fully_loaded_cost": 288600,
+      "incremental_outcome_value": -7380,
+      "expected_harm_cost": 57720,
+      "net_value": -353700,
+      "lower_bound": -375700,
+      "upper_bound": -331700,
+      "authorization_status": "CONDITIONAL_OR_SCOPE_LIMITED",
+      "risk_tier": "HIGH",
+      "receipt_hash": "d6d84ad52d5313032ccfc5a18ce1fc2cb7e166cba00c66cb04d505e2e7d051ec",
+      "domain": "HEALTHCARE",
+      "reference_roi_state": "NEGATIVE",
+      "reference_action": "STOP",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "USAGE_ONLY",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R022",
+      "input_hash": "d1cf00f75d6dc64bb732d80707b87aa25d357c90edf14f36836a97ed8a3de801",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "high utilization within budget"
+      ],
+      "measurement_cost": 0.05,
+      "receipt_hash": "d748fabde7b13f7d1097f7ddd095b0e6af271cfbe7d0cae9984eef36f50d1000",
+      "domain": "ECOMMERCE",
+      "reference_roi_state": "NEGATIVE",
+      "reference_action": "STOP",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "SELF_REPORTED_VALUE",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R022",
+      "input_hash": "646bf04a343c139af5ec6cdff0e736e0ff99da3ea1173e653e6d0efe1c1a3585",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "reported benefit exceeds provider cost by scale margin"
+      ],
+      "measurement_cost": 0.1,
+      "receipt_hash": "800e5349bed2dda36ec0ea40f429dbde201cb9efeaa9c69e9d9ed41ae2e143a0",
+      "domain": "ECOMMERCE",
+      "reference_roi_state": "NEGATIVE",
+      "reference_action": "STOP",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "COST_QUALITY",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R022",
+      "input_hash": "c7f608e517483740e897c87a4423ccbd825e423617ef7207c92e290bf07c435a",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "high technical quality within direct-cost budget"
+      ],
+      "measurement_cost": 0.2,
+      "receipt_hash": "25629a6f8a9e101ada3dee93cf22c59d7727981f5d8aaf384aeee87605df15ac",
+      "domain": "ECOMMERCE",
+      "reference_roi_state": "NEGATIVE",
+      "reference_action": "STOP",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "OUTCOME_FLAT",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R022",
+      "input_hash": "ac06a0a8f3b3058809aaab0cf9186fdb949064408d8ff820e2c984920f13deff",
+      "roi_state": "NEGATIVE",
+      "action": "STOP",
+      "reasons": [
+        "upper net-value bound below zero"
+      ],
+      "measurement_cost": 0.65,
+      "fully_loaded_cost": 183200,
+      "incremental_outcome_value": 2520,
+      "expected_harm_cost": 0,
+      "net_value": -180680,
+      "lower_bound": -206680,
+      "upper_bound": -154680,
+      "receipt_hash": "94c401e069456c9f3f91f85d6dfbafcdcb84c8264d81f0e7ef57736066f1b268",
+      "domain": "ECOMMERCE",
+      "reference_roi_state": "NEGATIVE",
+      "reference_action": "STOP",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "OVAR_LEDGER",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R022",
+      "input_hash": "05ec360b1bf4fb081c90f77e3b5b14ecdffc4517694014b44690fefcd384d1ad",
+      "roi_state": "NEGATIVE",
+      "action": "STOP",
+      "reasons": [
+        "upper net-value bound below zero"
+      ],
+      "measurement_cost": 0.8,
+      "fully_loaded_cost": 183200,
+      "incremental_outcome_value": 2520,
+      "expected_harm_cost": 14656,
+      "net_value": -195336,
+      "lower_bound": -221336,
+      "upper_bound": -169336,
+      "authorization_status": "CONDITIONAL_OR_SCOPE_LIMITED",
+      "risk_tier": "MODERATE",
+      "receipt_hash": "a026ce56e44ed149e4a63c8518d5420ef0832509fe970ed42bc1172d7a35a542",
+      "domain": "ECOMMERCE",
+      "reference_roi_state": "NEGATIVE",
+      "reference_action": "STOP",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "USAGE_ONLY",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R023",
+      "input_hash": "71279a261e03ce4e7ff8e7713f6b59fbbbec6839a38ce443b3c0183bd0134bd3",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "high utilization within budget"
+      ],
+      "measurement_cost": 0.05,
+      "receipt_hash": "5e7e48977f6fb14190a3ade2ece9ff1dc67cd3d2fa806576edb525fab72b5b88",
+      "domain": "ECOMMERCE",
+      "reference_roi_state": "INDETERMINATE",
+      "reference_action": "INDETERMINATE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "SELF_REPORTED_VALUE",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R023",
+      "input_hash": "4a31c29d8e37353614ab85269be8bdcbe69f5f8f3b5400c7e33760e7ec59dd66",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "reported benefit exceeds provider cost by scale margin"
+      ],
+      "measurement_cost": 0.1,
+      "receipt_hash": "986e6ed4f7c16323a22b85352bef9f5035df9c4096187cfc3a1c4667e1524dac",
+      "domain": "ECOMMERCE",
+      "reference_roi_state": "INDETERMINATE",
+      "reference_action": "INDETERMINATE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "COST_QUALITY",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R023",
+      "input_hash": "7f273fcbac89fa9a8a22c3a1ea2a96fd6527ea7eda9ec92968044ca79d66fd0c",
+      "roi_state": "POSITIVE",
+      "action": "CONTINUE_PILOT",
+      "reasons": [
+        "acceptable technical quality"
+      ],
+      "measurement_cost": 0.2,
+      "receipt_hash": "7f9afba86eb08049f056e9519a2e2c97ced30375ddcab23146a9e3d1230df132",
+      "domain": "ECOMMERCE",
+      "reference_roi_state": "INDETERMINATE",
+      "reference_action": "INDETERMINATE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "OUTCOME_FLAT",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R023",
+      "input_hash": "77b89a62411e0ae28419f5486ce978780328f977fcea88a3bd80ff795343a9f2",
+      "roi_state": "INDETERMINATE",
+      "action": "INDETERMINATE",
+      "reasons": [
+        "mandatory outcome evidence, baseline, or attribution requirement not met"
+      ],
+      "measurement_cost": 0.65,
+      "receipt_hash": "071e7594242b0fc48b44a786047160a8ebb9acda42ecab631fb67ada54692eac",
+      "domain": "ECOMMERCE",
+      "reference_roi_state": "INDETERMINATE",
+      "reference_action": "INDETERMINATE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "OVAR_LEDGER",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R023",
+      "input_hash": "3cb5720537b1786f342d1662604c3b7fce0e26fcce9c802488525a969c537d61",
+      "roi_state": "INDETERMINATE",
+      "action": "INDETERMINATE",
+      "reasons": [
+        "mandatory outcome evidence, baseline, or attribution requirement not met"
+      ],
+      "measurement_cost": 0.8,
+      "authorization_status": "CONDITIONAL_OR_SCOPE_LIMITED",
+      "risk_tier": "MODERATE",
+      "expected_harm_cost": 3424,
+      "receipt_hash": "72b99470c46f43766fcaf5dbfdbc81cb8440c6d1266b4549070fd2327738d6ae",
+      "domain": "ECOMMERCE",
+      "reference_roi_state": "INDETERMINATE",
+      "reference_action": "INDETERMINATE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "USAGE_ONLY",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R024",
+      "input_hash": "16c031d9de8249571077e47f29bd435f31f562222636736ac3f6391e8701ae52",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "high utilization within budget"
+      ],
+      "measurement_cost": 0.05,
+      "receipt_hash": "7e89c0f03637871fd0aa92dfa9daf5fd104af871a968f7f15759a441311d7809",
+      "domain": "CUSTOMER_OPERATIONS",
+      "reference_roi_state": "INDETERMINATE",
+      "reference_action": "INDETERMINATE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "SELF_REPORTED_VALUE",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R024",
+      "input_hash": "654c1d69ef7df8028001bc8044c3f47ec7d80a0a00b37c1de392beb087c4044f",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "reported benefit exceeds provider cost by scale margin"
+      ],
+      "measurement_cost": 0.1,
+      "receipt_hash": "72c83cd8741295122ed34225690e2aa500a0b76f5fe2117f9b05db09028f1f7d",
+      "domain": "CUSTOMER_OPERATIONS",
+      "reference_roi_state": "INDETERMINATE",
+      "reference_action": "INDETERMINATE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "COST_QUALITY",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R024",
+      "input_hash": "cd7691ccece83feee3b584b847357cf080fa0e4cb053908af3dfd4eb27a51b15",
+      "roi_state": "POSITIVE",
+      "action": "CONTINUE_PILOT",
+      "reasons": [
+        "acceptable technical quality"
+      ],
+      "measurement_cost": 0.2,
+      "receipt_hash": "d3207802816bbf71f9d257dbcc8525bfac5a1f9d80f19ac6fb08d13ec80c8ecb",
+      "domain": "CUSTOMER_OPERATIONS",
+      "reference_roi_state": "INDETERMINATE",
+      "reference_action": "INDETERMINATE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "OUTCOME_FLAT",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R024",
+      "input_hash": "c16cb8bea5d117a3e96c04e9a162b58113920f4db7e86bcec49a7a328deb7077",
+      "roi_state": "INDETERMINATE",
+      "action": "INDETERMINATE",
+      "reasons": [
+        "mandatory outcome evidence, baseline, or attribution requirement not met"
+      ],
+      "measurement_cost": 0.65,
+      "receipt_hash": "4b5322366280f01cbb82d3a6d05152ef1724aef520bdf7461f4fa861c0b4dbe2",
+      "domain": "CUSTOMER_OPERATIONS",
+      "reference_roi_state": "INDETERMINATE",
+      "reference_action": "INDETERMINATE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "OVAR_LEDGER",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R024",
+      "input_hash": "15b25ea0046601b248f6b76195e4259efca0aeda3881d7bd882e15f7ab19937d",
+      "roi_state": "INDETERMINATE",
+      "action": "INDETERMINATE",
+      "reasons": [
+        "mandatory outcome evidence, baseline, or attribution requirement not met"
+      ],
+      "measurement_cost": 0.8,
+      "authorization_status": "CLEAR_CURRENT_IN_SCOPE",
+      "risk_tier": "MODERATE",
+      "expected_harm_cost": 3600,
+      "receipt_hash": "7c4fdcf4fd5445124949c514c0de0d4934546279e2fd8ece414d9826400b0f5d",
+      "domain": "CUSTOMER_OPERATIONS",
+      "reference_roi_state": "INDETERMINATE",
+      "reference_action": "INDETERMINATE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "USAGE_ONLY",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R025",
+      "input_hash": "fe9a19e6477ee8a6b18c856d1ef6c944dd8b7ae38200caa2688f64bd9e662615",
+      "roi_state": "NEUTRAL",
+      "action": "REVISE",
+      "reasons": [
+        "low utilization"
+      ],
+      "measurement_cost": 0.05,
+      "receipt_hash": "42964acea8319d1b73d1f084ef4667d36578b5091115711a5f82e72a2b7a80b2",
+      "domain": "HEALTHCARE",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "SCALE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "SELF_REPORTED_VALUE",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R025",
+      "input_hash": "3339934fc51f42e3e3a1011bc81aada034d8bf668fa35a7559f29f73c90dc1bb",
+      "roi_state": "POSITIVE",
+      "action": "CONTINUE_PILOT",
+      "reasons": [
+        "reported benefit exceeds provider cost"
+      ],
+      "measurement_cost": 0.1,
+      "receipt_hash": "600a113958b83cfdac93479a7209c967dad448974315cf1031bc5769b9dd51b3",
+      "domain": "HEALTHCARE",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "SCALE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "COST_QUALITY",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R025",
+      "input_hash": "f9dfe19d373b774e6c98b4106c97f68516c125a2bf9527a5476cc817cbecdbe1",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "high technical quality within direct-cost budget"
+      ],
+      "measurement_cost": 0.2,
+      "receipt_hash": "b961ce8bf7d7147bf6283d4399ef3430616c0e28dcdb42bb05a36c19786ed109",
+      "domain": "HEALTHCARE",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "SCALE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "OUTCOME_FLAT",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R025",
+      "input_hash": "217bbf3f62921bb63f45d93fad1dde870c41ca5ef5ed8cac2c6f99611d6f552d",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "lower net-value bound above zero"
+      ],
+      "measurement_cost": 0.65,
+      "fully_loaded_cost": 139200,
+      "incremental_outcome_value": 240240,
+      "expected_harm_cost": 0,
+      "net_value": 101040,
+      "lower_bound": 13040,
+      "upper_bound": 189040,
+      "receipt_hash": "6bfd72c1d32af938633385eba16037459277283fbfd07683ee21d03696053667",
+      "domain": "HEALTHCARE",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "SCALE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "OVAR_LEDGER",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R025",
+      "input_hash": "f712310b5921c81c1c40f5bc80a187be03cb040bd6faea1cae826dde71d82f38",
+      "roi_state": "NEUTRAL",
+      "action": "REVISE",
+      "reasons": [
+        "net-value interval crosses zero"
+      ],
+      "measurement_cost": 0.8,
+      "fully_loaded_cost": 139200,
+      "incremental_outcome_value": 240240,
+      "expected_harm_cost": 27840,
+      "net_value": 73200,
+      "lower_bound": -14800,
+      "upper_bound": 161200,
+      "authorization_status": "CONDITIONAL_OR_SCOPE_LIMITED",
+      "risk_tier": "HIGH",
+      "receipt_hash": "57ff42d5bac065a1e66e7c137c4f06e95e7f556d2898f3fd6db0e47a513b009f",
+      "domain": "HEALTHCARE",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "SCALE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "USAGE_ONLY",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R026",
+      "input_hash": "ebc49ed9c8847f39369d2d861ebf95b976cf60909944aeba6b8b068332cd4092",
+      "roi_state": "POSITIVE",
+      "action": "CONTINUE_PILOT",
+      "reasons": [
+        "moderate utilization within budget"
+      ],
+      "measurement_cost": 0.05,
+      "receipt_hash": "0eeadaab052efb661f9ede6e6a9df79932e355e79986eb7b94c6b76ae1e41ab5",
+      "domain": "CUSTOMER_OPERATIONS",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "SCALE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "SELF_REPORTED_VALUE",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R026",
+      "input_hash": "bc7356827c4ce461a5f7ff285be1b6cb99f58123cd2d71d38d1e39fba0eec2ff",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "reported benefit exceeds provider cost by scale margin"
+      ],
+      "measurement_cost": 0.1,
+      "receipt_hash": "a557aa7ddedd37fc21e7d6adf38ebfe24ff8dd240a510086c0d2d1e3a0d54857",
+      "domain": "CUSTOMER_OPERATIONS",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "SCALE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "COST_QUALITY",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R026",
+      "input_hash": "2178b2a50e6a6feaa83efe8d36494855e2308a5bc5454eb52d62fd120c3eea3e",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "high technical quality within direct-cost budget"
+      ],
+      "measurement_cost": 0.2,
+      "receipt_hash": "4dd251d1cc8719cbcc19d0782aa0d625e5fcc2d75cc92bc961293990e418b2da",
+      "domain": "CUSTOMER_OPERATIONS",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "SCALE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "OUTCOME_FLAT",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R026",
+      "input_hash": "0ea3cabf568fd5ce8f27c655a3f847d88490e6d7ece4c79818bc5c77a0582e92",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "lower net-value bound above zero"
+      ],
+      "measurement_cost": 0.65,
+      "fully_loaded_cost": 87300,
+      "incremental_outcome_value": 253150,
+      "expected_harm_cost": 0,
+      "net_value": 165850,
+      "lower_bound": 74850,
+      "upper_bound": 256850,
+      "receipt_hash": "0e4fefce98d74031c7c5f8ba9ccc8044fd604e73e9e75e19b068b9f03218479c",
+      "domain": "CUSTOMER_OPERATIONS",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "SCALE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "OVAR_LEDGER",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R026",
+      "input_hash": "da81f6ee3a7f63502014d7025f95db2041e3b628c941b98ef38a5a9ac3b65f40",
+      "roi_state": "POSITIVE",
+      "action": "CONTINUE_PILOT",
+      "reasons": [
+        "lower net-value bound above zero",
+        "authorization is conditional or scope-limited"
+      ],
+      "measurement_cost": 0.8,
+      "fully_loaded_cost": 87300,
+      "incremental_outcome_value": 253150,
+      "expected_harm_cost": 6984,
+      "net_value": 158866,
+      "lower_bound": 67866,
+      "upper_bound": 249866,
+      "authorization_status": "CONDITIONAL_OR_SCOPE_LIMITED",
+      "risk_tier": "MODERATE",
+      "receipt_hash": "3a03e584c19a51f659c950f7659b91eaed3000567338089d159f7aeb2e9da7fa",
+      "domain": "CUSTOMER_OPERATIONS",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "SCALE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "USAGE_ONLY",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R027",
+      "input_hash": "3eeba9c047e5860ac90a60642de405ed8651d89e1113df9217f647a72e3bf0fd",
+      "roi_state": "POSITIVE",
+      "action": "CONTINUE_PILOT",
+      "reasons": [
+        "moderate utilization within budget"
+      ],
+      "measurement_cost": 0.05,
+      "receipt_hash": "90f5da48242d67b6927e1e032fd729d29c3c9bc2154c30d76bb46e03463d1e71",
+      "domain": "CUSTOMER_OPERATIONS",
+      "reference_roi_state": "NEGATIVE",
+      "reference_action": "STOP",
+      "reference_authorization_current": false
+    },
+    {
+      "policy": "SELF_REPORTED_VALUE",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R027",
+      "input_hash": "76f7d58c7ee05895fdca4e00bd6dfa97ed30483e053769eb6f0ffd7327929502",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "reported benefit exceeds provider cost by scale margin"
+      ],
+      "measurement_cost": 0.1,
+      "receipt_hash": "a8b061bbd8737ab2b1eff03b9e4d182172c6f592a73fbff56327b21467f1eb65",
+      "domain": "CUSTOMER_OPERATIONS",
+      "reference_roi_state": "NEGATIVE",
+      "reference_action": "STOP",
+      "reference_authorization_current": false
+    },
+    {
+      "policy": "COST_QUALITY",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R027",
+      "input_hash": "aacd1ac4e5dc0d66ffd3c03d28b3415a7ca38a2c34d230b5eb08f21350d6a138",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "high technical quality within direct-cost budget"
+      ],
+      "measurement_cost": 0.2,
+      "receipt_hash": "e955aed076189a37dfa3172db513c8f3e4f77c4d4db6305a4a4c97ad7456516f",
+      "domain": "CUSTOMER_OPERATIONS",
+      "reference_roi_state": "NEGATIVE",
+      "reference_action": "STOP",
+      "reference_authorization_current": false
+    },
+    {
+      "policy": "OUTCOME_FLAT",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R027",
+      "input_hash": "bd61ff8af82d031e48c0493453e9862fa5122784c11d06f6a94f23a509baa94c",
+      "roi_state": "NEUTRAL",
+      "action": "REVISE",
+      "reasons": [
+        "net-value interval crosses zero"
+      ],
+      "measurement_cost": 0.65,
+      "fully_loaded_cost": 111700,
+      "incremental_outcome_value": 84550,
+      "expected_harm_cost": 0,
+      "net_value": -27150,
+      "lower_bound": -69150,
+      "upper_bound": 14850,
+      "receipt_hash": "35bf788608d2f02b2f6d77cab31d6b144caec20d65d6d31ecdd48250607510da",
+      "domain": "CUSTOMER_OPERATIONS",
+      "reference_roi_state": "NEGATIVE",
+      "reference_action": "STOP",
+      "reference_authorization_current": false
+    },
+    {
+      "policy": "OVAR_LEDGER",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R027",
+      "input_hash": "702325a4b19a7099cb1f48f6da2fb2a4603e0593c310c17cb5d595c271c29979",
+      "roi_state": "NEGATIVE",
+      "action": "STOP",
+      "reasons": [
+        "material authorization evidence is absent, expired, or out of scope"
+      ],
+      "measurement_cost": 0.8,
+      "authorization_status": "MATERIALLY_ABSENT_EXPIRED_OR_OUT_OF_SCOPE",
+      "risk_tier": "MODERATE",
+      "expected_harm_cost": 8936,
+      "fully_loaded_cost": 111700,
+      "receipt_hash": "ae1f924caa828ee9d779c786ca6ecd8857038a7723d7f480735c067cc8b24669",
+      "domain": "CUSTOMER_OPERATIONS",
+      "reference_roi_state": "NEGATIVE",
+      "reference_action": "STOP",
+      "reference_authorization_current": false
+    },
+    {
+      "policy": "USAGE_ONLY",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R028",
+      "input_hash": "63f6d412b8cc87973ee4d4dd9d433b245ebf71f6ca9e00147e04b7cd9d08daf7",
+      "roi_state": "POSITIVE",
+      "action": "CONTINUE_PILOT",
+      "reasons": [
+        "moderate utilization within budget"
+      ],
+      "measurement_cost": 0.05,
+      "receipt_hash": "d627b84ed6085fdd62c9534b778f7c12b36c1fdf3454c9f67b106f62c1155960",
+      "domain": "TRANSPORT_LOGISTICS",
+      "reference_roi_state": "NEUTRAL",
+      "reference_action": "REVISE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "SELF_REPORTED_VALUE",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R028",
+      "input_hash": "473fec288e58a4ad2d7a4688338baa42195d2d756bfaa1413f1d645c37eb93de",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "reported benefit exceeds provider cost by scale margin"
+      ],
+      "measurement_cost": 0.1,
+      "receipt_hash": "815dbc9bc1309cb5526838323b0b77069f42a9957e31c4dcf7c86ca078d65eb7",
+      "domain": "TRANSPORT_LOGISTICS",
+      "reference_roi_state": "NEUTRAL",
+      "reference_action": "REVISE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "COST_QUALITY",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R028",
+      "input_hash": "5028d9734b50651a2f966afcc1b32326ae3c086710783e6768287030b74db56d",
+      "roi_state": "POSITIVE",
+      "action": "CONTINUE_PILOT",
+      "reasons": [
+        "acceptable technical quality"
+      ],
+      "measurement_cost": 0.2,
+      "receipt_hash": "32750dde96f939130d47a72a5fa47d680449b46085f61e43bba3412ae64d37ea",
+      "domain": "TRANSPORT_LOGISTICS",
+      "reference_roi_state": "NEUTRAL",
+      "reference_action": "REVISE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "OUTCOME_FLAT",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R028",
+      "input_hash": "81ea189a6b1ac3ac22dbe3a326b178c8279053e98750dc290684664abbade0cf",
+      "roi_state": "INDETERMINATE",
+      "action": "INDETERMINATE",
+      "reasons": [
+        "mandatory outcome evidence, baseline, or attribution requirement not met"
+      ],
+      "measurement_cost": 0.65,
+      "receipt_hash": "8a426fc48812af12ccb49ea0e8f19a3327b7b64f5be0911d6acc8a515bf4b61c",
+      "domain": "TRANSPORT_LOGISTICS",
+      "reference_roi_state": "NEUTRAL",
+      "reference_action": "REVISE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "OVAR_LEDGER",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R028",
+      "input_hash": "ec99af779cf91dfe6278ff819872937c488dd314cad190622aea85dc0962a382",
+      "roi_state": "INDETERMINATE",
+      "action": "INDETERMINATE",
+      "reasons": [
+        "mandatory outcome evidence, baseline, or attribution requirement not met"
+      ],
+      "measurement_cost": 0.8,
+      "authorization_status": "CONDITIONAL_OR_SCOPE_LIMITED",
+      "risk_tier": "MODERATE",
+      "expected_harm_cost": 8048,
+      "receipt_hash": "650b8ee104446c4d810332364826d1ac44583416827cc63b3f710071c650857c",
+      "domain": "TRANSPORT_LOGISTICS",
+      "reference_roi_state": "NEUTRAL",
+      "reference_action": "REVISE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "USAGE_ONLY",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R029",
+      "input_hash": "2b35e98eed7f62512451ab28f6dde1382b4953998e08dbf9e47cfd72455ff7f8",
+      "roi_state": "POSITIVE",
+      "action": "CONTINUE_PILOT",
+      "reasons": [
+        "moderate utilization within budget"
+      ],
+      "measurement_cost": 0.05,
+      "receipt_hash": "67fd9bf31b64be572a8359084d3871dc56737d8df658cd0fabc6cc7a439d6b6c",
+      "domain": "HEALTHCARE",
+      "reference_roi_state": "NEGATIVE",
+      "reference_action": "STOP",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "SELF_REPORTED_VALUE",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R029",
+      "input_hash": "00ea0280e833c1774ebff5269e020fe0c424b9075b82a31ac5c86b523f2ed4f1",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "reported benefit exceeds provider cost by scale margin"
+      ],
+      "measurement_cost": 0.1,
+      "receipt_hash": "ad60e32a391265bc1dc49c328634248fdd89f8fbd9aaec68e0d6d699aa8550b5",
+      "domain": "HEALTHCARE",
+      "reference_roi_state": "NEGATIVE",
+      "reference_action": "STOP",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "COST_QUALITY",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R029",
+      "input_hash": "2b234048da8942c6cb65b9acfca2bda53696a8d28817952f27aab9d68edb0438",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "high technical quality within direct-cost budget"
+      ],
+      "measurement_cost": 0.2,
+      "receipt_hash": "1ba3413785ae3a4ca4270224962163ac6276aa2439ccde496cddf85ea442b830",
+      "domain": "HEALTHCARE",
+      "reference_roi_state": "NEGATIVE",
+      "reference_action": "STOP",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "OUTCOME_FLAT",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R029",
+      "input_hash": "ae72d313dac8ec8d4d2047f73a0f2081e7aef5c834de2e8c892e311069788afb",
+      "roi_state": "NEGATIVE",
+      "action": "STOP",
+      "reasons": [
+        "upper net-value bound below zero"
+      ],
+      "measurement_cost": 0.65,
+      "fully_loaded_cost": 212000,
+      "incremental_outcome_value": 107280,
+      "expected_harm_cost": 0,
+      "net_value": -104720,
+      "lower_bound": -145720,
+      "upper_bound": -63720,
+      "receipt_hash": "1fe4a5a8d036e958105338ed3690c05ba061aaa2ca0f7200c31327b13494d396",
+      "domain": "HEALTHCARE",
+      "reference_roi_state": "NEGATIVE",
+      "reference_action": "STOP",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "OVAR_LEDGER",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R029",
+      "input_hash": "fc13e943af30d64dc3aa31c96519f0c05b82451ead57f7d95489dbf4abdfffa4",
+      "roi_state": "NEGATIVE",
+      "action": "STOP",
+      "reasons": [
+        "upper net-value bound below zero"
+      ],
+      "measurement_cost": 0.8,
+      "fully_loaded_cost": 212000,
+      "incremental_outcome_value": 107280,
+      "expected_harm_cost": 16960,
+      "net_value": -121680,
+      "lower_bound": -162680,
+      "upper_bound": -80680,
+      "authorization_status": "CONDITIONAL_OR_SCOPE_LIMITED",
+      "risk_tier": "MODERATE",
+      "receipt_hash": "a3407c9be3115e8d17096cd05078f609b2f71a4e4fe4858369b5aebf7dc5e8eb",
+      "domain": "HEALTHCARE",
+      "reference_roi_state": "NEGATIVE",
+      "reference_action": "STOP",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "USAGE_ONLY",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R030",
+      "input_hash": "66f4fe75a4d819bc4fc55e995027885226e1efce69eed035892ad664adc40c2c",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "high utilization within budget"
+      ],
+      "measurement_cost": 0.05,
+      "receipt_hash": "bdd513f34f31e4ee178196694283f881fb69b182dd631d492d8064f76de19490",
+      "domain": "CUSTOMER_OPERATIONS",
+      "reference_roi_state": "NEGATIVE",
+      "reference_action": "STOP",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "SELF_REPORTED_VALUE",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R030",
+      "input_hash": "d1b8a1fb4199a8207f05c75824840339d99a86390cf6e7fba2723c82dc8a877d",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "reported benefit exceeds provider cost by scale margin"
+      ],
+      "measurement_cost": 0.1,
+      "receipt_hash": "6d1b1f5db7d117afd17f44418d3e48e676e6af410343a3be41483cd89db14712",
+      "domain": "CUSTOMER_OPERATIONS",
+      "reference_roi_state": "NEGATIVE",
+      "reference_action": "STOP",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "COST_QUALITY",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R030",
+      "input_hash": "488267c86f8441cc6333e0557a49eab58628a712bff81a87bd5e64e9f5ef7ff3",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "high technical quality within direct-cost budget"
+      ],
+      "measurement_cost": 0.2,
+      "receipt_hash": "a7359cbed3c3ec18408842c55ce04eefeaee45cc142215da57ea52d5d3f20fe5",
+      "domain": "CUSTOMER_OPERATIONS",
+      "reference_roi_state": "NEGATIVE",
+      "reference_action": "STOP",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "OUTCOME_FLAT",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R030",
+      "input_hash": "772c6cc6bbee7fd3d9ac482def1ca1f238b83ca5f0e7b07a43156d7e4cbfc9d3",
+      "roi_state": "NEGATIVE",
+      "action": "STOP",
+      "reasons": [
+        "upper net-value bound below zero"
+      ],
+      "measurement_cost": 0.65,
+      "fully_loaded_cost": 216600,
+      "incremental_outcome_value": -4550,
+      "expected_harm_cost": 0,
+      "net_value": -221150,
+      "lower_bound": -249150,
+      "upper_bound": -193150,
+      "receipt_hash": "91fc12649443681430047f6e24727c87fe22ab6eb1c0be48442d645d6e7e1b99",
+      "domain": "CUSTOMER_OPERATIONS",
+      "reference_roi_state": "NEGATIVE",
+      "reference_action": "STOP",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "OVAR_LEDGER",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R030",
+      "input_hash": "9a7a4c56bbf21e8905d68135f1fbfa00b76e5bec5c878a3d2cf826e259150d95",
+      "roi_state": "NEGATIVE",
+      "action": "STOP",
+      "reasons": [
+        "upper net-value bound below zero"
+      ],
+      "measurement_cost": 0.8,
+      "fully_loaded_cost": 216600,
+      "incremental_outcome_value": -4550,
+      "expected_harm_cost": 17328,
+      "net_value": -238478,
+      "lower_bound": -266478,
+      "upper_bound": -210478,
+      "authorization_status": "CONDITIONAL_OR_SCOPE_LIMITED",
+      "risk_tier": "MODERATE",
+      "receipt_hash": "ecbee98cf09ccf3611c2789e205890d2543cccaa0431c848500683a9f1f6eaf9",
+      "domain": "CUSTOMER_OPERATIONS",
+      "reference_roi_state": "NEGATIVE",
+      "reference_action": "STOP",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "USAGE_ONLY",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R031",
+      "input_hash": "c6a89747e8a23be45a56c7b28deac1c789bce4c57d8e769ceefb9cb49f8e7e34",
+      "roi_state": "POSITIVE",
+      "action": "CONTINUE_PILOT",
+      "reasons": [
+        "moderate utilization within budget"
+      ],
+      "measurement_cost": 0.05,
+      "receipt_hash": "840a209e06438b813ad4b2cdec29f998e65e46beee519f0e74e058079c220cc7",
+      "domain": "HEALTHCARE",
+      "reference_roi_state": "INDETERMINATE",
+      "reference_action": "INDETERMINATE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "SELF_REPORTED_VALUE",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R031",
+      "input_hash": "cdc4c4f5e4823a9edc69fd4bdc5349d36167568b28b555854331e89eeacf471a",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "reported benefit exceeds provider cost by scale margin"
+      ],
+      "measurement_cost": 0.1,
+      "receipt_hash": "1d19ee174ef21c78a6c4e44b9255e92988a7b40eb141e20d8503521fbebd8bde",
+      "domain": "HEALTHCARE",
+      "reference_roi_state": "INDETERMINATE",
+      "reference_action": "INDETERMINATE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "COST_QUALITY",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R031",
+      "input_hash": "86272839bfd3741378abf9c618646f6d0f691fcd1b9ec91ed7c294aa70317531",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "high technical quality within direct-cost budget"
+      ],
+      "measurement_cost": 0.2,
+      "receipt_hash": "f51e59e6267e682c1dc36743ce7ced6c25110ede520c92452f34a8418e05424c",
+      "domain": "HEALTHCARE",
+      "reference_roi_state": "INDETERMINATE",
+      "reference_action": "INDETERMINATE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "OUTCOME_FLAT",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R031",
+      "input_hash": "6d934f029d863cb539270396e30870ca0d5748767179c2c1da013f33d50038c1",
+      "roi_state": "NEUTRAL",
+      "action": "REVISE",
+      "reasons": [
+        "net-value interval crosses zero"
+      ],
+      "measurement_cost": 0.65,
+      "fully_loaded_cost": 151100,
+      "incremental_outcome_value": 98039.99999999999,
+      "expected_harm_cost": 0,
+      "net_value": -53060.000000000015,
+      "lower_bound": -129060.00000000001,
+      "upper_bound": 22939.999999999985,
+      "receipt_hash": "c80555e75b6e221f303cc9b322733483d2aa8f004470b524de07cc4d8a6094ad",
+      "domain": "HEALTHCARE",
+      "reference_roi_state": "INDETERMINATE",
+      "reference_action": "INDETERMINATE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "OVAR_LEDGER",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R031",
+      "input_hash": "9ffbfa59b19e5bb91dd303f6d0b933363c3e01bc277a7cbf7628437878864fef",
+      "roi_state": "NEUTRAL",
+      "action": "REVISE",
+      "reasons": [
+        "net-value interval crosses zero"
+      ],
+      "measurement_cost": 0.8,
+      "fully_loaded_cost": 151100,
+      "incremental_outcome_value": 98039.99999999999,
+      "expected_harm_cost": 12088,
+      "net_value": -65148.000000000015,
+      "lower_bound": -141148,
+      "upper_bound": 10851.999999999985,
+      "authorization_status": "CONDITIONAL_OR_SCOPE_LIMITED",
+      "risk_tier": "MODERATE",
+      "receipt_hash": "682ba2877fedb1a4456fb2a6003b985bb46e4ef4aaa892273d14b8c8d630c6dc",
+      "domain": "HEALTHCARE",
+      "reference_roi_state": "INDETERMINATE",
+      "reference_action": "INDETERMINATE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "USAGE_ONLY",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R032",
+      "input_hash": "62b6c6730d903eaf2bbbbb4ea6e5cabcb4b177cd43082ce1dd1240e75c4645fa",
+      "roi_state": "POSITIVE",
+      "action": "CONTINUE_PILOT",
+      "reasons": [
+        "moderate utilization within budget"
+      ],
+      "measurement_cost": 0.05,
+      "receipt_hash": "f45476ecb3f82e160b931a8fce06fca3276510bbf598461b17d1625fff659cc7",
+      "domain": "ECOMMERCE",
+      "reference_roi_state": "NEGATIVE",
+      "reference_action": "STOP",
+      "reference_authorization_current": false
+    },
+    {
+      "policy": "SELF_REPORTED_VALUE",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R032",
+      "input_hash": "27490229f5799df5e8616f6bf4fa2a915c62d008e9d9bfcff87c64863f5ad753",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "reported benefit exceeds provider cost by scale margin"
+      ],
+      "measurement_cost": 0.1,
+      "receipt_hash": "a19516e01a6147b06d96bbf6be0c8db176606301ce4548c789e8e3aba20b1f18",
+      "domain": "ECOMMERCE",
+      "reference_roi_state": "NEGATIVE",
+      "reference_action": "STOP",
+      "reference_authorization_current": false
+    },
+    {
+      "policy": "COST_QUALITY",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R032",
+      "input_hash": "3204683349fbace3c5f7e306bf0a86dd0cfcc9e5be86bd64fdd2ade3fa7c0717",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "high technical quality within direct-cost budget"
+      ],
+      "measurement_cost": 0.2,
+      "receipt_hash": "4b3c2d1b5f81e5831205db16aa022d5ee19b5303129af144c5c8327147172835",
+      "domain": "ECOMMERCE",
+      "reference_roi_state": "NEGATIVE",
+      "reference_action": "STOP",
+      "reference_authorization_current": false
+    },
+    {
+      "policy": "OUTCOME_FLAT",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R032",
+      "input_hash": "392c60fed0abcd8739cea44438a12e114e2491ecd0b95a5c85c69daec4cc007c",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "lower net-value bound above zero"
+      ],
+      "measurement_cost": 0.65,
+      "fully_loaded_cost": 70000,
+      "incremental_outcome_value": 188320,
+      "expected_harm_cost": 0,
+      "net_value": 118320,
+      "lower_bound": 71320,
+      "upper_bound": 165320,
+      "receipt_hash": "947b3d8a60ad045e6657cf0e2981f15c4e790e3a04fe007afb77c3339250d0dc",
+      "domain": "ECOMMERCE",
+      "reference_roi_state": "NEGATIVE",
+      "reference_action": "STOP",
+      "reference_authorization_current": false
+    },
+    {
+      "policy": "OVAR_LEDGER",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R032",
+      "input_hash": "69d7a5bf6466da4e77595bf251183707c3e1222f2af821299c59105bffa74d46",
+      "roi_state": "POSITIVE",
+      "action": "CONTINUE_PILOT",
+      "reasons": [
+        "lower net-value bound above zero",
+        "authorization is conditional or scope-limited"
+      ],
+      "measurement_cost": 0.8,
+      "fully_loaded_cost": 70000,
+      "incremental_outcome_value": 188320,
+      "expected_harm_cost": 5600,
+      "net_value": 112720,
+      "lower_bound": 65720,
+      "upper_bound": 159720,
+      "authorization_status": "CONDITIONAL_OR_SCOPE_LIMITED",
+      "risk_tier": "MODERATE",
+      "receipt_hash": "d5663f4d378ec7cb16de56811378a12d8e310c185fd939a05fca278ce2971819",
+      "domain": "ECOMMERCE",
+      "reference_roi_state": "NEGATIVE",
+      "reference_action": "STOP",
+      "reference_authorization_current": false
+    },
+    {
+      "policy": "USAGE_ONLY",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R033",
+      "input_hash": "a4578585908e9cba594376821a6a18b71a32ec8ab5df95336916e9e5c1bf8d14",
+      "roi_state": "POSITIVE",
+      "action": "CONTINUE_PILOT",
+      "reasons": [
+        "moderate utilization within budget"
+      ],
+      "measurement_cost": 0.05,
+      "receipt_hash": "b88ec346023d92be0ee98ad424753c446968080d97a8c0f62797fb8caaa35b9d",
+      "domain": "HEALTHCARE",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "SCALE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "SELF_REPORTED_VALUE",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R033",
+      "input_hash": "de9268d23410b639b218ca47ab6bd6db85b779ae71f4b363bfd8ee2143d5c317",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "reported benefit exceeds provider cost by scale margin"
+      ],
+      "measurement_cost": 0.1,
+      "receipt_hash": "f9c4ef8f1e45c83051428961ea0fc8634cb95c0a44da2c0f00467d789d0d029d",
+      "domain": "HEALTHCARE",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "SCALE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "COST_QUALITY",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R033",
+      "input_hash": "e3edf8f9627164cd85b9094f2eae9ebdadac5791051811b6d977a047644dba5b",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "high technical quality within direct-cost budget"
+      ],
+      "measurement_cost": 0.2,
+      "receipt_hash": "ab2cf9bf4f3976e4f0d3842c33edc74aa326d308b6dd4436e54c5e8d7e7ec7c6",
+      "domain": "HEALTHCARE",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "SCALE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "OUTCOME_FLAT",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R033",
+      "input_hash": "f2181897dc49392358f3b964208bb73740029bd728e48f94e6127ba8616c5d61",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "lower net-value bound above zero"
+      ],
+      "measurement_cost": 0.65,
+      "fully_loaded_cost": 90600,
+      "incremental_outcome_value": 138160,
+      "expected_harm_cost": 0,
+      "net_value": 47560,
+      "lower_bound": 18560,
+      "upper_bound": 76560,
+      "receipt_hash": "46936927ca9e28a49789d13bbc17347a30ee0a491c085d748a04bced264c89b7",
+      "domain": "HEALTHCARE",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "SCALE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "OVAR_LEDGER",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R033",
+      "input_hash": "046e2bfbb7796d3126b9ae90d9e373eb6e0d51cbca273477a08824b4b378479f",
+      "roi_state": "POSITIVE",
+      "action": "CONTINUE_PILOT",
+      "reasons": [
+        "lower net-value bound above zero",
+        "authorization is conditional or scope-limited"
+      ],
+      "measurement_cost": 0.8,
+      "fully_loaded_cost": 90600,
+      "incremental_outcome_value": 138160,
+      "expected_harm_cost": 18120,
+      "net_value": 29440,
+      "lower_bound": 440,
+      "upper_bound": 58440,
+      "authorization_status": "CONDITIONAL_OR_SCOPE_LIMITED",
+      "risk_tier": "HIGH",
+      "receipt_hash": "ed243244845ec78d6744fae506e9fe061427e915f641e2d51bd21af4f0b44e93",
+      "domain": "HEALTHCARE",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "SCALE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "USAGE_ONLY",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R034",
+      "input_hash": "be6c2c63001aadc619bc4ea1b9c436759603e83ffadc3302d7bdbf1e67c3124f",
+      "roi_state": "POSITIVE",
+      "action": "CONTINUE_PILOT",
+      "reasons": [
+        "moderate utilization within budget"
+      ],
+      "measurement_cost": 0.05,
+      "receipt_hash": "560d9f5cb787af59ff0713f790f19c8b0cbf773f597769a6d1bc1e4d0501a97e",
+      "domain": "HEALTHCARE",
+      "reference_roi_state": "INDETERMINATE",
+      "reference_action": "INDETERMINATE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "SELF_REPORTED_VALUE",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R034",
+      "input_hash": "56b23d6938eb2d7ccbf681579a0c5170f58ccbe66d5f4b9df43bf02ae745aa25",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "reported benefit exceeds provider cost by scale margin"
+      ],
+      "measurement_cost": 0.1,
+      "receipt_hash": "0919fce1edc03e45419895d91a971bb67a9ebe4399ca0828adb7a83b38a3a141",
+      "domain": "HEALTHCARE",
+      "reference_roi_state": "INDETERMINATE",
+      "reference_action": "INDETERMINATE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "COST_QUALITY",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R034",
+      "input_hash": "dfcd526d30c922427b20ea93e5e0966309c2f2e898ef70aeb1f18175e035b409",
+      "roi_state": "POSITIVE",
+      "action": "CONTINUE_PILOT",
+      "reasons": [
+        "acceptable technical quality"
+      ],
+      "measurement_cost": 0.2,
+      "receipt_hash": "17508ba97f1b46a79e2d7e99abe35d0bbb0b66bc164ae38f1dea9e7fcf9e74b3",
+      "domain": "HEALTHCARE",
+      "reference_roi_state": "INDETERMINATE",
+      "reference_action": "INDETERMINATE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "OUTCOME_FLAT",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R034",
+      "input_hash": "a77e58ee34a974251a6693d744d17ccdb8b99e8dfef01b4e896ab88f70f6a292",
+      "roi_state": "INDETERMINATE",
+      "action": "INDETERMINATE",
+      "reasons": [
+        "mandatory outcome evidence, baseline, or attribution requirement not met"
+      ],
+      "measurement_cost": 0.65,
+      "receipt_hash": "f58828856b7992f3ed6c7d3c5b56ede7ddb2878f0d24ff58dfe810819846e60f",
+      "domain": "HEALTHCARE",
+      "reference_roi_state": "INDETERMINATE",
+      "reference_action": "INDETERMINATE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "OVAR_LEDGER",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R034",
+      "input_hash": "91528be4b1c5609edaa3e346e4c9ff02c37774da731efeb16a42e1df8d35bab8",
+      "roi_state": "INDETERMINATE",
+      "action": "INDETERMINATE",
+      "reasons": [
+        "mandatory outcome evidence, baseline, or attribution requirement not met"
+      ],
+      "measurement_cost": 0.8,
+      "authorization_status": "CONDITIONAL_OR_SCOPE_LIMITED",
+      "risk_tier": "MODERATE",
+      "expected_harm_cost": 7200,
+      "receipt_hash": "8f31dac9fbc6b30e6ff2f9997f0509dd40e505a2cc6807fc7f85645731fbc4bc",
+      "domain": "HEALTHCARE",
+      "reference_roi_state": "INDETERMINATE",
+      "reference_action": "INDETERMINATE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "USAGE_ONLY",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R035",
+      "input_hash": "58e175bfb49a874aca924f5d76671a31cb338bb412f17f2df6489e58b6a54546",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "high utilization within budget"
+      ],
+      "measurement_cost": 0.05,
+      "receipt_hash": "9faefff7b5a4e2fd60c6951909abce09fc31b668705048f122423385581b26c7",
+      "domain": "FINANCIAL_SERVICES",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "SCALE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "SELF_REPORTED_VALUE",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R035",
+      "input_hash": "428cee1e432bb3634dc83fac7816d7a45a7c2f0ac76c16564f600de4df644511",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "reported benefit exceeds provider cost by scale margin"
+      ],
+      "measurement_cost": 0.1,
+      "receipt_hash": "4b54607858b55c84d50ea3a8668894a1552627d28807f3d1722caef1befa7fa1",
+      "domain": "FINANCIAL_SERVICES",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "SCALE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "COST_QUALITY",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R035",
+      "input_hash": "d1123342537a2079bcd3003efb22708c00e84e3d7f88edb6d705bb8cb991abac",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "high technical quality within direct-cost budget"
+      ],
+      "measurement_cost": 0.2,
+      "receipt_hash": "a63f311a3fe430e49b9444af3f5a7b62f2650da0d77c38bfcdb52a6ce2bc8f2d",
+      "domain": "FINANCIAL_SERVICES",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "SCALE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "OUTCOME_FLAT",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R035",
+      "input_hash": "5dfb686a3122772ad73a26e7c790fa1bed4dd483e6e78a79c9ed84b5da1044e1",
+      "roi_state": "NEUTRAL",
+      "action": "REVISE",
+      "reasons": [
+        "net-value interval crosses zero"
+      ],
+      "measurement_cost": 0.65,
+      "fully_loaded_cost": 235800,
+      "incremental_outcome_value": 299880,
+      "expected_harm_cost": 0,
+      "net_value": 64080,
+      "lower_bound": -77920,
+      "upper_bound": 206080,
+      "receipt_hash": "1c57523041ba994a2ba73b1e32a9a1c5b153c8c81cb918c0115bbfb2d05a5540",
+      "domain": "FINANCIAL_SERVICES",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "SCALE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "OVAR_LEDGER",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R035",
+      "input_hash": "7c29a964884197370a094a532fdca2d03129930f67561e8ae0a31cec9b344a19",
+      "roi_state": "NEUTRAL",
+      "action": "REVISE",
+      "reasons": [
+        "net-value interval crosses zero"
+      ],
+      "measurement_cost": 0.8,
+      "fully_loaded_cost": 235800,
+      "incremental_outcome_value": 299880,
+      "expected_harm_cost": 18864,
+      "net_value": 45216,
+      "lower_bound": -96784,
+      "upper_bound": 187216,
+      "authorization_status": "CLEAR_CURRENT_IN_SCOPE",
+      "risk_tier": "MODERATE",
+      "receipt_hash": "958003fe69e5a662a1a3f7ba142c5eaa23e112f00345aed6abf35f9cca9e885a",
+      "domain": "FINANCIAL_SERVICES",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "SCALE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "USAGE_ONLY",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R036",
+      "input_hash": "cc0703e4f11e3392b5e568d238363ccdd9a68dbb05bdc14b8ec1c70e7c7c7279",
+      "roi_state": "POSITIVE",
+      "action": "CONTINUE_PILOT",
+      "reasons": [
+        "moderate utilization within budget"
+      ],
+      "measurement_cost": 0.05,
+      "receipt_hash": "94a113036eb8c622ed6ddd52248917e60702a152dfbea130128fed03706ec71e",
+      "domain": "TRANSPORT_LOGISTICS",
+      "reference_roi_state": "INDETERMINATE",
+      "reference_action": "INDETERMINATE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "SELF_REPORTED_VALUE",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R036",
+      "input_hash": "629d3fd47055a14d7c6b71b601bc83b7581500b9aec6ef35d3ea8e6d0a8528f2",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "reported benefit exceeds provider cost by scale margin"
+      ],
+      "measurement_cost": 0.1,
+      "receipt_hash": "c6921c2ea173efc8e460837853a8a81d918d7dd5b2222ac0991225d2c4b2ead4",
+      "domain": "TRANSPORT_LOGISTICS",
+      "reference_roi_state": "INDETERMINATE",
+      "reference_action": "INDETERMINATE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "COST_QUALITY",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R036",
+      "input_hash": "3b0a953cdf8e3274d1610728085199402d26199f55a5cc505aafcd42770e79f0",
+      "roi_state": "POSITIVE",
+      "action": "CONTINUE_PILOT",
+      "reasons": [
+        "acceptable technical quality"
+      ],
+      "measurement_cost": 0.2,
+      "receipt_hash": "1ea223b67e0dade67a65e7d7d898ab3e2e709b166c4b51a50faaf08053698249",
+      "domain": "TRANSPORT_LOGISTICS",
+      "reference_roi_state": "INDETERMINATE",
+      "reference_action": "INDETERMINATE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "OUTCOME_FLAT",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R036",
+      "input_hash": "bd36099a5836898ef88646733d7b3f2bea47d66cddbf66a9b888603f16deec7c",
+      "roi_state": "INDETERMINATE",
+      "action": "INDETERMINATE",
+      "reasons": [
+        "mandatory outcome evidence, baseline, or attribution requirement not met"
+      ],
+      "measurement_cost": 0.65,
+      "receipt_hash": "09476e9d599200709933a9319d46eb021f13f8fb64cf141450f44f81056c7e0d",
+      "domain": "TRANSPORT_LOGISTICS",
+      "reference_roi_state": "INDETERMINATE",
+      "reference_action": "INDETERMINATE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "OVAR_LEDGER",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R036",
+      "input_hash": "889962aeabf55a71bdeca97128487f5e21a296f9bb048c426cb6eacfc48a62ce",
+      "roi_state": "INDETERMINATE",
+      "action": "INDETERMINATE",
+      "reasons": [
+        "mandatory outcome evidence, baseline, or attribution requirement not met"
+      ],
+      "measurement_cost": 0.8,
+      "authorization_status": "CONDITIONAL_OR_SCOPE_LIMITED",
+      "risk_tier": "MODERATE",
+      "expected_harm_cost": 4344,
+      "receipt_hash": "470629908ddb17bb8d555b5d4487fadc95b28d654d04cfa94dfdf19efa5862f2",
+      "domain": "TRANSPORT_LOGISTICS",
+      "reference_roi_state": "INDETERMINATE",
+      "reference_action": "INDETERMINATE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "USAGE_ONLY",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R037",
+      "input_hash": "684b8250b0e8eadebf2a72ecd2cd05a2e6be49b438013ad7fcc912ec5a10b044",
+      "roi_state": "POSITIVE",
+      "action": "CONTINUE_PILOT",
+      "reasons": [
+        "moderate utilization within budget"
+      ],
+      "measurement_cost": 0.05,
+      "receipt_hash": "5570bd61ee2c03bb4569c767f52d8921420f6089af8510bc44b30a62da0cfd1a",
+      "domain": "TRANSPORT_LOGISTICS",
+      "reference_roi_state": "NEGATIVE",
+      "reference_action": "STOP",
+      "reference_authorization_current": false
+    },
+    {
+      "policy": "SELF_REPORTED_VALUE",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R037",
+      "input_hash": "7cec068398a8f0f4716bd1b90d41f0f0d2858e28ef6f9a77ce5db0f7cbec2aa8",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "reported benefit exceeds provider cost by scale margin"
+      ],
+      "measurement_cost": 0.1,
+      "receipt_hash": "559f205137ae864f1b5dc73acbfb9e5f0fe607ae979cf5453388343f23aaac73",
+      "domain": "TRANSPORT_LOGISTICS",
+      "reference_roi_state": "NEGATIVE",
+      "reference_action": "STOP",
+      "reference_authorization_current": false
+    },
+    {
+      "policy": "COST_QUALITY",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R037",
+      "input_hash": "ebd33c83752b2f3b609fe6077bd135d4a16ea01e76935aa5907ad136cc2a66eb",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "high technical quality within direct-cost budget"
+      ],
+      "measurement_cost": 0.2,
+      "receipt_hash": "4fe09c52a962113ce0144aaf103318a1eebc4a093fa7e1c87e4f29aadd4dce5e",
+      "domain": "TRANSPORT_LOGISTICS",
+      "reference_roi_state": "NEGATIVE",
+      "reference_action": "STOP",
+      "reference_authorization_current": false
+    },
+    {
+      "policy": "OUTCOME_FLAT",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R037",
+      "input_hash": "cdbbe4229d662020c00fd51e1324de91ac4bf753f64ac8fabade6a1ac0edc1ab",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "lower net-value bound above zero"
+      ],
+      "measurement_cost": 0.65,
+      "fully_loaded_cost": 90600,
+      "incremental_outcome_value": 243100,
+      "expected_harm_cost": 0,
+      "net_value": 152500,
+      "lower_bound": 76500,
+      "upper_bound": 228500,
+      "receipt_hash": "cfb94bb5ede3ca1f9deaa0ad991ba2e585de2322947259e662613f79a7a16558",
+      "domain": "TRANSPORT_LOGISTICS",
+      "reference_roi_state": "NEGATIVE",
+      "reference_action": "STOP",
+      "reference_authorization_current": false
+    },
+    {
+      "policy": "OVAR_LEDGER",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R037",
+      "input_hash": "99a8441568d05fe9b399581e22779efc7afb4277608c503e64a062e74b51e973",
+      "roi_state": "POSITIVE",
+      "action": "CONTINUE_PILOT",
+      "reasons": [
+        "lower net-value bound above zero",
+        "authorization is conditional or scope-limited"
+      ],
+      "measurement_cost": 0.8,
+      "fully_loaded_cost": 90600,
+      "incremental_outcome_value": 243100,
+      "expected_harm_cost": 7248,
+      "net_value": 145252,
+      "lower_bound": 69252,
+      "upper_bound": 221252,
+      "authorization_status": "CONDITIONAL_OR_SCOPE_LIMITED",
+      "risk_tier": "MODERATE",
+      "receipt_hash": "ca1dd0fd253435205bdfc2fd3055335350b6c254faaf849167d8b6023844ea51",
+      "domain": "TRANSPORT_LOGISTICS",
+      "reference_roi_state": "NEGATIVE",
+      "reference_action": "STOP",
+      "reference_authorization_current": false
+    },
+    {
+      "policy": "USAGE_ONLY",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R038",
+      "input_hash": "293975729e0e76c30d64c44af2e707884d39bc99f2290dc1a3b44284b7982249",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "high utilization within budget"
+      ],
+      "measurement_cost": 0.05,
+      "receipt_hash": "f1ceb713260e68c2207640dbdee36758aa12911cc2c9c9df67981124f0b25a4d",
+      "domain": "ECOMMERCE",
+      "reference_roi_state": "NEGATIVE",
+      "reference_action": "STOP",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "SELF_REPORTED_VALUE",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R038",
+      "input_hash": "f1009c2f304eb0e56da00a6120186fe7d2839b43fcc097b454675d038424e20f",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "reported benefit exceeds provider cost by scale margin"
+      ],
+      "measurement_cost": 0.1,
+      "receipt_hash": "9a100041562e1961ea0a04a062a80ac81f35dce68b24daaa2afe05b3da647a8b",
+      "domain": "ECOMMERCE",
+      "reference_roi_state": "NEGATIVE",
+      "reference_action": "STOP",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "COST_QUALITY",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R038",
+      "input_hash": "c2c9f85a995b6c050f2e53149cff470856279d1ca1d737be11c60b704d857cac",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "high technical quality within direct-cost budget"
+      ],
+      "measurement_cost": 0.2,
+      "receipt_hash": "e02c91e0a926912f6422881c11db4804f58256e5f3a9160336cb195bd91d88af",
+      "domain": "ECOMMERCE",
+      "reference_roi_state": "NEGATIVE",
+      "reference_action": "STOP",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "OUTCOME_FLAT",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R038",
+      "input_hash": "2d3b3aa999344797d59c3c7b89f52a9bc0ff96cb1f8512a3845db34980f66eb4",
+      "roi_state": "NEGATIVE",
+      "action": "STOP",
+      "reasons": [
+        "upper net-value bound below zero"
+      ],
+      "measurement_cost": 0.65,
+      "fully_loaded_cost": 288900,
+      "incremental_outcome_value": 103680,
+      "expected_harm_cost": 0,
+      "net_value": -185220,
+      "lower_bound": -254220,
+      "upper_bound": -116220,
+      "receipt_hash": "6b8a141a7cf3526c77330aed22aaac2eb1ef8e87e30483d77b63b60a76c28a7d",
+      "domain": "ECOMMERCE",
+      "reference_roi_state": "NEGATIVE",
+      "reference_action": "STOP",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "OVAR_LEDGER",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R038",
+      "input_hash": "9fd29bc004ae7c5524373ce84122262d5c929e6f339d77014fbce6546647205b",
+      "roi_state": "NEGATIVE",
+      "action": "STOP",
+      "reasons": [
+        "upper net-value bound below zero"
+      ],
+      "measurement_cost": 0.8,
+      "fully_loaded_cost": 288900,
+      "incremental_outcome_value": 103680,
+      "expected_harm_cost": 23112,
+      "net_value": -208332,
+      "lower_bound": -277332,
+      "upper_bound": -139332,
+      "authorization_status": "CLEAR_CURRENT_IN_SCOPE",
+      "risk_tier": "MODERATE",
+      "receipt_hash": "e8993cec04ce9cd25adfb571ad070633f605394dfca5296ee3c33042ecd7a123",
+      "domain": "ECOMMERCE",
+      "reference_roi_state": "NEGATIVE",
+      "reference_action": "STOP",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "USAGE_ONLY",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R039",
+      "input_hash": "eec8efa9a000a6a7c65eb1185c1091ac2eaeaf70bc95fa59ceb7e967c58d32a7",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "high utilization within budget"
+      ],
+      "measurement_cost": 0.05,
+      "receipt_hash": "fabe3f281106845e72c4718ccb4353222d55c73a4915923631bc25f482966fc9",
+      "domain": "FINANCIAL_SERVICES",
+      "reference_roi_state": "NEGATIVE",
+      "reference_action": "STOP",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "SELF_REPORTED_VALUE",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R039",
+      "input_hash": "a6e417753c223af4eba6b09aea861fe2f6df3e65c2a88d2f6bc20bd06c7398d0",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "reported benefit exceeds provider cost by scale margin"
+      ],
+      "measurement_cost": 0.1,
+      "receipt_hash": "93c54eb239bcab7e51bc81095c70c06c487309eefb81ff8ba2b5eb6a82b7a11b",
+      "domain": "FINANCIAL_SERVICES",
+      "reference_roi_state": "NEGATIVE",
+      "reference_action": "STOP",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "COST_QUALITY",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R039",
+      "input_hash": "50662bcdc098de622990493376d1325201962a04ccd30f4be9b0ff299ec95a70",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "high technical quality within direct-cost budget"
+      ],
+      "measurement_cost": 0.2,
+      "receipt_hash": "5405e13d5f7ac92de1caea6684d705fc4c980598a443170414150e19e20b5f2f",
+      "domain": "FINANCIAL_SERVICES",
+      "reference_roi_state": "NEGATIVE",
+      "reference_action": "STOP",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "OUTCOME_FLAT",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R039",
+      "input_hash": "d80bfffdfd56e38c769dd647328e0433d78a9fcbf026566c58bfa89a0e84af49",
+      "roi_state": "NEGATIVE",
+      "action": "STOP",
+      "reasons": [
+        "upper net-value bound below zero"
+      ],
+      "measurement_cost": 0.65,
+      "fully_loaded_cost": 415800,
+      "incremental_outcome_value": -11900,
+      "expected_harm_cost": 0,
+      "net_value": -427700,
+      "lower_bound": -458700,
+      "upper_bound": -396700,
+      "receipt_hash": "aa6b05c4ee85742853e9283651a45bb74608a8c90997441ebb52339ef0f55bb6",
+      "domain": "FINANCIAL_SERVICES",
+      "reference_roi_state": "NEGATIVE",
+      "reference_action": "STOP",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "OVAR_LEDGER",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R039",
+      "input_hash": "fdaf2924473f5c410fdad9ee16c499d0a90709a41e80d4fffdc180cf2da9190b",
+      "roi_state": "NEGATIVE",
+      "action": "STOP",
+      "reasons": [
+        "upper net-value bound below zero"
+      ],
+      "measurement_cost": 0.8,
+      "fully_loaded_cost": 415800,
+      "incremental_outcome_value": -11900,
+      "expected_harm_cost": 33264,
+      "net_value": -460964,
+      "lower_bound": -491964,
+      "upper_bound": -429964,
+      "authorization_status": "CONDITIONAL_OR_SCOPE_LIMITED",
+      "risk_tier": "MODERATE",
+      "receipt_hash": "2cb38c01980b5e3317dec80ed1cfd547566930ccd69db77995c360ce29c324ed",
+      "domain": "FINANCIAL_SERVICES",
+      "reference_roi_state": "NEGATIVE",
+      "reference_action": "STOP",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "USAGE_ONLY",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R040",
+      "input_hash": "301e0185e8c568b0f0c05fe6ea1dba6ab3fe99889683566ed1352458bbeced70",
+      "roi_state": "NEUTRAL",
+      "action": "REVISE",
+      "reasons": [
+        "low utilization"
+      ],
+      "measurement_cost": 0.05,
+      "receipt_hash": "11aad47a0799b541107841628659bfa0f44c3438b4bb2ef3638ad399ca4f38ff",
+      "domain": "CYBERSECURITY",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "SCALE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "SELF_REPORTED_VALUE",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R040",
+      "input_hash": "66af1072b06758781318ac1ec075f3f4900e38e7b52e3de8fa88faa0ca692b46",
+      "roi_state": "POSITIVE",
+      "action": "CONTINUE_PILOT",
+      "reasons": [
+        "reported benefit exceeds provider cost"
+      ],
+      "measurement_cost": 0.1,
+      "receipt_hash": "352cd57699f3215e243e87923d3f9817723dbef7452296cd8ba2529a2957cce1",
+      "domain": "CYBERSECURITY",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "SCALE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "COST_QUALITY",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R040",
+      "input_hash": "ce4513ccb3e10b92a1e8387c5e505531754472a262351cfac3f87288b3382de1",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "high technical quality within direct-cost budget"
+      ],
+      "measurement_cost": 0.2,
+      "receipt_hash": "3871d8ff3f8f0f3d65f328d60a3b75352cf868c39ed5fea55c9fa90b02db35af",
+      "domain": "CYBERSECURITY",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "SCALE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "OUTCOME_FLAT",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R040",
+      "input_hash": "5261b01d783a76dd112cc81ae642a46b7246ad70c399dbe6d6e512364c2427e0",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "lower net-value bound above zero"
+      ],
+      "measurement_cost": 0.65,
+      "fully_loaded_cost": 173600,
+      "incremental_outcome_value": 355180,
+      "expected_harm_cost": 0,
+      "net_value": 181580,
+      "lower_bound": 55580,
+      "upper_bound": 307580,
+      "receipt_hash": "702f549387c6b77ae97d620da60df498baec69967d231b1013926f4c7cc03253",
+      "domain": "CYBERSECURITY",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "SCALE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "OVAR_LEDGER",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R040",
+      "input_hash": "59655c2c4c1673ad9d81bdc62c3fd53e11075761bdeff706908b26a95a38f17a",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "lower net-value bound above zero"
+      ],
+      "measurement_cost": 0.8,
+      "fully_loaded_cost": 173600,
+      "incremental_outcome_value": 355180,
+      "expected_harm_cost": 13888,
+      "net_value": 167692,
+      "lower_bound": 41692,
+      "upper_bound": 293692,
+      "authorization_status": "CLEAR_CURRENT_IN_SCOPE",
+      "risk_tier": "MODERATE",
+      "receipt_hash": "4b906a176a9b577941eeaca85caf6e3df9aa1182175c1ba7a53e26144a17a3b4",
+      "domain": "CYBERSECURITY",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "SCALE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "USAGE_ONLY",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R041",
+      "input_hash": "2b8d7225e47dde4760b2764251a9e1f8cf4944c0f884ac74796c03bfdfab8142",
+      "roi_state": "NEUTRAL",
+      "action": "REVISE",
+      "reasons": [
+        "low utilization"
+      ],
+      "measurement_cost": 0.05,
+      "receipt_hash": "f2f588c91ff1b5d5a0200046c45dd134f1660dcaa9b64bbf85b19572ad04add1",
+      "domain": "FINANCIAL_SERVICES",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "SCALE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "SELF_REPORTED_VALUE",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R041",
+      "input_hash": "a2656946d085f1407e09ab8e8cb6d083c5f0e91350e8aabfeab10481610fb6fe",
+      "roi_state": "POSITIVE",
+      "action": "CONTINUE_PILOT",
+      "reasons": [
+        "reported benefit exceeds provider cost"
+      ],
+      "measurement_cost": 0.1,
+      "receipt_hash": "a341275310cc103dcf63430e5cf40f979fc31b3979ff84c1049d04a554c472c4",
+      "domain": "FINANCIAL_SERVICES",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "SCALE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "COST_QUALITY",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R041",
+      "input_hash": "94013e125a83c670de8c2b49b46eb8b1b4161e28653bc2d9540284c712e337b7",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "high technical quality within direct-cost budget"
+      ],
+      "measurement_cost": 0.2,
+      "receipt_hash": "e986e8910d613c47908c9052df2dffebaf1f5231f508a21b0b28195cd5e0e3c6",
+      "domain": "FINANCIAL_SERVICES",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "SCALE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "OUTCOME_FLAT",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R041",
+      "input_hash": "645bb6329f68c7dbd98f8b6260a0a329fc3a7aff0376a3d9cf9c8dcba9d3e893",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "lower net-value bound above zero"
+      ],
+      "measurement_cost": 0.65,
+      "fully_loaded_cost": 160900,
+      "incremental_outcome_value": 316840,
+      "expected_harm_cost": 0,
+      "net_value": 155940,
+      "lower_bound": 58940,
+      "upper_bound": 252940,
+      "receipt_hash": "3308925c76c58829c1cf6a06682a6d9ccdc3f4c17a19ddfc7464bca50a10790b",
+      "domain": "FINANCIAL_SERVICES",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "SCALE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "OVAR_LEDGER",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R041",
+      "input_hash": "8ca7050dbb2e376db52ee697456d7245395933fc5cf80af5ddc0ceab46f6f68c",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "lower net-value bound above zero"
+      ],
+      "measurement_cost": 0.8,
+      "fully_loaded_cost": 160900,
+      "incremental_outcome_value": 316840,
+      "expected_harm_cost": 12872,
+      "net_value": 143068,
+      "lower_bound": 46068,
+      "upper_bound": 240068,
+      "authorization_status": "CLEAR_CURRENT_IN_SCOPE",
+      "risk_tier": "MODERATE",
+      "receipt_hash": "7850c7b6cba1d21c8025ef24918c45d52a4ad696f801b9257af022fc8eeac750",
+      "domain": "FINANCIAL_SERVICES",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "SCALE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "USAGE_ONLY",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R042",
+      "input_hash": "d4427fcb31f455617779295f54675320712441a3daa5712a0a17d5f49c701312",
+      "roi_state": "POSITIVE",
+      "action": "CONTINUE_PILOT",
+      "reasons": [
+        "moderate utilization within budget"
+      ],
+      "measurement_cost": 0.05,
+      "receipt_hash": "fc10a0a7e0781a5cecfe305eec3938fd232390d841c655c9a16266134d01715d",
+      "domain": "ECOMMERCE",
+      "reference_roi_state": "NEGATIVE",
+      "reference_action": "STOP",
+      "reference_authorization_current": false
+    },
+    {
+      "policy": "SELF_REPORTED_VALUE",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R042",
+      "input_hash": "95f55c5082159f807c5facf1648c928706a55d1799952b134956e0a56c9fa023",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "reported benefit exceeds provider cost by scale margin"
+      ],
+      "measurement_cost": 0.1,
+      "receipt_hash": "faf5b01d53ee9f08ec27c54de40fab9a151119d836d5fa42feb49d43177fcff4",
+      "domain": "ECOMMERCE",
+      "reference_roi_state": "NEGATIVE",
+      "reference_action": "STOP",
+      "reference_authorization_current": false
+    },
+    {
+      "policy": "COST_QUALITY",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R042",
+      "input_hash": "86651373d1865f161ec7ea6a736155b87526a3171e24f3529c3b794f7499f53f",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "high technical quality within direct-cost budget"
+      ],
+      "measurement_cost": 0.2,
+      "receipt_hash": "58488045c2bb903592c8a3ea1d0ab744fc8aae7cde9846bc56f10da9c68eb13f",
+      "domain": "ECOMMERCE",
+      "reference_roi_state": "NEGATIVE",
+      "reference_action": "STOP",
+      "reference_authorization_current": false
+    },
+    {
+      "policy": "OUTCOME_FLAT",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R042",
+      "input_hash": "5d065cec0b1b1199a631acb561be7fb03b7dad9b9380b117b78f7e9c80320bdd",
+      "roi_state": "NEUTRAL",
+      "action": "REVISE",
+      "reasons": [
+        "net-value interval crosses zero"
+      ],
+      "measurement_cost": 0.65,
+      "fully_loaded_cost": 103300,
+      "incremental_outcome_value": 142200,
+      "expected_harm_cost": 0,
+      "net_value": 38900,
+      "lower_bound": -19100,
+      "upper_bound": 96900,
+      "receipt_hash": "f79962eb6b82be99543802ea4b5025493d9b989d57bd8adfe04a912bc4899981",
+      "domain": "ECOMMERCE",
+      "reference_roi_state": "NEGATIVE",
+      "reference_action": "STOP",
+      "reference_authorization_current": false
+    },
+    {
+      "policy": "OVAR_LEDGER",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R042",
+      "input_hash": "80833ed6aa54e805003c0f2b6397a10cb4fd4a351b6ded2ca207cf77eb048508",
+      "roi_state": "NEUTRAL",
+      "action": "REVISE",
+      "reasons": [
+        "net-value interval crosses zero"
+      ],
+      "measurement_cost": 0.8,
+      "fully_loaded_cost": 103300,
+      "incremental_outcome_value": 142200,
+      "expected_harm_cost": 8264,
+      "net_value": 30636,
+      "lower_bound": -27364,
+      "upper_bound": 88636,
+      "authorization_status": "CONDITIONAL_OR_SCOPE_LIMITED",
+      "risk_tier": "MODERATE",
+      "receipt_hash": "c63da49d203258af7d325568bd42d7ad9581e200d0752afa57d74df783a35744",
+      "domain": "ECOMMERCE",
+      "reference_roi_state": "NEGATIVE",
+      "reference_action": "STOP",
+      "reference_authorization_current": false
+    },
+    {
+      "policy": "USAGE_ONLY",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R043",
+      "input_hash": "851b4c407a9733d51c41b636b0d98e4e8b64114c3bd669c7fe541068e69e1d48",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "high utilization within budget"
+      ],
+      "measurement_cost": 0.05,
+      "receipt_hash": "e71818c423017ea1b3c97a9c35709cecbed3c3f79039be412fa251a461575c51",
+      "domain": "TRANSPORT_LOGISTICS",
+      "reference_roi_state": "NEGATIVE",
+      "reference_action": "STOP",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "SELF_REPORTED_VALUE",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R043",
+      "input_hash": "0d3079fe60f066846fcd3f3dd9ae1630fbcc8558861bc08f51465a840f5cfee4",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "reported benefit exceeds provider cost by scale margin"
+      ],
+      "measurement_cost": 0.1,
+      "receipt_hash": "6473103e834580ced72a17b78c98bebe76ca92ff17703b5cd2272a31b8cc78a3",
+      "domain": "TRANSPORT_LOGISTICS",
+      "reference_roi_state": "NEGATIVE",
+      "reference_action": "STOP",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "COST_QUALITY",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R043",
+      "input_hash": "593ded0491e9b49bf2b2b60f6af1f29973c73db3b1d902357913f483fab0c7fa",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "high technical quality within direct-cost budget"
+      ],
+      "measurement_cost": 0.2,
+      "receipt_hash": "c2705089f57ab910a842f510cf0bbb06cce6af6c4f58639b97650732474ff763",
+      "domain": "TRANSPORT_LOGISTICS",
+      "reference_roi_state": "NEGATIVE",
+      "reference_action": "STOP",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "OUTCOME_FLAT",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R043",
+      "input_hash": "80260553f539081f149d438437289eb2611e80893c31db2f76f2ca8d4cb47070",
+      "roi_state": "NEGATIVE",
+      "action": "STOP",
+      "reasons": [
+        "upper net-value bound below zero"
+      ],
+      "measurement_cost": 0.65,
+      "fully_loaded_cost": 237300,
+      "incremental_outcome_value": -6440,
+      "expected_harm_cost": 0,
+      "net_value": -243740,
+      "lower_bound": -274740,
+      "upper_bound": -212740,
+      "receipt_hash": "f2c872d02e4ce76ee6b1fa304514038559d694a99bedf2b7587fb4c54c434817",
+      "domain": "TRANSPORT_LOGISTICS",
+      "reference_roi_state": "NEGATIVE",
+      "reference_action": "STOP",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "OVAR_LEDGER",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R043",
+      "input_hash": "8a39c88e0afa2a833cf371fd6c876f2d5508d2e587baf048dc0245cd1cc1d25d",
+      "roi_state": "NEGATIVE",
+      "action": "STOP",
+      "reasons": [
+        "upper net-value bound below zero"
+      ],
+      "measurement_cost": 0.8,
+      "fully_loaded_cost": 237300,
+      "incremental_outcome_value": -6440,
+      "expected_harm_cost": 18984,
+      "net_value": -262724,
+      "lower_bound": -293724,
+      "upper_bound": -231724,
+      "authorization_status": "CLEAR_CURRENT_IN_SCOPE",
+      "risk_tier": "MODERATE",
+      "receipt_hash": "b65f6b374d8fcd6296e41f5f9599ec27f89bbedce88336fa441d77dc05979bc9",
+      "domain": "TRANSPORT_LOGISTICS",
+      "reference_roi_state": "NEGATIVE",
+      "reference_action": "STOP",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "USAGE_ONLY",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R044",
+      "input_hash": "12a60752d13f05b66c482118c3db6b63a9cbc28423fb4900bcb2a03185913141",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "high utilization within budget"
+      ],
+      "measurement_cost": 0.05,
+      "receipt_hash": "aecc4a9413f8643333f8aac5ecf59a484d41da4d68cf2573a46893e3f787d4d6",
+      "domain": "CYBERSECURITY",
+      "reference_roi_state": "NEGATIVE",
+      "reference_action": "STOP",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "SELF_REPORTED_VALUE",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R044",
+      "input_hash": "71ad686a5c48fff314adf1646dc1a1d4242162d22fd5d8fc572fac133a86592c",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "reported benefit exceeds provider cost by scale margin"
+      ],
+      "measurement_cost": 0.1,
+      "receipt_hash": "3b7c089b9c25b8fd2ed7047e2bd6a8516bdcd63c282c9f87df7cb5c8ce702ec2",
+      "domain": "CYBERSECURITY",
+      "reference_roi_state": "NEGATIVE",
+      "reference_action": "STOP",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "COST_QUALITY",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R044",
+      "input_hash": "e57a1163b2f1a051cf3b48dcced2b60156682cc4ca8f65a4577ba0a242091de2",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "high technical quality within direct-cost budget"
+      ],
+      "measurement_cost": 0.2,
+      "receipt_hash": "df26a5a9e580713521a65a7c8041859fcbfe5696475047c129909ddf3225173e",
+      "domain": "CYBERSECURITY",
+      "reference_roi_state": "NEGATIVE",
+      "reference_action": "STOP",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "OUTCOME_FLAT",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R044",
+      "input_hash": "42cdd91f0e1d4f3a833efccd9b5d62e20486e8f966ecdaefae64723b7fbb4ce6",
+      "roi_state": "NEGATIVE",
+      "action": "STOP",
+      "reasons": [
+        "upper net-value bound below zero"
+      ],
+      "measurement_cost": 0.65,
+      "fully_loaded_cost": 382800,
+      "incremental_outcome_value": -5220,
+      "expected_harm_cost": 0,
+      "net_value": -388020,
+      "lower_bound": -416020,
+      "upper_bound": -360020,
+      "receipt_hash": "8154cd8d7368c88fb4e4dbd25fbca6a8c5fb519418a9753946c96a48ba927f80",
+      "domain": "CYBERSECURITY",
+      "reference_roi_state": "NEGATIVE",
+      "reference_action": "STOP",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "OVAR_LEDGER",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R044",
+      "input_hash": "3e94daab41ef02350eaedd820be783d7d951c759aebf21c1987330ab6f094c2c",
+      "roi_state": "NEGATIVE",
+      "action": "STOP",
+      "reasons": [
+        "upper net-value bound below zero"
+      ],
+      "measurement_cost": 0.8,
+      "fully_loaded_cost": 382800,
+      "incremental_outcome_value": -5220,
+      "expected_harm_cost": 76560,
+      "net_value": -464580,
+      "lower_bound": -492580,
+      "upper_bound": -436580,
+      "authorization_status": "CONDITIONAL_OR_SCOPE_LIMITED",
+      "risk_tier": "HIGH",
+      "receipt_hash": "89f718714eaded262b428ca24e1d0e96d4df59e87482a0c042924fb23c07cad9",
+      "domain": "CYBERSECURITY",
+      "reference_roi_state": "NEGATIVE",
+      "reference_action": "STOP",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "USAGE_ONLY",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R045",
+      "input_hash": "3702fb07a83460f38d28a7af059406bb71954dec0772405add3d769d95a2e6aa",
+      "roi_state": "POSITIVE",
+      "action": "CONTINUE_PILOT",
+      "reasons": [
+        "moderate utilization within budget"
+      ],
+      "measurement_cost": 0.05,
+      "receipt_hash": "885a22a7a3663922c29a19c36648bd92a9adee98027ca0d4a2fb79873ad1a3ae",
+      "domain": "TRANSPORT_LOGISTICS",
+      "reference_roi_state": "NEGATIVE",
+      "reference_action": "STOP",
+      "reference_authorization_current": false
+    },
+    {
+      "policy": "SELF_REPORTED_VALUE",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R045",
+      "input_hash": "1e814a6c6b8f3e6a78e87b14f88f2374c298032f6d1e66e23ba5c0efcffa65ab",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "reported benefit exceeds provider cost by scale margin"
+      ],
+      "measurement_cost": 0.1,
+      "receipt_hash": "52c10e5dbd5a497e0bf4477f88aad2dc1ec26a658705f3d1b476800094c74cb0",
+      "domain": "TRANSPORT_LOGISTICS",
+      "reference_roi_state": "NEGATIVE",
+      "reference_action": "STOP",
+      "reference_authorization_current": false
+    },
+    {
+      "policy": "COST_QUALITY",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R045",
+      "input_hash": "8f4a96c3df70c736f7472bf450678297961a1402e1c34b5d5636ae37133bcd6a",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "high technical quality within direct-cost budget"
+      ],
+      "measurement_cost": 0.2,
+      "receipt_hash": "28a17172ba8d86cb5f74016f88331a3d2542518373088141b183e132742817d0",
+      "domain": "TRANSPORT_LOGISTICS",
+      "reference_roi_state": "NEGATIVE",
+      "reference_action": "STOP",
+      "reference_authorization_current": false
+    },
+    {
+      "policy": "OUTCOME_FLAT",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R045",
+      "input_hash": "b3293b4280b6410c73fdb975504a7bb2036a6455c6b1045fc5385af0a18cf504",
+      "roi_state": "NEUTRAL",
+      "action": "REVISE",
+      "reasons": [
+        "net-value interval crosses zero"
+      ],
+      "measurement_cost": 0.65,
+      "fully_loaded_cost": 132100,
+      "incremental_outcome_value": 91640,
+      "expected_harm_cost": 0,
+      "net_value": -40460,
+      "lower_bound": -111460,
+      "upper_bound": 30540,
+      "receipt_hash": "83a4c9059c4d0d7fb9fa73d2406ed161e79ad2233f4cd83b26b039997f656211",
+      "domain": "TRANSPORT_LOGISTICS",
+      "reference_roi_state": "NEGATIVE",
+      "reference_action": "STOP",
+      "reference_authorization_current": false
+    },
+    {
+      "policy": "OVAR_LEDGER",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R045",
+      "input_hash": "e3a18c3a250bb57addbdc4c803c44aaa1130c67ecc8839f26d85a9ad43de3c57",
+      "roi_state": "NEUTRAL",
+      "action": "REVISE",
+      "reasons": [
+        "net-value interval crosses zero"
+      ],
+      "measurement_cost": 0.8,
+      "fully_loaded_cost": 132100,
+      "incremental_outcome_value": 91640,
+      "expected_harm_cost": 26420,
+      "net_value": -66880,
+      "lower_bound": -137880,
+      "upper_bound": 4120,
+      "authorization_status": "CONDITIONAL_OR_SCOPE_LIMITED",
+      "risk_tier": "HIGH",
+      "receipt_hash": "b5858508b36b5c8c2df13750d640561cbca69a81cd70a94279ba8f22d3993a57",
+      "domain": "TRANSPORT_LOGISTICS",
+      "reference_roi_state": "NEGATIVE",
+      "reference_action": "STOP",
+      "reference_authorization_current": false
+    },
+    {
+      "policy": "USAGE_ONLY",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R046",
+      "input_hash": "1591292187c0b385d924ab0d6b49794a73dc7ebbec8f76a6f038ddd140720643",
+      "roi_state": "POSITIVE",
+      "action": "CONTINUE_PILOT",
+      "reasons": [
+        "moderate utilization within budget"
+      ],
+      "measurement_cost": 0.05,
+      "receipt_hash": "ad457093df2956f8c7146f28626b9ffda1f47f36f9f74fcb4366006c1d2fdcdb",
+      "domain": "CUSTOMER_OPERATIONS",
+      "reference_roi_state": "NEUTRAL",
+      "reference_action": "REVISE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "SELF_REPORTED_VALUE",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R046",
+      "input_hash": "4ea95afd1b96c5f10573f3b848df53db25d39e47855b7e5777d2720df9a93324",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "reported benefit exceeds provider cost by scale margin"
+      ],
+      "measurement_cost": 0.1,
+      "receipt_hash": "94d47ad0d6f01fc7ee1f58941a7f116b77225dc67481696e94f98431dcb9c987",
+      "domain": "CUSTOMER_OPERATIONS",
+      "reference_roi_state": "NEUTRAL",
+      "reference_action": "REVISE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "COST_QUALITY",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R046",
+      "input_hash": "8ad2e77970f164944e516e47e635948c75d8c3e3f49d4eb205e9fa6c9a0056d1",
+      "roi_state": "POSITIVE",
+      "action": "CONTINUE_PILOT",
+      "reasons": [
+        "acceptable technical quality"
+      ],
+      "measurement_cost": 0.2,
+      "receipt_hash": "19723b805266c0d54ce3f329bed5d5f9517f2151265a05611e62443a0eb19c18",
+      "domain": "CUSTOMER_OPERATIONS",
+      "reference_roi_state": "NEUTRAL",
+      "reference_action": "REVISE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "OUTCOME_FLAT",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R046",
+      "input_hash": "5785e77332930584e49de25816c3ea25f54a1d63c56b74121b40a4c22624f21e",
+      "roi_state": "INDETERMINATE",
+      "action": "INDETERMINATE",
+      "reasons": [
+        "mandatory outcome evidence, baseline, or attribution requirement not met"
+      ],
+      "measurement_cost": 0.65,
+      "receipt_hash": "b02abf02829d43be4d4f6e16ea3dc64633fc31ee940e44d9538a652a22f8abd4",
+      "domain": "CUSTOMER_OPERATIONS",
+      "reference_roi_state": "NEUTRAL",
+      "reference_action": "REVISE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "OVAR_LEDGER",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R046",
+      "input_hash": "43ef7ea5578fca1dc89ea3402129ff984b6e05e7c927ef816dbd3911cdc92c79",
+      "roi_state": "INDETERMINATE",
+      "action": "INDETERMINATE",
+      "reasons": [
+        "mandatory outcome evidence, baseline, or attribution requirement not met"
+      ],
+      "measurement_cost": 0.8,
+      "authorization_status": "CLEAR_CURRENT_IN_SCOPE",
+      "risk_tier": "MODERATE",
+      "expected_harm_cost": 5168,
+      "receipt_hash": "7b1e571d075e76bd0ae5aef616fc9108debd82c92bf05a24c11670ff63c5f1ad",
+      "domain": "CUSTOMER_OPERATIONS",
+      "reference_roi_state": "NEUTRAL",
+      "reference_action": "REVISE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "USAGE_ONLY",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R047",
+      "input_hash": "bc0335de508fcee77301e87ad79d5a516523f589a9c1e34c868be0dcfd93952a",
+      "roi_state": "POSITIVE",
+      "action": "CONTINUE_PILOT",
+      "reasons": [
+        "moderate utilization within budget"
+      ],
+      "measurement_cost": 0.05,
+      "receipt_hash": "01ff68283e3bf19e2a9fc6599a7937f4f2a453315c11ddf4827a38d765e6ada8",
+      "domain": "CYBERSECURITY",
+      "reference_roi_state": "NEUTRAL",
+      "reference_action": "REVISE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "SELF_REPORTED_VALUE",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R047",
+      "input_hash": "af4ed807797deeeb82a5199dfe648674f5035a4fbca74b78e153eadcc9ad516e",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "reported benefit exceeds provider cost by scale margin"
+      ],
+      "measurement_cost": 0.1,
+      "receipt_hash": "df8607c619c457a061973fd742dc788d5aae4b9ef56871b04f7e577444a355f7",
+      "domain": "CYBERSECURITY",
+      "reference_roi_state": "NEUTRAL",
+      "reference_action": "REVISE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "COST_QUALITY",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R047",
+      "input_hash": "526565d4618a11c895b912b64a79e9edcd083617efcfa76072e2c5c34a6a7f9e",
+      "roi_state": "POSITIVE",
+      "action": "CONTINUE_PILOT",
+      "reasons": [
+        "acceptable technical quality"
+      ],
+      "measurement_cost": 0.2,
+      "receipt_hash": "ef9a502734fe9dccac4757415849d9cf982649a9c1572fc4f4487ac63f3bd362",
+      "domain": "CYBERSECURITY",
+      "reference_roi_state": "NEUTRAL",
+      "reference_action": "REVISE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "OUTCOME_FLAT",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R047",
+      "input_hash": "a623de169b15d5fc0a3bcde7d720ff162443daa8e18a039281805fc31f9f71df",
+      "roi_state": "INDETERMINATE",
+      "action": "INDETERMINATE",
+      "reasons": [
+        "mandatory outcome evidence, baseline, or attribution requirement not met"
+      ],
+      "measurement_cost": 0.65,
+      "receipt_hash": "919643b3140e282174a389d8729bb6af072c5ffbe38d81f4c67e6a6e0c12dd2e",
+      "domain": "CYBERSECURITY",
+      "reference_roi_state": "NEUTRAL",
+      "reference_action": "REVISE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "OVAR_LEDGER",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R047",
+      "input_hash": "64a1d3cb1b3854b002f6a9af23373dcfb1f9bd3717999a23a1d0c277d07e0808",
+      "roi_state": "INDETERMINATE",
+      "action": "INDETERMINATE",
+      "reasons": [
+        "mandatory outcome evidence, baseline, or attribution requirement not met"
+      ],
+      "measurement_cost": 0.8,
+      "authorization_status": "CONDITIONAL_OR_SCOPE_LIMITED",
+      "risk_tier": "HIGH",
+      "expected_harm_cost": 20720,
+      "receipt_hash": "ab6decb3a15fc22c092d0deb8bbb6e2e641b7a9e92d367c9f836d3bf9cc6b88f",
+      "domain": "CYBERSECURITY",
+      "reference_roi_state": "NEUTRAL",
+      "reference_action": "REVISE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "USAGE_ONLY",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R048",
+      "input_hash": "c869f2c68bf617dbd30551a2cf34bb2b9e420f480030e11503154fc77ab0ba41",
+      "roi_state": "NEUTRAL",
+      "action": "REVISE",
+      "reasons": [
+        "low utilization"
+      ],
+      "measurement_cost": 0.05,
+      "receipt_hash": "aa1a1436f6e9dd39ca6fc5826703396987558607321dffd0d505c25e90028624",
+      "domain": "TRANSPORT_LOGISTICS",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "SCALE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "SELF_REPORTED_VALUE",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R048",
+      "input_hash": "24ed133c2d2b9e25a4ba3095aa8a01af7b3702c27f4d4dda58f3360f054816e0",
+      "roi_state": "POSITIVE",
+      "action": "CONTINUE_PILOT",
+      "reasons": [
+        "reported benefit exceeds provider cost"
+      ],
+      "measurement_cost": 0.1,
+      "receipt_hash": "4ead1af55d8785baff692592045b652da7498833a64120db20427636423367c7",
+      "domain": "TRANSPORT_LOGISTICS",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "SCALE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "COST_QUALITY",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R048",
+      "input_hash": "5c226a0f1b4cc71c4cd5cded155efc7da01eeaa9be0674e72ebc76c13783ecce",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "high technical quality within direct-cost budget"
+      ],
+      "measurement_cost": 0.2,
+      "receipt_hash": "a309740ebd5c4747e977e7ceda7fdbf7a55cbc5a115a42c48793c93fa0d0aeb8",
+      "domain": "TRANSPORT_LOGISTICS",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "SCALE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "OUTCOME_FLAT",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R048",
+      "input_hash": "5038c9a4d0a7a6322f120bb97d4dd00c5f83796c01fac70f2a5311ab46df2233",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "lower net-value bound above zero"
+      ],
+      "measurement_cost": 0.65,
+      "fully_loaded_cost": 55600,
+      "incremental_outcome_value": 323640,
+      "expected_harm_cost": 0,
+      "net_value": 268040,
+      "lower_bound": 140040,
+      "upper_bound": 396040,
+      "receipt_hash": "20f0c789045aac767138e5dbf9487939ded4b1bceb8518981c5f8537788b641f",
+      "domain": "TRANSPORT_LOGISTICS",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "SCALE",
+      "reference_authorization_current": true
+    },
+    {
+      "policy": "OVAR_LEDGER",
+      "policy_version": "calibration-1.0",
+      "case_id": "OC-R048",
+      "input_hash": "f8e56b51969136f49188f8b0ad99be044c4329cbcc08cbbd0290e89d9c9c642c",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "lower net-value bound above zero"
+      ],
+      "measurement_cost": 0.8,
+      "fully_loaded_cost": 55600,
+      "incremental_outcome_value": 323640,
+      "expected_harm_cost": 4448,
+      "net_value": 263592,
+      "lower_bound": 135592,
+      "upper_bound": 391592,
+      "authorization_status": "CLEAR_CURRENT_IN_SCOPE",
+      "risk_tier": "MODERATE",
+      "receipt_hash": "2bca24722d73c3f79f71749d954c92b6d3a3bc47eae222b201691ee7134c75ae",
+      "domain": "TRANSPORT_LOGISTICS",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "SCALE",
+      "reference_authorization_current": true
+    }
+  ]
+}

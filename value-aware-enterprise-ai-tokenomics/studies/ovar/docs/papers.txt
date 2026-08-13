@@ -1,0 +1,8 @@
+A. Tokenomics in Agentic Software Engineering — VERY close
+	https://arxiv.org/abs/2601.14470?utm_source=chatgpt.com
+B. How AI Agents Spend Your Money — VERY relevant
+	https://arxiv.org/abs/2604.22750?utm_source=chatgpt.com
+C. Token Economics for LLM Agents — VERY close conceptuallymeasurement + governance framework.
+	https://arxiv.org/abs/2605.09104?utm_source=chatgpt.com
+D. AI ROI framework — another very close paper	
+	https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6732598&utm_source=chatgpt.com

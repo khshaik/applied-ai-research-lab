@@ -1,0 +1,21 @@
+{
+  "status": "POST_REVISION_CONSTRUCT_RECHECK_LOCK",
+  "human_validation": false,
+  "artifacts": [
+    {
+      "relative_path": "review/reviewer_a_synthetic_recheck_v1.1.json",
+      "sha256": "40b96aa1bd218cef72ada4f775caa49b51b57c9d793188ede26a885cd81a9c37",
+      "bytes": 25451
+    },
+    {
+      "relative_path": "review/reviewer_b_synthetic_recheck_v1.1.json",
+      "sha256": "97553972114428f9d17376fb3d65031fb3a0c24d561bd424c6d6a49dd4dab89e",
+      "bytes": 26018
+    },
+    {
+      "relative_path": "review/consolidated_v1.1/construct_recheck_metrics_v1.1.json",
+      "sha256": "8a3a51bed1c98a9be8dcf149fae50b7c6adb2e51b5ca0a0ad6444dcd566b46b9",
+      "bytes": 11132
+    }
+  ]
+}

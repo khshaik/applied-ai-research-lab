@@ -1,0 +1,83 @@
+{
+  "manifest_version": "1.0",
+  "study": "OVAR constructed pilot",
+  "status": "ENGINEERING_DRY_RUN_CLOSURE",
+  "confirmatory": false,
+  "prospective": false,
+  "outcomes_observed_before_manifest": true,
+  "permissible_claim": "Implementation feasibility and constructed-case behavior only.",
+  "prohibited_claims": [
+    "prospective validation",
+    "organizational ROI improvement",
+    "field effectiveness",
+    "production readiness"
+  ],
+  "created_at": "2026-08-13T12:20:17.288Z",
+  "artifacts": [
+    {
+      "relative_path": "pilot/PILOT_PROTOCOL_v1.0.md",
+      "sha256": "d7817aded7a58ede7ca8f18332a08a48f79df9fdeff62b7248140af85ba8122e",
+      "bytes": 6765
+    },
+    {
+      "relative_path": "pilot/DATA_GOVERNANCE_AND_ADJUDICATION_v1.0.md",
+      "sha256": "0b6095c93b06f5ccf62566719b20e2f08b73b3efb35d076eb44e426501becb1e",
+      "bytes": 2539
+    },
+    {
+      "relative_path": "pilot/REVIEWER_INSTRUCTIONS_v1.0.md",
+      "sha256": "d1d0727a70d2f52bcb7773fa0dbf68657d9c8b32316ce0fe74a0ce3a7b144596",
+      "bytes": 1649
+    },
+    {
+      "relative_path": "pilot/schema/outcome_evidence_ledger_schema_v1.0.json",
+      "sha256": "c562d0347cbb74e8558644c9fd2eac9493ac1c12f43b0abd125c8d39e0ba044a",
+      "bytes": 3368
+    },
+    {
+      "relative_path": "pilot/schema/investigator_reference_schema_v1.0.json",
+      "sha256": "53f947dc78e69306504cf1c2863e66a250cbd5f3a456da60d7881a0ae89782a9",
+      "bytes": 1311
+    },
+    {
+      "relative_path": "pilot/schema/reviewer_response_schema_v1.0.json",
+      "sha256": "85daf12ccb71c0cd9a0c41f776674367ce834d6abfce9c6bc87b166666dd9201",
+      "bytes": 1312
+    },
+    {
+      "relative_path": "pilot/cases/candidate_v1.0/reviewer_visible_cases.json",
+      "sha256": "55db8aa7c1c23196b7c6d5c06cf909fa2129e606e596f811be07d39027e785a9",
+      "bytes": 34025
+    },
+    {
+      "relative_path": "pilot/restricted/investigator_reference_RESTRICTED_v1.0.json",
+      "sha256": "00ebd0653b34a3bc50c2124f252582e71732923a41cb7c18e32d2ebef328ae49",
+      "bytes": 11191
+    },
+    {
+      "relative_path": "pilot/implementation/ovar_pilot_v1.0.mjs",
+      "sha256": "4a994ee26b94cf6040886494257c61d071cbb9fa5041e0a9f2e0ff15963199f6",
+      "bytes": 5638
+    },
+    {
+      "relative_path": "pilot/implementation/run_pilot_v1.0.mjs",
+      "sha256": "0bc98a3641d888f555b22594a5cf793778a77e7b65ed41664dbf5ab75ab5994b",
+      "bytes": 5917
+    },
+    {
+      "relative_path": "pilot/tests/pilot_v1.0.test.mjs",
+      "sha256": "c07a7cdd5b674210c6dd95fc610dee2286fe3a163a116d9b99050a6b60167402",
+      "bytes": 3539
+    },
+    {
+      "relative_path": "pilot/results/pilot_v1.0/policy_decisions.json",
+      "sha256": "949511e356aa330024d0a9996907c832c07946a692214acf20d5b8f40c9434e5",
+      "bytes": 62057
+    },
+    {
+      "relative_path": "pilot/results/pilot_v1.0/pilot_metrics_pretest.json",
+      "sha256": "01d5178b5f2dcb2041babff06135635d649e3e1b5ed90982ab509ec206b23d8f",
+      "bytes": 7676
+    }
+  ]
+}

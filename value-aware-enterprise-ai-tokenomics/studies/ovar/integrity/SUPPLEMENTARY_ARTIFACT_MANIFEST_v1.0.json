@@ -1,0 +1,33 @@
+{
+  "manifest_version": "1.0",
+  "created_on": "2026-08-13",
+  "purpose": "Post-closure registration of presentation and review artifacts created or saved after the immutable calibration execution lock.",
+  "changes_frozen_results": false,
+  "held_out_created_or_accessed": false,
+  "artifacts": [
+    {
+      "relative_path": "pilot/review/OVAR_Pilot_Reviewer_Workbook_v1.1.xlsx",
+      "sha256": "511e974deccf00dc25e95f759e00cbff0923a021fd0158c6ae5e29105a507b24",
+      "bytes": 36035,
+      "role": "Reviewer-facing workbook derived from the completed pilot review package; not human validation and not calibration evidence."
+    },
+    {
+      "relative_path": "calibration/CALIBRATION_PRE_EXECUTION_LOCK_v1.2.json",
+      "sha256": "f9648e2305d996ea74e73c7bd4736eabc8744434e70bb906c328a6184c66d2f8",
+      "bytes": 3634,
+      "role": "Immutable pre-execution lock for the one-time calibration run."
+    },
+    {
+      "relative_path": "calibration/CALIBRATION_CLOSURE_MANIFEST_v1.0.json",
+      "sha256": "dd563a2f4302115fcf6f58e1c2d437a8f60ae0195010035942832449d3b701f6",
+      "bytes": 1356,
+      "role": "Negative-gate calibration closure manifest."
+    },
+    {
+      "relative_path": "calibration/results/calibration_v1.0/calibration_gate.json",
+      "sha256": "afaa5f37df84a95744886f568c530cb7c502c354a3f1862d13c96e2207035a11",
+      "bytes": 11416,
+      "role": "Machine-readable registered metrics and gate outcome."
+    }
+  ]
+}

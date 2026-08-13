@@ -1,0 +1,211 @@
+{
+  "metadata": {
+    "review_type": "SYNTHETIC_AI_AI_POST_REVISION_CONSTRUCT_RECHECK",
+    "human_validation": false,
+    "version": "1.1",
+    "source_sha256": "8347910ebcfa3129f0e32ee9c268e418d4b3c290241a43f59113e700e821f9c1",
+    "reviewer_a_sha256": "40b96aa1bd218cef72ada4f775caa49b51b57c9d793188ede26a885cd81a9c37",
+    "reviewer_b_sha256": "97553972114428f9d17376fb3d65031fb3a0c24d561bd424c6d6a49dd4dab89e",
+    "ambiguity_rule": "Ambiguity is recorded but blocks only when a reviewer explicitly reports it as blocking; both reviewers returned PASS with no blocking IDs."
+  },
+  "metrics": {
+    "outcome_contract_clarity": {
+      "exact_agreement": 0.3958333333333333,
+      "within_one": 1,
+      "mean_absolute_difference": 0.6041666666666666,
+      "a_mean": 3.7291666666666665,
+      "b_mean": 4
+    },
+    "baseline_credibility": {
+      "exact_agreement": 0.9166666666666666,
+      "within_one": 1,
+      "mean_absolute_difference": 0.08333333333333333,
+      "a_mean": 4.020833333333333,
+      "b_mean": 4.104166666666667
+    },
+    "evidence_auditability": {
+      "exact_agreement": 0.3333333333333333,
+      "within_one": 1,
+      "mean_absolute_difference": 0.6666666666666666,
+      "a_mean": 3.4583333333333335,
+      "b_mean": 4.125
+    },
+    "cost_boundary_completeness": {
+      "exact_agreement": 0.8541666666666666,
+      "within_one": 1,
+      "mean_absolute_difference": 0.14583333333333334,
+      "a_mean": 4.854166666666667,
+      "b_mean": 5
+    },
+    "attribution_defensibility": {
+      "exact_agreement": 0.8125,
+      "within_one": 1,
+      "mean_absolute_difference": 0.1875,
+      "a_mean": 3.5625,
+      "b_mean": 3.7083333333333335
+    },
+    "decision_realism": {
+      "exact_agreement": 0.8958333333333334,
+      "within_one": 1,
+      "mean_absolute_difference": 0.10416666666666667,
+      "a_mean": 4,
+      "b_mean": 3.8958333333333335
+    }
+  },
+  "flags": {
+    "a_leakage": 0,
+    "b_leakage": 0,
+    "a_ambiguity": 43,
+    "b_ambiguity": 24,
+    "joint_nonblocking_ambiguity": 24,
+    "blocking_cases": 0
+  },
+  "blocking": [],
+  "ambiguity_register": [
+    {
+      "case_id": "OC-R001",
+      "status": "INTENDED_OR_CASE_SPECIFIC_NONBLOCKING_AMBIGUITY",
+      "reviewer_a_note": "The required concurrent comparator is absent, and a respiratory surge plus a new observation unit coincide with launch.",
+      "reviewer_b_note": "No concurrent department separates deployment from the respiratory surge and new observation unit."
+    },
+    {
+      "case_id": "OC-R002",
+      "status": "INTENDED_OR_CASE_SPECIFIC_NONBLOCKING_AMBIGUITY",
+      "reviewer_a_note": "A scanner upgrade overlaps the post period, and debugging and rollback labor still require ticket reconstruction.",
+      "reviewer_b_note": "Debugging and rollback labor require ticket reconstruction, and a scanner upgrade overlaps the post period."
+    },
+    {
+      "case_id": "OC-R003",
+      "status": "INTENDED_OR_CASE_SPECIFIC_NONBLOCKING_AMBIGUITY",
+      "reviewer_a_note": "A portal naming change and 18% uncoded applicant contacts impair subgroup and rework interpretation.",
+      "reviewer_b_note": "A portal naming change and missing reason codes for 18% of contacts weaken reproduction and separation."
+    },
+    {
+      "case_id": "OC-R005",
+      "status": "INTENDED_OR_CASE_SPECIFIC_NONBLOCKING_AMBIGUITY",
+      "reviewer_a_note": "Thirty-seven percent of accounts are not mature, webinar exposure is uneven, and numeric outcome acceptance limits are absent.",
+      "reviewer_b_note": "Thirty-seven percent of accounts have not matured to renewal and webinar exposure differs between arms."
+    },
+    {
+      "case_id": "OC-R007",
+      "status": "INTENDED_OR_CASE_SPECIFIC_NONBLOCKING_AMBIGUITY",
+      "reviewer_a_note": "A dispute-policy update overlaps the series, and incident and reconciliation labor is reconstructed from tickets.",
+      "reviewer_b_note": "Overnight incident response and temporary reconciliation labor require ticket reconstruction; a policy update overlaps the series."
+    },
+    {
+      "case_id": "OC-R010",
+      "status": "INTENDED_OR_CASE_SPECIFIC_NONBLOCKING_AMBIGUITY",
+      "reviewer_a_note": "Forty-one percent of tractors are immature, a fleet-wide campaign changes maintenance, and numeric outcome boundaries are absent.",
+      "reviewer_b_note": "Forty-one percent of tractors are immature and a fleet-wide coolant campaign changes maintenance activity."
+    },
+    {
+      "case_id": "OC-R014",
+      "status": "INTENDED_OR_CASE_SPECIFIC_NONBLOCKING_AMBIGUITY",
+      "reviewer_a_note": "Coaching, external training, and role changes are incompletely observed over the delayed outcome window.",
+      "reviewer_b_note": "Informal coaching, outside training, and role changes are incompletely observed over eight months."
+    },
+    {
+      "case_id": "OC-R015",
+      "status": "INTENDED_OR_CASE_SPECIFIC_NONBLOCKING_AMBIGUITY",
+      "reviewer_a_note": "Thirty-two percent have not matured, loyalty exposure is uneven, and no numeric margin boundary is stated.",
+      "reviewer_b_note": "Thirty-two percent of the cohort is not fully mature and loyalty offers reached arms unevenly."
+    },
+    {
+      "case_id": "OC-R016",
+      "status": "INTENDED_OR_CASE_SPECIFIC_NONBLOCKING_AMBIGUITY",
+      "reviewer_a_note": "Only nine of twelve launch pairs are complete and lost sales vary materially with the substitution-rate assumption.",
+      "reviewer_b_note": "Only nine of twelve matched pairs are complete and lost sales vary materially with substitution assumptions."
+    },
+    {
+      "case_id": "OC-R017",
+      "status": "INTENDED_OR_CASE_SPECIFIC_NONBLOCKING_AMBIGUITY",
+      "reviewer_a_note": "No concurrent team exists, and a logging upgrade independently reduced telemetry retrieval work.",
+      "reviewer_b_note": "No concurrent team separates deployment from the telemetry-retrieval improvement."
+    },
+    {
+      "case_id": "OC-R018",
+      "status": "INTENDED_OR_CASE_SPECIFIC_NONBLOCKING_AMBIGUITY",
+      "reviewer_a_note": "No comparable desk exists and quarter-end process and template changes coincide with launch.",
+      "reviewer_b_note": "Quarter-end process simplification coincides with launch and no comparable desk retained the prior workflow."
+    },
+    {
+      "case_id": "OC-R019",
+      "status": "INTENDED_OR_CASE_SPECIFIC_NONBLOCKING_AMBIGUITY",
+      "reviewer_a_note": "Legacy image-retention cost for two docks is allocated from storage volume rather than billing tags.",
+      "reviewer_b_note": "Legacy image-retention cost for two docks uses storage-volume allocation after mid-study tagging."
+    },
+    {
+      "case_id": "OC-R020",
+      "status": "INTENDED_OR_CASE_SPECIFIC_NONBLOCKING_AMBIGUITY",
+      "reviewer_a_note": "Early supervisor-review time is reconstructed from schedule blocks rather than item-level logs.",
+      "reviewer_b_note": "Early supervisor review time is reconstructed from schedule blocks rather than item logs."
+    },
+    {
+      "case_id": "OC-R023",
+      "status": "INTENDED_OR_CASE_SPECIFIC_NONBLOCKING_AMBIGUITY",
+      "reviewer_a_note": "No comparator exists amid simultaneous pricing and inventory-policy changes; numeric outcome acceptance limits are absent.",
+      "reviewer_b_note": "No holdout or matched channel separates launch from pricing and inventory-policy changes."
+    },
+    {
+      "case_id": "OC-R024",
+      "status": "INTENDED_OR_CASE_SPECIFIC_NONBLOCKING_AMBIGUITY",
+      "reviewer_a_note": "Staffing and compensation guidance changed at launch with no unchanged queue; numeric acceptance limits are absent.",
+      "reviewer_b_note": "Staffing and compensation guidance changed at launch and no unchanged queue exists."
+    },
+    {
+      "case_id": "OC-R028",
+      "status": "INTENDED_OR_CASE_SPECIFIC_NONBLOCKING_AMBIGUITY",
+      "reviewer_a_note": "A late operating-hours change has only ten post-change nights, and performance acceptance limits are not numeric.",
+      "reviewer_b_note": "A terminal-hours change has only ten post-change nights for separate estimation."
+    },
+    {
+      "case_id": "OC-R029",
+      "status": "INTENDED_OR_CASE_SPECIFIC_NONBLOCKING_AMBIGUITY",
+      "reviewer_a_note": "Scanner replacement overlaps launch and support labor plus vendor credits require reconciliation.",
+      "reviewer_b_note": "On-call labor and vendor credits require reconstruction, and scanner replacement overlaps deployment."
+    },
+    {
+      "case_id": "OC-R031",
+      "status": "INTENDED_OR_CASE_SPECIFIC_NONBLOCKING_AMBIGUITY",
+      "reviewer_a_note": "Medication, community-program contact, and clinician counseling co-interventions are recorded inconsistently.",
+      "reviewer_b_note": "Medication, counseling, and community-program exposures are inconsistently recorded across practices."
+    },
+    {
+      "case_id": "OC-R034",
+      "status": "INTENDED_OR_CASE_SPECIFIC_NONBLOCKING_AMBIGUITY",
+      "reviewer_a_note": "A mid-study script change and 13% missing post-launch reason codes affect the estimated series break.",
+      "reviewer_b_note": "A script changed in week four and cancellation reasons are missing for 13% of post-launch cases."
+    },
+    {
+      "case_id": "OC-R035",
+      "status": "INTENDED_OR_CASE_SPECIFIC_NONBLOCKING_AMBIGUITY",
+      "reviewer_a_note": "External assistance and refinancing are inconsistently observed over the six-month outcome window.",
+      "reviewer_b_note": "External economic assistance and refinancing are incompletely observed over the six-month recovery period."
+    },
+    {
+      "case_id": "OC-R036",
+      "status": "INTENDED_OR_CASE_SPECIFIC_NONBLOCKING_AMBIGUITY",
+      "reviewer_a_note": "The prior period differs in vessel schedule, labor availability, and forecast process; numeric outcome boundaries are absent.",
+      "reviewer_b_note": "A labor slowdown, vessel cancellations, and forecast revision coincide with the uncontrolled period."
+    },
+    {
+      "case_id": "OC-R038",
+      "status": "INTENDED_OR_CASE_SPECIFIC_NONBLOCKING_AMBIGUITY",
+      "reviewer_a_note": "Support labor is reconstructed from calendars and a seller-cleanup campaign overlaps the post period.",
+      "reviewer_b_note": "Four weeks of shared support labor use calendar reconstruction and a cleanup campaign overlaps three post weeks."
+    },
+    {
+      "case_id": "OC-R046",
+      "status": "INTENDED_OR_CASE_SPECIFIC_NONBLOCKING_AMBIGUITY",
+      "reviewer_a_note": "Two incident weekends lie outside pre-period support, overtime accounting has two treatments, and numeric performance limits are absent.",
+      "reviewer_b_note": "Two incidents lie outside pre-period support and standby-payment treatment changes overtime value."
+    },
+    {
+      "case_id": "OC-R047",
+      "status": "INTENDED_OR_CASE_SPECIFIC_NONBLOCKING_AMBIGUITY",
+      "reviewer_a_note": "Template changes and unreliable section boundaries for 11% of low-quality scans affect time and gap detection.",
+      "reviewer_b_note": "Template changes and unreliable section boundaries affect 11% of low-quality scans."
+    }
+  ],
+  "recommendation": "PASS_TO_REFERENCE_ADJUDICATION"
+}

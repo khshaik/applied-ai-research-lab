@@ -1,0 +1,1931 @@
+{
+  "metadata": {
+    "study": "OVAR constructed pilot",
+    "version": "1.0",
+    "confirmatory": false,
+    "case_count": 24,
+    "executed_at": "2026-08-13T12:19:09.766Z"
+  },
+  "decisions": [
+    {
+      "policy": "USAGE_ONLY",
+      "policy_version": "1.0",
+      "case_id": "OV-P01",
+      "input_hash": "d636bfd215e6bdfea0a1aa70c5ffa49b86fa24164aaf0e3b0a301fe076268745",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "high utilization within budget"
+      ],
+      "measurement_cost": 0.05,
+      "domain": "HEALTHCARE",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "SCALE",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "SELF_REPORTED_VALUE",
+      "policy_version": "1.0",
+      "case_id": "OV-P01",
+      "input_hash": "0a822fca727825f7d862b941ab5eba3d50e6c9f4ed4436ac47ffb9ca86190414",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "reported benefit exceeds provider cost by scale margin"
+      ],
+      "measurement_cost": 0.1,
+      "domain": "HEALTHCARE",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "SCALE",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "COST_QUALITY",
+      "policy_version": "1.0",
+      "case_id": "OV-P01",
+      "input_hash": "cb774e1e1b3d9c24d45ca0b391f3abbd455c11f0a75a455534d24063fdcc215e",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "high technical quality within direct-cost budget"
+      ],
+      "measurement_cost": 0.2,
+      "domain": "HEALTHCARE",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "SCALE",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "OUTCOME_FLAT",
+      "policy_version": "1.0",
+      "case_id": "OV-P01",
+      "input_hash": "f5be44d112de58fec64093b3d21be820ba748bfa26bc984125d425511c32de46",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "lower net-value bound above zero"
+      ],
+      "measurement_cost": 0.65,
+      "domain": "HEALTHCARE",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "SCALE",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "OVAR_LEDGER",
+      "policy_version": "1.0",
+      "case_id": "OV-P01",
+      "input_hash": "f1c458e14cb1203d28599e6090362f88daad5e39cabc7d44fe18bfa5421693e9",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "lower net-value bound above zero"
+      ],
+      "measurement_cost": 0.8,
+      "domain": "HEALTHCARE",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "SCALE",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "USAGE_ONLY",
+      "policy_version": "1.0",
+      "case_id": "OV-P02",
+      "input_hash": "3ba01c2e633e419b53befe91185185bb3de1ca3e64665d4835c1d2c49c3f08e7",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "high utilization within budget"
+      ],
+      "measurement_cost": 0.05,
+      "domain": "HEALTHCARE",
+      "reference_roi_state": "NEUTRAL",
+      "reference_action": "REVISE",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "SELF_REPORTED_VALUE",
+      "policy_version": "1.0",
+      "case_id": "OV-P02",
+      "input_hash": "a9d32332d08cdcfe64be7236608bcfab6f55f43a10e32fe4d47760bdd6003592",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "reported benefit exceeds provider cost by scale margin"
+      ],
+      "measurement_cost": 0.1,
+      "domain": "HEALTHCARE",
+      "reference_roi_state": "NEUTRAL",
+      "reference_action": "REVISE",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "COST_QUALITY",
+      "policy_version": "1.0",
+      "case_id": "OV-P02",
+      "input_hash": "e92eabbe62d84df11c7971da9c2bd4ae39a2db6cc26db80be4bc21b161bd35cf",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "high technical quality within direct-cost budget"
+      ],
+      "measurement_cost": 0.2,
+      "domain": "HEALTHCARE",
+      "reference_roi_state": "NEUTRAL",
+      "reference_action": "REVISE",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "OUTCOME_FLAT",
+      "policy_version": "1.0",
+      "case_id": "OV-P02",
+      "input_hash": "acf8f40c0e64b1b58cfb0b393e42cdbda91a975fe018fe702a73d9ad09d7604a",
+      "roi_state": "NEUTRAL",
+      "action": "REVISE",
+      "reasons": [
+        "net-value interval crosses zero"
+      ],
+      "measurement_cost": 0.65,
+      "domain": "HEALTHCARE",
+      "reference_roi_state": "NEUTRAL",
+      "reference_action": "REVISE",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "OVAR_LEDGER",
+      "policy_version": "1.0",
+      "case_id": "OV-P02",
+      "input_hash": "f43f0d306c7a6ba240dd62fc400fcd841a80235c17806ec75400b6aca0d0096a",
+      "roi_state": "NEUTRAL",
+      "action": "REVISE",
+      "reasons": [
+        "net-value interval crosses zero"
+      ],
+      "measurement_cost": 0.8,
+      "domain": "HEALTHCARE",
+      "reference_roi_state": "NEUTRAL",
+      "reference_action": "REVISE",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "USAGE_ONLY",
+      "policy_version": "1.0",
+      "case_id": "OV-P03",
+      "input_hash": "5331c013cdd88f9b3785b4e1c9fc1364f147d9aa25b897a1b07d8e6100950c9a",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "high utilization within budget"
+      ],
+      "measurement_cost": 0.05,
+      "domain": "HEALTHCARE",
+      "reference_roi_state": "NEGATIVE",
+      "reference_action": "STOP",
+      "reference_compliance_pass": false
+    },
+    {
+      "policy": "SELF_REPORTED_VALUE",
+      "policy_version": "1.0",
+      "case_id": "OV-P03",
+      "input_hash": "7cf9ca0ace16c2e0a3470ae516c2ed19d83b79c9c8972803f3e1ee7f2090e3fb",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "reported benefit exceeds provider cost by scale margin"
+      ],
+      "measurement_cost": 0.1,
+      "domain": "HEALTHCARE",
+      "reference_roi_state": "NEGATIVE",
+      "reference_action": "STOP",
+      "reference_compliance_pass": false
+    },
+    {
+      "policy": "COST_QUALITY",
+      "policy_version": "1.0",
+      "case_id": "OV-P03",
+      "input_hash": "5fa1021eea433474a68e6b92e2a998c95681115a26fad4ae67c0cf38afdee513",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "high technical quality within direct-cost budget"
+      ],
+      "measurement_cost": 0.2,
+      "domain": "HEALTHCARE",
+      "reference_roi_state": "NEGATIVE",
+      "reference_action": "STOP",
+      "reference_compliance_pass": false
+    },
+    {
+      "policy": "OUTCOME_FLAT",
+      "policy_version": "1.0",
+      "case_id": "OV-P03",
+      "input_hash": "d4374408ceaa61d93baba3877ea5ba2d82f0f768bc4fd071b335cf6d5a08cce7",
+      "roi_state": "NEUTRAL",
+      "action": "REVISE",
+      "reasons": [
+        "net-value interval crosses zero"
+      ],
+      "measurement_cost": 0.65,
+      "domain": "HEALTHCARE",
+      "reference_roi_state": "NEGATIVE",
+      "reference_action": "STOP",
+      "reference_compliance_pass": false
+    },
+    {
+      "policy": "OVAR_LEDGER",
+      "policy_version": "1.0",
+      "case_id": "OV-P03",
+      "input_hash": "10a8a01b4a52676ada3ec94c1380be0c323095807d338083ad6ff34ee2f0e443",
+      "roi_state": "NEGATIVE",
+      "action": "STOP",
+      "reasons": [
+        "mandatory compliance prohibition"
+      ],
+      "measurement_cost": 0.8,
+      "domain": "HEALTHCARE",
+      "reference_roi_state": "NEGATIVE",
+      "reference_action": "STOP",
+      "reference_compliance_pass": false
+    },
+    {
+      "policy": "USAGE_ONLY",
+      "policy_version": "1.0",
+      "case_id": "OV-P04",
+      "input_hash": "89c6e8be17af53e0d2398281b60ad826646c14e4532021ee64fbf76be9dcf12b",
+      "roi_state": "POSITIVE",
+      "action": "CONTINUE_PILOT",
+      "reasons": [
+        "moderate utilization within budget"
+      ],
+      "measurement_cost": 0.05,
+      "domain": "HEALTHCARE",
+      "reference_roi_state": "INDETERMINATE",
+      "reference_action": "INDETERMINATE",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "SELF_REPORTED_VALUE",
+      "policy_version": "1.0",
+      "case_id": "OV-P04",
+      "input_hash": "59da661e9d968383518695e1fae0bd112f2b51b2043b80407530738f9e6fc84f",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "reported benefit exceeds provider cost by scale margin"
+      ],
+      "measurement_cost": 0.1,
+      "domain": "HEALTHCARE",
+      "reference_roi_state": "INDETERMINATE",
+      "reference_action": "INDETERMINATE",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "COST_QUALITY",
+      "policy_version": "1.0",
+      "case_id": "OV-P04",
+      "input_hash": "d140cca83d544fc9df676baca4269dce6ad93d2983d03efb0051717a4b45c2fa",
+      "roi_state": "POSITIVE",
+      "action": "CONTINUE_PILOT",
+      "reasons": [
+        "acceptable technical quality"
+      ],
+      "measurement_cost": 0.2,
+      "domain": "HEALTHCARE",
+      "reference_roi_state": "INDETERMINATE",
+      "reference_action": "INDETERMINATE",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "OUTCOME_FLAT",
+      "policy_version": "1.0",
+      "case_id": "OV-P04",
+      "input_hash": "62b2c9afa393e3c3b6a1695ba5cfd7bc762b054c6995744f2735806a97af394f",
+      "roi_state": "INDETERMINATE",
+      "action": "INDETERMINATE",
+      "reasons": [
+        "mandatory outcome evidence, baseline, or attribution requirement not met"
+      ],
+      "measurement_cost": 0.65,
+      "domain": "HEALTHCARE",
+      "reference_roi_state": "INDETERMINATE",
+      "reference_action": "INDETERMINATE",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "OVAR_LEDGER",
+      "policy_version": "1.0",
+      "case_id": "OV-P04",
+      "input_hash": "c445c5d5168137735285c736f3735c7b43ecc16088df9240389d81914878f758",
+      "roi_state": "INDETERMINATE",
+      "action": "INDETERMINATE",
+      "reasons": [
+        "mandatory outcome evidence, baseline, or attribution requirement not met"
+      ],
+      "measurement_cost": 0.8,
+      "domain": "HEALTHCARE",
+      "reference_roi_state": "INDETERMINATE",
+      "reference_action": "INDETERMINATE",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "USAGE_ONLY",
+      "policy_version": "1.0",
+      "case_id": "OV-P05",
+      "input_hash": "67c2f7a69ca2d31711e897ec7aadf8f18f59f13e1cb5435948378db4bb1ac2b0",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "high utilization within budget"
+      ],
+      "measurement_cost": 0.05,
+      "domain": "FINANCIAL_SERVICES",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "SCALE",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "SELF_REPORTED_VALUE",
+      "policy_version": "1.0",
+      "case_id": "OV-P05",
+      "input_hash": "1fb24ea017e574f5a095a84d5f2a4796d10be6344f54cb535bfab370271c9340",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "reported benefit exceeds provider cost by scale margin"
+      ],
+      "measurement_cost": 0.1,
+      "domain": "FINANCIAL_SERVICES",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "SCALE",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "COST_QUALITY",
+      "policy_version": "1.0",
+      "case_id": "OV-P05",
+      "input_hash": "f71b51af08771ec980a007e9dbb6b0a91fffb20219725d6dc4025b40382eba1a",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "high technical quality within direct-cost budget"
+      ],
+      "measurement_cost": 0.2,
+      "domain": "FINANCIAL_SERVICES",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "SCALE",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "OUTCOME_FLAT",
+      "policy_version": "1.0",
+      "case_id": "OV-P05",
+      "input_hash": "a7890a8c7bddd697b3565cc4e4922891e77e82fab0720c78fec1aff966b00443",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "lower net-value bound above zero"
+      ],
+      "measurement_cost": 0.65,
+      "domain": "FINANCIAL_SERVICES",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "SCALE",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "OVAR_LEDGER",
+      "policy_version": "1.0",
+      "case_id": "OV-P05",
+      "input_hash": "b441be1aa1e107d466be8dbd1d9d70cf9851dc1a9b19b751ac41e183eec13e50",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "lower net-value bound above zero"
+      ],
+      "measurement_cost": 0.8,
+      "domain": "FINANCIAL_SERVICES",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "SCALE",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "USAGE_ONLY",
+      "policy_version": "1.0",
+      "case_id": "OV-P06",
+      "input_hash": "30e59b5d486075bd1b268328a219be831dc98fece16b17227d89f1f1e600674a",
+      "roi_state": "POSITIVE",
+      "action": "CONTINUE_PILOT",
+      "reasons": [
+        "moderate utilization within budget"
+      ],
+      "measurement_cost": 0.05,
+      "domain": "FINANCIAL_SERVICES",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "CONTINUE_PILOT",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "SELF_REPORTED_VALUE",
+      "policy_version": "1.0",
+      "case_id": "OV-P06",
+      "input_hash": "4783085ed652ded1c87b9db5f52a01595a62f8d97ae3b89a75f490f1b35ffe4f",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "reported benefit exceeds provider cost by scale margin"
+      ],
+      "measurement_cost": 0.1,
+      "domain": "FINANCIAL_SERVICES",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "CONTINUE_PILOT",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "COST_QUALITY",
+      "policy_version": "1.0",
+      "case_id": "OV-P06",
+      "input_hash": "79221ea26ab2e90fe14552250ad14d8c1307fae8f36073b008375458097f0c38",
+      "roi_state": "POSITIVE",
+      "action": "CONTINUE_PILOT",
+      "reasons": [
+        "acceptable technical quality"
+      ],
+      "measurement_cost": 0.2,
+      "domain": "FINANCIAL_SERVICES",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "CONTINUE_PILOT",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "OUTCOME_FLAT",
+      "policy_version": "1.0",
+      "case_id": "OV-P06",
+      "input_hash": "560e0753e6f5b42f5af5272e2e75d04f486c1aa4c9f5d79d919499a7fe01ca7d",
+      "roi_state": "NEUTRAL",
+      "action": "REVISE",
+      "reasons": [
+        "net-value interval crosses zero"
+      ],
+      "measurement_cost": 0.65,
+      "domain": "FINANCIAL_SERVICES",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "CONTINUE_PILOT",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "OVAR_LEDGER",
+      "policy_version": "1.0",
+      "case_id": "OV-P06",
+      "input_hash": "6aebc5756044cda89deecf210e111158b6ec5e5ae4b0353e92fbc3c09416b7be",
+      "roi_state": "NEUTRAL",
+      "action": "REVISE",
+      "reasons": [
+        "net-value interval crosses zero"
+      ],
+      "measurement_cost": 0.8,
+      "domain": "FINANCIAL_SERVICES",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "CONTINUE_PILOT",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "USAGE_ONLY",
+      "policy_version": "1.0",
+      "case_id": "OV-P07",
+      "input_hash": "58bd749da2dce197f9121e06344b5ea5b0ae36bac01ba6edc80693f278ddc964",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "high utilization within budget"
+      ],
+      "measurement_cost": 0.05,
+      "domain": "FINANCIAL_SERVICES",
+      "reference_roi_state": "NEGATIVE",
+      "reference_action": "STOP",
+      "reference_compliance_pass": false
+    },
+    {
+      "policy": "SELF_REPORTED_VALUE",
+      "policy_version": "1.0",
+      "case_id": "OV-P07",
+      "input_hash": "a04484ee5e182b8b8b29758f0b333158584c527447d9f051991da0692eec9232",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "reported benefit exceeds provider cost by scale margin"
+      ],
+      "measurement_cost": 0.1,
+      "domain": "FINANCIAL_SERVICES",
+      "reference_roi_state": "NEGATIVE",
+      "reference_action": "STOP",
+      "reference_compliance_pass": false
+    },
+    {
+      "policy": "COST_QUALITY",
+      "policy_version": "1.0",
+      "case_id": "OV-P07",
+      "input_hash": "26ea0c19fefb3a6020dca91db6a72524189cb952464df6670c9592ae48c1b370",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "high technical quality within direct-cost budget"
+      ],
+      "measurement_cost": 0.2,
+      "domain": "FINANCIAL_SERVICES",
+      "reference_roi_state": "NEGATIVE",
+      "reference_action": "STOP",
+      "reference_compliance_pass": false
+    },
+    {
+      "policy": "OUTCOME_FLAT",
+      "policy_version": "1.0",
+      "case_id": "OV-P07",
+      "input_hash": "735b0dbeeb89dfd19e4aba316cb39381678f6819dbf5e6a6c5c864c61e49b9cc",
+      "roi_state": "INDETERMINATE",
+      "action": "INDETERMINATE",
+      "reasons": [
+        "mandatory outcome evidence, baseline, or attribution requirement not met"
+      ],
+      "measurement_cost": 0.65,
+      "domain": "FINANCIAL_SERVICES",
+      "reference_roi_state": "NEGATIVE",
+      "reference_action": "STOP",
+      "reference_compliance_pass": false
+    },
+    {
+      "policy": "OVAR_LEDGER",
+      "policy_version": "1.0",
+      "case_id": "OV-P07",
+      "input_hash": "e4f89bb9cfae91830a4b2660e89e61861a2884be1ff3bf9b206185eb58e9e785",
+      "roi_state": "NEGATIVE",
+      "action": "STOP",
+      "reasons": [
+        "mandatory compliance prohibition"
+      ],
+      "measurement_cost": 0.8,
+      "domain": "FINANCIAL_SERVICES",
+      "reference_roi_state": "NEGATIVE",
+      "reference_action": "STOP",
+      "reference_compliance_pass": false
+    },
+    {
+      "policy": "USAGE_ONLY",
+      "policy_version": "1.0",
+      "case_id": "OV-P08",
+      "input_hash": "ffdaae95e11f8e6cf1a6327d31f5c39f93efa83900acd2675c9575a6283d3e32",
+      "roi_state": "POSITIVE",
+      "action": "CONTINUE_PILOT",
+      "reasons": [
+        "moderate utilization within budget"
+      ],
+      "measurement_cost": 0.05,
+      "domain": "FINANCIAL_SERVICES",
+      "reference_roi_state": "NEUTRAL",
+      "reference_action": "REVISE",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "SELF_REPORTED_VALUE",
+      "policy_version": "1.0",
+      "case_id": "OV-P08",
+      "input_hash": "ac6cc6b3ed30eeb80a286b68a3c8a1457593c60fd584f066119d67a2106ea18b",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "reported benefit exceeds provider cost by scale margin"
+      ],
+      "measurement_cost": 0.1,
+      "domain": "FINANCIAL_SERVICES",
+      "reference_roi_state": "NEUTRAL",
+      "reference_action": "REVISE",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "COST_QUALITY",
+      "policy_version": "1.0",
+      "case_id": "OV-P08",
+      "input_hash": "9b0c177d6d5340dd8075aeedffb47736a6ced913ea0f8e79b818b7c9baebced2",
+      "roi_state": "POSITIVE",
+      "action": "CONTINUE_PILOT",
+      "reasons": [
+        "acceptable technical quality"
+      ],
+      "measurement_cost": 0.2,
+      "domain": "FINANCIAL_SERVICES",
+      "reference_roi_state": "NEUTRAL",
+      "reference_action": "REVISE",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "OUTCOME_FLAT",
+      "policy_version": "1.0",
+      "case_id": "OV-P08",
+      "input_hash": "ed3ba4c9ee838909e7c76ca06ea203377c5e377d4a889ad4704a2ec8e9c326cd",
+      "roi_state": "INDETERMINATE",
+      "action": "INDETERMINATE",
+      "reasons": [
+        "mandatory outcome evidence, baseline, or attribution requirement not met"
+      ],
+      "measurement_cost": 0.65,
+      "domain": "FINANCIAL_SERVICES",
+      "reference_roi_state": "NEUTRAL",
+      "reference_action": "REVISE",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "OVAR_LEDGER",
+      "policy_version": "1.0",
+      "case_id": "OV-P08",
+      "input_hash": "b3e52b1e5a914112641ecdb084858be7ba0efd49a79f1b6ab3b2e92b08efa5a2",
+      "roi_state": "INDETERMINATE",
+      "action": "INDETERMINATE",
+      "reasons": [
+        "mandatory outcome evidence, baseline, or attribution requirement not met"
+      ],
+      "measurement_cost": 0.8,
+      "domain": "FINANCIAL_SERVICES",
+      "reference_roi_state": "NEUTRAL",
+      "reference_action": "REVISE",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "USAGE_ONLY",
+      "policy_version": "1.0",
+      "case_id": "OV-P09",
+      "input_hash": "28756f78725244db65d6fddbadee9717d0a90ab658c2476af321eea54df54416",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "high utilization within budget"
+      ],
+      "measurement_cost": 0.05,
+      "domain": "ECOMMERCE",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "SCALE",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "SELF_REPORTED_VALUE",
+      "policy_version": "1.0",
+      "case_id": "OV-P09",
+      "input_hash": "e2a66899972e94d149cb62a5a5b5a222f9b031810822ee1f8e3ce8264b77f674",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "reported benefit exceeds provider cost by scale margin"
+      ],
+      "measurement_cost": 0.1,
+      "domain": "ECOMMERCE",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "SCALE",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "COST_QUALITY",
+      "policy_version": "1.0",
+      "case_id": "OV-P09",
+      "input_hash": "9f7395b749fcb9a1cc559d6369878bce5b71092efb5ed5e8a4ee6a0fe9fdede6",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "high technical quality within direct-cost budget"
+      ],
+      "measurement_cost": 0.2,
+      "domain": "ECOMMERCE",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "SCALE",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "OUTCOME_FLAT",
+      "policy_version": "1.0",
+      "case_id": "OV-P09",
+      "input_hash": "92f314acda634e3349f92c92e0466bb5b7b7347e9b6b96ac552e416595af3e97",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "lower net-value bound above zero"
+      ],
+      "measurement_cost": 0.65,
+      "domain": "ECOMMERCE",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "SCALE",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "OVAR_LEDGER",
+      "policy_version": "1.0",
+      "case_id": "OV-P09",
+      "input_hash": "95033da0d3b4b5de437931f07373b02ecf9e59110a29d510aa997640298e82d3",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "lower net-value bound above zero"
+      ],
+      "measurement_cost": 0.8,
+      "domain": "ECOMMERCE",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "SCALE",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "USAGE_ONLY",
+      "policy_version": "1.0",
+      "case_id": "OV-P10",
+      "input_hash": "55150e3dd812f6621cf719d002027d36533486a90386e7ed924f6a525644f412",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "high utilization within budget"
+      ],
+      "measurement_cost": 0.05,
+      "domain": "ECOMMERCE",
+      "reference_roi_state": "NEUTRAL",
+      "reference_action": "REVISE",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "SELF_REPORTED_VALUE",
+      "policy_version": "1.0",
+      "case_id": "OV-P10",
+      "input_hash": "c51de514ddd180930b394001f9bd1696457b1c0e1cb7d05d121147292444702f",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "reported benefit exceeds provider cost by scale margin"
+      ],
+      "measurement_cost": 0.1,
+      "domain": "ECOMMERCE",
+      "reference_roi_state": "NEUTRAL",
+      "reference_action": "REVISE",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "COST_QUALITY",
+      "policy_version": "1.0",
+      "case_id": "OV-P10",
+      "input_hash": "41a61635856f54e66a2d2b3e5a0ead3a028479d9699723dc0ff3c4c20b441402",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "high technical quality within direct-cost budget"
+      ],
+      "measurement_cost": 0.2,
+      "domain": "ECOMMERCE",
+      "reference_roi_state": "NEUTRAL",
+      "reference_action": "REVISE",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "OUTCOME_FLAT",
+      "policy_version": "1.0",
+      "case_id": "OV-P10",
+      "input_hash": "a48ab29125d0571a7be97eba1fff1d25fc27d5c4524db9a6536338b568b4395c",
+      "roi_state": "NEUTRAL",
+      "action": "REVISE",
+      "reasons": [
+        "net-value interval crosses zero"
+      ],
+      "measurement_cost": 0.65,
+      "domain": "ECOMMERCE",
+      "reference_roi_state": "NEUTRAL",
+      "reference_action": "REVISE",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "OVAR_LEDGER",
+      "policy_version": "1.0",
+      "case_id": "OV-P10",
+      "input_hash": "611f4f3fac072f5777101aecbe35ad875df24d47c0b4ce8b1f70f5a21f1aad04",
+      "roi_state": "NEUTRAL",
+      "action": "REVISE",
+      "reasons": [
+        "net-value interval crosses zero"
+      ],
+      "measurement_cost": 0.8,
+      "domain": "ECOMMERCE",
+      "reference_roi_state": "NEUTRAL",
+      "reference_action": "REVISE",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "USAGE_ONLY",
+      "policy_version": "1.0",
+      "case_id": "OV-P11",
+      "input_hash": "8aca835122424ba495bda5c8dcb99038370fe09553e2415bf47f546671b7d581",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "high utilization within budget"
+      ],
+      "measurement_cost": 0.05,
+      "domain": "ECOMMERCE",
+      "reference_roi_state": "NEGATIVE",
+      "reference_action": "STOP",
+      "reference_compliance_pass": false
+    },
+    {
+      "policy": "SELF_REPORTED_VALUE",
+      "policy_version": "1.0",
+      "case_id": "OV-P11",
+      "input_hash": "01605cfcfa0db17e9baa72f5916faba32a384ae7cbff9464a15c044d1aaaf6ae",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "reported benefit exceeds provider cost by scale margin"
+      ],
+      "measurement_cost": 0.1,
+      "domain": "ECOMMERCE",
+      "reference_roi_state": "NEGATIVE",
+      "reference_action": "STOP",
+      "reference_compliance_pass": false
+    },
+    {
+      "policy": "COST_QUALITY",
+      "policy_version": "1.0",
+      "case_id": "OV-P11",
+      "input_hash": "7a5ded32bb66f8c5e690f0356158225768ffc8a790372b8b4a04d04866bb736e",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "high technical quality within direct-cost budget"
+      ],
+      "measurement_cost": 0.2,
+      "domain": "ECOMMERCE",
+      "reference_roi_state": "NEGATIVE",
+      "reference_action": "STOP",
+      "reference_compliance_pass": false
+    },
+    {
+      "policy": "OUTCOME_FLAT",
+      "policy_version": "1.0",
+      "case_id": "OV-P11",
+      "input_hash": "718bba0a01446c04be3c885f0c9e7f144e5f6a4738c5bf6cdc596d6aadc812fa",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "lower net-value bound above zero"
+      ],
+      "measurement_cost": 0.65,
+      "domain": "ECOMMERCE",
+      "reference_roi_state": "NEGATIVE",
+      "reference_action": "STOP",
+      "reference_compliance_pass": false
+    },
+    {
+      "policy": "OVAR_LEDGER",
+      "policy_version": "1.0",
+      "case_id": "OV-P11",
+      "input_hash": "3e896ec487939b81acb32ec0b230cef49d607c4d1bb7a7b3795bd55bbcc2ea56",
+      "roi_state": "NEGATIVE",
+      "action": "STOP",
+      "reasons": [
+        "mandatory compliance prohibition"
+      ],
+      "measurement_cost": 0.8,
+      "domain": "ECOMMERCE",
+      "reference_roi_state": "NEGATIVE",
+      "reference_action": "STOP",
+      "reference_compliance_pass": false
+    },
+    {
+      "policy": "USAGE_ONLY",
+      "policy_version": "1.0",
+      "case_id": "OV-P12",
+      "input_hash": "572630f5bd60fc6715dc169c03b3975e54fe81c85fc66596c0e48de2dac0b650",
+      "roi_state": "POSITIVE",
+      "action": "CONTINUE_PILOT",
+      "reasons": [
+        "moderate utilization within budget"
+      ],
+      "measurement_cost": 0.05,
+      "domain": "ECOMMERCE",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "CONTINUE_PILOT",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "SELF_REPORTED_VALUE",
+      "policy_version": "1.0",
+      "case_id": "OV-P12",
+      "input_hash": "a954ccbfef6d4e91e6b1b1805ee364762d3eebab5bc40454da674c4972855f38",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "reported benefit exceeds provider cost by scale margin"
+      ],
+      "measurement_cost": 0.1,
+      "domain": "ECOMMERCE",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "CONTINUE_PILOT",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "COST_QUALITY",
+      "policy_version": "1.0",
+      "case_id": "OV-P12",
+      "input_hash": "5c24007f2fd5e30123e7f811cf9570a8f2719b910d99221820e5cbe955a72b80",
+      "roi_state": "POSITIVE",
+      "action": "CONTINUE_PILOT",
+      "reasons": [
+        "acceptable technical quality"
+      ],
+      "measurement_cost": 0.2,
+      "domain": "ECOMMERCE",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "CONTINUE_PILOT",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "OUTCOME_FLAT",
+      "policy_version": "1.0",
+      "case_id": "OV-P12",
+      "input_hash": "986394e6cf141e40017daeee3cc95fec6095f686f28fdd68ef7f8432c0752ec9",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "lower net-value bound above zero"
+      ],
+      "measurement_cost": 0.65,
+      "domain": "ECOMMERCE",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "CONTINUE_PILOT",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "OVAR_LEDGER",
+      "policy_version": "1.0",
+      "case_id": "OV-P12",
+      "input_hash": "d1779077f1ee3453651420ebf1a4371659f8433075a496396d82506f962b6107",
+      "roi_state": "NEUTRAL",
+      "action": "REVISE",
+      "reasons": [
+        "net-value interval crosses zero"
+      ],
+      "measurement_cost": 0.8,
+      "domain": "ECOMMERCE",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "CONTINUE_PILOT",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "USAGE_ONLY",
+      "policy_version": "1.0",
+      "case_id": "OV-P13",
+      "input_hash": "b6074625b80e323be90953cbc46917a17ca77697c7d36bacea8d93164f6b4880",
+      "roi_state": "POSITIVE",
+      "action": "CONTINUE_PILOT",
+      "reasons": [
+        "moderate utilization within budget"
+      ],
+      "measurement_cost": 0.05,
+      "domain": "TRANSPORT_LOGISTICS",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "SCALE",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "SELF_REPORTED_VALUE",
+      "policy_version": "1.0",
+      "case_id": "OV-P13",
+      "input_hash": "dd4235cec932e4047db4090886b3d70b251641326037628b39c6d16224e892a1",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "reported benefit exceeds provider cost by scale margin"
+      ],
+      "measurement_cost": 0.1,
+      "domain": "TRANSPORT_LOGISTICS",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "SCALE",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "COST_QUALITY",
+      "policy_version": "1.0",
+      "case_id": "OV-P13",
+      "input_hash": "6f551038fabd57793908bb856fdd3af493a7983e5fc1463e20e689b1ada119d3",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "high technical quality within direct-cost budget"
+      ],
+      "measurement_cost": 0.2,
+      "domain": "TRANSPORT_LOGISTICS",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "SCALE",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "OUTCOME_FLAT",
+      "policy_version": "1.0",
+      "case_id": "OV-P13",
+      "input_hash": "f06bbaeadd75554e5859d00bea94a068eea8fb890803753eb8fd8ba4137a9088",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "lower net-value bound above zero"
+      ],
+      "measurement_cost": 0.65,
+      "domain": "TRANSPORT_LOGISTICS",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "SCALE",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "OVAR_LEDGER",
+      "policy_version": "1.0",
+      "case_id": "OV-P13",
+      "input_hash": "2ae58507dfb2974475ca2e22cf4ffcfa8c0104f1fe2e45696b1362ba446ff6ea",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "lower net-value bound above zero"
+      ],
+      "measurement_cost": 0.8,
+      "domain": "TRANSPORT_LOGISTICS",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "SCALE",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "USAGE_ONLY",
+      "policy_version": "1.0",
+      "case_id": "OV-P14",
+      "input_hash": "ff85b41f37b92af3e577c022d6c583a1504f4a3920c131bc1a83108448b868c4",
+      "roi_state": "POSITIVE",
+      "action": "CONTINUE_PILOT",
+      "reasons": [
+        "moderate utilization within budget"
+      ],
+      "measurement_cost": 0.05,
+      "domain": "TRANSPORT_LOGISTICS",
+      "reference_roi_state": "NEUTRAL",
+      "reference_action": "REVISE",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "SELF_REPORTED_VALUE",
+      "policy_version": "1.0",
+      "case_id": "OV-P14",
+      "input_hash": "0f5b41148f10443ab28ca631396889fc994b3fb26daac5a775ec648456c841f6",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "reported benefit exceeds provider cost by scale margin"
+      ],
+      "measurement_cost": 0.1,
+      "domain": "TRANSPORT_LOGISTICS",
+      "reference_roi_state": "NEUTRAL",
+      "reference_action": "REVISE",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "COST_QUALITY",
+      "policy_version": "1.0",
+      "case_id": "OV-P14",
+      "input_hash": "5b8a755f8f6621d06dca8e05b1a491dbbd95d7906f72f5d0c3ae3ae90ada18f7",
+      "roi_state": "POSITIVE",
+      "action": "CONTINUE_PILOT",
+      "reasons": [
+        "acceptable technical quality"
+      ],
+      "measurement_cost": 0.2,
+      "domain": "TRANSPORT_LOGISTICS",
+      "reference_roi_state": "NEUTRAL",
+      "reference_action": "REVISE",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "OUTCOME_FLAT",
+      "policy_version": "1.0",
+      "case_id": "OV-P14",
+      "input_hash": "123a8a0553abc1550c6f8c1d0fe9cc903a01b82ed65355fd6deffcde71a6590d",
+      "roi_state": "NEUTRAL",
+      "action": "REVISE",
+      "reasons": [
+        "net-value interval crosses zero"
+      ],
+      "measurement_cost": 0.65,
+      "domain": "TRANSPORT_LOGISTICS",
+      "reference_roi_state": "NEUTRAL",
+      "reference_action": "REVISE",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "OVAR_LEDGER",
+      "policy_version": "1.0",
+      "case_id": "OV-P14",
+      "input_hash": "1d8a8246e9944de9235963b476f36e25b50679aa9468e445ea420d0973dd46fb",
+      "roi_state": "NEUTRAL",
+      "action": "REVISE",
+      "reasons": [
+        "net-value interval crosses zero"
+      ],
+      "measurement_cost": 0.8,
+      "domain": "TRANSPORT_LOGISTICS",
+      "reference_roi_state": "NEUTRAL",
+      "reference_action": "REVISE",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "USAGE_ONLY",
+      "policy_version": "1.0",
+      "case_id": "OV-P15",
+      "input_hash": "2411675ae33ad8db037c50951566d4537d314ca7f47a317d146283bfa1232b29",
+      "roi_state": "POSITIVE",
+      "action": "CONTINUE_PILOT",
+      "reasons": [
+        "moderate utilization within budget"
+      ],
+      "measurement_cost": 0.05,
+      "domain": "TRANSPORT_LOGISTICS",
+      "reference_roi_state": "INDETERMINATE",
+      "reference_action": "INDETERMINATE",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "SELF_REPORTED_VALUE",
+      "policy_version": "1.0",
+      "case_id": "OV-P15",
+      "input_hash": "387e1af69a4918e2382ec48df8b5dcc5fd9332b1e8d2e7d3a86173b206dcdb54",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "reported benefit exceeds provider cost by scale margin"
+      ],
+      "measurement_cost": 0.1,
+      "domain": "TRANSPORT_LOGISTICS",
+      "reference_roi_state": "INDETERMINATE",
+      "reference_action": "INDETERMINATE",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "COST_QUALITY",
+      "policy_version": "1.0",
+      "case_id": "OV-P15",
+      "input_hash": "a40611081ac69c6c96322f8afd30391445e9d34190ab813ebbcd49d992be90a7",
+      "roi_state": "POSITIVE",
+      "action": "CONTINUE_PILOT",
+      "reasons": [
+        "acceptable technical quality"
+      ],
+      "measurement_cost": 0.2,
+      "domain": "TRANSPORT_LOGISTICS",
+      "reference_roi_state": "INDETERMINATE",
+      "reference_action": "INDETERMINATE",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "OUTCOME_FLAT",
+      "policy_version": "1.0",
+      "case_id": "OV-P15",
+      "input_hash": "6de6b08df0aa46673f1267742750ef3d8c2671f026f8327b33394fb6b2e32953",
+      "roi_state": "INDETERMINATE",
+      "action": "INDETERMINATE",
+      "reasons": [
+        "mandatory outcome evidence, baseline, or attribution requirement not met"
+      ],
+      "measurement_cost": 0.65,
+      "domain": "TRANSPORT_LOGISTICS",
+      "reference_roi_state": "INDETERMINATE",
+      "reference_action": "INDETERMINATE",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "OVAR_LEDGER",
+      "policy_version": "1.0",
+      "case_id": "OV-P15",
+      "input_hash": "318ecd35eca5b69e3a89a9ddc81cb6c050922114c2b96d84e247b4515a017f85",
+      "roi_state": "INDETERMINATE",
+      "action": "INDETERMINATE",
+      "reasons": [
+        "mandatory outcome evidence, baseline, or attribution requirement not met"
+      ],
+      "measurement_cost": 0.8,
+      "domain": "TRANSPORT_LOGISTICS",
+      "reference_roi_state": "INDETERMINATE",
+      "reference_action": "INDETERMINATE",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "USAGE_ONLY",
+      "policy_version": "1.0",
+      "case_id": "OV-P16",
+      "input_hash": "c713301dd320459392b3f67b982b7fb1a9f7ad120d6703ef2432ed5b3d9d9cc4",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "high utilization within budget"
+      ],
+      "measurement_cost": 0.05,
+      "domain": "TRANSPORT_LOGISTICS",
+      "reference_roi_state": "NEUTRAL",
+      "reference_action": "REVISE",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "SELF_REPORTED_VALUE",
+      "policy_version": "1.0",
+      "case_id": "OV-P16",
+      "input_hash": "d6c8cdee2aef3a0a061c67e609e25fcc40a75faf9fe541d2d64f0403de8a3cbe",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "reported benefit exceeds provider cost by scale margin"
+      ],
+      "measurement_cost": 0.1,
+      "domain": "TRANSPORT_LOGISTICS",
+      "reference_roi_state": "NEUTRAL",
+      "reference_action": "REVISE",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "COST_QUALITY",
+      "policy_version": "1.0",
+      "case_id": "OV-P16",
+      "input_hash": "14cdb246212b1112853fda738b5f115f3bfb5e4f54d3c94c38d927296221dfda",
+      "roi_state": "POSITIVE",
+      "action": "CONTINUE_PILOT",
+      "reasons": [
+        "acceptable technical quality"
+      ],
+      "measurement_cost": 0.2,
+      "domain": "TRANSPORT_LOGISTICS",
+      "reference_roi_state": "NEUTRAL",
+      "reference_action": "REVISE",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "OUTCOME_FLAT",
+      "policy_version": "1.0",
+      "case_id": "OV-P16",
+      "input_hash": "8752948e7c64ab870da12f389ec62306d57c9ee6b12e7b3702335d5b11287307",
+      "roi_state": "NEUTRAL",
+      "action": "REVISE",
+      "reasons": [
+        "net-value interval crosses zero"
+      ],
+      "measurement_cost": 0.65,
+      "domain": "TRANSPORT_LOGISTICS",
+      "reference_roi_state": "NEUTRAL",
+      "reference_action": "REVISE",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "OVAR_LEDGER",
+      "policy_version": "1.0",
+      "case_id": "OV-P16",
+      "input_hash": "8f76e217a48b8c5016f50096e2dc65f135bc80f733d15bc44eefcebae442bdf1",
+      "roi_state": "NEUTRAL",
+      "action": "REVISE",
+      "reasons": [
+        "net-value interval crosses zero"
+      ],
+      "measurement_cost": 0.8,
+      "domain": "TRANSPORT_LOGISTICS",
+      "reference_roi_state": "NEUTRAL",
+      "reference_action": "REVISE",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "USAGE_ONLY",
+      "policy_version": "1.0",
+      "case_id": "OV-P17",
+      "input_hash": "fa6ee9c93434a5f6b23a4e0d84c0b9126522a9f0945a298a4c83bc996dc63c85",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "high utilization within budget"
+      ],
+      "measurement_cost": 0.05,
+      "domain": "CYBERSECURITY",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "SCALE",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "SELF_REPORTED_VALUE",
+      "policy_version": "1.0",
+      "case_id": "OV-P17",
+      "input_hash": "be21735521872dd85efb79d9455c65b8497a41b7606d3bb8d9b1fab5f3a6f45f",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "reported benefit exceeds provider cost by scale margin"
+      ],
+      "measurement_cost": 0.1,
+      "domain": "CYBERSECURITY",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "SCALE",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "COST_QUALITY",
+      "policy_version": "1.0",
+      "case_id": "OV-P17",
+      "input_hash": "eac4cc7f5c273aec442573ba8d1098c4b44d603b9a4e0f3767d1a2d18b222845",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "high technical quality within direct-cost budget"
+      ],
+      "measurement_cost": 0.2,
+      "domain": "CYBERSECURITY",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "SCALE",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "OUTCOME_FLAT",
+      "policy_version": "1.0",
+      "case_id": "OV-P17",
+      "input_hash": "6a91bcc460f493250b43d3e8669d0388d9164f7993a0666547a2059d17de6b3f",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "lower net-value bound above zero"
+      ],
+      "measurement_cost": 0.65,
+      "domain": "CYBERSECURITY",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "SCALE",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "OVAR_LEDGER",
+      "policy_version": "1.0",
+      "case_id": "OV-P17",
+      "input_hash": "fa34889417a17471da98892394006df29503ac30f9e189feeaab3e2f5b9821dd",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "lower net-value bound above zero"
+      ],
+      "measurement_cost": 0.8,
+      "domain": "CYBERSECURITY",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "SCALE",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "USAGE_ONLY",
+      "policy_version": "1.0",
+      "case_id": "OV-P18",
+      "input_hash": "070195cf520bb07c0059d9b83d6253d05dca3f91c54226c13a780a15269d4e4b",
+      "roi_state": "POSITIVE",
+      "action": "CONTINUE_PILOT",
+      "reasons": [
+        "moderate utilization within budget"
+      ],
+      "measurement_cost": 0.05,
+      "domain": "CYBERSECURITY",
+      "reference_roi_state": "NEUTRAL",
+      "reference_action": "REVISE",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "SELF_REPORTED_VALUE",
+      "policy_version": "1.0",
+      "case_id": "OV-P18",
+      "input_hash": "97e082ae268fb8787583e744bc905c5a35c9692ec27bb1c546e52947bc40cb68",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "reported benefit exceeds provider cost by scale margin"
+      ],
+      "measurement_cost": 0.1,
+      "domain": "CYBERSECURITY",
+      "reference_roi_state": "NEUTRAL",
+      "reference_action": "REVISE",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "COST_QUALITY",
+      "policy_version": "1.0",
+      "case_id": "OV-P18",
+      "input_hash": "f1fffa09cd5d72ee83d76fb20d1fef57426f1dd54626a3da13d31c0bb6ed749d",
+      "roi_state": "POSITIVE",
+      "action": "CONTINUE_PILOT",
+      "reasons": [
+        "acceptable technical quality"
+      ],
+      "measurement_cost": 0.2,
+      "domain": "CYBERSECURITY",
+      "reference_roi_state": "NEUTRAL",
+      "reference_action": "REVISE",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "OUTCOME_FLAT",
+      "policy_version": "1.0",
+      "case_id": "OV-P18",
+      "input_hash": "fe5d271e1255e7f25a751f58e40faa4e370bcab15016f4280d9457e050a179fa",
+      "roi_state": "NEUTRAL",
+      "action": "REVISE",
+      "reasons": [
+        "net-value interval crosses zero"
+      ],
+      "measurement_cost": 0.65,
+      "domain": "CYBERSECURITY",
+      "reference_roi_state": "NEUTRAL",
+      "reference_action": "REVISE",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "OVAR_LEDGER",
+      "policy_version": "1.0",
+      "case_id": "OV-P18",
+      "input_hash": "4983d563d88e67db4eadd3ef771fdc814854ee3891975299de5fc4c141385b98",
+      "roi_state": "NEUTRAL",
+      "action": "REVISE",
+      "reasons": [
+        "net-value interval crosses zero"
+      ],
+      "measurement_cost": 0.8,
+      "domain": "CYBERSECURITY",
+      "reference_roi_state": "NEUTRAL",
+      "reference_action": "REVISE",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "USAGE_ONLY",
+      "policy_version": "1.0",
+      "case_id": "OV-P19",
+      "input_hash": "a11c87446be9b710886ad29cd0d88657f3f0625a02ec1e76d7a0cab8033715d8",
+      "roi_state": "POSITIVE",
+      "action": "CONTINUE_PILOT",
+      "reasons": [
+        "moderate utilization within budget"
+      ],
+      "measurement_cost": 0.05,
+      "domain": "CYBERSECURITY",
+      "reference_roi_state": "INDETERMINATE",
+      "reference_action": "INDETERMINATE",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "SELF_REPORTED_VALUE",
+      "policy_version": "1.0",
+      "case_id": "OV-P19",
+      "input_hash": "561f0dae01af03ba1c7162e954fe82cd5d22b85821eb180a154a15793fc5f27e",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "reported benefit exceeds provider cost by scale margin"
+      ],
+      "measurement_cost": 0.1,
+      "domain": "CYBERSECURITY",
+      "reference_roi_state": "INDETERMINATE",
+      "reference_action": "INDETERMINATE",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "COST_QUALITY",
+      "policy_version": "1.0",
+      "case_id": "OV-P19",
+      "input_hash": "ac8f8c1335ccea9310095e2ec3fe96b84ae6323a1efafd251e1bc056b9811309",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "high technical quality within direct-cost budget"
+      ],
+      "measurement_cost": 0.2,
+      "domain": "CYBERSECURITY",
+      "reference_roi_state": "INDETERMINATE",
+      "reference_action": "INDETERMINATE",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "OUTCOME_FLAT",
+      "policy_version": "1.0",
+      "case_id": "OV-P19",
+      "input_hash": "bfd3e9bc6ce3575edf7ed9d0f63e467593a217231ae0259deb89926413f13f43",
+      "roi_state": "INDETERMINATE",
+      "action": "INDETERMINATE",
+      "reasons": [
+        "mandatory outcome evidence, baseline, or attribution requirement not met"
+      ],
+      "measurement_cost": 0.65,
+      "domain": "CYBERSECURITY",
+      "reference_roi_state": "INDETERMINATE",
+      "reference_action": "INDETERMINATE",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "OVAR_LEDGER",
+      "policy_version": "1.0",
+      "case_id": "OV-P19",
+      "input_hash": "370bd68003526956d1c2b415119842e233a04f611775bc51d0d718c664a04b3d",
+      "roi_state": "INDETERMINATE",
+      "action": "INDETERMINATE",
+      "reasons": [
+        "mandatory outcome evidence, baseline, or attribution requirement not met"
+      ],
+      "measurement_cost": 0.8,
+      "domain": "CYBERSECURITY",
+      "reference_roi_state": "INDETERMINATE",
+      "reference_action": "INDETERMINATE",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "USAGE_ONLY",
+      "policy_version": "1.0",
+      "case_id": "OV-P20",
+      "input_hash": "73a3d12870ae632dfe1428a9ba19e9e2b41bfbc2dd1c11eab1e51a6a94f22827",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "high utilization within budget"
+      ],
+      "measurement_cost": 0.05,
+      "domain": "CYBERSECURITY",
+      "reference_roi_state": "NEUTRAL",
+      "reference_action": "REVISE",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "SELF_REPORTED_VALUE",
+      "policy_version": "1.0",
+      "case_id": "OV-P20",
+      "input_hash": "b18301f5a30975f82f01ee1af8096f1a4e3531201eed6c97508671764367f7b0",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "reported benefit exceeds provider cost by scale margin"
+      ],
+      "measurement_cost": 0.1,
+      "domain": "CYBERSECURITY",
+      "reference_roi_state": "NEUTRAL",
+      "reference_action": "REVISE",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "COST_QUALITY",
+      "policy_version": "1.0",
+      "case_id": "OV-P20",
+      "input_hash": "de0fa9680f414e05f99506801dbd57f5c9807c2077e20264c0cc273f55da474a",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "high technical quality within direct-cost budget"
+      ],
+      "measurement_cost": 0.2,
+      "domain": "CYBERSECURITY",
+      "reference_roi_state": "NEUTRAL",
+      "reference_action": "REVISE",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "OUTCOME_FLAT",
+      "policy_version": "1.0",
+      "case_id": "OV-P20",
+      "input_hash": "8444697742ef2c68f69076bb09ddcd493442cde322ca54840f92ce3dcc92d9cf",
+      "roi_state": "NEUTRAL",
+      "action": "REVISE",
+      "reasons": [
+        "net-value interval crosses zero"
+      ],
+      "measurement_cost": 0.65,
+      "domain": "CYBERSECURITY",
+      "reference_roi_state": "NEUTRAL",
+      "reference_action": "REVISE",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "OVAR_LEDGER",
+      "policy_version": "1.0",
+      "case_id": "OV-P20",
+      "input_hash": "ca0f3d494df92cb0d0931d85c3c83c0d01e9a3a6b67733379e9eea7d50a8bd0a",
+      "roi_state": "NEUTRAL",
+      "action": "REVISE",
+      "reasons": [
+        "net-value interval crosses zero"
+      ],
+      "measurement_cost": 0.8,
+      "domain": "CYBERSECURITY",
+      "reference_roi_state": "NEUTRAL",
+      "reference_action": "REVISE",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "USAGE_ONLY",
+      "policy_version": "1.0",
+      "case_id": "OV-P21",
+      "input_hash": "3cb458193745da5dc86da4446081a1b4ecf3ea675ff8f7dd18ff93ef8760fe8a",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "high utilization within budget"
+      ],
+      "measurement_cost": 0.05,
+      "domain": "CUSTOMER_OPERATIONS",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "SCALE",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "SELF_REPORTED_VALUE",
+      "policy_version": "1.0",
+      "case_id": "OV-P21",
+      "input_hash": "5e5a959b7a460b7cd9c01eace5d8d1fd73d6afbcb41aaaef7bb33ec693711dd7",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "reported benefit exceeds provider cost by scale margin"
+      ],
+      "measurement_cost": 0.1,
+      "domain": "CUSTOMER_OPERATIONS",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "SCALE",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "COST_QUALITY",
+      "policy_version": "1.0",
+      "case_id": "OV-P21",
+      "input_hash": "504703a2f66f32db7b448ba5a1519041384c69b9046c9ac4bdb33cb5af62edb5",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "high technical quality within direct-cost budget"
+      ],
+      "measurement_cost": 0.2,
+      "domain": "CUSTOMER_OPERATIONS",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "SCALE",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "OUTCOME_FLAT",
+      "policy_version": "1.0",
+      "case_id": "OV-P21",
+      "input_hash": "a48f90bd160620f49fbf0a663cd7feae2dafa369a9f214a26074313d35a6ab3d",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "lower net-value bound above zero"
+      ],
+      "measurement_cost": 0.65,
+      "domain": "CUSTOMER_OPERATIONS",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "SCALE",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "OVAR_LEDGER",
+      "policy_version": "1.0",
+      "case_id": "OV-P21",
+      "input_hash": "d7d7fb8db15f8bed87cdfdf443a542ed3ea0dc755767df43a21e7c20202ce797",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "lower net-value bound above zero"
+      ],
+      "measurement_cost": 0.8,
+      "domain": "CUSTOMER_OPERATIONS",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "SCALE",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "USAGE_ONLY",
+      "policy_version": "1.0",
+      "case_id": "OV-P22",
+      "input_hash": "4264ef01862819de440697d9bb8578ee3ae0cadb6c624f7d72f763c1be6a3b66",
+      "roi_state": "NEUTRAL",
+      "action": "REVISE",
+      "reasons": [
+        "low utilization"
+      ],
+      "measurement_cost": 0.05,
+      "domain": "CUSTOMER_OPERATIONS",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "CONTINUE_PILOT",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "SELF_REPORTED_VALUE",
+      "policy_version": "1.0",
+      "case_id": "OV-P22",
+      "input_hash": "83df268e2b3c134a40e402c0ca87a55835f2abb64e90128149d85ab423fd59fe",
+      "roi_state": "POSITIVE",
+      "action": "CONTINUE_PILOT",
+      "reasons": [
+        "reported benefit exceeds provider cost"
+      ],
+      "measurement_cost": 0.1,
+      "domain": "CUSTOMER_OPERATIONS",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "CONTINUE_PILOT",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "COST_QUALITY",
+      "policy_version": "1.0",
+      "case_id": "OV-P22",
+      "input_hash": "c956f156b45a281ceef533510defe3996260630178b63b4cddf99de4444ed67c",
+      "roi_state": "POSITIVE",
+      "action": "CONTINUE_PILOT",
+      "reasons": [
+        "acceptable technical quality"
+      ],
+      "measurement_cost": 0.2,
+      "domain": "CUSTOMER_OPERATIONS",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "CONTINUE_PILOT",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "OUTCOME_FLAT",
+      "policy_version": "1.0",
+      "case_id": "OV-P22",
+      "input_hash": "6db1b0abdcccbeb1800d3c25c0a8ac4e2a2ef878eaec52c3540e3fad05005736",
+      "roi_state": "NEUTRAL",
+      "action": "REVISE",
+      "reasons": [
+        "net-value interval crosses zero"
+      ],
+      "measurement_cost": 0.65,
+      "domain": "CUSTOMER_OPERATIONS",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "CONTINUE_PILOT",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "OVAR_LEDGER",
+      "policy_version": "1.0",
+      "case_id": "OV-P22",
+      "input_hash": "ad0651e2691527337a6654e49b75f0e3ea7bb5be5c8e99099b57cfaa444945f1",
+      "roi_state": "NEUTRAL",
+      "action": "REVISE",
+      "reasons": [
+        "net-value interval crosses zero"
+      ],
+      "measurement_cost": 0.8,
+      "domain": "CUSTOMER_OPERATIONS",
+      "reference_roi_state": "POSITIVE",
+      "reference_action": "CONTINUE_PILOT",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "USAGE_ONLY",
+      "policy_version": "1.0",
+      "case_id": "OV-P23",
+      "input_hash": "64310f38b5c1b3114212dada49ae22fa3f60c90012fe74c5613c95d0fc7ebdc3",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "high utilization within budget"
+      ],
+      "measurement_cost": 0.05,
+      "domain": "CUSTOMER_OPERATIONS",
+      "reference_roi_state": "NEUTRAL",
+      "reference_action": "REVISE",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "SELF_REPORTED_VALUE",
+      "policy_version": "1.0",
+      "case_id": "OV-P23",
+      "input_hash": "564493b39aec05b9cc13938e794c0746f807ed938af4c3ed2894bc12e55242c0",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "reported benefit exceeds provider cost by scale margin"
+      ],
+      "measurement_cost": 0.1,
+      "domain": "CUSTOMER_OPERATIONS",
+      "reference_roi_state": "NEUTRAL",
+      "reference_action": "REVISE",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "COST_QUALITY",
+      "policy_version": "1.0",
+      "case_id": "OV-P23",
+      "input_hash": "787e5eb81b37dc26f19533520f44138740e71c0dcae27bfc6a0cbba95d6f574a",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "high technical quality within direct-cost budget"
+      ],
+      "measurement_cost": 0.2,
+      "domain": "CUSTOMER_OPERATIONS",
+      "reference_roi_state": "NEUTRAL",
+      "reference_action": "REVISE",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "OUTCOME_FLAT",
+      "policy_version": "1.0",
+      "case_id": "OV-P23",
+      "input_hash": "7ec7d86b26c36b62a8cbef8a8ec75ae3686986b10ba61e817b277b41d029cb1f",
+      "roi_state": "INDETERMINATE",
+      "action": "INDETERMINATE",
+      "reasons": [
+        "mandatory outcome evidence, baseline, or attribution requirement not met"
+      ],
+      "measurement_cost": 0.65,
+      "domain": "CUSTOMER_OPERATIONS",
+      "reference_roi_state": "NEUTRAL",
+      "reference_action": "REVISE",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "OVAR_LEDGER",
+      "policy_version": "1.0",
+      "case_id": "OV-P23",
+      "input_hash": "6350291b9bfb6358e9ab9910796d39c87b509a6aacbacd823de54fba33b5902e",
+      "roi_state": "INDETERMINATE",
+      "action": "INDETERMINATE",
+      "reasons": [
+        "mandatory outcome evidence, baseline, or attribution requirement not met"
+      ],
+      "measurement_cost": 0.8,
+      "domain": "CUSTOMER_OPERATIONS",
+      "reference_roi_state": "NEUTRAL",
+      "reference_action": "REVISE",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "USAGE_ONLY",
+      "policy_version": "1.0",
+      "case_id": "OV-P24",
+      "input_hash": "02bb07b486697333f358b5348748c4188c75cba78741a154ab3364dcefb7b1cf",
+      "roi_state": "POSITIVE",
+      "action": "CONTINUE_PILOT",
+      "reasons": [
+        "moderate utilization within budget"
+      ],
+      "measurement_cost": 0.05,
+      "domain": "CUSTOMER_OPERATIONS",
+      "reference_roi_state": "NEUTRAL",
+      "reference_action": "REVISE",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "SELF_REPORTED_VALUE",
+      "policy_version": "1.0",
+      "case_id": "OV-P24",
+      "input_hash": "ec4a3b16b43313504bd275cb5457560929f87a69896266de9d33d797da57adb7",
+      "roi_state": "POSITIVE",
+      "action": "SCALE",
+      "reasons": [
+        "reported benefit exceeds provider cost by scale margin"
+      ],
+      "measurement_cost": 0.1,
+      "domain": "CUSTOMER_OPERATIONS",
+      "reference_roi_state": "NEUTRAL",
+      "reference_action": "REVISE",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "COST_QUALITY",
+      "policy_version": "1.0",
+      "case_id": "OV-P24",
+      "input_hash": "d234a00771f6e13b82ae95ab0122da79448b6cd52bc845527e3bb49f1220811c",
+      "roi_state": "POSITIVE",
+      "action": "CONTINUE_PILOT",
+      "reasons": [
+        "acceptable technical quality"
+      ],
+      "measurement_cost": 0.2,
+      "domain": "CUSTOMER_OPERATIONS",
+      "reference_roi_state": "NEUTRAL",
+      "reference_action": "REVISE",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "OUTCOME_FLAT",
+      "policy_version": "1.0",
+      "case_id": "OV-P24",
+      "input_hash": "fb8108c5f499a55b53cd6f0e39f0b0460a5e20ff3bbcb9d0af03f8bf4c2b248b",
+      "roi_state": "NEUTRAL",
+      "action": "REVISE",
+      "reasons": [
+        "net-value interval crosses zero"
+      ],
+      "measurement_cost": 0.65,
+      "domain": "CUSTOMER_OPERATIONS",
+      "reference_roi_state": "NEUTRAL",
+      "reference_action": "REVISE",
+      "reference_compliance_pass": true
+    },
+    {
+      "policy": "OVAR_LEDGER",
+      "policy_version": "1.0",
+      "case_id": "OV-P24",
+      "input_hash": "10e4c63a562bf339c49738bdefbefe8904cf46bed5042648738615babc199720",
+      "roi_state": "NEUTRAL",
+      "action": "REVISE",
+      "reasons": [
+        "net-value interval crosses zero"
+      ],
+      "measurement_cost": 0.8,
+      "domain": "CUSTOMER_OPERATIONS",
+      "reference_roi_state": "NEUTRAL",
+      "reference_action": "REVISE",
+      "reference_compliance_pass": true
+    }
+  ]
+}

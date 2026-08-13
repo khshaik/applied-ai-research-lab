@@ -1,0 +1,26 @@
+{
+  "status": "POST_REVISION_RECHECK_LOCK",
+  "human_validation": false,
+  "artifacts": [
+    {
+      "relative_path": "review/reviewer_a_synthetic_recheck_v1.1.json",
+      "sha256": "00d4112626b449cb9d2f7b36328770966a17f3a7d99a0633bcef9608d92bbd70",
+      "bytes": 22508
+    },
+    {
+      "relative_path": "review/reviewer_b_synthetic_recheck_v1.1.json",
+      "sha256": "e8ce039f8322c8d4164ba2627ed06742cede33963e6c2d7f9eb61367f8d27487",
+      "bytes": 23288
+    },
+    {
+      "relative_path": "review/consolidated_v1.1/synthetic_recheck_metrics_v1.1.json",
+      "sha256": "9fc9fde7e805b971450f2c4f1e2851321ba31433c00bc62844b60d2c5f6b8d21",
+      "bytes": 1917
+    },
+    {
+      "relative_path": "review/consolidated_v1.1/synthetic_recheck_case_register_v1.1.json",
+      "sha256": "e13f93b8f3d065a8512eeedf9ff04d011ca5c55ef0ae596194a8cda238a29573",
+      "bytes": 29723
+    }
+  ]
+}

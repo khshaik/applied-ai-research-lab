@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "OVAR neutral construct-review calibration case",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["case_id","domain","stratum","project_stage","workflow","ai_intervention","measurement_window_days","outcome_contract","acceptance_criteria","baseline_design","baseline_implementation","evidence_status","evidence_locator","evidence_reproduction_note","evidence_gap","cost_components","cost_allocation_method","observed_outcome_value","baseline_estimated_outcome_value","attribution_confidence","attribution_rationale","uncertainty_half_width","risk_facts","authorization_evidence_facts","evidence_review_cost","technical_quality","utilization_rate","token_units_m","active_users","owner_reported_gross_benefit","decision_checkpoint","provenance","authoring_version"],
+  "properties": {
+    "case_id": {"type":"string","pattern":"^OC-[0-9]{3}$"},
+    "domain": {"enum":["HEALTHCARE","FINANCIAL_SERVICES","ECOMMERCE","TRANSPORT_LOGISTICS","CYBERSECURITY","CUSTOMER_OPERATIONS"]},
+    "stratum": {"enum":["HIGH_VALUE_MODERATE_USAGE","HIGH_USAGE_LOW_VALUE","HIDDEN_FULLY_LOADED_COST","WEAK_OR_ABSENT_COUNTERFACTUAL","DELAYED_OR_SHARED_ATTRIBUTION","AUTHORIZATION_OR_COMPLIANCE_CONSTRAINT","LOW_ADOPTION_HIGH_VALUE","REVISE_INDETERMINATE_BOUNDARY"]},
+    "project_stage": {"enum":["POC","PILOT","PRE_PRODUCTION"]},
+    "workflow": {"type":"string","minLength":12},
+    "ai_intervention": {"type":"string","minLength":12},
+    "measurement_window_days": {"type":"integer","minimum":14,"maximum":365},
+    "outcome_contract": {"type":"string","minLength":30},
+    "acceptance_criteria": {"type":"string","minLength":30},
+    "baseline_design": {"enum":["RANDOMIZED","STEPPED_WEDGE","MATCHED_CONCURRENT","INTERRUPTED_TIME_SERIES","BEFORE_AFTER_UNCONTROLLED","NONE"]},
+    "baseline_implementation": {"type":"string","minLength":30},
+    "evidence_status": {"enum":["VERIFIED","PARTIAL","UNVERIFIED"]},
+    "evidence_locator": {"type":"string","minLength":8},
+    "evidence_reproduction_note": {"type":"string","minLength":20},
+    "evidence_gap": {"type":"string"},
+    "cost_components": {
+      "type":"object","additionalProperties":false,
+      "required":["provider_cost","infrastructure_cost","tooling_cost","human_review_cost","integration_amortized_cost","governance_cost","rework_cost"],
+      "properties": {
+        "provider_cost":{"type":"number","minimum":0},"infrastructure_cost":{"type":"number","minimum":0},"tooling_cost":{"type":"number","minimum":0},"human_review_cost":{"type":"number","minimum":0},"integration_amortized_cost":{"type":"number","minimum":0},"governance_cost":{"type":"number","minimum":0},"rework_cost":{"type":"number","minimum":0}
+      }
+    },
+    "cost_allocation_method":{"type":"string","minLength":30},
+    "observed_outcome_value":{"type":"number"},
+    "baseline_estimated_outcome_value":{"type":["number","null"]},
+    "attribution_confidence":{"type":"number","minimum":0,"maximum":1},
+    "attribution_rationale":{"type":"string","minLength":20},
+    "uncertainty_half_width":{"type":"number","minimum":0},
+    "risk_facts":{"type":"string","minLength":15},
+    "authorization_evidence_facts":{"type":"string","minLength":15},
+    "evidence_review_cost":{"type":"number","minimum":0},
+    "technical_quality":{"type":"number","minimum":0,"maximum":1},
+    "utilization_rate":{"type":"number","minimum":0,"maximum":1},
+    "token_units_m":{"type":"number","minimum":0},
+    "active_users":{"type":"integer","minimum":1},
+    "owner_reported_gross_benefit":{"type":"number"},
+    "decision_checkpoint":{"type":"string","minLength":20},
+    "provenance":{"const":"CONSTRUCTED"},
+    "authoring_version":{"const":"calibration-1.0-draft"}
+  }
+}

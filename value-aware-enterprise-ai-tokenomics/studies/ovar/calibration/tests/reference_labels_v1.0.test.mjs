@@ -1,0 +1,16 @@
+import test from "node:test";
+import assert from "node:assert/strict";
+import fs from "node:fs";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
+const here=path.dirname(fileURLToPath(import.meta.url)),root=path.resolve(here,"..");
+const visible=JSON.parse(fs.readFileSync(path.join(root,"candidate_v1.1/construct_review_cases.json"),"utf8")).cases;
+const doc=JSON.parse(fs.readFileSync(path.join(root,"restricted/reference_labels_RESTRICTED_v1.0.json"),"utf8"));
+const refs=doc.references??doc.records??doc.labels??(Array.isArray(doc)?doc:[]),byVisible=new Map(visible.map(x=>[x.case_id,x]));
+test("metadata attests isolation",()=>{assert.equal(doc.metadata.constructed_ground_truth,true);assert.equal(doc.metadata.policy_accessed,false);assert.equal(doc.metadata.pilot_results_accessed,false);assert.equal(doc.metadata.construct_reviews_accessed,false);});
+test("exact 48 ID coverage",()=>{assert.equal(refs.length,48);assert.equal(new Set(refs.map(x=>x.review_case_id)).size,48);assert.deepEqual(refs.map(x=>x.review_case_id).sort(),visible.map(x=>x.case_id).sort());});
+test("fully loaded costs reconcile",()=>{for(const r of refs){const c=byVisible.get(r.review_case_id),cost=Object.values(c.cost_components).reduce((a,b)=>a+b,0)+c.evidence_review_cost;assert.equal(r.reference_fully_loaded_cost,cost,r.review_case_id);}});
+test("net and interval arithmetic reconcile",()=>{for(const r of refs){assert.equal(r.reference_net_value,r.reference_incremental_value-r.reference_fully_loaded_cost-r.reference_expected_harm_cost,r.review_case_id);assert.equal(r.reference_lower_bound,r.reference_net_value-r.reference_uncertainty_half_width,r.review_case_id);assert.equal(r.reference_upper_bound,r.reference_net_value+r.reference_uncertainty_half_width,r.review_case_id);}});
+test("decision rules are exact",()=>{for(const r of refs){if(!r.reference_evidence_sufficient){assert.equal(r.reference_roi_state,"INDETERMINATE",r.review_case_id);assert.equal(r.reference_action,"INDETERMINATE",r.review_case_id);continue;}if(!r.reference_authorization_current||r.reference_upper_bound<0){assert.equal(r.reference_roi_state,"NEGATIVE",r.review_case_id);assert.equal(r.reference_action,"STOP",r.review_case_id);continue;}if(r.reference_lower_bound>0){assert.equal(r.reference_roi_state,"POSITIVE",r.review_case_id);assert.equal(r.reference_action,r.reference_net_value/r.reference_fully_loaded_cost>=.20?"SCALE":"CONTINUE_PILOT",r.review_case_id);continue;}assert.equal(r.reference_roi_state,"NEUTRAL",r.review_case_id);assert.equal(r.reference_action,"REVISE",r.review_case_id);}});
+test("all five actions represented",()=>{for(const a of ["STOP","REVISE","CONTINUE_PILOT","SCALE","INDETERMINATE"])assert.ok(refs.some(r=>r.reference_action===a),a);});
+test("rationales populated",()=>{for(const r of refs)for(const k of ["evidence_rationale","authorization_rationale","arithmetic_rationale","action_rationale"])assert.ok(typeof r[k]==="string"&&r[k].trim().length>=15,`${r.review_case_id}:${k}`);});

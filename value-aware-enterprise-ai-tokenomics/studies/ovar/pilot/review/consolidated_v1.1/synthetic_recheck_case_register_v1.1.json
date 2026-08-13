@@ -1,0 +1,821 @@
+{
+  "metadata": {
+    "review_type": "SYNTHETIC_AI_AI_POST_REVISION_RECHECK",
+    "human_inter_rater_reliability": false,
+    "version": "1.1",
+    "reviewer_a_sha256": "00d4112626b449cb9d2f7b36328770966a17f3a7d99a0633bcef9608d92bbd70",
+    "reviewer_b_sha256": "e8ce039f8322c8d4164ba2627ed06742cede33963e6c2d7f9eb61367f8d27487",
+    "metrics": {
+      "outcome_contract_clarity": {
+        "exact_agreement": 1,
+        "within_one": 1,
+        "mean_absolute_difference": 0,
+        "reviewer_a_mean": 4.625,
+        "reviewer_b_mean": 4.625
+      },
+      "baseline_credibility": {
+        "exact_agreement": 1,
+        "within_one": 1,
+        "mean_absolute_difference": 0,
+        "reviewer_a_mean": 3.5,
+        "reviewer_b_mean": 3.5
+      },
+      "evidence_auditability": {
+        "exact_agreement": 0.7083333333333334,
+        "within_one": 1,
+        "mean_absolute_difference": 0.2916666666666667,
+        "reviewer_a_mean": 4,
+        "reviewer_b_mean": 4.291666666666667
+      },
+      "cost_boundary_completeness": {
+        "exact_agreement": 1,
+        "within_one": 1,
+        "mean_absolute_difference": 0,
+        "reviewer_a_mean": 5,
+        "reviewer_b_mean": 5
+      },
+      "attribution_defensibility": {
+        "exact_agreement": 0.875,
+        "within_one": 1,
+        "mean_absolute_difference": 0.125,
+        "reviewer_a_mean": 3.2916666666666665,
+        "reviewer_b_mean": 3.4166666666666665
+      },
+      "decision_realism": {
+        "exact_agreement": 1,
+        "within_one": 1,
+        "mean_absolute_difference": 0,
+        "reviewer_a_mean": 5,
+        "reviewer_b_mean": 5
+      }
+    },
+    "flags": {
+      "a_leakage": 10,
+      "b_leakage": 10,
+      "a_ambiguity": 11,
+      "b_ambiguity": 11,
+      "blocking_cases": 13
+    },
+    "gate_decision": "REVISE_OR_PIVOT_TO_NEW_CALIBRATION_DESIGN",
+    "reason": "The single permitted clarity revision improved scoreability but did not remove visible decision cues; three deliberately unverified/no-comparator cases remain non-reproducible by design."
+  },
+  "cases": [
+    {
+      "case_id": "OV-P01",
+      "reviewer_a": {
+        "scores": {
+          "outcome_contract_clarity": 5,
+          "baseline_credibility": 4,
+          "evidence_auditability": 5,
+          "cost_boundary_completeness": 5,
+          "attribution_defensibility": 4,
+          "decision_realism": 5
+        },
+        "leakage_flag": "NO",
+        "ambiguity_flag": "NO",
+        "missing_information": "Matched-sample size, balance diagnostics, and the statistical estimand are not stated."
+      },
+      "reviewer_b": {
+        "scores": {
+          "outcome_contract_clarity": 5,
+          "baseline_credibility": 4,
+          "evidence_auditability": 5,
+          "cost_boundary_completeness": 5,
+          "attribution_defensibility": 4,
+          "decision_realism": 5
+        },
+        "leakage_flag": "NO",
+        "ambiguity_flag": "NO",
+        "missing_information": "Matched-cohort balance results and sample counts are not visible."
+      },
+      "blocking_reasons": []
+    },
+    {
+      "case_id": "OV-P02",
+      "reviewer_a": {
+        "scores": {
+          "outcome_contract_clarity": 5,
+          "baseline_credibility": 4,
+          "evidence_auditability": 5,
+          "cost_boundary_completeness": 5,
+          "attribution_defensibility": 4,
+          "decision_realism": 5
+        },
+        "leakage_flag": "NO",
+        "ambiguity_flag": "NO",
+        "missing_information": "The exact segmented-regression specification, sample volume per week, and shock sensitivity analysis are not supplied."
+      },
+      "reviewer_b": {
+        "scores": {
+          "outcome_contract_clarity": 5,
+          "baseline_credibility": 4,
+          "evidence_auditability": 5,
+          "cost_boundary_completeness": 5,
+          "attribution_defensibility": 4,
+          "decision_realism": 5
+        },
+        "leakage_flag": "NO",
+        "ambiguity_flag": "NO",
+        "missing_information": "Actual time-series diagnostics and concurrent-shock sensitivity results are not visible."
+      },
+      "blocking_reasons": []
+    },
+    {
+      "case_id": "OV-P03",
+      "reviewer_a": {
+        "scores": {
+          "outcome_contract_clarity": 5,
+          "baseline_credibility": 4,
+          "evidence_auditability": 3,
+          "cost_boundary_completeness": 5,
+          "attribution_defensibility": 3,
+          "decision_realism": 5
+        },
+        "leakage_flag": "YES",
+        "ambiguity_flag": "YES",
+        "missing_information": "Thirty percent of sampled policy-rule paths and rare exceptions remain unaudited; sample sizes and crossover schedule are not shown. Potential leakage phrase: compliance_status 'PROHIBITED'."
+      },
+      "reviewer_b": {
+        "scores": {
+          "outcome_contract_clarity": 5,
+          "baseline_credibility": 4,
+          "evidence_auditability": 4,
+          "cost_boundary_completeness": 5,
+          "attribution_defensibility": 4,
+          "decision_realism": 5
+        },
+        "leakage_flag": "YES",
+        "ambiguity_flag": "YES",
+        "missing_information": "Thirty percent of sampled policy-rule paths and rare exception paths remain without completed independent review; the basis and remediation route for PROHIBITED are not visible."
+      },
+      "blocking_reasons": [
+        "possible visible decision cue",
+        "both reviewers flagged ambiguity"
+      ]
+    },
+    {
+      "case_id": "OV-P04",
+      "reviewer_a": {
+        "scores": {
+          "outcome_contract_clarity": 2,
+          "baseline_credibility": 1,
+          "evidence_auditability": 1,
+          "cost_boundary_completeness": 5,
+          "attribution_defensibility": 1,
+          "decision_realism": 5
+        },
+        "leakage_flag": "YES",
+        "ambiguity_flag": "YES",
+        "missing_information": "The stated numeric criteria are explicitly unregistered, and there is no comparator, baseline value, or eligible evidence package. Potential leakage phrases: 'cannot support a positive causal ROI classification' and exploration_protected=true."
+      },
+      "reviewer_b": {
+        "scores": {
+          "outcome_contract_clarity": 2,
+          "baseline_credibility": 1,
+          "evidence_auditability": 2,
+          "cost_boundary_completeness": 5,
+          "attribution_defensibility": 1,
+          "decision_realism": 5
+        },
+        "leakage_flag": "YES",
+        "ambiguity_flag": "YES",
+        "missing_information": "A registered outcome contract, defensible comparator, baseline value, and eligible evidence package remain absent."
+      },
+      "blocking_reasons": [
+        "possible visible decision cue",
+        "both evidence-auditability scores <=2",
+        "both reviewers flagged ambiguity"
+      ]
+    },
+    {
+      "case_id": "OV-P05",
+      "reviewer_a": {
+        "scores": {
+          "outcome_contract_clarity": 5,
+          "baseline_credibility": 5,
+          "evidence_auditability": 5,
+          "cost_boundary_completeness": 5,
+          "attribution_defensibility": 5,
+          "decision_realism": 5
+        },
+        "leakage_flag": "NO",
+        "ambiguity_flag": "NO",
+        "missing_information": "Power, sample size, stratum balance, and confidence-interval construction are not reported."
+      },
+      "reviewer_b": {
+        "scores": {
+          "outcome_contract_clarity": 5,
+          "baseline_credibility": 5,
+          "evidence_auditability": 5,
+          "cost_boundary_completeness": 5,
+          "attribution_defensibility": 5,
+          "decision_realism": 5
+        },
+        "leakage_flag": "NO",
+        "ambiguity_flag": "NO",
+        "missing_information": "Realized stratum counts and crossover frequency are not visible."
+      },
+      "blocking_reasons": []
+    },
+    {
+      "case_id": "OV-P06",
+      "reviewer_a": {
+        "scores": {
+          "outcome_contract_clarity": 5,
+          "baseline_credibility": 4,
+          "evidence_auditability": 5,
+          "cost_boundary_completeness": 5,
+          "attribution_defensibility": 4,
+          "decision_realism": 5
+        },
+        "leakage_flag": "NO",
+        "ambiguity_flag": "NO",
+        "missing_information": "Matched-sample balance, overlap, residual-confounding checks, and interval methodology are not shown."
+      },
+      "reviewer_b": {
+        "scores": {
+          "outcome_contract_clarity": 5,
+          "baseline_credibility": 4,
+          "evidence_auditability": 5,
+          "cost_boundary_completeness": 5,
+          "attribution_defensibility": 4,
+          "decision_realism": 5
+        },
+        "leakage_flag": "NO",
+        "ambiguity_flag": "NO",
+        "missing_information": "Matched-sample counts and post-match balance diagnostics are not visible."
+      },
+      "blocking_reasons": []
+    },
+    {
+      "case_id": "OV-P07",
+      "reviewer_a": {
+        "scores": {
+          "outcome_contract_clarity": 5,
+          "baseline_credibility": 2,
+          "evidence_auditability": 3,
+          "cost_boundary_completeness": 5,
+          "attribution_defensibility": 2,
+          "decision_realism": 5
+        },
+        "leakage_flag": "YES",
+        "ambiguity_flag": "YES",
+        "missing_information": "The uncontrolled prior-window comparison cannot resolve concurrent changes, and two smaller eligibility groups lack sufficient fairness observations. Potential leakage phrases: attribution 'is therefore capped' and compliance_status 'PROHIBITED'."
+      },
+      "reviewer_b": {
+        "scores": {
+          "outcome_contract_clarity": 5,
+          "baseline_credibility": 2,
+          "evidence_auditability": 4,
+          "cost_boundary_completeness": 5,
+          "attribution_defensibility": 2,
+          "decision_realism": 5
+        },
+        "leakage_flag": "YES",
+        "ambiguity_flag": "YES",
+        "missing_information": "Two smaller eligibility groups lack adequate fairness observations; the uncontrolled before-after design cannot resolve operating-period confounding; the prohibition basis and remediation path are not visible."
+      },
+      "blocking_reasons": [
+        "possible visible decision cue",
+        "both reviewers flagged ambiguity"
+      ]
+    },
+    {
+      "case_id": "OV-P08",
+      "reviewer_a": {
+        "scores": {
+          "outcome_contract_clarity": 5,
+          "baseline_credibility": 2,
+          "evidence_auditability": 4,
+          "cost_boundary_completeness": 5,
+          "attribution_defensibility": 2,
+          "decision_realism": 5
+        },
+        "leakage_flag": "YES",
+        "ambiguity_flag": "YES",
+        "missing_information": "The prior-window comparison lacks a concurrent control, and first-week correction reasons are inconsistently coded. Potential leakage phrases: attribution 'is therefore capped' and exploration_protected=true."
+      },
+      "reviewer_b": {
+        "scores": {
+          "outcome_contract_clarity": 5,
+          "baseline_credibility": 2,
+          "evidence_auditability": 4,
+          "cost_boundary_completeness": 5,
+          "attribution_defensibility": 2,
+          "decision_realism": 5
+        },
+        "leakage_flag": "YES",
+        "ambiguity_flag": "YES",
+        "missing_information": "The first week's correction reasons are inconsistently coded, and the uncontrolled prior-window comparison leaves period confounding unresolved."
+      },
+      "blocking_reasons": [
+        "possible visible decision cue",
+        "both reviewers flagged ambiguity"
+      ]
+    },
+    {
+      "case_id": "OV-P09",
+      "reviewer_a": {
+        "scores": {
+          "outcome_contract_clarity": 5,
+          "baseline_credibility": 5,
+          "evidence_auditability": 5,
+          "cost_boundary_completeness": 5,
+          "attribution_defensibility": 5,
+          "decision_realism": 5
+        },
+        "leakage_flag": "NO",
+        "ambiguity_flag": "NO",
+        "missing_information": "Power, sample size, stratum balance, and interval construction are not reported."
+      },
+      "reviewer_b": {
+        "scores": {
+          "outcome_contract_clarity": 5,
+          "baseline_credibility": 5,
+          "evidence_auditability": 5,
+          "cost_boundary_completeness": 5,
+          "attribution_defensibility": 5,
+          "decision_realism": 5
+        },
+        "leakage_flag": "NO",
+        "ambiguity_flag": "NO",
+        "missing_information": "Realized stratum counts and crossover frequency are not visible."
+      },
+      "blocking_reasons": []
+    },
+    {
+      "case_id": "OV-P10",
+      "reviewer_a": {
+        "scores": {
+          "outcome_contract_clarity": 5,
+          "baseline_credibility": 4,
+          "evidence_auditability": 5,
+          "cost_boundary_completeness": 5,
+          "attribution_defensibility": 4,
+          "decision_realism": 5
+        },
+        "leakage_flag": "NO",
+        "ambiguity_flag": "NO",
+        "missing_information": "The crossover schedule, unit count, power, and treatment-carryover checks are not reported."
+      },
+      "reviewer_b": {
+        "scores": {
+          "outcome_contract_clarity": 5,
+          "baseline_credibility": 4,
+          "evidence_auditability": 5,
+          "cost_boundary_completeness": 5,
+          "attribution_defensibility": 4,
+          "decision_realism": 5
+        },
+        "leakage_flag": "NO",
+        "ambiguity_flag": "NO",
+        "missing_information": "Actual unit crossover schedule, cluster counts, and period-effect estimates are not visible."
+      },
+      "blocking_reasons": []
+    },
+    {
+      "case_id": "OV-P11",
+      "reviewer_a": {
+        "scores": {
+          "outcome_contract_clarity": 5,
+          "baseline_credibility": 4,
+          "evidence_auditability": 3,
+          "cost_boundary_completeness": 5,
+          "attribution_defensibility": 3,
+          "decision_realism": 5
+        },
+        "leakage_flag": "YES",
+        "ambiguity_flag": "YES",
+        "missing_information": "Cross-device consent linkage is incomplete for an unspecified cohort share, and matching balance is not shown. Potential leakage phrase: compliance_status 'PROHIBITED'."
+      },
+      "reviewer_b": {
+        "scores": {
+          "outcome_contract_clarity": 5,
+          "baseline_credibility": 4,
+          "evidence_auditability": 4,
+          "cost_boundary_completeness": 5,
+          "attribution_defensibility": 3,
+          "decision_realism": 5
+        },
+        "leakage_flag": "YES",
+        "ambiguity_flag": "YES",
+        "missing_information": "Cross-device consent linkage is incomplete for part of the cohort; matched balance results and the prohibition remediation path are not visible."
+      },
+      "blocking_reasons": [
+        "possible visible decision cue",
+        "both reviewers flagged ambiguity"
+      ]
+    },
+    {
+      "case_id": "OV-P12",
+      "reviewer_a": {
+        "scores": {
+          "outcome_contract_clarity": 5,
+          "baseline_credibility": 4,
+          "evidence_auditability": 5,
+          "cost_boundary_completeness": 5,
+          "attribution_defensibility": 4,
+          "decision_realism": 5
+        },
+        "leakage_flag": "YES",
+        "ambiguity_flag": "NO",
+        "missing_information": "Matched-sample balance, overlap, and residual-confounding diagnostics are not reported. Potential leakage phrase: exploration_protected=true."
+      },
+      "reviewer_b": {
+        "scores": {
+          "outcome_contract_clarity": 5,
+          "baseline_credibility": 4,
+          "evidence_auditability": 5,
+          "cost_boundary_completeness": 5,
+          "attribution_defensibility": 4,
+          "decision_realism": 5
+        },
+        "leakage_flag": "YES",
+        "ambiguity_flag": "NO",
+        "missing_information": "Matched-cohort sample counts and balance diagnostics are not visible."
+      },
+      "blocking_reasons": [
+        "possible visible decision cue"
+      ]
+    },
+    {
+      "case_id": "OV-P13",
+      "reviewer_a": {
+        "scores": {
+          "outcome_contract_clarity": 5,
+          "baseline_credibility": 4,
+          "evidence_auditability": 5,
+          "cost_boundary_completeness": 5,
+          "attribution_defensibility": 4,
+          "decision_realism": 5
+        },
+        "leakage_flag": "NO",
+        "ambiguity_flag": "NO",
+        "missing_information": "The crossover schedule, unit count, route-mix balance, and carryover checks are not reported."
+      },
+      "reviewer_b": {
+        "scores": {
+          "outcome_contract_clarity": 5,
+          "baseline_credibility": 4,
+          "evidence_auditability": 5,
+          "cost_boundary_completeness": 5,
+          "attribution_defensibility": 5,
+          "decision_realism": 5
+        },
+        "leakage_flag": "NO",
+        "ambiguity_flag": "NO",
+        "missing_information": "Actual route-cluster crossover counts and period-effect estimates are not visible."
+      },
+      "blocking_reasons": []
+    },
+    {
+      "case_id": "OV-P14",
+      "reviewer_a": {
+        "scores": {
+          "outcome_contract_clarity": 5,
+          "baseline_credibility": 4,
+          "evidence_auditability": 4,
+          "cost_boundary_completeness": 5,
+          "attribution_defensibility": 3,
+          "decision_realism": 5
+        },
+        "leakage_flag": "NO",
+        "ambiguity_flag": "YES",
+        "missing_information": "Carrier-caused exception attribution is incomplete, and weekly sample volume and sensitivity to concurrent shocks are not shown."
+      },
+      "reviewer_b": {
+        "scores": {
+          "outcome_contract_clarity": 5,
+          "baseline_credibility": 4,
+          "evidence_auditability": 4,
+          "cost_boundary_completeness": 5,
+          "attribution_defensibility": 3,
+          "decision_realism": 5
+        },
+        "leakage_flag": "NO",
+        "ambiguity_flag": "YES",
+        "missing_information": "Carrier-caused exception attribution remains incomplete; actual series diagnostics and sensitivity to concurrent shocks are not visible."
+      },
+      "blocking_reasons": [
+        "both reviewers flagged ambiguity"
+      ]
+    },
+    {
+      "case_id": "OV-P15",
+      "reviewer_a": {
+        "scores": {
+          "outcome_contract_clarity": 2,
+          "baseline_credibility": 1,
+          "evidence_auditability": 1,
+          "cost_boundary_completeness": 5,
+          "attribution_defensibility": 1,
+          "decision_realism": 5
+        },
+        "leakage_flag": "YES",
+        "ambiguity_flag": "YES",
+        "missing_information": "The numeric criteria are explicitly unregistered, and no comparator, baseline value, or eligible evidence package exists. Potential leakage phrases: 'cannot support a positive causal ROI classification' and exploration_protected=true."
+      },
+      "reviewer_b": {
+        "scores": {
+          "outcome_contract_clarity": 2,
+          "baseline_credibility": 1,
+          "evidence_auditability": 2,
+          "cost_boundary_completeness": 5,
+          "attribution_defensibility": 1,
+          "decision_realism": 5
+        },
+        "leakage_flag": "YES",
+        "ambiguity_flag": "YES",
+        "missing_information": "A registered outcome contract, defensible comparator, baseline value, and eligible evidence package remain absent."
+      },
+      "blocking_reasons": [
+        "possible visible decision cue",
+        "both evidence-auditability scores <=2",
+        "both reviewers flagged ambiguity"
+      ]
+    },
+    {
+      "case_id": "OV-P16",
+      "reviewer_a": {
+        "scores": {
+          "outcome_contract_clarity": 5,
+          "baseline_credibility": 4,
+          "evidence_auditability": 5,
+          "cost_boundary_completeness": 5,
+          "attribution_defensibility": 4,
+          "decision_realism": 5
+        },
+        "leakage_flag": "NO",
+        "ambiguity_flag": "NO",
+        "missing_information": "Matched-sample balance, overlap, customs-field prevalence, and residual-confounding checks are not reported."
+      },
+      "reviewer_b": {
+        "scores": {
+          "outcome_contract_clarity": 5,
+          "baseline_credibility": 4,
+          "evidence_auditability": 5,
+          "cost_boundary_completeness": 5,
+          "attribution_defensibility": 4,
+          "decision_realism": 5
+        },
+        "leakage_flag": "NO",
+        "ambiguity_flag": "NO",
+        "missing_information": "Matched-sample counts and post-match balance diagnostics are not visible."
+      },
+      "blocking_reasons": []
+    },
+    {
+      "case_id": "OV-P17",
+      "reviewer_a": {
+        "scores": {
+          "outcome_contract_clarity": 5,
+          "baseline_credibility": 5,
+          "evidence_auditability": 5,
+          "cost_boundary_completeness": 5,
+          "attribution_defensibility": 5,
+          "decision_realism": 5
+        },
+        "leakage_flag": "NO",
+        "ambiguity_flag": "NO",
+        "missing_information": "Power, sample size, stratum balance, and interval construction are not reported."
+      },
+      "reviewer_b": {
+        "scores": {
+          "outcome_contract_clarity": 5,
+          "baseline_credibility": 5,
+          "evidence_auditability": 5,
+          "cost_boundary_completeness": 5,
+          "attribution_defensibility": 5,
+          "decision_realism": 5
+        },
+        "leakage_flag": "NO",
+        "ambiguity_flag": "NO",
+        "missing_information": "Realized stratum counts and crossover frequency are not visible."
+      },
+      "blocking_reasons": []
+    },
+    {
+      "case_id": "OV-P18",
+      "reviewer_a": {
+        "scores": {
+          "outcome_contract_clarity": 5,
+          "baseline_credibility": 4,
+          "evidence_auditability": 4,
+          "cost_boundary_completeness": 5,
+          "attribution_defensibility": 3,
+          "decision_realism": 5
+        },
+        "leakage_flag": "NO",
+        "ambiguity_flag": "YES",
+        "missing_information": "Rejected unsafe-command proposals lack a uniform severity code; matching balance and the size of the affected set are not shown."
+      },
+      "reviewer_b": {
+        "scores": {
+          "outcome_contract_clarity": 5,
+          "baseline_credibility": 4,
+          "evidence_auditability": 4,
+          "cost_boundary_completeness": 5,
+          "attribution_defensibility": 3,
+          "decision_realism": 5
+        },
+        "leakage_flag": "NO",
+        "ambiguity_flag": "YES",
+        "missing_information": "Rejected unsafe-command proposals lack uniform severity coding; matched balance results and the implications of the wide uncertainty interval are not fully resolved."
+      },
+      "blocking_reasons": [
+        "both reviewers flagged ambiguity"
+      ]
+    },
+    {
+      "case_id": "OV-P19",
+      "reviewer_a": {
+        "scores": {
+          "outcome_contract_clarity": 2,
+          "baseline_credibility": 1,
+          "evidence_auditability": 1,
+          "cost_boundary_completeness": 5,
+          "attribution_defensibility": 1,
+          "decision_realism": 5
+        },
+        "leakage_flag": "YES",
+        "ambiguity_flag": "YES",
+        "missing_information": "The numeric criteria are explicitly unregistered, and no comparator, baseline value, or eligible evidence package exists. Potential leakage phrases: 'cannot support a positive causal ROI classification', 'protected exploration asset', and exploration_protected=true."
+      },
+      "reviewer_b": {
+        "scores": {
+          "outcome_contract_clarity": 2,
+          "baseline_credibility": 1,
+          "evidence_auditability": 2,
+          "cost_boundary_completeness": 5,
+          "attribution_defensibility": 1,
+          "decision_realism": 5
+        },
+        "leakage_flag": "YES",
+        "ambiguity_flag": "YES",
+        "missing_information": "A registered outcome contract, comparator, baseline value, and eligible evidence package remain absent."
+      },
+      "blocking_reasons": [
+        "possible visible decision cue",
+        "both evidence-auditability scores <=2",
+        "both reviewers flagged ambiguity"
+      ]
+    },
+    {
+      "case_id": "OV-P20",
+      "reviewer_a": {
+        "scores": {
+          "outcome_contract_clarity": 5,
+          "baseline_credibility": 4,
+          "evidence_auditability": 5,
+          "cost_boundary_completeness": 5,
+          "attribution_defensibility": 4,
+          "decision_realism": 5
+        },
+        "leakage_flag": "NO",
+        "ambiguity_flag": "NO",
+        "missing_information": "Weekly sample size, detailed segmented-regression specification, and concurrent-shock sensitivity results are not reported."
+      },
+      "reviewer_b": {
+        "scores": {
+          "outcome_contract_clarity": 5,
+          "baseline_credibility": 4,
+          "evidence_auditability": 5,
+          "cost_boundary_completeness": 5,
+          "attribution_defensibility": 4,
+          "decision_realism": 5
+        },
+        "leakage_flag": "NO",
+        "ambiguity_flag": "NO",
+        "missing_information": "Actual time-series diagnostics and concurrent-shock sensitivity results are not visible."
+      },
+      "blocking_reasons": []
+    },
+    {
+      "case_id": "OV-P21",
+      "reviewer_a": {
+        "scores": {
+          "outcome_contract_clarity": 5,
+          "baseline_credibility": 4,
+          "evidence_auditability": 5,
+          "cost_boundary_completeness": 5,
+          "attribution_defensibility": 4,
+          "decision_realism": 5
+        },
+        "leakage_flag": "NO",
+        "ambiguity_flag": "NO",
+        "missing_information": "The crossover schedule, unit count, power, and treatment-carryover checks are not reported."
+      },
+      "reviewer_b": {
+        "scores": {
+          "outcome_contract_clarity": 5,
+          "baseline_credibility": 4,
+          "evidence_auditability": 5,
+          "cost_boundary_completeness": 5,
+          "attribution_defensibility": 5,
+          "decision_realism": 5
+        },
+        "leakage_flag": "NO",
+        "ambiguity_flag": "NO",
+        "missing_information": "Actual unit crossover counts and period-effect estimates are not visible."
+      },
+      "blocking_reasons": []
+    },
+    {
+      "case_id": "OV-P22",
+      "reviewer_a": {
+        "scores": {
+          "outcome_contract_clarity": 5,
+          "baseline_credibility": 4,
+          "evidence_auditability": 5,
+          "cost_boundary_completeness": 5,
+          "attribution_defensibility": 4,
+          "decision_realism": 5
+        },
+        "leakage_flag": "YES",
+        "ambiguity_flag": "NO",
+        "missing_information": "Matched-sample balance, overlap, and residual-confounding diagnostics are not reported. Potential leakage phrase: exploration_protected=true."
+      },
+      "reviewer_b": {
+        "scores": {
+          "outcome_contract_clarity": 5,
+          "baseline_credibility": 4,
+          "evidence_auditability": 5,
+          "cost_boundary_completeness": 5,
+          "attribution_defensibility": 4,
+          "decision_realism": 5
+        },
+        "leakage_flag": "YES",
+        "ambiguity_flag": "NO",
+        "missing_information": "Matched-sample balance diagnostics and the operational explanation for 0.38 utilization are not visible."
+      },
+      "blocking_reasons": [
+        "possible visible decision cue"
+      ]
+    },
+    {
+      "case_id": "OV-P23",
+      "reviewer_a": {
+        "scores": {
+          "outcome_contract_clarity": 5,
+          "baseline_credibility": 2,
+          "evidence_auditability": 4,
+          "cost_boundary_completeness": 5,
+          "attribution_defensibility": 2,
+          "decision_realism": 5
+        },
+        "leakage_flag": "YES",
+        "ambiguity_flag": "YES",
+        "missing_information": "The prior-window comparison is uncontrolled and delayed cancellations remain outside the measurement window. Potential leakage phrase: attribution 'is therefore capped'."
+      },
+      "reviewer_b": {
+        "scores": {
+          "outcome_contract_clarity": 5,
+          "baseline_credibility": 2,
+          "evidence_auditability": 4,
+          "cost_boundary_completeness": 5,
+          "attribution_defensibility": 2,
+          "decision_realism": 5
+        },
+        "leakage_flag": "YES",
+        "ambiguity_flag": "YES",
+        "missing_information": "Delayed cancellations remain outside the window, and the uncontrolled preceding-window comparator cannot resolve seasonality or offer-selection changes."
+      },
+      "blocking_reasons": [
+        "possible visible decision cue",
+        "both reviewers flagged ambiguity"
+      ]
+    },
+    {
+      "case_id": "OV-P24",
+      "reviewer_a": {
+        "scores": {
+          "outcome_contract_clarity": 5,
+          "baseline_credibility": 4,
+          "evidence_auditability": 3,
+          "cost_boundary_completeness": 5,
+          "attribution_defensibility": 3,
+          "decision_realism": 5
+        },
+        "leakage_flag": "NO",
+        "ambiguity_flag": "YES",
+        "missing_information": "Two low-volume languages do not meet the registered review count; their exact sample shortfalls and language-specific estimates are not shown."
+      },
+      "reviewer_b": {
+        "scores": {
+          "outcome_contract_clarity": 5,
+          "baseline_credibility": 4,
+          "evidence_auditability": 4,
+          "cost_boundary_completeness": 5,
+          "attribution_defensibility": 3,
+          "decision_realism": 5
+        },
+        "leakage_flag": "NO",
+        "ambiguity_flag": "YES",
+        "missing_information": "Two low-volume languages remain below the registered review count; actual time-series diagnostics and language-level uncertainty are not visible."
+      },
+      "blocking_reasons": [
+        "both reviewers flagged ambiguity"
+      ]
+    }
+  ]
+}

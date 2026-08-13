@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this research package, please cite the paper and archived release."
+title: "From AI Usage to Auditable Outcomes: A Prospective Negative Calibration of Outcome-Verified AI Resource Allocation"
+type: software
+authors:
+  - family-names: "Rasool"
+    given-names: "Shaik Khaja Nayab"
+    affiliation: "KLU University"
+version: "0.1"
+date-released: "2026-08-13"
+license: MIT
+abstract: >-
+  A reproducible methods package for Outcome-Verified AI Resource Allocation,
+  including a prospective negative calibration on constructed enterprise cases.
+keywords:
+  - AI resource allocation
+  - AI return on investment
+  - token accounting
+  - outcome evidence
+  - authorization governance
+repository-artifact: "Zenodo; DOI/URL to be assigned upon deposit"

@@ -1,0 +1,14 @@
+[project]
+name = "value-aware-enterprise-ai-tokenomics"
+version = "0.1.0"
+description = "Research artifacts for outcome-verified enterprise AI resource accounting and allocation."
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [
+  { name = "Shaik Khaja Nayab Rasool", email = "shaik.khajanayabrasool@gmail.com" }
+]
+keywords = ["ai-economics", "ai-roi", "outcome-evidence", "resource-allocation", "finops"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"

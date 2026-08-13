@@ -1,0 +1,39 @@
+# Operating-system and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*~
+
+# Python and Node.js local state
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+node_modules/
+build/
+dist/
+*.egg-info/
+
+# Local QA and generated previews
+tmp/
+qa/
+renders/
+rendered/
+rendered_v*/
+*.log
+
+# Research secrets and future sealed data: never commit
+**/held_out*
+**/*HELD_OUT*
+**/*PRIVATE*.json
+**/*Coordinator*RESTRICTED*.xlsx
+**/LABEL_ACCESS_LOG.jsonl
+
+# Local submission and similarity-system exports
+similarity-reports/
+submission-portal-exports/

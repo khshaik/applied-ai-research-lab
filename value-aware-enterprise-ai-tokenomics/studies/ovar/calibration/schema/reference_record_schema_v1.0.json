@@ -1,0 +1,25 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"OVAR calibration restricted reference record",
+  "type":"object","additionalProperties":false,
+  "required":["review_case_id","reference_incremental_value","reference_fully_loaded_cost","reference_expected_harm_cost","reference_uncertainty_half_width","reference_net_value","reference_lower_bound","reference_upper_bound","reference_evidence_sufficient","reference_authorization_current","reference_roi_state","reference_action","evidence_rationale","authorization_rationale","arithmetic_rationale","action_rationale","label_version"],
+  "properties":{
+    "review_case_id":{"type":"string","pattern":"^OC-R[0-9]{3}$"},
+    "reference_incremental_value":{"type":"number"},
+    "reference_fully_loaded_cost":{"type":"number","minimum":0},
+    "reference_expected_harm_cost":{"type":"number","minimum":0},
+    "reference_uncertainty_half_width":{"type":"number","minimum":0},
+    "reference_net_value":{"type":"number"},
+    "reference_lower_bound":{"type":"number"},
+    "reference_upper_bound":{"type":"number"},
+    "reference_evidence_sufficient":{"type":"boolean"},
+    "reference_authorization_current":{"type":"boolean"},
+    "reference_roi_state":{"enum":["POSITIVE","NEGATIVE","NEUTRAL","INDETERMINATE"]},
+    "reference_action":{"enum":["STOP","REVISE","CONTINUE_PILOT","SCALE","INDETERMINATE"]},
+    "evidence_rationale":{"type":"string","minLength":15},
+    "authorization_rationale":{"type":"string","minLength":15},
+    "arithmetic_rationale":{"type":"string","minLength":15},
+    "action_rationale":{"type":"string","minLength":15},
+    "label_version":{"const":"1.0"}
+  }
+}

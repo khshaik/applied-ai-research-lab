@@ -1,0 +1,1525 @@
+{
+  "metadata": {
+    "study": "OVAR constructed pilot",
+    "version": "1.0",
+    "review_type": "SYNTHETIC_AI_AI_CONSTRUCT_STRESS_TEST",
+    "human_inter_rater_reliability": false,
+    "source_sha256": "55db8aa7c1c23196b7c6d5c06cf909fa2129e606e596f811be07d39027e785a9",
+    "reviewer_a_sha256": "84b62548d3399fc7ae8ddc92f9644c139271c666823efce1e885bf351c216e86",
+    "reviewer_b_sha256": "33681d4a9a230cc5592ebee7fb5d6de89205c0a1d46e46c99cdd482de3517bab",
+    "created_at": "2026-08-13T12:29:05.494Z"
+  },
+  "cases": [
+    {
+      "case_id": "OV-P01",
+      "score_disagreements": {
+        "outcome_contract_clarity": {
+          "reviewer_a": 4,
+          "reviewer_b": 4,
+          "absolute_difference": 0
+        },
+        "baseline_credibility": {
+          "reviewer_a": 4,
+          "reviewer_b": 4,
+          "absolute_difference": 0
+        },
+        "evidence_auditability": {
+          "reviewer_a": 4,
+          "reviewer_b": 4,
+          "absolute_difference": 0
+        },
+        "cost_boundary_completeness": {
+          "reviewer_a": 5,
+          "reviewer_b": 4,
+          "absolute_difference": 1
+        },
+        "attribution_defensibility": {
+          "reviewer_a": 4,
+          "reviewer_b": 4,
+          "absolute_difference": 0
+        },
+        "decision_realism": {
+          "reviewer_a": 4,
+          "reviewer_b": 4,
+          "absolute_difference": 0
+        }
+      },
+      "reviewer_a_flags": {
+        "leakage": "NO",
+        "ambiguity": "NO",
+        "missing_information": "The matched-control construction, medication-accuracy denominator, and evidence artifact locations are not stated.",
+        "boundary_rationale": "Cost-boundary completeness=5 because provider, infrastructure, tooling, human review, integration, governance, and rework costs are all separately visible."
+      },
+      "reviewer_b_flags": {
+        "leakage": "NO",
+        "ambiguity": "NO",
+        "missing_information": "Documentation-time target magnitude, matched-cohort construction, evidence artifact references, and cost-allocation bases are not stated.",
+        "boundary_rationale": ""
+      },
+      "escalation_reasons": [],
+      "adjudication_required": false,
+      "adjudicated_scores": {
+        "outcome_contract_clarity": null,
+        "baseline_credibility": null,
+        "evidence_auditability": null,
+        "cost_boundary_completeness": null,
+        "attribution_defensibility": null,
+        "decision_realism": null
+      },
+      "adjudication_action": null,
+      "adjudication_rationale": "",
+      "adjudicator": "",
+      "adjudication_date": null
+    },
+    {
+      "case_id": "OV-P02",
+      "score_disagreements": {
+        "outcome_contract_clarity": {
+          "reviewer_a": 3,
+          "reviewer_b": 3,
+          "absolute_difference": 0
+        },
+        "baseline_credibility": {
+          "reviewer_a": 3,
+          "reviewer_b": 3,
+          "absolute_difference": 0
+        },
+        "evidence_auditability": {
+          "reviewer_a": 4,
+          "reviewer_b": 4,
+          "absolute_difference": 0
+        },
+        "cost_boundary_completeness": {
+          "reviewer_a": 5,
+          "reviewer_b": 4,
+          "absolute_difference": 1
+        },
+        "attribution_defensibility": {
+          "reviewer_a": 3,
+          "reviewer_b": 3,
+          "absolute_difference": 0
+        },
+        "decision_realism": {
+          "reviewer_a": 4,
+          "reviewer_b": 4,
+          "absolute_difference": 0
+        }
+      },
+      "reviewer_a_flags": {
+        "leakage": "NO",
+        "ambiguity": "YES",
+        "missing_information": "No numeric correction-rate boundary, time-series length or interruption controls, outcome valuation method, or evidence artifact references are given.",
+        "boundary_rationale": "Cost-boundary completeness=5 because all seven instructed cost categories are itemized."
+      },
+      "reviewer_b_flags": {
+        "leakage": "NO",
+        "ambiguity": "YES",
+        "missing_information": "No quantitative time or correction boundary, time-series length/change-point controls, evidence artifact references, or explanation for high rework cost is provided.",
+        "boundary_rationale": ""
+      },
+      "escalation_reasons": [
+        "both reviewers flagged ambiguity"
+      ],
+      "adjudication_required": true,
+      "adjudicated_scores": {
+        "outcome_contract_clarity": null,
+        "baseline_credibility": null,
+        "evidence_auditability": null,
+        "cost_boundary_completeness": null,
+        "attribution_defensibility": null,
+        "decision_realism": null
+      },
+      "adjudication_action": null,
+      "adjudication_rationale": "",
+      "adjudicator": "",
+      "adjudication_date": null
+    },
+    {
+      "case_id": "OV-P03",
+      "score_disagreements": {
+        "outcome_contract_clarity": {
+          "reviewer_a": 3,
+          "reviewer_b": 3,
+          "absolute_difference": 0
+        },
+        "baseline_credibility": {
+          "reviewer_a": 4,
+          "reviewer_b": 4,
+          "absolute_difference": 0
+        },
+        "evidence_auditability": {
+          "reviewer_a": 3,
+          "reviewer_b": 2,
+          "absolute_difference": 1
+        },
+        "cost_boundary_completeness": {
+          "reviewer_a": 5,
+          "reviewer_b": 4,
+          "absolute_difference": 1
+        },
+        "attribution_defensibility": {
+          "reviewer_a": 3,
+          "reviewer_b": 3,
+          "absolute_difference": 0
+        },
+        "decision_realism": {
+          "reviewer_a": 5,
+          "reviewer_b": 5,
+          "absolute_difference": 0
+        }
+      },
+      "reviewer_a_flags": {
+        "leakage": "YES",
+        "ambiguity": "YES",
+        "missing_information": "The compliance and oversight acceptance thresholds, stepped-wedge sequencing, partial-evidence gap, and value derivation are not supplied. Potential leakage phrase: compliance_status 'PROHIBITED'.",
+        "boundary_rationale": "Cost-boundary completeness=5 because every instructed cost category is explicit. Decision realism=5 because stage, budget, economics, uncertainty, harm, and an unequivocal compliance constraint create an unusually concrete stop decision, although the prohibition wording is flagged as leakage."
+      },
+      "reviewer_b_flags": {
+        "leakage": "YES",
+        "ambiguity": "YES",
+        "missing_information": "Compliance and oversight acceptance thresholds, stepped-wedge sequencing, the missing evidence components, prohibition basis, and remediation path are absent.",
+        "boundary_rationale": "Decision realism=5 because the explicit PROHIBITED status creates an unusually clear stop boundary despite favorable value estimates; that same phrase is flagged as potentially revealing a preferred policy outcome."
+      },
+      "escalation_reasons": [
+        "possible leakage",
+        "both reviewers flagged ambiguity"
+      ],
+      "adjudication_required": true,
+      "adjudicated_scores": {
+        "outcome_contract_clarity": null,
+        "baseline_credibility": null,
+        "evidence_auditability": null,
+        "cost_boundary_completeness": null,
+        "attribution_defensibility": null,
+        "decision_realism": null
+      },
+      "adjudication_action": null,
+      "adjudication_rationale": "",
+      "adjudicator": "",
+      "adjudication_date": null
+    },
+    {
+      "case_id": "OV-P04",
+      "score_disagreements": {
+        "outcome_contract_clarity": {
+          "reviewer_a": 1,
+          "reviewer_b": 1,
+          "absolute_difference": 0
+        },
+        "baseline_credibility": {
+          "reviewer_a": 1,
+          "reviewer_b": 1,
+          "absolute_difference": 0
+        },
+        "evidence_auditability": {
+          "reviewer_a": 1,
+          "reviewer_b": 1,
+          "absolute_difference": 0
+        },
+        "cost_boundary_completeness": {
+          "reviewer_a": 5,
+          "reviewer_b": 4,
+          "absolute_difference": 1
+        },
+        "attribution_defensibility": {
+          "reviewer_a": 2,
+          "reviewer_b": 1,
+          "absolute_difference": 1
+        },
+        "decision_realism": {
+          "reviewer_a": 2,
+          "reviewer_b": 3,
+          "absolute_difference": 1
+        }
+      },
+      "reviewer_a_flags": {
+        "leakage": "YES",
+        "ambiguity": "YES",
+        "missing_information": "No outcome contract, comparator, baseline value, verification evidence, acceptance threshold, or reproducible valuation method is provided. Potential leakage phrase: exploration_protected=true.",
+        "boundary_rationale": "Outcome-contract clarity=1 because the contract is absent. Baseline credibility=1 because baseline_design is NONE and the baseline value is null. Evidence auditability=1 because evidence is explicitly UNVERIFIED and no artifacts are identified. Cost-boundary completeness=5 because all seven instructed cost categories are itemized."
+      },
+      "reviewer_b_flags": {
+        "leakage": "YES",
+        "ambiguity": "YES",
+        "missing_information": "Outcome contract, baseline, verification artifacts, model-performance and outreach-impact thresholds, and conditions for leaving exploration are missing.",
+        "boundary_rationale": "Outcome-contract clarity=1 because no contract is present. Baseline credibility=1 because the design is NONE and no baseline value exists. Evidence auditability=1 because evidence is UNVERIFIED with no inspectable support. Attribution defensibility=1 because a 0.32 confidence value cannot substitute for any comparison design. The phrase exploration_protected is flagged as potentially signaling a preferred continuation policy."
+      },
+      "escalation_reasons": [
+        "both reviewers scored <=2: outcome_contract_clarity, baseline_credibility, evidence_auditability, attribution_defensibility",
+        "possible leakage",
+        "both reviewers flagged ambiguity"
+      ],
+      "adjudication_required": true,
+      "adjudicated_scores": {
+        "outcome_contract_clarity": null,
+        "baseline_credibility": null,
+        "evidence_auditability": null,
+        "cost_boundary_completeness": null,
+        "attribution_defensibility": null,
+        "decision_realism": null
+      },
+      "adjudication_action": null,
+      "adjudication_rationale": "",
+      "adjudicator": "",
+      "adjudication_date": null
+    },
+    {
+      "case_id": "OV-P05",
+      "score_disagreements": {
+        "outcome_contract_clarity": {
+          "reviewer_a": 4,
+          "reviewer_b": 4,
+          "absolute_difference": 0
+        },
+        "baseline_credibility": {
+          "reviewer_a": 5,
+          "reviewer_b": 5,
+          "absolute_difference": 0
+        },
+        "evidence_auditability": {
+          "reviewer_a": 4,
+          "reviewer_b": 4,
+          "absolute_difference": 0
+        },
+        "cost_boundary_completeness": {
+          "reviewer_a": 5,
+          "reviewer_b": 4,
+          "absolute_difference": 1
+        },
+        "attribution_defensibility": {
+          "reviewer_a": 5,
+          "reviewer_b": 5,
+          "absolute_difference": 0
+        },
+        "decision_realism": {
+          "reviewer_a": 4,
+          "reviewer_b": 4,
+          "absolute_difference": 0
+        }
+      },
+      "reviewer_a_flags": {
+        "leakage": "NO",
+        "ambiguity": "NO",
+        "missing_information": "Randomization details, missed-check denominator and threshold, and evidence artifact locations are not shown.",
+        "boundary_rationale": "Baseline credibility=5 because a randomized design is the strongest incremental comparison stated in the pilot. Cost-boundary completeness=5 because every instructed cost category is separately visible. Attribution defensibility=5 because verified evidence, randomization, high confidence, and relatively narrow uncertainty jointly make attribution exemplary for a constructed pilot."
+      },
+      "reviewer_b_flags": {
+        "leakage": "NO",
+        "ambiguity": "NO",
+        "missing_information": "Randomization unit, sample allocation, mandatory-check noninferiority margin, evidence artifact references, and cost-allocation bases are not stated.",
+        "boundary_rationale": "Baseline credibility=5 because a randomized design is the strongest stated incremental comparison and is paired with a populated baseline. Attribution defensibility=5 because verified evidence, randomization, high confidence, and relatively narrow uncertainty make attribution unusually decision-ready for this constructed pilot."
+      },
+      "escalation_reasons": [],
+      "adjudication_required": false,
+      "adjudicated_scores": {
+        "outcome_contract_clarity": null,
+        "baseline_credibility": null,
+        "evidence_auditability": null,
+        "cost_boundary_completeness": null,
+        "attribution_defensibility": null,
+        "decision_realism": null
+      },
+      "adjudication_action": null,
+      "adjudication_rationale": "",
+      "adjudicator": "",
+      "adjudication_date": null
+    },
+    {
+      "case_id": "OV-P06",
+      "score_disagreements": {
+        "outcome_contract_clarity": {
+          "reviewer_a": 3,
+          "reviewer_b": 3,
+          "absolute_difference": 0
+        },
+        "baseline_credibility": {
+          "reviewer_a": 4,
+          "reviewer_b": 4,
+          "absolute_difference": 0
+        },
+        "evidence_auditability": {
+          "reviewer_a": 4,
+          "reviewer_b": 4,
+          "absolute_difference": 0
+        },
+        "cost_boundary_completeness": {
+          "reviewer_a": 5,
+          "reviewer_b": 4,
+          "absolute_difference": 1
+        },
+        "attribution_defensibility": {
+          "reviewer_a": 4,
+          "reviewer_b": 4,
+          "absolute_difference": 0
+        },
+        "decision_realism": {
+          "reviewer_a": 4,
+          "reviewer_b": 4,
+          "absolute_difference": 0
+        }
+      },
+      "reviewer_a_flags": {
+        "leakage": "NO",
+        "ambiguity": "YES",
+        "missing_information": "Investigator-acceptance and escalation-accuracy thresholds, matching variables, and evidence artifact references are absent.",
+        "boundary_rationale": "Cost-boundary completeness=5 because all seven instructed cost categories are itemized."
+      },
+      "reviewer_b_flags": {
+        "leakage": "NO",
+        "ambiguity": "YES",
+        "missing_information": "Time, acceptance, and escalation targets; matching variables; evidence artifact references; and utilization-related operating thresholds are absent.",
+        "boundary_rationale": ""
+      },
+      "escalation_reasons": [
+        "both reviewers flagged ambiguity"
+      ],
+      "adjudication_required": true,
+      "adjudicated_scores": {
+        "outcome_contract_clarity": null,
+        "baseline_credibility": null,
+        "evidence_auditability": null,
+        "cost_boundary_completeness": null,
+        "attribution_defensibility": null,
+        "decision_realism": null
+      },
+      "adjudication_action": null,
+      "adjudication_rationale": "",
+      "adjudicator": "",
+      "adjudication_date": null
+    },
+    {
+      "case_id": "OV-P07",
+      "score_disagreements": {
+        "outcome_contract_clarity": {
+          "reviewer_a": 3,
+          "reviewer_b": 3,
+          "absolute_difference": 0
+        },
+        "baseline_credibility": {
+          "reviewer_a": 2,
+          "reviewer_b": 2,
+          "absolute_difference": 0
+        },
+        "evidence_auditability": {
+          "reviewer_a": 3,
+          "reviewer_b": 2,
+          "absolute_difference": 1
+        },
+        "cost_boundary_completeness": {
+          "reviewer_a": 5,
+          "reviewer_b": 4,
+          "absolute_difference": 1
+        },
+        "attribution_defensibility": {
+          "reviewer_a": 2,
+          "reviewer_b": 2,
+          "absolute_difference": 0
+        },
+        "decision_realism": {
+          "reviewer_a": 5,
+          "reviewer_b": 5,
+          "absolute_difference": 0
+        }
+      },
+      "reviewer_a_flags": {
+        "leakage": "YES",
+        "ambiguity": "YES",
+        "missing_information": "Fairness and adverse-action acceptance boundaries, confounder controls, the partial-evidence gap, and valuation method are missing. Potential leakage phrase: compliance_status 'PROHIBITED'.",
+        "boundary_rationale": "Cost-boundary completeness=5 because every instructed cost category is explicit. Decision realism=5 because the case combines economics, uncertainty, harm, stage, and a decisive compliance stop condition, while that condition is separately flagged as leakage."
+      },
+      "reviewer_b_flags": {
+        "leakage": "YES",
+        "ambiguity": "YES",
+        "missing_information": "Fairness and legal acceptance thresholds, confounder controls, missing evidence components, prohibition basis, and remediation or appeal path are not supplied.",
+        "boundary_rationale": "Decision realism=5 because the explicit PROHIBITED status supplies a decisive operational stop boundary in a regulated workflow; the phrase is also flagged as potentially revealing a preferred policy outcome."
+      },
+      "escalation_reasons": [
+        "both reviewers scored <=2: baseline_credibility, attribution_defensibility",
+        "possible leakage",
+        "both reviewers flagged ambiguity"
+      ],
+      "adjudication_required": true,
+      "adjudicated_scores": {
+        "outcome_contract_clarity": null,
+        "baseline_credibility": null,
+        "evidence_auditability": null,
+        "cost_boundary_completeness": null,
+        "attribution_defensibility": null,
+        "decision_realism": null
+      },
+      "adjudication_action": null,
+      "adjudication_rationale": "",
+      "adjudicator": "",
+      "adjudication_date": null
+    },
+    {
+      "case_id": "OV-P08",
+      "score_disagreements": {
+        "outcome_contract_clarity": {
+          "reviewer_a": 3,
+          "reviewer_b": 3,
+          "absolute_difference": 0
+        },
+        "baseline_credibility": {
+          "reviewer_a": 2,
+          "reviewer_b": 2,
+          "absolute_difference": 0
+        },
+        "evidence_auditability": {
+          "reviewer_a": 3,
+          "reviewer_b": 2,
+          "absolute_difference": 1
+        },
+        "cost_boundary_completeness": {
+          "reviewer_a": 5,
+          "reviewer_b": 4,
+          "absolute_difference": 1
+        },
+        "attribution_defensibility": {
+          "reviewer_a": 2,
+          "reviewer_b": 2,
+          "absolute_difference": 0
+        },
+        "decision_realism": {
+          "reviewer_a": 4,
+          "reviewer_b": 3,
+          "absolute_difference": 1
+        }
+      },
+      "reviewer_a_flags": {
+        "leakage": "YES",
+        "ambiguity": "YES",
+        "missing_information": "No correction-rate threshold, adjustment for month or close-process changes, partial-evidence description, or valuation audit trail is given. Potential leakage phrase: exploration_protected=true.",
+        "boundary_rationale": "Cost-boundary completeness=5 because all seven instructed cost categories are itemized."
+      },
+      "reviewer_b_flags": {
+        "leakage": "YES",
+        "ambiguity": "YES",
+        "missing_information": "Quantitative acceptance boundaries, seasonal/confounder controls, the missing evidence components, and explicit POC exit criteria are absent.",
+        "boundary_rationale": "The phrase exploration_protected is flagged as potentially signaling a preferred continuation policy."
+      },
+      "escalation_reasons": [
+        "both reviewers scored <=2: baseline_credibility, attribution_defensibility",
+        "possible leakage",
+        "both reviewers flagged ambiguity"
+      ],
+      "adjudication_required": true,
+      "adjudicated_scores": {
+        "outcome_contract_clarity": null,
+        "baseline_credibility": null,
+        "evidence_auditability": null,
+        "cost_boundary_completeness": null,
+        "attribution_defensibility": null,
+        "decision_realism": null
+      },
+      "adjudication_action": null,
+      "adjudication_rationale": "",
+      "adjudicator": "",
+      "adjudication_date": null
+    },
+    {
+      "case_id": "OV-P09",
+      "score_disagreements": {
+        "outcome_contract_clarity": {
+          "reviewer_a": 4,
+          "reviewer_b": 3,
+          "absolute_difference": 1
+        },
+        "baseline_credibility": {
+          "reviewer_a": 5,
+          "reviewer_b": 5,
+          "absolute_difference": 0
+        },
+        "evidence_auditability": {
+          "reviewer_a": 4,
+          "reviewer_b": 4,
+          "absolute_difference": 0
+        },
+        "cost_boundary_completeness": {
+          "reviewer_a": 5,
+          "reviewer_b": 4,
+          "absolute_difference": 1
+        },
+        "attribution_defensibility": {
+          "reviewer_a": 5,
+          "reviewer_b": 5,
+          "absolute_difference": 0
+        },
+        "decision_realism": {
+          "reviewer_a": 4,
+          "reviewer_b": 4,
+          "absolute_difference": 0
+        }
+      },
+      "reviewer_a_flags": {
+        "leakage": "NO",
+        "ambiguity": "NO",
+        "missing_information": "Randomization unit, attribute-error-return threshold and evidence artifact locations are not stated.",
+        "boundary_rationale": "Baseline credibility=5 because the randomized comparison is unusually strong for this pilot. Cost-boundary completeness=5 because all instructed categories are itemized. Attribution defensibility=5 because randomized verified evidence, 0.88 confidence, and narrow uncertainty provide exemplary support."
+      },
+      "reviewer_b_flags": {
+        "leakage": "NO",
+        "ambiguity": "NO",
+        "missing_information": "Randomization unit and sample sizes, acceptable attribute-error-return margin, evidence artifact references, and scaling capacity assumptions are not stated.",
+        "boundary_rationale": "Baseline credibility=5 because the randomized design provides an unusually strong incremental comparison with a populated baseline. Attribution defensibility=5 because verified randomized evidence, 0.88 confidence, and narrow uncertainty make the causal claim exemplary for the pilot."
+      },
+      "escalation_reasons": [],
+      "adjudication_required": false,
+      "adjudicated_scores": {
+        "outcome_contract_clarity": null,
+        "baseline_credibility": null,
+        "evidence_auditability": null,
+        "cost_boundary_completeness": null,
+        "attribution_defensibility": null,
+        "decision_realism": null
+      },
+      "adjudication_action": null,
+      "adjudication_rationale": "",
+      "adjudicator": "",
+      "adjudication_date": null
+    },
+    {
+      "case_id": "OV-P10",
+      "score_disagreements": {
+        "outcome_contract_clarity": {
+          "reviewer_a": 3,
+          "reviewer_b": 3,
+          "absolute_difference": 0
+        },
+        "baseline_credibility": {
+          "reviewer_a": 4,
+          "reviewer_b": 4,
+          "absolute_difference": 0
+        },
+        "evidence_auditability": {
+          "reviewer_a": 4,
+          "reviewer_b": 4,
+          "absolute_difference": 0
+        },
+        "cost_boundary_completeness": {
+          "reviewer_a": 5,
+          "reviewer_b": 4,
+          "absolute_difference": 1
+        },
+        "attribution_defensibility": {
+          "reviewer_a": 4,
+          "reviewer_b": 4,
+          "absolute_difference": 0
+        },
+        "decision_realism": {
+          "reviewer_a": 4,
+          "reviewer_b": 4,
+          "absolute_difference": 0
+        }
+      },
+      "reviewer_a_flags": {
+        "leakage": "NO",
+        "ambiguity": "YES",
+        "missing_information": "Correct-policy and repeat-contact thresholds, stepped-wedge rollout details, and evidence artifact references are not specified.",
+        "boundary_rationale": "Cost-boundary completeness=5 because provider, infrastructure, tooling, human review, integration, governance, and rework are explicit."
+      },
+      "reviewer_b_flags": {
+        "leakage": "NO",
+        "ambiguity": "YES",
+        "missing_information": "Handling-time, policy-error, and repeat-contact thresholds; rollout sequencing; evidence references; and the operational cause of substantial rework are missing.",
+        "boundary_rationale": ""
+      },
+      "escalation_reasons": [
+        "both reviewers flagged ambiguity"
+      ],
+      "adjudication_required": true,
+      "adjudicated_scores": {
+        "outcome_contract_clarity": null,
+        "baseline_credibility": null,
+        "evidence_auditability": null,
+        "cost_boundary_completeness": null,
+        "attribution_defensibility": null,
+        "decision_realism": null
+      },
+      "adjudication_action": null,
+      "adjudication_rationale": "",
+      "adjudicator": "",
+      "adjudication_date": null
+    },
+    {
+      "case_id": "OV-P11",
+      "score_disagreements": {
+        "outcome_contract_clarity": {
+          "reviewer_a": 4,
+          "reviewer_b": 4,
+          "absolute_difference": 0
+        },
+        "baseline_credibility": {
+          "reviewer_a": 4,
+          "reviewer_b": 4,
+          "absolute_difference": 0
+        },
+        "evidence_auditability": {
+          "reviewer_a": 3,
+          "reviewer_b": 2,
+          "absolute_difference": 1
+        },
+        "cost_boundary_completeness": {
+          "reviewer_a": 5,
+          "reviewer_b": 4,
+          "absolute_difference": 1
+        },
+        "attribution_defensibility": {
+          "reviewer_a": 3,
+          "reviewer_b": 3,
+          "absolute_difference": 0
+        },
+        "decision_realism": {
+          "reviewer_a": 5,
+          "reviewer_b": 5,
+          "absolute_difference": 0
+        }
+      },
+      "reviewer_a_flags": {
+        "leakage": "YES",
+        "ambiguity": "YES",
+        "missing_information": "Matching construction, consent and fairness thresholds, partial-evidence gaps, margin calculation, and evidence locations are omitted. Potential leakage phrase: compliance_status 'PROHIBITED'.",
+        "boundary_rationale": "Cost-boundary completeness=5 because all instructed cost categories are separately reported. Decision realism=5 because the case exposes economics, uncertainty, harms, and an unambiguous compliance stop condition, with the latter flagged as possible leakage."
+      },
+      "reviewer_b_flags": {
+        "leakage": "YES",
+        "ambiguity": "YES",
+        "missing_information": "Consent and fairness thresholds, matching variables, missing evidence components, prohibition basis, and remediation path are absent.",
+        "boundary_rationale": "Decision realism=5 because the explicit PROHIBITED status establishes an unambiguous stop boundary for a high-risk personalization workflow; the phrase is flagged as potentially revealing preferred policy."
+      },
+      "escalation_reasons": [
+        "possible leakage",
+        "both reviewers flagged ambiguity"
+      ],
+      "adjudication_required": true,
+      "adjudicated_scores": {
+        "outcome_contract_clarity": null,
+        "baseline_credibility": null,
+        "evidence_auditability": null,
+        "cost_boundary_completeness": null,
+        "attribution_defensibility": null,
+        "decision_realism": null
+      },
+      "adjudication_action": null,
+      "adjudication_rationale": "",
+      "adjudicator": "",
+      "adjudication_date": null
+    },
+    {
+      "case_id": "OV-P12",
+      "score_disagreements": {
+        "outcome_contract_clarity": {
+          "reviewer_a": 3,
+          "reviewer_b": 3,
+          "absolute_difference": 0
+        },
+        "baseline_credibility": {
+          "reviewer_a": 4,
+          "reviewer_b": 4,
+          "absolute_difference": 0
+        },
+        "evidence_auditability": {
+          "reviewer_a": 4,
+          "reviewer_b": 4,
+          "absolute_difference": 0
+        },
+        "cost_boundary_completeness": {
+          "reviewer_a": 5,
+          "reviewer_b": 4,
+          "absolute_difference": 1
+        },
+        "attribution_defensibility": {
+          "reviewer_a": 4,
+          "reviewer_b": 4,
+          "absolute_difference": 0
+        },
+        "decision_realism": {
+          "reviewer_a": 4,
+          "reviewer_b": 4,
+          "absolute_difference": 0
+        }
+      },
+      "reviewer_a_flags": {
+        "leakage": "YES",
+        "ambiguity": "YES",
+        "missing_information": "Successful-discovery and irrelevant-click thresholds, matching variables, and evidence artifact references are absent. Potential leakage phrase: exploration_protected=true.",
+        "boundary_rationale": "Cost-boundary completeness=5 because all seven instructed cost categories are itemized."
+      },
+      "reviewer_b_flags": {
+        "leakage": "YES",
+        "ambiguity": "YES",
+        "missing_information": "Definitions and thresholds for successful discovery and irrelevant clicks, matching details, evidence references, and exploration exit criteria are missing.",
+        "boundary_rationale": "The phrase exploration_protected is flagged as potentially signaling a preferred continuation policy."
+      },
+      "escalation_reasons": [
+        "possible leakage",
+        "both reviewers flagged ambiguity"
+      ],
+      "adjudication_required": true,
+      "adjudicated_scores": {
+        "outcome_contract_clarity": null,
+        "baseline_credibility": null,
+        "evidence_auditability": null,
+        "cost_boundary_completeness": null,
+        "attribution_defensibility": null,
+        "decision_realism": null
+      },
+      "adjudication_action": null,
+      "adjudication_rationale": "",
+      "adjudicator": "",
+      "adjudication_date": null
+    },
+    {
+      "case_id": "OV-P13",
+      "score_disagreements": {
+        "outcome_contract_clarity": {
+          "reviewer_a": 4,
+          "reviewer_b": 4,
+          "absolute_difference": 0
+        },
+        "baseline_credibility": {
+          "reviewer_a": 4,
+          "reviewer_b": 4,
+          "absolute_difference": 0
+        },
+        "evidence_auditability": {
+          "reviewer_a": 4,
+          "reviewer_b": 4,
+          "absolute_difference": 0
+        },
+        "cost_boundary_completeness": {
+          "reviewer_a": 5,
+          "reviewer_b": 4,
+          "absolute_difference": 1
+        },
+        "attribution_defensibility": {
+          "reviewer_a": 4,
+          "reviewer_b": 4,
+          "absolute_difference": 0
+        },
+        "decision_realism": {
+          "reviewer_a": 4,
+          "reviewer_b": 4,
+          "absolute_difference": 0
+        }
+      },
+      "reviewer_a_flags": {
+        "leakage": "NO",
+        "ambiguity": "NO",
+        "missing_information": "Stepped-wedge sequencing, service-constraint thresholds, cost valuation method, and evidence artifact locations are not shown.",
+        "boundary_rationale": "Cost-boundary completeness=5 because all seven instructed categories are separately visible."
+      },
+      "reviewer_b_flags": {
+        "leakage": "NO",
+        "ambiguity": "NO",
+        "missing_information": "Route-level acceptance thresholds, stepped-wedge rollout details, evidence artifact references, and scale effects on dispatch and driver operations are not stated.",
+        "boundary_rationale": ""
+      },
+      "escalation_reasons": [],
+      "adjudication_required": false,
+      "adjudicated_scores": {
+        "outcome_contract_clarity": null,
+        "baseline_credibility": null,
+        "evidence_auditability": null,
+        "cost_boundary_completeness": null,
+        "attribution_defensibility": null,
+        "decision_realism": null
+      },
+      "adjudication_action": null,
+      "adjudication_rationale": "",
+      "adjudicator": "",
+      "adjudication_date": null
+    },
+    {
+      "case_id": "OV-P14",
+      "score_disagreements": {
+        "outcome_contract_clarity": {
+          "reviewer_a": 3,
+          "reviewer_b": 3,
+          "absolute_difference": 0
+        },
+        "baseline_credibility": {
+          "reviewer_a": 3,
+          "reviewer_b": 3,
+          "absolute_difference": 0
+        },
+        "evidence_auditability": {
+          "reviewer_a": 3,
+          "reviewer_b": 2,
+          "absolute_difference": 1
+        },
+        "cost_boundary_completeness": {
+          "reviewer_a": 5,
+          "reviewer_b": 4,
+          "absolute_difference": 1
+        },
+        "attribution_defensibility": {
+          "reviewer_a": 3,
+          "reviewer_b": 3,
+          "absolute_difference": 0
+        },
+        "decision_realism": {
+          "reviewer_a": 4,
+          "reviewer_b": 3,
+          "absolute_difference": 1
+        }
+      },
+      "reviewer_a_flags": {
+        "leakage": "NO",
+        "ambiguity": "YES",
+        "missing_information": "The inaccurate-promise threshold, time-series specification and controls, partial-evidence gap, and valuation method are missing.",
+        "boundary_rationale": "Cost-boundary completeness=5 because every instructed cost category is itemized."
+      },
+      "reviewer_b_flags": {
+        "leakage": "NO",
+        "ambiguity": "YES",
+        "missing_information": "Targets for enquiry reduction and inaccurate promises, time-series controls, missing evidence components, and revise/scale triggers are absent.",
+        "boundary_rationale": ""
+      },
+      "escalation_reasons": [
+        "both reviewers flagged ambiguity"
+      ],
+      "adjudication_required": true,
+      "adjudicated_scores": {
+        "outcome_contract_clarity": null,
+        "baseline_credibility": null,
+        "evidence_auditability": null,
+        "cost_boundary_completeness": null,
+        "attribution_defensibility": null,
+        "decision_realism": null
+      },
+      "adjudication_action": null,
+      "adjudication_rationale": "",
+      "adjudicator": "",
+      "adjudication_date": null
+    },
+    {
+      "case_id": "OV-P15",
+      "score_disagreements": {
+        "outcome_contract_clarity": {
+          "reviewer_a": 1,
+          "reviewer_b": 1,
+          "absolute_difference": 0
+        },
+        "baseline_credibility": {
+          "reviewer_a": 1,
+          "reviewer_b": 1,
+          "absolute_difference": 0
+        },
+        "evidence_auditability": {
+          "reviewer_a": 1,
+          "reviewer_b": 1,
+          "absolute_difference": 0
+        },
+        "cost_boundary_completeness": {
+          "reviewer_a": 5,
+          "reviewer_b": 4,
+          "absolute_difference": 1
+        },
+        "attribution_defensibility": {
+          "reviewer_a": 2,
+          "reviewer_b": 1,
+          "absolute_difference": 1
+        },
+        "decision_realism": {
+          "reviewer_a": 2,
+          "reviewer_b": 3,
+          "absolute_difference": 1
+        }
+      },
+      "reviewer_a_flags": {
+        "leakage": "YES",
+        "ambiguity": "YES",
+        "missing_information": "No outcome contract, comparator, baseline value, verified evidence, replenishment acceptance limits, or valuation audit trail is provided. Potential leakage phrase: exploration_protected=true.",
+        "boundary_rationale": "Outcome-contract clarity=1 because no contract is present. Baseline credibility=1 because no baseline design or value exists. Evidence auditability=1 because evidence is UNVERIFIED with no identified artifacts. Cost-boundary completeness=5 because all instructed cost categories are separately reported."
+      },
+      "reviewer_b_flags": {
+        "leakage": "YES",
+        "ambiguity": "YES",
+        "missing_information": "Outcome contract, baseline, verification artifacts, replenishment service and inventory-risk limits, and exploration exit criteria are missing.",
+        "boundary_rationale": "Outcome-contract clarity=1 because no outcome contract exists. Baseline credibility=1 because the design is NONE and baseline value is absent. Evidence auditability=1 because evidence is UNVERIFIED without inspectable support. Attribution defensibility=1 because confidence 0.40 is unsupported by a comparison design. The phrase exploration_protected is flagged as potentially signaling preferred continuation."
+      },
+      "escalation_reasons": [
+        "both reviewers scored <=2: outcome_contract_clarity, baseline_credibility, evidence_auditability, attribution_defensibility",
+        "possible leakage",
+        "both reviewers flagged ambiguity"
+      ],
+      "adjudication_required": true,
+      "adjudicated_scores": {
+        "outcome_contract_clarity": null,
+        "baseline_credibility": null,
+        "evidence_auditability": null,
+        "cost_boundary_completeness": null,
+        "attribution_defensibility": null,
+        "decision_realism": null
+      },
+      "adjudication_action": null,
+      "adjudication_rationale": "",
+      "adjudicator": "",
+      "adjudication_date": null
+    },
+    {
+      "case_id": "OV-P16",
+      "score_disagreements": {
+        "outcome_contract_clarity": {
+          "reviewer_a": 4,
+          "reviewer_b": 4,
+          "absolute_difference": 0
+        },
+        "baseline_credibility": {
+          "reviewer_a": 4,
+          "reviewer_b": 4,
+          "absolute_difference": 0
+        },
+        "evidence_auditability": {
+          "reviewer_a": 4,
+          "reviewer_b": 4,
+          "absolute_difference": 0
+        },
+        "cost_boundary_completeness": {
+          "reviewer_a": 5,
+          "reviewer_b": 4,
+          "absolute_difference": 1
+        },
+        "attribution_defensibility": {
+          "reviewer_a": 4,
+          "reviewer_b": 4,
+          "absolute_difference": 0
+        },
+        "decision_realism": {
+          "reviewer_a": 4,
+          "reviewer_b": 4,
+          "absolute_difference": 0
+        }
+      },
+      "reviewer_a_flags": {
+        "leakage": "NO",
+        "ambiguity": "NO",
+        "missing_information": "The registered error limit, matching variables, value derivation, and evidence artifact locations are not visible.",
+        "boundary_rationale": "Cost-boundary completeness=5 because all seven instructed cost categories are itemized."
+      },
+      "reviewer_b_flags": {
+        "leakage": "NO",
+        "ambiguity": "NO",
+        "missing_information": "The registered error limit value, matching variables, evidence artifact references, and scale-volume capacity are not visible.",
+        "boundary_rationale": ""
+      },
+      "escalation_reasons": [],
+      "adjudication_required": false,
+      "adjudicated_scores": {
+        "outcome_contract_clarity": null,
+        "baseline_credibility": null,
+        "evidence_auditability": null,
+        "cost_boundary_completeness": null,
+        "attribution_defensibility": null,
+        "decision_realism": null
+      },
+      "adjudication_action": null,
+      "adjudication_rationale": "",
+      "adjudicator": "",
+      "adjudication_date": null
+    },
+    {
+      "case_id": "OV-P17",
+      "score_disagreements": {
+        "outcome_contract_clarity": {
+          "reviewer_a": 4,
+          "reviewer_b": 4,
+          "absolute_difference": 0
+        },
+        "baseline_credibility": {
+          "reviewer_a": 5,
+          "reviewer_b": 5,
+          "absolute_difference": 0
+        },
+        "evidence_auditability": {
+          "reviewer_a": 4,
+          "reviewer_b": 4,
+          "absolute_difference": 0
+        },
+        "cost_boundary_completeness": {
+          "reviewer_a": 5,
+          "reviewer_b": 4,
+          "absolute_difference": 1
+        },
+        "attribution_defensibility": {
+          "reviewer_a": 5,
+          "reviewer_b": 5,
+          "absolute_difference": 0
+        },
+        "decision_realism": {
+          "reviewer_a": 4,
+          "reviewer_b": 4,
+          "absolute_difference": 0
+        }
+      },
+      "reviewer_a_flags": {
+        "leakage": "NO",
+        "ambiguity": "NO",
+        "missing_information": "Randomization unit, high-severity miss threshold, outcome valuation method, and evidence artifact locations are absent.",
+        "boundary_rationale": "Baseline credibility=5 because the randomized design provides the strongest stated incremental comparison. Cost-boundary completeness=5 because every instructed category is explicit. Attribution defensibility=5 because randomized verified evidence and high confidence provide exemplary causal support for the pilot."
+      },
+      "reviewer_b_flags": {
+        "leakage": "NO",
+        "ambiguity": "NO",
+        "missing_information": "Randomization unit, sample allocation, tolerated missed-incident boundary, evidence artifact references, and incident-severity stratification are not stated.",
+        "boundary_rationale": "Baseline credibility=5 because randomization gives an exemplary incremental comparison for the stated pilot. Attribution defensibility=5 because verified randomized evidence, 0.87 confidence, and bounded uncertainty make attribution unusually strong, although operational thresholds remain unstated."
+      },
+      "escalation_reasons": [],
+      "adjudication_required": false,
+      "adjudicated_scores": {
+        "outcome_contract_clarity": null,
+        "baseline_credibility": null,
+        "evidence_auditability": null,
+        "cost_boundary_completeness": null,
+        "attribution_defensibility": null,
+        "decision_realism": null
+      },
+      "adjudication_action": null,
+      "adjudication_rationale": "",
+      "adjudicator": "",
+      "adjudication_date": null
+    },
+    {
+      "case_id": "OV-P18",
+      "score_disagreements": {
+        "outcome_contract_clarity": {
+          "reviewer_a": 3,
+          "reviewer_b": 4,
+          "absolute_difference": 1
+        },
+        "baseline_credibility": {
+          "reviewer_a": 4,
+          "reviewer_b": 4,
+          "absolute_difference": 0
+        },
+        "evidence_auditability": {
+          "reviewer_a": 3,
+          "reviewer_b": 2,
+          "absolute_difference": 1
+        },
+        "cost_boundary_completeness": {
+          "reviewer_a": 5,
+          "reviewer_b": 4,
+          "absolute_difference": 1
+        },
+        "attribution_defensibility": {
+          "reviewer_a": 3,
+          "reviewer_b": 3,
+          "absolute_difference": 0
+        },
+        "decision_realism": {
+          "reviewer_a": 4,
+          "reviewer_b": 4,
+          "absolute_difference": 0
+        }
+      },
+      "reviewer_a_flags": {
+        "leakage": "NO",
+        "ambiguity": "YES",
+        "missing_information": "Unsafe-command acceptance boundary, matching design, partial-evidence gap, and harm estimation basis are not stated.",
+        "boundary_rationale": "Cost-boundary completeness=5 because all seven instructed cost categories are itemized."
+      },
+      "reviewer_b_flags": {
+        "leakage": "NO",
+        "ambiguity": "YES",
+        "missing_information": "Unsafe-command definition and tolerance, matching variables, missing evidence components, conditional-control requirements, and remediation criteria are absent.",
+        "boundary_rationale": ""
+      },
+      "escalation_reasons": [
+        "both reviewers flagged ambiguity"
+      ],
+      "adjudication_required": true,
+      "adjudicated_scores": {
+        "outcome_contract_clarity": null,
+        "baseline_credibility": null,
+        "evidence_auditability": null,
+        "cost_boundary_completeness": null,
+        "attribution_defensibility": null,
+        "decision_realism": null
+      },
+      "adjudication_action": null,
+      "adjudication_rationale": "",
+      "adjudicator": "",
+      "adjudication_date": null
+    },
+    {
+      "case_id": "OV-P19",
+      "score_disagreements": {
+        "outcome_contract_clarity": {
+          "reviewer_a": 1,
+          "reviewer_b": 1,
+          "absolute_difference": 0
+        },
+        "baseline_credibility": {
+          "reviewer_a": 1,
+          "reviewer_b": 1,
+          "absolute_difference": 0
+        },
+        "evidence_auditability": {
+          "reviewer_a": 1,
+          "reviewer_b": 1,
+          "absolute_difference": 0
+        },
+        "cost_boundary_completeness": {
+          "reviewer_a": 5,
+          "reviewer_b": 4,
+          "absolute_difference": 1
+        },
+        "attribution_defensibility": {
+          "reviewer_a": 2,
+          "reviewer_b": 1,
+          "absolute_difference": 1
+        },
+        "decision_realism": {
+          "reviewer_a": 2,
+          "reviewer_b": 3,
+          "absolute_difference": 1
+        }
+      },
+      "reviewer_a_flags": {
+        "leakage": "YES",
+        "ambiguity": "YES",
+        "missing_information": "No outcome contract, baseline, comparator, verification evidence, prioritization quality boundary, or value derivation is available. Potential leakage phrase: exploration_protected=true.",
+        "boundary_rationale": "Outcome-contract clarity=1 because the contract is absent. Baseline credibility=1 because the design is NONE and baseline value is null. Evidence auditability=1 because evidence is UNVERIFIED without artifact references. Cost-boundary completeness=5 because every instructed category is itemized."
+      },
+      "reviewer_b_flags": {
+        "leakage": "YES",
+        "ambiguity": "YES",
+        "missing_information": "Outcome contract, baseline, verification artifacts, prioritization-quality and remediation-risk limits, and exploration exit criteria are missing.",
+        "boundary_rationale": "Outcome-contract clarity=1 because no outcome contract exists. Baseline credibility=1 because no comparison design or baseline value is present. Evidence auditability=1 because evidence is UNVERIFIED and unsupported. Attribution defensibility=1 because 0.35 confidence has no defensible baseline. The phrase exploration_protected is flagged as potentially signaling preferred continuation."
+      },
+      "escalation_reasons": [
+        "both reviewers scored <=2: outcome_contract_clarity, baseline_credibility, evidence_auditability, attribution_defensibility",
+        "possible leakage",
+        "both reviewers flagged ambiguity"
+      ],
+      "adjudication_required": true,
+      "adjudicated_scores": {
+        "outcome_contract_clarity": null,
+        "baseline_credibility": null,
+        "evidence_auditability": null,
+        "cost_boundary_completeness": null,
+        "attribution_defensibility": null,
+        "decision_realism": null
+      },
+      "adjudication_action": null,
+      "adjudication_rationale": "",
+      "adjudicator": "",
+      "adjudication_date": null
+    },
+    {
+      "case_id": "OV-P20",
+      "score_disagreements": {
+        "outcome_contract_clarity": {
+          "reviewer_a": 4,
+          "reviewer_b": 4,
+          "absolute_difference": 0
+        },
+        "baseline_credibility": {
+          "reviewer_a": 3,
+          "reviewer_b": 3,
+          "absolute_difference": 0
+        },
+        "evidence_auditability": {
+          "reviewer_a": 4,
+          "reviewer_b": 4,
+          "absolute_difference": 0
+        },
+        "cost_boundary_completeness": {
+          "reviewer_a": 5,
+          "reviewer_b": 4,
+          "absolute_difference": 1
+        },
+        "attribution_defensibility": {
+          "reviewer_a": 4,
+          "reviewer_b": 3,
+          "absolute_difference": 1
+        },
+        "decision_realism": {
+          "reviewer_a": 4,
+          "reviewer_b": 4,
+          "absolute_difference": 0
+        }
+      },
+      "reviewer_a_flags": {
+        "leakage": "NO",
+        "ambiguity": "YES",
+        "missing_information": "Detection and rework thresholds, pre/post series specification, contemporaneous controls, and evidence locations are not given.",
+        "boundary_rationale": "Cost-boundary completeness=5 because all seven instructed cost categories are separately visible."
+      },
+      "reviewer_b_flags": {
+        "leakage": "NO",
+        "ambiguity": "NO",
+        "missing_information": "Detection and rework thresholds, pre/post series length and concurrent-change controls, evidence artifact references, and rework root cause are not stated.",
+        "boundary_rationale": ""
+      },
+      "escalation_reasons": [],
+      "adjudication_required": false,
+      "adjudicated_scores": {
+        "outcome_contract_clarity": null,
+        "baseline_credibility": null,
+        "evidence_auditability": null,
+        "cost_boundary_completeness": null,
+        "attribution_defensibility": null,
+        "decision_realism": null
+      },
+      "adjudication_action": null,
+      "adjudication_rationale": "",
+      "adjudicator": "",
+      "adjudication_date": null
+    },
+    {
+      "case_id": "OV-P21",
+      "score_disagreements": {
+        "outcome_contract_clarity": {
+          "reviewer_a": 4,
+          "reviewer_b": 3,
+          "absolute_difference": 1
+        },
+        "baseline_credibility": {
+          "reviewer_a": 4,
+          "reviewer_b": 4,
+          "absolute_difference": 0
+        },
+        "evidence_auditability": {
+          "reviewer_a": 4,
+          "reviewer_b": 4,
+          "absolute_difference": 0
+        },
+        "cost_boundary_completeness": {
+          "reviewer_a": 5,
+          "reviewer_b": 4,
+          "absolute_difference": 1
+        },
+        "attribution_defensibility": {
+          "reviewer_a": 4,
+          "reviewer_b": 4,
+          "absolute_difference": 0
+        },
+        "decision_realism": {
+          "reviewer_a": 4,
+          "reviewer_b": 4,
+          "absolute_difference": 0
+        }
+      },
+      "reviewer_a_flags": {
+        "leakage": "NO",
+        "ambiguity": "NO",
+        "missing_information": "Stepped-wedge sequencing, repeat-contact and policy-error thresholds, and evidence artifact locations are not shown.",
+        "boundary_rationale": "Cost-boundary completeness=5 because provider, infrastructure, tooling, human review, integration, governance, and rework costs are all explicit."
+      },
+      "reviewer_b_flags": {
+        "leakage": "NO",
+        "ambiguity": "NO",
+        "missing_information": "Handling-time, repeat-contact, and policy-error thresholds; stepped-wedge rollout details; evidence references; and scaling service levels are absent.",
+        "boundary_rationale": ""
+      },
+      "escalation_reasons": [],
+      "adjudication_required": false,
+      "adjudicated_scores": {
+        "outcome_contract_clarity": null,
+        "baseline_credibility": null,
+        "evidence_auditability": null,
+        "cost_boundary_completeness": null,
+        "attribution_defensibility": null,
+        "decision_realism": null
+      },
+      "adjudication_action": null,
+      "adjudication_rationale": "",
+      "adjudicator": "",
+      "adjudication_date": null
+    },
+    {
+      "case_id": "OV-P22",
+      "score_disagreements": {
+        "outcome_contract_clarity": {
+          "reviewer_a": 3,
+          "reviewer_b": 3,
+          "absolute_difference": 0
+        },
+        "baseline_credibility": {
+          "reviewer_a": 4,
+          "reviewer_b": 4,
+          "absolute_difference": 0
+        },
+        "evidence_auditability": {
+          "reviewer_a": 4,
+          "reviewer_b": 4,
+          "absolute_difference": 0
+        },
+        "cost_boundary_completeness": {
+          "reviewer_a": 5,
+          "reviewer_b": 4,
+          "absolute_difference": 1
+        },
+        "attribution_defensibility": {
+          "reviewer_a": 4,
+          "reviewer_b": 4,
+          "absolute_difference": 0
+        },
+        "decision_realism": {
+          "reviewer_a": 4,
+          "reviewer_b": 3,
+          "absolute_difference": 1
+        }
+      },
+      "reviewer_a_flags": {
+        "leakage": "YES",
+        "ambiguity": "YES",
+        "missing_information": "Correction and opt-out thresholds, matching variables, outcome valuation method, and evidence locations are absent. Potential leakage phrase: exploration_protected=true.",
+        "boundary_rationale": "Cost-boundary completeness=5 because all seven instructed cost categories are itemized."
+      },
+      "reviewer_b_flags": {
+        "leakage": "YES",
+        "ambiguity": "YES",
+        "missing_information": "Time, correction, and opt-out thresholds; matching variables; evidence references; low-utilization diagnosis; and exploration exit criteria are missing.",
+        "boundary_rationale": "The phrase exploration_protected is flagged as potentially signaling a preferred continuation policy."
+      },
+      "escalation_reasons": [
+        "possible leakage",
+        "both reviewers flagged ambiguity"
+      ],
+      "adjudication_required": true,
+      "adjudicated_scores": {
+        "outcome_contract_clarity": null,
+        "baseline_credibility": null,
+        "evidence_auditability": null,
+        "cost_boundary_completeness": null,
+        "attribution_defensibility": null,
+        "decision_realism": null
+      },
+      "adjudication_action": null,
+      "adjudication_rationale": "",
+      "adjudicator": "",
+      "adjudication_date": null
+    },
+    {
+      "case_id": "OV-P23",
+      "score_disagreements": {
+        "outcome_contract_clarity": {
+          "reviewer_a": 4,
+          "reviewer_b": 4,
+          "absolute_difference": 0
+        },
+        "baseline_credibility": {
+          "reviewer_a": 2,
+          "reviewer_b": 2,
+          "absolute_difference": 0
+        },
+        "evidence_auditability": {
+          "reviewer_a": 3,
+          "reviewer_b": 2,
+          "absolute_difference": 1
+        },
+        "cost_boundary_completeness": {
+          "reviewer_a": 5,
+          "reviewer_b": 4,
+          "absolute_difference": 1
+        },
+        "attribution_defensibility": {
+          "reviewer_a": 2,
+          "reviewer_b": 2,
+          "absolute_difference": 0
+        },
+        "decision_realism": {
+          "reviewer_a": 4,
+          "reviewer_b": 3,
+          "absolute_difference": 1
+        }
+      },
+      "reviewer_a_flags": {
+        "leakage": "NO",
+        "ambiguity": "YES",
+        "missing_information": "Before/after confounder controls, complaint threshold, offer-cost treatment, partial-evidence gap, and retained-margin audit trail are not specified.",
+        "boundary_rationale": "Cost-boundary completeness=5 because every instructed cost category is explicit."
+      },
+      "reviewer_b_flags": {
+        "leakage": "NO",
+        "ambiguity": "YES",
+        "missing_information": "Complaint threshold, controls for churn seasonality and offer selection, missing evidence components, rework cause, and revise/scale triggers are absent.",
+        "boundary_rationale": ""
+      },
+      "escalation_reasons": [
+        "both reviewers scored <=2: baseline_credibility, attribution_defensibility",
+        "both reviewers flagged ambiguity"
+      ],
+      "adjudication_required": true,
+      "adjudicated_scores": {
+        "outcome_contract_clarity": null,
+        "baseline_credibility": null,
+        "evidence_auditability": null,
+        "cost_boundary_completeness": null,
+        "attribution_defensibility": null,
+        "decision_realism": null
+      },
+      "adjudication_action": null,
+      "adjudication_rationale": "",
+      "adjudicator": "",
+      "adjudication_date": null
+    },
+    {
+      "case_id": "OV-P24",
+      "score_disagreements": {
+        "outcome_contract_clarity": {
+          "reviewer_a": 3,
+          "reviewer_b": 4,
+          "absolute_difference": 1
+        },
+        "baseline_credibility": {
+          "reviewer_a": 3,
+          "reviewer_b": 3,
+          "absolute_difference": 0
+        },
+        "evidence_auditability": {
+          "reviewer_a": 3,
+          "reviewer_b": 2,
+          "absolute_difference": 1
+        },
+        "cost_boundary_completeness": {
+          "reviewer_a": 5,
+          "reviewer_b": 4,
+          "absolute_difference": 1
+        },
+        "attribution_defensibility": {
+          "reviewer_a": 3,
+          "reviewer_b": 3,
+          "absolute_difference": 0
+        },
+        "decision_realism": {
+          "reviewer_a": 4,
+          "reviewer_b": 3,
+          "absolute_difference": 1
+        }
+      },
+      "reviewer_a_flags": {
+        "leakage": "NO",
+        "ambiguity": "YES",
+        "missing_information": "Registered accuracy and escalation thresholds, sampling frame, time-series controls, partial-evidence gap, and interpreter-cost valuation are not shown.",
+        "boundary_rationale": "Cost-boundary completeness=5 because all seven instructed cost categories are itemized."
+      },
+      "reviewer_b_flags": {
+        "leakage": "NO",
+        "ambiguity": "YES",
+        "missing_information": "Registered accuracy and escalation threshold values, time-series controls, missing evidence components, language-level results, and decision triggers are not visible.",
+        "boundary_rationale": ""
+      },
+      "escalation_reasons": [
+        "both reviewers flagged ambiguity"
+      ],
+      "adjudication_required": true,
+      "adjudicated_scores": {
+        "outcome_contract_clarity": null,
+        "baseline_credibility": null,
+        "evidence_auditability": null,
+        "cost_boundary_completeness": null,
+        "attribution_defensibility": null,
+        "decision_realism": null
+      },
+      "adjudication_action": null,
+      "adjudication_rationale": "",
+      "adjudicator": "",
+      "adjudication_date": null
+    }
+  ]
+}

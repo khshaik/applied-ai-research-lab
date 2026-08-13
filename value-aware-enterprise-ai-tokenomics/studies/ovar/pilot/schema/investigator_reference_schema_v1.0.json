@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/ovar/investigator-reference-v1.0.schema.json",
+  "title": "OVAR investigator-only constructed reference record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["case_id", "true_incremental_value", "true_fully_loaded_cost", "true_expected_harm_cost", "reference_net_value", "reference_lower_bound", "reference_upper_bound", "reference_evidence_sufficient", "reference_compliance_pass", "reference_roi_state", "reference_action", "label_version"],
+  "properties": {
+    "case_id": {"type": "string", "pattern": "^OV-P[0-9]{2}$"},
+    "true_incremental_value": {"type": "number"},
+    "true_fully_loaded_cost": {"type": "number", "minimum": 0},
+    "true_expected_harm_cost": {"type": "number", "minimum": 0},
+    "reference_net_value": {"type": "number"},
+    "reference_lower_bound": {"type": "number"},
+    "reference_upper_bound": {"type": "number"},
+    "reference_evidence_sufficient": {"type": "boolean"},
+    "reference_compliance_pass": {"type": "boolean"},
+    "reference_roi_state": {"enum": ["POSITIVE", "NEGATIVE", "NEUTRAL", "INDETERMINATE"]},
+    "reference_action": {"enum": ["STOP", "REVISE", "CONTINUE_PILOT", "SCALE", "INDETERMINATE"]},
+    "label_version": {"const": "1.0"}
+  }
+}

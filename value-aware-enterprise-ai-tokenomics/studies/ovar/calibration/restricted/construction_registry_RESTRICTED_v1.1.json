@@ -1,0 +1,298 @@
+{
+  "metadata": {
+    "restricted": true,
+    "version": "1.1",
+    "mapping_method": "SHA-256 rank using fixed versioned salt",
+    "contains_reference_labels": false
+  },
+  "registry": [
+    {
+      "original_case_id": "OC-001",
+      "review_case_id": "OC-R033",
+      "domain": "HEALTHCARE",
+      "construction_stratum": "HIGH_VALUE_MODERATE_USAGE"
+    },
+    {
+      "original_case_id": "OC-002",
+      "review_case_id": "OC-R021",
+      "domain": "HEALTHCARE",
+      "construction_stratum": "HIGH_USAGE_LOW_VALUE"
+    },
+    {
+      "original_case_id": "OC-003",
+      "review_case_id": "OC-R029",
+      "domain": "HEALTHCARE",
+      "construction_stratum": "HIDDEN_FULLY_LOADED_COST"
+    },
+    {
+      "original_case_id": "OC-004",
+      "review_case_id": "OC-R001",
+      "domain": "HEALTHCARE",
+      "construction_stratum": "WEAK_OR_ABSENT_COUNTERFACTUAL"
+    },
+    {
+      "original_case_id": "OC-005",
+      "review_case_id": "OC-R031",
+      "domain": "HEALTHCARE",
+      "construction_stratum": "DELAYED_OR_SHARED_ATTRIBUTION"
+    },
+    {
+      "original_case_id": "OC-006",
+      "review_case_id": "OC-R008",
+      "domain": "HEALTHCARE",
+      "construction_stratum": "AUTHORIZATION_OR_COMPLIANCE_CONSTRAINT"
+    },
+    {
+      "original_case_id": "OC-007",
+      "review_case_id": "OC-R025",
+      "domain": "HEALTHCARE",
+      "construction_stratum": "LOW_ADOPTION_HIGH_VALUE"
+    },
+    {
+      "original_case_id": "OC-008",
+      "review_case_id": "OC-R034",
+      "domain": "HEALTHCARE",
+      "construction_stratum": "REVISE_INDETERMINATE_BOUNDARY"
+    },
+    {
+      "original_case_id": "OC-009",
+      "review_case_id": "OC-R013",
+      "domain": "FINANCIAL_SERVICES",
+      "construction_stratum": "HIGH_VALUE_MODERATE_USAGE"
+    },
+    {
+      "original_case_id": "OC-010",
+      "review_case_id": "OC-R039",
+      "domain": "FINANCIAL_SERVICES",
+      "construction_stratum": "HIGH_USAGE_LOW_VALUE"
+    },
+    {
+      "original_case_id": "OC-011",
+      "review_case_id": "OC-R007",
+      "domain": "FINANCIAL_SERVICES",
+      "construction_stratum": "HIDDEN_FULLY_LOADED_COST"
+    },
+    {
+      "original_case_id": "OC-012",
+      "review_case_id": "OC-R018",
+      "domain": "FINANCIAL_SERVICES",
+      "construction_stratum": "WEAK_OR_ABSENT_COUNTERFACTUAL"
+    },
+    {
+      "original_case_id": "OC-013",
+      "review_case_id": "OC-R035",
+      "domain": "FINANCIAL_SERVICES",
+      "construction_stratum": "DELAYED_OR_SHARED_ATTRIBUTION"
+    },
+    {
+      "original_case_id": "OC-014",
+      "review_case_id": "OC-R011",
+      "domain": "FINANCIAL_SERVICES",
+      "construction_stratum": "AUTHORIZATION_OR_COMPLIANCE_CONSTRAINT"
+    },
+    {
+      "original_case_id": "OC-015",
+      "review_case_id": "OC-R041",
+      "domain": "FINANCIAL_SERVICES",
+      "construction_stratum": "LOW_ADOPTION_HIGH_VALUE"
+    },
+    {
+      "original_case_id": "OC-016",
+      "review_case_id": "OC-R003",
+      "domain": "FINANCIAL_SERVICES",
+      "construction_stratum": "REVISE_INDETERMINATE_BOUNDARY"
+    },
+    {
+      "original_case_id": "OC-017",
+      "review_case_id": "OC-R009",
+      "domain": "CYBERSECURITY",
+      "construction_stratum": "HIGH_VALUE_MODERATE_USAGE"
+    },
+    {
+      "original_case_id": "OC-018",
+      "review_case_id": "OC-R044",
+      "domain": "CYBERSECURITY",
+      "construction_stratum": "HIGH_USAGE_LOW_VALUE"
+    },
+    {
+      "original_case_id": "OC-019",
+      "review_case_id": "OC-R002",
+      "domain": "CYBERSECURITY",
+      "construction_stratum": "HIDDEN_FULLY_LOADED_COST"
+    },
+    {
+      "original_case_id": "OC-020",
+      "review_case_id": "OC-R017",
+      "domain": "CYBERSECURITY",
+      "construction_stratum": "WEAK_OR_ABSENT_COUNTERFACTUAL"
+    },
+    {
+      "original_case_id": "OC-021",
+      "review_case_id": "OC-R014",
+      "domain": "CYBERSECURITY",
+      "construction_stratum": "DELAYED_OR_SHARED_ATTRIBUTION"
+    },
+    {
+      "original_case_id": "OC-022",
+      "review_case_id": "OC-R004",
+      "domain": "CYBERSECURITY",
+      "construction_stratum": "AUTHORIZATION_OR_COMPLIANCE_CONSTRAINT"
+    },
+    {
+      "original_case_id": "OC-023",
+      "review_case_id": "OC-R040",
+      "domain": "CYBERSECURITY",
+      "construction_stratum": "LOW_ADOPTION_HIGH_VALUE"
+    },
+    {
+      "original_case_id": "OC-024",
+      "review_case_id": "OC-R047",
+      "domain": "CYBERSECURITY",
+      "construction_stratum": "REVISE_INDETERMINATE_BOUNDARY"
+    },
+    {
+      "original_case_id": "OC-025",
+      "review_case_id": "OC-R032",
+      "domain": "ECOMMERCE",
+      "construction_stratum": "HIGH_VALUE_MODERATE_USAGE"
+    },
+    {
+      "original_case_id": "OC-026",
+      "review_case_id": "OC-R022",
+      "domain": "ECOMMERCE",
+      "construction_stratum": "HIGH_USAGE_LOW_VALUE"
+    },
+    {
+      "original_case_id": "OC-027",
+      "review_case_id": "OC-R038",
+      "domain": "ECOMMERCE",
+      "construction_stratum": "HIDDEN_FULLY_LOADED_COST"
+    },
+    {
+      "original_case_id": "OC-028",
+      "review_case_id": "OC-R023",
+      "domain": "ECOMMERCE",
+      "construction_stratum": "WEAK_OR_ABSENT_COUNTERFACTUAL"
+    },
+    {
+      "original_case_id": "OC-029",
+      "review_case_id": "OC-R015",
+      "domain": "ECOMMERCE",
+      "construction_stratum": "DELAYED_OR_SHARED_ATTRIBUTION"
+    },
+    {
+      "original_case_id": "OC-030",
+      "review_case_id": "OC-R042",
+      "domain": "ECOMMERCE",
+      "construction_stratum": "AUTHORIZATION_OR_COMPLIANCE_CONSTRAINT"
+    },
+    {
+      "original_case_id": "OC-031",
+      "review_case_id": "OC-R012",
+      "domain": "ECOMMERCE",
+      "construction_stratum": "LOW_ADOPTION_HIGH_VALUE"
+    },
+    {
+      "original_case_id": "OC-032",
+      "review_case_id": "OC-R016",
+      "domain": "ECOMMERCE",
+      "construction_stratum": "REVISE_INDETERMINATE_BOUNDARY"
+    },
+    {
+      "original_case_id": "OC-033",
+      "review_case_id": "OC-R037",
+      "domain": "TRANSPORT_LOGISTICS",
+      "construction_stratum": "HIGH_VALUE_MODERATE_USAGE"
+    },
+    {
+      "original_case_id": "OC-034",
+      "review_case_id": "OC-R043",
+      "domain": "TRANSPORT_LOGISTICS",
+      "construction_stratum": "HIGH_USAGE_LOW_VALUE"
+    },
+    {
+      "original_case_id": "OC-035",
+      "review_case_id": "OC-R019",
+      "domain": "TRANSPORT_LOGISTICS",
+      "construction_stratum": "HIDDEN_FULLY_LOADED_COST"
+    },
+    {
+      "original_case_id": "OC-036",
+      "review_case_id": "OC-R036",
+      "domain": "TRANSPORT_LOGISTICS",
+      "construction_stratum": "WEAK_OR_ABSENT_COUNTERFACTUAL"
+    },
+    {
+      "original_case_id": "OC-037",
+      "review_case_id": "OC-R010",
+      "domain": "TRANSPORT_LOGISTICS",
+      "construction_stratum": "DELAYED_OR_SHARED_ATTRIBUTION"
+    },
+    {
+      "original_case_id": "OC-038",
+      "review_case_id": "OC-R045",
+      "domain": "TRANSPORT_LOGISTICS",
+      "construction_stratum": "AUTHORIZATION_OR_COMPLIANCE_CONSTRAINT"
+    },
+    {
+      "original_case_id": "OC-039",
+      "review_case_id": "OC-R048",
+      "domain": "TRANSPORT_LOGISTICS",
+      "construction_stratum": "LOW_ADOPTION_HIGH_VALUE"
+    },
+    {
+      "original_case_id": "OC-040",
+      "review_case_id": "OC-R028",
+      "domain": "TRANSPORT_LOGISTICS",
+      "construction_stratum": "REVISE_INDETERMINATE_BOUNDARY"
+    },
+    {
+      "original_case_id": "OC-041",
+      "review_case_id": "OC-R026",
+      "domain": "CUSTOMER_OPERATIONS",
+      "construction_stratum": "HIGH_VALUE_MODERATE_USAGE"
+    },
+    {
+      "original_case_id": "OC-042",
+      "review_case_id": "OC-R030",
+      "domain": "CUSTOMER_OPERATIONS",
+      "construction_stratum": "HIGH_USAGE_LOW_VALUE"
+    },
+    {
+      "original_case_id": "OC-043",
+      "review_case_id": "OC-R020",
+      "domain": "CUSTOMER_OPERATIONS",
+      "construction_stratum": "HIDDEN_FULLY_LOADED_COST"
+    },
+    {
+      "original_case_id": "OC-044",
+      "review_case_id": "OC-R024",
+      "domain": "CUSTOMER_OPERATIONS",
+      "construction_stratum": "WEAK_OR_ABSENT_COUNTERFACTUAL"
+    },
+    {
+      "original_case_id": "OC-045",
+      "review_case_id": "OC-R005",
+      "domain": "CUSTOMER_OPERATIONS",
+      "construction_stratum": "DELAYED_OR_SHARED_ATTRIBUTION"
+    },
+    {
+      "original_case_id": "OC-046",
+      "review_case_id": "OC-R027",
+      "domain": "CUSTOMER_OPERATIONS",
+      "construction_stratum": "AUTHORIZATION_OR_COMPLIANCE_CONSTRAINT"
+    },
+    {
+      "original_case_id": "OC-047",
+      "review_case_id": "OC-R006",
+      "domain": "CUSTOMER_OPERATIONS",
+      "construction_stratum": "LOW_ADOPTION_HIGH_VALUE"
+    },
+    {
+      "original_case_id": "OC-048",
+      "review_case_id": "OC-R046",
+      "domain": "CUSTOMER_OPERATIONS",
+      "construction_stratum": "REVISE_INDETERMINATE_BOUNDARY"
+    }
+  ]
+}

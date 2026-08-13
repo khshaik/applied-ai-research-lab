@@ -1,0 +1,478 @@
+{
+  "metadata": {
+    "study": "OVAR prospective constructed calibration",
+    "version": "1.0",
+    "confirmatory": false,
+    "executed_at": "2026-08-13T13:11:41.466Z",
+    "lock_sha256": "f9648e2305d996ea74e73c7bd4736eabc8744434e70bb906c328a6184c66d2f8",
+    "case_count": 48
+  },
+  "policy_summaries": [
+    {
+      "policy": "USAGE_ONLY",
+      "n": 48,
+      "denominators": {
+        "roi_nonpositive": 35,
+        "should_not_scale": 35,
+        "safe_reference": 13
+      },
+      "counts": {
+        "false_positive_roi": 35,
+        "false_scale": 15,
+        "false_stop": 0,
+        "authorization_violation": 5,
+        "exact_action": 2,
+        "indeterminate": 0
+      },
+      "rates": {
+        "false_positive_roi": 1,
+        "false_scale": 0.42857142857142855,
+        "false_stop": 0,
+        "authorization_violation": 0.10416666666666667,
+        "exact_action": 0.041666666666666664,
+        "indeterminate": 0
+      },
+      "measurement_burden": 0.05,
+      "case_ids": {
+        "false_positive_roi": [
+          "OC-R001",
+          "OC-R002",
+          "OC-R003",
+          "OC-R005",
+          "OC-R007",
+          "OC-R008",
+          "OC-R010",
+          "OC-R014",
+          "OC-R015",
+          "OC-R016",
+          "OC-R017",
+          "OC-R018",
+          "OC-R019",
+          "OC-R020",
+          "OC-R021",
+          "OC-R022",
+          "OC-R023",
+          "OC-R024",
+          "OC-R027",
+          "OC-R028",
+          "OC-R029",
+          "OC-R030",
+          "OC-R031",
+          "OC-R032",
+          "OC-R034",
+          "OC-R036",
+          "OC-R037",
+          "OC-R038",
+          "OC-R039",
+          "OC-R042",
+          "OC-R043",
+          "OC-R044",
+          "OC-R045",
+          "OC-R046",
+          "OC-R047"
+        ],
+        "false_scale": [
+          "OC-R001",
+          "OC-R002",
+          "OC-R017",
+          "OC-R018",
+          "OC-R019",
+          "OC-R020",
+          "OC-R021",
+          "OC-R022",
+          "OC-R023",
+          "OC-R024",
+          "OC-R030",
+          "OC-R038",
+          "OC-R039",
+          "OC-R043",
+          "OC-R044"
+        ],
+        "false_stop": [],
+        "authorization_violation": [
+          "OC-R027",
+          "OC-R032",
+          "OC-R037",
+          "OC-R042",
+          "OC-R045"
+        ]
+      },
+      "weighted_loss": 4.572619047619048
+    },
+    {
+      "policy": "SELF_REPORTED_VALUE",
+      "n": 48,
+      "denominators": {
+        "roi_nonpositive": 35,
+        "should_not_scale": 35,
+        "safe_reference": 13
+      },
+      "counts": {
+        "false_positive_roi": 35,
+        "false_scale": 34,
+        "false_stop": 0,
+        "authorization_violation": 5,
+        "exact_action": 6,
+        "indeterminate": 0
+      },
+      "rates": {
+        "false_positive_roi": 1,
+        "false_scale": 0.9714285714285714,
+        "false_stop": 0,
+        "authorization_violation": 0.10416666666666667,
+        "exact_action": 0.125,
+        "indeterminate": 0
+      },
+      "measurement_burden": 0.1,
+      "case_ids": {
+        "false_positive_roi": [
+          "OC-R001",
+          "OC-R002",
+          "OC-R003",
+          "OC-R005",
+          "OC-R007",
+          "OC-R008",
+          "OC-R010",
+          "OC-R014",
+          "OC-R015",
+          "OC-R016",
+          "OC-R017",
+          "OC-R018",
+          "OC-R019",
+          "OC-R020",
+          "OC-R021",
+          "OC-R022",
+          "OC-R023",
+          "OC-R024",
+          "OC-R027",
+          "OC-R028",
+          "OC-R029",
+          "OC-R030",
+          "OC-R031",
+          "OC-R032",
+          "OC-R034",
+          "OC-R036",
+          "OC-R037",
+          "OC-R038",
+          "OC-R039",
+          "OC-R042",
+          "OC-R043",
+          "OC-R044",
+          "OC-R045",
+          "OC-R046",
+          "OC-R047"
+        ],
+        "false_scale": [
+          "OC-R001",
+          "OC-R002",
+          "OC-R003",
+          "OC-R005",
+          "OC-R007",
+          "OC-R008",
+          "OC-R010",
+          "OC-R014",
+          "OC-R015",
+          "OC-R017",
+          "OC-R018",
+          "OC-R019",
+          "OC-R020",
+          "OC-R021",
+          "OC-R022",
+          "OC-R023",
+          "OC-R024",
+          "OC-R027",
+          "OC-R028",
+          "OC-R029",
+          "OC-R030",
+          "OC-R031",
+          "OC-R032",
+          "OC-R034",
+          "OC-R036",
+          "OC-R037",
+          "OC-R038",
+          "OC-R039",
+          "OC-R042",
+          "OC-R043",
+          "OC-R044",
+          "OC-R045",
+          "OC-R046",
+          "OC-R047"
+        ],
+        "false_stop": [],
+        "authorization_violation": [
+          "OC-R027",
+          "OC-R032",
+          "OC-R037",
+          "OC-R042",
+          "OC-R045"
+        ]
+      },
+      "weighted_loss": 6.769047619047619
+    },
+    {
+      "policy": "COST_QUALITY",
+      "n": 48,
+      "denominators": {
+        "roi_nonpositive": 35,
+        "should_not_scale": 35,
+        "safe_reference": 13
+      },
+      "counts": {
+        "false_positive_roi": 35,
+        "false_scale": 23,
+        "false_stop": 0,
+        "authorization_violation": 5,
+        "exact_action": 12,
+        "indeterminate": 0
+      },
+      "rates": {
+        "false_positive_roi": 1,
+        "false_scale": 0.6571428571428571,
+        "false_stop": 0,
+        "authorization_violation": 0.10416666666666667,
+        "exact_action": 0.25,
+        "indeterminate": 0
+      },
+      "measurement_burden": 0.2,
+      "case_ids": {
+        "false_positive_roi": [
+          "OC-R001",
+          "OC-R002",
+          "OC-R003",
+          "OC-R005",
+          "OC-R007",
+          "OC-R008",
+          "OC-R010",
+          "OC-R014",
+          "OC-R015",
+          "OC-R016",
+          "OC-R017",
+          "OC-R018",
+          "OC-R019",
+          "OC-R020",
+          "OC-R021",
+          "OC-R022",
+          "OC-R023",
+          "OC-R024",
+          "OC-R027",
+          "OC-R028",
+          "OC-R029",
+          "OC-R030",
+          "OC-R031",
+          "OC-R032",
+          "OC-R034",
+          "OC-R036",
+          "OC-R037",
+          "OC-R038",
+          "OC-R039",
+          "OC-R042",
+          "OC-R043",
+          "OC-R044",
+          "OC-R045",
+          "OC-R046",
+          "OC-R047"
+        ],
+        "false_scale": [
+          "OC-R002",
+          "OC-R003",
+          "OC-R005",
+          "OC-R007",
+          "OC-R008",
+          "OC-R014",
+          "OC-R015",
+          "OC-R019",
+          "OC-R020",
+          "OC-R021",
+          "OC-R022",
+          "OC-R027",
+          "OC-R029",
+          "OC-R030",
+          "OC-R031",
+          "OC-R032",
+          "OC-R037",
+          "OC-R038",
+          "OC-R039",
+          "OC-R042",
+          "OC-R043",
+          "OC-R044",
+          "OC-R045"
+        ],
+        "false_stop": [],
+        "authorization_violation": [
+          "OC-R027",
+          "OC-R032",
+          "OC-R037",
+          "OC-R042",
+          "OC-R045"
+        ]
+      },
+      "weighted_loss": 5.561904761904761
+    },
+    {
+      "policy": "OUTCOME_FLAT",
+      "n": 48,
+      "denominators": {
+        "roi_nonpositive": 35,
+        "should_not_scale": 35,
+        "safe_reference": 13
+      },
+      "counts": {
+        "false_positive_roi": 2,
+        "false_scale": 2,
+        "false_stop": 0,
+        "authorization_violation": 2,
+        "exact_action": 32,
+        "indeterminate": 12
+      },
+      "rates": {
+        "false_positive_roi": 0.05714285714285714,
+        "false_scale": 0.05714285714285714,
+        "false_stop": 0,
+        "authorization_violation": 0.041666666666666664,
+        "exact_action": 0.6666666666666666,
+        "indeterminate": 0.25
+      },
+      "measurement_burden": 0.65,
+      "case_ids": {
+        "false_positive_roi": [
+          "OC-R032",
+          "OC-R037"
+        ],
+        "false_scale": [
+          "OC-R032",
+          "OC-R037"
+        ],
+        "false_stop": [],
+        "authorization_violation": [
+          "OC-R032",
+          "OC-R037"
+        ]
+      },
+      "weighted_loss": 1.0011904761904762
+    },
+    {
+      "policy": "OVAR_LEDGER",
+      "n": 48,
+      "denominators": {
+        "roi_nonpositive": 35,
+        "should_not_scale": 35,
+        "safe_reference": 13
+      },
+      "counts": {
+        "false_positive_roi": 2,
+        "false_scale": 0,
+        "false_stop": 2,
+        "authorization_violation": 2,
+        "exact_action": 25,
+        "indeterminate": 12
+      },
+      "rates": {
+        "false_positive_roi": 0.05714285714285714,
+        "false_scale": 0,
+        "false_stop": 0.15384615384615385,
+        "authorization_violation": 0.041666666666666664,
+        "exact_action": 0.5208333333333334,
+        "indeterminate": 0.25
+      },
+      "measurement_burden": 0.8,
+      "case_ids": {
+        "false_positive_roi": [
+          "OC-R032",
+          "OC-R037"
+        ],
+        "false_scale": [],
+        "false_stop": [
+          "OC-R004",
+          "OC-R011"
+        ],
+        "authorization_violation": [
+          "OC-R032",
+          "OC-R037"
+        ]
+      },
+      "weighted_loss": 1.1553113553113552
+    }
+  ],
+  "domain_ovar_serious_errors": {
+    "HEALTHCARE": 0,
+    "CYBERSECURITY": 1,
+    "FINANCIAL_SERVICES": 1,
+    "CUSTOMER_OPERATIONS": 0,
+    "TRANSPORT_LOGISTICS": 0,
+    "ECOMMERCE": 0
+  },
+  "sensitivity": [
+    {
+      "measurement_weight": 0.25,
+      "losses": {
+        "USAGE_ONLY": 4.560119047619048,
+        "SELF_REPORTED_VALUE": 6.7440476190476195,
+        "COST_QUALITY": 5.511904761904761,
+        "OUTCOME_FLAT": 0.8386904761904762,
+        "OVAR_LEDGER": 0.9553113553113552
+      },
+      "ovar_dominated_by": [
+        "OUTCOME_FLAT"
+      ]
+    },
+    {
+      "measurement_weight": 0.5,
+      "losses": {
+        "USAGE_ONLY": 4.572619047619048,
+        "SELF_REPORTED_VALUE": 6.769047619047619,
+        "COST_QUALITY": 5.561904761904761,
+        "OUTCOME_FLAT": 1.0011904761904762,
+        "OVAR_LEDGER": 1.1553113553113552
+      },
+      "ovar_dominated_by": [
+        "OUTCOME_FLAT"
+      ]
+    },
+    {
+      "measurement_weight": 0.75,
+      "losses": {
+        "USAGE_ONLY": 4.585119047619047,
+        "SELF_REPORTED_VALUE": 6.794047619047619,
+        "COST_QUALITY": 5.6119047619047615,
+        "OUTCOME_FLAT": 1.1636904761904763,
+        "OVAR_LEDGER": 1.3553113553113554
+      },
+      "ovar_dominated_by": [
+        "OUTCOME_FLAT"
+      ]
+    },
+    {
+      "measurement_weight": 1,
+      "losses": {
+        "USAGE_ONLY": 4.597619047619047,
+        "SELF_REPORTED_VALUE": 6.819047619047619,
+        "COST_QUALITY": 5.661904761904761,
+        "OUTCOME_FLAT": 1.3261904761904764,
+        "OVAR_LEDGER": 1.5553113553113553
+      },
+      "ovar_dominated_by": [
+        "OUTCOME_FLAT"
+      ]
+    }
+  ],
+  "prospective_gate": {
+    "criteria": {
+      "all_preexecution_tests_and_hashes_passed": true,
+      "zero_ovar_authorization_harm": false,
+      "ovar_fpr_lower_than_usage_and_self": true,
+      "ovar_false_scale_no_worse_than_outcome_flat": true,
+      "ovar_false_stop_within_10pp_best": false,
+      "ovar_indeterminate_at_most_30pct": true,
+      "ovar_not_loss_burden_dominated": false,
+      "max_one_serious_error_per_domain": true,
+      "not_dominated_throughout_sensitivity": false
+    },
+    "dominated_at_weight_0_5": [
+      "OUTCOME_FLAT"
+    ],
+    "always_dominating_policies": [
+      "OUTCOME_FLAT"
+    ],
+    "decision": "REVISE_OR_STOP_PER_PROTOCOL"
+  }
+}

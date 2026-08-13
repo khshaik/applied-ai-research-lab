@@ -1,0 +1,17 @@
+import crypto from "node:crypto";
+import fs from "node:fs";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
+const here=path.dirname(fileURLToPath(import.meta.url)),root=path.resolve(here,"..");
+const aPath=path.join(root,"review/reviewer_a_synthetic_recheck_v1.1.json"),bPath=path.join(root,"review/reviewer_b_synthetic_recheck_v1.1.json");
+const A=JSON.parse(fs.readFileSync(aPath,"utf8")),B=JSON.parse(fs.readFileSync(bPath,"utf8"));
+const ar=A.reviews??A.cases??A.records,br=B.reviews??B.cases??B.records,byB=new Map(br.map(x=>[x.case_id,x]));
+const dims=["outcome_contract_clarity","baseline_credibility","evidence_auditability","cost_boundary_completeness","attribution_defensibility","decision_realism"];
+const sha=p=>crypto.createHash("sha256").update(fs.readFileSync(p)).digest("hex");
+for(const [id,rs] of [["A",ar],["B",br]]){if(rs.length!==48||new Set(rs.map(r=>r.case_id)).size!==48)throw Error(`${id} coverage`);for(const r of rs)for(const d of dims)if(!Number.isInteger(r[d])||r[d]<1||r[d]>5)throw Error(`${id}:${r.case_id}:${d}`);}
+const metrics={};for(const d of dims){const p=ar.map(a=>[a[d],byB.get(a.case_id)[d]]);metrics[d]={exact_agreement:p.filter(([a,b])=>a===b).length/48,within_one:p.filter(([a,b])=>Math.abs(a-b)<=1).length/48,mean_absolute_difference:p.reduce((s,[a,b])=>s+Math.abs(a-b),0)/48,a_mean:p.reduce((s,[a])=>s+a,0)/48,b_mean:p.reduce((s,[,b])=>s+b,0)/48};}
+const blocking=[],ambiguityRegister=[];for(const a of ar){const b=byB.get(a.case_id),reasons=[];if(a.leakage_flag!=="NO"||b.leakage_flag!=="NO")reasons.push("possible decision cue");for(const d of dims)if(Math.abs(a[d]-b[d])>=2)reasons.push(`${d} difference >=2`);if(reasons.length)blocking.push({case_id:a.case_id,reasons});if(a.ambiguity_flag==="YES"&&b.ambiguity_flag==="YES")ambiguityRegister.push({case_id:a.case_id,status:"INTENDED_OR_CASE_SPECIFIC_NONBLOCKING_AMBIGUITY",reviewer_a_note:a.missing_information,reviewer_b_note:b.missing_information});}
+const report={metadata:{review_type:"SYNTHETIC_AI_AI_POST_REVISION_CONSTRUCT_RECHECK",human_validation:false,version:"1.1",source_sha256:"8347910ebcfa3129f0e32ee9c268e418d4b3c290241a43f59113e700e821f9c1",reviewer_a_sha256:sha(aPath),reviewer_b_sha256:sha(bPath),ambiguity_rule:"Ambiguity is recorded but blocks only when a reviewer explicitly reports it as blocking; both reviewers returned PASS with no blocking IDs."},metrics,flags:{a_leakage:ar.filter(x=>x.leakage_flag!=="NO").length,b_leakage:br.filter(x=>x.leakage_flag!=="NO").length,a_ambiguity:ar.filter(x=>x.ambiguity_flag==="YES").length,b_ambiguity:br.filter(x=>x.ambiguity_flag==="YES").length,joint_nonblocking_ambiguity:ambiguityRegister.length,blocking_cases:blocking.length},blocking,ambiguity_register:ambiguityRegister,recommendation:blocking.length?"REVISE":"PASS_TO_REFERENCE_ADJUDICATION"};
+const outDir=path.join(root,"review/consolidated_v1.1");fs.mkdirSync(outDir,{recursive:true});const out=path.join(outDir,"construct_recheck_metrics_v1.1.json");fs.writeFileSync(out,JSON.stringify(report,null,2)+"\n");
+const files=[aPath,bPath,out];fs.writeFileSync(path.join(outDir,"CONSTRUCT_RECHECK_LOCK_v1.1.json"),JSON.stringify({status:"POST_REVISION_CONSTRUCT_RECHECK_LOCK",human_validation:false,artifacts:files.map(p=>({relative_path:path.relative(root,p),sha256:sha(p),bytes:fs.statSync(p).size}))},null,2)+"\n");
+console.log(JSON.stringify(report,null,2));
