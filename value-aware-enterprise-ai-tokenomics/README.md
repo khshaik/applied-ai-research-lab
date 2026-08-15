@@ -22,8 +22,11 @@
   <a href="#method-overview"><strong>Method</strong></a> ·
   <a href="#benchmark-design"><strong>Benchmark</strong></a> ·
   <a href="#main-design-stage-results"><strong>Results</strong></a> ·
+  <a href="#end-to-end-outcome-verification-workflow"><strong>Workflow</strong></a> ·
   <a href="#papers-and-submission-files"><strong>Papers &amp; Artifacts</strong></a> ·
-  <a href="#reproducibility-expectations"><strong>Reproducibility</strong></a>
+  <a href="#public-technical-communication"><strong>Communication</strong></a> ·
+  <a href="#reproducibility-expectations"><strong>Reproducibility</strong></a> ·
+  <a href="#references"><strong>References</strong></a>
 </p>
 
 Research on whether enterprise AI investment decisions can be grounded in verified incremental outcomes rather than token volume, provider spend, technical quality, or self-reported value alone.
@@ -64,7 +67,9 @@ Shaik Khaja Nayab Rasool.
 | Benchmark coverage | [Benchmark design](#benchmark-design) and the [48 reviewer-visible calibration cases](studies/ovar/calibration/candidate_v1.1/construct_review_cases.json) |
 | Analytical methods | [Method overview](#method-overview) and [Analysis performed](#analysis-performed) |
 | Technology boundaries | [Key technologies and libraries](#key-technologies-and-libraries) and [Technology boundaries](#technology-boundaries) |
+| End-to-end operating model | [End-to-end outcome-verification workflow](#end-to-end-outcome-verification-workflow) and the [communication dossier](communications/linkedin/outcome-verified-allocation/README.md) |
 | Reproducibility expectations | [Quick verification](#quick-verification), [Reproducibility map](#reproducibility-map), and [Reproducibility expectations](#reproducibility-expectations) |
+| Research and source provenance | [References](#references), [novelty source register](studies/ovar/novelty/source_register.csv), and [claim-to-evidence ledger](studies/ovar/publication/CLAIM_TO_EVIDENCE_LEDGER_v1.0.csv) |
 
 ### Problem statement
 
@@ -226,6 +231,7 @@ See [`studies/ovar/README.md`](studies/ovar/README.md) for the scientific scope 
 ├── papers/
 │   ├── thinkai-2026/         # Identified manuscript and declarations
 │   └── _template/            # Starting structure for later papers
+├── communications/           # LinkedIn articles, posts, diagrams, and figure provenance
 ├── docs/                     # Governance and repository conventions
 ├── scripts/                  # Repository-level verification
 ├── .github/workflows/        # Continuous integration
@@ -400,6 +406,39 @@ The repository separates the **research construct**, **reference evaluator**, an
 
 The manuscript title is *From AI Usage to Auditable Outcomes: A Prospective Negative Calibration of Outcome-Verified AI Resource Allocation*. Tables 1–8, Equations 1–5, Figures 1–3, references, and page breaks were visually checked in the Word-exported PDF. The institution-approved similarity check remains pending; no similarity percentage is stated or inferred.
 
+### Public technical communication
+
+The communication package translates the study into an engineering narrative while preserving the negative-result boundary.
+
+| Artifact | Purpose |
+|---|---|
+| [Consolidated technical article](communications/linkedin/outcome-verified-allocation/LINKEDIN_CONSOLIDATED_ARTICLE.md) | Full problem statement, architecture, equations, observed gate result, failure mechanism, precautions, enterprise adoption path, and research agenda |
+| [LinkedIn article draft](communications/linkedin/outcome-verified-allocation/drafts/LINKEDIN_ARTICLE.md) | Compact editorial version for publication channels with tighter length constraints |
+| [LinkedIn post](communications/linkedin/outcome-verified-allocation/drafts/LINKEDIN_POST.md) | Standalone professional post with technical result, practitioner sequence, and claim boundary |
+| [Visual and provenance package](communications/linkedin/outcome-verified-allocation/README.md) | Six publication-ready figures, source classification, rebuild instructions, and interpretation boundary |
+| [Deterministic figure renderer](communications/linkedin/outcome-verified-allocation/scripts/build_visuals.py) | Rebuilds Figures 01–05 and checks title spacing, alignment, and text containment |
+
+Figures 01–03 and 05 are explanatory architectural diagrams. Figure 04 is generated from the committed calibration gate. Figure 06 is an AI-assisted conceptual workflow and is explicitly labeled as non-empirical. Communication assets are not study inputs, do not alter the frozen calibration, and must not be cited as additional evidence.
+
+### End-to-end outcome-verification workflow
+
+![From AI Usage to an Auditable Allocation Decision](communications/linkedin/outcome-verified-allocation/assets/06-end-to-end-ovar-workflow.png)
+
+The workflow makes the evidence-to-action bridge operational:
+
+1. **Define the decision:** identify the investment unit, accountable owner, action set, decision deadline, and resources that may change.
+2. **Register the outcome:** prospectively specify the metric, threshold, evidence source, measurement window, practical-equivalence margin, and baseline design.
+3. **Capture the trace:** bind model, token, retrieval, tool, retry, infrastructure, evaluation, and human events to stable work and episode identifiers.
+4. **Reconcile fully loaded cost:** preserve provider, infrastructure, tooling, integration, evaluation, review, governance, rework, and remediation components.
+5. **Verify evidence:** confirm that evidence is independently locatable, measured in the registered window, and supported by a reproduction note.
+6. **Establish the baseline:** estimate the no-AI alternative with a registered comparison design and disclose concurrent events, spillovers, and limitations.
+7. **Estimate net value:** combine attributable incremental benefit, complete cost, expected harm, maturity, and uncertainty rather than reporting point ROI alone.
+8. **Validate authority:** evaluate subject, resource, action, purpose, scope, jurisdiction, valid dates, revocation, signer, and decision time as structured state.
+9. **Issue the receipt:** select `STOP`, `REVISE`, `CONTINUE_PILOT`, `SCALE`, or `INDETERMINATE` and bind action, reasons, evidence state, authority, rule version, and hashes.
+10. **Monitor and reassess:** invalidate or reopen the receipt when outcomes mature, costs change, authority expires, risk changes, or the operating context drifts.
+
+The image is a conceptual implementation map, not an empirical result. The governing principle is that **consumption is an input to cost; verified incremental outcome, complete cost, uncertainty, risk, and current authority determine action**. The [full workflow explanation](communications/linkedin/outcome-verified-allocation/LINKEDIN_CONSOLIDATED_ARTICLE.md#end-to-end-workflow-from-investment-intent-to-a-verified-decision) includes implementation phases, precautions, and exit criteria.
+
 ### Tables, figures, and result artifacts
 
 | Paper item | Content | Supporting artifact |
@@ -434,6 +473,7 @@ Figures are generated by the versioned [manuscript builder](studies/ovar/publica
 | Decision interpretation | [calibration memorandum](studies/ovar/calibration/results/calibration_v1.0/CALIBRATION_DECISION_MEMORANDUM_v1.0.md) |
 | Integrity closure | [calibration closure manifest](studies/ovar/calibration/CALIBRATION_CLOSURE_MANIFEST_v1.0.json) |
 | Claim support | [claim-to-evidence ledger](studies/ovar/publication/CLAIM_TO_EVIDENCE_LEDGER_v1.0.csv) |
+| Public technical interpretation | [consolidated article](communications/linkedin/outcome-verified-allocation/LINKEDIN_CONSOLIDATED_ARTICLE.md) and [visual provenance](communications/linkedin/outcome-verified-allocation/README.md) |
 | Repository boundary check | [verify_repository.py](scripts/verify_repository.py) |
 
 ### Reproducibility expectations
@@ -549,3 +589,77 @@ A successor OVAR v2 should be separately registered and developed on newly const
 9. Freeze new code, cases, labels, weights, comparators, thresholds, and manifests before any successor held-out evaluation.
 
 The next falsifiable hypothesis is therefore narrower and stronger: a prospectively frozen OVAR successor using structured temporal and scoped authorization records can preserve the false-scale benefit of outcome evidence, eliminate systematic authorization violations and false stops, and occupy a non-dominated error–burden position on new data. If it cannot, the correct outcome is another preserved negative result or a substantive pivot—not a relaxed gate.
+
+## References
+
+This reference map separates the author's research outputs from the external scholarship, standards, practice guidance, and implementation baselines that shaped the scope. The authoritative audit contains 39 records with overlap and disposition fields in the [novelty source register](studies/ovar/novelty/source_register.csv); the [search log](studies/ovar/novelty/search_log.csv), [comparison matrix](studies/ovar/novelty/comparison_matrix_v1.0.csv), and [novelty decision memorandum](studies/ovar/novelty/NOVELTY_DECISION_MEMORANDUM_v1.0.md) document how those sources narrowed the contribution.
+
+### Author research outputs and communication
+
+1. **Rasool, S. K. N. (2026). _From AI Usage to Auditable Outcomes: A Prospective Negative Calibration of Outcome-Verified AI Resource Allocation_.** ThinkAI 2026 camera-ready manuscript: [Word](papers/thinkai-2026/manuscript/OVAR_ThinkAI2026_CAMERA_READY_v1.0.docx), [PDF](papers/thinkai-2026/manuscript/OVAR_ThinkAI2026_CAMERA_READY_v1.0.pdf), and [declarations](papers/thinkai-2026/declarations/author_and_declarations.md).
+2. **Rasool, S. K. N. (2026). _Outcome-Verified AI Resource Allocation research package_.** Protocols, cases, code, locks, calibration results, integrity records, and citation metadata in this [repository](https://github.com/khshaik/applied-ai-research-lab/tree/main/value-aware-enterprise-ai-tokenomics).
+3. **Rasool, S. K. N. (2026). _From AI Usage to Auditable Outcomes: Engineering the Evidence Layer for Enterprise AI Allocation_.** Long-form technical communication connecting the problem statement, OVAR architecture, prospective negative gate, implementation precautions, and research-to-practice path. See the [consolidated article](communications/linkedin/outcome-verified-allocation/LINKEDIN_CONSOLIDATED_ARTICLE.md) and [visual dossier](communications/linkedin/outcome-verified-allocation/README.md).
+
+### Token economics, agent resource allocation, and enterprise portfolio framing
+
+- Zhu, Q. (2026), [AI Tokenomics: The Economics of Tokens, Computation, and Pricing in Foundation Models](https://arxiv.org/abs/2606.24616) — workflow production, pricing, allocation, and marginal productivity.
+- Chen, Y., et al. (2026), [Token Economics for LLM Agents: A Dual-View Study from Computing and Economics](https://arxiv.org/abs/2605.09104) — token budgets across single-agent, multi-agent, ecosystem, and security levels.
+- Zhu, S. (2026), [Agentic AI Systems Should Be Designed as Marginal Token Allocators](https://arxiv.org/abs/2605.01214) — marginal benefit, cost, latency, and risk allocation.
+- Salim, M., et al. (2026), [Tokenomics: Quantifying Where Tokens Are Used in Agentic Software Engineering](https://arxiv.org/abs/2601.14470) — token distribution across agentic software-development work.
+- Bai, L., et al. (2026), [How Do AI Agents Spend Your Money?](https://arxiv.org/abs/2604.22750) — agentic token variability, accuracy relationships, and cost prediction.
+- Provost, F., and Ipeirotis, P. (2026), [AI Strategy: How to Choose What AI Product to Implement](https://arxiv.org/abs/2607.23733) — expected ROI and AI portfolio selection.
+- Polamarasetty, V. K. (2026), [Measuring Enterprise AI Value in the Agentic AI Era](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6986058) — closed-loop adoption, decision intelligence, and enterprise ROI optimization.
+- Krishnan, S., Hepp, A., and Gandhi, S. (2026), [A Multi-Layer Framework for Evaluating the Return on Investment of AI Projects](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6732598) — readiness, stage gates, risk adjustment, and decision scorecards.
+- Lee, J., et al. (2026), [Transferability of Token Usage Rights](https://arxiv.org/abs/2604.26683) — carry-over, transfer, co-management, and conversion of usage rights.
+- [Can LLM Agents Be CFOs?](https://arxiv.org/abs/2603.23638) (2026) — long-horizon resource allocation in dynamic enterprise environments.
+
+### Cost, quality, routing, and token-efficiency methods
+
+- Chen, L., Zaharia, M., and Zou, J. (2023), [FrugalGPT](https://arxiv.org/abs/2305.05176) — LLM cascades for lower inference cost with retained quality.
+- Ong, I., et al. (2024), [RouteLLM](https://arxiv.org/abs/2406.18665) — preference-based model routing under cost-quality trade-offs.
+- Aggarwal, P., et al. (2023), [AutoMix](https://arxiv.org/abs/2310.12963) — adaptive mixing of language models.
+- Jiang, H., et al. (2023), [LLMLingua](https://arxiv.org/abs/2310.05736) — prompt compression for faster, lower-token inference.
+- [Towards Optimizing the Costs of LLM Usage](https://arxiv.org/abs/2402.01742) (2024) — model selection, token reduction, and quality-cost-latency optimization.
+- [Token-Budget-Aware LLM Reasoning](https://aclanthology.org/2025.findings-acl.1274/) (2025) — adaptive reasoning-token budgets.
+- [Reasoning in Token Economies](https://aclanthology.org/2024.emnlp-main.1112/) (2024) — compute-matched evaluation of reasoning strategies.
+- [Cut the Crap](https://arxiv.org/abs/2410.02506) (2024) — communication pruning in LLM-based multi-agent systems.
+- [Budget-Aware Anytime Reasoning](https://aclanthology.org/2026.findings-acl.417/) (2026) — quality improvement under a fixed reasoning budget.
+
+These works optimize or allocate compute under cost, quality, latency, or risk constraints. OVAR's retained boundary is downstream: whether outcome evidence and causal attribution justify a portfolio action after the workflow operates.
+
+### Causal outcome and productivity evidence
+
+- Noy, S., and Zhang, W. (2023), [Experimental Evidence on the Productivity Effects of Generative Artificial Intelligence](https://doi.org/10.1126/science.adh2586) — preregistered causal productivity and quality measurement.
+- Brynjolfsson, E., Li, D., and Raymond, L. R. (2025), [Generative AI at Work](https://doi.org/10.1093/qje/qjae044) — field productivity effects, quality, and worker heterogeneity.
+- Peng, S., et al. (2023), [The Impact of AI on Developer Productivity: Evidence from GitHub Copilot](https://arxiv.org/abs/2302.06590) — controlled developer-productivity experiment.
+- [Does Generative AI Narrow Education-Based Productivity Gaps?](https://www.nber.org/papers/w34851) (2026) — randomized evidence on productivity and heterogeneous access effects.
+
+These studies demonstrate why exposure, comparator design, outcome measurement, and heterogeneity are required before usage can become a causal value claim.
+
+### Standards and practice guidance
+
+- National Institute of Standards and Technology, [AI Risk Management Framework 1.0](https://www.nist.gov/itl/ai-risk-management-framework) — objectives, evidence, measurement, risk, and governance.
+- International Organization for Standardization, [ISO/IEC 42001:2023](https://www.iso.org/standard/42001) — organizational AI management, risk, opportunity, and continual improvement.
+- FinOps Foundation, [FinOps for AI](https://www.finops.org/framework/technology-categories/ai/) — AI cost allocation, forecasting, optimization, governance, and value alignment.
+- FinOps Foundation, [How to Build a Generative AI Cost and Usage Tracker](https://www.finops.org/wg/how-to-build-a-generative-ai-cost-and-usage-tracker/) — token tracking, shared capacity, and cost attribution.
+- FinOps Foundation, [Tokenomics: Managing AI Value in SaaS Model Token Costs](https://www.finops.org/wg/token-economics-saas/) — budgets, unit costs, and token-cost governance.
+- OpenTelemetry, [Generative AI Semantic Conventions](https://opentelemetry.io/docs/specs/semconv/registry/attributes/gen-ai/) — normalized model and workflow trace attributes.
+- FinOps Open Cost and Usage Specification, [FOCUS](https://focus.finops.org/) — normalized technology cost-and-usage schema.
+
+### Telemetry and implementation baselines
+
+- [LiteLLM](https://github.com/BerriAI/litellm) — model gateway, routing, virtual keys, spend tracking, and logging.
+- [Langfuse](https://github.com/langfuse/langfuse) — LLM observability, traces, evaluation, and metrics.
+- [OpenLIT](https://github.com/openlit/openlit) — OpenTelemetry-native AI observability, token cost, evaluation, and infrastructure monitoring.
+- [Opik](https://github.com/comet-ml/opik) — tracing, evaluation, monitoring, and optimization.
+- [OpenInference](https://github.com/Arize-ai/openinference) — semantic conventions for AI traces.
+
+These tools are possible telemetry inputs. The repository does not claim to replace them and does not evaluate them as products.
+
+### Patent and product-boundary records
+
+The novelty audit also reviewed [pre-execution AI-model cost prediction](https://patents.google.com/patent/US20260119922A1/en), [hybrid inference for cost-of-goods reduction](https://patents.google.com/patent/US12524210B2/), [cloud-service resource allocation](https://patents.google.com/patent/US20250097163A1/en), and [management-rule enforcement for model routing](https://patents.google.com/patent/US20250363200A1). These records constrain novelty claims around cost prediction, routing, allocation, and enforcement; OVAR does not claim those mechanisms.
+
+### Citation and interpretation note
+
+Use [`CITATION.cff`](CITATION.cff) for repository metadata and cite the final paper once a DOI is assigned. External publications remain subject to their respective rights. Inclusion here indicates relevance or boundary-setting, not endorsement and not proof of global novelty. The study's supported claim remains limited to prospective behavior on the constructed calibration and the identified authorization failure mechanism.

@@ -18,4 +18,6 @@ studies/<study-id>/
 
 Each submission under `papers/` should contain its manuscript, declarations, venue notes, and—after the anonymity period—its repository/DOI record. Use `papers/_template/` for new submissions.
 
+Public-facing explanations belong under `communications/`. Every communication package should distinguish analytical figures from conceptual figures, link claims to committed artifacts, provide rebuild instructions for reproducible visuals, and repeat the study's interpretation boundary. Communication files are never inputs to a frozen study result.
+
 The OVAR `restricted/` directories contain only already exposed constructed design references needed to reproduce the pilot and calibration. They are not independent held-out data. Future truly restricted or held-out material must remain outside Git and is blocked by repository verification.
