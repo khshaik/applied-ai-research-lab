@@ -22,7 +22,9 @@
   <a href="#benchmark-design"><strong>Benchmark</strong></a> ·
   <a href="#main-design-stage-results"><strong>Results</strong></a> ·
   <a href="#papers-and-submission-files"><strong>Papers &amp; Artifacts</strong></a> ·
-  <a href="#reproducibility-expectations"><strong>Reproducibility</strong></a>
+  <a href="#reproducibility-expectations"><strong>Reproducibility</strong></a> ·
+  <a href="#end-to-end-context-revalidation-workflow"><strong>Workflow</strong></a> ·
+  <a href="#references"><strong>References</strong></a>
 </p>
 
 Research on whether consequential automated actions should proceed when their authorization, policy, identity, scope, or operational prerequisites may have changed.
@@ -396,6 +398,20 @@ The Word and PDF manuscripts contain the same research narrative. The PDF was vi
 |---|---|---|
 | [Context revalidation article](communications/linkedin/context-revalidation/LINKEDIN_CONSOLIDATED_ARTICLE.md) | Markdown | Consolidated technical explanation of temporal context change, RAER, production precautions, and adoption guidance |
 | [Context revalidation visual package](communications/linkedin/context-revalidation/README.md) | Markdown + PNG + Python | Publication-ready diagrams, provenance, source drafts, and reproducible rendering instructions |
+
+#### End-to-end context revalidation workflow
+
+![Context Revalidation: From Intent to Safe Action](communications/linkedin/context-revalidation/assets/06-end-to-end-context-revalidation-workflow.png)
+
+_AI-assisted conceptual overview for technical communication; this diagram is explanatory and is not an analytical result or empirical evidence._
+
+The workflow summarizes three control phases:
+
+1. **Frame the action:** define the intended outcome, map consequence and irreversibility, identify mutable prerequisites, and bind them to versioned evidence envelopes.
+2. **Revalidate before commit:** construct the action manifest, select authoritative checks under budget, enforce non-fungible authority constraints, and return `ACT`, `REFRESH`, `ASK`, or `ABSTAIN`.
+3. **Execute, prove, and learn:** allow only `ACT` to cross the side-effect boundary, commit with transactional and replay-safe controls, verify the authoritative postcondition, reconcile partial effects, and invalidate dependent memory.
+
+The governing principle is that **current evidence**, **current authority**, and a **verified outcome** are separate conditions that must be jointly established. See the [full end-to-end workflow explanation](communications/linkedin/context-revalidation/LINKEDIN_CONSOLIDATED_ARTICLE.md#end-to-end-workflow-from-intent-to-a-verified-outcome) for the complete ten-step interpretation.
 
 ### Tables, figures, and result artifacts
 
