@@ -226,6 +226,8 @@ See [`studies/raer/README.md`](studies/raer/README.md) for the scientific scope 
 ├── papers/
 │   ├── thinkai-2026/         # Identified manuscript and declarations
 │   └── _template/            # Starting structure for later papers
+├── communications/
+│   └── linkedin/              # Public technical articles, visuals, and source drafts
 ├── docs/                     # Governance and repository conventions
 ├── scripts/                  # Repository-level verification
 ├── .github/workflows/        # Continuous integration
@@ -387,6 +389,13 @@ The repository separates the **research method**, **reference implementation**, 
 | [ThinkAI submission notes](papers/thinkai-2026/README.md) | Markdown | Venue status, formatting, confidentiality, and pending actions |
 
 The Word and PDF manuscripts contain the same research narrative. The PDF was visually checked page by page; Tables 1–8 and Equations 1–5 render without clipping or broken table pagination.
+
+### Public technical communication
+
+| Artifact | Format | Purpose |
+|---|---|---|
+| [Context revalidation article](communications/linkedin/context-revalidation/LINKEDIN_CONSOLIDATED_ARTICLE.md) | Markdown | Consolidated technical explanation of temporal context change, RAER, production precautions, and adoption guidance |
+| [Context revalidation visual package](communications/linkedin/context-revalidation/README.md) | Markdown + PNG + Python | Publication-ready diagrams, provenance, source drafts, and reproducible rendering instructions |
 
 ### Tables, figures, and result artifacts
 
