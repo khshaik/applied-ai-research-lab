@@ -536,3 +536,68 @@ The next phase should be separately registered as RAER v3 and should avoid repea
 7. Open the existing held-out partition only after the successor method, code, parameters, comparators, metrics, and decision gate are frozen; execute that evaluation once and report every outcome.
 
 The most important future hypothesis is therefore falsifiable: a prospectively frozen successor can meet the safe-completion requirement while retaining a non-dominated harmful-action and validation-cost position, including zero systematic authorization failures. If it cannot, the appropriate conclusion is that the current RAER formulation requires a substantive methodological pivot rather than a relaxed threshold.
+
+## References
+
+This section provides a navigable bibliography for the research method, software, communication material, and external literature cited by this repository. External links follow the primary URLs recorded as verified in the frozen [`RAER_Citation_Verification_Log_v0.2.csv`](studies/raer/integrity/RAER_Citation_Verification_Log_v0.2.csv). Inclusion identifies intellectual or methodological relevance; it does not imply that the cited authors endorse RAER or its conclusions.
+
+### Author publication and repository citation
+
+1. **Rasool, S. K. N. (2026). _Risk-Adaptive Evidence Revalidation for Consequential Tool Actions: A Prospective Failure Analysis_.** ThinkAI 2026 identified camera-ready manuscript. Available as [Microsoft Word](papers/thinkai-2026/manuscript/RAER_v2_ThinkAI2026_CAMERA_READY_v1.0.docx) and [PDF](papers/thinkai-2026/manuscript/RAER_v2_ThinkAI2026_CAMERA_READY_v1.0.pdf). This is the primary scholarly narrative for the RAER v2 method, prospective evaluation, negative design-stage result, limitations, and future research boundary.
+2. **Rasool, S. K. N. (2026). _Action Evidence Safety Research_ (version 0.1.0) [Software and research artifact].** MIT License. Repository citation metadata, author record, keywords, release date, and software type are provided in [`CITATION.cff`](CITATION.cff). See the [GitHub repository](https://github.com/khshaik/applied-ai-research-lab/tree/main/action-evidence-safety-research).
+3. **Rasool, S. K. N. (2026). _Context Is Not a Snapshot: Engineering Evidence-Safe Agentic Systems Across State Change_.** Long-form technical communication connecting temporal context change, RAER, action manifests, evidence envelopes, production precautions, and an enterprise adoption path. See the [consolidated article](communications/linkedin/context-revalidation/LINKEDIN_CONSOLIDATED_ARTICLE.md) and its [visual and editorial package](communications/linkedin/context-revalidation/README.md).
+4. **Author and declarations record.** Authorship, CRediT roles, funding, competing interests, ethics applicability, generative-AI use, and code/data availability are documented in [`author_and_declarations.md`](papers/thinkai-2026/declarations/author_and_declarations.md).
+
+Until a venue record or DOI is assigned, cite the manuscript and software record separately. Do not describe the camera-ready preparation as a published or independently validated effectiveness result.
+
+### RAER method, benchmark, and evidentiary record
+
+- **Method definition:** [`RAER_V2_METHOD_SPECIFICATION_v1.0.json`](studies/raer/evaluation/v2/RAER_V2_METHOD_SPECIFICATION_v1.0.json) freezes the invalidity estimator, harm model, safe-probability proxy, expected-loss objective, authorization safeguard, slack rule, and deterministic selection behavior.
+- **Prospective design:** [`RAER_V2_PROSPECTIVE_DESIGN_PLAN_v1.0.json`](studies/raer/evaluation/v2/RAER_V2_PROSPECTIVE_DESIGN_PLAN_v1.0.json) records the configuration grid, comparators, metrics, folds, thresholds, and all-criteria decision gate before execution.
+- **Statistical analysis:** [`STATISTICAL_ANALYSIS_PLAN_v1.0.json`](studies/raer/evaluation/STATISTICAL_ANALYSIS_PLAN_v1.0.json) defines the evaluation estimands, denominators, uncertainty procedures, and interpretation rules.
+- **Benchmark construction:** [`studies/raer/calibration/benchmark/release_v1.1/`](studies/raer/calibration/benchmark/release_v1.1/) contains reviewer-visible cases, schema, adjudicated scores, provenance, agreement, disagreement, and independent quality-audit artifacts.
+- **Out-of-fold results:** [`oof_policy_summary.csv`](studies/raer/evaluation/v2/results_design_v1.0/oof_policy_summary.csv) and [`oof_policy_outcomes.csv`](studies/raer/evaluation/v2/results_design_v1.0/oof_policy_outcomes.csv) contain the aggregate and case-level design-stage results.
+- **Registered decision:** [`v2_design_gate.json`](studies/raer/evaluation/v2/results_design_v1.0/v2_design_gate.json) records `FAIL_KEEP_HELD_OUT_SEALED` and preserves the binding safe-completion failure.
+- **Failure analysis:** [`PREHELDOUT_FAILURE_DIAGNOSIS_v1.0.json`](studies/raer/evaluation/results/PREHELDOUT_FAILURE_DIAGNOSIS_v1.0.json) localizes the observed pre-held-out failure modes without consuming sealed test labels.
+- **Claim traceability:** [`RAER_Claim_to_Evidence_Ledger_v0.2.csv`](studies/raer/integrity/RAER_Claim_to_Evidence_Ledger_v0.2.csv) maps manuscript claims to committed evidence, while [`RAER_Citation_Verification_Log_v0.2.csv`](studies/raer/integrity/RAER_Citation_Verification_Log_v0.2.csv) records the verified literature sources and their manuscript use.
+- **Integrity boundary:** [`RAER_V2_PRE_EXECUTION_LOCK_v1.0.json`](studies/raer/integrity/RAER_V2_PRE_EXECUTION_LOCK_v1.0.json), [`V2_DESIGN_CLOSURE_MANIFEST_v1.0.json`](studies/raer/integrity/V2_DESIGN_CLOSURE_MANIFEST_v1.0.json), and [`VALIDATION_STOP_RECORD_v1.0.json`](studies/raer/integrity/VALIDATION_STOP_RECORD_v1.0.json) document pre-execution freezing, design closure, and the stop-before-held-out decision.
+
+### Selective prediction, abstention, and cost-sensitive evidence acquisition
+
+1. Franc, V., Prusa, D., & Voracek, V. (2023). **Optimal strategies for reject option classifiers.** _Journal of Machine Learning Research, 24_(11), 1–49. [Primary publication](https://www.jmlr.org/papers/v24/21-0048.html). Foundation for reject costs, selective classification, and risk–coverage trade-offs.
+2. Shim, H., Hwang, S. J., & Yang, E. (2018). **Joint active feature acquisition and classification with variable-size set encoding.** In _Advances in Neural Information Processing Systems 31_. [Proceedings record](https://proceedings.neurips.cc/paper/2018/hash/e5841df2166dd424a57127423d276bbe-Abstract.html). Establishes joint cost-sensitive acquisition and prediction.
+3. Li, Y., & Oliva, J. (2025). **Towards cost sensitive decision making.** In _Proceedings of the 28th International Conference on Artificial Intelligence and Statistics_, PMLR 258, 3601–3609. [PMLR publication](https://proceedings.mlr.press/v258/li25h.html). Frames active acquisition as sequential decision-making under partial observability.
+4. Xu, J., Wu, Y., Zeng, D., Paisley, J., & Zhao, Q. (2026). **Look again before you abstain: Budgeted conformal evidence acquisition for reliable vision-language model.** arXiv:2606.16667. [arXiv](https://arxiv.org/abs/2606.16667). The closest located acquire-or-abstain combination; RAER differs through action-prerequisite, authorization, state-transition, and tool-harm semantics.
+
+### Stale memory, contextual conflict, and agentic abstention
+
+5. Chao, H., Bai, Y., Sheng, R., Li, T., & Sun, Y. (2026). **STALE: Can LLM agents know when their memories are no longer valid?** arXiv:2605.06527. [arXiv](https://arxiv.org/abs/2605.06527). Evaluates implicit memory invalidation, premise resistance, and policy adaptation.
+6. Tao, Z., et al. (2026). **MemConflict: Evaluating long-term memory systems under memory conflicts.** arXiv:2605.20926. [arXiv](https://arxiv.org/abs/2605.20926). Studies query-conditioned temporal, factual, and contextual memory fitness.
+7. Liu, X., et al. (2026). **AgentAbstain: Do LLM agents know when not to act?** arXiv:2607.10059. [arXiv](https://arxiv.org/abs/2607.10059). Provides paired should-act and should-abstain evaluation in executable environments.
+8. Luo, H., Wen, B., & Wang, L. L. (2026). **Agentic abstention: Do agents know when to stop instead of act?** arXiv:2606.28733. [arXiv](https://arxiv.org/abs/2606.28733). Treats abstention and continued information gathering as a sequential stopping problem.
+
+### Contract verification and policy-constrained tool execution
+
+9. Liu, Y., et al. (2026). **ToolGate: Contract-grounded and verified tool execution for LLMs.** arXiv:2601.04688. [arXiv](https://arxiv.org/abs/2601.04688). Uses symbolic state, preconditions, and postconditions to gate tool execution and state commitment.
+10. Winston, C., Winston, C., & Just, R. (2026). **Solver-aided verification of policy compliance in tool-augmented LLM agents.** arXiv:2603.20449. [arXiv](https://arxiv.org/abs/2603.20449). Translates operational policies into constraints checked before tool execution.
+
+### Tool-agent benchmarks, risk discovery, and runtime protection
+
+11. Ruan, Y., et al. (2024). **Identifying the risks of LM agents with an LM-emulated sandbox.** arXiv:2309.15817. [arXiv](https://arxiv.org/abs/2309.15817). Introduces ToolEmu for scalable tool-agent risk discovery.
+12. Yao, S., Shinn, N., Razavi, P., & Narasimhan, K. (2024). **tau-bench: A benchmark for tool-agent-user interaction in real-world domains.** arXiv:2406.12045. [arXiv](https://arxiv.org/abs/2406.12045). Evaluates dynamic interaction, domain policy, and stateful tool use.
+13. Lu, J., Holleis, T., Zhang, Y., et al. (2025). **ToolSandbox: A stateful, conversational, interactive evaluation benchmark for LLM tool-use capabilities.** arXiv:2408.04682. [arXiv](https://arxiv.org/abs/2408.04682). Tests stateful tools, implicit dependencies, and conversational interaction.
+14. Zhang, Z., et al. (2025). **Agent-SafetyBench: Evaluating the safety of LLM agents.** arXiv:2412.14470. [arXiv](https://arxiv.org/abs/2412.14470). Broadens agent-safety evaluation across environments and failure categories.
+15. Mou, Y., et al. (2026). **ToolSafe: Enhancing tool invocation safety of LLM-based agents via proactive step-level guardrail and feedback.** arXiv:2601.10156. [arXiv](https://arxiv.org/abs/2601.10156). Adds proactive step-level intervention and feedback for tool invocation.
+16. Liu, H., Ilyushin, E., Ni, J., & Zhu, M. (2026). **SafeAgent: A runtime protection architecture for agentic systems.** arXiv:2604.17562. [arXiv](https://arxiv.org/abs/2604.17562). Provides stateful runtime protection for agentic systems.
+
+### System-design context
+
+- Vijayan, K. **Agentic AI: Building the Right Mental Model for System Design.** [Medium article](https://medium.com/inspiredbrilliance/agentic-ai-building-the-right-mental-model-for-system-design-269d85c1689f). Referenced by the consolidated communication article for its capability-first progression from business objective to deterministic software, LLM capability, workflow, agent, and multi-agent system. The RAER communication adds the orthogonal pre-action evidence-validity boundary.
+
+### Citation and interpretation guidance
+
+- Cite the **manuscript** for the RAER method, prospective evaluation, and negative design-stage result.
+- Cite the **repository software record** for code, benchmark, protocols, integrity controls, and reproducibility artifacts.
+- Cite the **consolidated communication article** for the engineering synthesis around temporal context, action manifests, evidence envelopes, production controls, and the end-to-end workflow.
+- Cite the corresponding **external primary source** when discussing reject options, evidence acquisition, memory invalidation, abstention, contract verification, tool-agent benchmarks, or runtime protection.
+- Preserve the registered interpretation: RAER v2 is promising but unvalidated, failed its all-criteria design gate, and did not consume the sealed held-out partition.
