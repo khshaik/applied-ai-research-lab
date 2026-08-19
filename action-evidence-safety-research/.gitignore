@@ -25,9 +25,6 @@ renders/
 *.png
 *.log
 
-# Curated public communication figures are versioned with their source article.
-!communications/**/*.png
-
 # Research secrets and sealed data: never commit
 **/investigator_label_vault.json
 **/held_out_test_labels*.json
@@ -39,3 +36,4 @@ studies/*/restricted/*
 # Local submission and similarity-system exports
 similarity-reports/
 submission-portal-exports/
+
