@@ -10,6 +10,7 @@ from pathlib import Path
 from typing import Any
 
 from gate2 import arxiv_export, open_index_export
+from gate2.frozen_paths import resolve_frozen_path
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -38,15 +39,15 @@ def _verify_freeze() -> tuple[dict[str, Any], str]:
     if package.get("status") != "frozen" or package.get("approval_decision") != "approve":
         raise SystematicExportError("protocol package is not frozen and approved")
     pre = package["approved_prefreeze_package"]
-    pre_path = ROOT / pre["path"]
+    pre_path = resolve_frozen_path(ROOT, pre["path"])
     if sha256(pre_path) != pre["sha256"]:
         raise SystematicExportError("approved prefreeze package hash mismatch")
     prefreeze = json.loads(pre_path.read_text(encoding="utf-8"))
     for row in prefreeze["artifacts"]:
-        if sha256(ROOT / row["path"]) != row["sha256"]:
+        if sha256(resolve_frozen_path(ROOT, row["path"])) != row["sha256"]:
             raise SystematicExportError(f"frozen artifact hash mismatch: {row['path']}")
     approval = package["approval_record"]
-    if sha256(ROOT / approval["path"]) != approval["sha256"]:
+    if sha256(resolve_frozen_path(ROOT, approval["path"])) != approval["sha256"]:
         raise SystematicExportError("approval record hash mismatch")
     return package, sha256(FROZEN)
 

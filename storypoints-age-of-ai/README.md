@@ -60,6 +60,7 @@ Shaik Khaja Nayab Rasool.
 
 | Research-project requirement | Where it is documented |
 |---|---|
+| Numbered research design and protocol record | [Research-design index](research-design/README.md) |
 | Research questions and positioning | [Scientific manuscript](papers/thinkai-2026/manuscript/manuscript_working_draft.md) and [VDCM study dossier](studies/vdcm/README.md) |
 | Evidence-map method and results | [Evidence-map workspace](studies/vdcm/evidence-map/README.md) and [evidence preservation map](docs/traceability/evidence-preservation-map.md) |
 | Framework constructs and boundaries | [Protocol workspace](studies/vdcm/protocol/README.md) |

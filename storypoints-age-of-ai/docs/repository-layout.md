@@ -5,6 +5,14 @@ This repository follows the research-monorepo pattern used by the Action Evidenc
 ## Canonical organization
 
 ```text
+research-design/
+├── README.md          # Phase index and relocation boundary
+├── 01_*               # Concept framing
+├── 02*                # Evidence-map protocol and governance
+├── 03*                # Framework and construct design
+├── 04*                # Simulation specification and governance
+└── 05_*               # Developmental-result reconciliation
+
 studies/vdcm/
 ├── README.md
 ├── protocol/          # Indexes for concept, constructs, causal model, and preregistration
@@ -44,10 +52,15 @@ The following paths remain canonical implementation paths until the protocol, co
 - `evidence_review/`
 - `simulation/`
 - `tests/`
-- root `01_` through `04b_` research records
+- `research-design/` numbered research records
 - root research workbooks
 
-This is intentional, not unfinished housekeeping. These paths appear in test fixtures, manifests, SHA-256 records, simulation preregistration, and workbook links. A mechanical move would silently invalidate research provenance.
+The numbered records were moved from the root to `research-design/` on
+20 August 2026 under a checksum-preserving relocation. Frozen v1.3 package
+bytes were not rewritten. Their legacy paths resolve through
+`gate2.frozen_paths` and the versioned
+[`RESEARCH_DESIGN_RELOCATION_2026-08-20.json`](traceability/RESEARCH_DESIGN_RELOCATION_2026-08-20.json)
+record.
 
 ## Migration rule
 
@@ -60,7 +73,10 @@ A compatibility path may move only when all of the following are satisfied:
 5. preregistration or protocol deviations are recorded explicitly;
 6. the Excel status ledger is synchronized after the migration.
 
-Until then, the study directories act as the durable scientific navigation layer and the root packages remain the executable layer.
+The completed relocation satisfies this rule through a versioned path map,
+byte-level hashes, reference repair, and full repository verification. The
+study directories remain the durable scientific navigation layer, while
+`research-design/` is now the canonical home for the numbered design record.
 
 ## Generated and restricted material
 

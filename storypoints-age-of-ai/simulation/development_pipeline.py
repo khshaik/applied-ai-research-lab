@@ -384,7 +384,7 @@ def run_development_pipeline(config: Mapping[str, Any], output_dir: str | Path,
 def main(argv: Sequence[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--config", default="simulation/configs/example.yaml")
-    parser.add_argument("--schema", default="03b_simulation_schema.json")
+    parser.add_argument("--schema", default="research-design/03b_simulation_schema.json")
     parser.add_argument("--output", default="simulation/output/development")
     parser.add_argument("--replications", type=int, default=24)
     args = parser.parse_args(argv)

@@ -10,7 +10,7 @@ from simulation.scheduling import CalendarSemanticsError, DependencySemanticsErr
 from simulation.verification import check_queue_area_reconciliation
 
 
-SCHEMA = "03b_simulation_schema.json"
+SCHEMA = "research-design/03b_simulation_schema.json"
 EXAMPLE = "simulation/configs/example.yaml"
 
 

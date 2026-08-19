@@ -5,8 +5,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 SCOPE_PATH = ROOT / "gate2" / "minimum_route_scope.draft.json"
-AMENDMENT_PATH = ROOT / "02d_minimum_route_protocol_amendment_draft.md"
-REVIEW_PATH = ROOT / "02e_b05_accountable_author_review.md"
+AMENDMENT_PATH = ROOT / "research-design/02d_minimum_route_protocol_amendment_draft.md"
+REVIEW_PATH = ROOT / "research-design/02e_b05_accountable_author_review.md"
 
 
 class MinimumRouteScopeTests(unittest.TestCase):

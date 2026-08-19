@@ -1,7 +1,7 @@
 # Gate 2 executable evidence-review controls
 
 This package operationalizes Sections 11–17 of
-`02_systematic_review_protocol.md`. It is an audit and reconciliation layer,
+`research-design/02_systematic_review_protocol.md`. It is an audit and reconciliation layer,
 not a search tool and not an autonomous evidence judge.
 
 The approved discovery route is access constrained. Its scholarly discovery

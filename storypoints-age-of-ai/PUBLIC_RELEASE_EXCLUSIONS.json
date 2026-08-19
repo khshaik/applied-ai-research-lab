@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "project": "storypoints-age-of-ai",
   "excluded_file_count": 4931,
-  "excluded_size_bytes": 4159013710,
+  "excluded_size_bytes": 4159013979,
   "reason_counts": {
     "local_environment_or_temporary": 662,
     "session_or_operating_system_file": 6,
@@ -3929,8 +3929,8 @@
     },
     {
       "path": ".pytest_cache/v/cache/nodeids",
-      "size_bytes": 32311,
-      "sha256": "8b3ef87342f2b18502ea3664a3c3d1069170ac505fb009e47493dbbe50ba3031",
+      "size_bytes": 32580,
+      "sha256": "9c6affccc559f3718450a46b931126b84bf6745fe9d3b9ecfa171dd27d8ff7ee",
       "reason": "local_environment_or_temporary"
     },
     {

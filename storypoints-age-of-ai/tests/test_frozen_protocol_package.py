@@ -3,6 +3,8 @@ import json
 import unittest
 from pathlib import Path
 
+from gate2.frozen_paths import resolve_frozen_path
+
 
 ROOT = Path(__file__).resolve().parents[1]
 FROZEN = ROOT / "gate2" / "frozen_protocol_package_v1.3.json"
@@ -24,7 +26,7 @@ class FrozenProtocolPackageTests(unittest.TestCase):
         )
         for key in ("approved_prefreeze_package", "approval_record"):
             row = package[key]
-            path = ROOT / row["path"]
+            path = resolve_frozen_path(ROOT, row["path"])
             self.assertEqual(sha256(path), row["sha256"])
 
     def test_every_approved_artifact_remains_byte_exact(self):
@@ -32,7 +34,7 @@ class FrozenProtocolPackageTests(unittest.TestCase):
         prefreeze_path = ROOT / package["approved_prefreeze_package"]["path"]
         prefreeze = json.loads(prefreeze_path.read_text(encoding="utf-8"))
         for row in prefreeze["artifacts"]:
-            path = ROOT / row["path"]
+            path = resolve_frozen_path(ROOT, row["path"])
             self.assertEqual(sha256(path), row["sha256"], row["path"])
 
     def test_freeze_does_not_promote_developmental_outputs(self):
@@ -47,7 +49,7 @@ class FrozenProtocolPackageTests(unittest.TestCase):
     def test_package_and_record_sidecars_verify(self):
         checks = [
             (FROZEN, ROOT / "gate2/frozen_protocol_package_v1.3.json.sha256"),
-            (ROOT / "02f_d03_d04_protocol_freeze_record.md", ROOT / "02f_d03_d04_protocol_freeze_record.md.sha256"),
+            (ROOT / "research-design/02f_d03_d04_protocol_freeze_record.md", ROOT / "research-design/02f_d03_d04_protocol_freeze_record.md.sha256"),
         ]
         for artifact, sidecar in checks:
             expected = sidecar.read_text(encoding="utf-8").split()[0]

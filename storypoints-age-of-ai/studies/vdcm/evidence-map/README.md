@@ -28,9 +28,9 @@
 
 - Retrieval tooling: [`../../../gate2/`](../../../gate2/)
 - Review workflow: [`../../../evidence_review/`](../../../evidence_review/)
-- Systematic-review protocol: [`../../../02_systematic_review_protocol.md`](../../../02_systematic_review_protocol.md)
-- Executable appendix: [`../../../02_executable_search_appendix.md`](../../../02_executable_search_appendix.md)
-- Search log: [`../../../02_search_execution_log_pilot.md`](../../../02_search_execution_log_pilot.md)
+- Systematic-review protocol: [`../../../research-design/02_systematic_review_protocol.md`](../../../research-design/02_systematic_review_protocol.md)
+- Executable appendix: [`../../../research-design/02_executable_search_appendix.md`](../../../research-design/02_executable_search_appendix.md)
+- Search log: [`../../../research-design/02_search_execution_log_pilot.md`](../../../research-design/02_search_execution_log_pilot.md)
 - S3 v0.3 registry: [`../../../gate2/open_index_pilot_queries_v0.3.json`](../../../gate2/open_index_pilot_queries_v0.3.json)
 
 ## Current family-development records

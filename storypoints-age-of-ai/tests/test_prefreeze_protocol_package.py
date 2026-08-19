@@ -3,6 +3,8 @@ import json
 import unittest
 from pathlib import Path
 
+from gate2.frozen_paths import resolve_frozen_path
+
 
 ROOT = Path(__file__).resolve().parents[1]
 PACKAGE = ROOT / "gate2" / "prefreeze_protocol_package_v1.3.json"
@@ -32,7 +34,7 @@ class PrefreezeProtocolPackageTests(unittest.TestCase):
 
     def test_all_package_artifact_hashes_match(self):
         for row in load(PACKAGE)["artifacts"]:
-            path = ROOT / row["path"]
+            path = resolve_frozen_path(ROOT, row["path"])
             self.assertTrue(path.is_file(), row["path"])
             self.assertEqual(digest(path), row["sha256"], row["path"])
 
@@ -63,7 +65,7 @@ class PrefreezeProtocolPackageTests(unittest.TestCase):
         self.assertEqual(manifest["protocol_version"], "1.3")
         self.assertEqual(len(manifest["artifacts"]), 3)
         for row in manifest["artifacts"]:
-            path = ROOT / row["path"]
+            path = resolve_frozen_path(ROOT, row["path"])
             text = path.read_text(encoding="utf-8")
             self.assertEqual(digest(path), row["sha256"])
             self.assertIn("protocol version `1.3`", text)

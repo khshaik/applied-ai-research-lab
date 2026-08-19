@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
   "project": "storypoints-age-of-ai",
-  "generated_at_utc": "2026-08-19T18:27:57.994715+00:00",
+  "generated_at_utc": "2026-08-19T18:50:05.704395+00:00",
   "source_boundary": "research-owned and redistribution-safe artifacts",
-  "included_file_count": 5541,
-  "included_size_bytes": 656113923,
+  "included_file_count": 5545,
+  "included_size_bytes": 656130887,
   "included_files": [
     {
       "path": ".gitattributes",
@@ -20,181 +20,6 @@
       "path": ".gitignore",
       "size_bytes": 1460,
       "sha256": "e539ee6bc03b0d01f1855b4074e8bdf3dcba147837c115f407d6c25f9da9e914"
-    },
-    {
-      "path": "01_research_concept_brief.md",
-      "size_bytes": 29350,
-      "sha256": "f38ac5abc463e98acf80322706df889f36b57a9fd2999d687b72d1bf157efa09"
-    },
-    {
-      "path": "02_executable_search_appendix.md",
-      "size_bytes": 34897,
-      "sha256": "187363bae92c65b6fd864241898b9c0d5bb8d53fe786c9f03c27de311c5c4c1a"
-    },
-    {
-      "path": "02_gate2_decision_pack.md",
-      "size_bytes": 6819,
-      "sha256": "2f64110adc6cc977b9c0b07607533a740c1935ecdfb564b3cd27785db1bac329"
-    },
-    {
-      "path": "02_gate2_executable_review_audit.md",
-      "size_bytes": 3491,
-      "sha256": "5f55218e806e43f4ec0fa90c1a4a72f422cef542225a02e17d5232edb71b6670"
-    },
-    {
-      "path": "02_grey_literature_search_procedure.md",
-      "size_bytes": 2943,
-      "sha256": "cdab5963f8950ba6ac9ee21054973100f0533f39e84f1a6abb1deb9d151e95fe"
-    },
-    {
-      "path": "02_open_evidence_route_status.md",
-      "size_bytes": 7581,
-      "sha256": "25149b7522b932349f94f86202353f33a7c6df9c55fc170223b51d88f63c4547"
-    },
-    {
-      "path": "02_research_generation_prompt.md",
-      "size_bytes": 4655,
-      "sha256": "bb5ff1c513347e2b5c1c4af371c2d84491a4ff831c7c50c491c87b4a7f179446"
-    },
-    {
-      "path": "02_review_logs_template.md",
-      "size_bytes": 9470,
-      "sha256": "ea503beae1f9e7338fa8304746d2bdb498d0fde668129e16bc259a644eac3a11"
-    },
-    {
-      "path": "02_search_execution_log_pilot.md",
-      "size_bytes": 9606,
-      "sha256": "c86255f39b04c2d30e189a6fe54c59017696af8fb9dcffdba687b5dc7499df84"
-    },
-    {
-      "path": "02_seed_evidence_matrix.md",
-      "size_bytes": 16446,
-      "sha256": "3b94b77dd0c9091f1e1719016626f242b176e737fd39a3fe84d2e7f969fcb437"
-    },
-    {
-      "path": "02_systematic_review_protocol.md",
-      "size_bytes": 47619,
-      "sha256": "e297798a59db599def5ac6709d0d05a25aef26b63b9ad4050ea9d9b9de9acac0"
-    },
-    {
-      "path": "02b_active_parameter_gap_audit.md",
-      "size_bytes": 5608,
-      "sha256": "3dfcede0a80a63888660b5e908d22eafc4034224c377b73dcd769795fc9b7dbc"
-    },
-    {
-      "path": "02d_minimum_route_protocol_amendment_draft.md",
-      "size_bytes": 12171,
-      "sha256": "3e999a75aba72fe5642e9ee7f688d005f7d0f7115904ff4887e93235156437ec"
-    },
-    {
-      "path": "02e_b05_accountable_author_review.md",
-      "size_bytes": 4432,
-      "sha256": "844eaedbdc89042ba506b716b7c0b7343c6832979ba0bc6ab39d04d70118e373"
-    },
-    {
-      "path": "02f_d03_d04_protocol_freeze_record.md",
-      "size_bytes": 2819,
-      "sha256": "4c8f474cc8df0ec5304780efbcbbd22cdbc7ef4ca2cfce97cd6cf2a4290ee538"
-    },
-    {
-      "path": "02f_d03_d04_protocol_freeze_record.md.sha256",
-      "size_bytes": 104,
-      "sha256": "43f4e10ea0d989fca3610e7060f6a0b92b5f0c91d7964acf93e68dd144556b95"
-    },
-    {
-      "path": "03_causal_model.md",
-      "size_bytes": 3901,
-      "sha256": "0498a50aee895b0271c93dac1f459871b9ef23d692d9cb346cd755f921ab0679"
-    },
-    {
-      "path": "03_construct_dictionary.md",
-      "size_bytes": 8017,
-      "sha256": "a06b9fb97ccbe00d23127d1cd39d66976c0d73310e9202cb9bf602cbd54b3b84"
-    },
-    {
-      "path": "03_framework_specification.md",
-      "size_bytes": 9948,
-      "sha256": "98434c92067237e12f1be06e531e2efac8cc9bce8553a2703c472dae1c6275c9"
-    },
-    {
-      "path": "03_future_empirical_propositions.md",
-      "size_bytes": 4150,
-      "sha256": "dc5ea236e456711435b058d9b9a079ccc38ffc2bbb0e9f47077172c789043c8c"
-    },
-    {
-      "path": "03_gate3_status.md",
-      "size_bytes": 3688,
-      "sha256": "b8db87f69236582fec49bff65be3862e92ee030c66b5b4da72164ed07244769e"
-    },
-    {
-      "path": "03_route_b_simulation_protocol.md",
-      "size_bytes": 8872,
-      "sha256": "704135ce21d3c6afc215c1040ea75b884d5a9bd4325fd9050f190f915fa6ae2d"
-    },
-    {
-      "path": "03b_decision_pack.md",
-      "size_bytes": 4197,
-      "sha256": "29e17e5a04356e10182f5e2d8a7fe9044540f5b996e551df0406c6f3f447cbbb"
-    },
-    {
-      "path": "03b_literature_parameter_registry.md",
-      "size_bytes": 8191,
-      "sha256": "5c95041d7d65c6b35d887e565ba4a56135e884538c85eb0c05330b1050458db9"
-    },
-    {
-      "path": "03b_naming_collision_audit.md",
-      "size_bytes": 1981,
-      "sha256": "e996b901e4d4224f21c0a6d9251e2fbe23259a53f8387daf762731f20cfd7930"
-    },
-    {
-      "path": "03b_operational_anchors.md",
-      "size_bytes": 6466,
-      "sha256": "9ebaab70045f7e615a1c826603c1b287c8db76b7423288c0b21d592a6807a16b"
-    },
-    {
-      "path": "03b_parameter_provenance.md",
-      "size_bytes": 3921,
-      "sha256": "4d485d8d2a233f46b93130b9aa9c92239f889bcd9bb4ab630e10a41b0381dbbc"
-    },
-    {
-      "path": "03b_readiness_rules.md",
-      "size_bytes": 6001,
-      "sha256": "e45e62b644ffb6d73ed48c949a39071e576b4bd01c0e5b1096a7fed54b48b0e9"
-    },
-    {
-      "path": "03b_simulation_schema.json",
-      "size_bytes": 19132,
-      "sha256": "05c8978c182b4be8b3104114d056373d0ebdd7d364a47cfae8ea39d90a65b805"
-    },
-    {
-      "path": "04_comparator_evaluation_spec.md",
-      "size_bytes": 4786,
-      "sha256": "79c54660a47eddfa9a72e6697bc9046397a50edc5e1b7e5900a6d2e6b235dc66"
-    },
-    {
-      "path": "04_locked_synthetic_preregistration.md",
-      "size_bytes": 9140,
-      "sha256": "a515081ed22a24f6619d7ad32bd21bcac9d50787c342973c4eef0bf4a5cc9496"
-    },
-    {
-      "path": "04_prototype_status.md",
-      "size_bytes": 6341,
-      "sha256": "475820343f6cdccca222755afa9dbb3dcd42d8dce801cbc7247ffada492ac958"
-    },
-    {
-      "path": "04b_gate_status.md",
-      "size_bytes": 6494,
-      "sha256": "a11864852335af2396574004119e435b45d0317a0a6ce6ee589068aa917de19d"
-    },
-    {
-      "path": "04b_minimum_production_scope.md",
-      "size_bytes": 22341,
-      "sha256": "a043cc0ecc2edf2caa731b387c218fbb00b5cc1f982fc2fb16e37116b8554ec3"
-    },
-    {
-      "path": "05_developmental_simulation_reconciliation.md",
-      "size_bytes": 7437,
-      "sha256": "964d6ab0b943257ee0d63db1be2085f8fdfa8c58b2cb5880488a4951646f1e3a"
     },
     {
       "path": "CITATION.cff",
@@ -218,18 +43,18 @@
     },
     {
       "path": "PROJECT_TODO.md",
-      "size_bytes": 29615,
-      "sha256": "5e90a4e47c6ec7dee2b99c2016d20ce24462ff3f4ef3cbb09e66fdc0555c5542"
+      "size_bytes": 29743,
+      "sha256": "2df863098767fb707df4d9c2715e3870b11d3fcdb2bc2049add2e60876046d57"
     },
     {
       "path": "README.md",
-      "size_bytes": 21938,
-      "sha256": "b6802fd5569f1a198f4b42f65144165d1a248a248d1d07f47d01b9e8ff41d498"
+      "size_bytes": 22040,
+      "sha256": "dfb889c0fe4ab80a6924581b3a961c79da89f7d11d6cd73ac85edd048d795999"
     },
     {
       "path": "REPOSITORY_STRUCTURE_MANIFEST.json",
-      "size_bytes": 1098,
-      "sha256": "2608a0a88f97ec213631c10dd45de038548a5afca79b0f1fb0cff0b08a220240"
+      "size_bytes": 1248,
+      "sha256": "8754e2bc160f8d1460860369485ef8e5c2e3e94ca9a9faf3953488ff8da2bf6d"
     },
     {
       "path": "SECURITY.md",
@@ -313,8 +138,8 @@
     },
     {
       "path": "docs/repository-layout.md",
-      "size_bytes": 3470,
-      "sha256": "37d70aac12807862176df4f154f8f1a712f6d5b68435a298698ff06dc0e664c5"
+      "size_bytes": 4169,
+      "sha256": "8dddbcf4860f8f0050fbb3be2e1266682a4a3227c9817984051c86f0f7e67fa3"
     },
     {
       "path": "docs/research-governance.md",
@@ -328,8 +153,13 @@
     },
     {
       "path": "docs/traceability/README.md",
-      "size_bytes": 758,
-      "sha256": "881b8df03571132c91051d44a7abc1cf0d7f9438a1feaf0e70896ae46a62446a"
+      "size_bytes": 974,
+      "sha256": "a089ccb2eba29a21f0d30248718f0ce914939110f82ec26c4e1483e69452c2bd"
+    },
+    {
+      "path": "docs/traceability/RESEARCH_DESIGN_RELOCATION_2026-08-20.json",
+      "size_bytes": 9845,
+      "sha256": "65ad9d40b0775d4cdf72d05b56b1677dd0c108ab5f92dc737dc11bccf71f10ea"
     },
     {
       "path": "docs/traceability/STRUCTURE_ENHANCEMENT_RECORD_2026-08-19.json",
@@ -348,8 +178,8 @@
     },
     {
       "path": "evidence_review/README.md",
-      "size_bytes": 7463,
-      "sha256": "2482b247d044130a5d3d995beb3f04f414e963539bbc4a3d53c8aa3cd2b927b0"
+      "size_bytes": 7479,
+      "sha256": "489dcd5eb3e3e14d25640c7dd1c4b8c1cc970a8408e46d260ddef4debfc626ba"
     },
     {
       "path": "evidence_review/__init__.py",
@@ -768,8 +598,8 @@
     },
     {
       "path": "gate2/d17_confirmation_pack.py",
-      "size_bytes": 8938,
-      "sha256": "80b5ea40403b09bdf644d3ab9b4ccebeee24ca523ad5f817bfc739a232ca3726"
+      "size_bytes": 8954,
+      "sha256": "35d8cfcb27a3a324ce50a491281a79a04ca1da301e3246ccb73777563030bcbe"
     },
     {
       "path": "gate2/deduplicate_systematic.py",
@@ -795,6 +625,11 @@
       "path": "gate2/final_source_family_acceptance_matrix.sha256",
       "size_bytes": 109,
       "sha256": "3ef3eea0e8385ea3edcda14c6a3a672e49c022a53ff9fdc7ab66661abfabc5eb"
+    },
+    {
+      "path": "gate2/frozen_paths.py",
+      "size_bytes": 877,
+      "sha256": "db6beb16aaef6a22572618e90318571aeb56f33425c60a2f0db6503512a3c512"
     },
     {
       "path": "gate2/frozen_protocol_package_v1.3.json",
@@ -26488,8 +26323,8 @@
     },
     {
       "path": "gate2/systematic_export.py",
-      "size_bytes": 11551,
-      "sha256": "c0f77ee14672daf0b069dcca2629d375d4893c1f059f5db1051d6554a042bf41"
+      "size_bytes": 11662,
+      "sha256": "3a5d6a0787e57a1df3248d08e487cca75a76bef95b1e0f04c53ccb88e9d687a9"
     },
     {
       "path": "gate2/title_abstract_screening.py",
@@ -26787,6 +26622,186 @@
       "sha256": "9990717d58b84483c5833f9421a2fe0be7a70408936f85514125a24047a8c691"
     },
     {
+      "path": "research-design/01_research_concept_brief.md",
+      "size_bytes": 29350,
+      "sha256": "f38ac5abc463e98acf80322706df889f36b57a9fd2999d687b72d1bf157efa09"
+    },
+    {
+      "path": "research-design/02_executable_search_appendix.md",
+      "size_bytes": 34897,
+      "sha256": "187363bae92c65b6fd864241898b9c0d5bb8d53fe786c9f03c27de311c5c4c1a"
+    },
+    {
+      "path": "research-design/02_gate2_decision_pack.md",
+      "size_bytes": 6819,
+      "sha256": "2f64110adc6cc977b9c0b07607533a740c1935ecdfb564b3cd27785db1bac329"
+    },
+    {
+      "path": "research-design/02_gate2_executable_review_audit.md",
+      "size_bytes": 3491,
+      "sha256": "5f55218e806e43f4ec0fa90c1a4a72f422cef542225a02e17d5232edb71b6670"
+    },
+    {
+      "path": "research-design/02_grey_literature_search_procedure.md",
+      "size_bytes": 2943,
+      "sha256": "cdab5963f8950ba6ac9ee21054973100f0533f39e84f1a6abb1deb9d151e95fe"
+    },
+    {
+      "path": "research-design/02_open_evidence_route_status.md",
+      "size_bytes": 7581,
+      "sha256": "25149b7522b932349f94f86202353f33a7c6df9c55fc170223b51d88f63c4547"
+    },
+    {
+      "path": "research-design/02_research_generation_prompt.md",
+      "size_bytes": 4655,
+      "sha256": "bb5ff1c513347e2b5c1c4af371c2d84491a4ff831c7c50c491c87b4a7f179446"
+    },
+    {
+      "path": "research-design/02_review_logs_template.md",
+      "size_bytes": 9470,
+      "sha256": "ea503beae1f9e7338fa8304746d2bdb498d0fde668129e16bc259a644eac3a11"
+    },
+    {
+      "path": "research-design/02_search_execution_log_pilot.md",
+      "size_bytes": 9606,
+      "sha256": "c86255f39b04c2d30e189a6fe54c59017696af8fb9dcffdba687b5dc7499df84"
+    },
+    {
+      "path": "research-design/02_seed_evidence_matrix.md",
+      "size_bytes": 16446,
+      "sha256": "3b94b77dd0c9091f1e1719016626f242b176e737fd39a3fe84d2e7f969fcb437"
+    },
+    {
+      "path": "research-design/02_systematic_review_protocol.md",
+      "size_bytes": 47619,
+      "sha256": "e297798a59db599def5ac6709d0d05a25aef26b63b9ad4050ea9d9b9de9acac0"
+    },
+    {
+      "path": "research-design/02b_active_parameter_gap_audit.md",
+      "size_bytes": 5608,
+      "sha256": "3dfcede0a80a63888660b5e908d22eafc4034224c377b73dcd769795fc9b7dbc"
+    },
+    {
+      "path": "research-design/02d_minimum_route_protocol_amendment_draft.md",
+      "size_bytes": 12171,
+      "sha256": "3e999a75aba72fe5642e9ee7f688d005f7d0f7115904ff4887e93235156437ec"
+    },
+    {
+      "path": "research-design/02e_b05_accountable_author_review.md",
+      "size_bytes": 4432,
+      "sha256": "844eaedbdc89042ba506b716b7c0b7343c6832979ba0bc6ab39d04d70118e373"
+    },
+    {
+      "path": "research-design/02f_d03_d04_protocol_freeze_record.md",
+      "size_bytes": 2819,
+      "sha256": "4c8f474cc8df0ec5304780efbcbbd22cdbc7ef4ca2cfce97cd6cf2a4290ee538"
+    },
+    {
+      "path": "research-design/02f_d03_d04_protocol_freeze_record.md.sha256",
+      "size_bytes": 104,
+      "sha256": "43f4e10ea0d989fca3610e7060f6a0b92b5f0c91d7964acf93e68dd144556b95"
+    },
+    {
+      "path": "research-design/03_causal_model.md",
+      "size_bytes": 3901,
+      "sha256": "0498a50aee895b0271c93dac1f459871b9ef23d692d9cb346cd755f921ab0679"
+    },
+    {
+      "path": "research-design/03_construct_dictionary.md",
+      "size_bytes": 8017,
+      "sha256": "a06b9fb97ccbe00d23127d1cd39d66976c0d73310e9202cb9bf602cbd54b3b84"
+    },
+    {
+      "path": "research-design/03_framework_specification.md",
+      "size_bytes": 9948,
+      "sha256": "98434c92067237e12f1be06e531e2efac8cc9bce8553a2703c472dae1c6275c9"
+    },
+    {
+      "path": "research-design/03_future_empirical_propositions.md",
+      "size_bytes": 4150,
+      "sha256": "dc5ea236e456711435b058d9b9a079ccc38ffc2bbb0e9f47077172c789043c8c"
+    },
+    {
+      "path": "research-design/03_gate3_status.md",
+      "size_bytes": 3688,
+      "sha256": "b8db87f69236582fec49bff65be3862e92ee030c66b5b4da72164ed07244769e"
+    },
+    {
+      "path": "research-design/03_route_b_simulation_protocol.md",
+      "size_bytes": 8872,
+      "sha256": "704135ce21d3c6afc215c1040ea75b884d5a9bd4325fd9050f190f915fa6ae2d"
+    },
+    {
+      "path": "research-design/03b_decision_pack.md",
+      "size_bytes": 4197,
+      "sha256": "29e17e5a04356e10182f5e2d8a7fe9044540f5b996e551df0406c6f3f447cbbb"
+    },
+    {
+      "path": "research-design/03b_literature_parameter_registry.md",
+      "size_bytes": 8191,
+      "sha256": "5c95041d7d65c6b35d887e565ba4a56135e884538c85eb0c05330b1050458db9"
+    },
+    {
+      "path": "research-design/03b_naming_collision_audit.md",
+      "size_bytes": 1981,
+      "sha256": "e996b901e4d4224f21c0a6d9251e2fbe23259a53f8387daf762731f20cfd7930"
+    },
+    {
+      "path": "research-design/03b_operational_anchors.md",
+      "size_bytes": 6466,
+      "sha256": "9ebaab70045f7e615a1c826603c1b287c8db76b7423288c0b21d592a6807a16b"
+    },
+    {
+      "path": "research-design/03b_parameter_provenance.md",
+      "size_bytes": 3921,
+      "sha256": "4d485d8d2a233f46b93130b9aa9c92239f889bcd9bb4ab630e10a41b0381dbbc"
+    },
+    {
+      "path": "research-design/03b_readiness_rules.md",
+      "size_bytes": 6001,
+      "sha256": "e45e62b644ffb6d73ed48c949a39071e576b4bd01c0e5b1096a7fed54b48b0e9"
+    },
+    {
+      "path": "research-design/03b_simulation_schema.json",
+      "size_bytes": 19132,
+      "sha256": "05c8978c182b4be8b3104114d056373d0ebdd7d364a47cfae8ea39d90a65b805"
+    },
+    {
+      "path": "research-design/04_comparator_evaluation_spec.md",
+      "size_bytes": 4786,
+      "sha256": "79c54660a47eddfa9a72e6697bc9046397a50edc5e1b7e5900a6d2e6b235dc66"
+    },
+    {
+      "path": "research-design/04_locked_synthetic_preregistration.md",
+      "size_bytes": 9140,
+      "sha256": "a515081ed22a24f6619d7ad32bd21bcac9d50787c342973c4eef0bf4a5cc9496"
+    },
+    {
+      "path": "research-design/04_prototype_status.md",
+      "size_bytes": 6341,
+      "sha256": "475820343f6cdccca222755afa9dbb3dcd42d8dce801cbc7247ffada492ac958"
+    },
+    {
+      "path": "research-design/04b_gate_status.md",
+      "size_bytes": 6494,
+      "sha256": "a11864852335af2396574004119e435b45d0317a0a6ce6ee589068aa917de19d"
+    },
+    {
+      "path": "research-design/04b_minimum_production_scope.md",
+      "size_bytes": 22341,
+      "sha256": "a043cc0ecc2edf2caa731b387c218fbb00b5cc1f982fc2fb16e37116b8554ec3"
+    },
+    {
+      "path": "research-design/05_developmental_simulation_reconciliation.md",
+      "size_bytes": 7437,
+      "sha256": "964d6ab0b943257ee0d63db1be2085f8fdfa8c58b2cb5880488a4951646f1e3a"
+    },
+    {
+      "path": "research-design/README.md",
+      "size_bytes": 2017,
+      "sha256": "c20206b29b782eb641e25fa7aa33d311ae21e47a983d1e20174b4a49ac4a2b64"
+    },
+    {
       "path": "scripts/build_public_release.py",
       "size_bytes": 5411,
       "sha256": "5ff2e989817c410bcc599e2b2bc008834838a21c281fc0c54560679b8ec5f108"
@@ -26798,8 +26813,8 @@
     },
     {
       "path": "scripts/verify_manuscript.py",
-      "size_bytes": 7896,
-      "sha256": "14b0091f173d13987a4607b96aa80c10462ea89cb1e53571dc08f59bdf1f58ba"
+      "size_bytes": 8096,
+      "sha256": "3049e33aba1e3ea9d18a1beaa4f56318808435010350d1c5668a1359021ab849"
     },
     {
       "path": "scripts/verify_public_release.py",
@@ -26808,13 +26823,13 @@
     },
     {
       "path": "scripts/verify_repository.py",
-      "size_bytes": 36257,
-      "sha256": "fa35a0e328c72516997ef8be3d492820f11bbbccbc8856512b821cf08dd92449"
+      "size_bytes": 36406,
+      "sha256": "25a7aee6b2ac106bece85a4c67c76443961754e618bd8c4d4ab12a7df8d04604"
     },
     {
       "path": "simulation/README.md",
-      "size_bytes": 4829,
-      "sha256": "19824be01304006e3f1ab40896348b1a33674d186d2843ed0d1e862d391f8c7e"
+      "size_bytes": 4861,
+      "sha256": "5c086275b19b666b88714d48bffaf1a96463aa983da649869edc1934d6f0490f"
     },
     {
       "path": "simulation/__init__.py",
@@ -26828,8 +26843,8 @@
     },
     {
       "path": "simulation/config.py",
-      "size_bytes": 24520,
-      "sha256": "657e9d5f1bcfe207da8c5e6f4945d7b133f70bb11bfc8b3bcddfe4dc0f96640f"
+      "size_bytes": 24536,
+      "sha256": "240901af5ae2aa2b1b1cc00a7324bc211e91d8941338951470e8f65a6119c749"
     },
     {
       "path": "simulation/configs/example.yaml",
@@ -26843,13 +26858,13 @@
     },
     {
       "path": "simulation/configs/parameter_registry.json",
-      "size_bytes": 4525,
-      "sha256": "5d43a55fc92ec43c3e2e028b8d2caa05a25907d6c4a4daea56f3cdf0f6635e16"
+      "size_bytes": 4573,
+      "sha256": "4df7ed975d395f98606139f8f5aeb4c1ebec4bb8c836cb4885a669b65bf47d34"
     },
     {
       "path": "simulation/development_pipeline.py",
-      "size_bytes": 20903,
-      "sha256": "5ab5b37c38dcccb1bed1138c513ec38433f927aa780e9e9cc41c8aaf760b199a"
+      "size_bytes": 20919,
+      "sha256": "ceac185f7360619e81373defdf36c269318ea96c2a0563081a169d5a9035beba"
     },
     {
       "path": "simulation/development_reporting.py",
@@ -26958,8 +26973,8 @@
     },
     {
       "path": "simulation/preregistration/locked_evaluation_protocol.json",
-      "size_bytes": 6748,
-      "sha256": "d88198a6d9c02516fdb7a25eb34fd6fc42e6906a73a74771990eeb76e66c1213"
+      "size_bytes": 6764,
+      "sha256": "e1ec3f02b0f5ed3daec4e72fb0218e3e0dabf5866178116408183643097272cf"
     },
     {
       "path": "simulation/scheduling.py",
@@ -26983,8 +26998,8 @@
     },
     {
       "path": "simulation/tests/test_engine.py",
-      "size_bytes": 5057,
-      "sha256": "6a677d3985a8106a3aa4a54dc6585532b5cabeb29b47b97d6c3cec44c1dd0d58"
+      "size_bytes": 5073,
+      "sha256": "9781cfc0c0ce395de48812d4a2ec981f34462abcb7c02862ca85c198224eee6d"
     },
     {
       "path": "simulation/verification.py",
@@ -27068,8 +27083,8 @@
     },
     {
       "path": "studies/vdcm/evidence-map/README.md",
-      "size_bytes": 4169,
-      "sha256": "540b37b34aa7623fb6135412de7fe2f06fae0b673ef960292b060f651ef474cb"
+      "size_bytes": 4265,
+      "sha256": "36e3a91f9ee21f96aa44b2aca6905e7d37126d78a829558a83d3ed18a886324f"
     },
     {
       "path": "studies/vdcm/evidence-map/S4_QUERY_DEVELOPMENT.md",
@@ -27438,8 +27453,8 @@
     },
     {
       "path": "studies/vdcm/protocol/README.md",
-      "size_bytes": 1064,
-      "sha256": "caf8fc0edfa9eb350bcd5dda71a810117c4219e6b5c5407028dbcb08e171063d"
+      "size_bytes": 1320,
+      "sha256": "37cff98c4c87efa8c86107e000cbcbfe93f41563787f1fd7beb282db01208951"
     },
     {
       "path": "studies/vdcm/restricted/README.md",
@@ -27478,8 +27493,8 @@
     },
     {
       "path": "tests/test_calendar_dependencies.py",
-      "size_bytes": 14944,
-      "sha256": "849a24f66c0ed6bf5876850deda147b1fee3ba1f2e5062814877fb4e35274934"
+      "size_bytes": 14960,
+      "sha256": "84a8ac53f899bb0f643982b45d8dc27068dd4adc42e587eeea84312a53b37608"
     },
     {
       "path": "tests/test_citation_chasing.py",
@@ -27508,8 +27523,8 @@
     },
     {
       "path": "tests/test_config_validation.py",
-      "size_bytes": 8355,
-      "sha256": "0671eb59c115d3dd1761a6d406b99101e1ab4a0cfc2460adf48f1df8a21e3deb"
+      "size_bytes": 8371,
+      "sha256": "36c3e7409670091e7e0e2be9331736a143bab1d2fb3a3185645a4376aaaa3f9c"
     },
     {
       "path": "tests/test_d14_candidate_consolidation.py",
@@ -27543,8 +27558,8 @@
     },
     {
       "path": "tests/test_development_pipeline.py",
-      "size_bytes": 4622,
-      "sha256": "2d821cf89eaf34fa116c0d82f055efca811d9019e44517e413bea156c0dba923"
+      "size_bytes": 4638,
+      "sha256": "da49c190a41ca379e8886659f710090a798c6f88b0c692fa81093a82f54d2e6c"
     },
     {
       "path": "tests/test_development_reporting.py",
@@ -27553,8 +27568,8 @@
     },
     {
       "path": "tests/test_engine_hard_stops.py",
-      "size_bytes": 4274,
-      "sha256": "d312f0e7edcdc7342dc0900bb9e26ff7bb4780451e78c5bb26be1e9ca00ba097"
+      "size_bytes": 4290,
+      "sha256": "99566122d24a2fd93d8eed887aabf3c41d876c3bac4a2cd18a792e4aaa03b697"
     },
     {
       "path": "tests/test_evidence_extraction.py",
@@ -27573,8 +27588,8 @@
     },
     {
       "path": "tests/test_frozen_protocol_package.py",
-      "size_bytes": 2479,
-      "sha256": "6a890108826801b970d7085e1e1995b8179a132f91b4420500c29fc708d7cb16"
+      "size_bytes": 2603,
+      "sha256": "6f48921336a63547f3b384c347e8f13f5fea28411f238b8a5e2b9d77b09a8390"
     },
     {
       "path": "tests/test_fulltext_consensus_audit.py",
@@ -27613,8 +27628,8 @@
     },
     {
       "path": "tests/test_gate_semantics.py",
-      "size_bytes": 8922,
-      "sha256": "1cef2296cb1876d4c340704ee5d7803cf4354cda02f67c058b24ffbcdce2f4f0"
+      "size_bytes": 8938,
+      "sha256": "cbc1dc0a1decc1809952767be46fc5af13ff7441e2d76525a4e5c9fbbf8852f3"
     },
     {
       "path": "tests/test_locked_runner.py",
@@ -27623,8 +27638,8 @@
     },
     {
       "path": "tests/test_minimum_route_scope.py",
-      "size_bytes": 4102,
-      "sha256": "8b045a8f8dd76eec29ae8ae41a2fe683b0891de08a0f10228c2aef272306a14f"
+      "size_bytes": 4134,
+      "sha256": "7d7f111ed6a59ea574a197aa5bc49a0c624176e8476fc42301970dbd560391a6"
     },
     {
       "path": "tests/test_open_index_export.py",
@@ -27633,13 +27648,13 @@
     },
     {
       "path": "tests/test_parameter_registry.py",
-      "size_bytes": 3864,
-      "sha256": "93911dbf2dd3c5ff12c1a6d95352fb70de89305f46ffe4efbb00315f8c89fbf2"
+      "size_bytes": 3880,
+      "sha256": "647349880ab68c036a0c29283ddff003259aa37c709284bcaab4ab14c0f623f2"
     },
     {
       "path": "tests/test_prefreeze_protocol_package.py",
-      "size_bytes": 3629,
-      "sha256": "d741ee88177d5dad4a78254eade54611fba606c7308b56e774e76aac81b97d33"
+      "size_bytes": 3721,
+      "sha256": "662521013238c50098f02522a03550bfe5b7024a788b41e61ef39bda80df5adf"
     },
     {
       "path": "tests/test_prelock.py",
@@ -27665,6 +27680,11 @@
       "path": "tests/test_query_appraisal.py",
       "size_bytes": 13378,
       "sha256": "a4fc4b92ed1f1c325e13d1be319a1b7ce76b4a81e7b757c9fe69659aa5c05c81"
+    },
+    {
+      "path": "tests/test_research_design_relocation.py",
+      "size_bytes": 1598,
+      "sha256": "3788bc1d9a2a038941a15691fc301e97c65316cb80303a100e46a75038117349"
     },
     {
       "path": "tests/test_s7_novelty_controls.py",

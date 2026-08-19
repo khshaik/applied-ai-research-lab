@@ -6,17 +6,23 @@ import argparse
 import hashlib
 import json
 import re
+import sys
 from pathlib import Path
 from typing import Any, Sequence
 
 
 ROOT = Path(__file__).resolve().parents[1]
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
+
+from gate2.frozen_paths import resolve_frozen_path
+
 PAPER = ROOT / "papers/thinkai-2026"
 MANUSCRIPT = PAPER / "manuscript/manuscript_working_draft.md"
 LEDGER = PAPER / "manuscript/claim_verification_ledger.md"
 ALT_TEXT = PAPER / "figures/ALT_TEXT.md"
 SCOPE = ROOT / "gate2/minimum_route_scope.draft.json"
-PROTOCOL = ROOT / "02_systematic_review_protocol.md"
+PROTOCOL = ROOT / "research-design/02_systematic_review_protocol.md"
 FROZEN_PACKAGE = ROOT / "gate2/frozen_protocol_package_v1.3.json"
 
 BLOCKED_MARKERS = ("EVIDENCE-MAP-RESULT", "CITATION-VERIFY", "VENUE-CHECK", "AUTHOR-INPUT-REQUIRED")
@@ -76,12 +82,12 @@ def _frozen_protocol_valid(root: Path) -> bool:
             return False
         for key in ("approved_prefreeze_package", "approval_record"):
             row = package[key]
-            path = root / row["path"]
+            path = resolve_frozen_path(root, row["path"])
             if not path.is_file() or _sha256(path) != row["sha256"]:
                 return False
         prefreeze = json.loads((root / package["approved_prefreeze_package"]["path"]).read_text(encoding="utf-8"))
         for row in prefreeze["artifacts"]:
-            path = root / row["path"]
+            path = resolve_frozen_path(root, row["path"])
             if not path.is_file() or _sha256(path) != row["sha256"]:
                 return False
         return True
@@ -95,7 +101,7 @@ def validate(*, release: bool = False, root: Path = ROOT) -> dict[str, Any]:
     ledger_path = paper / "manuscript/claim_verification_ledger.md"
     alt_path = paper / "figures/ALT_TEXT.md"
     scope_path = root / "gate2/minimum_route_scope.draft.json"
-    protocol_path = root / "02_systematic_review_protocol.md"
+    protocol_path = root / "research-design/02_systematic_review_protocol.md"
     errors: list[str] = []
     warnings: list[str] = []
 

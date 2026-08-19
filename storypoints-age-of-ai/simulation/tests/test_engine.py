@@ -10,7 +10,7 @@ from simulation.engine import run_truth
 
 ROOT = Path(__file__).resolve().parents[2]
 CONFIG = ROOT / "simulation" / "configs" / "example.yaml"
-SCHEMA = ROOT / "03b_simulation_schema.json"
+SCHEMA = ROOT / "research-design/03b_simulation_schema.json"
 
 
 class ConfigurationTests(unittest.TestCase):

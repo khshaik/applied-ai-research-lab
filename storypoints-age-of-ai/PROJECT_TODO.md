@@ -8,9 +8,9 @@ Active task: F01/F04/F06 — finalize and package the manuscript
 
 Current scope-control artifacts:
 
-- [`02d_minimum_route_protocol_amendment_draft.md`](02d_minimum_route_protocol_amendment_draft.md)
+- [`research-design/02d_minimum_route_protocol_amendment_draft.md`](research-design/02d_minimum_route_protocol_amendment_draft.md)
 - [`gate2/minimum_route_scope.draft.json`](gate2/minimum_route_scope.draft.json)
-- [`02e_b05_accountable_author_review.md`](02e_b05_accountable_author_review.md)
+- [`research-design/02e_b05_accountable_author_review.md`](research-design/02e_b05_accountable_author_review.md)
 
 This is the single source of truth for work remaining before submission. If a
 task is not listed here, it is not part of the current completion route unless
@@ -89,7 +89,7 @@ upgrades the paper route.
 - [x] B05 — Accountable author approved amendment 0.1 on 16 August 2026. The
   actual decision evidence (“Continue” twice after the explicit approval
   request), timestamp, matrix acceptance, and claims boundary are archived in
-  [`02e_b05_accountable_author_review.md`](02e_b05_accountable_author_review.md).
+  [`research-design/02e_b05_accountable_author_review.md`](research-design/02e_b05_accountable_author_review.md).
 
 Exit condition: approved, dated, versioned amendment with no unresolved scope
 language. No systematic corpus is created before this exit condition.
@@ -357,7 +357,7 @@ records, citations, flow counts, or extraction fields.
   [`simulation/output/development/reproducibility_audit_20260815.json`](simulation/output/development/reproducibility_audit_20260815.json).
 - [x] E03 — Reconcile the 264-run scenario results, four mechanism ablations,
   comparator results, parameter-recovery results, and negative findings. See
-  [`05_developmental_simulation_reconciliation.md`](05_developmental_simulation_reconciliation.md).
+  [`research-design/05_developmental_simulation_reconciliation.md`](research-design/05_developmental_simulation_reconciliation.md).
 - [x] E04 — Produce manuscript-ready result tables and figures with explicit
   synthetic-data labels and uncertainty. Current package:
   [`papers/thinkai-2026/results/developmental_simulation_v2/`](papers/thinkai-2026/results/developmental_simulation_v2/).

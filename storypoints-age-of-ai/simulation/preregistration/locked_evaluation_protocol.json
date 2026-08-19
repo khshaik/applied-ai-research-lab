@@ -9,7 +9,7 @@
       "sha256": "0c0e9201b99b45f77ef3b430e4ee2b1adae7f46210585d11fe17bfdf94cd3721"
     },
     "configuration_schema": {
-      "path": "03b_simulation_schema.json",
+      "path": "research-design/03b_simulation_schema.json",
       "sha256": "dcb1e60ae363fe5c3a28eff236c33de8746a4684e2d1f265c98bfff511ded36a"
     },
     "seed_manifest": {
