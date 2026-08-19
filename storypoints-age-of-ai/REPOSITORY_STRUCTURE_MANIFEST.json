@@ -5,27 +5,28 @@
   "repository_status": "PRIVATE_DURING_DOUBLE_BLIND_REVIEW",
   "study_id": "vdcm",
   "canonical_layers": [
-    "studies/vdcm",
-    "research-design",
+    "research/studies/vdcm",
+    "research/design",
     "papers/thinkai-2026",
     "docs",
+    "docs/communications",
     "docs/traceability",
     "scripts",
-    "communications",
-    "artifacts/workbooks"
+    "artifacts/workbooks",
+    "artifacts/reference-images"
   ],
   "import_stable_compatibility_paths": [
     "gate2",
     "evidence_review",
     "simulation",
     "tests",
-    "research-design/01_research_concept_brief.md",
-    "research-design/02_systematic_review_protocol.md",
-    "research-design/03_framework_specification.md",
-    "research-design/04_locked_synthetic_preregistration.md",
-    "THINKAI_2026_Gate2_Research_Workbook.xlsx"
+    "research/design/01_research_concept_brief.md",
+    "research/design/02_systematic_review_protocol.md",
+    "research/design/03_framework_specification.md",
+    "research/design/04_locked_synthetic_preregistration.md",
+    "artifacts/workbooks/THINKAI_2026_Gate2_Research_Workbook.xlsx"
   ],
-  "migration_policy": "Numbered research artifacts were relocated under the checksum-preserving record docs/traceability/RESEARCH_DESIGN_RELOCATION_2026-08-20.json; future moves require the same path-reference repair and verification controls.",
+  "migration_policy": "The approved folder consolidation is recorded in docs/traceability/CONTROLLED_FOLDER_RELOCATION_2026-08-20.json; future moves require the same byte-conservation, path-reference repair, and verification controls.",
   "restricted_material_included": false,
   "production_seed_values_included": false,
   "systematic_corpus_frozen": true,

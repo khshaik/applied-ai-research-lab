@@ -20,7 +20,7 @@ ROOT = Path(__file__).resolve().parents[1]
 class DevelopmentPipelineTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        cls.config = load_and_validate(ROOT / "simulation/configs/example.yaml", ROOT / "research-design/03b_simulation_schema.json")
+        cls.config = load_and_validate(ROOT / "simulation/configs/example.yaml", ROOT / "research/design/03b_simulation_schema.json")
 
     def test_rejects_locked_evaluation_world(self):
         scenario = DevelopmentScenario("forbidden", "world_mixed", "test", {}, "must fail")

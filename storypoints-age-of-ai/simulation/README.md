@@ -22,7 +22,7 @@ No external system is read or written.
 
 The example is JSON-compatible YAML, so it loads with the Python standard
 library when PyYAML is unavailable. The dependency-free validator implements
-the JSON Schema keywords used in `research-design/03b_simulation_schema.json`, then checks
+the JSON Schema keywords used in `research/design/03b_simulation_schema.json`, then checks
 cross-document references and probability sums.
 
 Run the complete suite through the unified runner. It discovers both project
@@ -80,7 +80,7 @@ older, non-reproducing developmental output claims.
 
 The draft machine-readable protocol is
 `simulation/preregistration/locked_evaluation_protocol.json`; the review and
-opening procedure is in `research-design/04_locked_synthetic_preregistration.md`. Before any
+opening procedure is in `research/design/04_locked_synthetic_preregistration.md`. Before any
 evaluation seed is opened, run:
 
 ```bash

@@ -1,7 +1,7 @@
 # Status and roadmap
 
 > The controlling completion plan is now
-> [`../PROJECT_TODO.md`](../PROJECT_TODO.md). This document remains a concise
+> [`PROJECT_TODO.md`](PROJECT_TODO.md). This document remains a concise
 > status narrative and must not be used to add work outside that checklist.
 
 Last updated: 2026-08-19  
@@ -24,7 +24,7 @@ Repository state: private during double-blind preparation; protocol v1.3 frozen
 
 The detailed material below records the earlier development state and is
 retained for provenance; it is superseded by this current-status block and
-[`research-status-and-release-path.md`](traceability/research-status-and-release-path.md).
+[`research-status-and-release-path.md`](../traceability/research-status-and-release-path.md).
 
 ## Historical completed snapshot (superseded)
 

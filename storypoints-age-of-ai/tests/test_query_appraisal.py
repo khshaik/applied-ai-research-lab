@@ -171,7 +171,7 @@ def test_checked_in_v03_appraisals_rederive_exactly():
 
 def test_checked_in_s5t_openalex_appraisal_rederives_exactly():
     root=Path(__file__).parents[1]
-    registry=json.loads((root/'studies/vdcm/evidence-map/registries/s5t_open_index_queries_v0.4.json').read_text())
+    registry=json.loads((root/'research/studies/vdcm/evidence-map/registries/s5t_open_index_queries_v0.4.json').read_text())
     decisions=json.loads((root/'gate2/output/development/query_appraisals/OA-S5TR4-20260816-query-decisions-v1.json').read_text())['decisions']
     result=appraise(root/'gate2/output/development/openalex/OA-S5TR4-20260816-pilot1',registry,decisions)
     checked=json.loads((root/'gate2/output/development/query_appraisals/OA-S5TR4-20260816-query-appraisal-v1.json').read_text())
@@ -182,7 +182,7 @@ def test_checked_in_s5t_openalex_appraisal_rederives_exactly():
 
 def test_checked_in_s5s_openalex_appraisal_rederives_exactly():
     root=Path(__file__).parents[1]
-    registry=json.loads((root/'studies/vdcm/evidence-map/registries/s5s_open_index_queries_v0.7.json').read_text())
+    registry=json.loads((root/'research/studies/vdcm/evidence-map/registries/s5s_open_index_queries_v0.7.json').read_text())
     decisions=json.loads((root/'gate2/output/development/query_appraisals/OA-S5SR7-20260816-query-decisions-v1.json').read_text())['decisions']
     result=appraise(root/'gate2/output/development/openalex/OA-S5SR7-20260816-pilot1',registry,decisions)
     checked=json.loads((root/'gate2/output/development/query_appraisals/OA-S5SR7-20260816-query-appraisal-v1.json').read_text())
@@ -193,7 +193,7 @@ def test_checked_in_s5s_openalex_appraisal_rederives_exactly():
 
 def test_checked_in_s6_openalex_appraisal_rederives_exactly():
     root=Path(__file__).parents[1]
-    registry=json.loads((root/'studies/vdcm/evidence-map/registries/s6_open_index_queries_v0.8.json').read_text())
+    registry=json.loads((root/'research/studies/vdcm/evidence-map/registries/s6_open_index_queries_v0.8.json').read_text())
     decision_artifact=json.loads((root/'gate2/output/development/query_appraisals/OA-S6R8-20260816-query-decisions-v1.json').read_text())
     positions,seed=deterministic_sample_positions(231,'openalex','S6','0.8')
     assert positions==decision_artifact['sample_positions_zero_based']

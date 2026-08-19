@@ -15,21 +15,23 @@ if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 REQUIRED = {
     "README.md", "LICENSE", "CITATION.cff", "CONTRIBUTING.md", "SECURITY.md",
-    "Makefile", "pyproject.toml", "REPOSITORY_STRUCTURE_MANIFEST.json", "PROJECT_TODO.md",
-    "research-design/02d_minimum_route_protocol_amendment_draft.md",
-    "research-design/02e_b05_accountable_author_review.md",
-    "docs/repository-layout.md", "docs/research-governance.md", "docs/status-and-roadmap.md",
-    "docs/public-release-policy.md",
+    "Makefile", "pyproject.toml", "REPOSITORY_STRUCTURE_MANIFEST.json", "docs/status/PROJECT_TODO.md",
+    "research/design/02d_minimum_route_protocol_amendment_draft.md",
+    "research/design/02e_b05_accountable_author_review.md",
+    "docs/repository/repository-layout.md", "docs/governance/research-governance.md", "docs/status/status-and-roadmap.md",
+    "docs/governance/public-release-policy.md",
     "docs/traceability/README.md", "docs/traceability/evidence-preservation-map.md",
     "docs/traceability/research-status-and-release-path.md",
     "docs/traceability/STRUCTURE_ENHANCEMENT_RECORD_2026-08-19.json",
     "docs/traceability/RESEARCH_DESIGN_RELOCATION_2026-08-20.json",
-    "research-design/README.md",
-    "studies/vdcm/README.md", "studies/vdcm/protocol/README.md",
-    "studies/vdcm/evidence-map/README.md", "studies/vdcm/simulation/README.md",
-    "studies/vdcm/integrity/README.md", "studies/vdcm/restricted/README.md",
-    "studies/vdcm/integrity/releases/D17_ACCOUNTABLE_AUTHOR_CONFIRMATION_2026-08-19.json",
-    "studies/vdcm/integrity/releases/D17_ACCOUNTABLE_AUTHOR_CONFIRMATION_2026-08-19.json.sha256",
+    "docs/traceability/CONTROLLED_FOLDER_RELOCATION_2026-08-20.json",
+    "docs/README.md", "research/README.md",
+    "research/design/README.md",
+    "research/studies/vdcm/README.md", "research/studies/vdcm/protocol/README.md",
+    "research/studies/vdcm/evidence-map/README.md", "research/studies/vdcm/simulation/README.md",
+    "research/studies/vdcm/integrity/README.md", "research/studies/vdcm/restricted/README.md",
+    "research/studies/vdcm/integrity/releases/D17_ACCOUNTABLE_AUTHOR_CONFIRMATION_2026-08-19.json",
+    "research/studies/vdcm/integrity/releases/D17_ACCOUNTABLE_AUTHOR_CONFIRMATION_2026-08-19.json.sha256",
     "papers/thinkai-2026/README.md",
     "papers/thinkai-2026/ACCEPTANCE_RISK_ASSESSMENT.md",
     "papers/thinkai-2026/ARTIFACT_TRACEABILITY.md",
@@ -53,26 +55,26 @@ REQUIRED = {
     "papers/thinkai-2026/declarations/AI_ASSISTANCE_DISCLOSURE.md",
     "papers/thinkai-2026/declarations/RESEARCH_ETHICS_AND_RESPONSIBLE_USE.md",
     "papers/thinkai-2026/declarations/DATA_CODE_AVAILABILITY.md",
-    "communications/README.md",
-    "communications/verified-delivery-capacity/README.md",
-    "communications/verified-delivery-capacity/END_TO_END_WORKFLOW.md",
-    "communications/verified-delivery-capacity/LONG_FORM_NARRATIVE.md",
-    "communications/verified-delivery-capacity/SHORT_FORM_SUMMARY.md",
-    "communications/verified-delivery-capacity/EDITORIAL_AND_RELEASE_GUIDE.md",
-    "communications/verified-delivery-capacity/scripts/build_workflow.py",
-    "communications/verified-delivery-capacity/assets/06-end-to-end-verified-delivery-workflow.png",
-    "communications/verified-delivery-capacity/assets/06-end-to-end-verified-delivery-workflow.svg",
-    "communications/verified-delivery-capacity/assets/asset_manifest.json",
+    "docs/communications/README.md",
+    "docs/communications/verified-delivery-capacity/README.md",
+    "docs/communications/verified-delivery-capacity/END_TO_END_WORKFLOW.md",
+    "docs/communications/verified-delivery-capacity/LONG_FORM_NARRATIVE.md",
+    "docs/communications/verified-delivery-capacity/SHORT_FORM_SUMMARY.md",
+    "docs/communications/verified-delivery-capacity/EDITORIAL_AND_RELEASE_GUIDE.md",
+    "docs/communications/verified-delivery-capacity/scripts/build_workflow.py",
+    "docs/communications/verified-delivery-capacity/assets/06-end-to-end-verified-delivery-workflow.png",
+    "docs/communications/verified-delivery-capacity/assets/06-end-to-end-verified-delivery-workflow.svg",
+    "docs/communications/verified-delivery-capacity/assets/asset_manifest.json",
     "scripts/verify_manuscript.py",
     "scripts/build_public_release.py", "scripts/verify_public_release.py",
     "gate2/minimum_route_scope.draft.json",
     "gate2/open_index_pilot_queries_v0.3.json",
-    "studies/vdcm/evidence-map/registries/s4_open_index_queries_v0.6.json",
+    "research/studies/vdcm/evidence-map/registries/s4_open_index_queries_v0.6.json",
     "gate2/output/development/query_appraisals/OA-S4R6-20260815-query-appraisal-v1.json",
     "gate2/output/development/query_appraisals/S2-S4R5-20260815-query-appraisal-v2.json",
-    "studies/vdcm/evidence-map/registries/arxiv_s4_mapping_v0.1.json",
-    "studies/vdcm/evidence-map/registries/s5t_open_index_queries_v0.4.json",
-    "studies/vdcm/evidence-map/registries/arxiv_s5t_mapping_v0.1.json",
+    "research/studies/vdcm/evidence-map/registries/arxiv_s4_mapping_v0.1.json",
+    "research/studies/vdcm/evidence-map/registries/s5t_open_index_queries_v0.4.json",
+    "research/studies/vdcm/evidence-map/registries/arxiv_s5t_mapping_v0.1.json",
     "gate2/output/development/query_appraisals/AX-S5R-to-S4-20260815-mapping-v1.json",
     "gate2/output/development/query_appraisals/AX-S5R-to-S4-20260815-query-appraisal-v1.json",
     "gate2/output/development/openalex/OA-S5TR4-20260816-pilot1/manifest.json",
@@ -80,23 +82,23 @@ REQUIRED = {
     "gate2/output/development/query_appraisals/OA-S5TR4-20260816-query-appraisal-v1.json",
     "gate2/output/development/query_appraisals/AX-S5T-20260816-query-decisions-v1.json",
     "gate2/output/development/query_appraisals/AX-S5T-20260816-query-appraisal-v1.json",
-    "studies/vdcm/evidence-map/registries/s5s_open_index_queries_v0.7.json",
-    "studies/vdcm/evidence-map/registries/arxiv_s5s_mapping_v0.1.json",
+    "research/studies/vdcm/evidence-map/registries/s5s_open_index_queries_v0.7.json",
+    "research/studies/vdcm/evidence-map/registries/arxiv_s5s_mapping_v0.1.json",
     "gate2/output/development/openalex/OA-S5SR7-20260816-pilot1/manifest.json",
     "gate2/output/development/query_appraisals/OA-S5SR7-20260816-query-decisions-v1.json",
     "gate2/output/development/query_appraisals/OA-S5SR7-20260816-query-appraisal-v1.json",
     "gate2/output/development/query_appraisals/AX-S5S-20260816-query-decisions-v2.json",
     "gate2/output/development/query_appraisals/AX-S5S-20260816-query-appraisal-v2.json",
-    "studies/vdcm/evidence-map/registries/arxiv_s6_mapping_v0.2.json",
+    "research/studies/vdcm/evidence-map/registries/arxiv_s6_mapping_v0.2.json",
     "gate2/output/development/query_appraisals/AX-S6R-20260816-query-decisions-v2.json",
     "gate2/output/development/query_appraisals/AX-S6R-20260816-query-appraisal-v2.json",
-    "studies/vdcm/evidence-map/registries/s6_open_index_queries_v0.8.json",
+    "research/studies/vdcm/evidence-map/registries/s6_open_index_queries_v0.8.json",
     "gate2/output/development/openalex/OA-S6R8-20260816-pilot1/manifest.json",
     "gate2/output/development/query_appraisals/OA-S6R8-20260816-query-decisions-v1.json",
     "gate2/output/development/query_appraisals/OA-S6R8-20260816-query-appraisal-v1.json",
-    "studies/vdcm/evidence-map/registries/s7_novelty_queries_v0.4.json",
-    "studies/vdcm/evidence-map/registries/arxiv_s7_mapping_v0.4.json",
-    "studies/vdcm/evidence-map/S7_NOVELTY_DEVELOPMENT.md",
+    "research/studies/vdcm/evidence-map/registries/s7_novelty_queries_v0.4.json",
+    "research/studies/vdcm/evidence-map/registries/arxiv_s7_mapping_v0.4.json",
+    "research/studies/vdcm/evidence-map/S7_NOVELTY_DEVELOPMENT.md",
     "gate2/output/development/openalex/OA-S7R4-20260816-pilot1/manifest.json",
     "gate2/output/development/semantic_scholar/S2-S7R4-20260816-pilot1/manifest.json",
     "gate2/output/development/arxiv/AX-S7R4-20260816-retry2/manifest.json",
@@ -107,16 +109,16 @@ REQUIRED = {
     "gate2/output/development/query_appraisals/S2-S7R4-20260816-query-appraisal-v1.json",
     "gate2/output/development/query_appraisals/AX-S7R4-20260816-query-decisions-v1.json",
     "gate2/output/development/query_appraisals/AX-S7R4-20260816-query-appraisal-v1.json",
-    "studies/vdcm/evidence-map/registries/s8_foundational_queries_v0.6.json",
-    "studies/vdcm/evidence-map/S8_FOUNDATIONAL_DEVELOPMENT.md",
+    "research/studies/vdcm/evidence-map/registries/s8_foundational_queries_v0.6.json",
+    "research/studies/vdcm/evidence-map/S8_FOUNDATIONAL_DEVELOPMENT.md",
     "gate2/output/development/openalex/OA-S8R6-20260816-full1/manifest.json",
     "gate2/output/development/semantic_scholar/S2-S8R6-20260816-full1/manifest.json",
     "gate2/output/development/query_appraisals/OA-S8R6-20260816-query-decisions-v1.json",
     "gate2/output/development/query_appraisals/OA-S8R6-20260816-query-appraisal-v1.json",
     "gate2/output/development/query_appraisals/S2-S8R6-20260816-query-decisions-v1.json",
     "gate2/output/development/query_appraisals/S2-S8R6-20260816-query-appraisal-v1.json",
-    "studies/vdcm/evidence-map/registries/s1_s2_integrative_queries_v0.3.json",
-    "studies/vdcm/evidence-map/C08_INTEGRATIVE_DEVELOPMENT.md",
+    "research/studies/vdcm/evidence-map/registries/s1_s2_integrative_queries_v0.3.json",
+    "research/studies/vdcm/evidence-map/C08_INTEGRATIVE_DEVELOPMENT.md",
     "gate2/output/development/c08_bounded_union_acceptance_20260816.json",
     "gate2/output/development/semantic_scholar/S2-S1I3-20260816-full1/manifest.json",
     "gate2/output/development/openalex/OA-S2I2-20260816-full1/manifest.json",
@@ -125,33 +127,35 @@ REQUIRED = {
     "gate2/output/development/query_appraisals/OA-S2I2-20260816-query-decisions-v1.json",
     "gate2/output/development/query_appraisals/OA-S2I2-20260816-query-appraisal-v1.json",
     "gate2/final_source_family_acceptance_matrix.json",
-    "studies/vdcm/evidence-map/C09_SOURCE_FAMILY_ACCEPTANCE_MATRIX.md",
+    "research/studies/vdcm/evidence-map/C09_SOURCE_FAMILY_ACCEPTANCE_MATRIX.md",
     "simulation/preregistration/locked_evaluation_protocol.json",
     "simulation/output/development/development_manifest.json",
     "simulation/output/development/reproducibility_audit_20260815.json",
     "simulation/output/development/g4b_mechanism_ablation_v2_20260815/ablation_receipt.json",
-    "research-design/05_developmental_simulation_reconciliation.md",
+    "research/design/05_developmental_simulation_reconciliation.md",
     "papers/thinkai-2026/results/developmental_simulation_v2/report_manifest.json",
     "papers/thinkai-2026/manuscript/tables/parameter_use_table.md",
     "papers/thinkai-2026/figures/figure_manifest.json",
     "papers/thinkai-2026/figures/ALT_TEXT.md",
     "papers/thinkai-2026/VENUE_REQUIREMENTS.md",
-    "THINKAI_2026_Gate2_Research_Workbook.xlsx",
+    "artifacts/workbooks/THINKAI_2026_Gate2_Research_Workbook.xlsx",
+    "artifacts/workbooks/THINKAI_2026_AI_Delivery_Estimation_Research_Workbook_v0.2.xlsx",
+    "artifacts/reference-images/README.md", "artifacts/reference-images/ThinkAI.jpeg",
     "gate2/output/systematic/v1.3/20260816/d07/d07_manifest.json",
-    "studies/vdcm/evidence-map/D07_STUDY_FAMILY_CONSOLIDATION.md",
+    "research/studies/vdcm/evidence-map/D07_STUDY_FAMILY_CONSOLIDATION.md",
     "gate2/output/systematic/v1.3/20260816/d08/d08_packet_manifest.json",
     "gate2/output/systematic/v1.3/20260816/d08/pass_a_decisions.jsonl",
     "gate2/output/systematic/v1.3/20260816/d08/pass_b_decisions.jsonl",
     "gate2/output/systematic/v1.3/20260816/d08/d09/d08_d09_manifest.json",
-    "studies/vdcm/evidence-map/D08_TITLE_ABSTRACT_SCREENING.md",
+    "research/studies/vdcm/evidence-map/D08_TITLE_ABSTRACT_SCREENING.md",
     "gate2/output/systematic/v1.3/20260816/d08/d09/adjudicated_decisions.jsonl",
     "gate2/output/systematic/v1.3/20260816/d08/d09/final/d09_final_manifest.json",
     "gate2/output/systematic/v1.3/20260816/d08/d09/final/final_title_abstract_decisions.jsonl",
-    "studies/vdcm/evidence-map/D09_ADJUDICATION.md",
+    "research/studies/vdcm/evidence-map/D09_ADJUDICATION.md",
     "gate2/output/systematic/v1.3/20260816/d10/final/d10_final_manifest.json",
     "gate2/output/systematic/v1.3/20260816/d10/final/fulltext_retrieval_ledger.jsonl",
     "gate2/output/systematic/v1.3/20260816/d10/timestamp_provenance_correction.json",
-    "studies/vdcm/evidence-map/D10_LAWFUL_FULLTEXT_RETRIEVAL.md",
+    "research/studies/vdcm/evidence-map/D10_LAWFUL_FULLTEXT_RETRIEVAL.md",
 }
 PROHIBITED_NAMES = {
     "production_seed_manifest.json", "sealed_seed_values.json",
@@ -185,12 +189,12 @@ def main() -> None:
             if pattern.search(text):
                 errors.append(f"{label} pattern in {path.relative_to(ROOT)}")
 
-    restricted = ROOT / "studies/vdcm/restricted"
+    restricted = ROOT / "research/studies/vdcm/restricted"
     unexpected = sorted(path.name for path in restricted.iterdir() if path.is_file() and path.name != "README.md")
     if unexpected:
         errors.append(f"unexpected restricted study files: {unexpected}")
 
-    d17_approval_path = ROOT / "studies/vdcm/integrity/releases/D17_ACCOUNTABLE_AUTHOR_CONFIRMATION_2026-08-19.json"
+    d17_approval_path = ROOT / "research/studies/vdcm/integrity/releases/D17_ACCOUNTABLE_AUTHOR_CONFIRMATION_2026-08-19.json"
     try:
         approval = json.loads(d17_approval_path.read_text(encoding="utf-8"))
         expected_claims = [f"CL-{number:03d}" for number in range(1, 11)]
@@ -221,7 +225,7 @@ def main() -> None:
     except (KeyError, TypeError, ValueError, OSError, json.JSONDecodeError) as exc:
         errors.append(f"anonymous manuscript package verification failed: {exc}")
 
-    communication_dir = ROOT / "communications/verified-delivery-capacity/assets"
+    communication_dir = ROOT / "docs/communications/verified-delivery-capacity/assets"
     try:
         communication_manifest = json.loads(
             (communication_dir / "asset_manifest.json").read_text(encoding="utf-8")
@@ -342,7 +346,7 @@ def main() -> None:
     if not {"scope_positive", "neutral_disconfirming", "negative_boundary"}.issubset(roles):
         errors.append("S3 v0.3 registry lacks required family-scoped sentinel roles")
 
-    s4_registry = json.loads((ROOT / "studies/vdcm/evidence-map/registries/s4_open_index_queries_v0.6.json").read_text())
+    s4_registry = json.loads((ROOT / "research/studies/vdcm/evidence-map/registries/s4_open_index_queries_v0.6.json").read_text())
     s4_roles = {row.get("role") for row in s4_registry.get("sentinels", []) if row.get("family_id") == "S4"}
     if not {"scope_positive", "neutral_disconfirming", "negative_boundary"}.issubset(s4_roles):
         errors.append("S4 v0.6 registry lacks required family-scoped sentinel roles")
@@ -360,43 +364,43 @@ def main() -> None:
         "gate2/output/development/query_appraisals/OA-S4R6-20260815-query-appraisal-v1",
         "gate2/output/development/query_appraisals/S2-S4R5-20260815-query-appraisal-v2",
         "gate2/output/development/query_appraisals/S2-S4R5-20260815-decision-reuse-v2",
-        "studies/vdcm/evidence-map/registries/s4_open_index_queries_v0.6",
-        "studies/vdcm/evidence-map/registries/arxiv_s4_mapping_v0.1",
+        "research/studies/vdcm/evidence-map/registries/s4_open_index_queries_v0.6",
+        "research/studies/vdcm/evidence-map/registries/arxiv_s4_mapping_v0.1",
         "gate2/output/development/query_appraisals/AX-S5R-to-S4-20260815-mapping-v1",
         "gate2/output/development/query_appraisals/AX-S5R-to-S4-20260815-decisions-v1",
         "gate2/output/development/query_appraisals/AX-S5R-to-S4-20260815-query-appraisal-v1",
-        "studies/vdcm/evidence-map/registries/s5t_open_index_queries_v0.4",
-        "studies/vdcm/evidence-map/registries/arxiv_s5t_mapping_v0.1",
+        "research/studies/vdcm/evidence-map/registries/s5t_open_index_queries_v0.4",
+        "research/studies/vdcm/evidence-map/registries/arxiv_s5t_mapping_v0.1",
         "gate2/output/development/query_appraisals/OA-S5TR4-20260816-query-decisions-v1",
         "gate2/output/development/query_appraisals/OA-S5TR4-20260816-query-appraisal-v1",
         "gate2/output/development/query_appraisals/AX-S5T-20260816-query-decisions-v1",
         "gate2/output/development/query_appraisals/AX-S5T-20260816-query-appraisal-v1",
-        "studies/vdcm/evidence-map/registries/s5s_open_index_queries_v0.7",
-        "studies/vdcm/evidence-map/registries/arxiv_s5s_mapping_v0.1",
+        "research/studies/vdcm/evidence-map/registries/s5s_open_index_queries_v0.7",
+        "research/studies/vdcm/evidence-map/registries/arxiv_s5s_mapping_v0.1",
         "gate2/output/development/query_appraisals/OA-S5SR7-20260816-query-decisions-v1",
         "gate2/output/development/query_appraisals/OA-S5SR7-20260816-query-appraisal-v1",
         "gate2/output/development/query_appraisals/AX-S5S-20260816-query-decisions-v2",
         "gate2/output/development/query_appraisals/AX-S5S-20260816-query-appraisal-v2",
-        "studies/vdcm/evidence-map/registries/arxiv_s6_mapping_v0.2",
+        "research/studies/vdcm/evidence-map/registries/arxiv_s6_mapping_v0.2",
         "gate2/output/development/query_appraisals/AX-S6R-20260816-query-decisions-v2",
         "gate2/output/development/query_appraisals/AX-S6R-20260816-query-appraisal-v2",
-        "studies/vdcm/evidence-map/registries/s6_open_index_queries_v0.8",
+        "research/studies/vdcm/evidence-map/registries/s6_open_index_queries_v0.8",
         "gate2/output/development/query_appraisals/OA-S6R8-20260816-query-decisions-v1",
         "gate2/output/development/query_appraisals/OA-S6R8-20260816-query-appraisal-v1",
-        "studies/vdcm/evidence-map/registries/s7_novelty_queries_v0.4",
-        "studies/vdcm/evidence-map/registries/arxiv_s7_mapping_v0.4",
+        "research/studies/vdcm/evidence-map/registries/s7_novelty_queries_v0.4",
+        "research/studies/vdcm/evidence-map/registries/arxiv_s7_mapping_v0.4",
         "gate2/output/development/query_appraisals/OA-S7R4-20260816-query-decisions-v1",
         "gate2/output/development/query_appraisals/OA-S7R4-20260816-query-appraisal-v1",
         "gate2/output/development/query_appraisals/S2-S7R4-20260816-query-decisions-v1",
         "gate2/output/development/query_appraisals/S2-S7R4-20260816-query-appraisal-v1",
         "gate2/output/development/query_appraisals/AX-S7R4-20260816-query-decisions-v1",
         "gate2/output/development/query_appraisals/AX-S7R4-20260816-query-appraisal-v1",
-        "studies/vdcm/evidence-map/registries/s8_foundational_queries_v0.6",
+        "research/studies/vdcm/evidence-map/registries/s8_foundational_queries_v0.6",
         "gate2/output/development/query_appraisals/OA-S8R6-20260816-query-decisions-v1",
         "gate2/output/development/query_appraisals/OA-S8R6-20260816-query-appraisal-v1",
         "gate2/output/development/query_appraisals/S2-S8R6-20260816-query-decisions-v1",
         "gate2/output/development/query_appraisals/S2-S8R6-20260816-query-appraisal-v1",
-        "studies/vdcm/evidence-map/registries/s1_s2_integrative_queries_v0.3",
+        "research/studies/vdcm/evidence-map/registries/s1_s2_integrative_queries_v0.3",
         "gate2/output/development/query_appraisals/S2-S1I3-20260816-query-decisions-v1",
         "gate2/output/development/query_appraisals/S2-S1I3-20260816-query-appraisal-v1",
         "gate2/output/development/query_appraisals/OA-S2I2-20260816-query-decisions-v1",
@@ -412,7 +416,7 @@ def main() -> None:
     s5t_export = ROOT / "gate2/output/development/openalex/OA-S5TR4-20260816-pilot1"
     s5t_manifest_path = s5t_export / "manifest.json"
     s5t_manifest = json.loads(s5t_manifest_path.read_text())
-    s5t_registry = ROOT / "studies/vdcm/evidence-map/registries/s5t_open_index_queries_v0.4.json"
+    s5t_registry = ROOT / "research/studies/vdcm/evidence-map/registries/s5t_open_index_queries_v0.4.json"
     if s5t_manifest.get("query_registry_sha256") != hashlib.sha256(s5t_registry.read_bytes()).hexdigest():
         errors.append("S5T OpenAlex export does not bind the accepted query registry")
     s5t_csv = s5t_export / s5t_manifest.get("records_csv", {}).get("file", "")
@@ -429,7 +433,7 @@ def main() -> None:
     s5s_export = ROOT / "gate2/output/development/openalex/OA-S5SR7-20260816-pilot1"
     s5s_manifest_path = s5s_export / "manifest.json"
     s5s_manifest = json.loads(s5s_manifest_path.read_text())
-    s5s_registry = ROOT / "studies/vdcm/evidence-map/registries/s5s_open_index_queries_v0.7.json"
+    s5s_registry = ROOT / "research/studies/vdcm/evidence-map/registries/s5s_open_index_queries_v0.7.json"
     if s5s_manifest.get("query_registry_sha256") != hashlib.sha256(s5s_registry.read_bytes()).hexdigest():
         errors.append("S5S OpenAlex export does not bind the accepted query registry")
     s5s_csv = s5s_export / s5s_manifest.get("records_csv", {}).get("file", "")
@@ -446,7 +450,7 @@ def main() -> None:
     s6_export = ROOT / "gate2/output/development/openalex/OA-S6R8-20260816-pilot1"
     s6_manifest_path = s6_export / "manifest.json"
     s6_manifest = json.loads(s6_manifest_path.read_text())
-    s6_registry = ROOT / "studies/vdcm/evidence-map/registries/s6_open_index_queries_v0.8.json"
+    s6_registry = ROOT / "research/studies/vdcm/evidence-map/registries/s6_open_index_queries_v0.8.json"
     if s6_manifest.get("query_registry_sha256") != hashlib.sha256(s6_registry.read_bytes()).hexdigest():
         errors.append("S6 OpenAlex export does not bind the accepted query registry")
     s6_csv = s6_export / s6_manifest.get("records_csv", {}).get("file", "")
@@ -471,7 +475,7 @@ def main() -> None:
     if not resolved_export.is_dir():
         errors.append("S7 resolved arXiv export is absent")
 
-    s8_registry = ROOT / "studies/vdcm/evidence-map/registries/s8_foundational_queries_v0.6.json"
+    s8_registry = ROOT / "research/studies/vdcm/evidence-map/registries/s8_foundational_queries_v0.6.json"
     s8_registry_hash = hashlib.sha256(s8_registry.read_bytes()).hexdigest()
     for source, query_id, relative, expected_total in (
         ("openalex", "OA-S8R6", "gate2/output/development/openalex/OA-S8R6-20260816-full1", 1097),

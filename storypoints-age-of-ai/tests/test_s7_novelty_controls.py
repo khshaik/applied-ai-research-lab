@@ -10,7 +10,7 @@ from gate2.query_appraisal import appraise, deterministic_sample_positions
 
 
 ROOT = Path(__file__).parents[1]
-REGISTRY_PATH = ROOT / "studies/vdcm/evidence-map/registries/s7_novelty_queries_v0.4.json"
+REGISTRY_PATH = ROOT / "research/studies/vdcm/evidence-map/registries/s7_novelty_queries_v0.4.json"
 CASES = [
     (
         "openalex",
@@ -104,7 +104,7 @@ def test_s7_arxiv_resolved_blocker_preserves_failure_history():
 
 def test_s7_arxiv_export_sample_and_appraisal_rederive_exactly():
     export = ROOT / "gate2/output/development/arxiv/AX-S7R4-20260816-retry2"
-    mapping_path = ROOT / "studies/vdcm/evidence-map/registries/arxiv_s7_mapping_v0.4.json"
+    mapping_path = ROOT / "research/studies/vdcm/evidence-map/registries/arxiv_s7_mapping_v0.4.json"
     decisions_path = ROOT / "gate2/output/development/query_appraisals/AX-S7R4-20260816-query-decisions-v1.json"
     result_path = ROOT / "gate2/output/development/query_appraisals/AX-S7R4-20260816-query-appraisal-v1.json"
     manifest = json.loads((export / "manifest.json").read_text(encoding="utf-8"))

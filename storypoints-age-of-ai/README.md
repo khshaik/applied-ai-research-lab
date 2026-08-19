@@ -60,21 +60,21 @@ Shaik Khaja Nayab Rasool.
 
 | Research-project requirement | Where it is documented |
 |---|---|
-| Numbered research design and protocol record | [Research-design index](research-design/README.md) |
-| Research questions and positioning | [Scientific manuscript](papers/thinkai-2026/manuscript/manuscript_working_draft.md) and [VDCM study dossier](studies/vdcm/README.md) |
-| Evidence-map method and results | [Evidence-map workspace](studies/vdcm/evidence-map/README.md) and [evidence preservation map](docs/traceability/evidence-preservation-map.md) |
-| Framework constructs and boundaries | [Protocol workspace](studies/vdcm/protocol/README.md) |
-| Simulation mechanisms and comparators | [Simulation workspace](studies/vdcm/simulation/README.md) and [developmental results](papers/thinkai-2026/results/README.md) |
-| Material claim verification | [Claim-verification ledger](papers/thinkai-2026/manuscript/claim_verification_ledger.md) and [D17 approval](studies/vdcm/integrity/releases/D17_ACCOUNTABLE_AUTHOR_CONFIRMATION_2026-08-19.json) |
-| End-to-end operating model | [Workflow guide](communications/verified-delivery-capacity/END_TO_END_WORKFLOW.md) and [communication dossier](communications/verified-delivery-capacity/README.md) |
+| Numbered research design and protocol record | [Research-design index](research/design/README.md) |
+| Research questions and positioning | [Scientific manuscript](papers/thinkai-2026/manuscript/manuscript_working_draft.md) and [VDCM study dossier](research/studies/vdcm/README.md) |
+| Evidence-map method and results | [Evidence-map workspace](research/studies/vdcm/evidence-map/README.md) and [evidence preservation map](docs/traceability/evidence-preservation-map.md) |
+| Framework constructs and boundaries | [Protocol workspace](research/studies/vdcm/protocol/README.md) |
+| Simulation mechanisms and comparators | [Simulation workspace](research/studies/vdcm/simulation/README.md) and [developmental results](papers/thinkai-2026/results/README.md) |
+| Material claim verification | [Claim-verification ledger](papers/thinkai-2026/manuscript/claim_verification_ledger.md) and [D17 approval](research/studies/vdcm/integrity/releases/D17_ACCOUNTABLE_AUTHOR_CONFIRMATION_2026-08-19.json) |
+| End-to-end operating model | [Workflow guide](docs/communications/verified-delivery-capacity/END_TO_END_WORKFLOW.md) and [communication dossier](docs/communications/verified-delivery-capacity/README.md) |
 | Technology boundaries | [Key technologies and libraries](#key-technologies-and-libraries) and [interpretation boundary](#interpretation-and-responsible-use-boundary) |
 | Reproduction and integrity | [Quick verification](#quick-verification), [reproducibility map](#reproducibility-map), and [repository verifier](scripts/verify_repository.py) |
 
 ## End-to-end verified delivery workflow
 
-![Verified Delivery Capacity end-to-end workflow](communications/verified-delivery-capacity/assets/06-end-to-end-verified-delivery-workflow.png)
+![Verified Delivery Capacity end-to-end workflow](docs/communications/verified-delivery-capacity/assets/06-end-to-end-verified-delivery-workflow.png)
 
-The diagram is a conceptual communication artifact, not an empirical result. See the [workflow guide](communications/verified-delivery-capacity/END_TO_END_WORKFLOW.md) for definitions, operating steps, and guardrails.
+The diagram is a conceptual communication artifact, not an empirical result. See the [workflow guide](docs/communications/verified-delivery-capacity/END_TO_END_WORKFLOW.md) for definitions, operating steps, and guardrails.
 
 The operating model progresses through three controlled phases:
 
@@ -170,22 +170,33 @@ This is not an exhaustive-literature claim.
 
 ```text
 .
-├── studies/vdcm/                 # Study dossier, protocols, evidence map, integrity boundaries
-├── papers/thinkai-2026/          # Venue requirements, manuscript, figures, results, release gates
-├── communications/               # Platform-neutral narratives and conceptual visuals
-├── docs/                         # Governance, status, repository conventions, traceability
+├── research/
+│   ├── design/                  # Numbered concept, protocol, framework, and simulation records
+│   └── studies/vdcm/            # Study dossier, evidence map, and integrity boundaries
+├── papers/thinkai-2026/         # Venue requirements, manuscript, figures, results, release gates
+├── docs/
+│   ├── communications/          # Platform-neutral narratives and conceptual visuals
+│   ├── governance/              # Research and public-release governance
+│   ├── repository/              # Repository organization
+│   ├── status/                  # Roadmap and controlling completion checklist
+│   └── traceability/            # Evidence preservation and relocation records
 ├── scripts/                      # Repository-level verification
 ├── gate2/                        # Import-stable open-evidence tooling and systematic artifacts
 ├── evidence_review/              # Screening, adjudication, appraisal, and extraction controls
 ├── simulation/                   # DES, comparators, development outputs, and pre-lock controls
 ├── tests/                        # Integrated regression and hard-stop tests
-├── artifacts/workbooks/          # Workbook inventory and compatibility notes
-├── PROJECT_TODO.md               # Controlling completion sequence
+├── artifacts/
+│   ├── workbooks/               # Research workbooks
+│   └── reference-images/        # Conference/reference imagery
 ├── CITATION.cff
 └── LICENSE
 ```
 
-The root Python packages and numbered protocol files are intentionally retained during the research freeze cycle. Moving them would invalidate paths embedded in manifests, checksums, tests, and preregistration records. [Repository layout governance](docs/repository-layout.md) defines the staged migration policy.
+The executable Python packages remain at the root for stable imports. Numbered
+research records, study navigation, documentation, communication material,
+workbooks, and reference imagery are segregated under their canonical folders.
+[Repository layout governance](docs/repository/repository-layout.md) defines the
+checksum-preserving migration policy.
 
 ## Key technologies and libraries
 
@@ -216,11 +227,11 @@ The repository deliberately separates deterministic research logic from optional
 
 ### Scientific study
 
-- [VDCM study dossier](studies/vdcm/README.md)
-- [Protocol and construct definitions](studies/vdcm/protocol/README.md)
-- [Evidence-map workspace](studies/vdcm/evidence-map/README.md)
-- [Simulation workspace](studies/vdcm/simulation/README.md)
-- [Integrity and release boundary](studies/vdcm/integrity/README.md)
+- [VDCM study dossier](research/studies/vdcm/README.md)
+- [Protocol and construct definitions](research/studies/vdcm/protocol/README.md)
+- [Evidence-map workspace](research/studies/vdcm/evidence-map/README.md)
+- [Simulation workspace](research/studies/vdcm/simulation/README.md)
+- [Integrity and release boundary](research/studies/vdcm/integrity/README.md)
 
 ### Paper and results
 
@@ -232,11 +243,11 @@ The repository deliberately separates deterministic research logic from optional
 
 ### Governance and communication
 
-- [Research governance](docs/research-governance.md)
+- [Research governance](docs/governance/research-governance.md)
 - [Evidence preservation map](docs/traceability/evidence-preservation-map.md)
 - [Research status and release path](docs/traceability/research-status-and-release-path.md)
-- [Communication package](communications/verified-delivery-capacity/README.md)
-- [Current completion checklist](PROJECT_TODO.md)
+- [Communication package](docs/communications/verified-delivery-capacity/README.md)
+- [Current completion checklist](docs/status/PROJECT_TODO.md)
 
 ## Quick verification
 
@@ -263,7 +274,7 @@ manuscript. The excluded source-body checks remain documented in
 Rebuild the conceptual workflow without network or external-system access:
 
 ```bash
-python3 communications/verified-delivery-capacity/scripts/build_workflow.py
+python3 docs/communications/verified-delivery-capacity/scripts/build_workflow.py
 ```
 
 ## Reproducibility map
@@ -272,13 +283,13 @@ python3 communications/verified-delivery-capacity/scripts/build_workflow.py
 |---|---|
 | Repository structure and safety boundaries | [`scripts/verify_repository.py`](scripts/verify_repository.py) |
 | Integrated test suite | [`simulation/test_runner.py`](simulation/test_runner.py) and [`tests/`](tests/) |
-| Evidence-map protocol and traceability | [`studies/vdcm/evidence-map/`](studies/vdcm/evidence-map/) and [`gate2/`](gate2/) |
+| Evidence-map protocol and traceability | [`research/studies/vdcm/evidence-map/`](research/studies/vdcm/evidence-map/) and [`gate2/`](gate2/) |
 | Screening and adjudication controls | [`evidence_review/`](evidence_review/) |
 | Developmental simulation | [`simulation/`](simulation/) |
 | Declared simulation results | [`papers/thinkai-2026/results/`](papers/thinkai-2026/results/) |
 | Claim-to-evidence boundary | [`claim_verification_ledger.md`](papers/thinkai-2026/manuscript/claim_verification_ledger.md) |
 | Anonymous manuscript and visual QA | [`initial-submission/`](papers/thinkai-2026/manuscript/initial-submission/) |
-| Communication workflow and checksum manifest | [`communications/verified-delivery-capacity/`](communications/verified-delivery-capacity/) |
+| Communication workflow and checksum manifest | [`docs/communications/verified-delivery-capacity/`](docs/communications/verified-delivery-capacity/) |
 
 ### Reproducibility expectations
 
@@ -306,6 +317,6 @@ The GitHub-ready export intentionally excludes third-party PDF bodies, bulk
 extracted full text, credentials, sealed values, session transcripts, and local
 environments. It preserves their reproducibility trail through source metadata,
 lawful-location records, hashes, exact locators, and derived evidence. See the
-[public release policy](docs/public-release-policy.md).
+[public release policy](docs/governance/public-release-policy.md).
 
 AI systems assisted with query engineering, record processing, code generation, testing, adversarial audit, visual generation, and drafting. The accountable human author retains responsibility for methods, source verification, claims, authorship, ethics, and submitted content. See the [AI-assistance disclosure](papers/thinkai-2026/declarations/AI_ASSISTANCE_DISCLOSURE.md).

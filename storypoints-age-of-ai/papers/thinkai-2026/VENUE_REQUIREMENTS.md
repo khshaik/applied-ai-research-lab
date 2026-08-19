@@ -6,7 +6,7 @@ author package remain unresolved.
 
 ## 1. Conference facts evidenced by the supplied call-for-papers flyer
 
-Source: [`../../ThinkAI.jpeg`](../../ThinkAI.jpeg)
+Source: [`../../artifacts/reference-images/ThinkAI.jpeg`](../../artifacts/reference-images/ThinkAI.jpeg)
 
 | Item | Flyer evidence |
 |---|---|

@@ -8,7 +8,7 @@ from simulation.config import cross_validate, load_and_validate
 from simulation.engine import GateSemanticsError, run_truth
 
 
-SCHEMA = "research-design/03b_simulation_schema.json"
+SCHEMA = "research/design/03b_simulation_schema.json"
 EXAMPLE = "simulation/configs/example.yaml"
 
 

@@ -9,14 +9,14 @@ OUTPUT = ROOT / "gate2/output/development/query_appraisals"
 CASES = {
     "S1": {
         "source":"semantic_scholar", "version":"0.3", "query_id":"S2-S1I3",
-        "registry":ROOT / "studies/vdcm/evidence-map/registries/s1_s2_integrative_queries_v0.3.json",
+        "registry":ROOT / "research/studies/vdcm/evidence-map/registries/s1_s2_integrative_queries_v0.3.json",
         "export":ROOT / "gate2/output/development/semantic_scholar/S2-S1I3-20260816-full1",
         "relevant":{0,3,18,82,92,119,120,137,138,187,231,285,323,324,326,328},
         "uncertain":{7,261,288},
     },
     "S2": {
         "source":"openalex", "version":"0.2", "query_id":"OA-S2I2",
-        "registry":ROOT / "studies/vdcm/evidence-map/registries/s1_s2_integrative_queries_v0.2.json",
+        "registry":ROOT / "research/studies/vdcm/evidence-map/registries/s1_s2_integrative_queries_v0.2.json",
         "export":ROOT / "gate2/output/development/openalex/OA-S2I2-20260816-full1",
         "relevant":{2,3,6,7,40,47,54,75,79,89,108,112,121,122,129,136,146,172,175,176,181,186,187,191,218,220,221,222,243,245,247,248,249,250,252,253,254,255},
         "uncertain":{0,1,4,5,113,177},

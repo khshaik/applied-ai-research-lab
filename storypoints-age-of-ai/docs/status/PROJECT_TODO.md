@@ -8,9 +8,9 @@ Active task: F01/F04/F06 — finalize and package the manuscript
 
 Current scope-control artifacts:
 
-- [`research-design/02d_minimum_route_protocol_amendment_draft.md`](research-design/02d_minimum_route_protocol_amendment_draft.md)
-- [`gate2/minimum_route_scope.draft.json`](gate2/minimum_route_scope.draft.json)
-- [`research-design/02e_b05_accountable_author_review.md`](research-design/02e_b05_accountable_author_review.md)
+- [`research/design/02d_minimum_route_protocol_amendment_draft.md`](../../research/design/02d_minimum_route_protocol_amendment_draft.md)
+- [`gate2/minimum_route_scope.draft.json`](../../gate2/minimum_route_scope.draft.json)
+- [`research/design/02e_b05_accountable_author_review.md`](../../research/design/02e_b05_accountable_author_review.md)
 
 This is the single source of truth for work remaining before submission. If a
 task is not listed here, it is not part of the current completion route unless
@@ -89,7 +89,7 @@ upgrades the paper route.
 - [x] B05 — Accountable author approved amendment 0.1 on 16 August 2026. The
   actual decision evidence (“Continue” twice after the explicit approval
   request), timestamp, matrix acceptance, and claims boundary are archived in
-  [`research-design/02e_b05_accountable_author_review.md`](research-design/02e_b05_accountable_author_review.md).
+  [`research/design/02e_b05_accountable_author_review.md`](../../research/design/02e_b05_accountable_author_review.md).
 
 Exit condition: approved, dated, versioned amendment with no unresolved scope
 language. No systematic corpus is created before this exit condition.
@@ -354,16 +354,16 @@ records, citations, flow counts, or extraction fields.
 - [x] E02 — Re-run the checked-in developmental pipeline from declared seeds and
   verify manifests/checksums reproduce. Two fresh current-code runs are
   byte-identical; the prior stale outputs were retired in
-  [`simulation/output/development/reproducibility_audit_20260815.json`](simulation/output/development/reproducibility_audit_20260815.json).
+  [`simulation/output/development/reproducibility_audit_20260815.json`](../../simulation/output/development/reproducibility_audit_20260815.json).
 - [x] E03 — Reconcile the 264-run scenario results, four mechanism ablations,
   comparator results, parameter-recovery results, and negative findings. See
-  [`research-design/05_developmental_simulation_reconciliation.md`](research-design/05_developmental_simulation_reconciliation.md).
+  [`research/design/05_developmental_simulation_reconciliation.md`](../../research/design/05_developmental_simulation_reconciliation.md).
 - [x] E04 — Produce manuscript-ready result tables and figures with explicit
   synthetic-data labels and uncertainty. Current package:
-  [`papers/thinkai-2026/results/developmental_simulation_v2/`](papers/thinkai-2026/results/developmental_simulation_v2/).
+  [`papers/thinkai-2026/results/developmental_simulation_v2/`](../../papers/thinkai-2026/results/developmental_simulation_v2/).
 - [x] E05 — Complete a parameter-use table distinguishing literature-supported,
   preregistered design, and illustrative Class-I values. See
-  [`papers/thinkai-2026/manuscript/tables/parameter_use_table.md`](papers/thinkai-2026/manuscript/tables/parameter_use_table.md).
+  [`papers/thinkai-2026/manuscript/tables/parameter_use_table.md`](../../papers/thinkai-2026/manuscript/tables/parameter_use_table.md).
 - [x] E06 — State prohibited interpretations: no human cognitive-load validity,
   causal gate effect, organizational ROI, or universal superiority.
 
@@ -374,10 +374,10 @@ manifest, while every limitation is stated in the manuscript.
 
 - [x] F01 — Froze the title, contribution statement, research questions, paper
   type, and scientific boundaries on 2026-08-19 in
-  [`papers/thinkai-2026/MANUSCRIPT_SCIENTIFIC_FREEZE.md`](papers/thinkai-2026/MANUSCRIPT_SCIENTIFIC_FREEZE.md).
+  [`papers/thinkai-2026/MANUSCRIPT_SCIENTIFIC_FREEZE.md`](../../papers/thinkai-2026/MANUSCRIPT_SCIENTIFIC_FREEZE.md).
 - [x] F02 — Draft stable sections immediately. A controlled working draft now
   exists at
-  [`papers/thinkai-2026/manuscript/manuscript_working_draft.md`](papers/thinkai-2026/manuscript/manuscript_working_draft.md):
+  [`papers/thinkai-2026/manuscript/manuscript_working_draft.md`](../../papers/thinkai-2026/manuscript/manuscript_working_draft.md):
   - introduction and problem statement;
   - related-work positioning;
   - evidence-map method;
@@ -387,7 +387,7 @@ manifest, while every limitation is stated in the manuscript.
   - threats, ethics, limitations, and Route A future work.
 - [x] F03 — Create the framework, causal-model, lifecycle, simulation-flow, and
   evidence-flow figures. SVG and 300-DPI PNG assets are checksummed in
-  [`papers/thinkai-2026/figures/`](papers/thinkai-2026/figures/README.md).
+  [`papers/thinkai-2026/figures/`](../../papers/thinkai-2026/figures/README.md).
 - [x] F04 — Populated the D15/D16 evidence-map flow, appraisal, coverage,
   overlap, and bounded novelty results after D17 confirmation.
 - [x] F05 — Populate simulation results only after E03–E05. The working draft
@@ -400,7 +400,7 @@ manifest, while every limitation is stated in the manuscript.
   D17 wording and locator boundaries.
 - [x] F08 — Working AI-assistance disclosure, research-ethics statement, and
   data/code availability statement are prepared under
-  [`papers/thinkai-2026/declarations/`](papers/thinkai-2026/declarations/).
+  [`papers/thinkai-2026/declarations/`](../../papers/thinkai-2026/declarations/).
 
 Exit condition: complete manuscript with no unsupported claims, unresolved
 placeholders, or unverified references.
@@ -411,7 +411,7 @@ placeholders, or unverified references.
   sections, anonymization rules, and submission deadline with an authoritative
   venue record. Dates, prior CCIS history, Springer author/AI/accessibility
   controls, and unresolved portal requirements are recorded in
-  [`papers/thinkai-2026/VENUE_REQUIREMENTS.md`](papers/thinkai-2026/VENUE_REQUIREMENTS.md);
+  [`papers/thinkai-2026/VENUE_REQUIREMENTS.md`](../../papers/thinkai-2026/VENUE_REQUIREMENTS.md);
   the 2026 page limit and anonymization rule remain unavailable.
 - [~] G02 — Anonymous references, equations, figures, tables, captions,
   keywords, and declarations are formatted; identified author metadata and
@@ -419,7 +419,7 @@ placeholders, or unverified references.
 - [~] G03 — Anonymous-review DOCX/PDF v0.2 are generated and visually verified;
   the identified-author variant awaits accountable-author metadata.
 - [~] G04 — Automated working/release manuscript hard stops are implemented in
-  [`scripts/verify_manuscript.py`](scripts/verify_manuscript.py). Final
+  [`scripts/verify_manuscript.py`](../../scripts/verify_manuscript.py). Final
   citation/DOI, language, duplication-risk, and rendered-artifact checks remain
   after the evidence map and venue formatting are complete.
 - [~] G05 — Anonymous DOCX/PDF were rendered and all 15 pages visually

@@ -2,6 +2,8 @@ from __future__ import annotations
 import hashlib, json
 from pathlib import Path
 
+from gate2.frozen_paths import resolve_frozen_path
+
 ROOT=Path(__file__).parents[1]
 MATRIX=ROOT/"gate2/final_source_family_acceptance_matrix.json"
 
@@ -26,7 +28,7 @@ def test_c09_every_row_reconciles_immutable_artifacts():
     for row in data["rows"]:
         manifest=ROOT/row["manifest_path"]
         appraisal=ROOT/row["appraisal_path"]
-        registry=ROOT/row["query_reference"]
+        registry=resolve_frozen_path(ROOT,row["query_reference"])
         assert sha(manifest)==row["manifest_sha256"]
         assert sha(appraisal)==row["appraisal_sha256"]
         assert sha(registry)==row["registry_sha256"]
@@ -42,7 +44,7 @@ def test_c09_preserves_bounded_union_and_claim_boundaries():
     assert len(bounded)==1 and bounded[0]["family_id"]=="S2"
     row=bounded[0]
     assert row["fresh_union_platform_execution"] is False
-    assert sha(ROOT/row["accepted_union_registry"])==row["accepted_union_registry_sha256"]
+    assert sha(resolve_frozen_path(ROOT,row["accepted_union_registry"]))==row["accepted_union_registry_sha256"]
     assert sha(ROOT/row["bounded_union_control"])==row["bounded_union_control_sha256"]
     prohibited=data["coverage_boundary"]["prohibited_claims"]
     assert "all relevant literature was searched" in prohibited

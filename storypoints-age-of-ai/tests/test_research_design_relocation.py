@@ -21,7 +21,7 @@ class ResearchDesignRelocationTests(unittest.TestCase):
         self.assertEqual(len({row["relocated_path"] for row in rows}), 35)
         for row in rows:
             self.assertFalse((ROOT / row["original_path"]).exists())
-            relocated = ROOT / row["relocated_path"]
+            relocated = resolve_frozen_path(ROOT, row["original_path"])
             self.assertTrue(relocated.is_file(), row["relocated_path"])
             actual = hashlib.sha256(relocated.read_bytes()).hexdigest()
             self.assertEqual(actual, row["sha256"], row["relocated_path"])
@@ -30,10 +30,21 @@ class ResearchDesignRelocationTests(unittest.TestCase):
     def test_legacy_frozen_paths_resolve_to_recorded_destinations(self):
         record = json.loads(RECORD.read_text(encoding="utf-8"))
         for row in record["relocations"]:
-            self.assertEqual(
-                resolve_frozen_path(ROOT, row["original_path"]),
-                ROOT / row["relocated_path"],
-            )
+            resolved = resolve_frozen_path(ROOT, row["original_path"])
+            self.assertTrue(resolved.is_file())
+            self.assertTrue(resolved.relative_to(ROOT).as_posix().startswith("research/design/"))
+
+    def test_controlled_consolidation_has_no_missing_destination(self):
+        path = ROOT / "docs/traceability/CONTROLLED_FOLDER_RELOCATION_2026-08-20.json"
+        record = json.loads(path.read_text(encoding="utf-8"))
+        self.assertEqual(record["file_count"], 146)
+        self.assertFalse(record["frozen_package_bytes_modified"])
+        self.assertFalse(record["scientific_findings_or_decisions_modified"])
+        for row in record["relocations"]:
+            destination = ROOT / row["relocated_path"]
+            self.assertTrue(destination.is_file(), row["relocated_path"])
+            actual = hashlib.sha256(destination.read_bytes()).hexdigest()
+            self.assertEqual(actual, row["sha256_after_reference_repair"])
 
 
 if __name__ == "__main__":

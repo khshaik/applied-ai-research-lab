@@ -14,14 +14,14 @@ class ArxivMappingTests(unittest.TestCase):
     def test_checked_in_mapping_reconciles_and_recalls_both_classes(self):
         result = verify_mapping(
             "gate2/output/development/arxiv/AX-S5R-20260814-retry1",
-            "studies/vdcm/evidence-map/registries/arxiv_s4_mapping_v0.1.json",
+            "research/studies/vdcm/evidence-map/registries/arxiv_s4_mapping_v0.1.json",
         )
         self.assertEqual(result["records_reconciled"], 187)
         self.assertTrue(result["sentinel_recall_pass"])
         self.assertFalse(result["freeze_ready"])
 
     def test_query_drift_hard_stops(self):
-        source = Path("studies/vdcm/evidence-map/registries/arxiv_s4_mapping_v0.1.json")
+        source = Path("research/studies/vdcm/evidence-map/registries/arxiv_s4_mapping_v0.1.json")
         with tempfile.TemporaryDirectory() as directory:
             target = Path(directory) / "registry.json"
             value = json.loads(source.read_text())
@@ -33,7 +33,7 @@ class ArxivMappingTests(unittest.TestCase):
     def test_s5t_mapping_reconciles_and_recalls_positive_and_disconfirming_classes(self):
         result = verify_mapping(
             "gate2/output/development/arxiv/AX-S5T-20260814-retry1",
-            "studies/vdcm/evidence-map/registries/arxiv_s5t_mapping_v0.1.json",
+            "research/studies/vdcm/evidence-map/registries/arxiv_s5t_mapping_v0.1.json",
         )
         self.assertEqual(result["mapped_family_id"], "S5T")
         self.assertEqual(result["records_reconciled"], 394)
@@ -47,7 +47,7 @@ class ArxivMappingTests(unittest.TestCase):
         ).read_text())["decisions"]
         result = appraise_mapping(
             "gate2/output/development/arxiv/AX-S5T-20260814-retry1",
-            "studies/vdcm/evidence-map/registries/arxiv_s5t_mapping_v0.1.json",
+            "research/studies/vdcm/evidence-map/registries/arxiv_s5t_mapping_v0.1.json",
             decisions,
         )
         checked = json.loads(Path(
@@ -60,7 +60,7 @@ class ArxivMappingTests(unittest.TestCase):
     def test_s5s_mapping_reconciles_and_recalls_positive_and_disconfirming_classes(self):
         result = verify_mapping(
             "gate2/output/development/arxiv/AX-S5S-20260814-retry1",
-            "studies/vdcm/evidence-map/registries/arxiv_s5s_mapping_v0.1.json",
+            "research/studies/vdcm/evidence-map/registries/arxiv_s5s_mapping_v0.1.json",
         )
         self.assertEqual(result["mapped_family_id"], "S5S")
         self.assertEqual(result["records_reconciled"], 1333)
@@ -97,7 +97,7 @@ class ArxivMappingTests(unittest.TestCase):
         )
         result = appraise_mapping(
             export,
-            "studies/vdcm/evidence-map/registries/arxiv_s5s_mapping_v0.1.json",
+            "research/studies/vdcm/evidence-map/registries/arxiv_s5s_mapping_v0.1.json",
             artifact["decisions"],
         )
         checked = json.loads(result_path.read_text(encoding="utf-8"))
@@ -136,7 +136,7 @@ class ArxivMappingTests(unittest.TestCase):
         )
         result = appraise_mapping(
             export,
-            "studies/vdcm/evidence-map/registries/arxiv_s6_mapping_v0.2.json",
+            "research/studies/vdcm/evidence-map/registries/arxiv_s6_mapping_v0.2.json",
             artifact["decisions"],
         )
         checked = json.loads(result_path.read_text(encoding="utf-8"))
@@ -153,7 +153,7 @@ class ArxivMappingTests(unittest.TestCase):
         with self.assertRaisesRegex(ArxivMappingError, "developmental family"):
             verify_mapping(
                 "gate2/output/development/arxiv/AX-S6R-20260814-retry1",
-                "studies/vdcm/evidence-map/registries/arxiv_s6_mapping_v0.1.json",
+                "research/studies/vdcm/evidence-map/registries/arxiv_s6_mapping_v0.1.json",
             )
 
     def test_precision_appraisal_remains_separate_from_screening(self):
@@ -164,7 +164,7 @@ class ArxivMappingTests(unittest.TestCase):
             for row in list(rows)[:50]
         ]
         result = appraise_mapping(
-            export, "studies/vdcm/evidence-map/registries/arxiv_s4_mapping_v0.1.json", decisions
+            export, "research/studies/vdcm/evidence-map/registries/arxiv_s4_mapping_v0.1.json", decisions
         )
         self.assertTrue(result["freeze_ready"])
         self.assertIn("not screening", result["interpretation_boundary"])

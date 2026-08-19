@@ -22,7 +22,7 @@ MANUSCRIPT = PAPER / "manuscript/manuscript_working_draft.md"
 LEDGER = PAPER / "manuscript/claim_verification_ledger.md"
 ALT_TEXT = PAPER / "figures/ALT_TEXT.md"
 SCOPE = ROOT / "gate2/minimum_route_scope.draft.json"
-PROTOCOL = ROOT / "research-design/02_systematic_review_protocol.md"
+PROTOCOL = ROOT / "research/design/02_systematic_review_protocol.md"
 FROZEN_PACKAGE = ROOT / "gate2/frozen_protocol_package_v1.3.json"
 
 BLOCKED_MARKERS = ("EVIDENCE-MAP-RESULT", "CITATION-VERIFY", "VENUE-CHECK", "AUTHOR-INPUT-REQUIRED")
@@ -101,7 +101,7 @@ def validate(*, release: bool = False, root: Path = ROOT) -> dict[str, Any]:
     ledger_path = paper / "manuscript/claim_verification_ledger.md"
     alt_path = paper / "figures/ALT_TEXT.md"
     scope_path = root / "gate2/minimum_route_scope.draft.json"
-    protocol_path = root / "research-design/02_systematic_review_protocol.md"
+    protocol_path = root / "research/design/02_systematic_review_protocol.md"
     errors: list[str] = []
     warnings: list[str] = []
 

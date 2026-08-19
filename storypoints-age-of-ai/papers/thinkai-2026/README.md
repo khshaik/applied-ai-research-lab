@@ -20,7 +20,7 @@ Keep the repository private during review. Do not add identifying declarations t
 ## Pending
 
 The controlling sequence and scope exclusions are maintained in
-[`../../PROJECT_TODO.md`](../../PROJECT_TODO.md).
+[`../../docs/status/PROJECT_TODO.md`](../../docs/status/PROJECT_TODO.md).
 
 The controlled manuscript source and claim-verification ledger are maintained
 in [`manuscript/`](manuscript/README.md). Submission packaging is governed by

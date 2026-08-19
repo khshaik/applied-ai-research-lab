@@ -9,7 +9,7 @@ from simulation.config import ConfigError, cross_validate, load_and_validate, va
 
 ROOT = Path(__file__).resolve().parents[1]
 CONFIG = ROOT / "simulation" / "configs" / "example.yaml"
-SCHEMA = ROOT / "research-design/03b_simulation_schema.json"
+SCHEMA = ROOT / "research/design/03b_simulation_schema.json"
 
 
 class DependencyFreeSchemaValidatorTests(unittest.TestCase):

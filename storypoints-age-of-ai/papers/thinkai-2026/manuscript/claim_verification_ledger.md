@@ -25,4 +25,4 @@ date, and confirmer. A DOI or abstract alone does not confirm an outcome-bearing
 claim when lawful full text is available.
 
 The approval record is
-[`../../../studies/vdcm/integrity/releases/D17_ACCOUNTABLE_AUTHOR_CONFIRMATION_2026-08-19.json`](../../../studies/vdcm/integrity/releases/D17_ACCOUNTABLE_AUTHOR_CONFIRMATION_2026-08-19.json).
+[`../../../research/studies/vdcm/integrity/releases/D17_ACCOUNTABLE_AUTHOR_CONFIRMATION_2026-08-19.json`](../../../research/studies/vdcm/integrity/releases/D17_ACCOUNTABLE_AUTHOR_CONFIRMATION_2026-08-19.json).

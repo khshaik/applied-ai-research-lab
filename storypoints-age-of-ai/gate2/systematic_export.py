@@ -53,7 +53,8 @@ def _verify_freeze() -> tuple[dict[str, Any], str]:
 
 
 def _registry_entry(row: dict[str, Any]) -> tuple[dict[str, Any], str, str]:
-    registry_path = ROOT / row.get("accepted_union_registry", row["query_reference"])
+    declared_registry = row.get("accepted_union_registry", row["query_reference"])
+    registry_path = resolve_frozen_path(ROOT, declared_registry)
     expected = row.get("accepted_union_registry_sha256", row["registry_sha256"])
     if sha256(registry_path) != expected:
         raise SystematicExportError(f"registry hash mismatch: {registry_path.relative_to(ROOT)}")
@@ -83,6 +84,8 @@ def build_plan() -> dict[str, Any]:
     seen = set()
     for sequence, row in enumerate(matrix["rows"], 1):
         entry, registry_hash, query_id = _registry_entry(row)
+        declared_registry = row.get("accepted_union_registry", row["query_reference"])
+        registry_path = resolve_frozen_path(ROOT, declared_registry)
         key = (row["family_id"], row["source"])
         if key in seen:
             raise SystematicExportError(f"duplicate source-family pair: {key}")
@@ -100,7 +103,9 @@ def build_plan() -> dict[str, Any]:
             "query_mode": entry.get("query_mode", "fulltext_search"),
             "result_sort": entry.get("result_sort", ""),
             "sentinels": entry.get("sentinels", []),
-            "registry_path": str((ROOT / row.get("accepted_union_registry", row["query_reference"])).relative_to(ROOT)),
+            # Preserve the frozen manifest's historical path spelling while
+            # reading the byte-identical artifact through the relocation map.
+            "registry_path": declared_registry,
             "registry_sha256": registry_hash,
             "acceptance_matrix_row_sha256": canonical_hash(row),
             "from_date": row["from_date"],

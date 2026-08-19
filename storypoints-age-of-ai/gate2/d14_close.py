@@ -14,7 +14,7 @@ from gate2.d14_s2_final_retry import FINAL as FINAL_RETRY, verify as verify_fina
 
 
 FINAL = OUTPUT / "final"
-DECISION = Path("studies/vdcm/evidence-map/D14_RESOURCE_CAP_DECISION.md")
+DECISION = Path("research/studies/vdcm/evidence-map/D14_RESOURCE_CAP_DECISION.md")
 RECOVERY_LEDGER = RECOVERY_EXTRACTION / "extraction.jsonl"
 
 

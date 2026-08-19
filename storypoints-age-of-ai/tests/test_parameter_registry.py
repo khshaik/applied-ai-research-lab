@@ -15,7 +15,7 @@ from tests.test_evidence_review_workflow import complete_bundle
 class ParameterRegistryTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        cls.config = load_and_validate("simulation/configs/example.yaml", "research-design/03b_simulation_schema.json")
+        cls.config = load_and_validate("simulation/configs/example.yaml", "research/design/03b_simulation_schema.json")
         cls.registry = load_registry("simulation/configs/parameter_registry.json")
 
     def test_every_active_parameter_has_exactly_one_development_record(self):

@@ -8,7 +8,7 @@ ROOT=Path(__file__).parents[1]
 def sha(path: Path) -> str: return hashlib.sha256(path.read_bytes()).hexdigest()
 
 def test_c08_s1_exact_sample_rederives_and_passes():
-    reg=json.loads((ROOT/"studies/vdcm/evidence-map/registries/s1_s2_integrative_queries_v0.3.json").read_text())
+    reg=json.loads((ROOT/"research/studies/vdcm/evidence-map/registries/s1_s2_integrative_queries_v0.3.json").read_text())
     export=ROOT/"gate2/output/development/semantic_scholar/S2-S1I3-20260816-full1"
     rows=list(csv.DictReader((export/"records.csv").open(encoding="utf-8",newline="")))
     artifact=json.loads((ROOT/"gate2/output/development/query_appraisals/S2-S1I3-20260816-query-decisions-v1.json").read_text())
@@ -23,7 +23,7 @@ def test_c08_s1_exact_sample_rederives_and_passes():
     assert derived["freeze_ready"] is True
 
 def test_c08_s2_discovery_component_is_complete_precise_and_has_one_declared_miss():
-    reg=json.loads((ROOT/"studies/vdcm/evidence-map/registries/s1_s2_integrative_queries_v0.2.json").read_text())
+    reg=json.loads((ROOT/"research/studies/vdcm/evidence-map/registries/s1_s2_integrative_queries_v0.2.json").read_text())
     export=ROOT/"gate2/output/development/openalex/OA-S2I2-20260816-full1"
     manifest=json.loads((export/"manifest.json").read_text())
     assert manifest["complete_pagination"] is True

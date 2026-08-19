@@ -26,12 +26,12 @@
 
 ## Canonical implementation
 
-- Retrieval tooling: [`../../../gate2/`](../../../gate2/)
-- Review workflow: [`../../../evidence_review/`](../../../evidence_review/)
-- Systematic-review protocol: [`../../../research-design/02_systematic_review_protocol.md`](../../../research-design/02_systematic_review_protocol.md)
-- Executable appendix: [`../../../research-design/02_executable_search_appendix.md`](../../../research-design/02_executable_search_appendix.md)
-- Search log: [`../../../research-design/02_search_execution_log_pilot.md`](../../../research-design/02_search_execution_log_pilot.md)
-- S3 v0.3 registry: [`../../../gate2/open_index_pilot_queries_v0.3.json`](../../../gate2/open_index_pilot_queries_v0.3.json)
+- Retrieval tooling: [`../../../../gate2/`](../../../../gate2/)
+- Review workflow: [`../../../../evidence_review/`](../../../../evidence_review/)
+- Systematic-review protocol: [`../../../design/02_systematic_review_protocol.md`](../../../design/02_systematic_review_protocol.md)
+- Executable appendix: [`../../../design/02_executable_search_appendix.md`](../../../design/02_executable_search_appendix.md)
+- Search log: [`../../../design/02_search_execution_log_pilot.md`](../../../design/02_search_execution_log_pilot.md)
+- S3 v0.3 registry: [`../../../../gate2/open_index_pilot_queries_v0.3.json`](../../../../gate2/open_index_pilot_queries_v0.3.json)
 
 ## Current family-development records
 
@@ -48,7 +48,7 @@
 - C08 development memo: [`C08_INTEGRATIVE_DEVELOPMENT.md`](C08_INTEGRATIVE_DEVELOPMENT.md)
 - C08 active registry: [`registries/s1_s2_integrative_queries_v0.3.json`](registries/s1_s2_integrative_queries_v0.3.json)
 - C09 final matrix: [`C09_SOURCE_FAMILY_ACCEPTANCE_MATRIX.md`](C09_SOURCE_FAMILY_ACCEPTANCE_MATRIX.md)
-- C09 machine matrix: [`../../../gate2/final_source_family_acceptance_matrix.json`](../../../gate2/final_source_family_acceptance_matrix.json)
+- C09 machine matrix: [`../../../../gate2/final_source_family_acceptance_matrix.json`](../../../../gate2/final_source_family_acceptance_matrix.json)
 
 ## Freeze sequence
 

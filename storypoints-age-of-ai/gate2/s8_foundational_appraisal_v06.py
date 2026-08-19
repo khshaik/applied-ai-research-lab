@@ -9,7 +9,7 @@ from pathlib import Path
 from gate2.query_appraisal import appraise, deterministic_sample_positions
 
 ROOT = Path(__file__).parents[1]
-REGISTRY = ROOT / "studies/vdcm/evidence-map/registries/s8_foundational_queries_v0.6.json"
+REGISTRY = ROOT / "research/studies/vdcm/evidence-map/registries/s8_foundational_queries_v0.6.json"
 OUTPUT = ROOT / "gate2/output/development/query_appraisals"
 CASES = {
     "openalex": ("OA-S8R6", ROOT / "gate2/output/development/openalex/OA-S8R6-20260816-full1"),

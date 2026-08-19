@@ -5,7 +5,7 @@ from simulation.config import load_and_validate
 from simulation.engine import run_truth
 
 
-SCHEMA = "research-design/03b_simulation_schema.json"
+SCHEMA = "research/design/03b_simulation_schema.json"
 EXAMPLE = "simulation/configs/example.yaml"
 
 

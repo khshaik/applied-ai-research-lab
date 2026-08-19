@@ -3,6 +3,7 @@ import json
 import unittest
 from pathlib import Path
 
+from gate2.frozen_paths import resolve_frozen_path
 from gate2.systematic_export import FROZEN, MATRIX, PLAN, build_plan, canonical_hash, reconcile
 
 
@@ -42,7 +43,9 @@ class SystematicExportPlanTests(unittest.TestCase):
             )
             self.assertEqual(
                 run["registry_sha256"],
-                hashlib.sha256((ROOT / run["registry_path"]).read_bytes()).hexdigest(),
+                hashlib.sha256(
+                    resolve_frozen_path(ROOT, run["registry_path"]).read_bytes()
+                ).hexdigest(),
             )
             self.assertEqual(run["query_sha256"], hashlib.sha256(run["query"].encode()).hexdigest())
 

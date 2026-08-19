@@ -49,7 +49,7 @@ class FrozenProtocolPackageTests(unittest.TestCase):
     def test_package_and_record_sidecars_verify(self):
         checks = [
             (FROZEN, ROOT / "gate2/frozen_protocol_package_v1.3.json.sha256"),
-            (ROOT / "research-design/02f_d03_d04_protocol_freeze_record.md", ROOT / "research-design/02f_d03_d04_protocol_freeze_record.md.sha256"),
+            (ROOT / "research/design/02f_d03_d04_protocol_freeze_record.md", ROOT / "research/design/02f_d03_d04_protocol_freeze_record.md.sha256"),
         ]
         for artifact, sidecar in checks:
             expected = sidecar.read_text(encoding="utf-8").split()[0]

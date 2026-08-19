@@ -17,7 +17,7 @@ This package translates the VDCM research into platform-neutral communication ma
 From the repository root:
 
 ```bash
-python3 communications/verified-delivery-capacity/scripts/build_workflow.py
+python3 docs/communications/verified-delivery-capacity/scripts/build_workflow.py
 ```
 
 The renderer rewrites the PNG, SVG, and checksum manifest. It performs no network, Git, or external-system operation.

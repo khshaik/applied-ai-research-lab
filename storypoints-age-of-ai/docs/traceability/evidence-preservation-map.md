@@ -8,11 +8,11 @@ and bytes are referenced by frozen manifests and checksums.
 
 | Scientific layer | Canonical navigation | Authoritative artifacts |
 |---|---|---|
-| Research framing | `studies/vdcm/protocol/` | Root `01_`–`04b_` records |
-| Evidence-map method | `studies/vdcm/evidence-map/` | Frozen protocol package and `gate2/` controls |
-| Systematic corpus | `studies/vdcm/evidence-map/` | `gate2/output/systematic/v1.3/20260816/` |
-| Simulation | `studies/vdcm/simulation/` | `simulation/` and manuscript result package v2 |
-| Claim confirmation | `studies/vdcm/integrity/releases/` | D17 pack plus accountable-author approval record |
+| Research framing | `research/studies/vdcm/protocol/` | Root `01_`–`04b_` records |
+| Evidence-map method | `research/studies/vdcm/evidence-map/` | Frozen protocol package and `gate2/` controls |
+| Systematic corpus | `research/studies/vdcm/evidence-map/` | `gate2/output/systematic/v1.3/20260816/` |
+| Simulation | `research/studies/vdcm/simulation/` | `simulation/` and manuscript result package v2 |
+| Claim confirmation | `research/studies/vdcm/integrity/releases/` | D17 pack plus accountable-author approval record |
 | Manuscript | `papers/thinkai-2026/manuscript/` | Working source and versioned submission packages |
 | Venue controls | `papers/thinkai-2026/venue/` | Conference-source notes and retained call image |
 | Release | `papers/thinkai-2026/release/` | Approved hashes, QA record, and submission receipt |

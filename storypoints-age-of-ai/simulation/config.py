@@ -1,7 +1,7 @@
 """Configuration loading and a dependency-free validator for the frozen schema.
 
 The validator implements the structural and numeric JSON Schema keywords used
-by ``research-design/03b_simulation_schema.json``. Cross-reference invariants are checked in a
+by ``research/design/03b_simulation_schema.json``. Cross-reference invariants are checked in a
 second pass. Full standards validation remains a preregistration hard stop.
 """
 from __future__ import annotations

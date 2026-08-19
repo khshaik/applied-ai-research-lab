@@ -8,7 +8,7 @@ The relocation reduces root-level clutter while keeping the research sequence
 visible and auditable. Frozen protocol artifacts remain byte-identical. Legacy
 paths recorded inside the frozen v1.3 package are resolved through the
 checksum-bound relocation record in
-[`../docs/traceability/RESEARCH_DESIGN_RELOCATION_2026-08-20.json`](../docs/traceability/RESEARCH_DESIGN_RELOCATION_2026-08-20.json).
+[`../../docs/traceability/RESEARCH_DESIGN_RELOCATION_2026-08-20.json`](../../docs/traceability/RESEARCH_DESIGN_RELOCATION_2026-08-20.json).
 
 ## Phase map
 
@@ -28,4 +28,3 @@ checksum-bound relocation record in
 - Any future content amendment to a frozen artifact still requires the protocol's
   formal change-control process; relocation is not such an amendment.
 - Public-release manifests must be regenerated after any structural change.
-

@@ -1,6 +1,6 @@
 # Simulation Workspace
 
-The executable Route B package remains at [`../../../simulation/`](../../../simulation/) because its paths are embedded in tests, manifests, and the draft locked-evaluation protocol.
+The executable Route B package remains at [`../../../../simulation/`](../../../../simulation/) because its paths are embedded in tests, manifests, and the draft locked-evaluation protocol.
 
 ## Implemented
 
@@ -24,4 +24,3 @@ All current parameter values remain developmental unless a machine-verifiable ev
 python3 -m simulation.test_runner --quiet
 python3 -m simulation.prelock --json
 ```
-

@@ -56,7 +56,7 @@ def build() -> dict[str, Any]:
         if claim_id=="CL-009":
             p=ROOT/"simulation/output/development/parameter_recovery.csv"; supports.append({"support_type":"internal_simulation_result","artifact":str(p),"sha256":sha256(p),"locator":"recovery_service_low and recovery_service_high rows"})
         if claim_id=="CL-010":
-            for p,locator in ((ROOT/"research-design/02_systematic_review_protocol.md","Route B and AI-assisted evidence-map boundaries"),(ROOT/"papers/thinkai-2026/results/developmental_simulation_v2/report_manifest.json","interpretation_boundary")):
+            for p,locator in ((ROOT/"research/design/02_systematic_review_protocol.md","Route B and AI-assisted evidence-map boundaries"),(ROOT/"papers/thinkai-2026/results/developmental_simulation_v2/report_manifest.json","interpretation_boundary")):
                 supports.append({"support_type":"method_boundary","artifact":str(p),"sha256":sha256(p),"locator":locator})
         records.append({"claim_id":claim_id,"material_claim":claim,"support":supports,"confirmation_status":"pending","accountable_author":"pending","confirmation_date":None,"author_notes":None})
     FINAL.mkdir(parents=True); ledger=FINAL/"material_claim_confirmation.jsonl"; ledger.write_text("".join(json.dumps(r,sort_keys=True)+"\n" for r in records),encoding="utf-8")

@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
   "project": "storypoints-age-of-ai",
-  "generated_at_utc": "2026-08-19T18:50:05.704395+00:00",
+  "generated_at_utc": "2026-08-19T19:13:09.361181+00:00",
   "source_boundary": "research-owned and redistribution-safe artifacts",
-  "included_file_count": 5545,
-  "included_size_bytes": 656130887,
+  "included_file_count": 5549,
+  "included_size_bytes": 656220184,
   "included_files": [
     {
       "path": ".gitattributes",
@@ -42,19 +42,14 @@
       "sha256": "dab20c59c350ccc864a512da73afd1a993c640418d489891af30d897bcfe123c"
     },
     {
-      "path": "PROJECT_TODO.md",
-      "size_bytes": 29743,
-      "sha256": "2df863098767fb707df4d9c2715e3870b11d3fcdb2bc2049add2e60876046d57"
-    },
-    {
       "path": "README.md",
-      "size_bytes": 22040,
-      "sha256": "dfb889c0fe4ab80a6924581b3a961c79da89f7d11d6cd73ac85edd048d795999"
+      "size_bytes": 22617,
+      "sha256": "3fae0287bd88200cf82306288048b4b9c3f82fb0611e6919d04176314417908c"
     },
     {
       "path": "REPOSITORY_STRUCTURE_MANIFEST.json",
-      "size_bytes": 1248,
-      "sha256": "8754e2bc160f8d1460860369485ef8e5c2e3e94ca9a9faf3953488ff8da2bf6d"
+      "size_bytes": 1307,
+      "sha256": "79514477e0db533704dccc71d6418328af89464379a5a2292b9b1fb698fba3af"
     },
     {
       "path": "SECURITY.md",
@@ -62,99 +57,119 @@
       "sha256": "705668ddf96d771bb8382b428af0ea86732b5f988e55060f406e8a695891ea41"
     },
     {
-      "path": "THINKAI_2026_AI_Delivery_Estimation_Research_Workbook_v0.2.xlsx",
-      "size_bytes": 22115,
-      "sha256": "4246bd1ec7b2749ec7c446e285f40c89b0f595991ed78b54f8de84621e1d98ed"
+      "path": "artifacts/reference-images/README.md",
+      "size_bytes": 177,
+      "sha256": "06267e460f437ff9c184fb562f8f933952e924a2c1c418381ef5a02c6372fefa"
     },
     {
-      "path": "THINKAI_2026_Gate2_Research_Workbook.xlsx",
-      "size_bytes": 39968,
-      "sha256": "61edb1290f482672f900ffc699b7efbb73d0007025cfd99d3516777fde94ffeb"
-    },
-    {
-      "path": "ThinkAI.jpeg",
+      "path": "artifacts/reference-images/ThinkAI.jpeg",
       "size_bytes": 125747,
       "sha256": "341a0023e6bd9f7d3242e37c12a8ce958212f825822086db34e76338727522a6"
     },
     {
       "path": "artifacts/workbooks/README.md",
-      "size_bytes": 602,
-      "sha256": "8387e8163e94ebfd6945c2169885147997f7cd35578f89bcd6e27b71dc5f8a77"
+      "size_bytes": 473,
+      "sha256": "41035dad76ab4467aee0815ab560796eb7fa6ed79de5a557acdb30b7c05313a2"
     },
     {
-      "path": "communications/README.md",
+      "path": "artifacts/workbooks/THINKAI_2026_AI_Delivery_Estimation_Research_Workbook_v0.2.xlsx",
+      "size_bytes": 22115,
+      "sha256": "4246bd1ec7b2749ec7c446e285f40c89b0f595991ed78b54f8de84621e1d98ed"
+    },
+    {
+      "path": "artifacts/workbooks/THINKAI_2026_Gate2_Research_Workbook.xlsx",
+      "size_bytes": 39968,
+      "sha256": "61edb1290f482672f900ffc699b7efbb73d0007025cfd99d3516777fde94ffeb"
+    },
+    {
+      "path": "docs/README.md",
+      "size_bytes": 587,
+      "sha256": "30a645aa216bde35420c5544ea7879b5c0102cae13c508c4a176b25f5b513872"
+    },
+    {
+      "path": "docs/communications/README.md",
       "size_bytes": 927,
       "sha256": "d89626f4cb9bfa01bcd69379a3b792b50e750104c173e65889fba0991a29faf6"
     },
     {
-      "path": "communications/verified-delivery-capacity/EDITORIAL_AND_RELEASE_GUIDE.md",
+      "path": "docs/communications/verified-delivery-capacity/EDITORIAL_AND_RELEASE_GUIDE.md",
       "size_bytes": 2770,
       "sha256": "30a365e4c2266bf8e42126bf9b334e9e85990d0bdc1a7e4dd4748f6da65e5eac"
     },
     {
-      "path": "communications/verified-delivery-capacity/END_TO_END_WORKFLOW.md",
+      "path": "docs/communications/verified-delivery-capacity/END_TO_END_WORKFLOW.md",
       "size_bytes": 4201,
       "sha256": "20ece0136067ba6352be231088c035fd287759dcb51818fa10ad44e35c1c8565"
     },
     {
-      "path": "communications/verified-delivery-capacity/LONG_FORM_NARRATIVE.md",
+      "path": "docs/communications/verified-delivery-capacity/LONG_FORM_NARRATIVE.md",
       "size_bytes": 6352,
       "sha256": "56f1143d892fd16deb3e1800b1a3f14558438c175a3a38ac0a5ebd5073525e71"
     },
     {
-      "path": "communications/verified-delivery-capacity/README.md",
-      "size_bytes": 1586,
-      "sha256": "c92a2324ee0991403acd60a544af9f08a7d8dbe5e1df83d66a7a050e614becab"
+      "path": "docs/communications/verified-delivery-capacity/README.md",
+      "size_bytes": 1591,
+      "sha256": "fbbabe57eaac86ad7d5073a5e74e4f8905752b1efce70224b1253e739e78cd67"
     },
     {
-      "path": "communications/verified-delivery-capacity/SHORT_FORM_SUMMARY.md",
+      "path": "docs/communications/verified-delivery-capacity/SHORT_FORM_SUMMARY.md",
       "size_bytes": 2404,
       "sha256": "b4fbd17dc941570b55d0d63be082aa6f43d7b54c30c92b8c2f1ffecd9d729fe5"
     },
     {
-      "path": "communications/verified-delivery-capacity/assets/06-end-to-end-verified-delivery-workflow.png",
+      "path": "docs/communications/verified-delivery-capacity/assets/06-end-to-end-verified-delivery-workflow.png",
       "size_bytes": 206092,
       "sha256": "a50040c518faca194d5ee0b07b117c73afdd9f4afcab6b1cf676819e03225ba2"
     },
     {
-      "path": "communications/verified-delivery-capacity/assets/06-end-to-end-verified-delivery-workflow.svg",
+      "path": "docs/communications/verified-delivery-capacity/assets/06-end-to-end-verified-delivery-workflow.svg",
       "size_bytes": 19127,
       "sha256": "0a260fb0013a31fbf58489e1fc21f031d5e8b77b32a9a6abe799b1825d15193e"
     },
     {
-      "path": "communications/verified-delivery-capacity/assets/asset_manifest.json",
+      "path": "docs/communications/verified-delivery-capacity/assets/asset_manifest.json",
       "size_bytes": 847,
       "sha256": "5739afad828c0955f1f8d9a4980181b10cbb34c753cac99dd2d3291bf8290c67"
     },
     {
-      "path": "communications/verified-delivery-capacity/scripts/build_workflow.py",
+      "path": "docs/communications/verified-delivery-capacity/scripts/build_workflow.py",
       "size_bytes": 19291,
       "sha256": "f0e683ee7a89ca0eb8d20ed37e0040bb993edcd6ca200015803f4c81f469edcd"
     },
     {
-      "path": "docs/public-release-policy.md",
+      "path": "docs/governance/public-release-policy.md",
       "size_bytes": 2849,
       "sha256": "f2f0d39ec3056fbfc82dfb4a580abaa944323d6431879397bbf4fa13ddb6ec69"
     },
     {
-      "path": "docs/repository-layout.md",
-      "size_bytes": 4169,
-      "sha256": "8dddbcf4860f8f0050fbb3be2e1266682a4a3227c9817984051c86f0f7e67fa3"
-    },
-    {
-      "path": "docs/research-governance.md",
+      "path": "docs/governance/research-governance.md",
       "size_bytes": 2096,
       "sha256": "1fb691117e54c68b65bdfa42670b23af269fd06d1c3889408e25c56e16cfba8d"
     },
     {
-      "path": "docs/status-and-roadmap.md",
-      "size_bytes": 6610,
-      "sha256": "7ede26911ef5dc26ef2d6a9f16c66dd2bb7351c660a2f312f4064b88425a466c"
+      "path": "docs/repository/repository-layout.md",
+      "size_bytes": 4443,
+      "sha256": "1d145bbe4fd9f4baf4a910afde0b76d35a2156782adb85e369e402d6aa68ed91"
+    },
+    {
+      "path": "docs/status/PROJECT_TODO.md",
+      "size_bytes": 29827,
+      "sha256": "4f886683cb18277ad23a5b8386f8f670a5e3612891789c1ac57d00f4b706044c"
+    },
+    {
+      "path": "docs/status/status-and-roadmap.md",
+      "size_bytes": 6607,
+      "sha256": "890ee617789721658332b0bb61acdc992e97dd09600b31a163b4ef83187739b3"
+    },
+    {
+      "path": "docs/traceability/CONTROLLED_FOLDER_RELOCATION_2026-08-20.json",
+      "size_bytes": 83854,
+      "sha256": "b9ae53493f20699d73d6086ac2ac8a28a36361f7abec063a3fedd04b941e585c"
     },
     {
       "path": "docs/traceability/README.md",
-      "size_bytes": 974,
-      "sha256": "a089ccb2eba29a21f0d30248718f0ce914939110f82ec26c4e1483e69452c2bd"
+      "size_bytes": 1218,
+      "sha256": "d2244ac1d24ef3a23d082cdbccddff0bd8ab1ac74168eea7ad428172bc62d0f3"
     },
     {
       "path": "docs/traceability/RESEARCH_DESIGN_RELOCATION_2026-08-20.json",
@@ -168,8 +183,8 @@
     },
     {
       "path": "docs/traceability/evidence-preservation-map.md",
-      "size_bytes": 1667,
-      "sha256": "d43213061602ce5817670aa8ccd86bccf8651e915f025cd7c3652fa752c8ce79"
+      "size_bytes": 1712,
+      "sha256": "38d5b9f3b3501703128b71355f364e4ef9a496d777269ab538c55844dd657f9a"
     },
     {
       "path": "docs/traceability/research-status-and-release-path.md",
@@ -179,7 +194,7 @@
     {
       "path": "evidence_review/README.md",
       "size_bytes": 7479,
-      "sha256": "489dcd5eb3e3e14d25640c7dd1c4b8c1cc970a8408e46d260ddef4debfc626ba"
+      "sha256": "7678862a90f1567ae1cfc626a9006f4052a7853b0595c80ccb391024a4a9ddf9"
     },
     {
       "path": "evidence_review/__init__.py",
@@ -288,13 +303,13 @@
     },
     {
       "path": "gate2/build_acceptance_matrix.py",
-      "size_bytes": 9864,
-      "sha256": "c81c81648c2c5ca51838fd5998c99e5830b2f08c1e5f53f082c258872b236409"
+      "size_bytes": 10035,
+      "sha256": "bd7cba5e2d6fe3fdf7c9edf5269d5c021bd75fdacdcf581f6493c910ab3bbfe6"
     },
     {
       "path": "gate2/c08_integrative_appraisal.py",
-      "size_bytes": 5369,
-      "sha256": "d5d42784b734f9f34db34e24c75c5f1684c701ff1ec79a53f1e7efa086552603"
+      "size_bytes": 5387,
+      "sha256": "3a3585317bcbd923f20600a59f15de27a7e4bf6b34eb9f8acb26aecc9e5ab98c"
     },
     {
       "path": "gate2/citation_chasing.py",
@@ -403,8 +418,8 @@
     },
     {
       "path": "gate2/d14_close.py",
-      "size_bytes": 6050,
-      "sha256": "18e02847c7d0212e7eeae1257831e45b5cf3eff6b146582e2179fd26c385c181"
+      "size_bytes": 6059,
+      "sha256": "35a9e7508b73c162aac1eb26801989a37bac2a7ed024f144b58d6ca64f9c8f8d"
     },
     {
       "path": "gate2/d14_extraction_finalize.py",
@@ -599,7 +614,7 @@
     {
       "path": "gate2/d17_confirmation_pack.py",
       "size_bytes": 8954,
-      "sha256": "35d8cfcb27a3a324ce50a491281a79a04ca1da301e3246ccb73777563030bcbe"
+      "sha256": "97fd9f036825018c4b06de17f077c4adba3f69e018bdb9cc2c2e94b26bd3a56c"
     },
     {
       "path": "gate2/deduplicate_systematic.py",
@@ -628,8 +643,8 @@
     },
     {
       "path": "gate2/frozen_paths.py",
-      "size_bytes": 877,
-      "sha256": "db6beb16aaef6a22572618e90318571aeb56f33425c60a2f0db6503512a3c512"
+      "size_bytes": 1287,
+      "sha256": "02db12743b918671156c3496ec697652c612e0e7fee24a2eaa4c5914656c3b60"
     },
     {
       "path": "gate2/frozen_protocol_package_v1.3.json",
@@ -26278,13 +26293,13 @@
     },
     {
       "path": "gate2/s8_foundational_appraisal.py",
-      "size_bytes": 16814,
-      "sha256": "db0f259166c84f9f1936f626798c44105773b75178375d593a55ad39d70c0a43"
+      "size_bytes": 16823,
+      "sha256": "551942019ccd39a635e3dcf1844563a0f1d1cca61b8ae1c0d032c5994b8c402f"
     },
     {
       "path": "gate2/s8_foundational_appraisal_v06.py",
-      "size_bytes": 6514,
-      "sha256": "4e1896a8e43c6fd63c04e0a0af2076c397236c730a27c2c51261534947638260"
+      "size_bytes": 6523,
+      "sha256": "4f58b7284e3bc23492d790aa8fe20adb1145e9e990e52482ae35ddee84b27d17"
     },
     {
       "path": "gate2/schemas/open_index_pilot_queries.schema.json",
@@ -26323,8 +26338,8 @@
     },
     {
       "path": "gate2/systematic_export.py",
-      "size_bytes": 11662,
-      "sha256": "3a5d6a0787e57a1df3248d08e487cca75a76bef95b1e0f04c53ccb88e9d687a9"
+      "size_bytes": 11961,
+      "sha256": "3063da6b726fce68e87f28ab093bcaa2f6a0888300771206fe7b008679639da8"
     },
     {
       "path": "gate2/title_abstract_screening.py",
@@ -26343,8 +26358,8 @@
     },
     {
       "path": "papers/thinkai-2026/ARTIFACT_TRACEABILITY.md",
-      "size_bytes": 1096,
-      "sha256": "b685100a9ac64abd439bbb576f84a9c792ca84bd5bad274980ff974eed09de1e"
+      "size_bytes": 1114,
+      "sha256": "dcc4f49c5c48c2835d4163aa254607826a6a98efb85b102bbb62621faf592541"
     },
     {
       "path": "papers/thinkai-2026/HYPOTHESES_AND_RESULTS.md",
@@ -26358,8 +26373,8 @@
     },
     {
       "path": "papers/thinkai-2026/README.md",
-      "size_bytes": 1314,
-      "sha256": "f3e9eb95d4ca358829c624b162c5f96b64f183a067a3ae47f45ce46528327d65"
+      "size_bytes": 1338,
+      "sha256": "ed32ae3cb88a7934e709631440d860a5c2dd4842e7b63b171189eea2b77b0d57"
     },
     {
       "path": "papers/thinkai-2026/SUBMISSION_GUIDE.md",
@@ -26368,8 +26383,8 @@
     },
     {
       "path": "papers/thinkai-2026/VENUE_REQUIREMENTS.md",
-      "size_bytes": 7330,
-      "sha256": "fb172001a64a4a8cdd38265afc5b47e1fac629445e5fc8760f28240d9fd025d5"
+      "size_bytes": 7384,
+      "sha256": "9b6120a9fec9b97f079671f86a1cd1b391be48be014ee545d6820d92063d4b14"
     },
     {
       "path": "papers/thinkai-2026/declarations/AI_ASSISTANCE_DISCLOSURE.md",
@@ -26463,8 +26478,8 @@
     },
     {
       "path": "papers/thinkai-2026/manuscript/claim_verification_ledger.md",
-      "size_bytes": 3276,
-      "sha256": "409357704b7e367f38afcd34fcedfb9252a838a8cc04bd86c2c46763edf67a69"
+      "size_bytes": 3294,
+      "sha256": "466eaf45210a41ed96ca08e5d061f28b98c07b2c689ef9a8c9c0065aa91172be"
     },
     {
       "path": "papers/thinkai-2026/manuscript/identified-author/AUTHOR_METADATA_TEMPLATE.md",
@@ -26608,8 +26623,8 @@
     },
     {
       "path": "papers/thinkai-2026/venue/README.md",
-      "size_bytes": 505,
-      "sha256": "ecb88d7913478e1935a161bd55705c7c539721a71bf5bfb625482fa23e191555"
+      "size_bytes": 596,
+      "sha256": "101bdda65e19aff8ab3f0cb450ed7e6df3d4e779004df58e46f042bc919f7f1f"
     },
     {
       "path": "papers/thinkai-2026/venue/SPRINGER_TEMPLATE_DISTILLATION.md",
@@ -26622,184 +26637,649 @@
       "sha256": "9990717d58b84483c5833f9421a2fe0be7a70408936f85514125a24047a8c691"
     },
     {
-      "path": "research-design/01_research_concept_brief.md",
+      "path": "research/README.md",
+      "size_bytes": 543,
+      "sha256": "bd79ad97762c1b22a2372acf34cf8691c59b3742454b846f4aaadf3952a0ad3b"
+    },
+    {
+      "path": "research/design/01_research_concept_brief.md",
       "size_bytes": 29350,
       "sha256": "f38ac5abc463e98acf80322706df889f36b57a9fd2999d687b72d1bf157efa09"
     },
     {
-      "path": "research-design/02_executable_search_appendix.md",
+      "path": "research/design/02_executable_search_appendix.md",
       "size_bytes": 34897,
       "sha256": "187363bae92c65b6fd864241898b9c0d5bb8d53fe786c9f03c27de311c5c4c1a"
     },
     {
-      "path": "research-design/02_gate2_decision_pack.md",
+      "path": "research/design/02_gate2_decision_pack.md",
       "size_bytes": 6819,
       "sha256": "2f64110adc6cc977b9c0b07607533a740c1935ecdfb564b3cd27785db1bac329"
     },
     {
-      "path": "research-design/02_gate2_executable_review_audit.md",
+      "path": "research/design/02_gate2_executable_review_audit.md",
       "size_bytes": 3491,
       "sha256": "5f55218e806e43f4ec0fa90c1a4a72f422cef542225a02e17d5232edb71b6670"
     },
     {
-      "path": "research-design/02_grey_literature_search_procedure.md",
+      "path": "research/design/02_grey_literature_search_procedure.md",
       "size_bytes": 2943,
       "sha256": "cdab5963f8950ba6ac9ee21054973100f0533f39e84f1a6abb1deb9d151e95fe"
     },
     {
-      "path": "research-design/02_open_evidence_route_status.md",
+      "path": "research/design/02_open_evidence_route_status.md",
       "size_bytes": 7581,
       "sha256": "25149b7522b932349f94f86202353f33a7c6df9c55fc170223b51d88f63c4547"
     },
     {
-      "path": "research-design/02_research_generation_prompt.md",
+      "path": "research/design/02_research_generation_prompt.md",
       "size_bytes": 4655,
       "sha256": "bb5ff1c513347e2b5c1c4af371c2d84491a4ff831c7c50c491c87b4a7f179446"
     },
     {
-      "path": "research-design/02_review_logs_template.md",
+      "path": "research/design/02_review_logs_template.md",
       "size_bytes": 9470,
       "sha256": "ea503beae1f9e7338fa8304746d2bdb498d0fde668129e16bc259a644eac3a11"
     },
     {
-      "path": "research-design/02_search_execution_log_pilot.md",
+      "path": "research/design/02_search_execution_log_pilot.md",
       "size_bytes": 9606,
       "sha256": "c86255f39b04c2d30e189a6fe54c59017696af8fb9dcffdba687b5dc7499df84"
     },
     {
-      "path": "research-design/02_seed_evidence_matrix.md",
+      "path": "research/design/02_seed_evidence_matrix.md",
       "size_bytes": 16446,
       "sha256": "3b94b77dd0c9091f1e1719016626f242b176e737fd39a3fe84d2e7f969fcb437"
     },
     {
-      "path": "research-design/02_systematic_review_protocol.md",
+      "path": "research/design/02_systematic_review_protocol.md",
       "size_bytes": 47619,
       "sha256": "e297798a59db599def5ac6709d0d05a25aef26b63b9ad4050ea9d9b9de9acac0"
     },
     {
-      "path": "research-design/02b_active_parameter_gap_audit.md",
+      "path": "research/design/02b_active_parameter_gap_audit.md",
       "size_bytes": 5608,
       "sha256": "3dfcede0a80a63888660b5e908d22eafc4034224c377b73dcd769795fc9b7dbc"
     },
     {
-      "path": "research-design/02d_minimum_route_protocol_amendment_draft.md",
+      "path": "research/design/02d_minimum_route_protocol_amendment_draft.md",
       "size_bytes": 12171,
       "sha256": "3e999a75aba72fe5642e9ee7f688d005f7d0f7115904ff4887e93235156437ec"
     },
     {
-      "path": "research-design/02e_b05_accountable_author_review.md",
+      "path": "research/design/02e_b05_accountable_author_review.md",
       "size_bytes": 4432,
       "sha256": "844eaedbdc89042ba506b716b7c0b7343c6832979ba0bc6ab39d04d70118e373"
     },
     {
-      "path": "research-design/02f_d03_d04_protocol_freeze_record.md",
+      "path": "research/design/02f_d03_d04_protocol_freeze_record.md",
       "size_bytes": 2819,
       "sha256": "4c8f474cc8df0ec5304780efbcbbd22cdbc7ef4ca2cfce97cd6cf2a4290ee538"
     },
     {
-      "path": "research-design/02f_d03_d04_protocol_freeze_record.md.sha256",
+      "path": "research/design/02f_d03_d04_protocol_freeze_record.md.sha256",
       "size_bytes": 104,
       "sha256": "43f4e10ea0d989fca3610e7060f6a0b92b5f0c91d7964acf93e68dd144556b95"
     },
     {
-      "path": "research-design/03_causal_model.md",
+      "path": "research/design/03_causal_model.md",
       "size_bytes": 3901,
       "sha256": "0498a50aee895b0271c93dac1f459871b9ef23d692d9cb346cd755f921ab0679"
     },
     {
-      "path": "research-design/03_construct_dictionary.md",
+      "path": "research/design/03_construct_dictionary.md",
       "size_bytes": 8017,
       "sha256": "a06b9fb97ccbe00d23127d1cd39d66976c0d73310e9202cb9bf602cbd54b3b84"
     },
     {
-      "path": "research-design/03_framework_specification.md",
+      "path": "research/design/03_framework_specification.md",
       "size_bytes": 9948,
       "sha256": "98434c92067237e12f1be06e531e2efac8cc9bce8553a2703c472dae1c6275c9"
     },
     {
-      "path": "research-design/03_future_empirical_propositions.md",
+      "path": "research/design/03_future_empirical_propositions.md",
       "size_bytes": 4150,
       "sha256": "dc5ea236e456711435b058d9b9a079ccc38ffc2bbb0e9f47077172c789043c8c"
     },
     {
-      "path": "research-design/03_gate3_status.md",
+      "path": "research/design/03_gate3_status.md",
       "size_bytes": 3688,
       "sha256": "b8db87f69236582fec49bff65be3862e92ee030c66b5b4da72164ed07244769e"
     },
     {
-      "path": "research-design/03_route_b_simulation_protocol.md",
+      "path": "research/design/03_route_b_simulation_protocol.md",
       "size_bytes": 8872,
       "sha256": "704135ce21d3c6afc215c1040ea75b884d5a9bd4325fd9050f190f915fa6ae2d"
     },
     {
-      "path": "research-design/03b_decision_pack.md",
+      "path": "research/design/03b_decision_pack.md",
       "size_bytes": 4197,
       "sha256": "29e17e5a04356e10182f5e2d8a7fe9044540f5b996e551df0406c6f3f447cbbb"
     },
     {
-      "path": "research-design/03b_literature_parameter_registry.md",
+      "path": "research/design/03b_literature_parameter_registry.md",
       "size_bytes": 8191,
       "sha256": "5c95041d7d65c6b35d887e565ba4a56135e884538c85eb0c05330b1050458db9"
     },
     {
-      "path": "research-design/03b_naming_collision_audit.md",
+      "path": "research/design/03b_naming_collision_audit.md",
       "size_bytes": 1981,
       "sha256": "e996b901e4d4224f21c0a6d9251e2fbe23259a53f8387daf762731f20cfd7930"
     },
     {
-      "path": "research-design/03b_operational_anchors.md",
+      "path": "research/design/03b_operational_anchors.md",
       "size_bytes": 6466,
       "sha256": "9ebaab70045f7e615a1c826603c1b287c8db76b7423288c0b21d592a6807a16b"
     },
     {
-      "path": "research-design/03b_parameter_provenance.md",
+      "path": "research/design/03b_parameter_provenance.md",
       "size_bytes": 3921,
       "sha256": "4d485d8d2a233f46b93130b9aa9c92239f889bcd9bb4ab630e10a41b0381dbbc"
     },
     {
-      "path": "research-design/03b_readiness_rules.md",
+      "path": "research/design/03b_readiness_rules.md",
       "size_bytes": 6001,
       "sha256": "e45e62b644ffb6d73ed48c949a39071e576b4bd01c0e5b1096a7fed54b48b0e9"
     },
     {
-      "path": "research-design/03b_simulation_schema.json",
+      "path": "research/design/03b_simulation_schema.json",
       "size_bytes": 19132,
       "sha256": "05c8978c182b4be8b3104114d056373d0ebdd7d364a47cfae8ea39d90a65b805"
     },
     {
-      "path": "research-design/04_comparator_evaluation_spec.md",
+      "path": "research/design/04_comparator_evaluation_spec.md",
       "size_bytes": 4786,
       "sha256": "79c54660a47eddfa9a72e6697bc9046397a50edc5e1b7e5900a6d2e6b235dc66"
     },
     {
-      "path": "research-design/04_locked_synthetic_preregistration.md",
+      "path": "research/design/04_locked_synthetic_preregistration.md",
       "size_bytes": 9140,
       "sha256": "a515081ed22a24f6619d7ad32bd21bcac9d50787c342973c4eef0bf4a5cc9496"
     },
     {
-      "path": "research-design/04_prototype_status.md",
+      "path": "research/design/04_prototype_status.md",
       "size_bytes": 6341,
       "sha256": "475820343f6cdccca222755afa9dbb3dcd42d8dce801cbc7247ffada492ac958"
     },
     {
-      "path": "research-design/04b_gate_status.md",
+      "path": "research/design/04b_gate_status.md",
       "size_bytes": 6494,
       "sha256": "a11864852335af2396574004119e435b45d0317a0a6ce6ee589068aa917de19d"
     },
     {
-      "path": "research-design/04b_minimum_production_scope.md",
+      "path": "research/design/04b_minimum_production_scope.md",
       "size_bytes": 22341,
       "sha256": "a043cc0ecc2edf2caa731b387c218fbb00b5cc1f982fc2fb16e37116b8554ec3"
     },
     {
-      "path": "research-design/05_developmental_simulation_reconciliation.md",
+      "path": "research/design/05_developmental_simulation_reconciliation.md",
       "size_bytes": 7437,
       "sha256": "964d6ab0b943257ee0d63db1be2085f8fdfa8c58b2cb5880488a4951646f1e3a"
     },
     {
-      "path": "research-design/README.md",
-      "size_bytes": 2017,
-      "sha256": "c20206b29b782eb641e25fa7aa33d311ae21e47a983d1e20174b4a49ac4a2b64"
+      "path": "research/design/README.md",
+      "size_bytes": 2022,
+      "sha256": "c1f6c6f2520f73f384333bf8eae3e9b57a630fc6fca5378c3c6a912fe480140b"
+    },
+    {
+      "path": "research/studies/vdcm/README.md",
+      "size_bytes": 1739,
+      "sha256": "6cf80ef49a99f3db9a56e5ed3a387701bed26cedf337206026387dddba5e1760"
+    },
+    {
+      "path": "research/studies/vdcm/evidence-map/C08_INTEGRATIVE_DEVELOPMENT.md",
+      "size_bytes": 2018,
+      "sha256": "fd90d86cb8362b17ed5254736a596f581ae70aabe53323ab5082767d637f7a8f"
+    },
+    {
+      "path": "research/studies/vdcm/evidence-map/C09_SOURCE_FAMILY_ACCEPTANCE_MATRIX.md",
+      "size_bytes": 3677,
+      "sha256": "b18746ad21bbf27171f1a87341229ef4dbd15a468c6298e85f8d1b89df194352"
+    },
+    {
+      "path": "research/studies/vdcm/evidence-map/C09_SOURCE_FAMILY_ACCEPTANCE_MATRIX.sha256",
+      "size_bytes": 105,
+      "sha256": "a9cdaa84368761642329e9fad28d7c77c4e9873ce2cb49740cd0d0ac43c88bf8"
+    },
+    {
+      "path": "research/studies/vdcm/evidence-map/D01_D02_PREFREEZE_RECONCILIATION.md",
+      "size_bytes": 2200,
+      "sha256": "b2a3e51f798e004f445f840c71b1612036b39f9e3c90d6e527cf44605cb715cf"
+    },
+    {
+      "path": "research/studies/vdcm/evidence-map/D05_SYSTEMATIC_EXECUTION.md",
+      "size_bytes": 1520,
+      "sha256": "659d0cadeb075f0297f6d9ac66cc3c977303406e435fee27d8d09298fb4ff99f"
+    },
+    {
+      "path": "research/studies/vdcm/evidence-map/D06_NORMALIZATION_DEDUPLICATION.md",
+      "size_bytes": 1479,
+      "sha256": "f7565adfe2769b99c846029808e720f5bf1c71f908da0c1b904a509fc311ae17"
+    },
+    {
+      "path": "research/studies/vdcm/evidence-map/D07_STUDY_FAMILY_CONSOLIDATION.md",
+      "size_bytes": 1767,
+      "sha256": "332d0d1e40d0d4385fd9ccaf93325dc8685d3dc74fbf79577d82f9235aab5284"
+    },
+    {
+      "path": "research/studies/vdcm/evidence-map/D08_TITLE_ABSTRACT_SCREENING.md",
+      "size_bytes": 1797,
+      "sha256": "8adda6647dc3e077280e671b452c2a9aa83a909e1da1308a02463ad571bee549"
+    },
+    {
+      "path": "research/studies/vdcm/evidence-map/D09_ADJUDICATION.md",
+      "size_bytes": 1255,
+      "sha256": "8b8c0b14a042136e71a2b30514487b68d53e50c569388c74a28e67e2cc59c9ff"
+    },
+    {
+      "path": "research/studies/vdcm/evidence-map/D10_LAWFUL_FULLTEXT_RETRIEVAL.md",
+      "size_bytes": 1515,
+      "sha256": "b7aac3e72f77c9f9f1502075454133274951264ed4e3bf466dc375d651632551"
+    },
+    {
+      "path": "research/studies/vdcm/evidence-map/D11_FULLTEXT_ELIGIBILITY.md",
+      "size_bytes": 2951,
+      "sha256": "abbb3ed821734a616d716eba53d213e02d8f18404aef90ad1a7d57e472d54024"
+    },
+    {
+      "path": "research/studies/vdcm/evidence-map/D12_QUALITY_APPRAISAL.md",
+      "size_bytes": 2239,
+      "sha256": "796b7d4a00b57cfee741d88b89b3200e2ccb2f508260804c55bc55b2cc8401a2"
+    },
+    {
+      "path": "research/studies/vdcm/evidence-map/D13_EVIDENCE_EXTRACTION.md",
+      "size_bytes": 2734,
+      "sha256": "0b16f6bd739238500e3275e2d0897d74dde6eb7b53956ee839c22cdfdfa316bc"
+    },
+    {
+      "path": "research/studies/vdcm/evidence-map/D14_RESOURCE_CAP_DECISION.md",
+      "size_bytes": 3072,
+      "sha256": "240f337fc5d7a158f585bf59bc9d0e25708653abd8302ea4960808d543959b96"
+    },
+    {
+      "path": "research/studies/vdcm/evidence-map/README.md",
+      "size_bytes": 4235,
+      "sha256": "bfb9579ae51ea66338fae1b9e87793b11caabd0805f4a73458b5f19f89d7bb46"
+    },
+    {
+      "path": "research/studies/vdcm/evidence-map/S4_QUERY_DEVELOPMENT.md",
+      "size_bytes": 4865,
+      "sha256": "1636f913be3c34a85fc15bfe4c09d6deb9e1e53f72476e8eb06fe20d84ef828e"
+    },
+    {
+      "path": "research/studies/vdcm/evidence-map/S7_NOVELTY_DEVELOPMENT.md",
+      "size_bytes": 5241,
+      "sha256": "747b5070c679a11c5db68e8fdc0bb17df84ffe01b7dae3a16199bcb7a1cea3b3"
+    },
+    {
+      "path": "research/studies/vdcm/evidence-map/S7_NOVELTY_DEVELOPMENT.md.sha256",
+      "size_bytes": 92,
+      "sha256": "23935a51bf60a33065a123ecae1c845b6901c38cde8864a6dcb610210592cd5c"
+    },
+    {
+      "path": "research/studies/vdcm/evidence-map/S8_FOUNDATIONAL_DEVELOPMENT.md",
+      "size_bytes": 2898,
+      "sha256": "cb41510669d526e022776842ac7d0452ed0555af3d34683dfd92d9eb0cd13d8f"
+    },
+    {
+      "path": "research/studies/vdcm/evidence-map/registries/arxiv_s4_mapping_v0.1.json",
+      "size_bytes": 2280,
+      "sha256": "60d260ffb007525e215182c173a06a9b90868d20df817c7cd62c24b3d812cc3d"
+    },
+    {
+      "path": "research/studies/vdcm/evidence-map/registries/arxiv_s4_mapping_v0.1.sha256",
+      "size_bytes": 93,
+      "sha256": "5c00cb14360578f189cd54573b729c94ac000b8eb9a502bb5daccafe2124c24b"
+    },
+    {
+      "path": "research/studies/vdcm/evidence-map/registries/arxiv_s5s_mapping_v0.1.json",
+      "size_bytes": 2183,
+      "sha256": "52df3531cca91c26541ce4a2e85a1a7d646c85ace7ba17a0b340495d9fa35b0e"
+    },
+    {
+      "path": "research/studies/vdcm/evidence-map/registries/arxiv_s5s_mapping_v0.1.sha256",
+      "size_bytes": 94,
+      "sha256": "ed7b120d58e64940d8cd2ea931fb0dd6344e318dfc6d6e7a0b978b8f426b6511"
+    },
+    {
+      "path": "research/studies/vdcm/evidence-map/registries/arxiv_s5t_mapping_v0.1.json",
+      "size_bytes": 2318,
+      "sha256": "5cb3a85926fb08d95c2ebdd9880e3a66f02e5824d75fd07c953a6431d3b65277"
+    },
+    {
+      "path": "research/studies/vdcm/evidence-map/registries/arxiv_s5t_mapping_v0.1.sha256",
+      "size_bytes": 94,
+      "sha256": "50aa7ac127bee2a1f38dbd48b8778c18fcf6b005e489650418708a75e907a713"
+    },
+    {
+      "path": "research/studies/vdcm/evidence-map/registries/arxiv_s6_mapping_v0.1.json",
+      "size_bytes": 2830,
+      "sha256": "04771ba47c9d57a8136f75aaf1f6706b36a09532023c1aa83c34f55f6a4ae32f"
+    },
+    {
+      "path": "research/studies/vdcm/evidence-map/registries/arxiv_s6_mapping_v0.1.sha256",
+      "size_bytes": 93,
+      "sha256": "164fd9ed0bcc845ef6323804d991d233fadc865205827773757f91f43f777ba4"
+    },
+    {
+      "path": "research/studies/vdcm/evidence-map/registries/arxiv_s6_mapping_v0.2.json",
+      "size_bytes": 2671,
+      "sha256": "2364d5969a7119fa86d4767b2c15b0e24d7c073f53c88764c5ed3f8b4a360b75"
+    },
+    {
+      "path": "research/studies/vdcm/evidence-map/registries/arxiv_s6_mapping_v0.2.sha256",
+      "size_bytes": 93,
+      "sha256": "6ce828e60c2590fb167f6c18d0866fb6c3d9d44c2ec5f2ab7d88e753c11a7d5f"
+    },
+    {
+      "path": "research/studies/vdcm/evidence-map/registries/arxiv_s7_mapping_v0.4.json",
+      "size_bytes": 2157,
+      "sha256": "344098a36fcc103baa718c1103b9bde048178e17d131c38583e4063e77043f2a"
+    },
+    {
+      "path": "research/studies/vdcm/evidence-map/registries/arxiv_s7_mapping_v0.4.sha256",
+      "size_bytes": 93,
+      "sha256": "b9fe1f6bc45feed6b8d0dc43752c507144f5849fb3759869bf071bd8ea386116"
+    },
+    {
+      "path": "research/studies/vdcm/evidence-map/registries/s1_s2_integrative_queries_v0.1.json",
+      "size_bytes": 5220,
+      "sha256": "ae0c55508b9aad19f904bae1b3fd5bc9151e0b80f04ebee83c06221e2c8960f8"
+    },
+    {
+      "path": "research/studies/vdcm/evidence-map/registries/s1_s2_integrative_queries_v0.2.json",
+      "size_bytes": 4970,
+      "sha256": "de9e379e8287482d5d1d36168fd60322b9e6e4e9cf9efcfa939cd568cf861686"
+    },
+    {
+      "path": "research/studies/vdcm/evidence-map/registries/s1_s2_integrative_queries_v0.3.json",
+      "size_bytes": 5188,
+      "sha256": "a506e927ebcf361475c8ca3ae032ccdedf06e81c3cbe519618014eaec46ec164"
+    },
+    {
+      "path": "research/studies/vdcm/evidence-map/registries/s1_s2_integrative_queries_v0.3.sha256",
+      "size_bytes": 102,
+      "sha256": "f6c2845a60409b5a95861639ee09032d1f2f8d1e53a1adbf3a96092088c67cf4"
+    },
+    {
+      "path": "research/studies/vdcm/evidence-map/registries/s4_open_index_queries_v0.1.json",
+      "size_bytes": 3433,
+      "sha256": "cc627fc91625547bad87bf9a73dda45f4e97879d54012dc376c5c0e681f48128"
+    },
+    {
+      "path": "research/studies/vdcm/evidence-map/registries/s4_open_index_queries_v0.2.json",
+      "size_bytes": 3421,
+      "sha256": "7ee2c1919233a15b646fee25d29b7aeacef6f57e2f65e4f7c286af307ca1a9f2"
+    },
+    {
+      "path": "research/studies/vdcm/evidence-map/registries/s4_open_index_queries_v0.3.json",
+      "size_bytes": 3695,
+      "sha256": "6182547a608a57b1288b7f797a5972d04c74111ab6f74a0d11898c390e3f0b8e"
+    },
+    {
+      "path": "research/studies/vdcm/evidence-map/registries/s4_open_index_queries_v0.4.json",
+      "size_bytes": 3551,
+      "sha256": "9edbba956540b508c4365707c902160bfe384d377c6930258c5ba05ef92f6185"
+    },
+    {
+      "path": "research/studies/vdcm/evidence-map/registries/s4_open_index_queries_v0.5.json",
+      "size_bytes": 3427,
+      "sha256": "31cab97519f7cf497cd36087497fc74a8c842da890a81bb5eaf24cf0ff72af71"
+    },
+    {
+      "path": "research/studies/vdcm/evidence-map/registries/s4_open_index_queries_v0.5.sha256",
+      "size_bytes": 98,
+      "sha256": "66603b2ef7b39f78b725e6f6b6dc2838aba7fe643ac13c6b1c399db3c5d6f284"
+    },
+    {
+      "path": "research/studies/vdcm/evidence-map/registries/s4_open_index_queries_v0.6.json",
+      "size_bytes": 4806,
+      "sha256": "f65ecbc9666599af9846c3f740f7332d5a69f61f45cc3dadb43822633ba0046c"
+    },
+    {
+      "path": "research/studies/vdcm/evidence-map/registries/s4_open_index_queries_v0.6.sha256",
+      "size_bytes": 98,
+      "sha256": "edc0eb1764f6a6208d199c771dc099061ad18e8cd3eb9e008f3822da1a1f8462"
+    },
+    {
+      "path": "research/studies/vdcm/evidence-map/registries/s5s_open_index_queries_v0.1.json",
+      "size_bytes": 3799,
+      "sha256": "6fb8b3d4ba1012c17c0282d31522432457d69e37261471bcd4673a44779efb2e"
+    },
+    {
+      "path": "research/studies/vdcm/evidence-map/registries/s5s_open_index_queries_v0.2.json",
+      "size_bytes": 3020,
+      "sha256": "1be0646c6db61890a98853f51f25f4cdd34c5c37dfad6e083b8e795d87029a70"
+    },
+    {
+      "path": "research/studies/vdcm/evidence-map/registries/s5s_open_index_queries_v0.3.json",
+      "size_bytes": 2806,
+      "sha256": "1c9104a923b03cc5100eb02c6d6568f44e1a8b94bebd3a017f96acfceaf048ca"
+    },
+    {
+      "path": "research/studies/vdcm/evidence-map/registries/s5s_open_index_queries_v0.4.json",
+      "size_bytes": 3070,
+      "sha256": "a2559c3146f376eb81a2c24090da3a829245fd27035072270e335233430ccf80"
+    },
+    {
+      "path": "research/studies/vdcm/evidence-map/registries/s5s_open_index_queries_v0.5.json",
+      "size_bytes": 3015,
+      "sha256": "d6e6b3f8a6f39584bc9bfdeec23c5bf1ceffa54b552921ae4ffb1925fca559ee"
+    },
+    {
+      "path": "research/studies/vdcm/evidence-map/registries/s5s_open_index_queries_v0.6.json",
+      "size_bytes": 2954,
+      "sha256": "6f789f28bfa7f7a5b7ed6a99661a816a908ed5d1a8d756f58de0a2203addec42"
+    },
+    {
+      "path": "research/studies/vdcm/evidence-map/registries/s5s_open_index_queries_v0.7.json",
+      "size_bytes": 3064,
+      "sha256": "11086fc5e02f3ff9b220bb23c30b66ff5d998c69f7386990038e15e134d051a7"
+    },
+    {
+      "path": "research/studies/vdcm/evidence-map/registries/s5s_open_index_queries_v0.7.sha256",
+      "size_bytes": 99,
+      "sha256": "1aabe10167228c9c95d06555c9b831654168cf5b51d99546b4008260eba561cf"
+    },
+    {
+      "path": "research/studies/vdcm/evidence-map/registries/s5t_open_index_queries_v0.1.json",
+      "size_bytes": 3333,
+      "sha256": "5fde2d8069c8e2a37e2f9b56a610fa83a5bc4d798e1a64942e6a7836184c23e3"
+    },
+    {
+      "path": "research/studies/vdcm/evidence-map/registries/s5t_open_index_queries_v0.2.json",
+      "size_bytes": 3265,
+      "sha256": "809014e42f2f4e465322d91f9d16d0c2bcaecf523f972593e080d074e6b48668"
+    },
+    {
+      "path": "research/studies/vdcm/evidence-map/registries/s5t_open_index_queries_v0.3.json",
+      "size_bytes": 3428,
+      "sha256": "a07942299c3817ec7f758d474a94a728ed8f3cc2e277c44eee02de3f37c6296e"
+    },
+    {
+      "path": "research/studies/vdcm/evidence-map/registries/s5t_open_index_queries_v0.4.json",
+      "size_bytes": 3407,
+      "sha256": "d25bcfe910f004ca10510ed9c2b977f0a1de6f7f0e1cd7c62f0c63d813f0b241"
+    },
+    {
+      "path": "research/studies/vdcm/evidence-map/registries/s5t_open_index_queries_v0.4.sha256",
+      "size_bytes": 99,
+      "sha256": "f4ccafb40fb9a01efbfd8586bb051f6af0aece807ec4900011945220bdac89cb"
+    },
+    {
+      "path": "research/studies/vdcm/evidence-map/registries/s6_open_index_queries_v0.1.json",
+      "size_bytes": 4234,
+      "sha256": "f28d4c0dd22dd6f91f54fcbff37d07f5474c6125f4bc30682786a692622a8249"
+    },
+    {
+      "path": "research/studies/vdcm/evidence-map/registries/s6_open_index_queries_v0.1.sha256",
+      "size_bytes": 98,
+      "sha256": "a0f28c09f25d30830f5885da246e93303b03674c889730628935df1838a36d7e"
+    },
+    {
+      "path": "research/studies/vdcm/evidence-map/registries/s6_open_index_queries_v0.2.json",
+      "size_bytes": 4224,
+      "sha256": "d91d49b21513eb1ed8812f8de72c358b2dfc1428b390c62769b13558ef9a4de6"
+    },
+    {
+      "path": "research/studies/vdcm/evidence-map/registries/s6_open_index_queries_v0.2.sha256",
+      "size_bytes": 98,
+      "sha256": "35c4182f478b02a13c9097b85250dfe300db7a7b196e284287d8f435d19dfaf0"
+    },
+    {
+      "path": "research/studies/vdcm/evidence-map/registries/s6_open_index_queries_v0.3.json",
+      "size_bytes": 4243,
+      "sha256": "b6a1d6eca93034044f6e88a45fed3f242e71aae6de8d1b3623af4a3cefa0a160"
+    },
+    {
+      "path": "research/studies/vdcm/evidence-map/registries/s6_open_index_queries_v0.3.sha256",
+      "size_bytes": 98,
+      "sha256": "39b0b3db7e868bfac934186d073fc14fd535069a8231206aedb6c87579880b28"
+    },
+    {
+      "path": "research/studies/vdcm/evidence-map/registries/s6_open_index_queries_v0.4.json",
+      "size_bytes": 4322,
+      "sha256": "174da5273986e2b4d9e8348709e541805aa0679c963ef223f64525fc0cd1b302"
+    },
+    {
+      "path": "research/studies/vdcm/evidence-map/registries/s6_open_index_queries_v0.4.sha256",
+      "size_bytes": 98,
+      "sha256": "6ae70b2d0acb83461d3b550e5e9679aa99ab6b2df4d9620285170d7a537a1692"
+    },
+    {
+      "path": "research/studies/vdcm/evidence-map/registries/s6_open_index_queries_v0.5.json",
+      "size_bytes": 4003,
+      "sha256": "0a709f0558ff2e7b8d9574eb64a202c3c31347acf60f417076c2af14683a0418"
+    },
+    {
+      "path": "research/studies/vdcm/evidence-map/registries/s6_open_index_queries_v0.5.sha256",
+      "size_bytes": 98,
+      "sha256": "16e04da9c63829c37e74eeb6205583b24ad9520f6ff49fc92ab7040f177ba655"
+    },
+    {
+      "path": "research/studies/vdcm/evidence-map/registries/s6_open_index_queries_v0.6.json",
+      "size_bytes": 4051,
+      "sha256": "89b9de5a45e5252665dadb8e0705edd08fe963e2752ba7b8d0276e252da6dfdc"
+    },
+    {
+      "path": "research/studies/vdcm/evidence-map/registries/s6_open_index_queries_v0.6.sha256",
+      "size_bytes": 98,
+      "sha256": "d39b3a69a68a27ec81d7fdade8378fec9fd3bc68a606545effcfd177eb966496"
+    },
+    {
+      "path": "research/studies/vdcm/evidence-map/registries/s6_open_index_queries_v0.7.json",
+      "size_bytes": 4091,
+      "sha256": "5f3f96d60009e239034a0b5bf443881d2c2c46f468193d1f1a670ae5f005593f"
+    },
+    {
+      "path": "research/studies/vdcm/evidence-map/registries/s6_open_index_queries_v0.7.sha256",
+      "size_bytes": 98,
+      "sha256": "33da8b3aa6f165d929f22a613d6df156570de41925e0f8b8eebc8c9fb5247dff"
+    },
+    {
+      "path": "research/studies/vdcm/evidence-map/registries/s6_open_index_queries_v0.8.json",
+      "size_bytes": 4158,
+      "sha256": "e46af482dfe9e5bc16b6ccd5999a442fd54466971c9d0109ac036e2fdee063c1"
+    },
+    {
+      "path": "research/studies/vdcm/evidence-map/registries/s6_open_index_queries_v0.8.sha256",
+      "size_bytes": 98,
+      "sha256": "22924d5b965dab252e76cba50ac7d7dbf6ca2d6cc706d8c029a5b5166af427f1"
+    },
+    {
+      "path": "research/studies/vdcm/evidence-map/registries/s7_novelty_queries_v0.1.json",
+      "size_bytes": 7598,
+      "sha256": "ec83529737e089f110e258c28d43e741cafd3cb20308f8daa66d03e3f69cb1ba"
+    },
+    {
+      "path": "research/studies/vdcm/evidence-map/registries/s7_novelty_queries_v0.2.json",
+      "size_bytes": 6342,
+      "sha256": "c615c0104af7a3cc7b702e45d5f8632ae175140dfdf195684052389b4069fc6e"
+    },
+    {
+      "path": "research/studies/vdcm/evidence-map/registries/s7_novelty_queries_v0.3.json",
+      "size_bytes": 6541,
+      "sha256": "f429d7941d31d4aa4c0a2e21f75674eb0637f8172df5a9319d756a7617c501ba"
+    },
+    {
+      "path": "research/studies/vdcm/evidence-map/registries/s7_novelty_queries_v0.4.json",
+      "size_bytes": 6563,
+      "sha256": "48315d2e98bd18e17957ea91aaceaad794efbfe0f116c9284fd4f13db1c6c776"
+    },
+    {
+      "path": "research/studies/vdcm/evidence-map/registries/s7_novelty_queries_v0.4.json.sha256",
+      "size_bytes": 95,
+      "sha256": "ba8695a49a715db69c306c998a343653694214ee910722288e76f1f706e885d8"
+    },
+    {
+      "path": "research/studies/vdcm/evidence-map/registries/s7_novelty_queries_v0.4.sha256",
+      "size_bytes": 95,
+      "sha256": "ba8695a49a715db69c306c998a343653694214ee910722288e76f1f706e885d8"
+    },
+    {
+      "path": "research/studies/vdcm/evidence-map/registries/s8_foundational_queries_v0.1.json",
+      "size_bytes": 6079,
+      "sha256": "b3dafb8bcc49f9fed5451bf632e58cd7596827e73314d9ed23a395b52aa3b26e"
+    },
+    {
+      "path": "research/studies/vdcm/evidence-map/registries/s8_foundational_queries_v0.2.json",
+      "size_bytes": 6461,
+      "sha256": "250282c36a9f55a6c9947c0cd5db6cb495660fc518f56bafcddc13125dbd46e4"
+    },
+    {
+      "path": "research/studies/vdcm/evidence-map/registries/s8_foundational_queries_v0.3.json",
+      "size_bytes": 6075,
+      "sha256": "91afcb59c80b2881280cade002bd6b7536c9b2d75235969bd2477b151836ef98"
+    },
+    {
+      "path": "research/studies/vdcm/evidence-map/registries/s8_foundational_queries_v0.4.json",
+      "size_bytes": 5914,
+      "sha256": "a9576b9e8948e3763bdaed25bac2a6fecc8f1ff236ec88015234b5ca386b2bf1"
+    },
+    {
+      "path": "research/studies/vdcm/evidence-map/registries/s8_foundational_queries_v0.5.json",
+      "size_bytes": 6118,
+      "sha256": "993d6b058c7239a65c2e2baa2610c2b252e42c5bdfdb2695aa440b9fe54c2252"
+    },
+    {
+      "path": "research/studies/vdcm/evidence-map/registries/s8_foundational_queries_v0.6.json",
+      "size_bytes": 6672,
+      "sha256": "edec1d616e4e95b4e451e2362bd6f70f8061ca0bf1fa41d58201a8cb94a6c5b3"
+    },
+    {
+      "path": "research/studies/vdcm/evidence-map/registries/s8_foundational_queries_v0.6.sha256",
+      "size_bytes": 100,
+      "sha256": "5071729bc2c3a19568153bbac0fe3f33a99f6b45a06c32add5852a94f97ffa8f"
+    },
+    {
+      "path": "research/studies/vdcm/integrity/README.md",
+      "size_bytes": 1268,
+      "sha256": "114e0d09cf3685a33c82be74e1f9071789d3fa420ecac179652032cafc772b42"
+    },
+    {
+      "path": "research/studies/vdcm/integrity/releases/D17_ACCOUNTABLE_AUTHOR_CONFIRMATION_2026-08-19.json",
+      "size_bytes": 1808,
+      "sha256": "31e1315970e89831a838387cad63329aee34373f20e3ace17ab5ce0eb4f221c8"
+    },
+    {
+      "path": "research/studies/vdcm/integrity/releases/D17_ACCOUNTABLE_AUTHOR_CONFIRMATION_2026-08-19.json.sha256",
+      "size_bytes": 118,
+      "sha256": "5df9143224d9c88d370d2e5abe8538d6195c3e66f107a7601d3ec62a770954a5"
+    },
+    {
+      "path": "research/studies/vdcm/protocol/README.md",
+      "size_bytes": 1175,
+      "sha256": "2c884f1e22f28469bba3d572adf80b77984c25d9b84e8d4b8edbe80860609686"
+    },
+    {
+      "path": "research/studies/vdcm/restricted/README.md",
+      "size_bytes": 392,
+      "sha256": "bf382ec145af3692265e0a348576c2f0637dc29cc09380054dfc34eb3c6910ef"
+    },
+    {
+      "path": "research/studies/vdcm/simulation/README.md",
+      "size_bytes": 1125,
+      "sha256": "7aa1d94d51c242cc52702ac9cdc164583adb746981f321fe33766479c5ef9883"
     },
     {
       "path": "scripts/build_public_release.py",
@@ -26814,7 +27294,7 @@
     {
       "path": "scripts/verify_manuscript.py",
       "size_bytes": 8096,
-      "sha256": "3049e33aba1e3ea9d18a1beaa4f56318808435010350d1c5668a1359021ab849"
+      "sha256": "2567f0cd161eaec7474eb15ea4a2cfdb232a50b20fa198a0b18ead2579af2caa"
     },
     {
       "path": "scripts/verify_public_release.py",
@@ -26823,13 +27303,13 @@
     },
     {
       "path": "scripts/verify_repository.py",
-      "size_bytes": 36406,
-      "sha256": "25a7aee6b2ac106bece85a4c67c76443961754e618bd8c4d4ab12a7df8d04604"
+      "size_bytes": 37248,
+      "sha256": "dd792185b0ab9683b29c85375dc3a0c8012f7db0c45283638b68cbab769445a6"
     },
     {
       "path": "simulation/README.md",
       "size_bytes": 4861,
-      "sha256": "5c086275b19b666b88714d48bffaf1a96463aa983da649869edc1934d6f0490f"
+      "sha256": "974d33f5408942f849a519aa91f040d3796645908480db1fe17288539ab1969b"
     },
     {
       "path": "simulation/__init__.py",
@@ -26844,7 +27324,7 @@
     {
       "path": "simulation/config.py",
       "size_bytes": 24536,
-      "sha256": "240901af5ae2aa2b1b1cc00a7324bc211e91d8941338951470e8f65a6119c749"
+      "sha256": "f32ee686744d924a453eaa118591be9fb2d71cea4278ddda6c37ff8689dbdd15"
     },
     {
       "path": "simulation/configs/example.yaml",
@@ -26859,12 +27339,12 @@
     {
       "path": "simulation/configs/parameter_registry.json",
       "size_bytes": 4573,
-      "sha256": "4df7ed975d395f98606139f8f5aeb4c1ebec4bb8c836cb4885a669b65bf47d34"
+      "sha256": "bd9aa305be2e3579400c4ed7764b65d1bf0f2aaca4def7eb1ae481a9c6aa9edb"
     },
     {
       "path": "simulation/development_pipeline.py",
       "size_bytes": 20919,
-      "sha256": "ceac185f7360619e81373defdf36c269318ea96c2a0563081a169d5a9035beba"
+      "sha256": "d1251b59383afc1d293300486fe5ce9e4bd81b5c96daeba76d90a2d6a942bf6a"
     },
     {
       "path": "simulation/development_reporting.py",
@@ -26974,7 +27454,7 @@
     {
       "path": "simulation/preregistration/locked_evaluation_protocol.json",
       "size_bytes": 6764,
-      "sha256": "e1ec3f02b0f5ed3daec4e72fb0218e3e0dabf5866178116408183643097272cf"
+      "sha256": "993cd82c99e3d522b2d44026b8113713799c2a9632e3b9c1d08e50194f9c40d3"
     },
     {
       "path": "simulation/scheduling.py",
@@ -26999,472 +27479,12 @@
     {
       "path": "simulation/tests/test_engine.py",
       "size_bytes": 5073,
-      "sha256": "9781cfc0c0ce395de48812d4a2ec981f34462abcb7c02862ca85c198224eee6d"
+      "sha256": "6f17328d767e3922b4f4ef9a93612ae9160985ee4fe1d746b2ca05b5545df6cd"
     },
     {
       "path": "simulation/verification.py",
       "size_bytes": 8441,
       "sha256": "220598faa30b66181e6e51e7f6d0ef428dd7910bc1ce9c398a9dbfd0b4ac1301"
-    },
-    {
-      "path": "studies/vdcm/README.md",
-      "size_bytes": 1739,
-      "sha256": "6cf80ef49a99f3db9a56e5ed3a387701bed26cedf337206026387dddba5e1760"
-    },
-    {
-      "path": "studies/vdcm/evidence-map/C08_INTEGRATIVE_DEVELOPMENT.md",
-      "size_bytes": 2018,
-      "sha256": "fd90d86cb8362b17ed5254736a596f581ae70aabe53323ab5082767d637f7a8f"
-    },
-    {
-      "path": "studies/vdcm/evidence-map/C09_SOURCE_FAMILY_ACCEPTANCE_MATRIX.md",
-      "size_bytes": 3677,
-      "sha256": "b18746ad21bbf27171f1a87341229ef4dbd15a468c6298e85f8d1b89df194352"
-    },
-    {
-      "path": "studies/vdcm/evidence-map/C09_SOURCE_FAMILY_ACCEPTANCE_MATRIX.sha256",
-      "size_bytes": 105,
-      "sha256": "a9cdaa84368761642329e9fad28d7c77c4e9873ce2cb49740cd0d0ac43c88bf8"
-    },
-    {
-      "path": "studies/vdcm/evidence-map/D01_D02_PREFREEZE_RECONCILIATION.md",
-      "size_bytes": 2200,
-      "sha256": "b2a3e51f798e004f445f840c71b1612036b39f9e3c90d6e527cf44605cb715cf"
-    },
-    {
-      "path": "studies/vdcm/evidence-map/D05_SYSTEMATIC_EXECUTION.md",
-      "size_bytes": 1520,
-      "sha256": "659d0cadeb075f0297f6d9ac66cc3c977303406e435fee27d8d09298fb4ff99f"
-    },
-    {
-      "path": "studies/vdcm/evidence-map/D06_NORMALIZATION_DEDUPLICATION.md",
-      "size_bytes": 1479,
-      "sha256": "f7565adfe2769b99c846029808e720f5bf1c71f908da0c1b904a509fc311ae17"
-    },
-    {
-      "path": "studies/vdcm/evidence-map/D07_STUDY_FAMILY_CONSOLIDATION.md",
-      "size_bytes": 1767,
-      "sha256": "332d0d1e40d0d4385fd9ccaf93325dc8685d3dc74fbf79577d82f9235aab5284"
-    },
-    {
-      "path": "studies/vdcm/evidence-map/D08_TITLE_ABSTRACT_SCREENING.md",
-      "size_bytes": 1797,
-      "sha256": "8adda6647dc3e077280e671b452c2a9aa83a909e1da1308a02463ad571bee549"
-    },
-    {
-      "path": "studies/vdcm/evidence-map/D09_ADJUDICATION.md",
-      "size_bytes": 1255,
-      "sha256": "8b8c0b14a042136e71a2b30514487b68d53e50c569388c74a28e67e2cc59c9ff"
-    },
-    {
-      "path": "studies/vdcm/evidence-map/D10_LAWFUL_FULLTEXT_RETRIEVAL.md",
-      "size_bytes": 1515,
-      "sha256": "b7aac3e72f77c9f9f1502075454133274951264ed4e3bf466dc375d651632551"
-    },
-    {
-      "path": "studies/vdcm/evidence-map/D11_FULLTEXT_ELIGIBILITY.md",
-      "size_bytes": 2951,
-      "sha256": "abbb3ed821734a616d716eba53d213e02d8f18404aef90ad1a7d57e472d54024"
-    },
-    {
-      "path": "studies/vdcm/evidence-map/D12_QUALITY_APPRAISAL.md",
-      "size_bytes": 2239,
-      "sha256": "796b7d4a00b57cfee741d88b89b3200e2ccb2f508260804c55bc55b2cc8401a2"
-    },
-    {
-      "path": "studies/vdcm/evidence-map/D13_EVIDENCE_EXTRACTION.md",
-      "size_bytes": 2734,
-      "sha256": "0b16f6bd739238500e3275e2d0897d74dde6eb7b53956ee839c22cdfdfa316bc"
-    },
-    {
-      "path": "studies/vdcm/evidence-map/D14_RESOURCE_CAP_DECISION.md",
-      "size_bytes": 3072,
-      "sha256": "240f337fc5d7a158f585bf59bc9d0e25708653abd8302ea4960808d543959b96"
-    },
-    {
-      "path": "studies/vdcm/evidence-map/README.md",
-      "size_bytes": 4265,
-      "sha256": "36e3a91f9ee21f96aa44b2aca6905e7d37126d78a829558a83d3ed18a886324f"
-    },
-    {
-      "path": "studies/vdcm/evidence-map/S4_QUERY_DEVELOPMENT.md",
-      "size_bytes": 4865,
-      "sha256": "1636f913be3c34a85fc15bfe4c09d6deb9e1e53f72476e8eb06fe20d84ef828e"
-    },
-    {
-      "path": "studies/vdcm/evidence-map/S7_NOVELTY_DEVELOPMENT.md",
-      "size_bytes": 5241,
-      "sha256": "747b5070c679a11c5db68e8fdc0bb17df84ffe01b7dae3a16199bcb7a1cea3b3"
-    },
-    {
-      "path": "studies/vdcm/evidence-map/S7_NOVELTY_DEVELOPMENT.md.sha256",
-      "size_bytes": 92,
-      "sha256": "23935a51bf60a33065a123ecae1c845b6901c38cde8864a6dcb610210592cd5c"
-    },
-    {
-      "path": "studies/vdcm/evidence-map/S8_FOUNDATIONAL_DEVELOPMENT.md",
-      "size_bytes": 2898,
-      "sha256": "cb41510669d526e022776842ac7d0452ed0555af3d34683dfd92d9eb0cd13d8f"
-    },
-    {
-      "path": "studies/vdcm/evidence-map/registries/arxiv_s4_mapping_v0.1.json",
-      "size_bytes": 2280,
-      "sha256": "60d260ffb007525e215182c173a06a9b90868d20df817c7cd62c24b3d812cc3d"
-    },
-    {
-      "path": "studies/vdcm/evidence-map/registries/arxiv_s4_mapping_v0.1.sha256",
-      "size_bytes": 93,
-      "sha256": "5c00cb14360578f189cd54573b729c94ac000b8eb9a502bb5daccafe2124c24b"
-    },
-    {
-      "path": "studies/vdcm/evidence-map/registries/arxiv_s5s_mapping_v0.1.json",
-      "size_bytes": 2183,
-      "sha256": "52df3531cca91c26541ce4a2e85a1a7d646c85ace7ba17a0b340495d9fa35b0e"
-    },
-    {
-      "path": "studies/vdcm/evidence-map/registries/arxiv_s5s_mapping_v0.1.sha256",
-      "size_bytes": 94,
-      "sha256": "ed7b120d58e64940d8cd2ea931fb0dd6344e318dfc6d6e7a0b978b8f426b6511"
-    },
-    {
-      "path": "studies/vdcm/evidence-map/registries/arxiv_s5t_mapping_v0.1.json",
-      "size_bytes": 2318,
-      "sha256": "5cb3a85926fb08d95c2ebdd9880e3a66f02e5824d75fd07c953a6431d3b65277"
-    },
-    {
-      "path": "studies/vdcm/evidence-map/registries/arxiv_s5t_mapping_v0.1.sha256",
-      "size_bytes": 94,
-      "sha256": "50aa7ac127bee2a1f38dbd48b8778c18fcf6b005e489650418708a75e907a713"
-    },
-    {
-      "path": "studies/vdcm/evidence-map/registries/arxiv_s6_mapping_v0.1.json",
-      "size_bytes": 2830,
-      "sha256": "04771ba47c9d57a8136f75aaf1f6706b36a09532023c1aa83c34f55f6a4ae32f"
-    },
-    {
-      "path": "studies/vdcm/evidence-map/registries/arxiv_s6_mapping_v0.1.sha256",
-      "size_bytes": 93,
-      "sha256": "164fd9ed0bcc845ef6323804d991d233fadc865205827773757f91f43f777ba4"
-    },
-    {
-      "path": "studies/vdcm/evidence-map/registries/arxiv_s6_mapping_v0.2.json",
-      "size_bytes": 2671,
-      "sha256": "2364d5969a7119fa86d4767b2c15b0e24d7c073f53c88764c5ed3f8b4a360b75"
-    },
-    {
-      "path": "studies/vdcm/evidence-map/registries/arxiv_s6_mapping_v0.2.sha256",
-      "size_bytes": 93,
-      "sha256": "6ce828e60c2590fb167f6c18d0866fb6c3d9d44c2ec5f2ab7d88e753c11a7d5f"
-    },
-    {
-      "path": "studies/vdcm/evidence-map/registries/arxiv_s7_mapping_v0.4.json",
-      "size_bytes": 2157,
-      "sha256": "344098a36fcc103baa718c1103b9bde048178e17d131c38583e4063e77043f2a"
-    },
-    {
-      "path": "studies/vdcm/evidence-map/registries/arxiv_s7_mapping_v0.4.sha256",
-      "size_bytes": 93,
-      "sha256": "b9fe1f6bc45feed6b8d0dc43752c507144f5849fb3759869bf071bd8ea386116"
-    },
-    {
-      "path": "studies/vdcm/evidence-map/registries/s1_s2_integrative_queries_v0.1.json",
-      "size_bytes": 5220,
-      "sha256": "ae0c55508b9aad19f904bae1b3fd5bc9151e0b80f04ebee83c06221e2c8960f8"
-    },
-    {
-      "path": "studies/vdcm/evidence-map/registries/s1_s2_integrative_queries_v0.2.json",
-      "size_bytes": 4970,
-      "sha256": "de9e379e8287482d5d1d36168fd60322b9e6e4e9cf9efcfa939cd568cf861686"
-    },
-    {
-      "path": "studies/vdcm/evidence-map/registries/s1_s2_integrative_queries_v0.3.json",
-      "size_bytes": 5188,
-      "sha256": "a506e927ebcf361475c8ca3ae032ccdedf06e81c3cbe519618014eaec46ec164"
-    },
-    {
-      "path": "studies/vdcm/evidence-map/registries/s1_s2_integrative_queries_v0.3.sha256",
-      "size_bytes": 102,
-      "sha256": "f6c2845a60409b5a95861639ee09032d1f2f8d1e53a1adbf3a96092088c67cf4"
-    },
-    {
-      "path": "studies/vdcm/evidence-map/registries/s4_open_index_queries_v0.1.json",
-      "size_bytes": 3433,
-      "sha256": "cc627fc91625547bad87bf9a73dda45f4e97879d54012dc376c5c0e681f48128"
-    },
-    {
-      "path": "studies/vdcm/evidence-map/registries/s4_open_index_queries_v0.2.json",
-      "size_bytes": 3421,
-      "sha256": "7ee2c1919233a15b646fee25d29b7aeacef6f57e2f65e4f7c286af307ca1a9f2"
-    },
-    {
-      "path": "studies/vdcm/evidence-map/registries/s4_open_index_queries_v0.3.json",
-      "size_bytes": 3695,
-      "sha256": "6182547a608a57b1288b7f797a5972d04c74111ab6f74a0d11898c390e3f0b8e"
-    },
-    {
-      "path": "studies/vdcm/evidence-map/registries/s4_open_index_queries_v0.4.json",
-      "size_bytes": 3551,
-      "sha256": "9edbba956540b508c4365707c902160bfe384d377c6930258c5ba05ef92f6185"
-    },
-    {
-      "path": "studies/vdcm/evidence-map/registries/s4_open_index_queries_v0.5.json",
-      "size_bytes": 3427,
-      "sha256": "31cab97519f7cf497cd36087497fc74a8c842da890a81bb5eaf24cf0ff72af71"
-    },
-    {
-      "path": "studies/vdcm/evidence-map/registries/s4_open_index_queries_v0.5.sha256",
-      "size_bytes": 98,
-      "sha256": "66603b2ef7b39f78b725e6f6b6dc2838aba7fe643ac13c6b1c399db3c5d6f284"
-    },
-    {
-      "path": "studies/vdcm/evidence-map/registries/s4_open_index_queries_v0.6.json",
-      "size_bytes": 4806,
-      "sha256": "f65ecbc9666599af9846c3f740f7332d5a69f61f45cc3dadb43822633ba0046c"
-    },
-    {
-      "path": "studies/vdcm/evidence-map/registries/s4_open_index_queries_v0.6.sha256",
-      "size_bytes": 98,
-      "sha256": "edc0eb1764f6a6208d199c771dc099061ad18e8cd3eb9e008f3822da1a1f8462"
-    },
-    {
-      "path": "studies/vdcm/evidence-map/registries/s5s_open_index_queries_v0.1.json",
-      "size_bytes": 3799,
-      "sha256": "6fb8b3d4ba1012c17c0282d31522432457d69e37261471bcd4673a44779efb2e"
-    },
-    {
-      "path": "studies/vdcm/evidence-map/registries/s5s_open_index_queries_v0.2.json",
-      "size_bytes": 3020,
-      "sha256": "1be0646c6db61890a98853f51f25f4cdd34c5c37dfad6e083b8e795d87029a70"
-    },
-    {
-      "path": "studies/vdcm/evidence-map/registries/s5s_open_index_queries_v0.3.json",
-      "size_bytes": 2806,
-      "sha256": "1c9104a923b03cc5100eb02c6d6568f44e1a8b94bebd3a017f96acfceaf048ca"
-    },
-    {
-      "path": "studies/vdcm/evidence-map/registries/s5s_open_index_queries_v0.4.json",
-      "size_bytes": 3070,
-      "sha256": "a2559c3146f376eb81a2c24090da3a829245fd27035072270e335233430ccf80"
-    },
-    {
-      "path": "studies/vdcm/evidence-map/registries/s5s_open_index_queries_v0.5.json",
-      "size_bytes": 3015,
-      "sha256": "d6e6b3f8a6f39584bc9bfdeec23c5bf1ceffa54b552921ae4ffb1925fca559ee"
-    },
-    {
-      "path": "studies/vdcm/evidence-map/registries/s5s_open_index_queries_v0.6.json",
-      "size_bytes": 2954,
-      "sha256": "6f789f28bfa7f7a5b7ed6a99661a816a908ed5d1a8d756f58de0a2203addec42"
-    },
-    {
-      "path": "studies/vdcm/evidence-map/registries/s5s_open_index_queries_v0.7.json",
-      "size_bytes": 3064,
-      "sha256": "11086fc5e02f3ff9b220bb23c30b66ff5d998c69f7386990038e15e134d051a7"
-    },
-    {
-      "path": "studies/vdcm/evidence-map/registries/s5s_open_index_queries_v0.7.sha256",
-      "size_bytes": 99,
-      "sha256": "1aabe10167228c9c95d06555c9b831654168cf5b51d99546b4008260eba561cf"
-    },
-    {
-      "path": "studies/vdcm/evidence-map/registries/s5t_open_index_queries_v0.1.json",
-      "size_bytes": 3333,
-      "sha256": "5fde2d8069c8e2a37e2f9b56a610fa83a5bc4d798e1a64942e6a7836184c23e3"
-    },
-    {
-      "path": "studies/vdcm/evidence-map/registries/s5t_open_index_queries_v0.2.json",
-      "size_bytes": 3265,
-      "sha256": "809014e42f2f4e465322d91f9d16d0c2bcaecf523f972593e080d074e6b48668"
-    },
-    {
-      "path": "studies/vdcm/evidence-map/registries/s5t_open_index_queries_v0.3.json",
-      "size_bytes": 3428,
-      "sha256": "a07942299c3817ec7f758d474a94a728ed8f3cc2e277c44eee02de3f37c6296e"
-    },
-    {
-      "path": "studies/vdcm/evidence-map/registries/s5t_open_index_queries_v0.4.json",
-      "size_bytes": 3407,
-      "sha256": "d25bcfe910f004ca10510ed9c2b977f0a1de6f7f0e1cd7c62f0c63d813f0b241"
-    },
-    {
-      "path": "studies/vdcm/evidence-map/registries/s5t_open_index_queries_v0.4.sha256",
-      "size_bytes": 99,
-      "sha256": "f4ccafb40fb9a01efbfd8586bb051f6af0aece807ec4900011945220bdac89cb"
-    },
-    {
-      "path": "studies/vdcm/evidence-map/registries/s6_open_index_queries_v0.1.json",
-      "size_bytes": 4234,
-      "sha256": "f28d4c0dd22dd6f91f54fcbff37d07f5474c6125f4bc30682786a692622a8249"
-    },
-    {
-      "path": "studies/vdcm/evidence-map/registries/s6_open_index_queries_v0.1.sha256",
-      "size_bytes": 98,
-      "sha256": "a0f28c09f25d30830f5885da246e93303b03674c889730628935df1838a36d7e"
-    },
-    {
-      "path": "studies/vdcm/evidence-map/registries/s6_open_index_queries_v0.2.json",
-      "size_bytes": 4224,
-      "sha256": "d91d49b21513eb1ed8812f8de72c358b2dfc1428b390c62769b13558ef9a4de6"
-    },
-    {
-      "path": "studies/vdcm/evidence-map/registries/s6_open_index_queries_v0.2.sha256",
-      "size_bytes": 98,
-      "sha256": "35c4182f478b02a13c9097b85250dfe300db7a7b196e284287d8f435d19dfaf0"
-    },
-    {
-      "path": "studies/vdcm/evidence-map/registries/s6_open_index_queries_v0.3.json",
-      "size_bytes": 4243,
-      "sha256": "b6a1d6eca93034044f6e88a45fed3f242e71aae6de8d1b3623af4a3cefa0a160"
-    },
-    {
-      "path": "studies/vdcm/evidence-map/registries/s6_open_index_queries_v0.3.sha256",
-      "size_bytes": 98,
-      "sha256": "39b0b3db7e868bfac934186d073fc14fd535069a8231206aedb6c87579880b28"
-    },
-    {
-      "path": "studies/vdcm/evidence-map/registries/s6_open_index_queries_v0.4.json",
-      "size_bytes": 4322,
-      "sha256": "174da5273986e2b4d9e8348709e541805aa0679c963ef223f64525fc0cd1b302"
-    },
-    {
-      "path": "studies/vdcm/evidence-map/registries/s6_open_index_queries_v0.4.sha256",
-      "size_bytes": 98,
-      "sha256": "6ae70b2d0acb83461d3b550e5e9679aa99ab6b2df4d9620285170d7a537a1692"
-    },
-    {
-      "path": "studies/vdcm/evidence-map/registries/s6_open_index_queries_v0.5.json",
-      "size_bytes": 4003,
-      "sha256": "0a709f0558ff2e7b8d9574eb64a202c3c31347acf60f417076c2af14683a0418"
-    },
-    {
-      "path": "studies/vdcm/evidence-map/registries/s6_open_index_queries_v0.5.sha256",
-      "size_bytes": 98,
-      "sha256": "16e04da9c63829c37e74eeb6205583b24ad9520f6ff49fc92ab7040f177ba655"
-    },
-    {
-      "path": "studies/vdcm/evidence-map/registries/s6_open_index_queries_v0.6.json",
-      "size_bytes": 4051,
-      "sha256": "89b9de5a45e5252665dadb8e0705edd08fe963e2752ba7b8d0276e252da6dfdc"
-    },
-    {
-      "path": "studies/vdcm/evidence-map/registries/s6_open_index_queries_v0.6.sha256",
-      "size_bytes": 98,
-      "sha256": "d39b3a69a68a27ec81d7fdade8378fec9fd3bc68a606545effcfd177eb966496"
-    },
-    {
-      "path": "studies/vdcm/evidence-map/registries/s6_open_index_queries_v0.7.json",
-      "size_bytes": 4091,
-      "sha256": "5f3f96d60009e239034a0b5bf443881d2c2c46f468193d1f1a670ae5f005593f"
-    },
-    {
-      "path": "studies/vdcm/evidence-map/registries/s6_open_index_queries_v0.7.sha256",
-      "size_bytes": 98,
-      "sha256": "33da8b3aa6f165d929f22a613d6df156570de41925e0f8b8eebc8c9fb5247dff"
-    },
-    {
-      "path": "studies/vdcm/evidence-map/registries/s6_open_index_queries_v0.8.json",
-      "size_bytes": 4158,
-      "sha256": "e46af482dfe9e5bc16b6ccd5999a442fd54466971c9d0109ac036e2fdee063c1"
-    },
-    {
-      "path": "studies/vdcm/evidence-map/registries/s6_open_index_queries_v0.8.sha256",
-      "size_bytes": 98,
-      "sha256": "22924d5b965dab252e76cba50ac7d7dbf6ca2d6cc706d8c029a5b5166af427f1"
-    },
-    {
-      "path": "studies/vdcm/evidence-map/registries/s7_novelty_queries_v0.1.json",
-      "size_bytes": 7598,
-      "sha256": "ec83529737e089f110e258c28d43e741cafd3cb20308f8daa66d03e3f69cb1ba"
-    },
-    {
-      "path": "studies/vdcm/evidence-map/registries/s7_novelty_queries_v0.2.json",
-      "size_bytes": 6342,
-      "sha256": "c615c0104af7a3cc7b702e45d5f8632ae175140dfdf195684052389b4069fc6e"
-    },
-    {
-      "path": "studies/vdcm/evidence-map/registries/s7_novelty_queries_v0.3.json",
-      "size_bytes": 6541,
-      "sha256": "f429d7941d31d4aa4c0a2e21f75674eb0637f8172df5a9319d756a7617c501ba"
-    },
-    {
-      "path": "studies/vdcm/evidence-map/registries/s7_novelty_queries_v0.4.json",
-      "size_bytes": 6563,
-      "sha256": "48315d2e98bd18e17957ea91aaceaad794efbfe0f116c9284fd4f13db1c6c776"
-    },
-    {
-      "path": "studies/vdcm/evidence-map/registries/s7_novelty_queries_v0.4.json.sha256",
-      "size_bytes": 95,
-      "sha256": "ba8695a49a715db69c306c998a343653694214ee910722288e76f1f706e885d8"
-    },
-    {
-      "path": "studies/vdcm/evidence-map/registries/s7_novelty_queries_v0.4.sha256",
-      "size_bytes": 95,
-      "sha256": "ba8695a49a715db69c306c998a343653694214ee910722288e76f1f706e885d8"
-    },
-    {
-      "path": "studies/vdcm/evidence-map/registries/s8_foundational_queries_v0.1.json",
-      "size_bytes": 6079,
-      "sha256": "b3dafb8bcc49f9fed5451bf632e58cd7596827e73314d9ed23a395b52aa3b26e"
-    },
-    {
-      "path": "studies/vdcm/evidence-map/registries/s8_foundational_queries_v0.2.json",
-      "size_bytes": 6461,
-      "sha256": "250282c36a9f55a6c9947c0cd5db6cb495660fc518f56bafcddc13125dbd46e4"
-    },
-    {
-      "path": "studies/vdcm/evidence-map/registries/s8_foundational_queries_v0.3.json",
-      "size_bytes": 6075,
-      "sha256": "91afcb59c80b2881280cade002bd6b7536c9b2d75235969bd2477b151836ef98"
-    },
-    {
-      "path": "studies/vdcm/evidence-map/registries/s8_foundational_queries_v0.4.json",
-      "size_bytes": 5914,
-      "sha256": "a9576b9e8948e3763bdaed25bac2a6fecc8f1ff236ec88015234b5ca386b2bf1"
-    },
-    {
-      "path": "studies/vdcm/evidence-map/registries/s8_foundational_queries_v0.5.json",
-      "size_bytes": 6118,
-      "sha256": "993d6b058c7239a65c2e2baa2610c2b252e42c5bdfdb2695aa440b9fe54c2252"
-    },
-    {
-      "path": "studies/vdcm/evidence-map/registries/s8_foundational_queries_v0.6.json",
-      "size_bytes": 6672,
-      "sha256": "edec1d616e4e95b4e451e2362bd6f70f8061ca0bf1fa41d58201a8cb94a6c5b3"
-    },
-    {
-      "path": "studies/vdcm/evidence-map/registries/s8_foundational_queries_v0.6.sha256",
-      "size_bytes": 100,
-      "sha256": "5071729bc2c3a19568153bbac0fe3f33a99f6b45a06c32add5852a94f97ffa8f"
-    },
-    {
-      "path": "studies/vdcm/integrity/README.md",
-      "size_bytes": 1268,
-      "sha256": "114e0d09cf3685a33c82be74e1f9071789d3fa420ecac179652032cafc772b42"
-    },
-    {
-      "path": "studies/vdcm/integrity/releases/D17_ACCOUNTABLE_AUTHOR_CONFIRMATION_2026-08-19.json",
-      "size_bytes": 1808,
-      "sha256": "31e1315970e89831a838387cad63329aee34373f20e3ace17ab5ce0eb4f221c8"
-    },
-    {
-      "path": "studies/vdcm/integrity/releases/D17_ACCOUNTABLE_AUTHOR_CONFIRMATION_2026-08-19.json.sha256",
-      "size_bytes": 118,
-      "sha256": "5df9143224d9c88d370d2e5abe8538d6195c3e66f107a7601d3ec62a770954a5"
-    },
-    {
-      "path": "studies/vdcm/protocol/README.md",
-      "size_bytes": 1320,
-      "sha256": "37cff98c4c87efa8c86107e000cbcbfe93f41563787f1fd7beb282db01208951"
-    },
-    {
-      "path": "studies/vdcm/restricted/README.md",
-      "size_bytes": 392,
-      "sha256": "bf382ec145af3692265e0a348576c2f0637dc29cc09380054dfc34eb3c6910ef"
-    },
-    {
-      "path": "studies/vdcm/simulation/README.md",
-      "size_bytes": 1120,
-      "sha256": "4efc7c95093366b666fc005e153dd290a6f46f27430014d2ad1ac147b067ac34"
     },
     {
       "path": "tests/test_adjudication_finalize.py",
@@ -27478,23 +27498,23 @@
     },
     {
       "path": "tests/test_arxiv_mapping.py",
-      "size_bytes": 8173,
-      "sha256": "9e288f2ee51346eba6389fac5c12e4bf33ee31f4dda3c26722913a34fdb9f34f"
+      "size_bytes": 8254,
+      "sha256": "2af35cc3616a1e6ba249700e90d50e6c3af8d45f9ff5f8ddfe64d28b9dca4baf"
     },
     {
       "path": "tests/test_c08_integrative_controls.py",
-      "size_bytes": 3659,
-      "sha256": "4d49ba81d6ef4da22cd48356778482b6c8ca444f2d272fab3eee3c6f3d8a11a3"
+      "size_bytes": 3677,
+      "sha256": "d595101a1f9a1345a6747ade4ee7537113c2a19bea277ca8e5b619452d97986a"
     },
     {
       "path": "tests/test_c09_acceptance_matrix.py",
-      "size_bytes": 2545,
-      "sha256": "ee754dd87f202b41cfca4a20c2ac5cbac969d51aeea4973a24efe72c17e55949"
+      "size_bytes": 2639,
+      "sha256": "adfa285df424dfb7792a9c9cf8465ccf92348c89293b91c475adf4144d7864f0"
     },
     {
       "path": "tests/test_calendar_dependencies.py",
       "size_bytes": 14960,
-      "sha256": "84a8ac53f899bb0f643982b45d8dc27068dd4adc42e587eeea84312a53b37608"
+      "sha256": "914434c331c7fe88652be9eb5f02d37c686ccf765aad38cf81917a053e46b265"
     },
     {
       "path": "tests/test_citation_chasing.py",
@@ -27524,7 +27544,7 @@
     {
       "path": "tests/test_config_validation.py",
       "size_bytes": 8371,
-      "sha256": "36c3e7409670091e7e0e2be9331736a143bab1d2fb3a3185645a4376aaaa3f9c"
+      "sha256": "624c0bd24d45083fd32ab0a260c0e3f6bf4eda46d9d097065620d9b0c1878471"
     },
     {
       "path": "tests/test_d14_candidate_consolidation.py",
@@ -27559,7 +27579,7 @@
     {
       "path": "tests/test_development_pipeline.py",
       "size_bytes": 4638,
-      "sha256": "da49c190a41ca379e8886659f710090a798c6f88b0c692fa81093a82f54d2e6c"
+      "sha256": "1cc71680041d2bf305925b64da04eb035e74f23682f227f94962f1602b8331d4"
     },
     {
       "path": "tests/test_development_reporting.py",
@@ -27569,7 +27589,7 @@
     {
       "path": "tests/test_engine_hard_stops.py",
       "size_bytes": 4290,
-      "sha256": "99566122d24a2fd93d8eed887aabf3c41d876c3bac4a2cd18a792e4aaa03b697"
+      "sha256": "ce99bd8d8051f4170d64a6079426c0ed7fb90c8bd5d7840386c9c69e6d5c786a"
     },
     {
       "path": "tests/test_evidence_extraction.py",
@@ -27589,7 +27609,7 @@
     {
       "path": "tests/test_frozen_protocol_package.py",
       "size_bytes": 2603,
-      "sha256": "6f48921336a63547f3b384c347e8f13f5fea28411f238b8a5e2b9d77b09a8390"
+      "sha256": "95c149dcc529fac6b07179527df197c1d27739c80327005678618a232b2d785a"
     },
     {
       "path": "tests/test_fulltext_consensus_audit.py",
@@ -27629,7 +27649,7 @@
     {
       "path": "tests/test_gate_semantics.py",
       "size_bytes": 8938,
-      "sha256": "cbc1dc0a1decc1809952767be46fc5af13ff7441e2d76525a4e5c9fbbf8852f3"
+      "sha256": "5ac7b8c7eb741ec94357b081331df6045b537bc8c05e0a36b842615409a1239e"
     },
     {
       "path": "tests/test_locked_runner.py",
@@ -27639,7 +27659,7 @@
     {
       "path": "tests/test_minimum_route_scope.py",
       "size_bytes": 4134,
-      "sha256": "7d7f111ed6a59ea574a197aa5bc49a0c624176e8476fc42301970dbd560391a6"
+      "sha256": "2d9cb795f271246aca98eccd0dd7ddd2358d14bedba1ca6132c876a3dc9279c5"
     },
     {
       "path": "tests/test_open_index_export.py",
@@ -27649,7 +27669,7 @@
     {
       "path": "tests/test_parameter_registry.py",
       "size_bytes": 3880,
-      "sha256": "647349880ab68c036a0c29283ddff003259aa37c709284bcaab4ab14c0f623f2"
+      "sha256": "69039efb7b9162568a0fa98d26d86f2c2e9d391dd129093072c57a025fc11796"
     },
     {
       "path": "tests/test_prefreeze_protocol_package.py",
@@ -27678,23 +27698,23 @@
     },
     {
       "path": "tests/test_query_appraisal.py",
-      "size_bytes": 13378,
-      "sha256": "a4fc4b92ed1f1c325e13d1be319a1b7ce76b4a81e7b757c9fe69659aa5c05c81"
+      "size_bytes": 13405,
+      "sha256": "3d79d1aae5e8acf510df2f60e03b5389e002d3ba924a33b95fed503676d355b9"
     },
     {
       "path": "tests/test_research_design_relocation.py",
-      "size_bytes": 1598,
-      "sha256": "3788bc1d9a2a038941a15691fc301e97c65316cb80303a100e46a75038117349"
+      "size_bytes": 2417,
+      "sha256": "e3540bd4962ee5f1d8e78ce2529f6d80c9b5e3536dd6f7422ec7c1d482aa30f8"
     },
     {
       "path": "tests/test_s7_novelty_controls.py",
-      "size_bytes": 6829,
-      "sha256": "189ba9b303525efab0320e9f15257535bead48af6696e8195effbffdd5e6aa5e"
+      "size_bytes": 6847,
+      "sha256": "6b3ea76142160925eac39aa8360fdeb76467e1943a146f08a35996db5be780b2"
     },
     {
       "path": "tests/test_s8_foundational_controls.py",
-      "size_bytes": 4358,
-      "sha256": "66653864cd97fb97a0360e540583408d9702e4a9193720b7e3b17c89ddac61ba"
+      "size_bytes": 4367,
+      "sha256": "8b503d581ee6806a116d6a12ecff69bec4cb28505454261921694a82beeffb2e"
     },
     {
       "path": "tests/test_screening_prompt_artifacts.py",
@@ -27718,8 +27738,8 @@
     },
     {
       "path": "tests/test_systematic_export.py",
-      "size_bytes": 2896,
-      "sha256": "110a75778a5622a11c83cc24035a45ab101ea00297ca045a815c6f3a83bc5d85"
+      "size_bytes": 3003,
+      "sha256": "481a9636eae8eab08efe5d6bbe7458d66ed308db627592077a61c21dbd86b4d3"
     },
     {
       "path": "tests/test_title_abstract_screening.py",
