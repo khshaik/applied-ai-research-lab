@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
   "project": "storypoints-age-of-ai",
-  "generated_at_utc": "2026-08-19T19:13:09.361181+00:00",
+  "generated_at_utc": "2026-08-19T19:24:17.386798+00:00",
   "source_boundary": "research-owned and redistribution-safe artifacts",
-  "included_file_count": 5549,
-  "included_size_bytes": 656220184,
+  "included_file_count": 5556,
+  "included_size_bytes": 659767833,
   "included_files": [
     {
       "path": ".gitattributes",
@@ -26475,6 +26475,41 @@
       "path": "papers/thinkai-2026/manuscript/README.md",
       "size_bytes": 809,
       "sha256": "3a6872e56b7e52b55480cd03ac90ea17705203b5ea2803c842c52bf6b6bdd73d"
+    },
+    {
+      "path": "papers/thinkai-2026/manuscript/camera-ready-submission/CAMERA_READY_CHECKLIST.md",
+      "size_bytes": 2642,
+      "sha256": "aae1232d47355494d65be0c632c823721add17f4bbede66db2932b50ae91cfd2"
+    },
+    {
+      "path": "papers/thinkai-2026/manuscript/camera-ready-submission/CAMERA_READY_PACKAGE_MANIFEST_v0.2.json",
+      "size_bytes": 1172,
+      "sha256": "7ad6db2c5602ee755f818c827ca89bc1bfcf4cd50a4f31075fb1851d94ca4391"
+    },
+    {
+      "path": "papers/thinkai-2026/manuscript/camera-ready-submission/KNOWN_UPDATE_GAP.md",
+      "size_bytes": 1481,
+      "sha256": "e71f7ec108cf1b49c1ec532673d525356d41cb9317d4e459d50b3ebbf8d1a13f"
+    },
+    {
+      "path": "papers/thinkai-2026/manuscript/camera-ready-submission/README.md",
+      "size_bytes": 1715,
+      "sha256": "9e2fe125fc7b8edb281ddaecf66d261c7cbefa1f8dec86e220d8d5ba36e90678"
+    },
+    {
+      "path": "papers/thinkai-2026/manuscript/camera-ready-submission/REVIEWER_RESPONSE_TEMPLATE.md",
+      "size_bytes": 993,
+      "sha256": "8fac467641eff21617df06f0d3f3c7ac9e90f98401f114dfde108302a65a7ba5"
+    },
+    {
+      "path": "papers/thinkai-2026/manuscript/camera-ready-submission/VDCM_ThinkAI2026_CAMERA_READY_STARTING_POINT_v0.2.docx",
+      "size_bytes": 1558318,
+      "sha256": "b2478e6da63978554a81bae30b73a7271f19641e61cc0030b1cdec94cab9d855"
+    },
+    {
+      "path": "papers/thinkai-2026/manuscript/camera-ready-submission/VDCM_ThinkAI2026_CAMERA_READY_STARTING_POINT_v0.2.pdf",
+      "size_bytes": 1981328,
+      "sha256": "3e737d2dbfb5a45a7eb3f867e749f08757c3cd650d40c22f199b448963b7f4f3"
     },
     {
       "path": "papers/thinkai-2026/manuscript/claim_verification_ledger.md",

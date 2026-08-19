@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0.0",
+  "package": "thinkai-2026-vdcm-camera-ready-starting-package",
+  "version": "0.2",
+  "created_on": "2026-08-20",
+  "status": "preserved_anonymous_baseline_not_camera_ready_for_submission",
+  "content_change_from_anonymous_v0_2": false,
+  "files": [
+    {
+      "path": "VDCM_ThinkAI2026_CAMERA_READY_STARTING_POINT_v0.2.docx",
+      "sha256": "b2478e6da63978554a81bae30b73a7271f19641e61cc0030b1cdec94cab9d855",
+      "byte_identical_to": "../initial-submission/VDCM_ThinkAI2026_Anonymous_Full_Paper_v0.2_FINAL.docx"
+    },
+    {
+      "path": "VDCM_ThinkAI2026_CAMERA_READY_STARTING_POINT_v0.2.pdf",
+      "sha256": "3e737d2dbfb5a45a7eb3f867e749f08757c3cd650d40c22f199b448963b7f4f3",
+      "byte_identical_to": "../initial-submission/VDCM_ThinkAI2026_Anonymous_Full_Paper_v0.2_FINAL.pdf"
+    }
+  ],
+  "release_blockers": [
+    "paper acceptance and reviewer/editor instructions",
+    "author-confirmed identity and declarations",
+    "authoritative camera-ready template and production requirements",
+    "newly versioned identified manuscript and visual QA",
+    "G06 accountable-author approval",
+    "G07 submission authorization"
+  ]
+}
