@@ -1,0 +1,31 @@
+{
+  "complete_pagination": true,
+  "endpoint": "https://export.arxiv.org/api/query",
+  "executed_at_utc": "2026-08-14T15:06:52.920097+00:00",
+  "interpretation_boundary": "Public arXiv query-development export; not frozen and not a PRISMA corpus.",
+  "page_size": 100,
+  "pages": [
+    {
+      "file": "page_0000000.atom",
+      "records": 29,
+      "sha256": "b5e231a3cef4313fd3a17e85b25d332b59b9b5a414769d629d435cb213e20762",
+      "start": 0
+    }
+  ],
+  "query": "(all:\"human-AI\" OR all:\"AI-assisted\" OR all:\"AI-augmented\" OR all:\"large language model\" OR all:\"coding agent\") AND (all:\"software delivery\" OR all:\"software development lifecycle\" OR all:\"software modernization\") AND (all:orchestration OR all:workflow OR all:team OR all:validation)",
+  "query_id": "AX-S6R",
+  "query_sha256": "c07063d2e95570b46a605e8c036a315c6056586a87b3dd35bdb6393ab7a33a54",
+  "records_csv": {
+    "file": "records.csv",
+    "sha256": "9e3d71e7b6a338c0975a0aefeffa964227b826a005ad2a2e2ecb2f34aa930b04"
+  },
+  "records_retrieved": 29,
+  "sentinel_checks": {
+    "2603.20028": true
+  },
+  "sentinel_recall_pass": true,
+  "sortBy": "submittedDate",
+  "sortOrder": "descending",
+  "status": "development_pilot",
+  "total_reported": 29
+}

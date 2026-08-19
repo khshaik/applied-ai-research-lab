@@ -1,0 +1,30 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:15:53.331836Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://aisel.aisnet.org/ecis2026/isd_pm/isd_pm/7/",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://aisel.aisnet.org/ecis2026/isd_pm/isd_pm/7"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:17:41.016225Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://aisel.aisnet.org/ecis2026/isd_pm/isd_pm/7/",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://aisel.aisnet.org/ecis2026/isd_pm/isd_pm/7"
+    }
+  ],
+  "bytes": 0,
+  "family_id": "FAM-ae7a8f2765227ed14cbd",
+  "lawful_access_basis": null,
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "representative_canonical_id": "CAN-20a929e5dc85c372f32d",
+  "retrieved_url": null,
+  "status": "lawful_full_text_not_retrieved"
+}

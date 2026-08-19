@@ -1,0 +1,32 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:16:01.309203Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://zenodo.org/records/21260234",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://doi.org/10.5281/zenodo.21260233"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:16:03.055390Z",
+      "basis": "citation_pdf_url_metadata",
+      "bytes": 192489,
+      "content_type": "application/octet-stream, application/octet-stream",
+      "final_url": "https://zenodo.org/records/21260234/files/AI-Accelerated%20Engineering%20How%20AI%20Can%20Transform%20the%20Product%20Owner%20Role.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "sha256": "4f8f741ba4cd20084682f982f8c3ba60863ea3a4a0e306714d2a9f1b6952de36",
+      "url": "https://zenodo.org/records/21260234/files/AI-Accelerated%20Engineering%20How%20AI%20Can%20Transform%20the%20Product%20Owner%20Role.pdf"
+    }
+  ],
+  "bytes": 192489,
+  "family_id": "FAM-b83c04356ffb41c8b11d",
+  "lawful_access_basis": "citation_pdf_url_metadata",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-b83c04356ffb41c8b11d.pdf",
+  "pdf_sha256": "4f8f741ba4cd20084682f982f8c3ba60863ea3a4a0e306714d2a9f1b6952de36",
+  "representative_canonical_id": "CAN-3d3bea9c2ef275ed71e4",
+  "retrieved_url": "https://zenodo.org/records/21260234/files/AI-Accelerated%20Engineering%20How%20AI%20Can%20Transform%20the%20Product%20Owner%20Role.pdf",
+  "status": "retrieved_open"
+}

@@ -1,0 +1,30 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:16:15.659729Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html;charset=UTF-8",
+      "final_url": "https://www.worldscientific.com/doi/10.1142/S0218194025500044",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://doi.org/10.1142/s0218194025500044"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:18:45.703275Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html;charset=UTF-8",
+      "final_url": "https://www.worldscientific.com/doi/10.1142/S0218194025500044",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://doi.org/10.1142/s0218194025500044"
+    }
+  ],
+  "bytes": 0,
+  "family_id": "FAM-c84d5c1bd0cc8579df2e",
+  "lawful_access_basis": null,
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "representative_canonical_id": "CAN-0dcb553c90adb710233a",
+  "retrieved_url": null,
+  "status": "lawful_full_text_not_retrieved"
+}

@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 929767,
+      "content_type": "application/pdf",
+      "final_url": "https://kth.diva-portal.org/smash/get/diva2:2041553/FULLTEXT01",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "420c15f05f8747918d239afe9cbdb3ab0675470f599c00f23b460181455882bf",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://kth.diva-portal.org/smash/get/diva2:2041553/FULLTEXT01"
+    }
+  ],
+  "bytes": 929767,
+  "family_id": "FAM-a40654037d471877c0a9",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-a40654037d471877c0a9.pdf",
+  "pdf_sha256": "420c15f05f8747918d239afe9cbdb3ab0675470f599c00f23b460181455882bf",
+  "representative_canonical_id": "CAN-34bfde5ce6074e4fee09",
+  "retrieved_url": "https://kth.diva-portal.org/smash/get/diva2:2041553/FULLTEXT01",
+  "status": "retrieved_open"
+}

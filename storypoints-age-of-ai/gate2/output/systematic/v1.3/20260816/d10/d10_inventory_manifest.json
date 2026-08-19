@@ -1,0 +1,23 @@
+{
+  "candidate_location_basis_counts": {
+    "arxiv_pdf": 1185,
+    "metadata_direct_pdf": 3,
+    "openalex_best_oa_pdf": 358,
+    "openalex_oa_location_pdf": 39,
+    "semantic_scholar_open_access_pdf": 125
+  },
+  "completion_boundary": "This manifest resolves candidates only. D10 remains incomplete until every family has a terminal retrieved_open, retrieved_authorized, paywalled, unavailable, or no_lawful_full_text status with attempt provenance.",
+  "family_count": 2076,
+  "input_d09_manifest_sha256": "b2ad49477acdb0f55e9be3393db2660d34e46db70218b88a765a8701e9a5c82f",
+  "inventory_sha256": "0d545de765748973e4209b8e5123ebcb410168c32d65a7439b703bc1d462d2ec",
+  "lawful_access_rule": "Only repository, publisher-open, author-manuscript, preprint, or legitimately authorized locations may be retrieved. Authentication/paywall/technical controls are never bypassed. Metadata and landing pages are not full text.",
+  "pipeline_version": "d10-lawful-fulltext/1.0.0",
+  "preliminary_status_counts": {
+    "landing_page_requires_lawful_access_check": 461,
+    "no_location_identified": 1,
+    "open_candidate_identified": 1614
+  },
+  "prepared_at_utc": "2026-08-16T10:42:00Z",
+  "protocol_version": "1.3",
+  "status": "inventory_complete_retrieval_pending"
+}

@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 706762,
+      "content_type": "application/pdf;charset=UTF-8",
+      "final_url": "https://openrepository.aut.ac.nz/server/api/core/bitstreams/2d9dcb63-5d6e-4904-835a-f6058d7d4d88/content",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "b733239ef23a2524d7a78dee73b5bccf955bc8bc2e225545976de1b91fa5f80d",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://openrepository.aut.ac.nz/bitstreams/2d9dcb63-5d6e-4904-835a-f6058d7d4d88/download"
+    }
+  ],
+  "bytes": 706762,
+  "family_id": "FAM-b451cbf55c2bcf438f69",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-b451cbf55c2bcf438f69.pdf",
+  "pdf_sha256": "b733239ef23a2524d7a78dee73b5bccf955bc8bc2e225545976de1b91fa5f80d",
+  "representative_canonical_id": "CAN-22b1b1d8f921a9c1bcb5",
+  "retrieved_url": "https://openrepository.aut.ac.nz/server/api/core/bitstreams/2d9dcb63-5d6e-4904-835a-f6058d7d4d88/content",
+  "status": "retrieved_open"
+}

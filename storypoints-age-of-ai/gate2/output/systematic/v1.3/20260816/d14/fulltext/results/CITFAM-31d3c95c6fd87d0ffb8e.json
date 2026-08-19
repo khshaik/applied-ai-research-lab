@@ -1,0 +1,36 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-18T12:45:52.913176Z",
+      "basis": "frozen_openalex_primary_oa_pdf",
+      "final_url": "https://www.techrxiv.org/articles/preprint/A_Survey_on_Large_Language_Models_Applications_Challenges_Limitations_and_Practical_Usage/23589741/2/files/41609445.pdf",
+      "http_status": 404,
+      "redirect_count": 0,
+      "retry_after": null,
+      "status": "http_failure"
+    },
+    {
+      "attempted_at_utc": "2026-08-18T12:45:54.851567Z",
+      "basis": "frozen_openalex_primary_oa_pdf",
+      "final_url": "https://www.techrxiv.org/articles/preprint/A_Survey_on_Large_Language_Models_Applications_Challenges_Limitations_and_Practical_Usage/23589741/3/files/42375240.pdf",
+      "http_status": 404,
+      "redirect_count": 0,
+      "retry_after": null,
+      "status": "http_failure"
+    },
+    {
+      "attempted_at_utc": "2026-08-18T12:45:57.826099Z",
+      "basis": "frozen_openalex_primary_oa_pdf",
+      "bytes": 14471,
+      "final_url": "https://www.techrxiv.org/action/cookieAbsent",
+      "redirect_count": 3,
+      "status": "invalid_pdf_signature"
+    }
+  ],
+  "bytes": 0,
+  "citation_family_id": "CITFAM-31d3c95c6fd87d0ffb8e",
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "security_attestation": "Static HTTPS retrieval only; public-IP validation, bounded redirects/size, signature and active-content checks; no PDF execution.",
+  "status": "invalid_pdf_signature"
+}

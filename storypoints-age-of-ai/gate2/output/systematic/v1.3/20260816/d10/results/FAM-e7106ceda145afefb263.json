@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 407286,
+      "content_type": "application/pdf",
+      "final_url": "https://cspub-ijcisim.org/index.php/ijcisim/article/download/4326/3482",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "fcfa2969dc8d9683838532e59b3abec0289242f99c961de2959b93201fcc661e",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://cspub-ijcisim.org/index.php/ijcisim/article/download/4326/3482"
+    }
+  ],
+  "bytes": 407286,
+  "family_id": "FAM-e7106ceda145afefb263",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-e7106ceda145afefb263.pdf",
+  "pdf_sha256": "fcfa2969dc8d9683838532e59b3abec0289242f99c961de2959b93201fcc661e",
+  "representative_canonical_id": "CAN-69638eb2b329a82e892c",
+  "retrieved_url": "https://cspub-ijcisim.org/index.php/ijcisim/article/download/4326/3482",
+  "status": "retrieved_open"
+}

@@ -1,0 +1,74 @@
+{
+  "status": "development_pilot",
+  "version": "0.3",
+  "date_window": {"from": "2019-01-01", "to": "2026-08-15"},
+  "boundary": "Family-scoped sentinel and query development for open-index discovery only; not a frozen systematic search or PRISMA input.",
+  "sentinel_control_version": "family_scoped_v0.3",
+  "queries": [
+    {
+      "source": "openalex",
+      "query_id": "OA-S3R3",
+      "family_id": "S3",
+      "query": "\"software effort estimation\" AND (\"large language model\" OR \"generative AI\" OR \"AI-assisted\")"
+    },
+    {
+      "source": "semantic_scholar",
+      "query_id": "S2-S3R3",
+      "family_id": "S3",
+      "query": "+(\"software effort estimation\" | \"story point estimation\") +(\"large language model\" | LLM | \"generative AI\")"
+    }
+  ],
+  "sentinels": [
+    {
+      "sentinel_id": "S3-P1",
+      "family_id": "S3",
+      "role": "scope_positive",
+      "doi": "10.1007/s10791-026-10331-6",
+      "title": "Hybrid intelligence effort for software effort estimation in LLM assisted development",
+      "testable_sources": ["openalex", "semantic_scholar"],
+      "rationale": "Nearest empirical HIE predecessor; exercises direct overlap with LLM-aware effort and human oversight."
+    },
+    {
+      "sentinel_id": "S3-P2",
+      "family_id": "S3",
+      "role": "scope_positive",
+      "doi": "10.3389/frai.2026.1772418",
+      "title": "Toward LLM-aware software effort estimation: a conceptual framework",
+      "testable_sources": ["openalex", "semantic_scholar"],
+      "rationale": "Conceptual predecessor that constrains any first-model novelty claim."
+    },
+    {
+      "sentinel_id": "S3-D1",
+      "family_id": "S3",
+      "role": "neutral_disconfirming",
+      "doi": "10.48550/arxiv.2603.06276",
+      "title": "Story Point Estimation Using Large Language Models",
+      "testable_sources": ["openalex", "semantic_scholar"],
+      "rationale": "In-scope evidence that retains Story Points as a forecast target and therefore constrains a categorical replacement thesis."
+    },
+    {
+      "sentinel_id": "S3-B1",
+      "family_id": "S3",
+      "role": "negative_boundary",
+      "doi": "10.1007/s11219-025-09731-6",
+      "title": "GemSP: An Ensemble Model for User Story Point Estimation Using Gemini Embeddings",
+      "testable_sources": ["openalex", "semantic_scholar"],
+      "rationale": "Conventional estimator boundary; retrieval is a precision warning and absence is not evidence against the paper."
+    }
+  ],
+  "sampled_precision_rule": {
+    "required_fields": ["source_id", "decision", "reason"],
+    "allowed_decisions": ["likely_relevant", "likely_irrelevant", "uncertain"],
+    "development_diagnostic_minimum_sample": 20,
+    "freeze_sample_bands": [
+      {"population_min": 0, "population_max": 50, "required_sample": "all"},
+      {"population_min": 51, "population_max": 1000, "required_sample": 50},
+      {"population_min": 1001, "population_max": null, "required_sample": 100}
+    ],
+    "acceptance_bands": {
+      "operational_minimum_relevant_plus_uncertain": 0.10,
+      "conditional_minimum_relevant_plus_uncertain": 0.05,
+      "conditional_requires_documented_capacity_and_coverage_approval": true
+    }
+  }
+}

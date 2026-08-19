@@ -1,0 +1,32 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 42450,
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://ijsrem.com/download/role-of-generative-ai-in-software-development?wpdmdl=60667&refresh=691352c8c415b1762874056",
+      "http_status": 200,
+      "outcome": "not_a_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://ijsrem.com/download/role-of-generative-ai-in-software-development/?wpdmdl=60667&refresh=691352c8c415b1762874056"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:07:57.623278Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://ijsrem.com/download/role-of-generative-ai-in-software-development",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://doi.org/10.55041/ijsrem53791"
+    }
+  ],
+  "bytes": 0,
+  "family_id": "FAM-7690151289e25530ba5a",
+  "lawful_access_basis": null,
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "representative_canonical_id": "CAN-034647ba0fd1959585b4",
+  "retrieved_url": null,
+  "status": "lawful_full_text_not_retrieved"
+}

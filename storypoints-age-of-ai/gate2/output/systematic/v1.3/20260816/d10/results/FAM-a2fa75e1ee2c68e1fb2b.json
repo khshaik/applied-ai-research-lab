@@ -1,0 +1,21 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:15:36.248727Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5735282",
+      "http_status": 403,
+      "outcome": "access_blocked_or_paywalled",
+      "url": "https://doi.org/10.2139/ssrn.5735282"
+    }
+  ],
+  "bytes": 0,
+  "family_id": "FAM-a2fa75e1ee2c68e1fb2b",
+  "lawful_access_basis": null,
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "representative_canonical_id": "CAN-f952765f78b7f03cdeff",
+  "retrieved_url": null,
+  "status": "paywalled_or_access_blocked"
+}

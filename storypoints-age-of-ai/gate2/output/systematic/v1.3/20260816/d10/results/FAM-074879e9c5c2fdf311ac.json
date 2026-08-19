@@ -1,0 +1,32 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:01:52.366309Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html;charset=UTF-8",
+      "final_url": "https://bth.diva-portal.org/smash/record.jsf?pid=diva2%3A831377&dswid=-3624",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "http://urn.kb.se/resolve?urn=urn:nbn:se:bth-4057"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:02:03.720837Z",
+      "basis": "citation_pdf_url_metadata",
+      "bytes": 2477962,
+      "content_type": "application/pdf",
+      "final_url": "https://bth.diva-portal.org/smash/get/diva2:831377/FULLTEXT01",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "sha256": "9cf73a1b90edaa7e179f046508629f5b9d95f9d4f79012b7a978e672940d6b49",
+      "url": "http://bth.diva-portal.org/smash/get/diva2:831377/FULLTEXT01"
+    }
+  ],
+  "bytes": 2477962,
+  "family_id": "FAM-074879e9c5c2fdf311ac",
+  "lawful_access_basis": "citation_pdf_url_metadata",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-074879e9c5c2fdf311ac.pdf",
+  "pdf_sha256": "9cf73a1b90edaa7e179f046508629f5b9d95f9d4f79012b7a978e672940d6b49",
+  "representative_canonical_id": "CAN-2135e26e0b2d34105306",
+  "retrieved_url": "http://bth.diva-portal.org/smash/get/diva2:831377/FULLTEXT01",
+  "status": "retrieved_open"
+}

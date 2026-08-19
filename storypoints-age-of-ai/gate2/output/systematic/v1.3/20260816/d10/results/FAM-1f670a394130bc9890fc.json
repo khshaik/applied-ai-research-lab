@@ -1,0 +1,31 @@
+{
+  "attempts": [
+    {
+      "basis": "semantic_scholar_open_access_pdf",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6717460",
+      "http_status": 403,
+      "outcome": "access_blocked_or_paywalled",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://doi.org/10.2139/ssrn.6717460"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:02:50.822103Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.semanticscholar.org/paper/e4cc92ae421b33d4af8cc8b91af88089206177e0",
+      "http_status": 202,
+      "outcome": "http_failure",
+      "url": "https://www.semanticscholar.org/paper/e4cc92ae421b33d4af8cc8b91af88089206177e0"
+    }
+  ],
+  "bytes": 0,
+  "family_id": "FAM-1f670a394130bc9890fc",
+  "lawful_access_basis": null,
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "representative_canonical_id": "CAN-fc34d0debd76c25b318d",
+  "retrieved_url": null,
+  "status": "paywalled_or_access_blocked"
+}

@@ -1,0 +1,33 @@
+{
+  "complete_pagination": false,
+  "endpoint": "https://api.semanticscholar.org/graph/v1/paper/search/bulk",
+  "executed_at_utc": "2026-08-16T06:19:12.593154+00:00",
+  "from_date": "1900-01-01",
+  "interpretation_boundary": "Open-index development discovery export; not frozen, screened, deduplicated, eligible, or a PRISMA corpus. Retrieval was intentionally capped; total_reported is API metadata, not an exported-record or review-flow count.",
+  "max_pages": 1,
+  "page_size": 1000,
+  "pages": [
+    {
+      "file": "page_00000.json",
+      "records": 1000,
+      "request_url_sha256": "703970e0dea52d43a7c941876410d5d4bb56258e23fe41b1d0c3915a2cfc2475",
+      "sequence": 0,
+      "sha256": "6de32e619d1aef86a4bde675102228e49b526cc9ead9133779c0d037a245b7a9"
+    }
+  ],
+  "query": "+(((\"story point\" | \"relative estimate\") + (effort | agile)) | \"developer productivity\" | \"software developers perceptions of productivity\" | \"modern code review\" | \"NASA TLX\" | (\"mental workload\" + performance) | (\"Little's law\" + software))",
+  "query_id": "S2-S8R1",
+  "query_mode": "fulltext_search",
+  "query_registry_sha256": "b3dafb8bcc49f9fed5451bf632e58cd7596827e73314d9ed23a395b52aa3b26e",
+  "query_sha256": "ff2e805512f85474548337357d89169fa508e43650a91af96750f89dda49b2ef",
+  "records_csv": {
+    "file": "records.csv",
+    "sha256": "d491e86dbb009f78949b24456bee4f5b2726d4e1ca729624428fe7d1d626f399"
+  },
+  "records_retrieved": 1000,
+  "retrieval_scope": "truncated_development_pilot",
+  "source": "semantic_scholar",
+  "status": "development_pilot",
+  "to_date": "2026-08-16",
+  "total_reported": 8415
+}

@@ -1,0 +1,26 @@
+{
+  "status": "development_pilot",
+  "version": "0.1",
+  "family_id": "S5S",
+  "source_query_id": "AX-S5S",
+  "source_registry": "gate2/arxiv_pilot_queries.json",
+  "query": "(all:\"large language model\" OR all:\"AI-assisted\" OR all:\"AI coding assistant\" OR all:\"coding agent\") AND (all:\"software security\" OR all:\"secure coding\" OR all:vulnerability OR all:\"security review\") AND (all:human OR all:oversight OR all:verification OR all:validation OR all:review)",
+  "mapping_rationale": "The immutable complete AX-S5S developmental export is mapped for S5S sentinel and deterministic precision appraisal without being rerun or treated as systematic evidence.",
+  "sentinels": [
+    {"sentinel_id": "S5S-AX-P1", "role": "scope_positive", "arxiv_id": "2405.06371", "title": "Using AI Assistants in Software Development: A Qualitative Study on Security Practices and Concerns"},
+    {"sentinel_id": "S5S-AX-P2", "role": "scope_positive", "arxiv_id": "2606.25973", "title": "Helpful or Harmful? Evaluating LLM-Assisted Vulnerability Patching via a Human Study"},
+    {"sentinel_id": "S5S-AX-D1", "role": "neutral_disconfirming", "arxiv_id": "2603.15298", "title": "The Impact of AI-Assisted Development on Software Security: A Study of Gemini and Developer Experience"},
+    {"sentinel_id": "S5S-AX-D2", "role": "neutral_disconfirming", "arxiv_id": "2506.11022", "title": "Security Degradation in Iterative AI Code Generation -- A Systematic Analysis of the Paradox"}
+  ],
+  "sampled_precision_rule": {
+    "development_diagnostic_minimum_sample": 20,
+    "allowed_decisions": ["likely_relevant", "likely_irrelevant", "uncertain"],
+    "freeze_sample_bands": [
+      {"population_min": 0, "population_max": 50, "required_sample": "all"},
+      {"population_min": 51, "population_max": 1000, "required_sample": 50},
+      {"population_min": 1001, "population_max": null, "required_sample": 100}
+    ],
+    "acceptance_bands": {"operational_minimum_relevant_plus_uncertain": 0.10, "conditional_minimum_relevant_plus_uncertain": 0.05}
+  },
+  "boundary": "Developmental S5S arXiv mapping and known-item recall only; not a frozen search, eligibility decision, or PRISMA input."
+}

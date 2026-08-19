@@ -1,0 +1,30 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:16:46.482682Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html;charset=UTF-8",
+      "final_url": "https://epubs.siam.org/doi/10.1137/15M1028406",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://doi.org/10.1137/15m1028406"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:21:32.721007Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://epubs.siam.org/doi/10.1137/15M1028406?cookieSet=1",
+      "http_status": 403,
+      "outcome": "access_blocked_or_paywalled",
+      "url": "https://doi.org/10.1137/15m1028406"
+    }
+  ],
+  "bytes": 0,
+  "family_id": "FAM-e8aada85d648512ba4dc",
+  "lawful_access_basis": null,
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "representative_canonical_id": "CAN-3b9ddd7f31d83bf1a21b",
+  "retrieved_url": null,
+  "status": "paywalled_or_access_blocked"
+}

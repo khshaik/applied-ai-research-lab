@@ -1,0 +1,18 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-19T10:39:23.055690Z",
+      "basis": "semantic_scholar_explicit_openAccessPdf",
+      "bytes": 107166,
+      "final_url": "https://dergipark.org.tr/en/pub/bsengineering/article/1635994",
+      "redirect_count": 2,
+      "status": "invalid_pdf_signature"
+    }
+  ],
+  "bytes": 0,
+  "citation_family_id": "CITFAM-6639cf28cc3d31068c91",
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "security_attestation": "Static HTTPS retrieval only; public-IP validation, bounded redirects/size, signature and active-content checks; no PDF execution.",
+  "status": "invalid_pdf_signature"
+}

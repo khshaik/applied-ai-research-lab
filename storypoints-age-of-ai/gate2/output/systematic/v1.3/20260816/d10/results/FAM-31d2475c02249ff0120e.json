@@ -1,0 +1,43 @@
+{
+  "attempts": [
+    {
+      "basis": "semantic_scholar_open_access_pdf",
+      "bytes": 49357,
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://tst.stu.cn.ua/article/view/337129",
+      "http_status": 200,
+      "outcome": "not_a_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://doi.org/10.25140/2411-5363-2025-2(40)-312-324"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:04:49.452614Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://tst.stu.cn.ua/article/view/337129",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://doi.org/10.25140/2411-5363-2025-2(40)-312-324"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:04:54.238562Z",
+      "basis": "citation_pdf_url_metadata",
+      "bytes": 1130438,
+      "content_type": "application/pdf",
+      "final_url": "https://tst.stu.cn.ua/article/download/337129/325704",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "sha256": "94df86a68b3df801f3884a2fa46f0ae1ddbb4a94aaafbb178eb5d02478eb59b9",
+      "url": "https://tst.stu.cn.ua/article/download/337129/325704"
+    }
+  ],
+  "bytes": 1130438,
+  "family_id": "FAM-31d2475c02249ff0120e",
+  "lawful_access_basis": "citation_pdf_url_metadata",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-31d2475c02249ff0120e.pdf",
+  "pdf_sha256": "94df86a68b3df801f3884a2fa46f0ae1ddbb4a94aaafbb178eb5d02478eb59b9",
+  "representative_canonical_id": "CAN-52dfb032073a0d272d2b",
+  "retrieved_url": "https://tst.stu.cn.ua/article/download/337129/325704",
+  "status": "retrieved_open"
+}

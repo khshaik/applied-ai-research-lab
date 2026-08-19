@@ -1,0 +1,21 @@
+{
+  "burden_acceptance_band":"operational_pass","complete_pagination":true,
+  "development_diagnostic_minimum":20,"development_diagnostic_pass":true,
+  "development_diagnostic_required_for_population":20,"family_id":"S3","freeze_ready":true,
+  "interpretation_boundary":"Known-item recall and sampled relevance appraisal only; not screening, eligibility, or PRISMA evidence.",
+  "negative_boundary_pass":false,"neutral_disconfirming_recall_pass":true,
+  "population_size_basis":"complete_export_retrieved_count","population_size_for_sample":134,
+  "positive_sentinel_recall_pass":true,"query_appraisal_pass":true,
+  "query_appraisal_pass_deprecated_alias_for":"freeze_ready","query_id":"OA-S3R3",
+  "relevant_plus_uncertain_count":11,"relevant_plus_uncertain_proportion":0.22,
+  "relevant_plus_uncertain_wilson_95_interval":[0.1275391597021442,0.3524154958125367],
+  "required_sample_size_for_freeze":50,"sample_decided":48,"sample_likely_relevant":9,
+  "sample_minimum_met":true,"sample_precision_point_estimate":0.1875,"sample_size":50,"sample_uncertain":2,
+  "sentinel_checks":[
+    {"doi":"10.1007/s10791-026-10331-6","match_basis":"doi","pass":true,"present":true,"role":"scope_positive","sentinel_id":"S3-P1"},
+    {"doi":"10.3389/frai.2026.1772418","match_basis":"doi","pass":true,"present":true,"role":"scope_positive","sentinel_id":"S3-P2"},
+    {"doi":"10.48550/arxiv.2603.06276","match_basis":"title","pass":true,"present":true,"role":"neutral_disconfirming","sentinel_id":"S3-D1"},
+    {"doi":"10.1007/s11219-025-09731-6","match_basis":"title","pass":false,"present":true,"role":"negative_boundary","sentinel_id":"S3-B1"}
+  ],
+  "sentinel_class_complete":true,"source":"openalex","status":"development_query_appraisal"
+}

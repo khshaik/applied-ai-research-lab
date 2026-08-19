@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 461886,
+      "content_type": "application/pdf",
+      "final_url": "https://theamericanjournals.com/index.php/tajet/article/download/6564/6021/8579",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "5caef2c1693e3ee4bf17629545a769ee7b9dae5cde98971b67d3467816bc45a5",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://theamericanjournals.com/index.php/tajet/article/download/6564/6021/8579"
+    }
+  ],
+  "bytes": 461886,
+  "family_id": "FAM-ed00e22271fd77d0e085",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-ed00e22271fd77d0e085.pdf",
+  "pdf_sha256": "5caef2c1693e3ee4bf17629545a769ee7b9dae5cde98971b67d3467816bc45a5",
+  "representative_canonical_id": "CAN-cd746512f3dc80c9c49d",
+  "retrieved_url": "https://theamericanjournals.com/index.php/tajet/article/download/6564/6021/8579",
+  "status": "retrieved_open"
+}

@@ -1,0 +1,21 @@
+{
+  "attempts": [
+    {
+      "active_indicators": [],
+      "attempted_at_utc": "2026-08-18T11:13:57.039912Z",
+      "basis": "frozen_openalex_primary_oa_pdf",
+      "bytes": 468456,
+      "final_url": "https://dl.acm.org/doi/pdf/10.1145/3597503.3639223",
+      "pdf_path": "/Users/81194246/Library/CloudStorage/OneDrive-Pepsico/Personal/AI/Projects/ThinkAI/storypoints-age-of-ai/gate2/output/systematic/v1.3/20260816/d14/fulltext/pdf/CITFAM-0a483959dd80b95feadc.pdf",
+      "redirect_count": 0,
+      "sha256": "10a975eb46c794b40d74f4ae04b11985235809ece8a251d219638c11274f6e84",
+      "status": "retrieved_static_pdf"
+    }
+  ],
+  "bytes": 468456,
+  "citation_family_id": "CITFAM-0a483959dd80b95feadc",
+  "pdf_path": "/Users/81194246/Library/CloudStorage/OneDrive-Pepsico/Personal/AI/Projects/ThinkAI/storypoints-age-of-ai/gate2/output/systematic/v1.3/20260816/d14/fulltext/pdf/CITFAM-0a483959dd80b95feadc.pdf",
+  "pdf_sha256": "10a975eb46c794b40d74f4ae04b11985235809ece8a251d219638c11274f6e84",
+  "security_attestation": "Static HTTPS retrieval only; public-IP validation, bounded redirects/size, signature and active-content checks; no PDF execution.",
+  "status": "retrieved_static_pdf"
+}

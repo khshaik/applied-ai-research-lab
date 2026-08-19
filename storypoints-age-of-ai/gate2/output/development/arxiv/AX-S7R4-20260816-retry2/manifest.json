@@ -1,0 +1,34 @@
+{
+  "complete_pagination": true,
+  "endpoint": "https://export.arxiv.org/api/query",
+  "executed_at_utc": "2026-08-16T05:27:51.023553+00:00",
+  "interpretation_boundary": "Public arXiv query-development export; not frozen and not a PRISMA corpus.",
+  "page_size": 100,
+  "pages": [
+    {
+      "file": "page_0000000.atom",
+      "records": 7,
+      "sha256": "2f7f5e801e6772a672a1dc9c6f32dbec0decaef5647f0140448392e25ba37f2d",
+      "start": 0
+    }
+  ],
+  "query": "(all:\"verified delivery capacity\" OR all:\"role-stage demand\" OR all:\"hybrid intelligence effort\" OR all:\"LLM-aware software effort\" OR all:\"agentic cost estimation\" OR all:\"AI-augmented engineering\" OR all:\"human-AI software delivery\" OR (all:\"story point\" AND (all:LLM OR all:\"large language model\")) OR (all:\"AI-assisted\" AND all:\"software effort\"))",
+  "query_id": "AX-S7R4",
+  "query_sha256": "410d7a49334b6ccee2b0ca21e7481dbf7d001590166dd3fef4e974f32a8c846b",
+  "records_csv": {
+    "file": "records.csv",
+    "sha256": "916cd288c1162ab6acdbc2d3f9c0cf61ab8f26a2d0042276274d256bb1f782fa"
+  },
+  "records_retrieved": 7,
+  "sentinel_checks": {
+    "2602.20684": true,
+    "2603.06276": true,
+    "2603.20028": true,
+    "2608.02582": true
+  },
+  "sentinel_recall_pass": true,
+  "sortBy": "submittedDate",
+  "sortOrder": "descending",
+  "status": "development_pilot",
+  "total_reported": 7
+}

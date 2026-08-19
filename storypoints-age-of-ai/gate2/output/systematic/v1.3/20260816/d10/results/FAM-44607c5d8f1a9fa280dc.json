@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "semantic_scholar_open_access_pdf",
+      "bytes": 1007263,
+      "content_type": "application/pdf",
+      "final_url": "https://www.ijraset.com/best-journal/refactorai-an-autonomous-code-modernization-agent",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "5b562f1947c5bc1479b66e63bcd01fef9f0012dcd1de3a0bba3b3d4b664eaf73",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://doi.org/10.22214/ijraset.2026.79005"
+    }
+  ],
+  "bytes": 1007263,
+  "family_id": "FAM-44607c5d8f1a9fa280dc",
+  "lawful_access_basis": "semantic_scholar_open_access_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-44607c5d8f1a9fa280dc.pdf",
+  "pdf_sha256": "5b562f1947c5bc1479b66e63bcd01fef9f0012dcd1de3a0bba3b3d4b664eaf73",
+  "representative_canonical_id": "CAN-04a7f3ad01e9475b0469",
+  "retrieved_url": "https://www.ijraset.com/best-journal/refactorai-an-autonomous-code-modernization-agent",
+  "status": "retrieved_open"
+}

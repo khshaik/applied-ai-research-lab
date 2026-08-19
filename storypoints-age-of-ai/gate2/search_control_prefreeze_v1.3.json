@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0.0",
+  "protocol_version": "1.3",
+  "protocol_status": "prefreeze_reconciled_awaiting_D03_approval",
+  "review_route": "open_evidence_route",
+  "review_type": "access-constrained AI-assisted systematic evidence map",
+  "initial_search_cutoff_date": "2026-08-16",
+  "coverage_claim": "access_constrained",
+  "systematic_corpus_created": false,
+  "developmental_outputs_are_prisma_eligible": false,
+  "acceptance_matrix": "gate2/final_source_family_acceptance_matrix.json",
+  "required_family_ids": ["S1", "S2", "S3", "S4/S5R", "S5T", "S5S", "S6", "S7", "S8"],
+  "required_source_family_pairs": [
+    {"family_id": "S1", "source": "Semantic Scholar"},
+    {"family_id": "S2", "source": "OpenAlex"},
+    {"family_id": "S3", "source": "OpenAlex"},
+    {"family_id": "S3", "source": "Semantic Scholar"},
+    {"family_id": "S4/S5R", "source": "OpenAlex"},
+    {"family_id": "S4/S5R", "source": "Semantic Scholar"},
+    {"family_id": "S4/S5R", "source": "arXiv"},
+    {"family_id": "S5T", "source": "OpenAlex"},
+    {"family_id": "S5T", "source": "arXiv"},
+    {"family_id": "S5S", "source": "OpenAlex"},
+    {"family_id": "S5S", "source": "arXiv"},
+    {"family_id": "S6", "source": "OpenAlex"},
+    {"family_id": "S6", "source": "arXiv"},
+    {"family_id": "S7", "source": "OpenAlex"},
+    {"family_id": "S7", "source": "Semantic Scholar"},
+    {"family_id": "S7", "source": "arXiv"},
+    {"family_id": "S8", "source": "OpenAlex"},
+    {"family_id": "S8", "source": "Semantic Scholar"}
+  ],
+  "source_access": [
+    {"source": "OpenAlex", "status": "accessible", "role": "systematic_discovery_and_citation_chasing", "assessed_on": "2026-08-16"},
+    {"source": "Semantic Scholar", "status": "accessible", "role": "systematic_discovery_and_citation_chasing", "assessed_on": "2026-08-16"},
+    {"source": "arXiv", "status": "accessible", "role": "systematic_preprint_discovery", "assessed_on": "2026-08-16"},
+    {"source": "Crossref REST API", "status": "accessible", "role": "doi_and_bibliographic_verification_only", "assessed_on": "2026-08-15"},
+    {"source": "Scopus", "status": "blocked_authentication", "role": "inaccessible_subscription_source", "assessed_on": "2026-08-15", "reason": "No authorized institutional session is available."},
+    {"source": "Web of Science Core Collection", "status": "blocked_authentication", "role": "inaccessible_subscription_source", "assessed_on": "2026-08-15", "reason": "No authorized institutional session is available."},
+    {"source": "IEEE Xplore", "status": "blocked_authentication", "role": "inaccessible_subscription_source", "assessed_on": "2026-08-15", "reason": "Authenticated database/export access is unavailable."},
+    {"source": "ACM Digital Library", "status": "blocked_authentication", "role": "inaccessible_subscription_source", "assessed_on": "2026-08-15", "reason": "Authenticated database/export access is unavailable."},
+    {"source": "SpringerLink", "status": "blocked_authentication", "role": "inaccessible_subscription_source", "assessed_on": "2026-08-15", "reason": "Authenticated database/export access is unavailable."},
+    {"source": "ScienceDirect", "status": "blocked_authentication", "role": "inaccessible_subscription_source", "assessed_on": "2026-08-15", "reason": "Authenticated database/export access is unavailable."}
+  ],
+  "special_controls": {
+    "S2": "The accepted developmental control is a bounded integrative union. A fresh platform execution is mandatory after D04 and before corpus ingestion.",
+    "S7": "Developmental metadata controls do not establish novelty; full-text family consolidation and citation chasing remain mandatory.",
+    "refresh": "All frozen searches must be refreshed within seven days before submission."
+  },
+  "permitted_novelty_statement": "No substantively duplicative framework was identified within the predeclared open scholarly indexes, repositories, and citation networks searched through the stated cutoff date.",
+  "prohibited_statements": ["No prior research exists.", "All relevant literature was searched."],
+  "D03_approval": null
+}

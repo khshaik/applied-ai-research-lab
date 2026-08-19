@@ -1,0 +1,30 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:16:15.749756Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html",
+      "final_url": "https://ird.sut.ac.th/journal/sjst/#/los/manuscript/25443",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "http://dx.doi.org/10.55766/sujst-2023-04-e0737"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:18:46.498572Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html",
+      "final_url": "https://ird.sut.ac.th/journal/sjst/#/los/manuscript/25443",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "http://dx.doi.org/10.55766/sujst-2023-04-e0737"
+    }
+  ],
+  "bytes": 0,
+  "family_id": "FAM-c8ebbafdc196dadc3b57",
+  "lawful_access_basis": null,
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "representative_canonical_id": "CAN-4bd0bbfd6c987ba0f3d9",
+  "retrieved_url": null,
+  "status": "lawful_full_text_not_retrieved"
+}

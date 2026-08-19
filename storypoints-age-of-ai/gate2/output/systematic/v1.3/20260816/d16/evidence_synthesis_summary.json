@@ -1,0 +1,152 @@
+{
+  "appraisal_form_counts": {
+    "conceptual_framework": 56,
+    "qualitative": 48,
+    "quantitative_mixed": 634,
+    "secondary_review": 53
+  },
+  "bounded_novelty_conclusion": "No substantively duplicative framework was identified within the predeclared open scholarly indexes, repositories, and citation networks searched through the stated cutoff date and reported resource cap.",
+  "closest_overlap_family_count": 201,
+  "evidence_band_counts": {
+    "high": 95,
+    "low_contextual": 299,
+    "moderate": 397
+  },
+  "family_count": 791,
+  "finding_count": 2343,
+  "finding_data_nature_counts": {
+    "conceptual": 232,
+    "mixed": 560,
+    "modeled": 203,
+    "observed": 1131,
+    "self-reported": 61,
+    "self_reported": 156
+  },
+  "finding_direction_counts": {
+    "mixed": 1322,
+    "negative": 102,
+    "not_applicable": 431,
+    "null": 114,
+    "positive": 374
+  },
+  "finding_field_counts": {
+    "baseline_estimator_comparator": 60,
+    "delivery_flow": 75,
+    "elapsed_time": 27,
+    "estimation_comparator": 32,
+    "human_effort_time_workload": 145,
+    "human_workload_or_oversight": 26,
+    "limitations": 260,
+    "moderators_boundaries": 35,
+    "perceived_workload": 1,
+    "planning_or_delivery": 19,
+    "principal_reported_finding": 430,
+    "prompt_refinement_validation": 93,
+    "prospective_retrospective_estimate": 11,
+    "readiness_gates": 27,
+    "reported_AI_assisted_software_finding": 189,
+    "review_or_quality": 115,
+    "review_quality": 236,
+    "review_testing_security_quality": 310,
+    "security_or_compliance": 42,
+    "testing_or_validation": 46,
+    "time_or_productivity": 164
+  },
+  "interpretation_boundaries": [
+    "Coverage frequencies are descriptive and are not effect sizes or evidence votes.",
+    "Technical quality outcomes do not validate cognitive workload.",
+    "Synthetic simulation establishes conditional mechanism behavior only, not organizational superiority.",
+    "All material citations and locators remain pending accountable-author confirmation at D17.",
+    "The conclusion is bounded by open-index coverage, lawful full-text availability, API failures, inaccessible subscription databases, and the approved citation-chasing resource cap."
+  ],
+  "lifecycle_stage_coverage_counts": {
+    "architecture_design": 420,
+    "code_review": 516,
+    "context_prompt": 614,
+    "coordination_switching": 393,
+    "implementation_refinement": 746,
+    "integration": 633,
+    "manual_qa_uat": 134,
+    "release_operations": 472,
+    "requirements": 582,
+    "security_compliance": 611,
+    "testing": 575
+  },
+  "novelty_dimension_counts": {
+    "met": 19,
+    "not_met": 3701,
+    "partial": 235
+  },
+  "protocol_version": "1.3",
+  "publication_year_counts": {
+    "2009": 2,
+    "2011": 2,
+    "2013": 4,
+    "2014": 2,
+    "2016": 1,
+    "2017": 3,
+    "2018": 1,
+    "2019": 4,
+    "2020": 4,
+    "2021": 8,
+    "2022": 22,
+    "2023": 76,
+    "2024": 147,
+    "2025": 222,
+    "2026": 293
+  },
+  "quantitative_finding_count": 769,
+  "same_planning_use_counts": {
+    "no": 757,
+    "yes": 34
+  },
+  "source_stream_counts": {
+    "citation_recovery_supplement": 9,
+    "citation_round_1": 212,
+    "systematic_open_index_search": 570
+  },
+  "status": "d16_synthesis_complete_pending_D17_citation_confirmation",
+  "substantively_duplicative_family_ids": [],
+  "vdcm_construct_status_counts": {
+    "ARC": {
+      "absent": 498,
+      "present": 6,
+      "unclear": 287
+    },
+    "CQD": {
+      "absent": 568,
+      "present": 111,
+      "unclear": 112
+    },
+    "ERS": {
+      "absent": 288,
+      "present": 230,
+      "unclear": 273
+    },
+    "PDD": {
+      "absent": 380,
+      "present": 76,
+      "unclear": 335
+    },
+    "RCP": {
+      "absent": 378,
+      "present": 143,
+      "unclear": 270
+    },
+    "RHTD": {
+      "absent": 255,
+      "present": 379,
+      "unclear": 157
+    },
+    "SAE": {
+      "absent": 108,
+      "present": 681,
+      "unclear": 2
+    },
+    "VDC": {
+      "absent": 665,
+      "present": 48,
+      "unclear": 78
+    }
+  }
+}

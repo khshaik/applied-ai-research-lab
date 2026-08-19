@@ -1,0 +1,68 @@
+{
+  "status": "development_pilot",
+  "version": "0.1",
+  "date_window": {"from": "2019-01-01", "to": "2026-08-16"},
+  "boundary": "Prospective S5S OpenAlex query-development control for human security-review and security-assurance burden; not a frozen search, eligibility decision, or PRISMA input.",
+  "sentinel_control_version": "family_scoped_v0.3",
+  "queries": [
+    {
+      "source": "openalex",
+      "query_id": "OA-S5SR1",
+      "family_id": "S5S",
+      "query_mode": "title_abstract_filter",
+      "query": "(\"large language model\" OR LLM OR ChatGPT OR Copilot) AND (\"software security\" OR \"secure coding\" OR \"security review\" OR vulnerability) AND (developer OR human OR interview OR \"user study\" OR experience OR review OR verification OR validation) AND (\"code generation\" OR \"AI-assisted development\" OR programming OR patching)"
+    }
+  ],
+  "sentinels": [
+    {
+      "sentinel_id": "S5S-OA-P1", "family_id": "S5S", "role": "scope_positive",
+      "doi": "10.1145/3658644.3690283",
+      "title": "Using AI Assistants in Software Development: A Qualitative Study on Security Practices and Concerns",
+      "testable_sources": ["openalex"],
+      "rationale": "Interviews with software professionals, including security testers, examine security-critical AI-assistant use and checking practices."
+    },
+    {
+      "sentinel_id": "S5S-OA-P2", "family_id": "S5S", "role": "scope_positive",
+      "doi": "10.48550/arxiv.2606.25973",
+      "title": "Helpful or Harmful? Evaluating LLM-Assisted Vulnerability Patching via a Human Study",
+      "testable_sources": ["openalex"],
+      "rationale": "Human-study protocol and pilot address remediation speed, functional and security efficacy, and participant perception."
+    },
+    {
+      "sentinel_id": "S5S-OA-D1", "family_id": "S5S", "role": "neutral_disconfirming",
+      "doi": "10.48550/arxiv.2603.15298",
+      "title": "The Impact of AI-Assisted Development on Software Security: A Study of Gemini and Developer Experience",
+      "testable_sources": ["openalex"],
+      "rationale": "A developer experiment reports no significant security difference by Gemini condition while finding experience remains important."
+    },
+    {
+      "sentinel_id": "S5S-OA-D2", "family_id": "S5S", "role": "neutral_disconfirming",
+      "doi": "10.48550/arxiv.2506.11022",
+      "title": "Security Degradation in Iterative AI Code Generation -- A Systematic Analysis of the Paradox",
+      "testable_sources": ["openalex"],
+      "rationale": "Adverse experiment challenges the assumption that iterative AI refinement inherently improves code security."
+    },
+    {
+      "sentinel_id": "S5S-OA-B1", "family_id": "S5S", "role": "negative_boundary",
+      "doi": "10.48550/arxiv.2312.02003",
+      "title": "A Survey on Large Language Model (LLM) Security and Privacy: The Good, the Bad, and the Ugly",
+      "testable_sources": ["openalex"],
+      "rationale": "Security of LLM systems generally is outside human assurance work in AI-assisted software delivery; retrieval is a precision warning."
+    }
+  ],
+  "sampled_precision_rule": {
+    "required_fields": ["source_id", "decision", "reason"],
+    "allowed_decisions": ["likely_relevant", "likely_irrelevant", "uncertain"],
+    "development_diagnostic_minimum_sample": 20,
+    "freeze_sample_bands": [
+      {"population_min": 0, "population_max": 50, "required_sample": "all"},
+      {"population_min": 51, "population_max": 1000, "required_sample": 50},
+      {"population_min": 1001, "population_max": null, "required_sample": 100}
+    ],
+    "acceptance_bands": {
+      "operational_minimum_relevant_plus_uncertain": 0.10,
+      "conditional_minimum_relevant_plus_uncertain": 0.05,
+      "conditional_requires_documented_capacity_and_coverage_approval": true
+    }
+  }
+}

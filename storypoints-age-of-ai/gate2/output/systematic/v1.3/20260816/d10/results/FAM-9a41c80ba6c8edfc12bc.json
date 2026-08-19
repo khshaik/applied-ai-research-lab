@@ -1,0 +1,21 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:11:53.763531Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html",
+      "final_url": "https://www.preprints.org/manuscript/202507.1103/v1",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://doi.org/10.20944/preprints202507.1103.v1"
+    }
+  ],
+  "bytes": 0,
+  "family_id": "FAM-9a41c80ba6c8edfc12bc",
+  "lawful_access_basis": null,
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "representative_canonical_id": "CAN-94ef3adae6d51c9f1879",
+  "retrieved_url": null,
+  "status": "lawful_full_text_not_retrieved"
+}

@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 632195,
+      "content_type": "",
+      "final_url": "https://iscsitr.com/index.php/ISCSITR-IJAI/article/view/ISCSITR-IJAI_2026_07_01_003/ISCSITR-IJAI_2026_07_01_003",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "91369afa167a5704a2dc24f05e90f3b30806efaa12d52dbfc0b372f4f11d96e2",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://doi.org/10.63397/iscsitr-ijai_2026_07_01_003"
+    }
+  ],
+  "bytes": 632195,
+  "family_id": "FAM-fe1e2613822d65e97d6e",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-fe1e2613822d65e97d6e.pdf",
+  "pdf_sha256": "91369afa167a5704a2dc24f05e90f3b30806efaa12d52dbfc0b372f4f11d96e2",
+  "representative_canonical_id": "CAN-a7ef9c1ed4c2a10496b4",
+  "retrieved_url": "https://iscsitr.com/index.php/ISCSITR-IJAI/article/view/ISCSITR-IJAI_2026_07_01_003/ISCSITR-IJAI_2026_07_01_003",
+  "status": "retrieved_open"
+}

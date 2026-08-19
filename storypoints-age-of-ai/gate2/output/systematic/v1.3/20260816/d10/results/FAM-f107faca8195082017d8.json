@@ -1,0 +1,32 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:16:52.748470Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://zenodo.org/records/21780454",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://doi.org/10.5281/zenodo.21780454"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:16:54.759462Z",
+      "basis": "citation_pdf_url_metadata",
+      "bytes": 282251,
+      "content_type": "application/octet-stream, application/octet-stream",
+      "final_url": "https://zenodo.org/records/21780454/files/Requirements_Analysis_for_LLM_Integrated_Applications_v1.0_NehaK.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "sha256": "8980441a3dea61776b712c25ea92a4b66dad4de5eee8de5ebbe2838bc18c8b8d",
+      "url": "https://zenodo.org/records/21780454/files/Requirements_Analysis_for_LLM_Integrated_Applications_v1.0_NehaK.pdf"
+    }
+  ],
+  "bytes": 282251,
+  "family_id": "FAM-f107faca8195082017d8",
+  "lawful_access_basis": "citation_pdf_url_metadata",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-f107faca8195082017d8.pdf",
+  "pdf_sha256": "8980441a3dea61776b712c25ea92a4b66dad4de5eee8de5ebbe2838bc18c8b8d",
+  "representative_canonical_id": "CAN-e7ee3a7d8195c2cc0317",
+  "retrieved_url": "https://zenodo.org/records/21780454/files/Requirements_Analysis_for_LLM_Integrated_Applications_v1.0_NehaK.pdf",
+  "status": "retrieved_open"
+}

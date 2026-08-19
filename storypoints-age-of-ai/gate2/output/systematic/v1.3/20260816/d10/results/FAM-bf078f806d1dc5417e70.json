@@ -1,0 +1,32 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:16:07.550742Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://zenodo.org/records/19666200",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://doi.org/10.5281/zenodo.19666200"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:16:09.823360Z",
+      "basis": "citation_pdf_url_metadata",
+      "bytes": 757847,
+      "content_type": "application/octet-stream, application/octet-stream",
+      "final_url": "https://zenodo.org/records/19666200/files/Research%20Paper%20PM.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "sha256": "1531067037fa53436e9b39ddfb128c6a75932b1357059eef3e38d89bb8b1b728",
+      "url": "https://zenodo.org/records/19666200/files/Research%20Paper%20PM.pdf"
+    }
+  ],
+  "bytes": 757847,
+  "family_id": "FAM-bf078f806d1dc5417e70",
+  "lawful_access_basis": "citation_pdf_url_metadata",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-bf078f806d1dc5417e70.pdf",
+  "pdf_sha256": "1531067037fa53436e9b39ddfb128c6a75932b1357059eef3e38d89bb8b1b728",
+  "representative_canonical_id": "CAN-eb0fff5b3fc5d9d1684e",
+  "retrieved_url": "https://zenodo.org/records/19666200/files/Research%20Paper%20PM.pdf",
+  "status": "retrieved_open"
+}

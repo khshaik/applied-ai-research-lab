@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 1088237,
+      "content_type": "application/pdf",
+      "final_url": "https://arxiv.org/pdf/2512.05309",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "03f5d0c95e9c47ba8881f93ff5f6e702d08aa3a4071ccb4a05f6429310fb2405",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://arxiv.org/pdf/2512.05309"
+    }
+  ],
+  "bytes": 1088237,
+  "family_id": "FAM-63bd3b0a81dd6e78d315",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-63bd3b0a81dd6e78d315.pdf",
+  "pdf_sha256": "03f5d0c95e9c47ba8881f93ff5f6e702d08aa3a4071ccb4a05f6429310fb2405",
+  "representative_canonical_id": "CAN-f4f7f7ea69f2b2249884",
+  "retrieved_url": "https://arxiv.org/pdf/2512.05309",
+  "status": "retrieved_open"
+}

@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 535455,
+      "content_type": "application/pdf",
+      "final_url": "https://phes.com.ua/files/publikatsii/Monograf_v15%20(2).pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "588ad4a196fa9d1a50b1a99b149bcf55fed0b9df50f224b30895b597cffff2dc",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://doi.org/10.65237/15-2026-2"
+    }
+  ],
+  "bytes": 535455,
+  "family_id": "FAM-87d8cf8026c7a1b0ddeb",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-87d8cf8026c7a1b0ddeb.pdf",
+  "pdf_sha256": "588ad4a196fa9d1a50b1a99b149bcf55fed0b9df50f224b30895b597cffff2dc",
+  "representative_canonical_id": "CAN-4b60843d68fc485d4bf4",
+  "retrieved_url": "https://phes.com.ua/files/publikatsii/Monograf_v15%20(2).pdf",
+  "status": "retrieved_open"
+}

@@ -1,0 +1,33 @@
+{
+  "complete_pagination": true,
+  "endpoint": "https://api.openalex.org/works",
+  "executed_at_utc": "2026-08-16T02:57:57.140944+00:00",
+  "from_date": "2019-01-01",
+  "interpretation_boundary": "Open-index development discovery export; not frozen, screened, deduplicated, eligible, or a PRISMA corpus.",
+  "max_pages": null,
+  "page_size": 100,
+  "pages": [
+    {
+      "file": "page_00000.json",
+      "records": 26,
+      "request_url_sha256": "29f66a0998c148f9e1d152db343d2d13c02301da17e74cbb8d43b479adbbce68",
+      "sequence": 0,
+      "sha256": "402069b234a39158f1b80b5d1a290a563436bb26bd746a5799154c216a78a56c"
+    }
+  ],
+  "query": "AI assisted software development security practices developers human vulnerability",
+  "query_id": "OA-S5SR3",
+  "query_mode": "title_abstract_filter",
+  "query_registry_sha256": "1c9104a923b03cc5100eb02c6d6568f44e1a8b94bebd3a017f96acfceaf048ca",
+  "query_sha256": "2448dd5557ff73ff2d6b310b3a38ebbd4839703234de5fae5f55618b5266e03b",
+  "records_csv": {
+    "file": "records.csv",
+    "sha256": "74f7b587a434582aafbe87623a2286da021acd19dc1dd292fb7af228d12e73d3"
+  },
+  "records_retrieved": 26,
+  "retrieval_scope": "complete",
+  "source": "openalex",
+  "status": "development_pilot",
+  "to_date": "2026-08-16",
+  "total_reported": 26
+}

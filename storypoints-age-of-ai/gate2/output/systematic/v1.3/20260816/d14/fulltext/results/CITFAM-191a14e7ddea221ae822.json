@@ -1,0 +1,23 @@
+{
+  "attempts": [
+    {
+      "active_indicators": [
+        "/S /URI"
+      ],
+      "attempted_at_utc": "2026-08-18T11:15:05.008506Z",
+      "basis": "frozen_openalex_primary_oa_pdf",
+      "bytes": 113485,
+      "final_url": "https://www.frontiersin.org/journals/computer-science/articles/10.3389/fcomp.2025.1670939/pdf",
+      "quarantine_path": "/Users/81194246/Library/CloudStorage/OneDrive-Pepsico/Personal/AI/Projects/ThinkAI/storypoints-age-of-ai/gate2/output/systematic/v1.3/20260816/d14/fulltext/quarantine/CITFAM-191a14e7ddea221ae822.pdf",
+      "redirect_count": 0,
+      "sha256": "37525a6ff1c8621761b6985e8a9878ddc14b29f7fb5a867daf9d918aeeac7b4c",
+      "status": "quarantined_active_content"
+    }
+  ],
+  "bytes": 113485,
+  "citation_family_id": "CITFAM-191a14e7ddea221ae822",
+  "pdf_path": null,
+  "pdf_sha256": "37525a6ff1c8621761b6985e8a9878ddc14b29f7fb5a867daf9d918aeeac7b4c",
+  "security_attestation": "Static HTTPS retrieval only; public-IP validation, bounded redirects/size, signature and active-content checks; no PDF execution.",
+  "status": "quarantined_active_content"
+}

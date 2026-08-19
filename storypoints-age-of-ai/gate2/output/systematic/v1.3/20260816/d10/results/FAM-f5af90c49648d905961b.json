@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 672224,
+      "content_type": "application/pdf",
+      "final_url": "https://ojs.trp.org.in/index.php/ijiss/article/download/5059/7787",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "d35c5cc1ae50e4bd4b5422daec96e4bec442a88f2df32ef838c9167c4399bf55",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://ojs.trp.org.in/index.php/ijiss/article/download/5059/7787"
+    }
+  ],
+  "bytes": 672224,
+  "family_id": "FAM-f5af90c49648d905961b",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-f5af90c49648d905961b.pdf",
+  "pdf_sha256": "d35c5cc1ae50e4bd4b5422daec96e4bec442a88f2df32ef838c9167c4399bf55",
+  "representative_canonical_id": "CAN-85e273b4e44c6669da77",
+  "retrieved_url": "https://ojs.trp.org.in/index.php/ijiss/article/download/5059/7787",
+  "status": "retrieved_open"
+}

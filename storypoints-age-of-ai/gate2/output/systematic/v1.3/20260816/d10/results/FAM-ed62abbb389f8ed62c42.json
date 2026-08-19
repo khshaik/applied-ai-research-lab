@@ -1,0 +1,41 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 42972,
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://ijsrem.com/download/ai-assisted-code-editors-with-real-time-collaboration-a-comprehensive-review?wpdmdl=63143&refresh=69538916a6dd21767082262",
+      "http_status": 200,
+      "outcome": "not_a_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://ijsrem.com/download/ai-assisted-code-editors-with-real-time-collaboration-a-comprehensive-review/?wpdmdl=63143&refresh=69538916a6dd21767082262"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:16:50.069329Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://ijsrem.com/download/ai-assisted-code-editors-with-real-time-collaboration-a-comprehensive-review",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://doi.org/10.55041/ijsrem55648"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:21:39.893849Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://ijsrem.com/download/ai-assisted-code-editors-with-real-time-collaboration-a-comprehensive-review",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://doi.org/10.55041/ijsrem55648"
+    }
+  ],
+  "bytes": 0,
+  "family_id": "FAM-ed62abbb389f8ed62c42",
+  "lawful_access_basis": null,
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "representative_canonical_id": "CAN-4bb741445313d42fd4fa",
+  "retrieved_url": null,
+  "status": "lawful_full_text_not_retrieved"
+}

@@ -1,0 +1,68 @@
+{
+  "status": "complete",
+  "protocol_version": "1.3",
+  "recorded_at": "2026-08-16T14:41:04+05:30",
+  "expected_runs": 18,
+  "completed_runs": 18,
+  "raw_records_archived": 5879,
+  "completed_sources": {
+    "Semantic Scholar": {
+      "runs": 5,
+      "records": 1439,
+      "query_ids": ["S2-S1I3", "S2-S3R3", "S2-S4R5", "S2-S7R4", "S2-S8R6"]
+    },
+    "arXiv": {
+      "runs": 5,
+      "records": 1950,
+      "query_ids": ["AX-S5R", "AX-S5T", "AX-S5S", "AX-S6R", "AX-S7R4"]
+    },
+    "OpenAlex": {
+      "runs": 8,
+      "records": 2490,
+      "query_ids": ["OA-S2I3", "OA-S3R3", "OA-S4R6", "OA-S5TR4", "OA-S5SR7", "OA-S6R8", "OA-S7R4", "OA-S8R6"]
+    }
+  },
+  "blocked_source": null,
+  "missing_query_ids": [],
+  "attempt_history": [
+    {
+      "query_id": "OA-S7R4",
+      "outcome": "terminated_after_source_stall",
+      "published_partial_output": false
+    },
+    {
+      "query_id": "OA-S7R4",
+      "outcome": "failed_after_three_bounded_attempts",
+      "final_error": "HTTP 429 Too Many Requests",
+      "published_partial_output": false
+    },
+    {
+      "query_id": "OA-S7R4",
+      "outcome": "resume_probe_failed_after_three_bounded_attempts",
+      "final_error": "HTTP 429 Too Many Requests",
+      "published_partial_output": false,
+      "assessed_at": "2026-08-16T14:28:15+05:30"
+    }
+  ],
+  "access_policy_assessment": {
+    "assessed_on": "2026-08-16",
+    "finding": "Current OpenAlex production API access requires a free API key. Unauthenticated calls have only a small demo allowance and are unsuitable for completing the frozen systematic runs.",
+    "configured_key_detected": true,
+    "credential_handling": "Read OPENALEX_API_KEY from the process environment; never write or display the key. Manifests record only the authentication method.",
+    "official_sources": [
+      "https://blog.openalex.org/openalex-api-new-features-and-usage-based-pricing/",
+      "https://openalex.mintlify.app/"
+    ]
+  },
+  "credential_archive_scan_matches": 0,
+  "reconciliation": {
+    "path": "gate2/output/systematic/v1.3/20260816/d05_reconciliation.json",
+    "sha256": "1537bac280ede670019846e48daf92e18904d4f12d69fb31f1e99d12c97905ff",
+    "expected_runs": 18,
+    "completed_runs": 18,
+    "missing_query_ids": []
+  },
+  "resume_rule": "D05 is closed. Immutable source-query outputs must not be rerun or overwritten; any update search is a separately versioned execution.",
+  "hard_stop": null,
+  "interpretation_boundary": "Counts are raw frozen-search retrieval totals, not unique studies, eligible reports, or PRISMA inclusion counts."
+}

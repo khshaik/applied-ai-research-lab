@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 301245,
+      "content_type": "application/pdf",
+      "final_url": "https://drpress.org/ojs/index.php/ajst/article/download/32600/31904",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "33f3b4477ad7d2cce0867a2fff41aa3fd68aeb4beea67d9c82b52880536a517a",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://drpress.org/ojs/index.php/ajst/article/download/32600/31904"
+    }
+  ],
+  "bytes": 301245,
+  "family_id": "FAM-0ecc2b22f2cbef5b1eb2",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-0ecc2b22f2cbef5b1eb2.pdf",
+  "pdf_sha256": "33f3b4477ad7d2cce0867a2fff41aa3fd68aeb4beea67d9c82b52880536a517a",
+  "representative_canonical_id": "CAN-303662ff0b749ac821a7",
+  "retrieved_url": "https://drpress.org/ojs/index.php/ajst/article/download/32600/31904",
+  "status": "retrieved_open"
+}

@@ -1,0 +1,3 @@
+status,scenario_id,target_multiplier,recovered_multiplier,absolute_error
+developmental_synthetic,recovery_service_low,0.75,0.7856926872967714,0.03569268729677144
+developmental_synthetic,recovery_service_high,1.75,1.825802453726966,0.07580245372696592

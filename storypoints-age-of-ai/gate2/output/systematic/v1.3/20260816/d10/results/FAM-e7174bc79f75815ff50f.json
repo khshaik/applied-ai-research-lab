@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 979775,
+      "content_type": "application/pdf;charset=UTF-8",
+      "final_url": "https://trepo.tuni.fi/bitstream/handle/10024/227841/DissanayakeGimantha.pdf;jsessionid=44B3396F28E6000786D70B1C2E848A11?sequence=2",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "64489e3bf761c64a0067986266bb764bd6a56d5d9f49d68b9234bce596ef03d7",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://trepo.tuni.fi/bitstream/10024/227841/2/DissanayakeGimantha.pdf"
+    }
+  ],
+  "bytes": 979775,
+  "family_id": "FAM-e7174bc79f75815ff50f",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-e7174bc79f75815ff50f.pdf",
+  "pdf_sha256": "64489e3bf761c64a0067986266bb764bd6a56d5d9f49d68b9234bce596ef03d7",
+  "representative_canonical_id": "CAN-17b4ea37689c1947cd8a",
+  "retrieved_url": "https://trepo.tuni.fi/bitstream/handle/10024/227841/DissanayakeGimantha.pdf;jsessionid=44B3396F28E6000786D70B1C2E848A11?sequence=2",
+  "status": "retrieved_open"
+}

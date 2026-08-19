@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 321109,
+      "content_type": "application/pdf",
+      "final_url": "https://irjaeh.com/index.php/journal/article/download/140/128",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "1f64724ad14c1449d58668c8f55a072501ff9523e9bda5b9dbd27e474fe31a61",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://irjaeh.com/index.php/journal/article/download/140/128"
+    }
+  ],
+  "bytes": 321109,
+  "family_id": "FAM-8d70819ebc9a1c830913",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-8d70819ebc9a1c830913.pdf",
+  "pdf_sha256": "1f64724ad14c1449d58668c8f55a072501ff9523e9bda5b9dbd27e474fe31a61",
+  "representative_canonical_id": "CAN-326553d0a827743d20dc",
+  "retrieved_url": "https://irjaeh.com/index.php/journal/article/download/140/128",
+  "status": "retrieved_open"
+}

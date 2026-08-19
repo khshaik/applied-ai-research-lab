@@ -1,0 +1,40 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "content_type": "text/html",
+      "final_url": "https://www.neliti.com/publications/712173/",
+      "http_status": 403,
+      "outcome": "access_blocked_or_paywalled",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://media.neliti.com/media/publications/712173-github-copilot-adoption-in-regulated-env-66e8e13b.pdf"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:16:32.686361Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html",
+      "final_url": "https://www.neliti.com/publications/712173/github-copilot-adoption-in-regulated-environments-a-risk-and-efficiency-study",
+      "http_status": 403,
+      "outcome": "access_blocked_or_paywalled",
+      "url": "https://www.neliti.com/publications/712173/github-copilot-adoption-in-regulated-environments-a-risk-and-efficiency-study"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:20:19.376702Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html",
+      "final_url": "https://www.neliti.com/publications/712173/github-copilot-adoption-in-regulated-environments-a-risk-and-efficiency-study",
+      "http_status": 403,
+      "outcome": "access_blocked_or_paywalled",
+      "url": "https://www.neliti.com/publications/712173/github-copilot-adoption-in-regulated-environments-a-risk-and-efficiency-study"
+    }
+  ],
+  "bytes": 0,
+  "family_id": "FAM-d516fb11a7e7dd0df4f2",
+  "lawful_access_basis": null,
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "representative_canonical_id": "CAN-7bf5629f8481e39b82e1",
+  "retrieved_url": null,
+  "status": "paywalled_or_access_blocked"
+}

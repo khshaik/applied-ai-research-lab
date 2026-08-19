@@ -1,0 +1,32 @@
+name: storypoints-age-of-ai
+
+on:
+  push:
+    paths:
+      - "storypoints-age-of-ai/**"
+      - ".github/workflows/storypoints-age-of-ai.yml"
+  pull_request:
+    paths:
+      - "storypoints-age-of-ai/**"
+      - ".github/workflows/storypoints-age-of-ai.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: storypoints-age-of-ai
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install verification dependencies
+        run: >-
+          python -m pip install --upgrade pip pytest requests PyYAML PyPDF2
+          numpy matplotlib python-docx Pillow pypdf==6.16.1
+      - name: Verify public research package
+        run: make verify

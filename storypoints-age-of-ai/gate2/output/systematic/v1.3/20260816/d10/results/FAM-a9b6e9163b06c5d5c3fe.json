@@ -1,0 +1,30 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:15:45.828730Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://boris-portal.unibe.ch/entities/publication/789c753f-0b5b-4940-a773-7655a4acacf7",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://boris-portal.unibe.ch/handle/20.500.12422/199359"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:16:35.154542Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://boris-portal.unibe.ch/entities/publication/789c753f-0b5b-4940-a773-7655a4acacf7",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://boris-portal.unibe.ch/handle/20.500.12422/199359"
+    }
+  ],
+  "bytes": 0,
+  "family_id": "FAM-a9b6e9163b06c5d5c3fe",
+  "lawful_access_basis": null,
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "representative_canonical_id": "CAN-d9c11cfe9f04c4dc728b",
+  "retrieved_url": null,
+  "status": "lawful_full_text_not_retrieved"
+}

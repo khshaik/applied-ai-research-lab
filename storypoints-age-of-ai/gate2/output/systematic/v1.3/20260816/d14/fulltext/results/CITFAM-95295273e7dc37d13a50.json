@@ -1,0 +1,23 @@
+{
+  "attempts": [
+    {
+      "active_indicators": [
+        "/S /URI"
+      ],
+      "attempted_at_utc": "2026-08-19T08:45:50.764437Z",
+      "basis": "frozen_openalex_primary_oa_pdf",
+      "bytes": 5564931,
+      "final_url": "https://public-pages-files-2025.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2025.1662220/pdf",
+      "quarantine_path": "/Users/81194246/Library/CloudStorage/OneDrive-Pepsico/Personal/AI/Projects/ThinkAI/storypoints-age-of-ai/gate2/output/systematic/v1.3/20260816/d14/fulltext/quarantine/CITFAM-95295273e7dc37d13a50.pdf",
+      "redirect_count": 0,
+      "sha256": "62d287da87eb2620bbd66b454dc5e04337b659919ab25d60c8f84bad0312f3ec",
+      "status": "quarantined_active_content"
+    }
+  ],
+  "bytes": 5564931,
+  "citation_family_id": "CITFAM-95295273e7dc37d13a50",
+  "pdf_path": null,
+  "pdf_sha256": "62d287da87eb2620bbd66b454dc5e04337b659919ab25d60c8f84bad0312f3ec",
+  "security_attestation": "Static HTTPS retrieval only; public-IP validation, bounded redirects/size, signature and active-content checks; no PDF execution.",
+  "status": "quarantined_active_content"
+}

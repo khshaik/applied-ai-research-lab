@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 558332,
+      "content_type": "application/pdf",
+      "final_url": "https://jurnal.amikom.ac.id/index.php/intechno/article/download/1895/678",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "56913dfe6ae3286727456a138754e07190c7e020ec896d92f1aebca0db2a5618",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://jurnal.amikom.ac.id/index.php/intechno/article/download/1895/678"
+    }
+  ],
+  "bytes": 558332,
+  "family_id": "FAM-864e7f2758fa8a2e24a8",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-864e7f2758fa8a2e24a8.pdf",
+  "pdf_sha256": "56913dfe6ae3286727456a138754e07190c7e020ec896d92f1aebca0db2a5618",
+  "representative_canonical_id": "CAN-b37ebc088e93e53f4602",
+  "retrieved_url": "https://jurnal.amikom.ac.id/index.php/intechno/article/download/1895/678",
+  "status": "retrieved_open"
+}

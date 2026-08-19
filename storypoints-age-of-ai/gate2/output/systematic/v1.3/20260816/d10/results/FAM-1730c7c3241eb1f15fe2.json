@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 4293340,
+      "content_type": "application/pdf",
+      "final_url": "https://iaeme.com/MasterAdmin/Journal_uploads/IJCET/VOLUME_16_ISSUE_2/IJCET_16_02_038.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "210d089bccb62af88c286f9dfdb32784881de330fbb5ddafcee1e837c256dda1",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://doi.org/10.34218/ijcet_16_02_038"
+    }
+  ],
+  "bytes": 4293340,
+  "family_id": "FAM-1730c7c3241eb1f15fe2",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-1730c7c3241eb1f15fe2.pdf",
+  "pdf_sha256": "210d089bccb62af88c286f9dfdb32784881de330fbb5ddafcee1e837c256dda1",
+  "representative_canonical_id": "CAN-eb88aa826d5dcad44747",
+  "retrieved_url": "https://iaeme.com/MasterAdmin/Journal_uploads/IJCET/VOLUME_16_ISSUE_2/IJCET_16_02_038.pdf",
+  "status": "retrieved_open"
+}

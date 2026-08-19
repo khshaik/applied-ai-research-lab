@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 816735,
+      "content_type": "application/pdf;charset=UTF-8",
+      "final_url": "https://trepo.tuni.fi/bitstream/handle/10024/232551/WijayaAlvinSteven.pdf;jsessionid=B06CAEFEB589DAC84E2CF69DEB870531?sequence=2",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "cfe5461840d0c5dd6a7562887d6064f2e1afa9a9a539c1728d4f46baf3610692",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://trepo.tuni.fi/bitstream/10024/232551/2/WijayaAlvinSteven.pdf"
+    }
+  ],
+  "bytes": 816735,
+  "family_id": "FAM-2c7823dbf7734335673f",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-2c7823dbf7734335673f.pdf",
+  "pdf_sha256": "cfe5461840d0c5dd6a7562887d6064f2e1afa9a9a539c1728d4f46baf3610692",
+  "representative_canonical_id": "CAN-ec66e344d795285f78d5",
+  "retrieved_url": "https://trepo.tuni.fi/bitstream/handle/10024/232551/WijayaAlvinSteven.pdf;jsessionid=B06CAEFEB589DAC84E2CF69DEB870531?sequence=2",
+  "status": "retrieved_open"
+}

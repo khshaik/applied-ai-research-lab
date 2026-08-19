@@ -1,0 +1,32 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:10:33.494031Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://zenodo.org/records/18526825",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://doi.org/10.5281/zenodo.18526825"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:10:34.572653Z",
+      "basis": "citation_pdf_url_metadata",
+      "bytes": 185143,
+      "content_type": "application/octet-stream, application/octet-stream",
+      "final_url": "https://zenodo.org/records/18526825/files/Story%20Point%20Governance%20as%20Standard%20Recommendation%20v2.0.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "sha256": "a051693748be0762e24b3c3f9d2cdc73a2d9307cd0bbde5f99adfe4c370c1973",
+      "url": "https://zenodo.org/records/18526825/files/Story%20Point%20Governance%20as%20Standard%20Recommendation%20v2.0.pdf"
+    }
+  ],
+  "bytes": 185143,
+  "family_id": "FAM-8a8202eb5f1c783ab389",
+  "lawful_access_basis": "citation_pdf_url_metadata",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-8a8202eb5f1c783ab389.pdf",
+  "pdf_sha256": "a051693748be0762e24b3c3f9d2cdc73a2d9307cd0bbde5f99adfe4c370c1973",
+  "representative_canonical_id": "CAN-35219e14c12ab1c728ce",
+  "retrieved_url": "https://zenodo.org/records/18526825/files/Story%20Point%20Governance%20as%20Standard%20Recommendation%20v2.0.pdf",
+  "status": "retrieved_open"
+}

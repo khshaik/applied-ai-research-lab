@@ -1,0 +1,11 @@
+{
+  "claim_count": 10,
+  "d16_manifest_sha256": "65eb4d0b8df69e7f41cd23d5ffcb35745f6493aff98f97cf7abcddfa52149a1e",
+  "external_support_count": 17,
+  "ledger_sha256": "2a8281709b0cb135a1417596aee12bd51ee5d71a6046918211339e83d55b2aed",
+  "protocol_version": "1.3",
+  "release_rule": "No material claim is publication-ready until the accountable author confirms its wording and exact support.",
+  "review_document_sha256": "2ce9beb82b1721092392a5a4be5a2db0d3c31bd75ae5b3908ee3f5d822ba61e2",
+  "security_boundary": "Local checksum-bound pack generation only; no network, Git/history, secrets, installs, PDF execution, or private systems.",
+  "status": "d17_confirmation_pack_ready"
+}

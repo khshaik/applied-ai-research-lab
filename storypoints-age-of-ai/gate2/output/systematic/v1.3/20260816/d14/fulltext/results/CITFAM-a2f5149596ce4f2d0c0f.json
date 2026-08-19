@@ -1,0 +1,19 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-19T10:50:45.455001Z",
+      "basis": "semantic_scholar_explicit_openAccessPdf",
+      "final_url": "https://figshare.com/articles/conference_contribution/Code_Generation_of_Smart_Contracts_with_LLMs_A_Case_Study_on_Hyperledger_Fabric/32772276",
+      "http_status": 403,
+      "redirect_count": 0,
+      "retry_after": null,
+      "status": "http_failure"
+    }
+  ],
+  "bytes": 0,
+  "citation_family_id": "CITFAM-a2f5149596ce4f2d0c0f",
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "security_attestation": "Static HTTPS retrieval only; public-IP validation, bounded redirects/size, signature and active-content checks; no PDF execution.",
+  "status": "http_failure"
+}

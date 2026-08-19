@@ -1,0 +1,37 @@
+{
+  "family_count": 9,
+  "instruction": "Recompute each criterion from source text; do not average or mechanically select either prior score.",
+  "packet_sha256": "ef22ad52b8be76e53dd3033a8c7c27b6e77c700399963dbe0ca8a953ede03d76",
+  "pass_a": {
+    "bands": {
+      "high": 6,
+      "low_contextual": 1,
+      "moderate": 2
+    },
+    "family_count": 9,
+    "forms": {
+      "quantitative_mixed": 7,
+      "secondary_review": 2
+    },
+    "pass_id": "pass-a",
+    "sha256": "303b7a10e6a9488a51d0226f822559bc56cd06dc9b6f13656120e7fd8e8a1f97",
+    "status": "valid_complete_recovery_appraisal"
+  },
+  "pass_b": {
+    "bands": {
+      "high": 4,
+      "low_contextual": 1,
+      "moderate": 4
+    },
+    "family_count": 9,
+    "forms": {
+      "quantitative_mixed": 8,
+      "secondary_review": 1
+    },
+    "pass_id": "pass-b",
+    "sha256": "7f829dd9c829f2f7b96d8e1598c3d3caf9d277081a6092cf07d9fb298c466c91",
+    "status": "valid_complete_recovery_appraisal"
+  },
+  "protocol_version": "1.3",
+  "status": "prepared_for_separate_recovery_quality_adjudication"
+}

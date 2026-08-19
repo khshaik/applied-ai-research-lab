@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 851640,
+      "content_type": "application/pdf",
+      "final_url": "https://thesai.org/Downloads/Volume8No4/Paper_52-Impact_of_Story_Point_Estimation_on_Product_using_Metrics.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "e65862a658b3d024291dcab0876d47782c60864960858d0d3038450d23affa58",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://thesai.org/Downloads/Volume8No4/Paper_52-Impact_of_Story_Point_Estimation_on_Product_using_Metrics.pdf"
+    }
+  ],
+  "bytes": 851640,
+  "family_id": "FAM-e1bf5fcaa4b10e20d20a",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-e1bf5fcaa4b10e20d20a.pdf",
+  "pdf_sha256": "e65862a658b3d024291dcab0876d47782c60864960858d0d3038450d23affa58",
+  "representative_canonical_id": "CAN-41a8a5084b6579385359",
+  "retrieved_url": "https://thesai.org/Downloads/Volume8No4/Paper_52-Impact_of_Story_Point_Estimation_on_Product_using_Metrics.pdf",
+  "status": "retrieved_open"
+}

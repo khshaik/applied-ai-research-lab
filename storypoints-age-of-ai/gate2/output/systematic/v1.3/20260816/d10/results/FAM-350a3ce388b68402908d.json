@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 1080100,
+      "content_type": "application/pdf;charset=UTF-8",
+      "final_url": "https://www.jstage.jst.go.jp/article/transinf/E102.D/12/E102.D_2019MPP0005/_pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "1756239497cf889b86cc928448cbb36dbbe153f071ca9d5c08a0ba97c77e2039",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://www.jstage.jst.go.jp/article/transinf/E102.D/12/E102.D_2019MPP0005/_pdf"
+    }
+  ],
+  "bytes": 1080100,
+  "family_id": "FAM-350a3ce388b68402908d",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-350a3ce388b68402908d.pdf",
+  "pdf_sha256": "1756239497cf889b86cc928448cbb36dbbe153f071ca9d5c08a0ba97c77e2039",
+  "representative_canonical_id": "CAN-85acd4bf692d61523cdf",
+  "retrieved_url": "https://www.jstage.jst.go.jp/article/transinf/E102.D/12/E102.D_2019MPP0005/_pdf",
+  "status": "retrieved_open"
+}

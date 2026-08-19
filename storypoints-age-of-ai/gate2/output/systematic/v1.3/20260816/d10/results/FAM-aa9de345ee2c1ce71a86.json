@@ -1,0 +1,40 @@
+{
+  "attempts": [
+    {
+      "basis": "semantic_scholar_open_access_pdf",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://www.ijirset.com/upload/2023/september/4_Exploring.pdf",
+      "http_status": 500,
+      "outcome": "http_failure",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://doi.org/10.15680/ijirset.2023.1209004"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:15:46.791738Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://www.ijirset.com/upload/2023/september/4_Exploring.pdf",
+      "http_status": 500,
+      "outcome": "http_failure",
+      "url": "https://doi.org/10.15680/ijirset.2023.1209004"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:16:56.593798Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://www.ijirset.com/upload/2023/september/4_Exploring.pdf",
+      "http_status": 500,
+      "outcome": "http_failure",
+      "url": "https://doi.org/10.15680/ijirset.2023.1209004"
+    }
+  ],
+  "bytes": 0,
+  "family_id": "FAM-aa9de345ee2c1ce71a86",
+  "lawful_access_basis": null,
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "representative_canonical_id": "CAN-5d491ef12d129677c878",
+  "retrieved_url": null,
+  "status": "lawful_full_text_not_retrieved"
+}

@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 357843,
+      "content_type": "application/pdf",
+      "final_url": "https://ruconf-domnit.ru/media/uploads/ckeditor/2026/06/29/2010-v-2026.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "7dd6356268b8f95577bae3e821236a5245ba4647c625506208d8b9ec7f296260",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://doi.org/10.47813/rosnio.5.2026.19.2010"
+    }
+  ],
+  "bytes": 357843,
+  "family_id": "FAM-998bfe73ea0893da4717",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-998bfe73ea0893da4717.pdf",
+  "pdf_sha256": "7dd6356268b8f95577bae3e821236a5245ba4647c625506208d8b9ec7f296260",
+  "representative_canonical_id": "CAN-cbba025bf014b9f93036",
+  "retrieved_url": "https://ruconf-domnit.ru/media/uploads/ckeditor/2026/06/29/2010-v-2026.pdf",
+  "status": "retrieved_open"
+}

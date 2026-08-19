@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0.0",
+  "study_id": "vdcm",
+  "gate": "D17",
+  "decision": "approved",
+  "confirmation_date": "2026-08-19",
+  "accountable_author": "user-confirmed accountable author",
+  "approved_claim_ids": [
+    "CL-001",
+    "CL-002",
+    "CL-003",
+    "CL-004",
+    "CL-005",
+    "CL-006",
+    "CL-007",
+    "CL-008",
+    "CL-009",
+    "CL-010"
+  ],
+  "approval_scope": "The ten claims are approved only with the wording, locators, evidence bands, limitations, search cutoff, public-source coverage boundary, and D14 resource cap stated in the D17 confirmation pack.",
+  "approval_statement": "Confirm D17 material claims CL-001 through CL-010 as bounded in the confirmation pack — Approved.",
+  "source_artifacts": [
+    {
+      "path": "gate2/output/systematic/v1.3/20260816/d17/D17_AUTHOR_CONFIRMATION.md",
+      "sha256": "2ce9beb82b1721092392a5a4be5a2db0d3c31bd75ae5b3908ee3f5d822ba61e2"
+    },
+    {
+      "path": "gate2/output/systematic/v1.3/20260816/d17/material_claim_confirmation.jsonl",
+      "sha256": "2a8281709b0cb135a1417596aee12bd51ee5d71a6046918211339e83d55b2aed"
+    },
+    {
+      "path": "gate2/output/systematic/v1.3/20260816/d17/d17_manifest.json",
+      "sha256": "ae98b99a804f009e179ea84cc917a71de90650d3f8b98dee78744a382fcd8af2"
+    },
+    {
+      "path": "gate2/output/systematic/v1.3/20260816/d16_v2/d16_manifest.json",
+      "sha256": "65eb4d0b8df69e7f41cd23d5ffcb35745f6493aff98f97cf7abcddfa52149a1e"
+    }
+  ],
+  "release_effect": "D17 is complete. The approved claims may enter the manuscript only in their bounded form. Any material broadening requires a new confirmation record.",
+  "security_boundary": "Local artifact binding only; no Git/history comparison, network access, secret access, package installation, PDF execution, or private-system access."
+}

@@ -1,0 +1,54 @@
+{
+  "acceptance_matrix_row_sha256": "cb532e9347c9f776eef8740462d645670527e6c7f49eb861be0b8b840c061f8e",
+  "authentication": {
+    "credential_logged": false,
+    "method": "api_key_environment"
+  },
+  "complete_pagination": true,
+  "endpoint": "https://api.openalex.org/works",
+  "executed_at_utc": "2026-08-16T09:09:36.267602+00:00",
+  "freeze_package_sha256": "fa9800da881c2590a3261861fa6e1de5d6a3c349687ef320b43057561be8730d",
+  "from_date": "2019-01-01",
+  "interpretation_boundary": "Frozen systematic discovery export; not yet screened, deduplicated, eligible, or a PRISMA inclusion count.",
+  "max_pages": null,
+  "page_size": 200,
+  "pages": [
+    {
+      "file": "page_00000.json",
+      "records": 200,
+      "request_url_sha256": "1cc7f55330f4aaf1fd492b916746ddd079aa2bd575ac6ad24ac0252b0aa909aa",
+      "sequence": 0,
+      "sha256": "8660ade495314d3e5a0d73b494aa9d59d74daa5d6562cd424aaab250ec96efc9"
+    },
+    {
+      "file": "page_00001.json",
+      "records": 200,
+      "request_url_sha256": "7c7ca65f72098a5aee331b329c2bb49fd0f07ad797f413c089d6c749f29ba954",
+      "sequence": 1,
+      "sha256": "023445cfa57e3034dea07290fe2814539e154a05908a4a2d3e406c58a6137f3b"
+    },
+    {
+      "file": "page_00002.json",
+      "records": 163,
+      "request_url_sha256": "b6a10618f4da2d3b5bdee28daa50016605d89bd34e78a1001c858df376a88573",
+      "sequence": 2,
+      "sha256": "c7c2fc0a4a170e580fbe98c2983a7bc923729b047c54b3e1bd51fde28f93e6ea"
+    }
+  ],
+  "query": "(\"large language model\" OR LLM OR Copilot) AND (\"code review\" OR \"validating and repairing\") AND (developer OR human OR cognitive OR workload OR attention OR time OR effort OR trust)",
+  "query_id": "OA-S4R6",
+  "query_mode": "title_abstract_filter",
+  "query_registry_sha256": "f65ecbc9666599af9846c3f740f7332d5a69f61f45cc3dadb43822633ba0046c",
+  "query_sha256": "d1d4822cf23007d7895c73e6328f79111cd56323835e104b86f67a04ab97e3d7",
+  "records_csv": {
+    "file": "records.csv",
+    "sha256": "15aedf7aab1f519d49cfe2cdfa28e14f5c920aaac930764603e50fe1641c3cde"
+  },
+  "records_retrieved": 563,
+  "result_sort": "",
+  "retrieval_scope": "complete_systematic",
+  "source": "openalex",
+  "status": "systematic_frozen",
+  "to_date": "2026-08-16",
+  "total_reported": 563
+}

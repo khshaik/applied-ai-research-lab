@@ -1,0 +1,100 @@
+{
+  "burden_acceptance_band": "operational_pass",
+  "complete_pagination": true,
+  "development_diagnostic_minimum": 20,
+  "development_diagnostic_pass": true,
+  "development_diagnostic_required_for_population": 19,
+  "family_id": "S7",
+  "freeze_ready": true,
+  "interpretation_boundary": "Known-item recall and sampled relevance appraisal only; not screening, eligibility, or PRISMA evidence.",
+  "negative_boundary_pass": true,
+  "neutral_disconfirming_recall_pass": true,
+  "population_size_basis": "complete_export_retrieved_count",
+  "population_size_for_sample": 19,
+  "positive_sentinel_recall_pass": true,
+  "query_appraisal_pass": true,
+  "query_appraisal_pass_deprecated_alias_for": "freeze_ready",
+  "query_id": "S2-S7R4",
+  "relevant_plus_uncertain_count": 15,
+  "relevant_plus_uncertain_proportion": 0.7894736842105263,
+  "relevant_plus_uncertain_wilson_95_interval": [
+    0.5666572155618583,
+    0.9149232336708375
+  ],
+  "required_sample_size_for_freeze": 19,
+  "sample_decided": 16,
+  "sample_likely_relevant": 12,
+  "sample_minimum_met": true,
+  "sample_precision_point_estimate": 0.75,
+  "sample_size": 19,
+  "sample_uncertain": 3,
+  "sentinel_checks": [
+    {
+      "doi": "10.1007/s10791-026-10331-6",
+      "match_basis": "doi",
+      "pass": true,
+      "present": true,
+      "role": "scope_positive",
+      "sentinel_id": "S7-P1-HIE"
+    },
+    {
+      "doi": "10.3389/frai.2026.1772418",
+      "match_basis": "doi",
+      "pass": true,
+      "present": true,
+      "role": "scope_positive",
+      "sentinel_id": "S7-P2-HIE-CONCEPT"
+    },
+    {
+      "doi": "10.48550/arxiv.2608.02582",
+      "match_basis": "title",
+      "pass": true,
+      "present": true,
+      "role": "scope_positive",
+      "sentinel_id": "S7-P3-ACEM"
+    },
+    {
+      "doi": "10.48550/arxiv.2602.20684",
+      "match_basis": "doi",
+      "pass": true,
+      "present": true,
+      "role": "scope_positive",
+      "sentinel_id": "S7-P4-AGILE-V"
+    },
+    {
+      "doi": "10.48550/arxiv.2603.20028",
+      "match_basis": "doi",
+      "pass": true,
+      "present": true,
+      "role": "scope_positive",
+      "sentinel_id": "S7-P5-ORCHESTRATION"
+    },
+    {
+      "doi": "10.48550/arxiv.2603.06276",
+      "match_basis": "doi",
+      "pass": true,
+      "present": true,
+      "role": "neutral_disconfirming",
+      "sentinel_id": "S7-D1-STORY-POINT"
+    },
+    {
+      "doi": "10.1109/access.2026.3671204",
+      "match_basis": "doi",
+      "pass": true,
+      "present": true,
+      "role": "neutral_disconfirming",
+      "sentinel_id": "S7-D2-CONVENTIONAL-EFFORT"
+    },
+    {
+      "doi": "10.48550/arxiv.2608.01955",
+      "match_basis": "none",
+      "pass": true,
+      "present": false,
+      "role": "negative_boundary",
+      "sentinel_id": "S7-B1-PIPELINE-OPERATIONS"
+    }
+  ],
+  "sentinel_class_complete": true,
+  "source": "semantic_scholar",
+  "status": "development_query_appraisal"
+}

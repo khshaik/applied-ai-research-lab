@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 683888,
+      "content_type": "application/pdf;charset=UTF-8",
+      "final_url": "https://lutpub.lut.fi/bitstream/handle/10024/172104/Bachelorsthesis_Guo_Jikang.pdf;jsessionid=A0ECE8EC03A63D0CA504F25DC6257EF8?sequence=1",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "8a20918cdc93e0fcfc67a24d1f3330c3ef35b18e0441fe10daffe3c8b67a0bd8",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://lutpub.lut.fi/bitstream/10024/172104/1/Bachelorsthesis_Guo_Jikang.pdf"
+    }
+  ],
+  "bytes": 683888,
+  "family_id": "FAM-0e405c2671293a52d20c",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-0e405c2671293a52d20c.pdf",
+  "pdf_sha256": "8a20918cdc93e0fcfc67a24d1f3330c3ef35b18e0441fe10daffe3c8b67a0bd8",
+  "representative_canonical_id": "CAN-de920475cddf83d587c9",
+  "retrieved_url": "https://lutpub.lut.fi/bitstream/handle/10024/172104/Bachelorsthesis_Guo_Jikang.pdf;jsessionid=A0ECE8EC03A63D0CA504F25DC6257EF8?sequence=1",
+  "status": "retrieved_open"
+}

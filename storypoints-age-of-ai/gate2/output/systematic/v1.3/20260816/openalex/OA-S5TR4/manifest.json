@@ -1,0 +1,40 @@
+{
+  "acceptance_matrix_row_sha256": "611ecacfc6609332cb55bd7159ec6eeeef5f6e1b829786ccc83f2e5eeeb82dad",
+  "authentication": {
+    "credential_logged": false,
+    "method": "api_key_environment"
+  },
+  "complete_pagination": true,
+  "endpoint": "https://api.openalex.org/works",
+  "executed_at_utc": "2026-08-16T09:08:17.924547+00:00",
+  "freeze_package_sha256": "fa9800da881c2590a3261861fa6e1de5d6a3c349687ef320b43057561be8730d",
+  "from_date": "2019-01-01",
+  "interpretation_boundary": "Frozen systematic discovery export; not yet screened, deduplicated, eligible, or a PRISMA inclusion count.",
+  "max_pages": null,
+  "page_size": 200,
+  "pages": [
+    {
+      "file": "page_00000.json",
+      "records": 137,
+      "request_url_sha256": "e3f328ec2c985a055a3e7a7a81d36c3f0a3ff522fa784916ce154493dd6c17e4",
+      "sequence": 0,
+      "sha256": "ca86fbfe789eaf7c26d208e220712ba4afd1e2f94a6d8de4152351cfb483eab8"
+    }
+  ],
+  "query": "(\"large language model\" OR LLM OR ChatGPT) AND (\"software testing\" OR \"unit test generation\" OR \"test case development\" OR \"test case generation\") AND (\"user study\" OR \"human-LLM\" OR \"human-AI\" OR \"manual effort\" OR \"human involvement\" OR \"developer preference\" OR \"bug detection\" OR \"test reliability\" OR \"find bugs\" OR \"bug-revealing\")",
+  "query_id": "OA-S5TR4",
+  "query_mode": "title_abstract_filter",
+  "query_registry_sha256": "d25bcfe910f004ca10510ed9c2b977f0a1de6f7f0e1cd7c62f0c63d813f0b241",
+  "query_sha256": "d98849537f54b68c2f807a87f16b6d299ebdfcc06d311b5eda856837a71f010e",
+  "records_csv": {
+    "file": "records.csv",
+    "sha256": "6872495faebb400fbaffee0c6c8c58e1c4156694ef6f62774e725d4b642d1df0"
+  },
+  "records_retrieved": 137,
+  "result_sort": "",
+  "retrieval_scope": "complete_systematic",
+  "source": "openalex",
+  "status": "systematic_frozen",
+  "to_date": "2026-08-16",
+  "total_reported": 137
+}

@@ -1,0 +1,32 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:02:53.677514Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://zenodo.org/records/18338045",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://doi.org/10.5281/zenodo.18338044"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:02:58.477977Z",
+      "basis": "citation_pdf_url_metadata",
+      "bytes": 255781,
+      "content_type": "application/octet-stream, application/octet-stream",
+      "final_url": "https://zenodo.org/records/18338045/files/ai-assisted-visual-test-and-bug-management-platform-for-manual-testers-IJERTV15IS010338.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "sha256": "f52741a500f6b92829312191a1afe2bf1cf38c7ccc9d6f1e82eec977b71f353d",
+      "url": "https://zenodo.org/records/18338045/files/ai-assisted-visual-test-and-bug-management-platform-for-manual-testers-IJERTV15IS010338.pdf"
+    }
+  ],
+  "bytes": 255781,
+  "family_id": "FAM-20c7c555008d6b4b7842",
+  "lawful_access_basis": "citation_pdf_url_metadata",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-20c7c555008d6b4b7842.pdf",
+  "pdf_sha256": "f52741a500f6b92829312191a1afe2bf1cf38c7ccc9d6f1e82eec977b71f353d",
+  "representative_canonical_id": "CAN-e90302803faf2fbb4cb5",
+  "retrieved_url": "https://zenodo.org/records/18338045/files/ai-assisted-visual-test-and-bug-management-platform-for-manual-testers-IJERTV15IS010338.pdf",
+  "status": "retrieved_open"
+}

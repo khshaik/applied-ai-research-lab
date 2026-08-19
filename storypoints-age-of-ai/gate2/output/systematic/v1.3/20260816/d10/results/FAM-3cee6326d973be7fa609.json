@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 1479065,
+      "content_type": "application/pdf",
+      "final_url": "https://assets-eu.researchsquare.com/files/rs-8531146/v1_covered_c3b0a17a-df90-415d-89bd-439112abcf3e.pdf?c=1785938273",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "59589ff505725bef23d7be36e64f575e883f7369f51d04bfe6b3d1074bfb20e7",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://www.researchsquare.com/article/rs-8531146/latest.pdf"
+    }
+  ],
+  "bytes": 1479065,
+  "family_id": "FAM-3cee6326d973be7fa609",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-3cee6326d973be7fa609.pdf",
+  "pdf_sha256": "59589ff505725bef23d7be36e64f575e883f7369f51d04bfe6b3d1074bfb20e7",
+  "representative_canonical_id": "CAN-e2966d33aef4e0b05749",
+  "retrieved_url": "https://assets-eu.researchsquare.com/files/rs-8531146/v1_covered_c3b0a17a-df90-415d-89bd-439112abcf3e.pdf?c=1785938273",
+  "status": "retrieved_open"
+}

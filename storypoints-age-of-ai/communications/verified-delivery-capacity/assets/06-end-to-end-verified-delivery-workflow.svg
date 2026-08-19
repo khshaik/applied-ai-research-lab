@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2800" height="1800" viewBox="0 0 2800 1800" role="img" aria-labelledby="title desc">
+<title id="title">From AI-Assisted Work to Verified Delivery</title>
+<desc id="desc">A directional ten-step workflow. Steps one through six move left to right, turn into steps seven through ten, pass through an evidence-readiness gate, and loop verified outcomes back to the next immutable planning snapshot.</desc>
+<rect width="2800" height="1800" fill="#FFFDF8"/>
+<defs><marker id="arrowBlack" markerWidth="12" markerHeight="10" refX="10" refY="5" orient="auto"><path d="M0,0 L12,5 L0,10 z" fill="#111111"/></marker><marker id="arrowOrange" markerWidth="12" markerHeight="10" refX="10" refY="5" orient="auto"><path d="M0,0 L12,5 L0,10 z" fill="#B84408"/></marker></defs>
+<text x="1400" y="95" font-family="Bradley Hand, Comic Sans MS, sans-serif" font-size="70" font-weight="700" fill="#111111" text-anchor="middle">From AI-Assisted Work to Verified Delivery</text>
+<text x="1400" y="155" font-family="Comic Sans MS, Bradley Hand, sans-serif" font-size="27" font-weight="400" fill="#111111" text-anchor="middle">An end-to-end capacity, evidence and flow workflow for planning what can be delivered—not only what can be generated</text>
+<polyline points="470,505 503,505" fill="none" stroke="#111111" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrowBlack)"/>
+<polyline points="925,505 958,505" fill="none" stroke="#111111" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrowBlack)"/>
+<polyline points="1380,505 1413,505" fill="none" stroke="#111111" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrowBlack)"/>
+<polyline points="1835,505 1868,505" fill="none" stroke="#111111" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrowBlack)"/>
+<polyline points="2290,505 2323,505" fill="none" stroke="#111111" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrowBlack)"/>
+<polyline points="2535,704 2535,770 280,770 280,847" fill="none" stroke="#111111" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrowBlack)"/>
+<text x="1400" y="750" font-family="Bradley Hand, Comic Sans MS, sans-serif" font-size="21" font-weight="700" fill="#0B2554" text-anchor="middle">DELIVERY EXECUTION TO EVIDENCE CHECKPOINT</text>
+<polyline points="510,1035 583,1035" fill="none" stroke="#111111" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrowBlack)"/>
+<polyline points="1045,1035 1118,1035" fill="none" stroke="#111111" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrowBlack)"/>
+<polyline points="1575,1035 1648,1035" fill="none" stroke="#111111" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrowBlack)"/>
+<polyline points="2160,1035 2233,1035" fill="none" stroke="#111111" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrowBlack)"/>
+<rect x="55" y="310" width="410" height="390" rx="28" fill="#F3F7FF" stroke="#0B2554" stroke-width="5"/>
+<rect x="58" y="308" width="405" height="394" rx="29" fill="none" stroke="#0B2554" stroke-width="2"/>
+<circle cx="106" cy="361" r="33" fill="#0B2554"/>
+<text x="106" y="373" font-family="Comic Sans MS, Bradley Hand, sans-serif" font-size="34" font-weight="700" fill="#FFFFFF" text-anchor="middle">1</text>
+<text x="288" y="358" font-family="Bradley Hand, Comic Sans MS, sans-serif" font-size="25" font-weight="700" fill="#0B2554" text-anchor="middle">DEFINE DELIVERY</text>
+<text x="288" y="392" font-family="Bradley Hand, Comic Sans MS, sans-serif" font-size="25" font-weight="700" fill="#0B2554" text-anchor="middle">OUTCOME</text>
+<circle cx="260" cy="515" r="58" fill="#FFFFFF" stroke="#111111" stroke-width="5"/>
+<text x="260" y="527" font-family="Comic Sans MS, Bradley Hand, sans-serif" font-size="20" font-weight="700" fill="#0B2554" text-anchor="middle">OUTCOME</text>
+<text x="260" y="628" font-family="Comic Sans MS, Bradley Hand, sans-serif" font-size="18" font-weight="400" fill="#4D4D4D" text-anchor="middle">Acceptance, deadline,</text>
+<text x="260" y="655" font-family="Comic Sans MS, Bradley Hand, sans-serif" font-size="18" font-weight="400" fill="#4D4D4D" text-anchor="middle">risk tier and boundaries</text>
+<rect x="510" y="310" width="410" height="390" rx="28" fill="#F3F7FF" stroke="#0B2554" stroke-width="5"/>
+<rect x="513" y="308" width="405" height="394" rx="29" fill="none" stroke="#0B2554" stroke-width="2"/>
+<circle cx="561" cy="361" r="33" fill="#0B2554"/>
+<text x="561" y="373" font-family="Comic Sans MS, Bradley Hand, sans-serif" font-size="34" font-weight="700" fill="#FFFFFF" text-anchor="middle">2</text>
+<text x="743" y="358" font-family="Bradley Hand, Comic Sans MS, sans-serif" font-size="25" font-weight="700" fill="#0B2554" text-anchor="middle">FREEZE t0</text>
+<text x="743" y="392" font-family="Bradley Hand, Comic Sans MS, sans-serif" font-size="25" font-weight="700" fill="#0B2554" text-anchor="middle">EVIDENCE</text>
+<circle cx="715" cy="515" r="58" fill="#FFFFFF" stroke="#111111" stroke-width="5"/>
+<text x="715" y="527" font-family="Comic Sans MS, Bradley Hand, sans-serif" font-size="20" font-weight="700" fill="#0B2554" text-anchor="middle">t0</text>
+<text x="715" y="628" font-family="Comic Sans MS, Bradley Hand, sans-serif" font-size="18" font-weight="400" fill="#4D4D4D" text-anchor="middle">Archive only planning-time</text>
+<text x="715" y="655" font-family="Comic Sans MS, Bradley Hand, sans-serif" font-size="18" font-weight="400" fill="#4D4D4D" text-anchor="middle">inputs; prevent leakage</text>
+<rect x="965" y="310" width="410" height="390" rx="28" fill="#F3F7FF" stroke="#0B2554" stroke-width="5"/>
+<rect x="968" y="308" width="405" height="394" rx="29" fill="none" stroke="#0B2554" stroke-width="2"/>
+<circle cx="1016" cy="361" r="33" fill="#0B2554"/>
+<text x="1016" y="373" font-family="Comic Sans MS, Bradley Hand, sans-serif" font-size="34" font-weight="700" fill="#FFFFFF" text-anchor="middle">3</text>
+<text x="1198" y="358" font-family="Bradley Hand, Comic Sans MS, sans-serif" font-size="25" font-weight="700" fill="#0B2554" text-anchor="middle">PROFILE DEMAND</text>
+<text x="1198" y="392" font-family="Bradley Hand, Comic Sans MS, sans-serif" font-size="25" font-weight="700" fill="#0B2554" text-anchor="middle">DRIVERS</text>
+<circle cx="1170" cy="515" r="58" fill="#FFFFFF" stroke="#111111" stroke-width="5"/>
+<text x="1170" y="527" font-family="Comic Sans MS, Bradley Hand, sans-serif" font-size="20" font-weight="700" fill="#0B2554" text-anchor="middle">PDD</text>
+<text x="1170" y="628" font-family="Comic Sans MS, Bradley Hand, sans-serif" font-size="18" font-weight="400" fill="#4D4D4D" text-anchor="middle">Intent, propagation, context,</text>
+<text x="1170" y="655" font-family="Comic Sans MS, Bradley Hand, sans-serif" font-size="18" font-weight="400" fill="#4D4D4D" text-anchor="middle">assurance and coordination</text>
+<rect x="1420" y="310" width="410" height="390" rx="28" fill="#F3F7FF" stroke="#0B2554" stroke-width="5"/>
+<rect x="1423" y="308" width="405" height="394" rx="29" fill="none" stroke="#0B2554" stroke-width="2"/>
+<circle cx="1471" cy="361" r="33" fill="#0B2554"/>
+<text x="1471" y="373" font-family="Comic Sans MS, Bradley Hand, sans-serif" font-size="34" font-weight="700" fill="#FFFFFF" text-anchor="middle">4</text>
+<text x="1653" y="358" font-family="Bradley Hand, Comic Sans MS, sans-serif" font-size="25" font-weight="700" fill="#0B2554" text-anchor="middle">FORECAST ROLE ×</text>
+<text x="1653" y="392" font-family="Bradley Hand, Comic Sans MS, sans-serif" font-size="25" font-weight="700" fill="#0B2554" text-anchor="middle">STAGE TOUCH</text>
+<circle cx="1625" cy="515" r="58" fill="#FFFFFF" stroke="#111111" stroke-width="5"/>
+<text x="1625" y="527" font-family="Comic Sans MS, Bradley Hand, sans-serif" font-size="20" font-weight="700" fill="#0B2554" text-anchor="middle">R×S</text>
+<text x="1625" y="628" font-family="Comic Sans MS, Bradley Hand, sans-serif" font-size="18" font-weight="400" fill="#4D4D4D" text-anchor="middle">P50/P80 active service</text>
+<text x="1625" y="655" font-family="Comic Sans MS, Bradley Hand, sans-serif" font-size="18" font-weight="400" fill="#4D4D4D" text-anchor="middle">by required role and stage</text>
+<rect x="1875" y="310" width="410" height="390" rx="28" fill="#F3F7FF" stroke="#0B2554" stroke-width="5"/>
+<rect x="1878" y="308" width="405" height="394" rx="29" fill="none" stroke="#0B2554" stroke-width="2"/>
+<circle cx="1926" cy="361" r="33" fill="#0B2554"/>
+<text x="1926" y="373" font-family="Comic Sans MS, Bradley Hand, sans-serif" font-size="34" font-weight="700" fill="#FFFFFF" text-anchor="middle">5</text>
+<text x="2108" y="358" font-family="Bradley Hand, Comic Sans MS, sans-serif" font-size="25" font-weight="700" fill="#0B2554" text-anchor="middle">RECONCILE CAPACITY</text>
+<text x="2108" y="392" font-family="Bradley Hand, Comic Sans MS, sans-serif" font-size="25" font-weight="700" fill="#0B2554" text-anchor="middle">AND QUEUES</text>
+<circle cx="2080" cy="515" r="58" fill="#FFFFFF" stroke="#111111" stroke-width="5"/>
+<text x="2080" y="527" font-family="Comic Sans MS, Bradley Hand, sans-serif" font-size="20" font-weight="700" fill="#0B2554" text-anchor="middle">CAP</text>
+<text x="2080" y="628" font-family="Comic Sans MS, Bradley Hand, sans-serif" font-size="18" font-weight="400" fill="#4D4D4D" text-anchor="middle">Calendars, blackouts,</text>
+<text x="2080" y="655" font-family="Comic Sans MS, Bradley Hand, sans-serif" font-size="18" font-weight="400" fill="#4D4D4D" text-anchor="middle">allocations and existing work</text>
+<rect x="2330" y="310" width="410" height="390" rx="28" fill="#F3F7FF" stroke="#0B2554" stroke-width="5"/>
+<rect x="2333" y="308" width="405" height="394" rx="29" fill="none" stroke="#0B2554" stroke-width="2"/>
+<circle cx="2381" cy="361" r="33" fill="#0B2554"/>
+<text x="2381" y="373" font-family="Comic Sans MS, Bradley Hand, sans-serif" font-size="34" font-weight="700" fill="#FFFFFF" text-anchor="middle">6</text>
+<text x="2563" y="358" font-family="Bradley Hand, Comic Sans MS, sans-serif" font-size="25" font-weight="700" fill="#0B2554" text-anchor="middle">MODEL DELIVERY</text>
+<text x="2563" y="392" font-family="Bradley Hand, Comic Sans MS, sans-serif" font-size="25" font-weight="700" fill="#0B2554" text-anchor="middle">FLOW</text>
+<circle cx="2535" cy="515" r="58" fill="#FFFFFF" stroke="#111111" stroke-width="5"/>
+<text x="2535" y="527" font-family="Comic Sans MS, Bradley Hand, sans-serif" font-size="20" font-weight="700" fill="#0B2554" text-anchor="middle">FLOW</text>
+<text x="2535" y="628" font-family="Comic Sans MS, Bradley Hand, sans-serif" font-size="18" font-weight="400" fill="#4D4D4D" text-anchor="middle">Dependencies, FIFO service,</text>
+<text x="2535" y="655" font-family="Comic Sans MS, Bradley Hand, sans-serif" font-size="18" font-weight="400" fill="#4D4D4D" text-anchor="middle">pauses and bounded rework</text>
+<rect x="55" y="855" width="450" height="360" rx="28" fill="#FFF7F0" stroke="#B84408" stroke-width="5"/>
+<rect x="58" y="853" width="445" height="364" rx="29" fill="none" stroke="#B84408" stroke-width="2"/>
+<circle cx="106" cy="906" r="33" fill="#B84408"/>
+<text x="106" y="918" font-family="Comic Sans MS, Bradley Hand, sans-serif" font-size="34" font-weight="700" fill="#FFFFFF" text-anchor="middle">7</text>
+<text x="308" y="903" font-family="Bradley Hand, Comic Sans MS, sans-serif" font-size="25" font-weight="700" fill="#B84408" text-anchor="middle">VERIFY EVIDENCE</text>
+<text x="308" y="937" font-family="Bradley Hand, Comic Sans MS, sans-serif" font-size="25" font-weight="700" fill="#B84408" text-anchor="middle">READINESS</text>
+<circle cx="280" cy="1060" r="58" fill="#FFFFFF" stroke="#111111" stroke-width="5"/>
+<text x="280" y="1072" font-family="Comic Sans MS, Bradley Hand, sans-serif" font-size="20" font-weight="700" fill="#B84408" text-anchor="middle">ERS</text>
+<text x="280" y="1143" font-family="Comic Sans MS, Bradley Hand, sans-serif" font-size="18" font-weight="400" fill="#4D4D4D" text-anchor="middle">Present, current, traceable</text>
+<text x="280" y="1170" font-family="Comic Sans MS, Bradley Hand, sans-serif" font-size="18" font-weight="400" fill="#4D4D4D" text-anchor="middle">and independently checkable</text>
+<rect x="590" y="855" width="450" height="360" rx="28" fill="#FFF7F0" stroke="#B84408" stroke-width="5"/>
+<rect x="593" y="853" width="445" height="364" rx="29" fill="none" stroke="#B84408" stroke-width="2"/>
+<circle cx="641" cy="906" r="33" fill="#B84408"/>
+<text x="641" y="918" font-family="Comic Sans MS, Bradley Hand, sans-serif" font-size="34" font-weight="700" fill="#FFFFFF" text-anchor="middle">8</text>
+<text x="843" y="903" font-family="Bradley Hand, Comic Sans MS, sans-serif" font-size="25" font-weight="700" fill="#B84408" text-anchor="middle">APPLY GATE</text>
+<text x="843" y="937" font-family="Bradley Hand, Comic Sans MS, sans-serif" font-size="25" font-weight="700" fill="#B84408" text-anchor="middle">DECISION</text>
+<circle cx="815" cy="1060" r="58" fill="#FFFFFF" stroke="#111111" stroke-width="5"/>
+<text x="815" y="1072" font-family="Comic Sans MS, Bradley Hand, sans-serif" font-size="20" font-weight="700" fill="#B84408" text-anchor="middle">GATE</text>
+<text x="815" y="1143" font-family="Comic Sans MS, Bradley Hand, sans-serif" font-size="18" font-weight="400" fill="#4D4D4D" text-anchor="middle">Pass, conditional, fail or N/A</text>
+<text x="815" y="1170" font-family="Comic Sans MS, Bradley Hand, sans-serif" font-size="18" font-weight="400" fill="#4D4D4D" text-anchor="middle">with accountable rationale</text>
+<rect x="1655" y="855" width="500" height="360" rx="28" fill="#FFF7F0" stroke="#B84408" stroke-width="5"/>
+<rect x="1658" y="853" width="495" height="364" rx="29" fill="none" stroke="#B84408" stroke-width="2"/>
+<circle cx="1706" cy="906" r="33" fill="#B84408"/>
+<text x="1706" y="918" font-family="Comic Sans MS, Bradley Hand, sans-serif" font-size="34" font-weight="700" fill="#FFFFFF" text-anchor="middle">9</text>
+<text x="1933" y="903" font-family="Bradley Hand, Comic Sans MS, sans-serif" font-size="25" font-weight="700" fill="#B84408" text-anchor="middle">FORECAST VERIFIED</text>
+<text x="1933" y="937" font-family="Bradley Hand, Comic Sans MS, sans-serif" font-size="25" font-weight="700" fill="#B84408" text-anchor="middle">DELIVERY</text>
+<circle cx="1905" cy="1060" r="58" fill="#FFFFFF" stroke="#111111" stroke-width="5"/>
+<text x="1905" y="1072" font-family="Comic Sans MS, Bradley Hand, sans-serif" font-size="20" font-weight="700" fill="#B84408" text-anchor="middle">VDC</text>
+<text x="1905" y="1143" font-family="Comic Sans MS, Bradley Hand, sans-serif" font-size="18" font-weight="400" fill="#4D4D4D" text-anchor="middle">Completion probability, items,</text>
+<text x="1905" y="1170" font-family="Comic Sans MS, Bradley Hand, sans-serif" font-size="18" font-weight="400" fill="#4D4D4D" text-anchor="middle">bottleneck, touch, wait and block</text>
+<rect x="2240" y="855" width="500" height="360" rx="28" fill="#FFF7F0" stroke="#B84408" stroke-width="5"/>
+<rect x="2243" y="853" width="495" height="364" rx="29" fill="none" stroke="#B84408" stroke-width="2"/>
+<circle cx="2291" cy="906" r="33" fill="#B84408"/>
+<text x="2291" y="918" font-family="Comic Sans MS, Bradley Hand, sans-serif" font-size="34" font-weight="700" fill="#FFFFFF" text-anchor="middle">10</text>
+<text x="2518" y="903" font-family="Bradley Hand, Comic Sans MS, sans-serif" font-size="25" font-weight="700" fill="#B84408" text-anchor="middle">OBSERVE AND</text>
+<text x="2518" y="937" font-family="Bradley Hand, Comic Sans MS, sans-serif" font-size="25" font-weight="700" fill="#B84408" text-anchor="middle">RECALIBRATE</text>
+<circle cx="2490" cy="1060" r="58" fill="#FFFFFF" stroke="#111111" stroke-width="5"/>
+<text x="2490" y="1072" font-family="Comic Sans MS, Bradley Hand, sans-serif" font-size="20" font-weight="700" fill="#B84408" text-anchor="middle">LEARN</text>
+<text x="2490" y="1143" font-family="Comic Sans MS, Bradley Hand, sans-serif" font-size="18" font-weight="400" fill="#4D4D4D" text-anchor="middle">Compare forecast with outcome;</text>
+<text x="2490" y="1170" font-family="Comic Sans MS, Bradley Hand, sans-serif" font-size="18" font-weight="400" fill="#4D4D4D" text-anchor="middle">update later waves only</text>
+<rect x="1125" y="895" width="445" height="280" rx="34" fill="#FFFFFF" stroke="#B84408" stroke-width="5"/>
+<rect x="1128" y="893" width="440" height="284" rx="35" fill="none" stroke="#B84408" stroke-width="2"/>
+<text x="1347" y="951" font-family="Bradley Hand, Comic Sans MS, sans-serif" font-size="28" font-weight="700" fill="#B84408" text-anchor="middle">EVIDENCE +</text>
+<text x="1347" y="986" font-family="Bradley Hand, Comic Sans MS, sans-serif" font-size="28" font-weight="700" fill="#B84408" text-anchor="middle">READINESS GATE</text>
+<text x="1347" y="1038" font-family="Comic Sans MS, Bradley Hand, sans-serif" font-size="19" font-weight="700" fill="#111111" text-anchor="middle">PASS or CONDITIONAL</text>
+<text x="1347" y="1068" font-family="Comic Sans MS, Bradley Hand, sans-serif" font-size="18" font-weight="400" fill="#4D4D4D" text-anchor="middle">continues to forecast</text>
+<text x="1347" y="1110" font-family="Comic Sans MS, Bradley Hand, sans-serif" font-size="18" font-weight="400" fill="#111111" text-anchor="middle">FAIL: rework or stop</text>
+<text x="1347" y="1140" font-family="Comic Sans MS, Bradley Hand, sans-serif" font-size="18" font-weight="400" fill="#111111" text-anchor="middle">N/A: document rationale</text>
+<polyline points="2744,1035 2760,1035 2760,1572 35,1572 35,505 47,505" fill="none" stroke="#B84408" stroke-width="7" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrowOrange)"/>
+<text x="1400" y="1550" font-family="Bradley Hand, Comic Sans MS, sans-serif" font-size="22" font-weight="700" fill="#B84408" text-anchor="middle">VERIFIED OUTCOMES FEED A LATER CALIBRATION WAVE; THE ORIGINAL t0 SNAPSHOT REMAINS IMMUTABLE</text>
+<rect x="300" y="1625" width="2200" height="123" rx="24" fill="#F8F6F1" stroke="#0B2554" stroke-width="5"/>
+<text x="1400" y="1668" font-family="Bradley Hand, Comic Sans MS, sans-serif" font-size="28" font-weight="700" fill="#0B2554" text-anchor="middle">CORE PRINCIPLE</text>
+<text x="1400" y="1715" font-family="Comic Sans MS, Bradley Hand, sans-serif" font-size="21" font-weight="400" fill="#111111" text-anchor="middle">Plan the constrained role-stage. Keep touch, wait and block separate. Count completion only when risk-tier evidence is ready.</text>
+<text x="1400" y="1775" font-family="Comic Sans MS, Bradley Hand, sans-serif" font-size="17" font-weight="400" fill="#4D4D4D" text-anchor="middle">Conceptual workflow — not a cognitive-load measure, individual-surveillance tool, empirical result, or universal Story Point replacement</text>
+</svg>

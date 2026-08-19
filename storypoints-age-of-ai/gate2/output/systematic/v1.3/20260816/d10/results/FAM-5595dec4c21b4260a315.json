@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 590028,
+      "content_type": "application/pdf",
+      "final_url": "https://www.ijisrt.com/assets/upload/files/IJISRT26JUL136.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "be3b8f825b7d919db07e96813b3c95d510ba5972397d098803555da9411eee03",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://www.ijisrt.com/assets/upload/files/IJISRT26JUL136.pdf"
+    }
+  ],
+  "bytes": 590028,
+  "family_id": "FAM-5595dec4c21b4260a315",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-5595dec4c21b4260a315.pdf",
+  "pdf_sha256": "be3b8f825b7d919db07e96813b3c95d510ba5972397d098803555da9411eee03",
+  "representative_canonical_id": "CAN-be54464f27f815a5e0e9",
+  "retrieved_url": "https://www.ijisrt.com/assets/upload/files/IJISRT26JUL136.pdf",
+  "status": "retrieved_open"
+}

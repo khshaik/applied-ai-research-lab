@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 170275,
+      "content_type": "application/pdf",
+      "final_url": "https://koara.lib.keio.ac.jp/xoonips/modules/xoonips/download.php/KO50002002-20205478-0001.pdf?file_id=157507",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "c6ee40afb69ff5a56d0bb7b53b5111a563d99d8b5f2f04a4214e6ea44340d0ff",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://koara.lib.keio.ac.jp/xoonips/modules/xoonips/download.php/KO50002002-20205478-0001.pdf?file_id=157507"
+    }
+  ],
+  "bytes": 170275,
+  "family_id": "FAM-708e641046c7126818c8",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-708e641046c7126818c8.pdf",
+  "pdf_sha256": "c6ee40afb69ff5a56d0bb7b53b5111a563d99d8b5f2f04a4214e6ea44340d0ff",
+  "representative_canonical_id": "CAN-7428c07522e2616d1898",
+  "retrieved_url": "https://koara.lib.keio.ac.jp/xoonips/modules/xoonips/download.php/KO50002002-20205478-0001.pdf?file_id=157507",
+  "status": "retrieved_open"
+}

@@ -1,0 +1,23 @@
+{
+  "attempts": [
+    {
+      "active_indicators": [
+        "/S /URI"
+      ],
+      "attempted_at_utc": "2026-08-19T05:42:06.583170Z",
+      "basis": "live_openalex_best_oa_location_oa_pdf",
+      "bytes": 693698,
+      "final_url": "https://aircconline.com/csit/papers/vol14/csit140702.pdf",
+      "quarantine_path": "/Users/81194246/Library/CloudStorage/OneDrive-Pepsico/Personal/AI/Projects/ThinkAI/storypoints-age-of-ai/gate2/output/systematic/v1.3/20260816/d14/fulltext/quarantine/CITFAM-60cb1c763d3dfd71c8e6.pdf",
+      "redirect_count": 1,
+      "sha256": "fba7d31770ff0bf98ef826545e154c14c5b78298d830292e5191e3589fad6d51",
+      "status": "quarantined_active_content"
+    }
+  ],
+  "bytes": 693698,
+  "citation_family_id": "CITFAM-60cb1c763d3dfd71c8e6",
+  "pdf_path": null,
+  "pdf_sha256": "fba7d31770ff0bf98ef826545e154c14c5b78298d830292e5191e3589fad6d51",
+  "security_attestation": "Static HTTPS retrieval only; public-IP validation, bounded redirects/size, signature and active-content checks; no PDF execution.",
+  "status": "quarantined_active_content"
+}

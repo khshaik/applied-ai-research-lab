@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 874640,
+      "content_type": "application/pdf",
+      "final_url": "https://ijcesen.com/index.php/ijcesen/article/download/4621/1626",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "c8b2bbe3e012478a145b8ea68b337528dd52e31146bcea48360250ae9379e5fc",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://ijcesen.com/index.php/ijcesen/article/download/4621/1626"
+    }
+  ],
+  "bytes": 874640,
+  "family_id": "FAM-a9e6b604ef6d7158d898",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-a9e6b604ef6d7158d898.pdf",
+  "pdf_sha256": "c8b2bbe3e012478a145b8ea68b337528dd52e31146bcea48360250ae9379e5fc",
+  "representative_canonical_id": "CAN-89e2bdb762d5477b8a35",
+  "retrieved_url": "https://ijcesen.com/index.php/ijcesen/article/download/4621/1626",
+  "status": "retrieved_open"
+}

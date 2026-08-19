@@ -1,0 +1,724 @@
+{
+  "status": "development_query_precision_decisions",
+  "family_id": "S5S",
+  "source": "arxiv",
+  "query_id": "AX-S5S",
+  "query_version": "0.1",
+  "sampling_method": "first 10, last 10, 10 centered, and 70 deterministic hash-selected remaining positions",
+  "sampling_seed_sha256": "0ae355d66d28adf43c83ae3b95b60cadfb1a281bbe7b1c6dcab29c660122d003",
+  "sample_positions_zero_based": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    27,
+    50,
+    114,
+    167,
+    222,
+    233,
+    234,
+    251,
+    272,
+    274,
+    283,
+    289,
+    302,
+    310,
+    335,
+    348,
+    394,
+    405,
+    410,
+    412,
+    418,
+    438,
+    440,
+    484,
+    499,
+    556,
+    562,
+    576,
+    582,
+    596,
+    661,
+    662,
+    663,
+    664,
+    665,
+    666,
+    667,
+    668,
+    669,
+    670,
+    684,
+    727,
+    753,
+    790,
+    806,
+    862,
+    881,
+    892,
+    894,
+    901,
+    918,
+    928,
+    959,
+    961,
+    983,
+    984,
+    990,
+    1042,
+    1065,
+    1092,
+    1094,
+    1120,
+    1127,
+    1145,
+    1148,
+    1150,
+    1160,
+    1165,
+    1178,
+    1185,
+    1202,
+    1216,
+    1221,
+    1232,
+    1254,
+    1263,
+    1265,
+    1270,
+    1273,
+    1274,
+    1323,
+    1324,
+    1325,
+    1326,
+    1327,
+    1328,
+    1329,
+    1330,
+    1331,
+    1332
+  ],
+  "ordered_sample_source_ids": [
+    "2608.11878v1",
+    "2608.11624v1",
+    "2608.11512v1",
+    "2608.10530v1",
+    "2608.10171v1",
+    "2608.09643v1",
+    "2608.09551v1",
+    "2608.08889v1",
+    "2608.08795v1",
+    "2608.08100v1",
+    "2607.29604v1",
+    "2607.12089v1",
+    "2606.09700v2",
+    "2605.14851v1",
+    "2604.20779v1",
+    "2604.17053v1",
+    "2604.16753v1",
+    "2604.06091v2",
+    "2604.00074v1",
+    "2603.29418v2",
+    "2603.23633v1",
+    "2603.22489v1",
+    "2603.17639v1",
+    "2603.14158v2",
+    "2603.23509v1",
+    "2603.00960v1",
+    "2602.02584v1",
+    "2601.19726v1",
+    "2601.18240v1",
+    "2601.17762v1",
+    "2601.16200v3",
+    "2601.06419v1",
+    "2601.05467v3",
+    "2512.15298v1",
+    "2512.03180v1",
+    "2510.23421v2",
+    "2510.21910v3",
+    "2510.14207v3",
+    "2510.12186v1",
+    "2510.17842v1",
+    "2509.04802v3",
+    "2509.04655v2",
+    "2509.05372v2",
+    "2509.03419v2",
+    "2509.03331v1",
+    "2509.03117v3",
+    "2509.02449v1",
+    "2509.01909v7",
+    "2509.00882v5",
+    "2509.00544v4",
+    "2508.15526v1",
+    "2507.22223v3",
+    "2507.09406v1",
+    "2506.13510v4",
+    "2506.07645v1",
+    "2505.12923v2",
+    "2505.04195v2",
+    "2504.21043v2",
+    "2504.19461v1",
+    "2504.15903v2",
+    "2504.07634v1",
+    "2504.02725v2",
+    "2502.19920v2",
+    "2502.18770v6",
+    "2502.02958v3",
+    "2502.02068v3",
+    "2501.16727v2",
+    "2411.12701v3",
+    "2410.15236v4",
+    "2409.14285v1",
+    "2409.11365v2",
+    "2408.03489v1",
+    "2407.14838v1",
+    "2406.14393v5",
+    "2406.11801v2",
+    "2406.10630v1",
+    "2405.20653v3",
+    "2405.19360v3",
+    "2405.06371v2",
+    "2405.00218v3",
+    "2404.01907v1",
+    "2403.09572v4",
+    "2403.07708v2",
+    "2402.15929v3",
+    "2401.09727v2",
+    "2312.04730v2",
+    "2312.03853v7",
+    "2312.00029v3",
+    "2311.09127v2",
+    "2311.08487v1",
+    "2305.10036v3",
+    "2304.10778v2",
+    "2304.09655v2",
+    "2304.02014v1",
+    "2303.11156v4",
+    "2301.12868v3",
+    "2212.09561v5",
+    "2212.03551v5",
+    "2210.04359v3",
+    "2112.02125v3"
+  ],
+  "relevance_rule": {
+    "all_conditions_required": [
+      "AI materially assists software development or delivery.",
+      "Security review, validation, or assurance is central.",
+      "Human effort, attention, oversight, or burden is measured, modeled, or substantively analyzed."
+    ],
+    "technical_outcome_alone_is_insufficient": true
+  },
+  "interpretation_boundary": "Metadata-level query-precision appraisal only; these are not eligibility, inclusion, critical-appraisal, or PRISMA decisions.",
+  "decisions": [
+    {
+      "source_id": "2608.11878v1",
+      "decision": "likely_irrelevant",
+      "reason": "Metadata for \"ToolHazard: Scaling Adversarial Environments for Security Evaluation and Alignment of LLM-based Agents\" does not satisfy all three S5S conditions: AI-assisted software delivery, central security assurance, and substantive human effort or oversight analysis."
+    },
+    {
+      "source_id": "2608.11624v1",
+      "decision": "likely_irrelevant",
+      "reason": "Metadata for \"Learning to Persuade Exposes How Easily LLMs Abandon Correct Beliefs\" does not satisfy all three S5S conditions: AI-assisted software delivery, central security assurance, and substantive human effort or oversight analysis."
+    },
+    {
+      "source_id": "2608.11512v1",
+      "decision": "likely_irrelevant",
+      "reason": "Metadata for \"Cheap, Fallible Cognition and the Political Economy of Expertise\" does not satisfy all three S5S conditions: AI-assisted software delivery, central security assurance, and substantive human effort or oversight analysis."
+    },
+    {
+      "source_id": "2608.10530v1",
+      "decision": "likely_irrelevant",
+      "reason": "Metadata for \"On Understanding, Identifying, and Mitigating Vulnerabilities in Agentic Large Language Models\" does not satisfy all three S5S conditions: AI-assisted software delivery, central security assurance, and substantive human effort or oversight analysis."
+    },
+    {
+      "source_id": "2608.10171v1",
+      "decision": "likely_irrelevant",
+      "reason": "Metadata for \"Generating Attacks for LLMs with GFlowNets\" does not satisfy all three S5S conditions: AI-assisted software delivery, central security assurance, and substantive human effort or oversight analysis."
+    },
+    {
+      "source_id": "2608.09643v1",
+      "decision": "likely_relevant",
+      "reason": "Directly states that human security review cannot scale with AI-generated production code and analyzes a review aid."
+    },
+    {
+      "source_id": "2608.09551v1",
+      "decision": "likely_irrelevant",
+      "reason": "Metadata for \"Pragmatic Attack Surface: Vulnerabilities of Implicit Context in Large Language Models\" does not satisfy all three S5S conditions: AI-assisted software delivery, central security assurance, and substantive human effort or oversight analysis."
+    },
+    {
+      "source_id": "2608.08889v1",
+      "decision": "likely_irrelevant",
+      "reason": "Metadata for \"LLM Reasoning for Subjective Tasks: Failure Modes, Mitigation, and Dynamic Reasoning Routing\" does not satisfy all three S5S conditions: AI-assisted software delivery, central security assurance, and substantive human effort or oversight analysis."
+    },
+    {
+      "source_id": "2608.08795v1",
+      "decision": "likely_irrelevant",
+      "reason": "Metadata for \"Toward Metacognitive One-Shot Indirect Prompt Injection: Strategy Abstraction Via Outcome-Conditioned Reflection\" does not satisfy all three S5S conditions: AI-assisted software delivery, central security assurance, and substantive human effort or oversight analysis."
+    },
+    {
+      "source_id": "2608.08100v1",
+      "decision": "likely_irrelevant",
+      "reason": "Metadata for \"Defending Retrieval-Augmented Intrusion Detection Against Knowledge Poisoning and Prompt Injection\" does not satisfy all three S5S conditions: AI-assisted software delivery, central security assurance, and substantive human effort or oversight analysis."
+    },
+    {
+      "source_id": "2607.29604v1",
+      "decision": "likely_irrelevant",
+      "reason": "Metadata for \"CWEEP: A Lexical Static Analysis Framework for CWE Early Prevention\" does not satisfy all three S5S conditions: AI-assisted software delivery, central security assurance, and substantive human effort or oversight analysis."
+    },
+    {
+      "source_id": "2607.12089v1",
+      "decision": "likely_irrelevant",
+      "reason": "Metadata for \"Cross-Cutting Security Analysis of LLM-Generated Code via Metamorphic Testing and Association Rule Mining\" does not satisfy all three S5S conditions: AI-assisted software delivery, central security assurance, and substantive human effort or oversight analysis."
+    },
+    {
+      "source_id": "2606.09700v2",
+      "decision": "likely_irrelevant",
+      "reason": "Metadata for \"What the Eyes See, the LLMs Miss: Exploiting Human Perception for Adversarial Text Attacks\" does not satisfy all three S5S conditions: AI-assisted software delivery, central security assurance, and substantive human effort or oversight analysis."
+    },
+    {
+      "source_id": "2605.14851v1",
+      "decision": "likely_irrelevant",
+      "reason": "Metadata for \"IFPV: An Integrated Multi-Agent Framework for Generative Operational Planning and High-Fidelity Plan Verification\" does not satisfy all three S5S conditions: AI-assisted software delivery, central security assurance, and substantive human effort or oversight analysis."
+    },
+    {
+      "source_id": "2604.20779v1",
+      "decision": "likely_irrelevant",
+      "reason": "Metadata for \"SWE-chat: Coding Agent Interactions From Real Users in the Wild\" does not satisfy all three S5S conditions: AI-assisted software delivery, central security assurance, and substantive human effort or oversight analysis."
+    },
+    {
+      "source_id": "2604.17053v1",
+      "decision": "likely_irrelevant",
+      "reason": "Metadata for \"Jailbreaking Large Language Models with Morality Attacks\" does not satisfy all three S5S conditions: AI-assisted software delivery, central security assurance, and substantive human effort or oversight analysis."
+    },
+    {
+      "source_id": "2604.16753v1",
+      "decision": "likely_irrelevant",
+      "reason": "Metadata for \"Know When to Trust the Skill: Delayed Appraisal and Epistemic Vigilance for Single-Agent LLMs\" does not satisfy all three S5S conditions: AI-assisted software delivery, central security assurance, and substantive human effort or oversight analysis."
+    },
+    {
+      "source_id": "2604.06091v2",
+      "decision": "likely_irrelevant",
+      "reason": "Metadata for \"Social Dynamics as Critical Vulnerabilities that Undermine Objective Decision-Making in LLM Collectives\" does not satisfy all three S5S conditions: AI-assisted software delivery, central security assurance, and substantive human effort or oversight analysis."
+    },
+    {
+      "source_id": "2604.00074v1",
+      "decision": "likely_irrelevant",
+      "reason": "Metadata for \"PASM: Population Adaptive Symbolic Mixture-of-Experts Model for Cross-location Hurricane Evacuation Decision Prediction\" does not satisfy all three S5S conditions: AI-assisted software delivery, central security assurance, and substantive human effort or oversight analysis."
+    },
+    {
+      "source_id": "2603.29418v2",
+      "decision": "likely_irrelevant",
+      "reason": "Metadata for \"Covert Visual Prompt Injection against Commercial Multimodal Large Language Models\" does not satisfy all three S5S conditions: AI-assisted software delivery, central security assurance, and substantive human effort or oversight analysis."
+    },
+    {
+      "source_id": "2603.23633v1",
+      "decision": "uncertain",
+      "reason": "AI-generated code security validation is central, but the metadata does not clearly establish whether human assurance effort is measured or substantively analyzed."
+    },
+    {
+      "source_id": "2603.22489v1",
+      "decision": "likely_irrelevant",
+      "reason": "Metadata for \"Model Context Protocol Threat Modeling and Analyzing Vulnerabilities to Prompt Injection with Tool Poisoning\" does not satisfy all three S5S conditions: AI-assisted software delivery, central security assurance, and substantive human effort or oversight analysis."
+    },
+    {
+      "source_id": "2603.17639v1",
+      "decision": "likely_irrelevant",
+      "reason": "Metadata for \"VeriGrey: Greybox Agent Validation\" does not satisfy all three S5S conditions: AI-assisted software delivery, central security assurance, and substantive human effort or oversight analysis."
+    },
+    {
+      "source_id": "2603.14158v2",
+      "decision": "likely_irrelevant",
+      "reason": "Metadata for \"Clinician input steers AI toward accurate and harmful recommendations\" does not satisfy all three S5S conditions: AI-assisted software delivery, central security assurance, and substantive human effort or oversight analysis."
+    },
+    {
+      "source_id": "2603.23509v1",
+      "decision": "likely_irrelevant",
+      "reason": "Metadata for \"Internal Safety Collapse in Frontier Large Language Models\" does not satisfy all three S5S conditions: AI-assisted software delivery, central security assurance, and substantive human effort or oversight analysis."
+    },
+    {
+      "source_id": "2603.00960v1",
+      "decision": "uncertain",
+      "reason": "Links AI-accelerated development velocity to constrained security testing, but human attention burden is only indirectly described."
+    },
+    {
+      "source_id": "2602.02584v1",
+      "decision": "likely_irrelevant",
+      "reason": "Metadata for \"Constitutional Spec-Driven Development: Enforcing Security by Construction in AI-Assisted Code Generation\" does not satisfy all three S5S conditions: AI-assisted software delivery, central security assurance, and substantive human effort or oversight analysis."
+    },
+    {
+      "source_id": "2601.19726v1",
+      "decision": "likely_irrelevant",
+      "reason": "Metadata for \"RvB: Automating AI System Hardening via Iterative Red-Blue Games\" does not satisfy all three S5S conditions: AI-assisted software delivery, central security assurance, and substantive human effort or oversight analysis."
+    },
+    {
+      "source_id": "2601.18240v1",
+      "decision": "likely_irrelevant",
+      "reason": "Metadata for \"V-Loop: Visual Logical Loop Verification for Hallucination Detection in Medical Visual Question Answering\" does not satisfy all three S5S conditions: AI-assisted software delivery, central security assurance, and substantive human effort or oversight analysis."
+    },
+    {
+      "source_id": "2601.17762v1",
+      "decision": "likely_irrelevant",
+      "reason": "Metadata for \"Multi-Agent End-to-End Vulnerability Management for Mitigating Recurring Vulnerabilities\" does not satisfy all three S5S conditions: AI-assisted software delivery, central security assurance, and substantive human effort or oversight analysis."
+    },
+    {
+      "source_id": "2601.16200v3",
+      "decision": "likely_irrelevant",
+      "reason": "Metadata for \"Feature-Space Smoothing: Certified Robustness of Deep Representations\" does not satisfy all three S5S conditions: AI-assisted software delivery, central security assurance, and substantive human effort or oversight analysis."
+    },
+    {
+      "source_id": "2601.06419v1",
+      "decision": "likely_relevant",
+      "reason": "Substantively analyzes heavy human rule-crafting and enforcement burden while evaluating secure AI-generated scripts."
+    },
+    {
+      "source_id": "2601.05467v3",
+      "decision": "likely_irrelevant",
+      "reason": "Metadata for \"STELP: Secure Transpilation and Execution of LLM-Generated Programs\" does not satisfy all three S5S conditions: AI-assisted software delivery, central security assurance, and substantive human effort or oversight analysis."
+    },
+    {
+      "source_id": "2512.15298v1",
+      "decision": "likely_irrelevant",
+      "reason": "Metadata for \"ChatGPT and Gemini participated in the Korean College Scholastic Ability Test -- Earth Science I\" does not satisfy all three S5S conditions: AI-assisted software delivery, central security assurance, and substantive human effort or oversight analysis."
+    },
+    {
+      "source_id": "2512.03180v1",
+      "decision": "likely_irrelevant",
+      "reason": "Metadata for \"AGENTSAFE: A Unified Framework for Ethical Assurance and Governance in Agentic AI\" does not satisfy all three S5S conditions: AI-assisted software delivery, central security assurance, and substantive human effort or oversight analysis."
+    },
+    {
+      "source_id": "2510.23421v2",
+      "decision": "likely_irrelevant",
+      "reason": "Metadata for \"Quantifying Systemic Vulnerability in the Foundation Model Industry\" does not satisfy all three S5S conditions: AI-assisted software delivery, central security assurance, and substantive human effort or oversight analysis."
+    },
+    {
+      "source_id": "2510.21910v3",
+      "decision": "likely_irrelevant",
+      "reason": "Metadata for \"Adversarial Déjà Vu: Jailbreak Dictionary Learning for Stronger Generalization to Unseen Attacks\" does not satisfy all three S5S conditions: AI-assisted software delivery, central security assurance, and substantive human effort or oversight analysis."
+    },
+    {
+      "source_id": "2510.14207v3",
+      "decision": "likely_irrelevant",
+      "reason": "Metadata for \"Echoes of Human Malice in Agents: Benchmarking LLMs for Multi-Turn Online Harassment Attacks\" does not satisfy all three S5S conditions: AI-assisted software delivery, central security assurance, and substantive human effort or oversight analysis."
+    },
+    {
+      "source_id": "2510.12186v1",
+      "decision": "likely_relevant",
+      "reason": "Centers secure code review, manual-effort reduction, false-positive burden, and production acceptance of AI review comments."
+    },
+    {
+      "source_id": "2510.17842v1",
+      "decision": "likely_irrelevant",
+      "reason": "Metadata for \"Vibe Coding: Toward an AI-Native Paradigm for Semantic and Intent-Driven Programming\" does not satisfy all three S5S conditions: AI-assisted software delivery, central security assurance, and substantive human effort or oversight analysis."
+    },
+    {
+      "source_id": "2509.04802v3",
+      "decision": "likely_irrelevant",
+      "reason": "Metadata for \"Mind the Gap: Evaluating Model- and Agentic-Level Vulnerabilities in LLMs with Action Graphs\" does not satisfy all three S5S conditions: AI-assisted software delivery, central security assurance, and substantive human effort or oversight analysis."
+    },
+    {
+      "source_id": "2509.04655v2",
+      "decision": "likely_irrelevant",
+      "reason": "Metadata for \"Polysemantic Dropout: Conformal OOD Detection for Specialized LLMs\" does not satisfy all three S5S conditions: AI-assisted software delivery, central security assurance, and substantive human effort or oversight analysis."
+    },
+    {
+      "source_id": "2509.05372v2",
+      "decision": "likely_irrelevant",
+      "reason": "Metadata for \"Adversarial Bug Reports as a Security Risk in Language Model-Based Automated Program Repair\" does not satisfy all three S5S conditions: AI-assisted software delivery, central security assurance, and substantive human effort or oversight analysis."
+    },
+    {
+      "source_id": "2509.03419v2",
+      "decision": "likely_irrelevant",
+      "reason": "Metadata for \"Curse of Knowledge: When Complex Evaluation Context Benefits yet Biases LLM Judges\" does not satisfy all three S5S conditions: AI-assisted software delivery, central security assurance, and substantive human effort or oversight analysis."
+    },
+    {
+      "source_id": "2509.03331v1",
+      "decision": "likely_irrelevant",
+      "reason": "Metadata for \"VulnRepairEval: An Exploit-Based Evaluation Framework for Assessing Large Language Model Vulnerability Repair Capabilities\" does not satisfy all three S5S conditions: AI-assisted software delivery, central security assurance, and substantive human effort or oversight analysis."
+    },
+    {
+      "source_id": "2509.03117v3",
+      "decision": "likely_irrelevant",
+      "reason": "Metadata for \"PromptCOS: Towards Content-only System Prompt Copyright Auditing for LLMs\" does not satisfy all three S5S conditions: AI-assisted software delivery, central security assurance, and substantive human effort or oversight analysis."
+    },
+    {
+      "source_id": "2509.02449v1",
+      "decision": "likely_irrelevant",
+      "reason": "Metadata for \"KubeIntellect: A Modular LLM-Orchestrated Agent Framework for End-to-End Kubernetes Management\" does not satisfy all three S5S conditions: AI-assisted software delivery, central security assurance, and substantive human effort or oversight analysis."
+    },
+    {
+      "source_id": "2509.01909v7",
+      "decision": "likely_irrelevant",
+      "reason": "Metadata for \"Oyster-I: Beyond Refusal -- Constructive Safety Alignment for Responsible Language Models\" does not satisfy all three S5S conditions: AI-assisted software delivery, central security assurance, and substantive human effort or oversight analysis."
+    },
+    {
+      "source_id": "2509.00882v5",
+      "decision": "likely_irrelevant",
+      "reason": "Metadata for \"VULSOLVER: Vulnerability Detection via LLM-Driven Constraint Solving\" does not satisfy all three S5S conditions: AI-assisted software delivery, central security assurance, and substantive human effort or oversight analysis."
+    },
+    {
+      "source_id": "2509.00544v4",
+      "decision": "likely_irrelevant",
+      "reason": "Metadata for \"When Thinking Backfires: Mechanistic Insights Into Reasoning-Induced Misalignment\" does not satisfy all three S5S conditions: AI-assisted software delivery, central security assurance, and substantive human effort or oversight analysis."
+    },
+    {
+      "source_id": "2508.15526v1",
+      "decision": "likely_irrelevant",
+      "reason": "Metadata for \"SafetyFlow: An Agent-Flow System for Automated LLM Safety Benchmarking\" does not satisfy all three S5S conditions: AI-assisted software delivery, central security assurance, and substantive human effort or oversight analysis."
+    },
+    {
+      "source_id": "2507.22223v3",
+      "decision": "uncertain",
+      "reason": "Covers organizational barriers and LLM-supported secure coding, but metadata does not clearly connect them to measured human assurance effort."
+    },
+    {
+      "source_id": "2507.09406v1",
+      "decision": "likely_irrelevant",
+      "reason": "Metadata for \"Adversarial Activation Patching: A Framework for Detecting and Mitigating Emergent Deception in Safety-Aligned Transformers\" does not satisfy all three S5S conditions: AI-assisted software delivery, central security assurance, and substantive human effort or oversight analysis."
+    },
+    {
+      "source_id": "2506.13510v4",
+      "decision": "likely_irrelevant",
+      "reason": "Metadata for \"Safe-Child-LLM: A Developmental Benchmark for Evaluating LLM Safety in Child-LLM Interactions\" does not satisfy all three S5S conditions: AI-assisted software delivery, central security assurance, and substantive human effort or oversight analysis."
+    },
+    {
+      "source_id": "2506.07645v1",
+      "decision": "likely_irrelevant",
+      "reason": "Metadata for \"Evaluating LLMs Robustness in Less Resourced Languages with Proxy Models\" does not satisfy all three S5S conditions: AI-assisted software delivery, central security assurance, and substantive human effort or oversight analysis."
+    },
+    {
+      "source_id": "2505.12923v2",
+      "decision": "likely_irrelevant",
+      "reason": "Metadata for \"The Traitors: Deception and Trust in Multi-Agent Language Model Simulations\" does not satisfy all three S5S conditions: AI-assisted software delivery, central security assurance, and substantive human effort or oversight analysis."
+    },
+    {
+      "source_id": "2505.04195v2",
+      "decision": "uncertain",
+      "reason": "Uses AI to verify and patch vulnerable generated code, but human review or oversight burden is not clearly characterized."
+    },
+    {
+      "source_id": "2504.21043v2",
+      "decision": "likely_irrelevant",
+      "reason": "Metadata for \"CodeBC: A More Secure Large Language Model for Smart Contract Code Generation in Blockchain\" does not satisfy all three S5S conditions: AI-assisted software delivery, central security assurance, and substantive human effort or oversight analysis."
+    },
+    {
+      "source_id": "2504.19461v1",
+      "decision": "uncertain",
+      "reason": "Discusses practitioner integration of GenAI into secure workflows, but the metadata does not show substantive human-effort analysis."
+    },
+    {
+      "source_id": "2504.15903v2",
+      "decision": "likely_irrelevant",
+      "reason": "Metadata for \"Impact of Noise on LLM-Models Performance in Abstraction and Reasoning Corpus (ARC) Tasks with Model Temperature Considerations\" does not satisfy all three S5S conditions: AI-assisted software delivery, central security assurance, and substantive human effort or oversight analysis."
+    },
+    {
+      "source_id": "2504.07634v1",
+      "decision": "likely_relevant",
+      "reason": "Explicitly analyzes specialized, time-consuming manual vulnerability repair and an AI agent intended to reduce that burden."
+    },
+    {
+      "source_id": "2504.02725v2",
+      "decision": "likely_irrelevant",
+      "reason": "Metadata for \"SAFER: Advancing Safety Alignment via Efficient Ex-Ante Reasoning\" does not satisfy all three S5S conditions: AI-assisted software delivery, central security assurance, and substantive human effort or oversight analysis."
+    },
+    {
+      "source_id": "2502.19920v2",
+      "decision": "likely_irrelevant",
+      "reason": "Metadata for \"Pokemon Red via Reinforcement Learning\" does not satisfy all three S5S conditions: AI-assisted software delivery, central security assurance, and substantive human effort or oversight analysis."
+    },
+    {
+      "source_id": "2502.18770v6",
+      "decision": "likely_irrelevant",
+      "reason": "Metadata for \"Reward Shaping to Mitigate Reward Hacking in RLHF\" does not satisfy all three S5S conditions: AI-assisted software delivery, central security assurance, and substantive human effort or oversight analysis."
+    },
+    {
+      "source_id": "2502.02958v3",
+      "decision": "likely_irrelevant",
+      "reason": "Metadata for \"Position: Editing Large Language Models Poses Serious Safety Risks\" does not satisfy all three S5S conditions: AI-assisted software delivery, central security assurance, and substantive human effort or oversight analysis."
+    },
+    {
+      "source_id": "2502.02068v3",
+      "decision": "likely_irrelevant",
+      "reason": "Metadata for \"Robust and Secure Code Watermarking for Large Language Models via ML/Crypto Codesign\" does not satisfy all three S5S conditions: AI-assisted software delivery, central security assurance, and substantive human effort or oversight analysis."
+    },
+    {
+      "source_id": "2501.16727v2",
+      "decision": "likely_irrelevant",
+      "reason": "Metadata for \"xJailbreak: Representation Space Guided Reinforcement Learning for Interpretable LLM Jailbreaking\" does not satisfy all three S5S conditions: AI-assisted software delivery, central security assurance, and substantive human effort or oversight analysis."
+    },
+    {
+      "source_id": "2411.12701v3",
+      "decision": "likely_irrelevant",
+      "reason": "Metadata for \"When Backdoors Speak: Understanding LLM Backdoor Attacks Through Model-Generated Explanations\" does not satisfy all three S5S conditions: AI-assisted software delivery, central security assurance, and substantive human effort or oversight analysis."
+    },
+    {
+      "source_id": "2410.15236v4",
+      "decision": "likely_irrelevant",
+      "reason": "Metadata for \"Jailbreaking and Mitigation of Vulnerabilities in Large Language Models\" does not satisfy all three S5S conditions: AI-assisted software delivery, central security assurance, and substantive human effort or oversight analysis."
+    },
+    {
+      "source_id": "2409.14285v1",
+      "decision": "likely_irrelevant",
+      "reason": "Metadata for \"ESPERANTO: Evaluating Synthesized Phrases to Enhance Robustness in AI Detection for Text Origination\" does not satisfy all three S5S conditions: AI-assisted software delivery, central security assurance, and substantive human effort or oversight analysis."
+    },
+    {
+      "source_id": "2409.11365v2",
+      "decision": "likely_irrelevant",
+      "reason": "Metadata for \"CoCA: Regaining Safety-awareness of Multimodal Large Language Models with Constitutional Calibration\" does not satisfy all three S5S conditions: AI-assisted software delivery, central security assurance, and substantive human effort or oversight analysis."
+    },
+    {
+      "source_id": "2408.03489v1",
+      "decision": "likely_irrelevant",
+      "reason": "Metadata for \"Harnessing the Power of LLMs in Source Code Vulnerability Detection\" does not satisfy all three S5S conditions: AI-assisted software delivery, central security assurance, and substantive human effort or oversight analysis."
+    },
+    {
+      "source_id": "2407.14838v1",
+      "decision": "likely_irrelevant",
+      "reason": "Metadata for \"Retrieval Augmented Generation Integrated Large Language Models in Smart Contract Vulnerability Detection\" does not satisfy all three S5S conditions: AI-assisted software delivery, central security assurance, and substantive human effort or oversight analysis."
+    },
+    {
+      "source_id": "2406.14393v5",
+      "decision": "likely_irrelevant",
+      "reason": "Metadata for \"Jailbreaking as a Reward Misspecification Problem\" does not satisfy all three S5S conditions: AI-assisted software delivery, central security assurance, and substantive human effort or oversight analysis."
+    },
+    {
+      "source_id": "2406.11801v2",
+      "decision": "likely_irrelevant",
+      "reason": "Metadata for \"Safety Arithmetic: A Framework for Test-time Safety Alignment of Language Models by Steering Parameters and Activations\" does not satisfy all three S5S conditions: AI-assisted software delivery, central security assurance, and substantive human effort or oversight analysis."
+    },
+    {
+      "source_id": "2406.10630v1",
+      "decision": "likely_irrelevant",
+      "reason": "Metadata for \"Emerging Safety Attack and Defense in Federated Instruction Tuning of Large Language Models\" does not satisfy all three S5S conditions: AI-assisted software delivery, central security assurance, and substantive human effort or oversight analysis."
+    },
+    {
+      "source_id": "2405.20653v3",
+      "decision": "likely_irrelevant",
+      "reason": "Metadata for \"Mind the Inconspicuous: Revealing the Hidden Weakness in Aligned LLMs' Refusal Boundaries\" does not satisfy all three S5S conditions: AI-assisted software delivery, central security assurance, and substantive human effort or oversight analysis."
+    },
+    {
+      "source_id": "2405.19360v3",
+      "decision": "likely_irrelevant",
+      "reason": "Metadata for \"ART: Automatic Red-teaming for Text-to-Image Models to Protect Benign Users\" does not satisfy all three S5S conditions: AI-assisted software delivery, central security assurance, and substantive human effort or oversight analysis."
+    },
+    {
+      "source_id": "2405.06371v2",
+      "decision": "likely_relevant",
+      "reason": "Qualitatively studies professionals' security checking, mistrust, and oversight of AI suggestions in software development."
+    },
+    {
+      "source_id": "2405.00218v3",
+      "decision": "likely_irrelevant",
+      "reason": "Metadata for \"Constrained Decoding for Secure Code Generation\" does not satisfy all three S5S conditions: AI-assisted software delivery, central security assurance, and substantive human effort or oversight analysis."
+    },
+    {
+      "source_id": "2404.01907v1",
+      "decision": "likely_irrelevant",
+      "reason": "Metadata for \"Humanizing Machine-Generated Content: Evading AI-Text Detection through Adversarial Attack\" does not satisfy all three S5S conditions: AI-assisted software delivery, central security assurance, and substantive human effort or oversight analysis."
+    },
+    {
+      "source_id": "2403.09572v4",
+      "decision": "likely_irrelevant",
+      "reason": "Metadata for \"Eyes Closed, Safety On: Protecting Multimodal LLMs via Image-to-Text Transformation\" does not satisfy all three S5S conditions: AI-assisted software delivery, central security assurance, and substantive human effort or oversight analysis."
+    },
+    {
+      "source_id": "2403.07708v2",
+      "decision": "likely_irrelevant",
+      "reason": "Metadata for \"Improving Reinforcement Learning from Human Feedback Using Contrastive Rewards\" does not satisfy all three S5S conditions: AI-assisted software delivery, central security assurance, and substantive human effort or oversight analysis."
+    },
+    {
+      "source_id": "2402.15929v3",
+      "decision": "likely_irrelevant",
+      "reason": "Metadata for \"Certifying Knowledge Comprehension in LLMs\" does not satisfy all three S5S conditions: AI-assisted software delivery, central security assurance, and substantive human effort or oversight analysis."
+    },
+    {
+      "source_id": "2401.09727v2",
+      "decision": "likely_irrelevant",
+      "reason": "Metadata for \"Lateral Phishing With Large Language Models: A Large Organization Comparative Study\" does not satisfy all three S5S conditions: AI-assisted software delivery, central security assurance, and substantive human effort or oversight analysis."
+    },
+    {
+      "source_id": "2312.04730v2",
+      "decision": "uncertain",
+      "reason": "Shows security risk in AI-assisted code generation and motivates red-team review, but does not clearly study human assurance demand."
+    },
+    {
+      "source_id": "2312.03853v7",
+      "decision": "likely_irrelevant",
+      "reason": "Metadata for \"Dr. Jekyll and Mr. Hyde: Two Faces of LLMs\" does not satisfy all three S5S conditions: AI-assisted software delivery, central security assurance, and substantive human effort or oversight analysis."
+    },
+    {
+      "source_id": "2312.00029v3",
+      "decision": "likely_irrelevant",
+      "reason": "Metadata for \"Bergeron: Combating Adversarial Attacks through a Conscience-Based Alignment Framework\" does not satisfy all three S5S conditions: AI-assisted software delivery, central security assurance, and substantive human effort or oversight analysis."
+    },
+    {
+      "source_id": "2311.09127v2",
+      "decision": "likely_irrelevant",
+      "reason": "Metadata for \"Jailbreaking GPT-4V via Self-Adversarial Attacks with System Prompts\" does not satisfy all three S5S conditions: AI-assisted software delivery, central security assurance, and substantive human effort or oversight analysis."
+    },
+    {
+      "source_id": "2311.08487v1",
+      "decision": "likely_irrelevant",
+      "reason": "Metadata for \"Alignment is not sufficient to prevent large language models from generating harmful information: A psychoanalytic perspective\" does not satisfy all three S5S conditions: AI-assisted software delivery, central security assurance, and substantive human effort or oversight analysis."
+    },
+    {
+      "source_id": "2305.10036v3",
+      "decision": "likely_irrelevant",
+      "reason": "Metadata for \"Are You Copying My Model? Protecting the Copyright of Large Language Models for EaaS via Backdoor Watermark\" does not satisfy all three S5S conditions: AI-assisted software delivery, central security assurance, and substantive human effort or oversight analysis."
+    },
+    {
+      "source_id": "2304.10778v2",
+      "decision": "uncertain",
+      "reason": "Evaluates security and quality of AI-generated code, but metadata does not indicate that human review effort or oversight is analyzed."
+    },
+    {
+      "source_id": "2304.09655v2",
+      "decision": "likely_irrelevant",
+      "reason": "Metadata for \"How Secure is Code Generated by ChatGPT?\" does not satisfy all three S5S conditions: AI-assisted software delivery, central security assurance, and substantive human effort or oversight analysis."
+    },
+    {
+      "source_id": "2304.02014v1",
+      "decision": "likely_irrelevant",
+      "reason": "Metadata for \"Large Language Models are Edge-Case Fuzzers: Testing Deep Learning Libraries via FuzzGPT\" does not satisfy all three S5S conditions: AI-assisted software delivery, central security assurance, and substantive human effort or oversight analysis."
+    },
+    {
+      "source_id": "2303.11156v4",
+      "decision": "likely_irrelevant",
+      "reason": "Metadata for \"Can AI-Generated Text be Reliably Detected?\" does not satisfy all three S5S conditions: AI-assisted software delivery, central security assurance, and substantive human effort or oversight analysis."
+    },
+    {
+      "source_id": "2301.12868v3",
+      "decision": "likely_irrelevant",
+      "reason": "Metadata for \"On Robustness of Prompt-based Semantic Parsing with Large Pre-trained Language Model: An Empirical Study on Codex\" does not satisfy all three S5S conditions: AI-assisted software delivery, central security assurance, and substantive human effort or oversight analysis."
+    },
+    {
+      "source_id": "2212.09561v5",
+      "decision": "likely_irrelevant",
+      "reason": "Metadata for \"Large Language Models are Better Reasoners with Self-Verification\" does not satisfy all three S5S conditions: AI-assisted software delivery, central security assurance, and substantive human effort or oversight analysis."
+    },
+    {
+      "source_id": "2212.03551v5",
+      "decision": "likely_irrelevant",
+      "reason": "Metadata for \"Talking About Large Language Models\" does not satisfy all three S5S conditions: AI-assisted software delivery, central security assurance, and substantive human effort or oversight analysis."
+    },
+    {
+      "source_id": "2210.04359v3",
+      "decision": "likely_irrelevant",
+      "reason": "Metadata for \"Fine-Grained Detection of Solidarity for Women and Migrants in 155 Years of German Parliamentary Debates\" does not satisfy all three S5S conditions: AI-assisted software delivery, central security assurance, and substantive human effort or oversight analysis."
+    },
+    {
+      "source_id": "2112.02125v3",
+      "decision": "likely_relevant",
+      "reason": "Examines human prompt-design challenges when using code LLMs for vulnerability repair."
+    }
+  ]
+}

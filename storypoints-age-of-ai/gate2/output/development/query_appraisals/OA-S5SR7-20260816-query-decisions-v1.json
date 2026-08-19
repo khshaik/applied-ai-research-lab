@@ -1,0 +1,30 @@
+{
+  "status": "development_query_appraisal_decisions",
+  "source": "OpenAlex",
+  "family_id": "S5S",
+  "query_id": "OA-S5SR7",
+  "sample_method": "complete population because population <= 50",
+  "sample_size": 19,
+  "boundary": "Agent query-relevance appraisal only; not eligibility screening or PRISMA evidence.",
+  "decisions": [
+    {"source_id":"https://openalex.org/W4386584937","decision":"likely_irrelevant","reason":"Programming-instructor adaptation to AI tools does not study software-security assurance work."},
+    {"source_id":"https://openalex.org/W4392564770","decision":"likely_irrelevant","reason":"Instructor perceptions of AI code generation are educational and not security-assurance evidence."},
+    {"source_id":"https://openalex.org/W4415067948","decision":"likely_relevant","reason":"Adverse experiment directly examines vulnerability growth during iterative AI code generation and human-validation need."},
+    {"source_id":"https://openalex.org/W4417132686","decision":"likely_relevant","reason":"Alternate record of the adverse iterative AI-code security study; relevant at query-appraisal stage."},
+    {"source_id":"https://openalex.org/W4396882206","decision":"likely_relevant","reason":"Professional interviews directly examine security practices, concerns, and checking of AI-assistant output."},
+    {"source_id":"https://openalex.org/W4367189652","decision":"likely_irrelevant","reason":"General GPT-4 coding experiments without an indicated human security-assurance outcome."},
+    {"source_id":"https://openalex.org/W7139146083","decision":"likely_relevant","reason":"Developer experiment measures secure-development outcomes by AI condition and experience."},
+    {"source_id":"https://openalex.org/W7138412455","decision":"likely_relevant","reason":"Alternate record of the developer security and experience experiment; relevant before deduplication."},
+    {"source_id":"https://openalex.org/W7166253130","decision":"likely_relevant","reason":"Human vulnerability-patching study measures remediation speed, security efficacy, and perception."},
+    {"source_id":"https://openalex.org/W7165860159","decision":"likely_relevant","reason":"Alternate record of the human LLM-assisted vulnerability-patching study; relevant before deduplication."},
+    {"source_id":"https://openalex.org/W7125677265","decision":"likely_irrelevant","reason":"Generic programming assistance and code development without an indicated security-assurance focus."},
+    {"source_id":"https://openalex.org/W7125694795","decision":"likely_irrelevant","reason":"Duplicate generic programming-assistance record without an indicated security-assurance focus."},
+    {"source_id":"https://openalex.org/W4411949365","decision":"likely_irrelevant","reason":"User insights on program generation do not indicate software-security review or validation outcomes."},
+    {"source_id":"https://openalex.org/W7170032201","decision":"likely_relevant","reason":"Directly compares code-security outcomes for novice and experienced developers using GitHub Copilot."},
+    {"source_id":"https://openalex.org/W7134199729","decision":"uncertain","reason":"Validated AI-assisted development workflow may include assurance burden, but the security-specific contribution is unclear from metadata."},
+    {"source_id":"https://openalex.org/W7134163727","decision":"uncertain","reason":"Alternate white-paper record may address validation work, but security-assurance relevance is unclear from metadata."},
+    {"source_id":"https://openalex.org/W7130626124","decision":"likely_irrelevant","reason":"Cybersecurity-education use of LLM vulnerability analysis is outside organizational software-delivery assurance."},
+    {"source_id":"https://openalex.org/W7131375722","decision":"likely_irrelevant","reason":"Alternate cybersecurity-education record is outside organizational software-delivery assurance."},
+    {"source_id":"https://openalex.org/W7139983517","decision":"likely_irrelevant","reason":"CodeWars educational record is outside the S5S human software-delivery assurance scope."}
+  ]
+}

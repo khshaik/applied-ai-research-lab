@@ -1,0 +1,33 @@
+{
+  "complete_pagination": false,
+  "endpoint": "https://api.openalex.org/works",
+  "executed_at_utc": "2026-08-15T15:02:39.447288+00:00",
+  "from_date": "2019-01-01",
+  "interpretation_boundary": "Open-index development discovery export; not frozen, screened, deduplicated, eligible, or a PRISMA corpus. Retrieval was intentionally capped; total_reported is API metadata, not an exported-record or review-flow count.",
+  "max_pages": 1,
+  "page_size": 100,
+  "pages": [
+    {
+      "file": "page_00000.json",
+      "records": 100,
+      "request_url_sha256": "ad195975ffd03fc52767fe9f93dd067354bb95098272368e5695354ffef62f1b",
+      "sequence": 0,
+      "sha256": "d67c4e5b78d1bf24e436b98b4e59b025d1cbe25cb1727426e70b801d6bc333f6"
+    }
+  ],
+  "query": "(\"large language model\" OR LLM OR Copilot) AND (\"code review\" OR \"validating and repairing\") AND (developer OR human OR cognitive OR workload OR attention OR time OR effort OR trust)",
+  "query_id": "OA-S4R6",
+  "query_mode": "title_abstract_filter",
+  "query_registry_sha256": "690c570de9a5af1b5467fc8b70de9d1571bb0067c9b5ac46e6721ff12a322bb6",
+  "query_sha256": "d1d4822cf23007d7895c73e6328f79111cd56323835e104b86f67a04ab97e3d7",
+  "records_csv": {
+    "file": "records.csv",
+    "sha256": "0f2d649f9dbfc7fc5a129112c91ed214c0520fcf0fd1775c6a2af52d0cf98a89"
+  },
+  "records_retrieved": 100,
+  "retrieval_scope": "truncated_development_pilot",
+  "source": "openalex",
+  "status": "development_pilot",
+  "to_date": "2026-08-15",
+  "total_reported": 564
+}

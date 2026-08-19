@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 793427,
+      "content_type": "application/pdf",
+      "final_url": "https://www.ndss-symposium.org/wp-content/uploads/2026-f2066-paper.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "fb5659e2ca4715594d41684202730c2a1c7f113a00040ef918ec5a6dd4de6bd1",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://doi.org/10.14722/ndss.2026.242066"
+    }
+  ],
+  "bytes": 793427,
+  "family_id": "FAM-67b8a114e42722d6a1f2",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-67b8a114e42722d6a1f2.pdf",
+  "pdf_sha256": "fb5659e2ca4715594d41684202730c2a1c7f113a00040ef918ec5a6dd4de6bd1",
+  "representative_canonical_id": "CAN-18225090638a545dba75",
+  "retrieved_url": "https://www.ndss-symposium.org/wp-content/uploads/2026-f2066-paper.pdf",
+  "status": "retrieved_open"
+}

@@ -1,0 +1,18 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-19T10:04:19.147265Z",
+      "basis": "semantic_scholar_explicit_openAccessPdf",
+      "bytes": 2739,
+      "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S1110866526000320",
+      "redirect_count": 1,
+      "status": "invalid_pdf_signature"
+    }
+  ],
+  "bytes": 0,
+  "citation_family_id": "CITFAM-0c42b6f49101fc1f223a",
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "security_attestation": "Static HTTPS retrieval only; public-IP validation, bounded redirects/size, signature and active-content checks; no PDF execution.",
+  "status": "invalid_pdf_signature"
+}

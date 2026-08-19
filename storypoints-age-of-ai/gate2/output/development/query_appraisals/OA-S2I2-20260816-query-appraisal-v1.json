@@ -1,0 +1,68 @@
+{
+  "burden_acceptance_band": "operational_pass",
+  "complete_pagination": true,
+  "development_diagnostic_minimum": 20,
+  "development_diagnostic_pass": false,
+  "development_diagnostic_required_for_population": 20,
+  "family_id": "S2",
+  "freeze_ready": false,
+  "interpretation_boundary": "Known-item recall and sampled relevance appraisal only; not screening, eligibility, or PRISMA evidence.",
+  "negative_boundary_pass": false,
+  "neutral_disconfirming_recall_pass": true,
+  "population_size_basis": "complete_export_retrieved_count",
+  "population_size_for_sample": 257,
+  "positive_sentinel_recall_pass": false,
+  "query_appraisal_pass": false,
+  "query_appraisal_pass_deprecated_alias_for": "freeze_ready",
+  "query_id": "OA-S2I2",
+  "relevant_plus_uncertain_count": 44,
+  "relevant_plus_uncertain_proportion": 0.88,
+  "relevant_plus_uncertain_wilson_95_interval": [
+    0.7619518261679701,
+    0.9438239984906773
+  ],
+  "required_sample_size_for_freeze": 50,
+  "sample_decided": 44,
+  "sample_likely_relevant": 38,
+  "sample_minimum_met": true,
+  "sample_precision_point_estimate": 0.8636363636363636,
+  "sample_size": 50,
+  "sample_uncertain": 6,
+  "sentinel_checks": [
+    {
+      "doi": "10.48550/arxiv.2602.20684",
+      "match_basis": "doi",
+      "pass": true,
+      "present": true,
+      "role": "scope_positive",
+      "sentinel_id": "S2-P1-AGILE-V"
+    },
+    {
+      "doi": "10.48550/arxiv.2603.20028",
+      "match_basis": "none",
+      "pass": false,
+      "present": false,
+      "role": "scope_positive",
+      "sentinel_id": "S2-P2-ORCHESTRATION"
+    },
+    {
+      "doi": "10.48550/arxiv.2504.18858",
+      "match_basis": "doi",
+      "pass": true,
+      "present": true,
+      "role": "neutral_disconfirming",
+      "sentinel_id": "S2-D1-LIFECYCLE-ERRORS"
+    },
+    {
+      "doi": "10.48550/arxiv.2608.01955",
+      "match_basis": "doi",
+      "pass": false,
+      "present": true,
+      "role": "negative_boundary",
+      "sentinel_id": "S2-B1-PIPELINE-OPS"
+    }
+  ],
+  "sentinel_class_complete": true,
+  "source": "openalex",
+  "status": "development_query_appraisal"
+}

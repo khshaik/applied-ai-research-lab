@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 276723,
+      "content_type": "application/pdf",
+      "final_url": "https://www.ijcaonline.org/archives/volume186/number54/mallidi-2024-ijca-924268.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "4868b7d711f907587b45b6fe2dc2bba79dc94d3663de08a18e86ddcb308a2845",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://doi.org/10.5120/ijca2024924268"
+    }
+  ],
+  "bytes": 276723,
+  "family_id": "FAM-692dfba2936558206383",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-692dfba2936558206383.pdf",
+  "pdf_sha256": "4868b7d711f907587b45b6fe2dc2bba79dc94d3663de08a18e86ddcb308a2845",
+  "representative_canonical_id": "CAN-c75b104d843c12349b0c",
+  "retrieved_url": "https://www.ijcaonline.org/archives/volume186/number54/mallidi-2024-ijca-924268.pdf",
+  "status": "retrieved_open"
+}

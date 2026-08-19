@@ -1,0 +1,9 @@
+{
+  "candidate_families_sha256": "8a105dda45a15fbd1136f46cb4289a939ec7f22ccb73ae0fa77ddccff8de91c4",
+  "family_count": 212,
+  "metadata_sha256": "9e374e4fba870c830f071d90b87ae863a864b187f45775b25bb1ab143b071726",
+  "packet_manifest_sha256": "d6dfba46f49251a9aa052d398e615f5a5c4893ea30c47813ffd9351ae0604f25",
+  "pipeline_version": "d14-extraction-metadata/1.0.0",
+  "protocol_version": "1.3",
+  "status": "d14_extraction_metadata_complete"
+}

@@ -1,0 +1,21 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:04:58.997423Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://ieeexplore.ieee.org/document/11542057/",
+      "http_status": 202,
+      "outcome": "http_failure",
+      "url": "https://doi.org/10.1109/icaiset66439.2026.11542057"
+    }
+  ],
+  "bytes": 0,
+  "family_id": "FAM-3500eac5f0416f2498b6",
+  "lawful_access_basis": null,
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "representative_canonical_id": "CAN-2f388dc0606376bd4045",
+  "retrieved_url": null,
+  "status": "lawful_full_text_not_retrieved"
+}

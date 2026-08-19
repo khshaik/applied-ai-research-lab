@@ -1,0 +1,10 @@
+{
+  "controller_version": "d14-new-candidate-screening/1.0.0",
+  "family_count": 33,
+  "input_consolidation_manifest_sha256": "4734076a7cc89dccce8c3997e0202ff338d4bf8eb78aa565f0f60b9b0f6125af",
+  "isolation_contract": "Byte-identical packet, distinct contexts, no cross-pass visibility; concordance is agent concordance, not human inter-rater reliability.",
+  "packet_path": "/Users/81194246/Library/CloudStorage/OneDrive-Pepsico/Personal/AI/Projects/ThinkAI/storypoints-age-of-ai/gate2/output/systematic/v1.3/20260816/d14/newly_resolved_candidate_screening_v2/screening_packet.jsonl",
+  "packet_sha256": "e38ce92e904dbf67aa32ca0504980b8b35140ef8a7a5d14690793be34fbfd8e4",
+  "protocol_version": "1.3",
+  "status": "prepared_for_two_isolated_agent_passes"
+}

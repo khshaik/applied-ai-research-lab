@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 1179017,
+      "content_type": "application/pdf",
+      "final_url": "https://thesai.org/Downloads/Volume16No3/Paper_103-Enhancing_Agile_Requirements_Change_Management.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "f3744c7ea75debf06fce1703966055239a4ff1db48ac442851e512ee50e0a321",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://thesai.org/Downloads/Volume16No3/Paper_103-Enhancing_Agile_Requirements_Change_Management.pdf"
+    }
+  ],
+  "bytes": 1179017,
+  "family_id": "FAM-350eb26903dca3c11037",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-350eb26903dca3c11037.pdf",
+  "pdf_sha256": "f3744c7ea75debf06fce1703966055239a4ff1db48ac442851e512ee50e0a321",
+  "representative_canonical_id": "CAN-928b0d793b388c551887",
+  "retrieved_url": "https://thesai.org/Downloads/Volume16No3/Paper_103-Enhancing_Agile_Requirements_Change_Management.pdf",
+  "status": "retrieved_open"
+}

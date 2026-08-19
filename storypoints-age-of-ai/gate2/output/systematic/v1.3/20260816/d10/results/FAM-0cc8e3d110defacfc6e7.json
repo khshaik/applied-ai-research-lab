@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "metadata_direct_pdf",
+      "bytes": 4609767,
+      "content_type": "application/pdf",
+      "final_url": "https://digilib.uin-suka.ac.id/id/eprint/74874/1/21106050091_BAB-I_IV-atau-V_DAFTAR-PUSTAKA.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "a3e97e4e75e114ca403003d1fe0ad6d96f4f9ef2fda0922d5713c5dbcabe3c24",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://digilib.uin-suka.ac.id/id/eprint/74874/1/21106050091_BAB-I_IV-atau-V_DAFTAR-PUSTAKA.pdf"
+    }
+  ],
+  "bytes": 4609767,
+  "family_id": "FAM-0cc8e3d110defacfc6e7",
+  "lawful_access_basis": "metadata_direct_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-0cc8e3d110defacfc6e7.pdf",
+  "pdf_sha256": "a3e97e4e75e114ca403003d1fe0ad6d96f4f9ef2fda0922d5713c5dbcabe3c24",
+  "representative_canonical_id": "CAN-f24de5ebbdd4d5a628b1",
+  "retrieved_url": "https://digilib.uin-suka.ac.id/id/eprint/74874/1/21106050091_BAB-I_IV-atau-V_DAFTAR-PUSTAKA.pdf",
+  "status": "retrieved_open"
+}

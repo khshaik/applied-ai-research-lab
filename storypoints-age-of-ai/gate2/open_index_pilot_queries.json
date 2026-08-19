@@ -1,0 +1,37 @@
+{
+  "status": "development_pilot",
+  "version": "0.2",
+  "date_window": {"from": "2019-01-01", "to": "2026-08-15"},
+  "boundary": "Natural-language API translations for query development and discovery only; not frozen systematic searches or PRISMA inputs.",
+  "queries": [
+    {"source": "openalex", "query_id": "OA-S3R", "family_id": "S3", "query": "\"software effort estimation\" AND (\"large language model\" OR \"generative AI\" OR \"AI-assisted\")"},
+    {"source": "semantic_scholar", "query_id": "S2-S3R", "family_id": "S3", "query": "+(\"software effort estimation\" | \"story point estimation\") +(\"large language model\" | LLM | \"generative AI\")"},
+    {"source": "crossref", "query_id": "CR-S3R", "family_id": "S3", "query": "LLM-aware software effort estimation story point estimation human oversight"},
+    {"source": "openalex", "query_id": "OA-S4", "family_id": "S4", "query": "AI-assisted coding code review pull request cognitive load human attention verification"},
+    {"source": "semantic_scholar", "query_id": "S2-S4", "family_id": "S4", "query": "AI-assisted coding code review pull request cognitive load human attention verification"},
+    {"source": "crossref", "query_id": "CR-S4", "family_id": "S4", "query": "AI-assisted coding code review pull request cognitive load human attention verification"},
+    {"source": "openalex", "query_id": "OA-S6", "family_id": "S6", "query": "human AI software delivery lifecycle team capacity coordination readiness orchestration"},
+    {"source": "semantic_scholar", "query_id": "S2-S6", "family_id": "S6", "query": "human AI software delivery lifecycle team capacity coordination readiness orchestration"},
+    {"source": "crossref", "query_id": "CR-S6", "family_id": "S6", "query": "human AI software delivery lifecycle team capacity coordination readiness orchestration"}
+  ],
+  "sentinels": [
+    {"sentinel_id": "S3-P1", "doi": "10.1007/s10791-026-10331-6", "role": "positive", "rationale": "Registered HIE work supplied by the research team; presence tests known-item recall, not eligibility."},
+    {"sentinel_id": "S3-P2", "doi": "10.3389/frai.2026.1772418", "role": "positive", "rationale": "Conceptual LLM-aware software-effort predecessor; presence tests known-item recall, not eligibility."},
+    {"sentinel_id": "S3-N1", "doi": "10.1007/s11219-025-09731-6", "role": "negative_boundary", "rationale": "Story-point prediction using conventional ensemble ML, not an LLM-mediated human-attention delivery framework; retrieval is a precision warning, not automatic exclusion."}
+  ],
+  "sampled_precision_rule": {
+    "required_fields": ["source_id", "decision", "reason"],
+    "allowed_decisions": ["likely_relevant", "likely_irrelevant", "uncertain"],
+    "development_diagnostic_minimum_sample": 20,
+    "freeze_sample_bands": [
+      {"population_min": 0, "population_max": 50, "required_sample": "all"},
+      {"population_min": 51, "population_max": 1000, "required_sample": 50},
+      {"population_min": 1001, "population_max": null, "required_sample": 100}
+    ],
+    "acceptance_bands": {
+      "operational_minimum_relevant_plus_uncertain": 0.10,
+      "conditional_minimum_relevant_plus_uncertain": 0.05,
+      "conditional_requires_documented_capacity_and_coverage_approval": true
+    }
+  }
+}

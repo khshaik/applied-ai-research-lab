@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 467846,
+      "content_type": "application/pdf",
+      "final_url": "https://ajaccm.com/journal/index.php/ajaccm/article/download/710/661",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "ecd49ca00527d9612d9b9f37b7bae2282d926183109cdbd98cae8492d34771d1",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://ajaccm.com/journal/index.php/ajaccm/article/download/710/661"
+    }
+  ],
+  "bytes": 467846,
+  "family_id": "FAM-b1da71a42d0235b8b0b6",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-b1da71a42d0235b8b0b6.pdf",
+  "pdf_sha256": "ecd49ca00527d9612d9b9f37b7bae2282d926183109cdbd98cae8492d34771d1",
+  "representative_canonical_id": "CAN-1efcd58f10013dec35c1",
+  "retrieved_url": "https://ajaccm.com/journal/index.php/ajaccm/article/download/710/661",
+  "status": "retrieved_open"
+}

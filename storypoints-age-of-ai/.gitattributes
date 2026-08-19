@@ -1,0 +1,10 @@
+* text=auto eol=lf
+# Preserve evidence and result CSV bytes exactly because release manifests and
+# source-provenance records bind these artifacts by SHA-256.
+*.csv -text -eol
+*.xlsx binary
+*.jpeg binary
+*.jpg binary
+*.png binary
+*.pdf binary
+*.docx binary

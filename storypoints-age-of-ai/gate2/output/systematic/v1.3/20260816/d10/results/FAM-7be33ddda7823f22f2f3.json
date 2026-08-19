@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 166517,
+      "content_type": "application/pdf",
+      "final_url": "https://thesai.org/Downloads/Volume16No11/Paper_5-Leveraging_Large_Language_Models_in_the_Software_Development_Lifecycle.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "4393188285b9e9c9ae4e77eef3258462c6bab6e8cdc397bb6a1de02d557879b2",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://thesai.org/Downloads/Volume16No11/Paper_5-Leveraging_Large_Language_Models_in_the_Software_Development_Lifecycle.pdf"
+    }
+  ],
+  "bytes": 166517,
+  "family_id": "FAM-7be33ddda7823f22f2f3",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-7be33ddda7823f22f2f3.pdf",
+  "pdf_sha256": "4393188285b9e9c9ae4e77eef3258462c6bab6e8cdc397bb6a1de02d557879b2",
+  "representative_canonical_id": "CAN-80ad58a8c5431fdb56d5",
+  "retrieved_url": "https://thesai.org/Downloads/Volume16No11/Paper_5-Leveraging_Large_Language_Models_in_the_Software_Development_Lifecycle.pdf",
+  "status": "retrieved_open"
+}

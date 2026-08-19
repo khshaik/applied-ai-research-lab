@@ -1,0 +1,32 @@
+{
+  "complete_pagination": true,
+  "endpoint": "https://api.openalex.org/works",
+  "executed_at_utc": "2026-08-15T13:32:50.180913+00:00",
+  "from_date": "2019-01-01",
+  "interpretation_boundary": "Open-index development discovery export; not frozen, screened, deduplicated, eligible, or a PRISMA corpus.",
+  "max_pages": null,
+  "page_size": 200,
+  "pages": [
+    {
+      "file": "page_00000.json",
+      "records": 134,
+      "request_url_sha256": "f22d8116a17a00640c1317e77a8a338930ae3bd13b9d48be6d389ae56338603e",
+      "sequence": 0,
+      "sha256": "404790c45051d5e673bb7e80ba96a303830b693f66d881e364a17099790d0f86"
+    }
+  ],
+  "query": "\"software effort estimation\" AND (\"large language model\" OR \"generative AI\" OR \"AI-assisted\")",
+  "query_id": "OA-S3R3",
+  "query_registry_sha256": "5f82bc8519fe6c64a5c78abef9b252229c12d2f8036e45848f43a5e5f1972e23",
+  "query_sha256": "371feb98ec6da9350e945e930ef88e1b7165c2378e87ad76521eef279f8725eb",
+  "records_csv": {
+    "file": "records.csv",
+    "sha256": "9937d40ec221b5164aacd88588db3d8481b9bcb9c6ec47e32c6b3d908fb88aad"
+  },
+  "records_retrieved": 134,
+  "retrieval_scope": "complete",
+  "source": "openalex",
+  "status": "development_pilot",
+  "to_date": "2026-08-15",
+  "total_reported": 134
+}

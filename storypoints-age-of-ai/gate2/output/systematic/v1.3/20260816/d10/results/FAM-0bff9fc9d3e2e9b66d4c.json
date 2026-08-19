@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 192529,
+      "content_type": "application/pdf",
+      "final_url": "https://api.intechopen.com/chapter/pdf-download/1206853.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "263a3d9bd8afcd63d01fcdbe91f09d365b8049626daea506ec820ae37b851817",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://www.intechopen.com/citation-pdf-url/1206853"
+    }
+  ],
+  "bytes": 192529,
+  "family_id": "FAM-0bff9fc9d3e2e9b66d4c",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-0bff9fc9d3e2e9b66d4c.pdf",
+  "pdf_sha256": "263a3d9bd8afcd63d01fcdbe91f09d365b8049626daea506ec820ae37b851817",
+  "representative_canonical_id": "CAN-39f540b1b9f1793eaa79",
+  "retrieved_url": "https://api.intechopen.com/chapter/pdf-download/1206853.pdf",
+  "status": "retrieved_open"
+}

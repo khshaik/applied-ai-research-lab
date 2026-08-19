@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 309808,
+      "content_type": "application/pdf",
+      "final_url": "https://urfjournals.org/open-access/rethinking-ai-integration-in-software-teams-a-framework-for-treating-ai-as-a-high-context-scriptable-intern.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "f62894e97c817540814e8a61779f68d249be5b6f4bc6db2de3aec134eb4a4639",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://doi.org/10.51219/jaimld/aishwarya-babu/574"
+    }
+  ],
+  "bytes": 309808,
+  "family_id": "FAM-a085d1fd4564d3eec5d3",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-a085d1fd4564d3eec5d3.pdf",
+  "pdf_sha256": "f62894e97c817540814e8a61779f68d249be5b6f4bc6db2de3aec134eb4a4639",
+  "representative_canonical_id": "CAN-8c48873c0832e52f277a",
+  "retrieved_url": "https://urfjournals.org/open-access/rethinking-ai-integration-in-software-teams-a-framework-for-treating-ai-as-a-high-context-scriptable-intern.pdf",
+  "status": "retrieved_open"
+}

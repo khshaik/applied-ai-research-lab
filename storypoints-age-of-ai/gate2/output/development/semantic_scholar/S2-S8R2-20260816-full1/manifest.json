@@ -1,0 +1,40 @@
+{
+  "complete_pagination": true,
+  "endpoint": "https://api.semanticscholar.org/graph/v1/paper/search/bulk",
+  "executed_at_utc": "2026-08-16T06:21:35.965235+00:00",
+  "from_date": "1900-01-01",
+  "interpretation_boundary": "Open-index development discovery export; not frozen, screened, deduplicated, eligible, or a PRISMA corpus.",
+  "max_pages": null,
+  "page_size": 1000,
+  "pages": [
+    {
+      "file": "page_00000.json",
+      "records": 1000,
+      "request_url_sha256": "a72180a0fea9fbc53ad698a77b42e93bab02afc654a0199502efeb332adaab0e",
+      "sequence": 0,
+      "sha256": "b4f9d5536b9d9026dea238fa0db23c28463950bbdefef0d897996a647e0d4f46"
+    },
+    {
+      "file": "page_00001.json",
+      "records": 940,
+      "request_url_sha256": "092b1ea44c57ca17a06289f19e3b81760dfed6b3fc64359b14a60bdbec3ea7fb",
+      "sequence": 1,
+      "sha256": "8dddfc0c3721c46bd3629faa07eeef7b15b3f7d683cceb591f5667031888a83c"
+    }
+  ],
+  "query": "+(((software | developer | agile) + (\"story point\" | \"relative estimate\" | \"developer productivity\" | \"modern code review\" | (\"code review\" + (cognitive | workload | performance)))) | \"NASA Task Load Index NASA TLX 20 Years Later\" | \"Workload and Performance Associations Insensitivities and Dissociations\" | \"A Proof for the Queuing Formula L lambda W\")",
+  "query_id": "S2-S8R2",
+  "query_mode": "fulltext_search",
+  "query_registry_sha256": "250282c36a9f55a6c9947c0cd5db6cb495660fc518f56bafcddc13125dbd46e4",
+  "query_sha256": "2fddf33d790efaedb9943bf3e1f0d7a0fd10824b7a43a37949031afa68f67dc5",
+  "records_csv": {
+    "file": "records.csv",
+    "sha256": "712ae821f4252ba67ae72431ab851940c89a8c9e0718992737f209081213e20e"
+  },
+  "records_retrieved": 1940,
+  "retrieval_scope": "complete",
+  "source": "semantic_scholar",
+  "status": "development_pilot",
+  "to_date": "2026-08-16",
+  "total_reported": 1940
+}

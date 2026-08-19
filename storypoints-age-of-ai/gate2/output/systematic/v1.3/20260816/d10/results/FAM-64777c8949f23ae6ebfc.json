@@ -1,0 +1,21 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:07:23.644732Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html",
+      "final_url": "https://figshare.com/articles/presentation/Better_Software_for_Reproducible_Science_tutorial_The_International_Conference_for_High-Performance_Computing_Networking_Storage_and_Analysis_SC25_conference_2025_/30394186",
+      "http_status": 403,
+      "outcome": "access_blocked_or_paywalled",
+      "url": "https://doi.org/10.6084/m9.figshare.30394186"
+    }
+  ],
+  "bytes": 0,
+  "family_id": "FAM-64777c8949f23ae6ebfc",
+  "lawful_access_basis": null,
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "representative_canonical_id": "CAN-327097ccf538b9b20223",
+  "retrieved_url": null,
+  "status": "paywalled_or_access_blocked"
+}

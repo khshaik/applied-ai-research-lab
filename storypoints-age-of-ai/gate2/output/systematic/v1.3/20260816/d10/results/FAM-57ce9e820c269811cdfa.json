@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "semantic_scholar_open_access_pdf",
+      "bytes": 106498,
+      "content_type": "application/pdf",
+      "final_url": "https://journals.flvc.org/FLAIRS/article/download/139001/144119",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "5c1a3c8472c16b2837fab8a5d740b267164e1b4a1fb7cc88a1a26c677015f9e0",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://journals.flvc.org/FLAIRS/article/download/139001/144119"
+    }
+  ],
+  "bytes": 106498,
+  "family_id": "FAM-57ce9e820c269811cdfa",
+  "lawful_access_basis": "semantic_scholar_open_access_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-57ce9e820c269811cdfa.pdf",
+  "pdf_sha256": "5c1a3c8472c16b2837fab8a5d740b267164e1b4a1fb7cc88a1a26c677015f9e0",
+  "representative_canonical_id": "CAN-08892d7a373f824f4e3c",
+  "retrieved_url": "https://journals.flvc.org/FLAIRS/article/download/139001/144119",
+  "status": "retrieved_open"
+}

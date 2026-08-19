@@ -1,0 +1,37 @@
+{
+  "complete_pagination": true,
+  "endpoint": "https://export.arxiv.org/api/query",
+  "executed_at_utc": "2026-08-14T15:07:19.278246+00:00",
+  "interpretation_boundary": "Public arXiv query-development export; not frozen and not a PRISMA corpus.",
+  "page_size": 100,
+  "pages": [
+    {
+      "file": "page_0000000.atom",
+      "records": 100,
+      "sha256": "aa38dac8fa78043585dc9022ec0e4dea8d1b30ac62d0e32b49ef8cdde20f6a94",
+      "start": 0
+    },
+    {
+      "file": "page_0000100.atom",
+      "records": 87,
+      "sha256": "9ba274f3e81f01bcf5c914de6e41cde98397913e9bede615a8e7a5d38e0887a3",
+      "start": 100
+    }
+  ],
+  "query": "(all:\"large language model\" OR all:\"AI-assisted\" OR all:\"AI coding assistant\" OR all:\"coding agent\") AND (all:\"code review\" OR all:\"pull request\") AND (all:human OR all:oversight OR all:workload OR all:attention OR all:effort OR all:verification)",
+  "query_id": "AX-S5R",
+  "query_sha256": "ad3b69a6ff524cd519a6bbf88588b05d5362e8f6e45a5bb491752897990a6c2d",
+  "records_csv": {
+    "file": "records.csv",
+    "sha256": "8299a1239d14bab05f60add8c0dbf223587780d9e5ac4791e9ede391ccf8bab4"
+  },
+  "records_retrieved": 187,
+  "sentinel_checks": {
+    "2606.26505": true
+  },
+  "sentinel_recall_pass": true,
+  "sortBy": "submittedDate",
+  "sortOrder": "descending",
+  "status": "development_pilot",
+  "total_reported": 187
+}

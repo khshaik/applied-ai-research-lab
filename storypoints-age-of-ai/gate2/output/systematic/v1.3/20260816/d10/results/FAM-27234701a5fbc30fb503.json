@@ -1,0 +1,31 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:03:46.423414Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://jconsortium.com/index.php/iarsbookplanet/article/view/1027",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://doi.org/10.62431/jhwa0v02"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:03:52.890039Z",
+      "basis": "citation_pdf_url_metadata",
+      "bytes": 16741,
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://jconsortium.com/index.php/iarsbookplanet/login?source=%2Findex.php%2Fiarsbookplanet%2Farticle%2Fdownload%2F1027%2F647",
+      "http_status": 200,
+      "outcome": "not_a_verified_pdf",
+      "url": "https://jconsortium.com/index.php/iarsbookplanet/article/download/1027/647"
+    }
+  ],
+  "bytes": 0,
+  "family_id": "FAM-27234701a5fbc30fb503",
+  "lawful_access_basis": null,
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "representative_canonical_id": "CAN-e0addb0c160639c0df7b",
+  "retrieved_url": null,
+  "status": "lawful_full_text_not_retrieved"
+}

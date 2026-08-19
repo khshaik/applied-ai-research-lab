@@ -1,0 +1,40 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "error_type": "SSLError",
+      "outcome": "network_error",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://www.kerwa.ucr.ac.cr/bitstreams/46a945d9-f7fe-44e0-a9ee-62534c62af9b/download"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:16:42.467549Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://kerwa.ucr.ac.cr/items/b81ed3c1-761f-4aa2-9d30-0e254dc2615d",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://hdl.handle.net/10669/102180"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:16:51.190065Z",
+      "basis": "citation_pdf_url_metadata",
+      "bytes": 647906,
+      "content_type": "application/pdf;charset=UTF-8",
+      "final_url": "https://kerwa.ucr.ac.cr/server/api/core/bitstreams/46a945d9-f7fe-44e0-a9ee-62534c62af9b/content",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "sha256": "a49d444ee198bb5374cdf2fcea3057f6ff2f86931d2b6fd69ff38617a87fbdd1",
+      "url": "https://kerwa.ucr.ac.cr/bitstreams/46a945d9-f7fe-44e0-a9ee-62534c62af9b/download"
+    }
+  ],
+  "bytes": 647906,
+  "family_id": "FAM-e390d86f3f8f14cd43a6",
+  "lawful_access_basis": "citation_pdf_url_metadata",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-e390d86f3f8f14cd43a6.pdf",
+  "pdf_sha256": "a49d444ee198bb5374cdf2fcea3057f6ff2f86931d2b6fd69ff38617a87fbdd1",
+  "representative_canonical_id": "CAN-e20480720881f13753bb",
+  "retrieved_url": "https://kerwa.ucr.ac.cr/bitstreams/46a945d9-f7fe-44e0-a9ee-62534c62af9b/download",
+  "status": "retrieved_open"
+}

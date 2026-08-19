@@ -1,0 +1,23 @@
+{
+  "attempts": [
+    {
+      "active_indicators": [
+        "/S /URI"
+      ],
+      "attempted_at_utc": "2026-08-19T07:45:30.778859Z",
+      "basis": "frozen_openalex_primary_oa_pdf",
+      "bytes": 2236838,
+      "final_url": "https://peer.asee.org/46557.pdf",
+      "quarantine_path": "/Users/81194246/Library/CloudStorage/OneDrive-Pepsico/Personal/AI/Projects/ThinkAI/storypoints-age-of-ai/gate2/output/systematic/v1.3/20260816/d14/fulltext/quarantine/CITFAM-81753da3b53168a48f6d.pdf",
+      "redirect_count": 0,
+      "sha256": "cfe56b166bca2f881a3f31a06e4045e9a2a96a24fde7e30ef7c13da5e2205070",
+      "status": "quarantined_active_content"
+    }
+  ],
+  "bytes": 2236838,
+  "citation_family_id": "CITFAM-81753da3b53168a48f6d",
+  "pdf_path": null,
+  "pdf_sha256": "cfe56b166bca2f881a3f31a06e4045e9a2a96a24fde7e30ef7c13da5e2205070",
+  "security_attestation": "Static HTTPS retrieval only; public-IP validation, bounded redirects/size, signature and active-content checks; no PDF execution.",
+  "status": "quarantined_active_content"
+}

@@ -1,0 +1,23 @@
+{
+  "attempts": [
+    {
+      "active_indicators": [
+        "/S /URI"
+      ],
+      "attempted_at_utc": "2026-08-18T13:14:17.510118Z",
+      "basis": "live_openalex_best_oa_location_oa_pdf",
+      "bytes": 1608466,
+      "final_url": "https://journals.riverpublishers.com/index.php/JWE/article/download/24673/19159",
+      "quarantine_path": "/Users/81194246/Library/CloudStorage/OneDrive-Pepsico/Personal/AI/Projects/ThinkAI/storypoints-age-of-ai/gate2/output/systematic/v1.3/20260816/d14/fulltext/quarantine/CITFAM-3eae1e376daedbe0dea5.pdf",
+      "redirect_count": 0,
+      "sha256": "77be0411dcefae33b08731f0a5ddbbdc8bc9ea8e1b682a4ba9bad29edd639742",
+      "status": "quarantined_active_content"
+    }
+  ],
+  "bytes": 1608466,
+  "citation_family_id": "CITFAM-3eae1e376daedbe0dea5",
+  "pdf_path": null,
+  "pdf_sha256": "77be0411dcefae33b08731f0a5ddbbdc8bc9ea8e1b682a4ba9bad29edd639742",
+  "security_attestation": "Static HTTPS retrieval only; public-IP validation, bounded redirects/size, signature and active-content checks; no PDF execution.",
+  "status": "quarantined_active_content"
+}

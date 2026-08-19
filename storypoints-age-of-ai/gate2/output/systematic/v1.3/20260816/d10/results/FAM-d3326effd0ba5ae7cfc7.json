@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 1803028,
+      "content_type": "application/pdf;charset=UTF-8",
+      "final_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/ail2.127",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "3a04fc99f46395305441a6d6aeb421d16d88c03a4ec44a273bbdb6e1d1f0337f",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/ail2.127"
+    }
+  ],
+  "bytes": 1803028,
+  "family_id": "FAM-d3326effd0ba5ae7cfc7",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-d3326effd0ba5ae7cfc7.pdf",
+  "pdf_sha256": "3a04fc99f46395305441a6d6aeb421d16d88c03a4ec44a273bbdb6e1d1f0337f",
+  "representative_canonical_id": "CAN-40dab6b97bd3285e0569",
+  "retrieved_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/ail2.127",
+  "status": "retrieved_open"
+}

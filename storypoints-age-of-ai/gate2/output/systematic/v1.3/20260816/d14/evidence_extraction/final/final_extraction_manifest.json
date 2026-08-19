@@ -1,0 +1,25 @@
+{
+  "finding_count": 931,
+  "interpretation_boundary": "Extraction is source-located evidence coding. It does not by itself establish construct equivalence, exhaustive coverage, or novelty.",
+  "ledger_sha256": "b397aee7a39d94e1bde0d108435c16a282b42bad05f930b79ee653e6547e0ddd",
+  "literal_excerpt_whitespace_repairs": 916,
+  "novelty_dimension_counts": {
+    "met": 1,
+    "not_met": 1025,
+    "partial": 34
+  },
+  "packet_manifest_sha256": "d6dfba46f49251a9aa052d398e615f5a5c4893ea30c47813ffd9351ae0604f25",
+  "part_hashes": {
+    "extraction_part_a.jsonl": "f72a31f6f05b2dba44f25042f102206b9bace94e0c80457e5e6ac213baf51339",
+    "extraction_part_b.jsonl": "b8b79a3d0b352839b2cfe427a74cdda3a77f7e47f332647e17a78735b595f83e"
+  },
+  "protocol_version": "1.3",
+  "quantitative_finding_count": 90,
+  "same_planning_use_counts": {
+    "no": 211,
+    "yes": 1
+  },
+  "schema_sha256": "db65fb2d935ab8f77096da48a4d649ba1b9203d66cdfc9e90fef08b1e0143754",
+  "status": "d14_evidence_extraction_complete",
+  "study_count": 212
+}

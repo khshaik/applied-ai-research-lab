@@ -1,0 +1,32 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:02:49.232328Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://zenodo.org/records/17959910",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://doi.org/10.5281/zenodo.17959910"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:02:50.980898Z",
+      "basis": "citation_pdf_url_metadata",
+      "bytes": 405460,
+      "content_type": "application/octet-stream, application/octet-stream",
+      "final_url": "https://zenodo.org/records/17959910/files/EJAET-7-4-70-78.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "sha256": "67d6bffc3e3e0a16315a5ce235aa7df8c855f630665befd09c2acadc27772548",
+      "url": "https://zenodo.org/records/17959910/files/EJAET-7-4-70-78.pdf"
+    }
+  ],
+  "bytes": 405460,
+  "family_id": "FAM-1ed29041ef56f84e12b1",
+  "lawful_access_basis": "citation_pdf_url_metadata",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-1ed29041ef56f84e12b1.pdf",
+  "pdf_sha256": "67d6bffc3e3e0a16315a5ce235aa7df8c855f630665befd09c2acadc27772548",
+  "representative_canonical_id": "CAN-a96e3de1e141ffc232c6",
+  "retrieved_url": "https://zenodo.org/records/17959910/files/EJAET-7-4-70-78.pdf",
+  "status": "retrieved_open"
+}

@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "semantic_scholar_open_access_pdf",
+      "bytes": 263081,
+      "content_type": "application/pdf",
+      "final_url": "https://ijsrset.com/home/article/download/IJSRSET2613255/IJSRSET2613255",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "863a55ea1d5a155942f7de09fc290e984d05933b3c1020693ce42d3eb09f9b8d",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://ijsrset.com/index.php/home/article/download/IJSRSET2613255/IJSRSET2613255"
+    }
+  ],
+  "bytes": 263081,
+  "family_id": "FAM-206913ed52a64b44a490",
+  "lawful_access_basis": "semantic_scholar_open_access_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-206913ed52a64b44a490.pdf",
+  "pdf_sha256": "863a55ea1d5a155942f7de09fc290e984d05933b3c1020693ce42d3eb09f9b8d",
+  "representative_canonical_id": "CAN-032976aef92a7605cc39",
+  "retrieved_url": "https://ijsrset.com/home/article/download/IJSRSET2613255/IJSRSET2613255",
+  "status": "retrieved_open"
+}

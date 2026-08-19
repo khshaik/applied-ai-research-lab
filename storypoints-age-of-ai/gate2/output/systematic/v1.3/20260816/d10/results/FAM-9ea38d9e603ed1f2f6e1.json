@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 1400307,
+      "content_type": "application/pdf",
+      "final_url": "https://www.ijraset.com/best-journal/intelligent-mobile-app-development-using-generative-ai-opportunities-and-challenges",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "2ee48cdd9930a57c3e9e3c37a673d8788aa6b2da0b6ce4993058cb6674b028b5",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://doi.org/10.22214/ijraset.2026.83360"
+    }
+  ],
+  "bytes": 1400307,
+  "family_id": "FAM-9ea38d9e603ed1f2f6e1",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-9ea38d9e603ed1f2f6e1.pdf",
+  "pdf_sha256": "2ee48cdd9930a57c3e9e3c37a673d8788aa6b2da0b6ce4993058cb6674b028b5",
+  "representative_canonical_id": "CAN-234ddd60a54a32af08bf",
+  "retrieved_url": "https://www.ijraset.com/best-journal/intelligent-mobile-app-development-using-generative-ai-opportunities-and-challenges",
+  "status": "retrieved_open"
+}

@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "semantic_scholar_open_access_pdf",
+      "bytes": 1065814,
+      "content_type": "application/pdf",
+      "final_url": "https://www.ijirset.com/upload/2025/march/120_AI-Powered.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "b1c19d362acee9f7497e8cec8719a792f01c406113a2f224d77d1d5003ee4dea",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://doi.org/10.15680/ijirset.2025.1403120"
+    }
+  ],
+  "bytes": 1065814,
+  "family_id": "FAM-bbd08963cb1b2c99e81c",
+  "lawful_access_basis": "semantic_scholar_open_access_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-bbd08963cb1b2c99e81c.pdf",
+  "pdf_sha256": "b1c19d362acee9f7497e8cec8719a792f01c406113a2f224d77d1d5003ee4dea",
+  "representative_canonical_id": "CAN-db662a5cd6d2e8ee8fb9",
+  "retrieved_url": "https://www.ijirset.com/upload/2025/march/120_AI-Powered.pdf",
+  "status": "retrieved_open"
+}

@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 1334926,
+      "content_type": "application/pdf",
+      "final_url": "https://www.ijraset.com/best-journal/autoinfraops-infrastructure-deployment-via-multistep-prompt-pipelines",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "7ce1aa6979d1a02bf09d98666974d555336ea8dbbd5ab5e10d742054975d68ab",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://doi.org/10.22214/ijraset.2026.84057"
+    }
+  ],
+  "bytes": 1334926,
+  "family_id": "FAM-4b86c032a5b89ead1287",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-4b86c032a5b89ead1287.pdf",
+  "pdf_sha256": "7ce1aa6979d1a02bf09d98666974d555336ea8dbbd5ab5e10d742054975d68ab",
+  "representative_canonical_id": "CAN-ccba197640161257e37c",
+  "retrieved_url": "https://www.ijraset.com/best-journal/autoinfraops-infrastructure-deployment-via-multistep-prompt-pipelines",
+  "status": "retrieved_open"
+}

@@ -1,0 +1,34 @@
+{
+  "complete_pagination": true,
+  "endpoint": "https://api.semanticscholar.org/graph/v1/paper/search/bulk",
+  "executed_at_utc": "2026-08-16T06:30:19.824346+00:00",
+  "from_date": "1900-01-01",
+  "interpretation_boundary": "Open-index development discovery export; not frozen, screened, deduplicated, eligible, or a PRISMA corpus.",
+  "max_pages": null,
+  "page_size": 1000,
+  "pages": [
+    {
+      "file": "page_00000.json",
+      "records": 786,
+      "request_url_sha256": "b434add82f313871d351e9f66e41332f72c6cd93286ed10decfbfb608bb96e0d",
+      "sequence": 0,
+      "sha256": "1a276edc5fe8804319c74f88647a5d8fb52984a316fc7e2e953f6e9b823d3d44"
+    }
+  ],
+  "query": "+(((software | developer | agile) + (((\"story point\" | \"story points\" | \"relative estimate\") + (validity | accuracy | reliability | effort | change)) | (\"developer productivity\" + (measure | perception | performance | interruption)) | (\"software developers\" + \"perceptions of productivity\") | (\"modern code review\" + (challenge | outcome | understanding | effort | cognitive | workload)))) | \"NASA Task Load Index NASA TLX 20 Years Later\" | \"Workload and Performance Associations Insensitivities and Dissociations\" | \"queuing formula\" | \"queueing formula\")",
+  "query_id": "S2-S8R5",
+  "query_mode": "fulltext_search",
+  "query_registry_sha256": "993d6b058c7239a65c2e2baa2610c2b252e42c5bdfdb2695aa440b9fe54c2252",
+  "query_sha256": "d9575d5594b2f3186f51ee8f70add1e67995a09b5b5b6f34c2641d2e5015fa7c",
+  "records_csv": {
+    "file": "records.csv",
+    "sha256": "9a8d9c79fd82d965f1375b2b240ab4be82a87e0c9cd74a4c2ab4ba5825abf6a2"
+  },
+  "records_retrieved": 786,
+  "result_sort": "",
+  "retrieval_scope": "complete",
+  "source": "semantic_scholar",
+  "status": "development_pilot",
+  "to_date": "2026-08-16",
+  "total_reported": 786
+}

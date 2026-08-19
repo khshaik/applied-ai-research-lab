@@ -1,0 +1,26 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:16:20.852750Z",
+      "basis": "representative_landing_page",
+      "error_type": "ReadTimeout",
+      "outcome": "network_error",
+      "url": "https://www.utupub.fi/handle/10024/194140"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:18:57.934851Z",
+      "basis": "representative_landing_page",
+      "error_type": "ConnectionError",
+      "outcome": "network_error",
+      "url": "https://www.utupub.fi/handle/10024/194140"
+    }
+  ],
+  "bytes": 0,
+  "family_id": "FAM-ce38c23ad00e7024e008",
+  "lawful_access_basis": null,
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "representative_canonical_id": "CAN-15a54e976fa53e969b0f",
+  "retrieved_url": null,
+  "status": "lawful_full_text_not_retrieved"
+}

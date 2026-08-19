@@ -1,0 +1,40 @@
+{
+  "acceptance_matrix_row_sha256": "56858f14f272be3d50a029d5c328be51a47ed82374f39ca469c733229ae75ee5",
+  "authentication": {
+    "credential_logged": false,
+    "method": "api_key_environment"
+  },
+  "complete_pagination": true,
+  "endpoint": "https://api.openalex.org/works",
+  "executed_at_utc": "2026-08-16T09:07:56.908087+00:00",
+  "freeze_package_sha256": "fa9800da881c2590a3261861fa6e1de5d6a3c349687ef320b43057561be8730d",
+  "from_date": "2019-01-01",
+  "interpretation_boundary": "Frozen systematic discovery export; not yet screened, deduplicated, eligible, or a PRISMA inclusion count.",
+  "max_pages": null,
+  "page_size": 200,
+  "pages": [
+    {
+      "file": "page_00000.json",
+      "records": 49,
+      "request_url_sha256": "61cdea26d3faa6338f100462a59d71c233ecaf9ae157a325be68d7be3801c15d",
+      "sequence": 0,
+      "sha256": "7673007054f7aa5b8ef7806725aace71ae0b7c8288c017bfdc3d0fe3927be134"
+    }
+  ],
+  "query": "(\"verified delivery capacity\" OR \"role-stage demand\" OR \"hybrid intelligence effort\" OR \"LLM-aware software effort\" OR \"agentic cost estimation\" OR \"AI-augmented engineering\" OR \"human-AI software delivery\" OR (\"story point\" AND (LLM OR \"large language model\")) OR (\"AI-assisted\" AND \"software effort\"))",
+  "query_id": "OA-S7R4",
+  "query_mode": "title_abstract_filter",
+  "query_registry_sha256": "48315d2e98bd18e17957ea91aaceaad794efbfe0f116c9284fd4f13db1c6c776",
+  "query_sha256": "c8c4cbd434cd572cfe0e474355e52d19966ec4bc7e0db42ac8bb7939a71844ec",
+  "records_csv": {
+    "file": "records.csv",
+    "sha256": "9b8aee7a63c4f374da70f7a222022517de3a9902fc7bcd72ce93e3a463f1b502"
+  },
+  "records_retrieved": 49,
+  "result_sort": "",
+  "retrieval_scope": "complete_systematic",
+  "source": "openalex",
+  "status": "systematic_frozen",
+  "to_date": "2026-08-16",
+  "total_reported": 49
+}

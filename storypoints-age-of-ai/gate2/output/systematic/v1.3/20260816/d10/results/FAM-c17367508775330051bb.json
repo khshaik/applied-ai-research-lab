@@ -1,0 +1,30 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:16:09.339381Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://irjernet.com/index.php/feaiml/article/view/436/397",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://doi.org/10.64917/feaiml/volume03issue06-01"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:18:34.372299Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://irjernet.com/index.php/feaiml/article/view/436/397",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://doi.org/10.64917/feaiml/volume03issue06-01"
+    }
+  ],
+  "bytes": 0,
+  "family_id": "FAM-c17367508775330051bb",
+  "lawful_access_basis": null,
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "representative_canonical_id": "CAN-9f2c66b84fb2d4411302",
+  "retrieved_url": null,
+  "status": "lawful_full_text_not_retrieved"
+}

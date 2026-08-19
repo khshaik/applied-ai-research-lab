@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 209622,
+      "content_type": "application/pdf",
+      "final_url": "https://eajournals.org/ijeats/wp-content/uploads/sites/55/2025/04/Engineering-in-the-Age-of-AI.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "594b0a1c90021cd4cde8a4656c2f9f78d131d8a305150af00224a40dbca562df",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://eajournals.org/ijeats/wp-content/uploads/sites/55/2025/04/Engineering-in-the-Age-of-AI.pdf"
+    }
+  ],
+  "bytes": 209622,
+  "family_id": "FAM-fabe181a73cd1476118a",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-fabe181a73cd1476118a.pdf",
+  "pdf_sha256": "594b0a1c90021cd4cde8a4656c2f9f78d131d8a305150af00224a40dbca562df",
+  "representative_canonical_id": "CAN-5efa00f8715137df1849",
+  "retrieved_url": "https://eajournals.org/ijeats/wp-content/uploads/sites/55/2025/04/Engineering-in-the-Age-of-AI.pdf",
+  "status": "retrieved_open"
+}

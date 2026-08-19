@@ -1,0 +1,31 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://fepbl.com/index.php/farj/article/download/1850/2119",
+      "http_status": 403,
+      "outcome": "access_blocked_or_paywalled",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://fepbl.com/index.php/farj/article/download/1850/2119"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:01:28.440433Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://fepbl.com/index.php/farj/article/view/1850",
+      "http_status": 403,
+      "outcome": "access_blocked_or_paywalled",
+      "url": "https://doi.org/10.51594/farj.v7i2.1850"
+    }
+  ],
+  "bytes": 0,
+  "family_id": "FAM-00d8f99564eba5627782",
+  "lawful_access_basis": null,
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "representative_canonical_id": "CAN-49155a488de20e901d88",
+  "retrieved_url": null,
+  "status": "paywalled_or_access_blocked"
+}

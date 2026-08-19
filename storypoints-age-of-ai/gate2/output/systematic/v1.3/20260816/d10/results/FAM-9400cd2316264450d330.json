@@ -1,0 +1,21 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:10:55.200390Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://ijsrem.com/download/intellifix-ai-powered-automated-bug-tracking-and-resolution-system",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://doi.org/10.55041/ijsrem58098"
+    }
+  ],
+  "bytes": 0,
+  "family_id": "FAM-9400cd2316264450d330",
+  "lawful_access_basis": null,
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "representative_canonical_id": "CAN-792a1dd7b6e5a232833f",
+  "retrieved_url": null,
+  "status": "lawful_full_text_not_retrieved"
+}

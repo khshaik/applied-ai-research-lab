@@ -1,0 +1,58 @@
+{
+  "burden_acceptance_band": "operational_pass",
+  "complete_pagination": true,
+  "freeze_ready": true,
+  "interpretation_boundary": "Mapped arXiv query precision and known-item recall only; not screening, eligibility, inclusion, or PRISMA evidence.",
+  "mapped_family_id": "S7",
+  "population_size_basis": "complete_export_retrieved_count",
+  "population_size_for_sample": 7,
+  "precision_appraisal_pending": false,
+  "query_appraisal_pass": true,
+  "records_reconciled": 7,
+  "relevant_plus_uncertain_count": 7,
+  "relevant_plus_uncertain_proportion": 1.0,
+  "relevant_plus_uncertain_wilson_95_interval": [
+    0.6456695649333126,
+    1.0
+  ],
+  "required_sample_size_for_freeze": 7,
+  "sample_likely_irrelevant": 0,
+  "sample_likely_relevant": 5,
+  "sample_minimum_met": true,
+  "sample_size": 7,
+  "sample_uncertain": 2,
+  "sentinel_checks": [
+    {
+      "arxiv_id": "2608.02582",
+      "pass": true,
+      "present": true,
+      "role": "scope_positive",
+      "sentinel_id": "S7-AX-P1-ACEM"
+    },
+    {
+      "arxiv_id": "2602.20684",
+      "pass": true,
+      "present": true,
+      "role": "scope_positive",
+      "sentinel_id": "S7-AX-P2-AGILE-V"
+    },
+    {
+      "arxiv_id": "2603.20028",
+      "pass": true,
+      "present": true,
+      "role": "scope_positive",
+      "sentinel_id": "S7-AX-P3-ORCHESTRATION"
+    },
+    {
+      "arxiv_id": "2603.06276",
+      "pass": true,
+      "present": true,
+      "role": "neutral_disconfirming",
+      "sentinel_id": "S7-AX-D1-STORY-POINT"
+    }
+  ],
+  "sentinel_class_complete": true,
+  "sentinel_recall_pass": true,
+  "source_query_id": "AX-S7R4",
+  "status": "development_query_appraisal"
+}

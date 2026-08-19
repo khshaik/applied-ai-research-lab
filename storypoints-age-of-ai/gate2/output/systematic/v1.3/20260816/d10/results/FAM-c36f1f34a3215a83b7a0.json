@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 1017590,
+      "content_type": "application/pdf",
+      "final_url": "https://asu-pa.nure.ua/article/download/363113/348485",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "8a5305bed4ace34b0263c42349b8ee2c96299f37032603cd6ca0e408dc5e72a2",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://asu-pa.nure.ua/article/download/363113/348485"
+    }
+  ],
+  "bytes": 1017590,
+  "family_id": "FAM-c36f1f34a3215a83b7a0",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-c36f1f34a3215a83b7a0.pdf",
+  "pdf_sha256": "8a5305bed4ace34b0263c42349b8ee2c96299f37032603cd6ca0e408dc5e72a2",
+  "representative_canonical_id": "CAN-e660e56caf7aaf125d3b",
+  "retrieved_url": "https://asu-pa.nure.ua/article/download/363113/348485",
+  "status": "retrieved_open"
+}

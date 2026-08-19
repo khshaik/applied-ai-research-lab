@@ -1,0 +1,34 @@
+{
+  "complete_pagination": true,
+  "endpoint": "https://api.semanticscholar.org/graph/v1/paper/search/bulk",
+  "executed_at_utc": "2026-08-16T06:44:36.356618+00:00",
+  "from_date": "2019-01-01",
+  "interpretation_boundary": "Open-index development discovery export; not frozen, screened, deduplicated, eligible, or a PRISMA corpus.",
+  "max_pages": null,
+  "page_size": 1000,
+  "pages": [
+    {
+      "file": "page_00000.json",
+      "records": 331,
+      "request_url_sha256": "b0243dff3918c7986163ea0224c0b01320151d8082aec90d3a47f76c6a608295",
+      "sequence": 0,
+      "sha256": "67b57cd8e7bff9a2a55a3c7a5054be6a83c9fb53a5d97c6fa182674dc981ec4b"
+    }
+  ],
+  "query": "+(((\"large language model\" | LLM | \"generative AI\" | \"AI assisted\" | \"AI coding assistant\") + (\"software effort estimation\" | \"developer productivity\" | \"code review\" | \"story point\") + (\"human effort\" | \"cognitive load\" | workload | oversight | validation | verification | \"review time\" | productivity)) | \"Same Scrutiny More Time Eye Tracking Insights into Reviewing LLM Labelled Code\" | \"Story Point Estimation Using Large Language Models\")",
+  "query_id": "S2-S1I3",
+  "query_mode": "fulltext_search",
+  "query_registry_sha256": "a506e927ebcf361475c8ca3ae032ccdedf06e81c3cbe519618014eaec46ec164",
+  "query_sha256": "75f8b9fc614c89007b4b0e55192258dc91826814b742e3062718f4b9ebd7fbcf",
+  "records_csv": {
+    "file": "records.csv",
+    "sha256": "f686a644b90e46d9c8ee00b7d879608cc25af86000e800410445273aa920a92c"
+  },
+  "records_retrieved": 331,
+  "result_sort": "",
+  "retrieval_scope": "complete",
+  "source": "semantic_scholar",
+  "status": "development_pilot",
+  "to_date": "2026-08-16",
+  "total_reported": 331
+}

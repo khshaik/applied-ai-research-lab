@@ -1,0 +1,92 @@
+{
+  "schema_version": "0.1.0",
+  "study_manifest": {
+    "study_id": "route_b_prototype", "configuration_version": "0.1.0", "framework_version": "gate_3b",
+    "created_at": "2026-08-13T12:00:00Z", "code_commit": "development", "dependency_lock_checksum": "stdlib_plus_optional_pyyaml",
+    "environment_id": "python_3", "configuration_checksum": "computed_at_lock", "evaluation_status": "development",
+    "authoring_agents": ["simulation_engine"], "review_agents": ["pending_independent_agent"],
+    "interpretation_boundary": "Synthetic mechanism evaluation only; no claim of organizational or human cognitive-load validity."
+  },
+  "provenance_registry": [
+    {"id":"illustrative_inputs","class":"I","source":"Gate 3B prototype","locator":"simulation/configs/example.yaml","original_measure":"none","transformation":"illustrative fixed and triangular values","applicability_limits":"software verification only","extractor":"simulation_engine","verifier":"pending_agent"}
+  ],
+  "time_model": {"unit":"hours","horizon":80,"warmup":0,"termination_rule":"finite_horizon"},
+  "role_pools": [
+    {"id":"product_domain","mapped_roles":["product_owner","domain_analyst"],"capacity_calendar_id":"standard_week","concurrent_servers":1,"queue_discipline":"FIFO","preemption_policy":"none","stage_eligibility":["context_preparation"],"setup_penalty_distribution_id":null,"initial_backlog":0},
+    {"id":"developers","mapped_roles":["developer"],"capacity_calendar_id":"standard_week","concurrent_servers":2,"queue_discipline":"FIFO","preemption_policy":"none","stage_eligibility":["implementation"],"setup_penalty_distribution_id":null,"initial_backlog":0},
+    {"id":"reviewers","mapped_roles":["reviewer","qa"],"capacity_calendar_id":"standard_week","concurrent_servers":1,"queue_discipline":"FIFO","preemption_policy":"none","stage_eligibility":["verification"],"setup_penalty_distribution_id":null,"initial_backlog":0},
+    {"id":"business_acceptance","mapped_roles":["business_acceptance_owner"],"capacity_calendar_id":"standard_week","concurrent_servers":1,"queue_discipline":"FIFO","preemption_policy":"none","stage_eligibility":["acceptance"],"setup_penalty_distribution_id":null,"initial_backlog":0}
+  ],
+  "lifecycle_stages": [
+    {"id":"context_preparation","eligible_role_pool_ids":["product_domain"],"entry_prerequisite_ids":[],"gate_id":null,"parallelization_policy":"single_role","dependency_release_rule":"none","terminal_eligible":false},
+    {"id":"implementation","eligible_role_pool_ids":["developers"],"entry_prerequisite_ids":["context_preparation"],"gate_id":null,"parallelization_policy":"single_role","dependency_release_rule":"after_predecessor","terminal_eligible":false},
+    {"id":"verification","eligible_role_pool_ids":["reviewers"],"entry_prerequisite_ids":["implementation"],"gate_id":"quality_gate","parallelization_policy":"single_role","dependency_release_rule":"after_predecessor","terminal_eligible":false},
+    {"id":"acceptance","eligible_role_pool_ids":["business_acceptance"],"entry_prerequisite_ids":["verification"],"gate_id":null,"parallelization_policy":"single_role","dependency_release_rule":"after_predecessor","terminal_eligible":true}
+  ],
+  "gate_definitions": [
+    {"id":"quality_gate","stage_id":"verification","risk_classes":["T1","T2","T3","T4"],"mandatory":true,"accountable_role_pool_id":"reviewers","required_evidence_ids":["test_evidence"],"evaluation_demand_distribution_id":"review_time","allowed_states":["Pass","Conditional","Fail"],"transitions":{"Pass":"next","Conditional":"next","Fail":"implementation"},"conditional_policy":{"allowed":true},"expiry_rule":"none_in_prototype"}
+  ],
+  "evidence_definitions": [
+    {"id":"test_evidence","type":"automated_test_result","mandatory_by_risk":{"T1":true,"T2":true,"T3":true,"T4":true},"freshness_rule":"same_run","invalidating_events":["implementation_change"],"producer_stage_id":"verification","producer_event":"service_complete"}
+  ],
+  "work_item_templates": [
+    {"id":"standard_feature","risk_class":"T2","story_points":5,"hie_compatible_fields":{"interaction_count":3,"oversight_level":2},
+     "pdd_profile":{
+       "iu":{"level":2,"raw_indicators":{},"evidence_ids":[],"rationale":"illustrative","confidence":"Low","instrument_version":"0.1","t0":"2026-08-13T12:00:00Z"},
+       "cpe":{"level":2,"raw_indicators":{},"evidence_ids":[],"rationale":"illustrative","confidence":"Low","instrument_version":"0.1","t0":"2026-08-13T12:00:00Z"},
+       "cpd":{"level":2,"raw_indicators":{},"evidence_ids":[],"rationale":"illustrative","confidence":"Low","instrument_version":"0.1","t0":"2026-08-13T12:00:00Z"},
+       "ao":{"level":2,"raw_indicators":{},"evidence_ids":[],"rationale":"illustrative","confidence":"Low","instrument_version":"0.1","t0":"2026-08-13T12:00:00Z"},
+       "ct":{"level":2,"raw_indicators":{},"evidence_ids":[],"rationale":"illustrative","confidence":"Low","instrument_version":"0.1","t0":"2026-08-13T12:00:00Z"}
+     },"stage_automation_profile":{"context_preparation":"medium","implementation":"high","verification":"medium","acceptance":"low"},"required_gate_ids":["quality_gate"],"dependency_ids":[]},
+    {"id":"dependent_feature","risk_class":"T2","story_points":3,"hie_compatible_fields":{"interaction_count":4,"oversight_level":2},
+     "pdd_profile":{
+       "iu":{"level":2,"raw_indicators":{},"evidence_ids":[],"rationale":"illustrative dependent work","confidence":"Low","instrument_version":"0.1","t0":"2026-08-13T12:00:00Z"},
+       "cpe":{"level":3,"raw_indicators":{},"evidence_ids":[],"rationale":"declared predecessor coupling","confidence":"Low","instrument_version":"0.1","t0":"2026-08-13T12:00:00Z"},
+       "cpd":{"level":2,"raw_indicators":{},"evidence_ids":[],"rationale":"illustrative","confidence":"Low","instrument_version":"0.1","t0":"2026-08-13T12:00:00Z"},
+       "ao":{"level":2,"raw_indicators":{},"evidence_ids":[],"rationale":"illustrative","confidence":"Low","instrument_version":"0.1","t0":"2026-08-13T12:00:00Z"},
+       "ct":{"level":3,"raw_indicators":{},"evidence_ids":[],"rationale":"finish-to-start dependency","confidence":"Low","instrument_version":"0.1","t0":"2026-08-13T12:00:00Z"}
+     },"stage_automation_profile":{"context_preparation":"medium","implementation":"high","verification":"medium","acceptance":"low"},"required_gate_ids":["quality_gate"],"dependency_ids":["feature_dependency"]}
+  ],
+  "arrival_models": [{"id":"prototype_portfolio","type":"fixed_portfolio","parameters":{"count":12,"start":0,"spacing":0.5,"template_ids":["standard_feature","standard_feature","standard_feature","standard_feature","standard_feature","standard_feature","dependent_feature","dependent_feature","dependent_feature","dependent_feature","dependent_feature","dependent_feature"]},"initial_wip":[]}],
+  "dependency_models": [{"id":"feature_dependency","edges":[["standard_feature","dependent_feature"]],"cycles_allowed_for_test":false,"release_rule":"all_predecessor_items_completed_successfully","failure_policy":"block_successor","scope":"template_all_to_all"}],
+  "demand_models": [
+    {"id":"context_demand","work_item_selector":"standard_feature","role_pool_id":"product_domain","stage_id":"context_preparation","base_distribution":{"id":"context_time","family":"triangular","parameters":{"low":0.5,"mode":1,"high":2},"unit":"hours","truncation":[0.5,2],"provenance_id":"illustrative_inputs","independence_declared":true},"pdd_conditioning":{},"risk_conditioning":{},"sae_moderation":{},"correlation_group":null,"applicability_rule":"all","provenance_id":"illustrative_inputs"},
+    {"id":"implementation_demand","work_item_selector":"standard_feature","role_pool_id":"developers","stage_id":"implementation","base_distribution":{"id":"implementation_time","family":"triangular","parameters":{"low":1,"mode":2,"high":4},"unit":"hours","truncation":[1,4],"provenance_id":"illustrative_inputs","independence_declared":true},"pdd_conditioning":{},"risk_conditioning":{},"sae_moderation":{},"correlation_group":null,"applicability_rule":"all","provenance_id":"illustrative_inputs"},
+    {"id":"verification_demand","work_item_selector":"standard_feature","role_pool_id":"reviewers","stage_id":"verification","base_distribution":{"id":"review_time","family":"triangular","parameters":{"low":0.5,"mode":1,"high":2},"unit":"hours","truncation":[0.5,2],"provenance_id":"illustrative_inputs","independence_declared":true},"pdd_conditioning":{},"risk_conditioning":{},"sae_moderation":{},"correlation_group":null,"applicability_rule":"all","provenance_id":"illustrative_inputs"},
+    {"id":"acceptance_demand","work_item_selector":"standard_feature","role_pool_id":"business_acceptance","stage_id":"acceptance","base_distribution":{"id":"acceptance_time","family":"triangular","parameters":{"low":0.5,"mode":1,"high":2},"unit":"hours","truncation":[0.5,2],"provenance_id":"illustrative_inputs","independence_declared":true},"pdd_conditioning":{},"risk_conditioning":{},"sae_moderation":{},"correlation_group":null,"applicability_rule":"all","provenance_id":"illustrative_inputs"},
+    {"id":"dependent_context_demand","work_item_selector":"dependent_feature","role_pool_id":"product_domain","stage_id":"context_preparation","base_distribution":{"id":"dependent_context_time","family":"fixed","parameters":{"value":0.5},"unit":"hours","provenance_id":"illustrative_inputs","independence_declared":true},"pdd_conditioning":{},"risk_conditioning":{},"sae_moderation":{},"correlation_group":null,"applicability_rule":"all","provenance_id":"illustrative_inputs"},
+    {"id":"dependent_implementation_demand","work_item_selector":"dependent_feature","role_pool_id":"developers","stage_id":"implementation","base_distribution":{"id":"dependent_implementation_time","family":"fixed","parameters":{"value":1.5},"unit":"hours","provenance_id":"illustrative_inputs","independence_declared":true},"pdd_conditioning":{},"risk_conditioning":{},"sae_moderation":{},"correlation_group":null,"applicability_rule":"all","provenance_id":"illustrative_inputs"},
+    {"id":"dependent_verification_demand","work_item_selector":"dependent_feature","role_pool_id":"reviewers","stage_id":"verification","base_distribution":{"id":"dependent_review_time","family":"fixed","parameters":{"value":0.75},"unit":"hours","provenance_id":"illustrative_inputs","independence_declared":true},"pdd_conditioning":{},"risk_conditioning":{},"sae_moderation":{},"correlation_group":null,"applicability_rule":"all","provenance_id":"illustrative_inputs"},
+    {"id":"dependent_acceptance_demand","work_item_selector":"dependent_feature","role_pool_id":"business_acceptance","stage_id":"acceptance","base_distribution":{"id":"dependent_acceptance_time","family":"fixed","parameters":{"value":0.5},"unit":"hours","provenance_id":"illustrative_inputs","independence_declared":true},"pdd_conditioning":{},"risk_conditioning":{},"sae_moderation":{},"correlation_group":null,"applicability_rule":"all","provenance_id":"illustrative_inputs"}
+  ],
+  "capacity_calendars": [{"id":"standard_week","timezone":"UTC","intervals":[{"start":"2026-08-13T00:00:00Z","end":"2026-08-16T08:00:00Z","gross_hours":80,"absence_hours":0,"nonproject_hours":0,"effective_hours":80}],"blackout_periods":[{"start":"2026-08-13T10:00:00Z","end":"2026-08-13T12:00:00Z"}],"concurrency":1,"provenance_id":"illustrative_inputs"}],
+  "readiness_models": [{"id":"prototype_readiness","t0_state":{"test_evidence":"present"},"runtime_state_model":{"invalidate_on_rework":true},"provenance_id":"illustrative_inputs"}],
+  "rework_models": [
+    {"id":"quality_fail_rework","from_gate_id":"quality_gate","decision":"Fail","condition":"gate_failure","routes":[{"destination_stage_id":"implementation","probability":1.0,"additional_demand_distribution_ids":[],"residual_risk_update":{}}],"maximum_loops":2,"terminal_failure_rule":"fail_after_maximum_loops","provenance_id":"illustrative_inputs"}
+  ],
+  "quality_models": [{"id":"synthetic_quality"}],
+  "mechanisms": [{"id":"explicit_role_queues","enabled":true,"parameters":{},"scope":{"all_stages":true},"provenance_id":"illustrative_inputs","ablation_label":"no_role_queues"}],
+  "data_generating_worlds": [
+    {"id":"world_sp","world_type":"sp_sufficient","truth_parameters":{"service_multiplier":1.0,"gate_fail_probability":0.02,"gate_conditional_probability":0.03},"comparator_information_policy":{}},
+    {"id":"world_hie","world_type":"hie_task_oversight","truth_parameters":{"service_multiplier":1.1,"gate_fail_probability":0.05,"gate_conditional_probability":0.05},"comparator_information_policy":{}},
+    {"id":"world_bottleneck","world_type":"cross_role_bottleneck","truth_parameters":{"service_multiplier":1.25,"gate_fail_probability":0.06,"gate_conditional_probability":0.05},"comparator_information_policy":{}},
+    {"id":"world_readiness","world_type":"readiness_rework","truth_parameters":{"service_multiplier":1.0,"gate_fail_probability":0.25,"gate_conditional_probability":0.10},"comparator_information_policy":{}},
+    {"id":"world_mixed","world_type":"mixed","truth_parameters":{"service_multiplier":1.2,"gate_fail_probability":0.15,"gate_conditional_probability":0.10},"comparator_information_policy":{}},
+    {"id":"world_adversarial","world_type":"misspecified_adversarial","truth_parameters":{"service_multiplier":1.5,"gate_fail_probability":0.35,"gate_conditional_probability":0.10},"comparator_information_policy":{}}
+  ],
+  "comparators": [
+    {"id":"story_points_only","type":"story_points","allowed_t0_fields":["story_points"],"oracle":false},
+    {"id":"hie_task","type":"hie_compatible","allowed_t0_fields":["story_points","hie_compatible_fields"],"oracle":false},
+    {"id":"simple_load","type":"simple_role_load","allowed_t0_fields":["demand_models","role_pools","capacity_calendars"],"oracle":false},
+    {"id":"role_constrained","type":"proposed_model","allowed_t0_fields":["pdd_profile","demand_models","role_pools","capacity_calendars","gate_definitions","readiness_models","rework_models","dependency_models","work_item_templates","arrival_models"],"oracle":false},
+    {"id":"oracle_bound","type":"oracle","allowed_t0_fields":["truth_parameters"],"oracle":true}
+  ],
+  "experimental_design": {"design_type":"factorial","development_world_ids":["world_sp","world_hie","world_bottleneck"],"locked_evaluation_world_ids":["world_readiness","world_mixed","world_adversarial"],"factors":[{"name":"review_pressure","levels":["low","high"]}],"replication_max":50000},
+  "randomization": {"master_seed":20260813,"child_streams":{"arrivals":101,"service":202,"gates":303},"common_random_numbers":true,"locked_seed_checksum":"to_be_generated_at_preregistration"},
+  "verification_tests": [
+    {"id":"fixed_seed","type":"seed_reproducibility","fixture":{"world_id":"world_mixed","seed":101},"expected":{"identical_digest":true},"tolerance":0,"hard_stop":true},
+    {"id":"entity_balance","type":"entity_reconciliation","fixture":{"world_id":"world_sp"},"expected":{"no_loss_or_duplication":true},"tolerance":0,"hard_stop":true}
+  ],
+  "evaluation_rules": {"primary_metric":"brier_score","probability_interval_halfwidth":0.01,"relative_brier_skill_threshold":0.05,"absolute_brier_equivalence_margin":0.01,"robustness_fraction":0.8,"instability_reversal_fraction":0.2,"bottleneck_improvement_points":0.10},
+  "output_contract": {"format":"csv","tables":["run_manifest","item_forecasts","portfolio_forecasts","event_log","role_stage_service","gate_decisions","rework_transitions","capacity_utilization","comparator_scores","verification_results","configuration_warnings"],"immutable":true,"regenerable_from_manifest":true}
+}

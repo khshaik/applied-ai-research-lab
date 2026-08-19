@@ -1,0 +1,34 @@
+{
+  "dependency": {
+    "manifest_path": "gate2/pdf_dependency_manifest.json",
+    "manifest_sha256": "22daaba8bfa5daad4318f42900bbeb1475b5a3d7a0066f18d3a28dfafc7d1ed5",
+    "pypdf_version": "6.16.1",
+    "pypdf_wheel_sha256": "63fec31c4092ae50b6729beedcb469055b60d20c834bde1c402df241f371f644",
+    "runtime_dependencies": [
+      {
+        "dependency": "typing_extensions",
+        "sha256": "481caa481374e813c1b176ada14e97f1f67a4539ce9cfeb3f350d78d6370c2e8",
+        "version": "4.16.0"
+      }
+    ]
+  },
+  "failed_count": 0,
+  "pipeline_version": "d14-pdf-sanitize/1.0.0",
+  "result_hashes": {
+    "CITFAM-1be0d40f92893aef4d5c.json": "0c4ac37efd3f15413951e2f4115d0d9b58dd9bfb9a55c1ac69ed82c934081855",
+    "CITFAM-29b14b2fd87d21f17854.json": "a5c9268789e84883d2b3a4fc89dee222dfbc6dc8b0ccc0b037c282c076452289",
+    "CITFAM-4e9ecb5737ccced54d2c.json": "8d65061465c02ea47f832c4ae272c9ae8f8c6804b7da2962a576accbf1a2c61e",
+    "CITFAM-750d5431a62b74059fcc.json": "1c5939346ed6b87d2de5f73d88f3be05e18d18634b9ab2ae795f24ed78dcdfc5",
+    "CITFAM-76f00b127beef9929e56.json": "177de073e47cea42c909fadfde0dbec505d0628829b06ca4bd9835c5511ad370",
+    "CITFAM-8f5dd145ce786a3f40b5.json": "43dafb5fd177429e53842fb4b84a450fc64e9152bd6a16a04c953e7b4ee527a7",
+    "CITFAM-a313c1ff58e1966d7376.json": "19f88bbd7d9f8fc0fd50f561c4e174f09102d0e3450e53fc16192933d03a5f0d",
+    "CITFAM-e6318ac502dbcbdbe629.json": "daba8cacea9edcc86421002778be6fd0ac44d2d9611fb3d07399e6f2df22170c",
+    "CITFAM-f902aa05a71082dc84a3.json": "2d8171cf737e5c8564c6e0dc5c2ac6ea8afa9abf28c1e1238ed0ddc8dc321883"
+  },
+  "security_boundary": "Project-local pure-Python parser; one bounded subprocess per PDF; originals unchanged; no network, Git/history, secrets, embedded actions, PDF execution, or private systems.",
+  "source_count": 9,
+  "status": "development_pilot_complete",
+  "total_characters": 964612,
+  "total_pages": 199,
+  "verified_count": 9
+}

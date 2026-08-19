@@ -1,0 +1,32 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:01:51.215454Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://zenodo.org/records/18913122",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://doi.org/10.5281/zenodo.18913121"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:01:53.199732Z",
+      "basis": "citation_pdf_url_metadata",
+      "bytes": 1286937,
+      "content_type": "application/octet-stream, application/octet-stream",
+      "final_url": "https://zenodo.org/records/18913122/files/From-Vibe-Coding-to-Validated-Structure-white-paper-March-2026.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "sha256": "815c67febfcf223732a25ac6fc95c9f0d75ef65cb6ef540bef327380b2e19de0",
+      "url": "https://zenodo.org/records/18913122/files/From-Vibe-Coding-to-Validated-Structure-white-paper-March-2026.pdf"
+    }
+  ],
+  "bytes": 1286937,
+  "family_id": "FAM-072f7a241d8b2b1b9ce2",
+  "lawful_access_basis": "citation_pdf_url_metadata",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-072f7a241d8b2b1b9ce2.pdf",
+  "pdf_sha256": "815c67febfcf223732a25ac6fc95c9f0d75ef65cb6ef540bef327380b2e19de0",
+  "representative_canonical_id": "CAN-ed24087064eaa2aada9d",
+  "retrieved_url": "https://zenodo.org/records/18913122/files/From-Vibe-Coding-to-Validated-Structure-white-paper-March-2026.pdf",
+  "status": "retrieved_open"
+}

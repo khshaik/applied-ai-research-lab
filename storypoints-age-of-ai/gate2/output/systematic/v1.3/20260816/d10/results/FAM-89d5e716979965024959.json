@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 1009463,
+      "content_type": "application/pdf",
+      "final_url": "https://msarr.magnascientiapub.com/sites/default/files/fulltext_pdf/MSARR-2025-0072.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "c3280662b116b834a1c19261614673247741cea5bad362dcb0f06875b7c75b9f",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://magnascientiapub.com/journals/msarr/sites/default/files/MSARR-2025-0072.pdf"
+    }
+  ],
+  "bytes": 1009463,
+  "family_id": "FAM-89d5e716979965024959",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-89d5e716979965024959.pdf",
+  "pdf_sha256": "c3280662b116b834a1c19261614673247741cea5bad362dcb0f06875b7c75b9f",
+  "representative_canonical_id": "CAN-9efb61040b4084b6920f",
+  "retrieved_url": "https://msarr.magnascientiapub.com/sites/default/files/fulltext_pdf/MSARR-2025-0072.pdf",
+  "status": "retrieved_open"
+}

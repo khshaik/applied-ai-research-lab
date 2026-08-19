@@ -1,0 +1,18 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-19T05:42:20.110447Z",
+      "basis": "frozen_openalex_primary_oa_pdf",
+      "bytes": 52663,
+      "final_url": "https://www.sciencedirect.com/science/article/pii/S1877050926024051/pdf",
+      "redirect_count": 0,
+      "status": "invalid_pdf_signature"
+    }
+  ],
+  "bytes": 0,
+  "citation_family_id": "CITFAM-6380f3a7a2cc06998fc1",
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "security_attestation": "Static HTTPS retrieval only; public-IP validation, bounded redirects/size, signature and active-content checks; no PDF execution.",
+  "status": "invalid_pdf_signature"
+}

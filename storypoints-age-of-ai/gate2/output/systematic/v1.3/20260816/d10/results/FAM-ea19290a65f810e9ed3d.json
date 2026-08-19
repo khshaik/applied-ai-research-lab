@@ -1,0 +1,30 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:16:47.486730Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://cris.unibo.it/handle/11585/1036630",
+      "http_status": 403,
+      "outcome": "access_blocked_or_paywalled",
+      "url": "https://hdl.handle.net/11585/1036630"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:21:33.082496Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://cris.unibo.it/handle/11585/1036630",
+      "http_status": 403,
+      "outcome": "access_blocked_or_paywalled",
+      "url": "https://hdl.handle.net/11585/1036630"
+    }
+  ],
+  "bytes": 0,
+  "family_id": "FAM-ea19290a65f810e9ed3d",
+  "lawful_access_basis": null,
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "representative_canonical_id": "CAN-fd007f4792f0e3fd90f3",
+  "retrieved_url": null,
+  "status": "paywalled_or_access_blocked"
+}

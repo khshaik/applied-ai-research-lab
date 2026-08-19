@@ -1,0 +1,32 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:08:38.902828Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://zenodo.org/records/21289029",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://doi.org/10.5281/zenodo.21289029"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:08:40.525896Z",
+      "basis": "citation_pdf_url_metadata",
+      "bytes": 66127,
+      "content_type": "application/octet-stream, application/octet-stream",
+      "final_url": "https://zenodo.org/records/21289029/files/Generative_AI_in_Automated_Code_Review_and_Bug_Detection.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "sha256": "bd5c83a2fba644fb0976e117d38431bcd14dae2dfa0bc7a0b3fcace544027c5d",
+      "url": "https://zenodo.org/records/21289029/files/Generative_AI_in_Automated_Code_Review_and_Bug_Detection.pdf"
+    }
+  ],
+  "bytes": 66127,
+  "family_id": "FAM-8488c7a950f89aa01e68",
+  "lawful_access_basis": "citation_pdf_url_metadata",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-8488c7a950f89aa01e68.pdf",
+  "pdf_sha256": "bd5c83a2fba644fb0976e117d38431bcd14dae2dfa0bc7a0b3fcace544027c5d",
+  "representative_canonical_id": "CAN-a152887cc45c08e01846",
+  "retrieved_url": "https://zenodo.org/records/21289029/files/Generative_AI_in_Automated_Code_Review_and_Bug_Detection.pdf",
+  "status": "retrieved_open"
+}

@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 2514781,
+      "content_type": "application/pdf;charset=UTF-8",
+      "final_url": "https://aaltodoc.aalto.fi/server/api/core/bitstreams/f5b37aaf-a5da-430e-b5ca-7cef5791f22e/content",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "0abe008f2e6a68656b5a114351b13005d00c0adc1a0f46a63bad68ade8f86996",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://aaltodoc.aalto.fi/bitstreams/f5b37aaf-a5da-430e-b5ca-7cef5791f22e/download"
+    }
+  ],
+  "bytes": 2514781,
+  "family_id": "FAM-080a4d3ab4d8fcbca027",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-080a4d3ab4d8fcbca027.pdf",
+  "pdf_sha256": "0abe008f2e6a68656b5a114351b13005d00c0adc1a0f46a63bad68ade8f86996",
+  "representative_canonical_id": "CAN-a72767565728da54edea",
+  "retrieved_url": "https://aaltodoc.aalto.fi/server/api/core/bitstreams/f5b37aaf-a5da-430e-b5ca-7cef5791f22e/content",
+  "status": "retrieved_open"
+}

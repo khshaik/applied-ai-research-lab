@@ -1,0 +1,22 @@
+{
+  "family_count": 212,
+  "partitions": [
+    {
+      "partition": "a",
+      "path": "/Users/81194246/Library/CloudStorage/OneDrive-Pepsico/Personal/AI/Projects/ThinkAI/storypoints-age-of-ai/gate2/output/systematic/v1.3/20260816/d14/evidence_extraction/packet/extraction_packet_a.jsonl",
+      "row_count": 106,
+      "sha256": "41a34697e669b04f3891f1fd45bc0f0eeb999c746bc53cd3997fd01b8981788d"
+    },
+    {
+      "partition": "b",
+      "path": "/Users/81194246/Library/CloudStorage/OneDrive-Pepsico/Personal/AI/Projects/ThinkAI/storypoints-age-of-ai/gate2/output/systematic/v1.3/20260816/d14/evidence_extraction/packet/extraction_packet_b.jsonl",
+      "row_count": 106,
+      "sha256": "f33b7ae184c782cc0396edf9d9a51302c4394315894b73223cb8d7b4eab08d0c"
+    }
+  ],
+  "pipeline_version": "d14-extraction-packet/1.0.0",
+  "protocol_version": "1.3",
+  "quality_manifest_sha256": "7501a9e0966ffd00121aa35bf5f66c378b240efd37c022bfd4a34a03a4b04b70",
+  "security_boundary": "Checksum-bound static text and final quality ledger only; no network, Git/history, secrets, installs, PDF execution, or private systems.",
+  "status": "d14_evidence_extraction_packet_complete"
+}

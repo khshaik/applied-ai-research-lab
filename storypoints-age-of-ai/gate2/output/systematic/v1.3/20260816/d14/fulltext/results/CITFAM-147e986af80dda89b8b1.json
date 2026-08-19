@@ -1,0 +1,21 @@
+{
+  "attempts": [
+    {
+      "active_indicators": [],
+      "attempted_at_utc": "2026-08-18T12:25:44.096890Z",
+      "basis": "live_openalex_best_oa_location_oa_pdf",
+      "bytes": 2053141,
+      "final_url": "https://www.newyorkfed.org/medialibrary/media/research/staff_reports/sr1075.pdf",
+      "pdf_path": "/Users/81194246/Library/CloudStorage/OneDrive-Pepsico/Personal/AI/Projects/ThinkAI/storypoints-age-of-ai/gate2/output/systematic/v1.3/20260816/d14/fulltext/pdf/CITFAM-147e986af80dda89b8b1.pdf",
+      "redirect_count": 1,
+      "sha256": "cb6e96da07783d59f11f73d6738c37c3f16f247ae19f1cfeeeae0dcc366fd1ea",
+      "status": "retrieved_static_pdf"
+    }
+  ],
+  "bytes": 2053141,
+  "citation_family_id": "CITFAM-147e986af80dda89b8b1",
+  "pdf_path": "/Users/81194246/Library/CloudStorage/OneDrive-Pepsico/Personal/AI/Projects/ThinkAI/storypoints-age-of-ai/gate2/output/systematic/v1.3/20260816/d14/fulltext/pdf/CITFAM-147e986af80dda89b8b1.pdf",
+  "pdf_sha256": "cb6e96da07783d59f11f73d6738c37c3f16f247ae19f1cfeeeae0dcc366fd1ea",
+  "security_attestation": "Static HTTPS retrieval only; public-IP validation, bounded redirects/size, signature and active-content checks; no PDF execution.",
+  "status": "retrieved_static_pdf"
+}

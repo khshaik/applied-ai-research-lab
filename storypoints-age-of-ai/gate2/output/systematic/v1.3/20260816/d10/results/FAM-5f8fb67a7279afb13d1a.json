@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 2652907,
+      "content_type": "application/pdf",
+      "final_url": "https://odatrya.org.ua/index.php/osatrq/article/download/393/376",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "5c5dec47febcda48bf6d79ebb192efab6e43111d620398e0a54d8a1e000e8b96",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://odatrya.org.ua/index.php/osatrq/article/download/393/376"
+    }
+  ],
+  "bytes": 2652907,
+  "family_id": "FAM-5f8fb67a7279afb13d1a",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-5f8fb67a7279afb13d1a.pdf",
+  "pdf_sha256": "5c5dec47febcda48bf6d79ebb192efab6e43111d620398e0a54d8a1e000e8b96",
+  "representative_canonical_id": "CAN-205efef48aa4725eb199",
+  "retrieved_url": "https://odatrya.org.ua/index.php/osatrq/article/download/393/376",
+  "status": "retrieved_open"
+}

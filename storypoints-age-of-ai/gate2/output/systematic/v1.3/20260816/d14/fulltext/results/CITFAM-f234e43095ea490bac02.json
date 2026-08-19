@@ -1,0 +1,23 @@
+{
+  "attempts": [
+    {
+      "active_indicators": [
+        "/JS"
+      ],
+      "attempted_at_utc": "2026-08-19T09:50:06.797196Z",
+      "basis": "frozen_openalex_primary_oa_pdf",
+      "bytes": 1987013,
+      "final_url": "https://reference-global.com/download/article/10.2478/acss-2024-0009.pdf",
+      "quarantine_path": "/Users/81194246/Library/CloudStorage/OneDrive-Pepsico/Personal/AI/Projects/ThinkAI/storypoints-age-of-ai/gate2/output/systematic/v1.3/20260816/d14/fulltext/quarantine/CITFAM-f234e43095ea490bac02.pdf",
+      "redirect_count": 1,
+      "sha256": "c057203e36b53e02153f1f6d7c36d0d3ccb1c54c374607355c62c284565cbd46",
+      "status": "quarantined_active_content"
+    }
+  ],
+  "bytes": 1987013,
+  "citation_family_id": "CITFAM-f234e43095ea490bac02",
+  "pdf_path": null,
+  "pdf_sha256": "c057203e36b53e02153f1f6d7c36d0d3ccb1c54c374607355c62c284565cbd46",
+  "security_attestation": "Static HTTPS retrieval only; public-IP validation, bounded redirects/size, signature and active-content checks; no PDF execution.",
+  "status": "quarantined_active_content"
+}

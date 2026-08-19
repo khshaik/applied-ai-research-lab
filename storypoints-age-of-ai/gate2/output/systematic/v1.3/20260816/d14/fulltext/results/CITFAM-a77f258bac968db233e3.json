@@ -1,0 +1,23 @@
+{
+  "attempts": [
+    {
+      "active_indicators": [
+        "/S /URI"
+      ],
+      "attempted_at_utc": "2026-08-19T08:50:50.331907Z",
+      "basis": "frozen_openalex_primary_oa_pdf",
+      "bytes": 1344470,
+      "final_url": "https://www.tandfonline.com/doi/pdf/10.1080/12460125.2026.2688530?needAccess=true",
+      "quarantine_path": "/Users/81194246/Library/CloudStorage/OneDrive-Pepsico/Personal/AI/Projects/ThinkAI/storypoints-age-of-ai/gate2/output/systematic/v1.3/20260816/d14/fulltext/quarantine/CITFAM-a77f258bac968db233e3.pdf",
+      "redirect_count": 0,
+      "sha256": "01df524cfc896e02c65c7aae6042256be44057b81262ddc850ca6f354f5e514b",
+      "status": "quarantined_active_content"
+    }
+  ],
+  "bytes": 1344470,
+  "citation_family_id": "CITFAM-a77f258bac968db233e3",
+  "pdf_path": null,
+  "pdf_sha256": "01df524cfc896e02c65c7aae6042256be44057b81262ddc850ca6f354f5e514b",
+  "security_attestation": "Static HTTPS retrieval only; public-IP validation, bounded redirects/size, signature and active-content checks; no PDF execution.",
+  "status": "quarantined_active_content"
+}

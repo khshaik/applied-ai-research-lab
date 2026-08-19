@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 485722,
+      "content_type": "application/pdf",
+      "final_url": "https://www.ijrpetm.com/index.php/IJRPETM/article/download/415/394",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "34f37a74012999e5d940a66a2e73ea06a357c2488b2560bc66346f71bc60d319",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://www.ijrpetm.com/index.php/IJRPETM/article/download/415/394"
+    }
+  ],
+  "bytes": 485722,
+  "family_id": "FAM-b2cfca5bcc4a45d5f2e8",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-b2cfca5bcc4a45d5f2e8.pdf",
+  "pdf_sha256": "34f37a74012999e5d940a66a2e73ea06a357c2488b2560bc66346f71bc60d319",
+  "representative_canonical_id": "CAN-db433d7f49dceb63bbd5",
+  "retrieved_url": "https://www.ijrpetm.com/index.php/IJRPETM/article/download/415/394",
+  "status": "retrieved_open"
+}

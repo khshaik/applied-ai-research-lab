@@ -1,0 +1,39 @@
+{
+  "complete_pagination": true,
+  "endpoint": "https://api.openalex.org/works",
+  "executed_at_utc": "2026-08-15T14:32:50.495158+00:00",
+  "from_date": "2019-01-01",
+  "interpretation_boundary": "Open-index development discovery export; not frozen, screened, deduplicated, eligible, or a PRISMA corpus.",
+  "max_pages": null,
+  "page_size": 200,
+  "pages": [
+    {
+      "file": "page_00000.json",
+      "records": 200,
+      "request_url_sha256": "33cdfc82d899c6c5a813e041e28fbe63d32db869e1d07450f476848f65add3c7",
+      "sequence": 0,
+      "sha256": "a18f9c18e579f3bb69886b2b7ae51d8486f7fe62af62643b3204fddb224414f4"
+    },
+    {
+      "file": "page_00001.json",
+      "records": 18,
+      "request_url_sha256": "1db0d3e76e06a383a824e1742a51923b7b4b6ff8b1c55034266ddefcc8e345ea",
+      "sequence": 1,
+      "sha256": "41a86b793128034b95feee2f22744a4d39a34ee97ccfc1fbdb48e36caa51f0da"
+    }
+  ],
+  "query": "large language model AI assisted code review pull request human reviewer workload attention effort verification",
+  "query_id": "OA-S4R1",
+  "query_registry_sha256": "cc627fc91625547bad87bf9a73dda45f4e97879d54012dc376c5c0e681f48128",
+  "query_sha256": "b264cf83dd1f4bbdb0fd7f64bb857c4df06db0ae3c78c7a2101014550779790b",
+  "records_csv": {
+    "file": "records.csv",
+    "sha256": "58c6bbf5b2d438ee7038b9262f1ee1d1bed62402a810606a470633ac295366b9"
+  },
+  "records_retrieved": 218,
+  "retrieval_scope": "complete",
+  "source": "openalex",
+  "status": "development_pilot",
+  "to_date": "2026-08-15",
+  "total_reported": 218
+}

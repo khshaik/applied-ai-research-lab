@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/gate2/query-appraisal-result.schema.json",
+  "type": "object",
+  "required": ["status", "interpretation_boundary", "source", "query_id", "complete_pagination", "population_size_for_sample", "population_size_basis", "required_sample_size_for_freeze", "development_diagnostic_minimum", "sample_size", "sample_minimum_met", "relevant_plus_uncertain_proportion", "burden_acceptance_band", "development_diagnostic_pass", "freeze_ready", "query_appraisal_pass"],
+  "properties": {
+    "status": {"const": "development_query_appraisal"},
+    "complete_pagination": {"type": "boolean"},
+    "population_size_for_sample": {"type": "integer", "minimum": 0},
+    "population_size_basis": {"enum": ["complete_export_retrieved_count", "incomplete_export_reported_total_projection", "incomplete_export_retrieved_lower_bound"]},
+    "required_sample_size_for_freeze": {"type": "integer", "minimum": 0},
+    "development_diagnostic_minimum": {"type": "integer", "minimum": 1},
+    "sample_size": {"type": "integer", "minimum": 0},
+    "sample_minimum_met": {"type": "boolean"},
+    "relevant_plus_uncertain_proportion": {"type": ["number", "null"], "minimum": 0, "maximum": 1},
+    "burden_acceptance_band": {"enum": ["operational_pass", "conditional_review_required", "revise_or_split", "not_estimable"]},
+    "development_diagnostic_pass": {"type": "boolean"},
+    "freeze_ready": {"type": "boolean"},
+    "query_appraisal_pass": {"type": "boolean"}
+  }
+}

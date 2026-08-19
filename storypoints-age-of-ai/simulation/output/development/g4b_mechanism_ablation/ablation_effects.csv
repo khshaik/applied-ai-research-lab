@@ -1,0 +1,5 @@
+bottleneck_delta,configuration_id,mechanism_id,n,primary_delta,status
+0.0035134407561472347,g4b_development,dependencies,2,0.0,developmental_synthetic_not_locked_evaluation
+-0.6318501731249534,g4b_development,multi_role_structure,2,0.0,developmental_synthetic_not_locked_evaluation
+0.005820117076614173,g4b_development,queues,2,0.0,developmental_synthetic_not_locked_evaluation
+0.0,g4b_development,readiness,2,0.0,developmental_synthetic_not_locked_evaluation

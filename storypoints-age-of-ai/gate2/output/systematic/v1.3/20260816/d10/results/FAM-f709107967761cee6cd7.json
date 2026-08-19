@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 528473,
+      "content_type": "application/pdf",
+      "final_url": "https://www.ijset.in/wp-content/uploads/IJSET_V14_issue2_190.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "3a170822f25d5746623b0015721f9030e82e2d10aaef0b8b5c75f24b938c1e93",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://www.ijset.in/wp-content/uploads/IJSET_V14_issue2_190.pdf"
+    }
+  ],
+  "bytes": 528473,
+  "family_id": "FAM-f709107967761cee6cd7",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-f709107967761cee6cd7.pdf",
+  "pdf_sha256": "3a170822f25d5746623b0015721f9030e82e2d10aaef0b8b5c75f24b938c1e93",
+  "representative_canonical_id": "CAN-8a6dd2228a96918db0a6",
+  "retrieved_url": "https://www.ijset.in/wp-content/uploads/IJSET_V14_issue2_190.pdf",
+  "status": "retrieved_open"
+}

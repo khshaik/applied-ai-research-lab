@@ -1,0 +1,31 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:10:40.963331Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html;charset=UTF-8",
+      "final_url": "https://onlinelibrary.wiley.com/doi/10.1002/9781394406623.ch3",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://doi.org/10.1002/9781394406623.ch3"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:10:45.472033Z",
+      "basis": "citation_pdf_url_metadata",
+      "bytes": 99061,
+      "content_type": "text/html;charset=UTF-8",
+      "final_url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/9781394406623.ch3",
+      "http_status": 200,
+      "outcome": "not_a_verified_pdf",
+      "url": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/9781394406623.ch3"
+    }
+  ],
+  "bytes": 0,
+  "family_id": "FAM-8dac82eb1dca8ce81929",
+  "lawful_access_basis": null,
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "representative_canonical_id": "CAN-4a7374aaba813daecdfb",
+  "retrieved_url": null,
+  "status": "lawful_full_text_not_retrieved"
+}

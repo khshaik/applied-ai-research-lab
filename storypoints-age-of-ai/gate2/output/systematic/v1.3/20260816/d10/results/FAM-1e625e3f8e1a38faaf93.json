@@ -1,0 +1,21 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:02:47.722345Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html;charset=UTF-8",
+      "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S0164121224001055",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://doi.org/10.1016/j.jss.2024.112060"
+    }
+  ],
+  "bytes": 0,
+  "family_id": "FAM-1e625e3f8e1a38faaf93",
+  "lawful_access_basis": null,
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "representative_canonical_id": "CAN-57047fd3547e08dc21d5",
+  "retrieved_url": null,
+  "status": "lawful_full_text_not_retrieved"
+}

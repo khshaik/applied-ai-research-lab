@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 362886,
+      "content_type": "application/pdf",
+      "final_url": "https://www.ijrrjournal.com/IJRR_Vol.12_Issue.6_June2025/IJRR65.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "165aca686e3fa853cbe955717e431f6b715d90af0ab42033c7c41fd7d0ca6b93",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://doi.org/10.52403/ijrr.20250665"
+    }
+  ],
+  "bytes": 362886,
+  "family_id": "FAM-ed7385571b07deb8af30",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-ed7385571b07deb8af30.pdf",
+  "pdf_sha256": "165aca686e3fa853cbe955717e431f6b715d90af0ab42033c7c41fd7d0ca6b93",
+  "representative_canonical_id": "CAN-7fb8c618aa6a2455ca63",
+  "retrieved_url": "https://www.ijrrjournal.com/IJRR_Vol.12_Issue.6_June2025/IJRR65.pdf",
+  "status": "retrieved_open"
+}

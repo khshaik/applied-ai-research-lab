@@ -1,0 +1,32 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:10:11.533926Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://zenodo.org/records/20101758",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://doi.org/10.5281/zenodo.20101758"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:10:13.090092Z",
+      "basis": "citation_pdf_url_metadata",
+      "bytes": 3509395,
+      "content_type": "application/octet-stream, application/octet-stream",
+      "final_url": "https://zenodo.org/records/20101758/files/AI_Based_Pull_Request_Risk_Prediction.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "sha256": "7df7df878cef0990966c02926d9f85c681a490295a11f8bb62215ac4c2a7d45a",
+      "url": "https://zenodo.org/records/20101758/files/AI_Based_Pull_Request_Risk_Prediction.pdf"
+    }
+  ],
+  "bytes": 3509395,
+  "family_id": "FAM-87fe9d1d04eb599979f4",
+  "lawful_access_basis": "citation_pdf_url_metadata",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-87fe9d1d04eb599979f4.pdf",
+  "pdf_sha256": "7df7df878cef0990966c02926d9f85c681a490295a11f8bb62215ac4c2a7d45a",
+  "representative_canonical_id": "CAN-845317eaa51cb3e38f8c",
+  "retrieved_url": "https://zenodo.org/records/20101758/files/AI_Based_Pull_Request_Risk_Prediction.pdf",
+  "status": "retrieved_open"
+}

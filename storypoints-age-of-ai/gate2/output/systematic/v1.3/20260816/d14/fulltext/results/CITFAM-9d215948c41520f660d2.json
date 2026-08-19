@@ -1,0 +1,21 @@
+{
+  "attempts": [
+    {
+      "active_indicators": [],
+      "attempted_at_utc": "2026-08-19T08:48:52.647385Z",
+      "basis": "frozen_openalex_primary_oa_pdf",
+      "bytes": 1252601,
+      "final_url": "https://aclanthology.org/2025.findings-naacl.361.pdf",
+      "pdf_path": "/Users/81194246/Library/CloudStorage/OneDrive-Pepsico/Personal/AI/Projects/ThinkAI/storypoints-age-of-ai/gate2/output/systematic/v1.3/20260816/d14/fulltext/pdf/CITFAM-9d215948c41520f660d2.pdf",
+      "redirect_count": 0,
+      "sha256": "d6598af6a64f614f7a81cdf50387ecead52556962a4babd60fa353a80cf1ed19",
+      "status": "retrieved_static_pdf"
+    }
+  ],
+  "bytes": 1252601,
+  "citation_family_id": "CITFAM-9d215948c41520f660d2",
+  "pdf_path": "/Users/81194246/Library/CloudStorage/OneDrive-Pepsico/Personal/AI/Projects/ThinkAI/storypoints-age-of-ai/gate2/output/systematic/v1.3/20260816/d14/fulltext/pdf/CITFAM-9d215948c41520f660d2.pdf",
+  "pdf_sha256": "d6598af6a64f614f7a81cdf50387ecead52556962a4babd60fa353a80cf1ed19",
+  "security_attestation": "Static HTTPS retrieval only; public-IP validation, bounded redirects/size, signature and active-content checks; no PDF execution.",
+  "status": "retrieved_static_pdf"
+}

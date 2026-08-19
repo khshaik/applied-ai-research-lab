@@ -1,0 +1,58 @@
+# Operating-system and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*~
+
+# Python and local QA
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+.pdf-venv/
+venv/
+build/
+dist/
+*.egg-info/
+.approval_tests_temp/
+tmp/
+qa/
+renders/
+*.log
+
+# Restricted and sealed material: never commit
+studies/*/restricted/*
+!studies/*/restricted/README.md
+**/production_seed_manifest*.json
+**/sealed_seed_values*.json
+**/held_out*.json
+**/participant_data/**
+**/organizational_event_logs/**
+**/credentials/**
+
+# Locked outputs are generated only after a successful pre-lock gate
+simulation/output/locked/
+
+# Local submission and similarity-system exports
+similarity-reports/
+submission-portal-exports/
+
+# Working-session transcripts are not research artifacts
+context.txt
+temp.txt
+
+# Third-party full-text bodies are retained locally but never redistributed
+gate2/output/systematic/*/*/d10/pdf/
+gate2/output/systematic/*/*/d11/extraction/text/
+gate2/output/systematic/*/*/d14/fulltext/pdf/
+gate2/output/systematic/*/*/d14/fulltext/quarantine/
+gate2/output/systematic/*/*/d14/fulltext/sanitized/
+gate2/output/systematic/*/*/d14/fulltext/sanitized_text/
+gate2/output/systematic/*/*/d14/newly_resolved_fulltext_v2/pdf/
+gate2/output/systematic/*/*/d14/newly_resolved_fulltext_v2/quarantine/
+gate2/output/systematic/*/*/d14/newly_resolved_fulltext_v2/fulltext/sanitized/
+gate2/output/systematic/*/*/d14/newly_resolved_fulltext_v2/fulltext/sanitized_text/

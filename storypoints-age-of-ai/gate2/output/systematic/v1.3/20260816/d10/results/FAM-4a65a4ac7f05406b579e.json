@@ -1,0 +1,39 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "error_type": "SSLError",
+      "outcome": "network_error",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://www.lnse.org/vol3/199-X0016.pdf"
+    },
+    {
+      "basis": "semantic_scholar_open_access_pdf",
+      "content_type": "text/html; charset=iso-8859-1",
+      "final_url": "http://www.lnse.org/show-39-240-1.html",
+      "http_status": 404,
+      "outcome": "http_failure",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://doi.org/10.7763/lnse.2015.v3.199"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:05:41.216316Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=iso-8859-1",
+      "final_url": "http://www.lnse.org/show-39-240-1.html",
+      "http_status": 404,
+      "outcome": "http_failure",
+      "url": "https://doi.org/10.7763/lnse.2015.v3.199"
+    }
+  ],
+  "bytes": 0,
+  "family_id": "FAM-4a65a4ac7f05406b579e",
+  "lawful_access_basis": null,
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "representative_canonical_id": "CAN-e4397782fb0e30b19e33",
+  "retrieved_url": null,
+  "status": "lawful_full_text_not_retrieved"
+}

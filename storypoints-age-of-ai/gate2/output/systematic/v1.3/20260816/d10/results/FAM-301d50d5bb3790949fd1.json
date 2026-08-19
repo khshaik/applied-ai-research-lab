@@ -1,0 +1,21 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:04:43.464219Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://ieeexplore.ieee.org/document/11105309/",
+      "http_status": 202,
+      "outcome": "http_failure",
+      "url": "https://doi.org/10.1109/aiiot65859.2025.11105309"
+    }
+  ],
+  "bytes": 0,
+  "family_id": "FAM-301d50d5bb3790949fd1",
+  "lawful_access_basis": null,
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "representative_canonical_id": "CAN-f35366764cbf3d246a54",
+  "retrieved_url": null,
+  "status": "lawful_full_text_not_retrieved"
+}

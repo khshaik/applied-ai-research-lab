@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 448206,
+      "content_type": "application/pdf",
+      "final_url": "https://computerfraudsecurity.com/index.php/journal/article/download/836/576",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "6ba4b533e8de34d819f264e9976a0c230fc13dcca3bb84329aa88939be425f3c",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://computerfraudsecurity.com/index.php/journal/article/download/836/576"
+    }
+  ],
+  "bytes": 448206,
+  "family_id": "FAM-cf4cad8e9a39f5221213",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-cf4cad8e9a39f5221213.pdf",
+  "pdf_sha256": "6ba4b533e8de34d819f264e9976a0c230fc13dcca3bb84329aa88939be425f3c",
+  "representative_canonical_id": "CAN-86dcbf6b96ddadf0010d",
+  "retrieved_url": "https://computerfraudsecurity.com/index.php/journal/article/download/836/576",
+  "status": "retrieved_open"
+}

@@ -1,0 +1,15 @@
+{
+  "status": "development_pilot",
+  "version": "0.2",
+  "queries": {
+    "AX-S5R": "(all:\"large language model\" OR all:\"AI-assisted\" OR all:\"AI coding assistant\" OR all:\"coding agent\") AND (all:\"code review\" OR all:\"pull request\") AND (all:human OR all:oversight OR all:workload OR all:attention OR all:effort OR all:verification)",
+    "AX-S5T": "(all:\"large language model\" OR all:\"AI-assisted\" OR all:\"AI coding assistant\" OR all:\"coding agent\") AND (all:\"software testing\" OR all:\"test generation\" OR all:\"unit testing\" OR all:\"integration testing\" OR all:\"quality assurance\") AND (all:human OR all:oversight OR all:verification OR all:validation OR all:effort)",
+    "AX-S5S": "(all:\"large language model\" OR all:\"AI-assisted\" OR all:\"AI coding assistant\" OR all:\"coding agent\") AND (all:\"software security\" OR all:\"secure coding\" OR all:vulnerability OR all:\"security review\") AND (all:human OR all:oversight OR all:verification OR all:validation OR all:review)",
+    "AX-S6R": "(all:\"human-AI\" OR all:\"AI-assisted\" OR all:\"AI-augmented\" OR all:\"large language model\" OR all:\"coding agent\") AND (all:\"software delivery\" OR all:\"software development lifecycle\" OR all:\"software modernization\") AND (all:orchestration OR all:workflow OR all:team OR all:validation)"
+  },
+  "sentinels": {
+    "AX-S5R": ["2606.26505"],
+    "AX-S6R": ["2603.20028"]
+  },
+  "boundary": "Queries and sentinels are developmental diagnostics only; platform indexing and eligibility must be verified before freeze."
+}

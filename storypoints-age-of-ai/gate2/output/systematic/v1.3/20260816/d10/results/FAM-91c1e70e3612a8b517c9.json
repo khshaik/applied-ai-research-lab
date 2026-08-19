@@ -1,0 +1,19 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:10:48.533584Z",
+      "basis": "representative_landing_page",
+      "error_type": "ReadTimeout",
+      "outcome": "network_error",
+      "url": "http://ethesis.nitrkl.ac.in/7312/"
+    }
+  ],
+  "bytes": 0,
+  "family_id": "FAM-91c1e70e3612a8b517c9",
+  "lawful_access_basis": null,
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "representative_canonical_id": "CAN-0e75c1a5d8ab929df75b",
+  "retrieved_url": null,
+  "status": "lawful_full_text_not_retrieved"
+}

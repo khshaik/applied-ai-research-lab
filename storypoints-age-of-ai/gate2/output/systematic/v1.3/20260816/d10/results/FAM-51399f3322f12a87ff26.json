@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 434467,
+      "content_type": "application/pdf",
+      "final_url": "https://ijsrst.com/paper/14223.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "68517c2fe97bdf0426d79b224b55125e7e384540a03b2995f6b5c430c97e8dad",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://ijsrst.com/paper/14223.pdf"
+    }
+  ],
+  "bytes": 434467,
+  "family_id": "FAM-51399f3322f12a87ff26",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-51399f3322f12a87ff26.pdf",
+  "pdf_sha256": "68517c2fe97bdf0426d79b224b55125e7e384540a03b2995f6b5c430c97e8dad",
+  "representative_canonical_id": "CAN-f272f35d15d0e5eb60af",
+  "retrieved_url": "https://ijsrst.com/paper/14223.pdf",
+  "status": "retrieved_open"
+}

@@ -1,0 +1,365 @@
+{
+  "decisions": [
+    {
+      "decision": "uncertain",
+      "reason": "Potentially within the bounded integrative construct, but exported metadata is insufficient for a substantive query-control judgment.",
+      "source_id": "https://openalex.org/W7203456728"
+    },
+    {
+      "decision": "uncertain",
+      "reason": "Potentially within the bounded integrative construct, but exported metadata is insufficient for a substantive query-control judgment.",
+      "source_id": "https://openalex.org/W7203457012"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively addresses AI-assisted software-delivery flow, lifecycle automation, or assurance transitions.",
+      "source_id": "https://openalex.org/W7202274207"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively addresses AI-assisted software-delivery flow, lifecycle automation, or assurance transitions.",
+      "source_id": "https://openalex.org/W7202357189"
+    },
+    {
+      "decision": "uncertain",
+      "reason": "Potentially within the bounded integrative construct, but exported metadata is insufficient for a substantive query-control judgment.",
+      "source_id": "https://openalex.org/W7202262474"
+    },
+    {
+      "decision": "uncertain",
+      "reason": "Potentially within the bounded integrative construct, but exported metadata is insufficient for a substantive query-control judgment.",
+      "source_id": "https://openalex.org/W7202292902"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively addresses people/process effects across the AI-assisted software lifecycle.",
+      "source_id": "https://openalex.org/W7196965855"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively addresses people/process effects across the AI-assisted software lifecycle.",
+      "source_id": "https://openalex.org/W7202038600"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Metadata does not substantively bridge the prespecified human-effort or lifecycle-readiness constructs.",
+      "source_id": "https://openalex.org/W7196941288"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Metadata does not substantively bridge the prespecified human-effort or lifecycle-readiness constructs.",
+      "source_id": "https://openalex.org/W7196956693"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Metadata does not substantively bridge the prespecified human-effort or lifecycle-readiness constructs.",
+      "source_id": "https://openalex.org/W7142574540"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively addresses AI-assisted software-delivery flow, lifecycle automation, or assurance transitions.",
+      "source_id": "https://openalex.org/W7163923804"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively addresses AI-assisted software-delivery flow, lifecycle automation, or assurance transitions.",
+      "source_id": "https://openalex.org/W7163913870"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively addresses people/process effects across the AI-assisted software lifecycle.",
+      "source_id": "https://openalex.org/W7162439390"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Education-focused record outside the professional bounded integrative scope.",
+      "source_id": "https://openalex.org/W7160149370"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively addresses people/process effects across the AI-assisted software lifecycle.",
+      "source_id": "https://openalex.org/W7158422942"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively addresses people/process effects across the AI-assisted software lifecycle.",
+      "source_id": "https://openalex.org/W7155029625"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively addresses AI-assisted software-delivery flow, lifecycle automation, or assurance transitions.",
+      "source_id": "https://openalex.org/W7150830768"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively addresses AI-assisted software-delivery flow, lifecycle automation, or assurance transitions.",
+      "source_id": "https://openalex.org/W7133232293"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively addresses AI-assisted software-delivery flow, lifecycle automation, or assurance transitions.",
+      "source_id": "https://openalex.org/W7147120409"
+    },
+    {
+      "decision": "uncertain",
+      "reason": "Potentially within the bounded integrative construct, but exported metadata is insufficient for a substantive query-control judgment.",
+      "source_id": "https://openalex.org/W7128767593"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively addresses people/process effects across the AI-assisted software lifecycle.",
+      "source_id": "https://openalex.org/W7128190254"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively addresses people/process effects across the AI-assisted software lifecycle.",
+      "source_id": "https://openalex.org/W7128274181"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively addresses people/process effects across the AI-assisted software lifecycle.",
+      "source_id": "https://openalex.org/W7140144352"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively addresses people/process effects across the AI-assisted software lifecycle.",
+      "source_id": "https://openalex.org/W7123290018"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively addresses people/process effects across the AI-assisted software lifecycle.",
+      "source_id": "https://openalex.org/W7126207351"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively addresses AI-assisted software-delivery flow, lifecycle automation, or assurance transitions.",
+      "source_id": "https://openalex.org/W7166800474"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively addresses AI-assisted software-delivery flow, lifecycle automation, or assurance transitions.",
+      "source_id": "https://openalex.org/W7167929306"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively addresses lifecycle verification, validation, readiness, compliance, or evidence gates.",
+      "source_id": "https://openalex.org/W7168252489"
+    },
+    {
+      "decision": "uncertain",
+      "reason": "Potentially within the bounded integrative construct, but exported metadata is insufficient for a substantive query-control judgment.",
+      "source_id": "https://openalex.org/W7169674917"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively addresses AI-assisted software-delivery flow, lifecycle automation, or assurance transitions.",
+      "source_id": "https://openalex.org/W7172027425"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively addresses AI-assisted software-delivery flow, lifecycle automation, or assurance transitions.",
+      "source_id": "https://openalex.org/W4414459450"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively addresses AI-assisted software-delivery flow, lifecycle automation, or assurance transitions.",
+      "source_id": "https://openalex.org/W7130547527"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively addresses AI-assisted software-delivery flow, lifecycle automation, or assurance transitions.",
+      "source_id": "https://openalex.org/W7125592731"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively addresses AI-assisted software-delivery flow, lifecycle automation, or assurance transitions.",
+      "source_id": "https://openalex.org/W4410033272"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively addresses lifecycle verification, validation, readiness, compliance, or evidence gates.",
+      "source_id": "https://openalex.org/W4412537454"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively addresses people/process effects across the AI-assisted software lifecycle.",
+      "source_id": "https://openalex.org/W4411271793"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively addresses people/process effects across the AI-assisted software lifecycle.",
+      "source_id": "https://openalex.org/W4416888787"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively addresses lifecycle verification, validation, readiness, compliance, or evidence gates.",
+      "source_id": "https://openalex.org/W4396819243"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively addresses AI-assisted software-delivery flow, lifecycle automation, or assurance transitions.",
+      "source_id": "https://openalex.org/W7164534535"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively addresses lifecycle verification, validation, readiness, compliance, or evidence gates.",
+      "source_id": "https://openalex.org/W4378473878"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively addresses people/process effects across the AI-assisted software lifecycle.",
+      "source_id": "https://openalex.org/W7165386188"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively addresses people/process effects across the AI-assisted software lifecycle.",
+      "source_id": "https://openalex.org/W7106230393"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively addresses people/process effects across the AI-assisted software lifecycle.",
+      "source_id": "https://openalex.org/W7106265921"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Technical AI/tool performance without substantive human-work redistribution or lifecycle-readiness analysis.",
+      "source_id": "https://openalex.org/W7127350142"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively addresses AI-assisted software-delivery flow, lifecycle automation, or assurance transitions.",
+      "source_id": "https://openalex.org/W7153076402"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively addresses AI-assisted software-delivery flow, lifecycle automation, or assurance transitions.",
+      "source_id": "https://openalex.org/W4413079537"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively addresses AI-assisted software-delivery flow, lifecycle automation, or assurance transitions.",
+      "source_id": "https://openalex.org/W7130327387"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively addresses AI-assisted software-delivery flow, lifecycle automation, or assurance transitions.",
+      "source_id": "https://openalex.org/W7130408160"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Metadata does not substantively bridge the prespecified human-effort or lifecycle-readiness constructs.",
+      "source_id": "https://openalex.org/W4413474924"
+    }
+  ],
+  "family_id": "S2",
+  "interpretation_boundary": "Metadata-level query appraisal only; not screening, eligibility, or PRISMA evidence.",
+  "ordered_sample_source_ids": [
+    "https://openalex.org/W7203456728",
+    "https://openalex.org/W7203457012",
+    "https://openalex.org/W7202274207",
+    "https://openalex.org/W7202357189",
+    "https://openalex.org/W7202262474",
+    "https://openalex.org/W7202292902",
+    "https://openalex.org/W7196965855",
+    "https://openalex.org/W7202038600",
+    "https://openalex.org/W7196941288",
+    "https://openalex.org/W7196956693",
+    "https://openalex.org/W7142574540",
+    "https://openalex.org/W7163923804",
+    "https://openalex.org/W7163913870",
+    "https://openalex.org/W7162439390",
+    "https://openalex.org/W7160149370",
+    "https://openalex.org/W7158422942",
+    "https://openalex.org/W7155029625",
+    "https://openalex.org/W7150830768",
+    "https://openalex.org/W7133232293",
+    "https://openalex.org/W7147120409",
+    "https://openalex.org/W7128767593",
+    "https://openalex.org/W7128190254",
+    "https://openalex.org/W7128274181",
+    "https://openalex.org/W7140144352",
+    "https://openalex.org/W7123290018",
+    "https://openalex.org/W7126207351",
+    "https://openalex.org/W7166800474",
+    "https://openalex.org/W7167929306",
+    "https://openalex.org/W7168252489",
+    "https://openalex.org/W7169674917",
+    "https://openalex.org/W7172027425",
+    "https://openalex.org/W4414459450",
+    "https://openalex.org/W7130547527",
+    "https://openalex.org/W7125592731",
+    "https://openalex.org/W4410033272",
+    "https://openalex.org/W4412537454",
+    "https://openalex.org/W4411271793",
+    "https://openalex.org/W4416888787",
+    "https://openalex.org/W4396819243",
+    "https://openalex.org/W7164534535",
+    "https://openalex.org/W4378473878",
+    "https://openalex.org/W7165386188",
+    "https://openalex.org/W7106230393",
+    "https://openalex.org/W7106265921",
+    "https://openalex.org/W7127350142",
+    "https://openalex.org/W7153076402",
+    "https://openalex.org/W4413079537",
+    "https://openalex.org/W7130327387",
+    "https://openalex.org/W7130408160",
+    "https://openalex.org/W4413474924"
+  ],
+  "query_id": "OA-S2I2",
+  "query_version": "0.2",
+  "sample_positions_zero_based": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    24,
+    40,
+    47,
+    54,
+    65,
+    75,
+    79,
+    89,
+    108,
+    112,
+    113,
+    121,
+    122,
+    129,
+    136,
+    146,
+    172,
+    175,
+    176,
+    177,
+    181,
+    186,
+    187,
+    191,
+    218,
+    220,
+    221,
+    222,
+    243,
+    245,
+    247,
+    248,
+    249,
+    250,
+    251,
+    252,
+    253,
+    254,
+    255,
+    256
+  ],
+  "sampling_seed_sha256": "6c73e873911bf6c20d056d4dd9d642f2d8c0e4adb8ec83c7eff8937805182de6",
+  "source": "openalex",
+  "status": "development_query_control_decisions"
+}

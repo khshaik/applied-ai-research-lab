@@ -1,0 +1,23 @@
+{
+  "attempts": [
+    {
+      "active_indicators": [
+        "/S /URI"
+      ],
+      "attempted_at_utc": "2026-08-19T05:45:08.345253Z",
+      "basis": "frozen_openalex_primary_oa_pdf",
+      "bytes": 3819742,
+      "final_url": "https://www.nature.com/articles/s41598-025-08226-5.pdf?error=cookies_not_supported&code=56b8e3dd-a473-48b3-a394-5b8f5dbb4689",
+      "quarantine_path": "/Users/81194246/Library/CloudStorage/OneDrive-Pepsico/Personal/AI/Projects/ThinkAI/storypoints-age-of-ai/gate2/output/systematic/v1.3/20260816/d14/fulltext/quarantine/CITFAM-6b9007570449752c63f3.pdf",
+      "redirect_count": 3,
+      "sha256": "eddf4f1debf0d39cf6019f0ebdb0d3ad1beb2d6602125518a83993c6d96d7dc7",
+      "status": "quarantined_active_content"
+    }
+  ],
+  "bytes": 3819742,
+  "citation_family_id": "CITFAM-6b9007570449752c63f3",
+  "pdf_path": null,
+  "pdf_sha256": "eddf4f1debf0d39cf6019f0ebdb0d3ad1beb2d6602125518a83993c6d96d7dc7",
+  "security_attestation": "Static HTTPS retrieval only; public-IP validation, bounded redirects/size, signature and active-content checks; no PDF execution.",
+  "status": "quarantined_active_content"
+}

@@ -1,0 +1,3922 @@
+{
+  "input_ids": [
+    "DOI:10.1109/issre59848.2023.00026",
+    "DOI:10.1145/3691620.3695518",
+    "DOI:10.1109/chase66643.2025.00018",
+    "DOI:10.1109/icse55347.2025.00064",
+    "DOI:10.1109/access.2025.3560911",
+    "DOI:10.1109/icmi68585.2026.11539834",
+    "DOI:10.1109/ase63991.2025.00287",
+    "DOI:10.1109/issre62328.2024.00030",
+    "DOI:10.1109/icse-seip66354.2025.00008",
+    "DOI:10.1109/tse.2025.3619281",
+    "DOI:10.1145/3793302.3793621",
+    "DOI:10.1145/3748636.3762765",
+    "DOI:10.1145/3747588",
+    "DOI:10.1109/asew60602.2023.00016",
+    "DOI:10.1145/3793302.3793586",
+    "DOI:10.1016/j.chbr.2026.101157",
+    "DOI:10.1109/re57278.2023.00045",
+    "DOI:10.1109/vl-hcc65237.2025.00041",
+    "DOI:10.1109/apr59189.2023.00012",
+    "DOI:10.1145/3664646.3664773",
+    "DOI:10.1109/icpc66645.2025.00056",
+    "DOI:10.1109/icse48619.2023.00205",
+    "DOI:10.1145/3659677.3659749",
+    "DOI:10.1109/forge66646.2025.00033",
+    "DOI:10.1145/3756681.3757053",
+    "DOI:10.1109/tevc.2024.3506731",
+    "DOI:10.1109/icse48619.2023.00129",
+    "DOI:10.1109/apsec65559.2024.00051",
+    "DOI:10.1109/apsec65559.2024.00030",
+    "DOI:10.1145/3772363.3799079",
+    "DOI:10.1109/access.2025.3554960",
+    "DOI:10.1145/3660807",
+    "DOI:10.1109/icse-fose59343.2023.00008",
+    "DOI:10.1002/smr.1894",
+    "DOI:10.1109/icst62969.2025.10989008",
+    "DOI:10.1016/j.softx.2024.101677",
+    "DOI:10.1109/sp46214.2022.9833571",
+    "DOI:10.1109/cises66934.2025.11264985",
+    "DOI:10.1109/vts65138.2025.11022949",
+    "DOI:10.1145/3660771",
+    "DOI:10.1145/3641289",
+    "DOI:10.1145/3643795.3648390",
+    "DOI:10.1109/iciem51511.2021.9445345",
+    "DOI:10.1109/satml59370.2024.00040",
+    "DOI:10.1016/j.infsof.2024.107644",
+    "DOI:10.1109/icse55347.2025.00043",
+    "DOI:10.1145/3724363.3729106",
+    "DOI:10.1016/j.hcc.2024.100292",
+    "DOI:10.1016/j.jss.2025.112519",
+    "DOI:10.1145/3805760.3814911",
+    "DOI:10.1109/acsac67867.2025.00094",
+    "DOI:10.1080/10447318.2024.2375701",
+    "DOI:10.1016/j.dte.2026.100098",
+    "DOI:10.1145/3665348.3665383",
+    "DOI:10.1109/scam55253.2022.00014",
+    "DOI:10.1109/ms.2022.3226791",
+    "DOI:10.1145/3772363.3798936",
+    "DOI:10.1145/3811825",
+    "DOI:10.1002/smr.1877",
+    "DOI:10.1145/3793302.3793604",
+    "DOI:10.1145/3643991.3645085",
+    "DOI:10.1145/3793302.3793574",
+    "DOI:10.1109/ase63991.2025.00358",
+    "DOI:10.1016/j.procir.2025.02.134",
+    "DOI:10.1145/3793302.3793581",
+    "DOI:10.1109/southeastcon56624.2025.10971563",
+    "DOI:10.1007/s10462-026-11571-0",
+    "DOI:10.1109/iciss67859.2026.11453582",
+    "DOI:10.1109/chase66643.2025.00011",
+    "DOI:10.1109/iisec69317.2026.11418453",
+    "DOI:10.1109/icaiset66439.2026.11541997",
+    "DOI:10.1109/nlbse66842.2025.00009",
+    "DOI:10.4018/979-8-3693-9356-7.ch007",
+    "DOI:10.3390/electronics15102222",
+    "DOI:10.1109/ms.2025.3621128",
+    "DOI:10.1145/3805689.3812402",
+    "DOI:10.1109/sccc63879.2024.10767612",
+    "DOI:10.1109/aiiot65859.2025.11105299",
+    "DOI:10.1109/scam63643.2024.00028",
+    "DOI:10.22044/jadm.2021.10119.2152",
+    "DOI:10.1109/qrs60937.2023.00029",
+    "DOI:10.1109/issrew60843.2023.00058",
+    "DOI:10.1109/cvpr52733.2024.01262",
+    "DOI:10.1109/asew60602.2023.00028",
+    "DOI:10.1109/conisoft63288.2024.00050",
+    "DOI:10.1109/qrs62785.2024.00027",
+    "DOI:10.1109/seaa51224.2020.00068",
+    "DOI:10.1109/icse-companion55297.2022.9793778",
+    "DOI:10.1109/issre66568.2025.00058",
+    "DOI:10.1145/3756681.3756992",
+    "DOI:10.1109/scse70081.2026.11499963",
+    "DOI:10.1145/3691620.3695555",
+    "DOI:10.1109/access.2025.3560244",
+    "DOI:10.1145/3807968.3810930",
+    "DOI:10.1109/isctis70043.2026.11572319",
+    "DOI:10.1145/3704905",
+    "DOI:10.1049/ic.2012.0030",
+    "DOI:10.1109/icodse56892.2022.9972012",
+    "DOI:10.1145/3643991.3645072",
+    "DOI:10.1049/iet-sen.2011.0210",
+    "DOI:10.1109/icpc66645.2025.00039",
+    "DOI:10.1109/icde60146.2024.00390",
+    "DOI:10.1002/smr.1862",
+    "DOI:10.1109/access.2025.3608650",
+    "DOI:10.1145/3786335.3813220",
+    "DOI:10.1109/aitest58265.2023.00018",
+    "DOI:10.1145/3803846.3807463",
+    "DOI:10.1145/3715004",
+    "DOI:10.1109/saner56733.2023.00075",
+    "DOI:10.1109/bigdata62323.2024.10825051",
+    "DOI:10.1109/access.2025.3554627",
+    "DOI:10.1109/raie66699.2025.00008",
+    "DOI:10.1109/re63999.2025.00064",
+    "DOI:10.1145/3706599.3719914",
+    "DOI:10.1145/3660791",
+    "DOI:10.1145/3803846.3807466",
+    "DOI:10.1504/ijasm.2023.130837",
+    "DOI:10.1109/ms.2026.3671677",
+    "DOI:10.1109/icse-companion66252.2025.00043",
+    "DOI:10.1109/tse.2024.3368208",
+    "DOI:10.1145/3709355",
+    "DOI:10.1145/3793302.3793622",
+    "DOI:10.1109/svcc65277.2025.11133629",
+    "DOI:10.1109/icsme64153.2025.00095",
+    "DOI:10.1145/3801149",
+    "DOI:10.1109/icpc66645.2025.00037",
+    "DOI:10.1109/scam67354.2025.00016",
+    "DOI:10.1109/saner-c67878.2026.00030",
+    "DOI:10.1109/forge66646.2025.00017",
+    "DOI:10.1145/3650212.3680371",
+    "DOI:10.1109/compsac61105.2024.00017",
+    "DOI:10.1109/seaa60479.2023.00061",
+    "DOI:10.1109/icspis60075.2023.10344019",
+    "DOI:10.1109/incet64471.2025.11139961",
+    "DOI:10.1109/issre66568.2025.00034",
+    "DOI:10.1145/3819802.3820581",
+    "DOI:10.1109/access.2025.3538050",
+    "DOI:10.1109/saner53432.2022.00121",
+    "DOI:10.1145/3805773.3806003",
+    "DOI:10.1109/ms.2009.47",
+    "DOI:10.1109/wfcs63373.2025.11077624",
+    "DOI:10.1109/aiware69974.2025.00033",
+    "DOI:10.1109/icse-nier58687.2023.00025",
+    "DOI:10.1109/icse48619.2023.00068",
+    "DOI:10.14801/jkiit.2026.24.4.11",
+    "DOI:10.1109/icse-seis66351.2025.00010",
+    "DOI:10.1016/j.bushor.2024.05.009",
+    "DOI:10.1016/j.infsof.2025.107785",
+    "DOI:10.1145/3797071",
+    "DOI:10.1016/j.infsof.2025.107751",
+    "DOI:10.1145/3719027.3765049",
+    "DOI:10.1109/comp-sif65618.2025.10969913",
+    "DOI:10.1145/3663529.3663861",
+    "DOI:10.1016/j.jss.2025.112452",
+    "DOI:10.1109/chase66643.2025.00012",
+    "DOI:10.1109/re63999.2025.00076",
+    "DOI:10.1145/3793673",
+    "DOI:10.1016/j.comnet.2025.111501",
+    "DOI:10.1145/3772318.3790757",
+    "DOI:10.1109/tse.2019.2904230",
+    "DOI:10.1145/3805760.3814933",
+    "DOI:10.1145/3650212.3680359",
+    "DOI:10.1109/kbei.2019.8734960",
+    "DOI:10.1109/ase63991.2025.00122",
+    "DOI:10.1145/3786580.3786989",
+    "DOI:10.1109/apsec66846.2025.00088",
+    "DOI:10.1145/3785411",
+    "DOI:10.1109/ubmk67458.2025.11206910",
+    "DOI:10.1145/3663529.3663836",
+    "DOI:10.1145/3801972",
+    "DOI:10.1109/apsec60848.2023.00026",
+    "DOI:10.1109/compsac61105.2024.00274",
+    "DOI:10.1109/seep.1996.534020",
+    "DOI:10.1109/iceccme64568.2025.11277590",
+    "DOI:10.1109/saner-c67878.2026.00041",
+    "DOI:10.1109/tse.2022.3165056",
+    "DOI:10.1109/icsme64153.2025.00018",
+    "DOI:10.1145/3796507",
+    "DOI:10.1145/3756681.3756997",
+    "DOI:10.1109/saner64311.2025.00015",
+    "DOI:10.1109/aixse64906.2025.00016",
+    "DOI:10.4018/979-8-3373-4862-9.ch005",
+    "DOI:10.1109/sse62657.2024.00053",
+    "DOI:10.1145/3808146",
+    "DOI:10.1109/asew67777.2025.00050",
+    "DOI:10.1145/3779208.3785383",
+    "DOI:10.1002/smr.70162",
+    "DOI:10.1109/issrew60843.2023.00059",
+    "DOI:10.1145/3779657.3779672",
+    "DOI:10.1134/s0361768825700446",
+    "DOI:10.1515/9783111436548-006",
+    "DOI:10.1145/3654777.3676386",
+    "DOI:10.1109/aece67531.2025.11386596",
+    "DOI:10.1109/southeastcon52093.2024.10500073",
+    "DOI:10.1016/j.infsof.2025.107805",
+    "DOI:10.1109/icse55347.2025.00234",
+    "DOI:10.1109/iemcon67450.2025.11381257",
+    "DOI:10.1145/3793302.3793572",
+    "DOI:10.1109/vl-hcc65237.2025.00017",
+    "DOI:10.1109/icse55347.2025.00017",
+    "DOI:10.1109/medai59581.2023.00044",
+    "DOI:10.1145/3691620.3695527",
+    "DOI:10.1145/3786175.3788344",
+    "DOI:10.1109/icsme58944.2024.00086",
+    "DOI:10.1109/ms.2023.3265877",
+    "DOI:10.1109/gaiis69281.2026.11519183",
+    "DOI:10.1145/3678719.3685691",
+    "DOI:10.1109/icse43902.2021.00063",
+    "DOI:10.1109/csr61664.2024.10679468",
+    "DOI:10.1109/icsme64153.2025.00098",
+    "DOI:10.1145/3643991.3648400",
+    "DOI:10.5753/wtf.2026.23233",
+    "DOI:10.1109/qrs62785.2024.00033",
+    "DOI:10.1080/12460125.2024.2428187",
+    "DOI:10.1109/ccnc51664.2024.10454680",
+    "DOI:10.1145/3708519",
+    "DOI:10.1109/icse55347.2025.00146",
+    "DOI:10.1145/3716848",
+    "DOI:10.1109/isie62713.2025.11124737",
+    "DOI:10.1145/3643991.3645084",
+    "DOI:10.1145/3793654.3793757",
+    "DOI:10.1145/3803437.3805202",
+    "DOI:10.1016/j.infsof.2025.107737",
+    "DOI:10.1109/sami68106.2026.11420586",
+    "DOI:10.1142/s0218194018400302",
+    "DOI:10.1109/icse-seip58684.2023.00022",
+    "DOI:10.1109/saner60148.2024.00064",
+    "DOI:10.1109/icodse53690.2021.9648463",
+    "DOI:10.1145/3663529.3663849",
+    "DOI:10.1109/tse.2026.3655626",
+    "DOI:10.1109/access.2026.3696573",
+    "DOI:10.1145/3797880",
+    "DOI:10.1109/ase63991.2025.00214",
+    "DOI:10.1109/icst62969.2025.10989033",
+    "DOI:10.1109/ase63991.2025.00135",
+    "DOI:10.1109/icict64420.2025.11005308",
+    "DOI:10.1109/wsese66602.2025.00011",
+    "DOI:10.1145/3650212.3680395",
+    "DOI:10.1109/saner50967.2021.00071",
+    "DOI:10.1145/2884781.2884830",
+    "DOI:10.1145/3797120",
+    "DOI:10.1145/3772318.3791176",
+    "DOI:10.1145/3803437.3805266",
+    "DOI:10.1109/icpc66645.2025.00020",
+    "DOI:10.1109/agile.2006.16",
+    "DOI:10.1109/icdsca63855.2024.10859408",
+    "DOI:10.1109/ojcoms.2024.3456549",
+    "DOI:10.1016/j.technovation.2024.103064",
+    "DOI:10.1145/2786805.2786850",
+    "DOI:10.3390/systems14060598"
+  ],
+  "records": [
+    {
+      "externalIds": {
+        "ArXiv": "2308.11148",
+        "CorpusId": 261064667,
+        "DBLP": "journals/corr/abs-2308-11148",
+        "DOI": "10.1109/ISSRE59848.2023.00026"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": "GREEN",
+        "url": "https://arxiv.org/pdf/2308.11148"
+      },
+      "paperId": "d955956378b40b23fa4b34098662c54a3b1fd64d",
+      "title": "LLaMA-Reviewer: Advancing Code Review Automation with Large Language Models through Parameter-Efficient Fine-Tuning",
+      "url": "https://www.semanticscholar.org/paper/d955956378b40b23fa4b34098662c54a3b1fd64d"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 273472383,
+        "DBLP": "conf/kbse/BoJ000024",
+        "DOI": "10.1145/3691620.3695518"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": null,
+        "url": ""
+      },
+      "paperId": "d39182e72c7fe825a73b55be581b6ce447109536",
+      "title": "ChatBR: Automated Assessment and Improvement of Bug Report Quality Using ChatGPT",
+      "url": "https://www.semanticscholar.org/paper/d39182e72c7fe825a73b55be581b6ce447109536"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 279323471,
+        "DBLP": "conf/icse-chase/VaishampayanB25",
+        "DOI": "10.1109/CHASE66643.2025.00018"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": null,
+        "url": ""
+      },
+      "paperId": "18c171252e6b1ae4ce11f08f75602be7c611fd1e",
+      "title": "Will you Trust me More Than Chatgpt? Evaluating LLM-Generated Code Feedback for Mock Technical Interviews",
+      "url": "https://www.semanticscholar.org/paper/18c171252e6b1ae4ce11f08f75602be7c611fd1e"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 273877824,
+        "DBLP": "conf/icse/SuhTLB025",
+        "DOI": "10.1109/ICSE55347.2025.00064"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": null,
+        "url": ""
+      },
+      "paperId": "e41ceafe77d394b650430ff144cd87811fcc27f4",
+      "title": "An Empirical Study on Automatically Detecting AI-Generated Source Code: How Far are We?",
+      "url": "https://www.semanticscholar.org/paper/e41ceafe77d394b650430ff144cd87811fcc27f4"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 277849654,
+        "DBLP": "journals/access/TopraniM25",
+        "DOI": "10.1109/ACCESS.2025.3560911"
+      },
+      "openAccessPdf": {
+        "license": "CCBY",
+        "status": "GOLD",
+        "url": "https://doi.org/10.1109/access.2025.3560911"
+      },
+      "paperId": "fcacdb84381e2a038090c329ebabc3b4612212a2",
+      "title": "LLM Agentic Workflow for Automated Vulnerability Detection and Remediation in Infrastructure-as-Code",
+      "url": "https://www.semanticscholar.org/paper/fcacdb84381e2a038090c329ebabc3b4612212a2"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 288906635,
+        "DOI": "10.1109/ICMI68585.2026.11539834"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": null,
+        "url": ""
+      },
+      "paperId": "ca99a488abd7938651320137162ecc802d56afd3",
+      "title": "Exploring the Duality: Cognitive and Affective Trust in Human\u2013AI Collaboration within Agile Requirements Engineering",
+      "url": "https://www.semanticscholar.org/paper/ca99a488abd7938651320137162ecc802d56afd3"
+    },
+    {
+      "externalIds": {
+        "ArXiv": "2509.12395",
+        "CorpusId": 281325500,
+        "DBLP": "conf/kbse/MundhraVI25",
+        "DOI": "10.1109/ASE63991.2025.00287"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": null,
+        "url": ""
+      },
+      "paperId": "5dca7f8ee5e4c6bd398eb5fc707aef460c33fa55",
+      "title": "Evaluating Large Language Models for Functional and Maintainable Code in Industrial Settings: A Case Study at ASML",
+      "url": "https://www.semanticscholar.org/paper/5dca7f8ee5e4c6bd398eb5fc707aef460c33fa55"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 274469617,
+        "DBLP": "conf/issre/LiC0X0S24",
+        "DOI": "10.1109/ISSRE62328.2024.00030"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": "CLOSED",
+        "url": ""
+      },
+      "paperId": "b62b45f0f74db585a3c1595e90d3610199d0f381",
+      "title": "Assessing the Performance of AI-Generated Code: A Case Study on GitHub Copilot",
+      "url": "https://www.semanticscholar.org/paper/b62b45f0f74db585a3c1595e90d3610199d0f381"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 280695128,
+        "DBLP": "conf/icse-seip/BrandebusemeyerSA25",
+        "DOI": "10.1109/ICSE-SEIP66354.2025.00008"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": null,
+        "url": ""
+      },
+      "paperId": "18307fa04b9ebcf75f3dc1af2220894eb2c48c78",
+      "title": "Wearables to Measure Developer Experience at Work",
+      "url": "https://www.semanticscholar.org/paper/18307fa04b9ebcf75f3dc1af2220894eb2c48c78"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 282002943,
+        "DBLP": "journals/tse/ZhaoSHLGZL25",
+        "DOI": "10.1109/TSE.2025.3619281"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": null,
+        "url": ""
+      },
+      "paperId": "34cc906a4556a4d8baed7a8743a7e8bd90c6f9d1",
+      "title": "Towards Secure Code Generation With LLMs: A Study on Common Weakness Enumeration",
+      "url": "https://www.semanticscholar.org/paper/34cc906a4556a4d8baed7a8743a7e8bd90c6f9d1"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 288466859,
+        "DBLP": "conf/msr/BrancoCGF26",
+        "DOI": "10.1145/3793302.3793621"
+      },
+      "openAccessPdf": {
+        "license": "CCBY",
+        "status": "GOLD",
+        "url": "https://doi.org/10.1145/3793302.3793621"
+      },
+      "paperId": "5d5a16a01510b474da0979207516350132aad450",
+      "title": "LGTM! Characteristics of Auto-Merged LLM-based Agentic PRs",
+      "url": "https://www.semanticscholar.org/paper/5d5a16a01510b474da0979207516350132aad450"
+    },
+    {
+      "externalIds": {
+        "ArXiv": "2506.11781",
+        "CorpusId": 279391486,
+        "DBLP": "journals/corr/abs-2506-11781",
+        "DOI": "10.1145/3748636.3762765"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": null,
+        "url": ""
+      },
+      "paperId": "89534817f572c72a1a62ac01c79b313a3ada61f8",
+      "title": "GeoPandas-AI: A Smart Class Bringing LLM as Stateful AI Code Assistant",
+      "url": "https://www.semanticscholar.org/paper/89534817f572c72a1a62ac01c79b313a3ada61f8"
+    },
+    {
+      "externalIds": {
+        "ArXiv": "2406.00515",
+        "CorpusId": 270214176,
+        "DBLP": "journals/corr/abs-2406-00515",
+        "DOI": "10.1145/3747588"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": null,
+        "url": ""
+      },
+      "paperId": "c8b18682965ff9dccc0130dab3d679f78cefa617",
+      "title": "A Survey on Large Language Models for Code Generation",
+      "url": "https://www.semanticscholar.org/paper/c8b18682965ff9dccc0130dab3d679f78cefa617"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 264977085,
+        "DBLP": "conf/kbse/Scoccia23",
+        "DOI": "10.1109/ASEW60602.2023.00016"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": "CLOSED",
+        "url": ""
+      },
+      "paperId": "7afa53db93d2c7717e578f7bb774a7fb388101cf",
+      "title": "Exploring Early Adopters' Perceptions of ChatGPT as a Code Generation Tool",
+      "url": "https://www.semanticscholar.org/paper/7afa53db93d2c7717e578f7bb774a7fb388101cf"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 290696239,
+        "DBLP": "conf/msr/KhelifiOK26",
+        "DOI": "10.1145/3793302.3793586"
+      },
+      "openAccessPdf": {
+        "license": "CCBYNCND",
+        "status": "GOLD",
+        "url": "https://doi.org/10.1145/3793302.3793586"
+      },
+      "paperId": "4375c8425888e00cb7792a961883f0dff8d6aaf4",
+      "title": "Behind Agentic Pull Requests: An Empirical Study on Developer Interventions in AI Agent-Authored Pull Requests",
+      "url": "https://www.semanticscholar.org/paper/4375c8425888e00cb7792a961883f0dff8d6aaf4"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 289339976,
+        "DOI": "10.1016/j.chbr.2026.101157"
+      },
+      "openAccessPdf": {
+        "license": "CCBYNCND",
+        "status": "GOLD",
+        "url": "https://doi.org/10.1016/j.chbr.2026.101157"
+      },
+      "paperId": "936a6fc4bf03a160decab8d0dfca7e95c6ed26c4",
+      "title": "Bug detective and quality coach: Developers\u2019 mental models of AI-assisted IDE tools",
+      "url": "https://www.semanticscholar.org/paper/936a6fc4bf03a160decab8d0dfca7e95c6ed26c4"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 263228821,
+        "DBLP": "conf/re/FantechiGPS23",
+        "DOI": "10.1109/RE57278.2023.00045"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": "CLOSED",
+        "url": ""
+      },
+      "paperId": "bb95eb3d6e451fb1b289b580e042b66f01ce66c8",
+      "title": "Inconsistency Detection in Natural Language Requirements using ChatGPT: a Preliminary Evaluation",
+      "url": "https://www.semanticscholar.org/paper/bb95eb3d6e451fb1b289b580e042b66f01ce66c8"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 282143017,
+        "DBLP": "conf/vl/LauG25",
+        "DOI": "10.1109/VL-HCC65237.2025.00041"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": null,
+        "url": ""
+      },
+      "paperId": "edec387962b57801c6073eaf57361f53d52c5a4e",
+      "title": "The Design Space of LLM-Based AI Coding Assistants: An Analysis of 90 Systems in Academia and Industry",
+      "url": "https://www.semanticscholar.org/paper/edec387962b57801c6073eaf57361f53d52c5a4e"
+    },
+    {
+      "externalIds": {
+        "ArXiv": "2301.08653",
+        "CorpusId": 256080824,
+        "DBLP": "conf/icse-apr/SobaniaBHP23",
+        "DOI": "10.1109/APR59189.2023.00012"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": "GREEN",
+        "url": "https://arxiv.org/pdf/2301.08653"
+      },
+      "paperId": "9f530ebf624bf58e91b2a1f20b0799a45ca48f9a",
+      "title": "An Analysis of the Automatic Bug Fixing Performance of ChatGPT",
+      "url": "https://www.semanticscholar.org/paper/9f530ebf624bf58e91b2a1f20b0799a45ca48f9a"
+    },
+    {
+      "externalIds": {
+        "ArXiv": "2406.00560",
+        "CorpusId": 270215137,
+        "DBLP": "journals/corr/abs-2406-00560",
+        "DOI": "10.1145/3664646.3664773"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": null,
+        "url": ""
+      },
+      "paperId": "5e16600a03b824911557e78f7d5521d5c3339cd9",
+      "title": "The Role of Generative AI in Software Development Productivity: A Pilot Case Study",
+      "url": "https://www.semanticscholar.org/paper/5e16600a03b824911557e78f7d5521d5c3339cd9"
+    },
+    {
+      "externalIds": {
+        "ArXiv": "2503.11402",
+        "CorpusId": 277043407,
+        "DBLP": "journals/corr/abs-2503-11402",
+        "DOI": "10.1109/ICPC66645.2025.00056"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": null,
+        "url": ""
+      },
+      "paperId": "eb248d3e93f2e019fece31a3e73733d54f7c500a",
+      "title": "Quality In, Quality Out: Investigating Training Data's Role in AI Code Generation",
+      "url": "https://www.semanticscholar.org/paper/eb248d3e93f2e019fece31a3e73733d54f7c500a"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 259860357,
+        "DBLP": "conf/icse/NashidSM23",
+        "DOI": "10.1109/ICSE48619.2023.00205"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": "CLOSED",
+        "url": ""
+      },
+      "paperId": "6149600309757f286e29ad3f858ed32b40423908",
+      "title": "Retrieval-Based Prompt Selection for Code-Related Few-Shot Learning",
+      "url": "https://www.semanticscholar.org/paper/6149600309757f286e29ad3f858ed32b40423908"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 272162440,
+        "DOI": "10.1145/3659677.3659749"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": null,
+        "url": ""
+      },
+      "paperId": "a22423b7b3e3dc10ec725c31137005735db256d8",
+      "title": "LLMs for Intelligent Software Testing: A Comparative Study",
+      "url": "https://www.semanticscholar.org/paper/a22423b7b3e3dc10ec725c31137005735db256d8"
+    },
+    {
+      "externalIds": {
+        "ArXiv": "2501.08774",
+        "CorpusId": 275544341,
+        "DBLP": "conf/forge/TreudeG25",
+        "DOI": "10.1109/Forge66646.2025.00033"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": null,
+        "url": ""
+      },
+      "paperId": "fc8f4c5a565b3054e8e18784de185178a994a996",
+      "title": "How Developers Interact with AI: A Taxonomy of Human-AI Collaboration in Software Engineering",
+      "url": "https://www.semanticscholar.org/paper/fc8f4c5a565b3054e8e18784de185178a994a996"
+    },
+    {
+      "externalIds": {
+        "ArXiv": "2504.18345",
+        "CorpusId": 278129899,
+        "DBLP": "conf/ease/0002HMDLCM25",
+        "DOI": "10.1145/3756681.3757053"
+      },
+      "openAccessPdf": {
+        "license": "CCBY",
+        "status": "GOLD",
+        "url": "https://doi.org/10.1145/3756681.3757053"
+      },
+      "paperId": "1d0d25c984f23cd1819a454683fe7f820eae12e1",
+      "title": "NRevisit: A Cognitive Behavioral Metric for Code Understandability Assessment",
+      "url": "https://www.semanticscholar.org/paper/1d0d25c984f23cd1819a454683fe7f820eae12e1"
+    },
+    {
+      "externalIds": {
+        "ArXiv": "2401.10034",
+        "CorpusId": 267035000,
+        "DBLP": "journals/tec/WuWWFT25",
+        "DOI": "10.1109/TEVC.2024.3506731"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": "GREEN",
+        "url": "http://arxiv.org/pdf/2401.10034"
+      },
+      "paperId": "478f71f1cd9bad0435560544a9dce7ca49d97766",
+      "title": "Evolutionary Computation in the Era of Large Language Model: Survey and Roadmap",
+      "url": "https://www.semanticscholar.org/paper/478f71f1cd9bad0435560544a9dce7ca49d97766"
+    },
+    {
+      "externalIds": {
+        "ArXiv": "2210.14179",
+        "CorpusId": 259860439,
+        "DBLP": "conf/icse/XiaWZ23",
+        "DOI": "10.1109/ICSE48619.2023.00129"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": "CLOSED",
+        "url": ""
+      },
+      "paperId": "5aec1050fd62971f2b40b597ef7526fbc820beab",
+      "title": "Automated Program Repair in the Era of Large Pre-trained Language Models",
+      "url": "https://www.semanticscholar.org/paper/5aec1050fd62971f2b40b597ef7526fbc820beab"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 278063421,
+        "DBLP": "conf/apsec/ZhangFH24",
+        "DOI": "10.1109/APSEC65559.2024.00051"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": null,
+        "url": ""
+      },
+      "paperId": "e12335282f7ae9c648f4b3fdb3c8a5cb52944a62",
+      "title": "Large Language Models Empowered Online Log Anomaly Detection in AIOps",
+      "url": "https://www.semanticscholar.org/paper/e12335282f7ae9c648f4b3fdb3c8a5cb52944a62"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 278065293,
+        "DBLP": "conf/apsec/ZuoLL24",
+        "DOI": "10.1109/APSEC65559.2024.00030"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": null,
+        "url": ""
+      },
+      "paperId": "da80be586685c9c7c6de166a9ccef7b50daeca93",
+      "title": "Exploring the Potential of Large Language Models in Automatic Pull Request Title Generation: An Empirical Study",
+      "url": "https://www.semanticscholar.org/paper/da80be586685c9c7c6de166a9ccef7b50daeca93"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 287441204,
+        "DBLP": "conf/chi/VighSB26",
+        "DOI": "10.1145/3772363.3799079"
+      },
+      "openAccessPdf": {
+        "license": "CCBY",
+        "status": "GOLD",
+        "url": "https://doi.org/10.1145/3772363.3799079"
+      },
+      "paperId": "985d8426730b19aeb6cdaf624b11551cd9245192",
+      "title": "\"AI does not understand the real world.\": AI Augmented Software Development",
+      "url": "https://www.semanticscholar.org/paper/985d8426730b19aeb6cdaf624b11551cd9245192"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 277392474,
+        "DBLP": "journals/access/PascaDEM25",
+        "DOI": "10.1109/ACCESS.2025.3554960"
+      },
+      "openAccessPdf": {
+        "license": "CCBY",
+        "status": "GOLD",
+        "url": "https://doi.org/10.1109/access.2025.3554960"
+      },
+      "paperId": "abdad0040d6394e9c3e045ff6808322a8d9f7096",
+      "title": "LLM-Driven, Self-Improving Framework for Security Test Automation: Leveraging Karate DSL for Augmented API Resilience",
+      "url": "https://www.semanticscholar.org/paper/abdad0040d6394e9c3e045ff6808322a8d9f7096"
+    },
+    {
+      "externalIds": {
+        "ArXiv": "2306.01220",
+        "CorpusId": 259063952,
+        "DBLP": "journals/pacmse/KouCW0024",
+        "DOI": "10.1145/3660807"
+      },
+      "openAccessPdf": {
+        "license": "CCBY",
+        "status": "HYBRID",
+        "url": "https://doi.org/10.1145/3660807"
+      },
+      "paperId": "f77c7f847fed986cc54fc0b3574f6379655fd79c",
+      "title": "Do Large Language Models Pay Similar Attention Like Human Programmers When Generating Code?",
+      "url": "https://www.semanticscholar.org/paper/f77c7f847fed986cc54fc0b3574f6379655fd79c"
+    },
+    {
+      "externalIds": {
+        "ArXiv": "2310.03533",
+        "CorpusId": 263671720,
+        "DBLP": "conf/fose-ws/FanGHLSYZ23",
+        "DOI": "10.1109/ICSE-FoSE59343.2023.00008"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": "GREEN",
+        "url": "https://arxiv.org/pdf/2310.03533"
+      },
+      "paperId": "4fbd174e80502f8f3c4b9f48054872b028e2445a",
+      "title": "Large Language Models for Software Engineering: Survey and Open Problems",
+      "url": "https://www.semanticscholar.org/paper/4fbd174e80502f8f3c4b9f48054872b028e2445a"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 206504430,
+        "DBLP": "journals/smr/CodabuxWBC17",
+        "DOI": "10.1002/smr.1894",
+        "MAG": "2747807412"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": "CLOSED",
+        "url": ""
+      },
+      "paperId": "299fda4c7e6bd76d3aeb5f0fb319c5c570b342c9",
+      "title": "An empirical assessment of technical debt practices in industry",
+      "url": "https://www.semanticscholar.org/paper/299fda4c7e6bd76d3aeb5f0fb319c5c570b342c9"
+    },
+    {
+      "externalIds": {
+        "ArXiv": "2312.05778",
+        "CorpusId": 275790402,
+        "DBLP": "conf/icst/XuLT25",
+        "DOI": "10.1109/ICST62969.2025.10989008"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": null,
+        "url": ""
+      },
+      "paperId": "d950c1abe2b838f29a001992c90d997dd54c3c06",
+      "title": "Understanding and Enhancing Attribute Prioritization in Fixing Web UI Tests with LLMs",
+      "url": "https://www.semanticscholar.org/paper/d950c1abe2b838f29a001992c90d997dd54c3c06"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 268315509,
+        "DBLP": "journals/softx/AlmeidaAFMSPAP24",
+        "DOI": "10.1016/j.softx.2024.101677"
+      },
+      "openAccessPdf": {
+        "license": "CCBY",
+        "status": "GOLD",
+        "url": "https://doi.org/10.1016/j.softx.2024.101677"
+      },
+      "paperId": "292de56ed370d1cb34e52aefbea8cd51d4239ea0",
+      "title": "AICodeReview: Advancing code quality with AI-enhanced reviews",
+      "url": "https://www.semanticscholar.org/paper/292de56ed370d1cb34e52aefbea8cd51d4239ea0"
+    },
+    null,
+    {
+      "externalIds": {
+        "CorpusId": 283570282,
+        "DOI": "10.1109/CISES66934.2025.11264985"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": null,
+        "url": ""
+      },
+      "paperId": "aff5a2b296ab036d6a40edae356f2ba0d7bca7c0",
+      "title": "Automated Test Case Generation Using Machine Learning And Natural Language Processing",
+      "url": "https://www.semanticscholar.org/paper/aff5a2b296ab036d6a40edae356f2ba0d7bca7c0"
+    },
+    {
+      "externalIds": {
+        "ArXiv": "2504.07015",
+        "CorpusId": 277634025,
+        "DBLP": "journals/corr/abs-2504-07015",
+        "DOI": "10.1109/VTS65138.2025.11022949"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": null,
+        "url": ""
+      },
+      "paperId": "aed5ef13fbe1705d7d9ae63820cba832b7c1c678",
+      "title": "LLM-IFT: LLM-Powered Information Flow Tracking for Secure Hardware",
+      "url": "https://www.semanticscholar.org/paper/aed5ef13fbe1705d7d9ae63820cba832b7c1c678"
+    },
+    {
+      "externalIds": {
+        "ArXiv": "2308.05487",
+        "CorpusId": 260775541,
+        "DBLP": "journals/pacmse/KangAY24",
+        "DOI": "10.1145/3660771"
+      },
+      "openAccessPdf": {
+        "license": "CCBY",
+        "status": "HYBRID",
+        "url": "https://doi.org/10.1145/3660771"
+      },
+      "paperId": "9ac304b5531d5adc1b5021dfc0dbe6e90b41c406",
+      "title": "A Quantitative and Qualitative Evaluation of LLM-Based Explainable Fault Localization",
+      "url": "https://www.semanticscholar.org/paper/9ac304b5531d5adc1b5021dfc0dbe6e90b41c406"
+    },
+    {
+      "externalIds": {
+        "ArXiv": "2307.03109",
+        "CorpusId": 259360395,
+        "DBLP": "journals/tist/ChangWWWYZCYWWYZCYYX24",
+        "DOI": "10.1145/3641289"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": "GREEN",
+        "url": "https://arxiv.org/pdf/2307.03109"
+      },
+      "paperId": "888728745dbb769e29ed475d4f7661eebe1a71cf",
+      "title": "A Survey on Evaluation of Large Language Models",
+      "url": "https://www.semanticscholar.org/paper/888728745dbb769e29ed475d4f7661eebe1a71cf"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 269045324,
+        "DBLP": "conf/llm4code/JiangZCWZZ24",
+        "DOI": "10.1145/3643795.3648390"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": "CLOSED",
+        "url": ""
+      },
+      "paperId": "8ec43046e046b639f997d30c76d3e5cffa624051",
+      "title": "Evaluating Fault Localization and Program Repair Capabilities of Existing Closed-Source General-Purpose LLMs",
+      "url": "https://www.semanticscholar.org/paper/8ec43046e046b639f997d30c76d3e5cffa624051"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 235339967,
+        "DOI": "10.1109/ICIEM51511.2021.9445345",
+        "MAG": "3169773582"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": null,
+        "url": ""
+      },
+      "paperId": "c49b88a225a45619990d05fd487f22609ae4f6db",
+      "title": "A State of the Art Regressor Model\u2019s comparison for Effort Estimation of Agile software",
+      "url": "https://www.semanticscholar.org/paper/c49b88a225a45619990d05fd487f22609ae4f6db"
+    },
+    {
+      "externalIds": {
+        "ArXiv": "2302.04012",
+        "CorpusId": 256662452,
+        "DBLP": "conf/satml/HajipourHHSF24",
+        "DOI": "10.1109/SaTML59370.2024.00040"
+      },
+      "openAccessPdf": {
+        "license": "CCBY",
+        "status": "GREEN",
+        "url": "https://figshare.com/articles/conference_contribution/CodeLMSec_Benchmark_Systematically_Evaluating_and_Finding_Security_Vulnerabilities_in_Black-Box_Code_Language_Models/25532854"
+      },
+      "paperId": "bad49c894e1607fa839d4a3ce07dc1fb7939f915",
+      "title": "CodeLMSec Benchmark: Systematically Evaluating and Finding Security Vulnerabilities in Black-Box Code Language Models",
+      "url": "https://www.semanticscholar.org/paper/bad49c894e1607fa839d4a3ce07dc1fb7939f915"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 274728516,
+        "DBLP": "journals/infsof/CanD25",
+        "DOI": "10.1016/j.infsof.2024.107644"
+      },
+      "openAccessPdf": {
+        "license": "CCBY",
+        "status": "HYBRID",
+        "url": "https://doi.org/10.1016/j.infsof.2024.107644"
+      },
+      "paperId": "0508fd065143def4cd236c7c19fa539d835fac9f",
+      "title": "Locating requirements in backlog items: Content analysis and experiments with large language models",
+      "url": "https://www.semanticscholar.org/paper/0508fd065143def4cd236c7c19fa539d835fac9f"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 273340385,
+        "DBLP": "conf/icse/HuqTKM25",
+        "DOI": "10.1109/ICSE55347.2025.00043"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": null,
+        "url": ""
+      },
+      "paperId": "c1694fd3ad583e806a132816125edb7ed25f56c0",
+      "title": "Automated Generation of Accessibility Test Reports from Recorded User Transcripts",
+      "url": "https://www.semanticscholar.org/paper/c1694fd3ad583e806a132816125edb7ed25f56c0"
+    },
+    {
+      "externalIds": {
+        "ArXiv": "2503.15684",
+        "CorpusId": 277150811,
+        "DBLP": "conf/iticse/ChaconK25",
+        "DOI": "10.1145/3724363.3729106"
+      },
+      "openAccessPdf": {
+        "license": "CCBYNCSA",
+        "status": "GOLD",
+        "url": "https://doi.org/10.1145/3724363.3729106"
+      },
+      "paperId": "2d1ae71da8c239a4f834943b61b60d2ff674cf08",
+      "title": "Student's Use of Generative AI as a Support Tool in an Advanced Web Development Course",
+      "url": "https://www.semanticscholar.org/paper/2d1ae71da8c239a4f834943b61b60d2ff674cf08"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 274420719,
+        "DBLP": "journals/hcc/XiongWLL25",
+        "DOI": "10.1016/j.hcc.2024.100292"
+      },
+      "openAccessPdf": {
+        "license": "CCBYNCND",
+        "status": "GOLD",
+        "url": "https://doi.org/10.1016/j.hcc.2024.100292"
+      },
+      "paperId": "af5e2870af0533a13932eceedcfe7faa06be1d84",
+      "title": "Assessing the effectiveness of crawlers and large language models in detecting adversarial hidden link threats in meta computing",
+      "url": "https://www.semanticscholar.org/paper/af5e2870af0533a13932eceedcfe7faa06be1d84"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 279438920,
+        "DBLP": "journals/jss/Kim25",
+        "DOI": "10.1016/j.jss.2025.112519"
+      },
+      "openAccessPdf": {
+        "license": "CCBYNCND",
+        "status": "HYBRID",
+        "url": "https://doi.org/10.1016/j.jss.2025.112519"
+      },
+      "paperId": "56c9e23217c7366cf55f61fd75263b1e7c38f90a",
+      "title": "Comparative analysis of design pattern implementation validity in LLM-based code refactoring",
+      "url": "https://www.semanticscholar.org/paper/56c9e23217c7366cf55f61fd75263b1e7c38f90a"
+    },
+    {
+      "externalIds": {
+        "ArXiv": "2602.17037",
+        "CorpusId": 285787697,
+        "DBLP": "journals/corr/abs-2602-17037",
+        "DOI": "10.1145/3805760.3814911"
+      },
+      "openAccessPdf": {
+        "license": "CCBYNCND",
+        "status": "GOLD",
+        "url": "https://doi.org/10.1145/3805760.3814911"
+      },
+      "paperId": "1f2d49c41a24f28f4de95a8038213d351617cec2",
+      "title": "Wink: Recovering from Misbehaviors in Coding Agents",
+      "url": "https://www.semanticscholar.org/paper/1f2d49c41a24f28f4de95a8038213d351617cec2"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 286017083,
+        "DBLP": "conf/acsac/BaiXHWWWL25",
+        "DOI": "10.1109/ACSAC67867.2025.00094"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": null,
+        "url": ""
+      },
+      "paperId": "4eab0fcfca2233806e029ae44e5e0e9f67d30d9a",
+      "title": "APILOT: Improving the Security and Usability of LLM Code Suggestions via Outdated API Mitigation",
+      "url": "https://www.semanticscholar.org/paper/4eab0fcfca2233806e029ae44e5e0e9f67d30d9a"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 271164723,
+        "DBLP": "journals/ijhci/KimCYL25",
+        "DOI": "10.1080/10447318.2024.2375701"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": "CLOSED",
+        "url": ""
+      },
+      "paperId": "ea855e0be165aeee26202c2fcef06c8061f97576",
+      "title": "Not Merely Useful but Also Amusing: Impact of Perceived Usefulness and Perceived Enjoyment on the Adoption of AI-Powered Coding Assistant",
+      "url": "https://www.semanticscholar.org/paper/ea855e0be165aeee26202c2fcef06c8061f97576"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 286843753,
+        "DOI": "10.1016/j.dte.2026.100098"
+      },
+      "openAccessPdf": {
+        "license": "CCBYNCND",
+        "status": "GOLD",
+        "url": "https://doi.org/10.1016/j.dte.2026.100098"
+      },
+      "paperId": "9d5fcee8ea58dc7a6d8c86a6a198a16883c61884",
+      "title": "Integrating the capabilities offered by large language models into the requirements engineering process",
+      "url": "https://www.semanticscholar.org/paper/9d5fcee8ea58dc7a6d8c86a6a198a16883c61884"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 270925173,
+        "DBLP": "conf/gaiis/Chen24",
+        "DOI": "10.1145/3665348.3665383"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": "CLOSED",
+        "url": ""
+      },
+      "paperId": "b879c8eb6b678a9995f0b38f419268cec4d65025",
+      "title": "The Impact of AI-Pair Programmers on Code Quality and Developer Satisfaction: Evidence from TiMi studio",
+      "url": "https://www.semanticscholar.org/paper/b879c8eb6b678a9995f0b38f419268cec4d65025"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 252125574,
+        "DBLP": "conf/scam/SiddiqMMJS22",
+        "DOI": "10.1109/SCAM55253.2022.00014"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": null,
+        "url": ""
+      },
+      "paperId": "8a854331c593c6a766fa3b8037fb2ad1b95a6f06",
+      "title": "An Empirical Study of Code Smells in Transformer-based Code Generation Techniques",
+      "url": "https://www.semanticscholar.org/paper/8a854331c593c6a766fa3b8037fb2ad1b95a6f06"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 256877676,
+        "DBLP": "journals/software/Borg23a",
+        "DOI": "10.1109/MS.2022.3226791"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": null,
+        "url": ""
+      },
+      "paperId": "e98187f5d5df79e7f46c97ecb54c51517a90c5b2",
+      "title": "Requirements on Technical Debt: Dare to Specify Them!",
+      "url": "https://www.semanticscholar.org/paper/e98187f5d5df79e7f46c97ecb54c51517a90c5b2"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 287442477,
+        "DBLP": "conf/chi/ZhuWXMSLZL26",
+        "DOI": "10.1145/3772363.3798936"
+      },
+      "openAccessPdf": {
+        "license": "CCBY",
+        "status": "GOLD",
+        "url": "https://doi.org/10.1145/3772363.3798936"
+      },
+      "paperId": "287f39db3fb6a916664cc685f2c0b2d5de2b8d42",
+      "title": "Just-in-Time Tokens: Adaptive Token Pacing for Cognitive-Friendly LLM Streaming",
+      "url": "https://www.semanticscholar.org/paper/287f39db3fb6a916664cc685f2c0b2d5de2b8d42"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 288363952,
+        "DOI": "10.1145/3811825"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": null,
+        "url": ""
+      },
+      "paperId": "fb76677219c8d389cd437ff8c72ab50ff04a6100",
+      "title": "FURINA: A Multi-Agent Framework for Automated Patch Correctness Assessment",
+      "url": "https://www.semanticscholar.org/paper/fb76677219c8d389cd437ff8c72ab50ff04a6100"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 21296692,
+        "DBLP": "journals/smr/MartiniB17",
+        "DOI": "10.1002/smr.1877",
+        "MAG": "2739113232"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": "CLOSED",
+        "url": ""
+      },
+      "paperId": "20e967ccf88f87b77e4c584fc101439a9988ca63",
+      "title": "On the interest of architectural technical debt: Uncovering the contagious debt phenomenon",
+      "url": "https://www.semanticscholar.org/paper/20e967ccf88f87b77e4c584fc101439a9988ca63"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 290696275,
+        "DBLP": "conf/msr/HaqueIC26",
+        "DOI": "10.1145/3793302.3793604"
+      },
+      "openAccessPdf": {
+        "license": "CCBY",
+        "status": "GOLD",
+        "url": "https://doi.org/10.1145/3793302.3793604"
+      },
+      "paperId": "b12019446ee31c984fc7a45641a115e0dd9515e6",
+      "title": "An Empirical Study of Tests in Agentic Pull Requests",
+      "url": "https://www.semanticscholar.org/paper/b12019446ee31c984fc7a45641a115e0dd9515e6"
+    },
+    {
+      "externalIds": {
+        "ArXiv": "2402.04568",
+        "CorpusId": 267522876,
+        "DBLP": "conf/msr/MondalBR24",
+        "DOI": "10.1145/3643991.3645085"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": "GREEN",
+        "url": "http://arxiv.org/pdf/2402.04568"
+      },
+      "paperId": "66dea8673da3af722d11bcdff767559af7320dbc",
+      "title": "Enhancing User Interaction in ChatGPT: Characterizing and Consolidating Multiple Prompts for Issue Resolution",
+      "url": "https://www.semanticscholar.org/paper/66dea8673da3af722d11bcdff767559af7320dbc"
+    },
+    {
+      "externalIds": {
+        "ArXiv": "2601.21102",
+        "CorpusId": 285140348,
+        "DBLP": "journals/corr/abs-2601-21102",
+        "DOI": "10.1145/3793302.3793574"
+      },
+      "openAccessPdf": {
+        "license": "CCBY",
+        "status": "GOLD",
+        "url": "https://doi.org/10.1145/3793302.3793574"
+      },
+      "paperId": "7fbae52c3a4b82e2a5f88deed033bebba9f8f587",
+      "title": "The Quiet Contributions: Insights into AI-Generated Silent Pull Requests",
+      "url": "https://www.semanticscholar.org/paper/7fbae52c3a4b82e2a5f88deed033bebba9f8f587"
+    },
+    {
+      "externalIds": {
+        "ArXiv": "2510.01077",
+        "CorpusId": 281706117,
+        "DBLP": "journals/corr/abs-2510-01077",
+        "DOI": "10.1109/ASE63991.2025.00358"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": null,
+        "url": ""
+      },
+      "paperId": "27a33b1306688be0bbe37bba02a21f7ae14fa79f",
+      "title": "CodeGenLink: A Tool to Find the Likely Origin and License of Automatically Generated Code",
+      "url": "https://www.semanticscholar.org/paper/27a33b1306688be0bbe37bba02a21f7ae14fa79f"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 279507172,
+        "DOI": "10.1016/j.procir.2025.02.134"
+      },
+      "openAccessPdf": {
+        "license": "CCBYNCND",
+        "status": "GOLD",
+        "url": "https://doi.org/10.1016/j.procir.2025.02.134"
+      },
+      "paperId": "43ff8ea120d9fb5b99f4b86f628d57f7611150e1",
+      "title": "Advancing Automotive Production: An LLM-based Impact Analysis for Software Updates",
+      "url": "https://www.semanticscholar.org/paper/43ff8ea120d9fb5b99f4b86f628d57f7611150e1"
+    },
+    {
+      "externalIds": {
+        "ArXiv": "2601.17413",
+        "CorpusId": 285051516,
+        "DBLP": "journals/corr/abs-2601-17413",
+        "DOI": "10.1145/3793302.3793581"
+      },
+      "openAccessPdf": {
+        "license": "CCBY",
+        "status": "GOLD",
+        "url": "https://doi.org/10.1145/3793302.3793581"
+      },
+      "paperId": "35571fdecca239c10cec6ce83490a23d5afb2fe1",
+      "title": "When AI Agents Touch CI/CD Configurations: Frequency and Success",
+      "url": "https://www.semanticscholar.org/paper/35571fdecca239c10cec6ce83490a23d5afb2fe1"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 278063463,
+        "DOI": "10.1109/SoutheastCon56624.2025.10971563"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": null,
+        "url": ""
+      },
+      "paperId": "8d0c4c701b5d47fe7251cb0cff5b38dc7b3dfa2f",
+      "title": "A Multi-Agent LLM Environment for Software Design and Refactoring: A Conceptual Framework",
+      "url": "https://www.semanticscholar.org/paper/8d0c4c701b5d47fe7251cb0cff5b38dc7b3dfa2f"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 287820724,
+        "DBLP": "journals/air/KehkashanAAIIARA26",
+        "DOI": "10.1007/s10462-026-11571-0"
+      },
+      "openAccessPdf": {
+        "license": "CCBY",
+        "status": "HYBRID",
+        "url": "https://doi.org/10.1007/s10462-026-11571-0"
+      },
+      "paperId": "955e63110d9a05b0676757ddc21c055ac2730105",
+      "title": "From benchmarks to deployment: a comprehensive review of agentic AI evaluation",
+      "url": "https://www.semanticscholar.org/paper/955e63110d9a05b0676757ddc21c055ac2730105"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 287029513,
+        "DOI": "10.1109/ICISS67859.2026.11453582"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": null,
+        "url": ""
+      },
+      "paperId": "d4a6355e616c5de6c0ed3ec74798ed754c0dae92",
+      "title": "CodeLock: AI-Powered Real-Time Competitive Programming Platform for Collaborative and Competitive Learning",
+      "url": "https://www.semanticscholar.org/paper/d4a6355e616c5de6c0ed3ec74798ed754c0dae92"
+    },
+    {
+      "externalIds": {
+        "ArXiv": "2504.14663",
+        "CorpusId": 277955005,
+        "DBLP": "journals/corr/abs-2504-14663",
+        "DOI": "10.1109/CHASE66643.2025.00011"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": null,
+        "url": ""
+      },
+      "paperId": "b746702799e9a73b59e1a692b77d7df2009d1e79",
+      "title": "The Developer Experience of LGBTQIA+ People in Agile Teams: A Multivocal Literature Review",
+      "url": "https://www.semanticscholar.org/paper/b746702799e9a73b59e1a692b77d7df2009d1e79"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 286464400,
+        "DOI": "10.1109/iisec69317.2026.11418453"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": null,
+        "url": ""
+      },
+      "paperId": "bdba7416bcb28ceeb77e5ece2d505a8a597d81ce",
+      "title": "The Impact of Input Structure on Creating Quality Requirements: A Gemini Case",
+      "url": "https://www.semanticscholar.org/paper/bdba7416bcb28ceeb77e5ece2d505a8a597d81ce"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 288907439,
+        "DOI": "10.1109/ICAISET66439.2026.11541997"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": null,
+        "url": ""
+      },
+      "paperId": "034e28c7792d35c6b4438ead702a48d6475ed20e",
+      "title": "Agentic SDLC Automation for ERP Release Readiness: Design Patterns, Governance Guardrails, and Measurable Operational Outcomes",
+      "url": "https://www.semanticscholar.org/paper/034e28c7792d35c6b4438ead702a48d6475ed20e"
+    },
+    {
+      "externalIds": {
+        "ArXiv": "2405.04236",
+        "CorpusId": 269613942,
+        "DBLP": "journals/corr/abs-2405-04236",
+        "DOI": "10.1109/NLBSE66842.2025.00009"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": null,
+        "url": ""
+      },
+      "paperId": "7eec4fc93fac2696314ae3e50f0d63680b87bf36",
+      "title": "Semantic API Alignment: Linking High-Level User Goals to APIs",
+      "url": "https://www.semanticscholar.org/paper/7eec4fc93fac2696314ae3e50f0d63680b87bf36"
+    },
+    null,
+    {
+      "externalIds": {
+        "CorpusId": 288603241,
+        "DOI": "10.3390/electronics15102222"
+      },
+      "openAccessPdf": {
+        "license": "CCBY",
+        "status": "GOLD",
+        "url": "https://doi.org/10.3390/electronics15102222"
+      },
+      "paperId": "2f05537b96fd420b6dd21a9348e2db5700ced961",
+      "title": "Evaluating Large Language Models in Cybersecurity: A Systematic Taxonomy and Empirical Analysis",
+      "url": "https://www.semanticscholar.org/paper/2f05537b96fd420b6dd21a9348e2db5700ced961"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 282170813,
+        "DBLP": "journals/software/PangasMAC26",
+        "DOI": "10.1109/MS.2025.3621128"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": null,
+        "url": ""
+      },
+      "paperId": "9b3bbeabb533fc4dac52af3dfc4aaba9bb4e753d",
+      "title": "Using LLMs to Bridge the Gaps in QA Test Plans at Firefox",
+      "url": "https://www.semanticscholar.org/paper/9b3bbeabb533fc4dac52af3dfc4aaba9bb4e753d"
+    },
+    {
+      "externalIds": {
+        "ArXiv": "2606.05391",
+        "CorpusId": 288976246,
+        "DBLP": "conf/fat/DhanorkarPV26",
+        "DOI": "10.1145/3805689.3812402"
+      },
+      "openAccessPdf": {
+        "license": "CCBY",
+        "status": "GOLD",
+        "url": "https://doi.org/10.1145/3805689.3812402"
+      },
+      "paperId": "18e80604111abf5cdcb57862f589fcbab2f0f328",
+      "title": "Human oversight of agentic systems in practice: Examining the oversight work, challenges, and heuristics of developers using software agents",
+      "url": "https://www.semanticscholar.org/paper/18e80604111abf5cdcb57862f589fcbab2f0f328"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 274469034,
+        "DBLP": "conf/sccc/MirandaPFNC024",
+        "DOI": "10.1109/SCCC63879.2024.10767612"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": "CLOSED",
+        "url": ""
+      },
+      "paperId": "546ddb7a6a1ddb9d8b0d996fcd25ffcad1f85349",
+      "title": "Enhancing Agile Project Management Education with AI: ChatGPT-4's Role in Evaluating Student Contributions",
+      "url": "https://www.semanticscholar.org/paper/546ddb7a6a1ddb9d8b0d996fcd25ffcad1f85349"
+    },
+    {
+      "externalIds": {
+        "ArXiv": "2505.16120",
+        "CorpusId": 278789054,
+        "DBLP": "journals/corr/abs-2505-16120",
+        "DOI": "10.1109/AIIoT65859.2025.11105299"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": null,
+        "url": ""
+      },
+      "paperId": "e041a0f7e3e5a9de96c5afdaea23cb3b8fb27ab4",
+      "title": "LLM-Powered AI Agent Systems and Their Applications in Industry",
+      "url": "https://www.semanticscholar.org/paper/e041a0f7e3e5a9de96c5afdaea23cb3b8fb27ab4"
+    },
+    {
+      "externalIds": {
+        "ArXiv": "2404.10155",
+        "CorpusId": 269157203,
+        "DBLP": "conf/scam/SiddiqDSS24",
+        "DOI": "10.1109/SCAM63643.2024.00028"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": "GREEN",
+        "url": "http://arxiv.org/pdf/2404.10155"
+      },
+      "paperId": "7d8975d0f424e2dd37fd6fa93989784ce15824b4",
+      "title": "The Fault in our Stars: Quality Assessment of Code Generation Benchmarks",
+      "url": "https://www.semanticscholar.org/paper/7d8975d0f424e2dd37fd6fa93989784ce15824b4"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 236879929,
+        "DOI": "10.22044/JADM.2021.10119.2152",
+        "MAG": "3175691584"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": null,
+        "url": ""
+      },
+      "paperId": "0b77cfed7ecbcaed791f92b76acf66c8383ae1d1",
+      "title": "Hybrid PSO-SA approach for feature weighting in analogy-based software project effort estimation",
+      "url": "https://www.semanticscholar.org/paper/0b77cfed7ecbcaed791f92b76acf66c8383ae1d1"
+    },
+    {
+      "externalIds": {
+        "ArXiv": "2309.13574",
+        "CorpusId": 262459296,
+        "DBLP": "journals/corr/abs-2309-13574",
+        "DOI": "10.1109/QRS60937.2023.00029"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": "GREEN",
+        "url": "https://arxiv.org/pdf/2309.13574"
+      },
+      "paperId": "737aa146e2d8d044fff40ba830f89e30fd9ae4fd",
+      "title": "LLM for Test Script Generation and Migration: Challenges, Capabilities, and Opportunities",
+      "url": "https://www.semanticscholar.org/paper/737aa146e2d8d044fff40ba830f89e30fd9ae4fd"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 264975804,
+        "DBLP": "conf/issre/PurbaGRC23",
+        "DOI": "10.1109/ISSREW60843.2023.00058"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": "CLOSED",
+        "url": ""
+      },
+      "paperId": "7e8f442a1a8e7969bf943036c4870c4a1bdb9632",
+      "title": "Software Vulnerability Detection using Large Language Models",
+      "url": "https://www.semanticscholar.org/paper/7e8f442a1a8e7969bf943036c4870c4a1bdb9632"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 272722258,
+        "DBLP": "conf/cvpr/Gao0BOLMWZWGWZS24",
+        "DOI": "10.1109/CVPR52733.2024.01262"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": "CLOSED",
+        "url": ""
+      },
+      "paperId": "786d6ed50f45c8df53951bb38a52b08288817e2f",
+      "title": "AssistGUI: Task-Oriented PC Graphical User Interface Automation",
+      "url": "https://www.semanticscholar.org/paper/786d6ed50f45c8df53951bb38a52b08288817e2f"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 264975312,
+        "DBLP": "conf/kbse/ZimmermannK23",
+        "DOI": "10.1109/ASEW60602.2023.00028"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": "CLOSED",
+        "url": ""
+      },
+      "paperId": "f1c3d945ada7be6d1d20f3e0a2b1d3ad7cb68329",
+      "title": "GUI-Based Software Testing: An Automated Approach Using GPT-4 and Selenium WebDriver",
+      "url": "https://www.semanticscholar.org/paper/f1c3d945ada7be6d1d20f3e0a2b1d3ad7cb68329"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 274827178,
+        "DOI": "10.1109/CONISOFT63288.2024.00050"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": "CLOSED",
+        "url": ""
+      },
+      "paperId": "f0a7a1faf9a4c70faa82d6d9f3d4f8c5bbb23932",
+      "title": "State of the Art of the Security of Code Generated by LLMs: A Systematic Literature Review",
+      "url": "https://www.semanticscholar.org/paper/f0a7a1faf9a4c70faa82d6d9f3d4f8c5bbb23932"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 272915548,
+        "DBLP": "conf/qrs/LiuLYLL24",
+        "DOI": "10.1109/QRS62785.2024.00027"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": null,
+        "url": ""
+      },
+      "paperId": "9b269d1f5180020c6cb3e33dd5d533d88af5ce1e",
+      "title": "Empirical Evaluation of Large Language Models for Novice Program Fault Localization",
+      "url": "https://www.semanticscholar.org/paper/9b269d1f5180020c6cb3e33dd5d533d88af5ce1e"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 224777728,
+        "DBLP": "conf/euromicro/ZabardastGS20",
+        "DOI": "10.1109/SEAA51224.2020.00068",
+        "MAG": "3094120457"
+      },
+      "openAccessPdf": {
+        "license": "other-oa",
+        "status": "GREEN",
+        "url": "http://urn.kb.se/resolve?urn=urn:nbn:se:bth-20813"
+      },
+      "paperId": "5de7de7d0290a4659a851722a578c459a723cc9b",
+      "title": "Refactoring, Bug Fixing, and New Development Effect on Technical Debt: An Industrial Case Study",
+      "url": "https://www.semanticscholar.org/paper/5de7de7d0290a4659a851722a578c459a723cc9b"
+    },
+    null,
+    {
+      "externalIds": {
+        "CorpusId": 283014190,
+        "DBLP": "conf/issre/SaraivaDCMH25",
+        "DOI": "10.1109/ISSRE66568.2025.00058"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": null,
+        "url": ""
+      },
+      "paperId": "aec102951524d20a02911a42a61d97f6c0430862",
+      "title": "No Vibe Without Comprehension: Measuring Code Understanding in Modern Coding Workflows Using Neurophysiological Signals",
+      "url": "https://www.semanticscholar.org/paper/aec102951524d20a02911a42a61d97f6c0430862"
+    },
+    {
+      "externalIds": {
+        "ArXiv": "2505.18019",
+        "CorpusId": 278886404,
+        "DBLP": "conf/ease/GuptaGJPG25",
+        "DOI": "10.1145/3756681.3756992"
+      },
+      "openAccessPdf": {
+        "license": "CCBY",
+        "status": "GOLD",
+        "url": "https://doi.org/10.1145/3756681.3756992"
+      },
+      "paperId": "bd82289ca98593cf7fab685a748ca656e75c589b",
+      "title": "LLM-assisted web application functional requirements generation \u2013 A case study of four popular LLMs over a Mess Management System",
+      "url": "https://www.semanticscholar.org/paper/bd82289ca98593cf7fab685a748ca656e75c589b"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 287985601,
+        "DOI": "10.1109/SCSE70081.2026.11499963"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": null,
+        "url": ""
+      },
+      "paperId": "ff4b97123cafec6d8d887ea30d483b9475224456",
+      "title": "Evaluating the Role of AI, Technology Used, and Technology Skill Proficiency in Onboarding: A Quantitative Study of Developer Productivity and Scalability in Sri Lanka",
+      "url": "https://www.semanticscholar.org/paper/ff4b97123cafec6d8d887ea30d483b9475224456"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 273460753,
+        "DBLP": "conf/kbse/ZhangWLWL024",
+        "DOI": "10.1145/3691620.3695555"
+      },
+      "openAccessPdf": {
+        "license": "CCBY",
+        "status": "GOLD",
+        "url": "https://doi.org/10.1145/3691620.3695555"
+      },
+      "paperId": "d8625f976a42130ceb8e09b6d7ca78bb45e6c369",
+      "title": "VulAdvisor: Natural Language Suggestion Generation for Software Vulnerability Repair",
+      "url": "https://www.semanticscholar.org/paper/d8625f976a42130ceb8e09b6d7ca78bb45e6c369"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 277743391,
+        "DBLP": "journals/access/PallaS25",
+        "DOI": "10.1109/ACCESS.2025.3560244"
+      },
+      "openAccessPdf": {
+        "license": "CCBY",
+        "status": "GOLD",
+        "url": "https://doi.org/10.1109/access.2025.3560244"
+      },
+      "paperId": "ac4b6e3126d2faac33b0f605936d3d6a793abfbc",
+      "title": "Evaluation of Generative AI Models in Python Code Generation: A Comparative Study",
+      "url": "https://www.semanticscholar.org/paper/ac4b6e3126d2faac33b0f605936d3d6a793abfbc"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 289661664,
+        "DBLP": "conf/eics/SouzaOFT26",
+        "DOI": "10.1145/3807968.3810930"
+      },
+      "openAccessPdf": {
+        "license": "CCBY",
+        "status": "GOLD",
+        "url": "https://doi.org/10.1145/3807968.3810930"
+      },
+      "paperId": "befd336113df7de16525a5edd8e96d353c1552df",
+      "title": "Towards a Generative AI-Driven Environment for the Specification and Evaluation of IoT Software Systems Requirements",
+      "url": "https://www.semanticscholar.org/paper/befd336113df7de16525a5edd8e96d353c1552df"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 289695375,
+        "DOI": "10.1109/ISCTIS70043.2026.11572319"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": "CLOSED",
+        "url": ""
+      },
+      "paperId": "4b40cf3abb1993c66c7943e30520792018d70d0e",
+      "title": "Prompting Matters: Evaluating Strategies for LLM-based Vulnerability Detection",
+      "url": "https://www.semanticscholar.org/paper/4b40cf3abb1993c66c7943e30520792018d70d0e"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 275472208,
+        "DBLP": "journals/pacmpl/CaiHSLLSD25",
+        "DOI": "10.1145/3704905"
+      },
+      "openAccessPdf": {
+        "license": "CCBY",
+        "status": "GOLD",
+        "url": "https://doi.org/10.1145/3704905"
+      },
+      "paperId": "9494709653bb905d6e48ce21e9e5bbb77f5a9185",
+      "title": "Automated Program Refinement: Guide and Verify Code Large Language Model with Refinement Calculus",
+      "url": "https://www.semanticscholar.org/paper/9494709653bb905d6e48ce21e9e5bbb77f5a9185"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 42615684,
+        "DBLP": "conf/ease/TamrakarJ12",
+        "DOI": "10.1049/ic.2012.0030",
+        "MAG": "2037058423"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": "CLOSED",
+        "url": ""
+      },
+      "paperId": "11a3c3735e4b1e52747292fc2100c698d27c254c",
+      "title": "Does the use of Fibonacci numbers in planning poker affect effort estimates?",
+      "url": "https://www.semanticscholar.org/paper/11a3c3735e4b1e52747292fc2100c698d27c254c"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 254737408,
+        "DOI": "10.1109/ICoDSE56892.2022.9972012"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": null,
+        "url": ""
+      },
+      "paperId": "5a2449f5ea8bc358b89a8dcf9d529fade3f458fa",
+      "title": "PREP: A Post-Requirements Effort Estimation Method in Scrum's Sprint Grooming",
+      "url": "https://www.semanticscholar.org/paper/5a2449f5ea8bc358b89a8dcf9d529fade3f458fa"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 268241656,
+        "DBLP": "conf/msr/GrewalLNB24",
+        "DOI": "10.1145/3643991.3645072"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": "CLOSED",
+        "url": ""
+      },
+      "paperId": "29522ee90f6c1bb0ead501cff6e3858d5f656fdf",
+      "title": "Analyzing Developer Use of ChatGPT Generated Code in Open Source GitHub Projects",
+      "url": "https://www.semanticscholar.org/paper/29522ee90f6c1bb0ead501cff6e3858d5f656fdf"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 1654474,
+        "DBLP": "journals/iee/BardsiriJHK12",
+        "DOI": "10.1049/iet-sen.2011.0210",
+        "MAG": "2107578086"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": "CLOSED",
+        "url": ""
+      },
+      "paperId": "b46f209f1f5fefdd81cba4d82862299b93eae4e0",
+      "title": "Increasing the accuracy of software development effort estimation using projects clustering",
+      "url": "https://www.semanticscholar.org/paper/b46f209f1f5fefdd81cba4d82862299b93eae4e0"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 279416162,
+        "DBLP": "conf/iwpc/LiDWZS0S25",
+        "DOI": "10.1109/ICPC66645.2025.00039"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": null,
+        "url": ""
+      },
+      "paperId": "fbc0c2b7f2eee7721965a790896620dd6d607e89",
+      "title": "Extracting Formal Specifications From Documents Using LLMS for Test Automation",
+      "url": "https://www.semanticscholar.org/paper/fbc0c2b7f2eee7721965a790896620dd6d607e89"
+    },
+    {
+      "externalIds": {
+        "ArXiv": "2311.13246",
+        "CorpusId": 265351632,
+        "DBLP": "conf/icde/LiuTZZMZ0HZZMZY24",
+        "DOI": "10.1109/ICDE60146.2024.00390"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": "GREEN",
+        "url": "https://arxiv.org/pdf/2311.13246"
+      },
+      "paperId": "0fd454e62f76b9edcfa8baa43a7467368748483f",
+      "title": "CoachLM: Automatic Instruction Revisions Improve the Data Quality in LLM Instruction Tuning",
+      "url": "https://www.semanticscholar.org/paper/0fd454e62f76b9edcfa8baa43a7467368748483f"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 34577489,
+        "DBLP": "journals/smr/TanveerGE17",
+        "DOI": "10.1002/smr.1862",
+        "MAG": "2601420536"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": "CLOSED",
+        "url": ""
+      },
+      "paperId": "d55d144640a81d5b670a638c2db8ef9d859235c1",
+      "title": "Effort estimation in agile software development: Case study and improvement framework",
+      "url": "https://www.semanticscholar.org/paper/d55d144640a81d5b670a638c2db8ef9d859235c1"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 281274581,
+        "DBLP": "journals/access/MoenksPB25",
+        "DOI": "10.1109/ACCESS.2025.3608650"
+      },
+      "openAccessPdf": {
+        "license": "CCBY",
+        "status": "GOLD",
+        "url": "https://doi.org/10.1109/access.2025.3608650"
+      },
+      "paperId": "549a32c78a7bf8b4e6ae128a83392b7c6c218b2a",
+      "title": "A Systematic Literature Review of Large Language Model Applications in Industry",
+      "url": "https://www.semanticscholar.org/paper/549a32c78a7bf8b4e6ae128a83392b7c6c218b2a"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 288641954,
+        "DBLP": "conf/cais/ShawB26",
+        "DOI": "10.1145/3786335.3813220"
+      },
+      "openAccessPdf": {
+        "license": "CCBY",
+        "status": "GOLD",
+        "url": "https://doi.org/10.1145/3786335.3813220"
+      },
+      "paperId": "87986a86d5eba0c69adcf41af0a6bb4232d90bec",
+      "title": "Wily: High-Performance Complexity Gated-Feedback for AI Coding Agents",
+      "url": "https://www.semanticscholar.org/paper/87986a86d5eba0c69adcf41af0a6bb4232d90bec"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 261373955,
+        "DBLP": "conf/aitest/EbrahimSYEEAME23",
+        "DOI": "10.1109/AITest58265.2023.00018"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": "CLOSED",
+        "url": ""
+      },
+      "paperId": "f5c4b6f31761b2eec8c7b4d1ba3f325ecfc9e855",
+      "title": "AI Decision Assistant ChatBot for Software Release Planning and Optimized Resource Allocation",
+      "url": "https://www.semanticscholar.org/paper/f5c4b6f31761b2eec8c7b4d1ba3f325ecfc9e855"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 289740987,
+        "DBLP": "conf/promise/AmorimFVF26",
+        "DOI": "10.1145/3803846.3807463"
+      },
+      "openAccessPdf": {
+        "license": "CCBY",
+        "status": "GOLD",
+        "url": "https://doi.org/10.1145/3803846.3807463"
+      },
+      "paperId": "58f94a45ccdd74b1ce70dc596e48705510c1ce4e",
+      "title": "High Agreement, Shallow Reasoning: A Mixed-Method Study of LLMs in Refactoring Reviews",
+      "url": "https://www.semanticscholar.org/paper/58f94a45ccdd74b1ce70dc596e48705510c1ce4e"
+    },
+    {
+      "externalIds": {
+        "ArXiv": "2406.00992",
+        "CorpusId": 270220591,
+        "DBLP": "journals/corr/abs-2406-00992",
+        "DOI": "10.1145/3715004"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": "GREEN",
+        "url": "https://arxiv.org/pdf/2406.00992"
+      },
+      "paperId": "8be9b1cfcf9501b0b9d70c0fea9a8ca41656fd62",
+      "title": "Hybrid Automated Program Repair by Combining Large Language Models and Program Analysis",
+      "url": "https://www.semanticscholar.org/paper/8be9b1cfcf9501b0b9d70c0fea9a8ca41656fd62"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 258735167,
+        "DBLP": "conf/wcre/LinT23",
+        "DOI": "10.1109/SANER56733.2023.00075"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": null,
+        "url": ""
+      },
+      "paperId": "c3bbb76bdc41b27bdab821430c44f25a502c75c6",
+      "title": "Towards Automated Code Reviews: Does Learning Code Structure Help?",
+      "url": "https://www.semanticscholar.org/paper/c3bbb76bdc41b27bdab821430c44f25a502c75c6"
+    },
+    {
+      "externalIds": {
+        "ArXiv": "2410.15490",
+        "CorpusId": 273501554,
+        "DBLP": "conf/bigdataconf/TihanyiBDTBCJMF24",
+        "DOI": "10.1109/BigData62323.2024.10825051"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": null,
+        "url": ""
+      },
+      "paperId": "d3527c717cd8320d8170dacbf3830be9efcef59f",
+      "title": "Dynamic Intelligence Assessment: Benchmarking LLMs on the Road to AGI with a Focus on Model Confidence",
+      "url": "https://www.semanticscholar.org/paper/d3527c717cd8320d8170dacbf3830be9efcef59f"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 277398472,
+        "DBLP": "journals/access/AmosAMAZIBH25",
+        "DOI": "10.1109/ACCESS.2025.3554627"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": "GOLD",
+        "url": "https://doi.org/10.1109/access.2025.3554627"
+      },
+      "paperId": "8333b7c6b715b041d3d35d11f588ccc914940f20",
+      "title": "A Bibliometric Exposition and Review on Leveraging LLMs for Programming Education",
+      "url": "https://www.semanticscholar.org/paper/8333b7c6b715b041d3d35d11f588ccc914940f20"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 279325778,
+        "DBLP": "conf/raie/MitaniMMB25",
+        "DOI": "10.1109/RAIE66699.2025.00008"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": null,
+        "url": ""
+      },
+      "paperId": "a200aa53416b49d4a1d1bcf3dad306e05a5a1d7b",
+      "title": "LLM-AQuA-DiVeR: LLM-Assisted Quality Assurance Through Dialogues on Verifiable Specification with Requirement Owners",
+      "url": "https://www.semanticscholar.org/paper/a200aa53416b49d4a1d1bcf3dad306e05a5a1d7b"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 281988700,
+        "DBLP": "conf/re/DabrowskiCBNA25",
+        "DOI": "10.1109/RE63999.2025.00064"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": null,
+        "url": ""
+      },
+      "paperId": "e464ebac1e19d178b936ad6f8b6340263e7ad589",
+      "title": "Intelligent Agents for Requirements Engineering: Use, Feasibility and Evaluation",
+      "url": "https://www.semanticscholar.org/paper/e464ebac1e19d178b936ad6f8b6340263e7ad589"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 278053013,
+        "DBLP": "conf/chi/ChenLW25",
+        "DOI": "10.1145/3706599.3719914"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": "CLOSED",
+        "url": ""
+      },
+      "paperId": "0546031b83a698e50e13763f6687da81b4962c87",
+      "title": "Design Principles and Guidelines for LLM Observability: Insights from Developers",
+      "url": "https://www.semanticscholar.org/paper/0546031b83a698e50e13763f6687da81b4962c87"
+    },
+    {
+      "externalIds": {
+        "ArXiv": "2310.01831",
+        "CorpusId": 263608443,
+        "DBLP": "journals/pacmse/EndresFCL24",
+        "DOI": "10.1145/3660791"
+      },
+      "openAccessPdf": {
+        "license": "CCBY",
+        "status": "HYBRID",
+        "url": "https://doi.org/10.1145/3660791"
+      },
+      "paperId": "b93d00978a95ca98ae7e0c2524bbc364a9766148",
+      "title": "Can Large Language Models Transform Natural Language Intent into Formal Method Postconditions?",
+      "url": "https://www.semanticscholar.org/paper/b93d00978a95ca98ae7e0c2524bbc364a9766148"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 289732050,
+        "DBLP": "conf/promise/LiRYWY26",
+        "DOI": "10.1145/3803846.3807466"
+      },
+      "openAccessPdf": {
+        "license": "CCBY",
+        "status": "GOLD",
+        "url": "https://doi.org/10.1145/3803846.3807466"
+      },
+      "paperId": "334510595bb675bb44f19ceac8584d043a99f6e2",
+      "title": "Secure-Instruct: Prompt, Synthesize, and Fine-Tune for Secure Code Generation",
+      "url": "https://www.semanticscholar.org/paper/334510595bb675bb44f19ceac8584d043a99f6e2"
+    },
+    null,
+    {
+      "externalIds": {
+        "CorpusId": 286556654,
+        "DBLP": "journals/software/WincklerRMK26",
+        "DOI": "10.1109/MS.2026.3671677"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": "CLOSED",
+        "url": ""
+      },
+      "paperId": "bdcb44b7c09011a79ced713b6e50a59c1da162a0",
+      "title": "AI-Assisted Collaboration: Exploring Developer Experience with GitHub Copilot and Windsurf",
+      "url": "https://www.semanticscholar.org/paper/bdcb44b7c09011a79ced713b6e50a59c1da162a0"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 279325465,
+        "DBLP": "conf/icse/Brandebusemeyer25",
+        "DOI": "10.1109/ICSE-Companion66252.2025.00043"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": null,
+        "url": ""
+      },
+      "paperId": "83b284796e0db1f1a6abe99e4228101acdba296f",
+      "title": "Interactions with Generative AI: Wearables to Measure Developer Experience and Productivity Objectively",
+      "url": "https://www.semanticscholar.org/paper/83b284796e0db1f1a6abe99e4228101acdba296f"
+    },
+    {
+      "externalIds": {
+        "ArXiv": "2307.07221",
+        "CorpusId": 259924919,
+        "DBLP": "journals/corr/abs-2307-07221",
+        "DOI": "10.1109/TSE.2024.3368208"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": "GREEN",
+        "url": "https://arxiv.org/pdf/2307.07221"
+      },
+      "paperId": "f43b8a87a96f8abc2467b90538b643a6061416e9",
+      "title": "Software Testing With Large Language Models: Survey, Landscape, and Vision",
+      "url": "https://www.semanticscholar.org/paper/f43b8a87a96f8abc2467b90538b643a6061416e9"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 275037175,
+        "DBLP": "journals/tosem/WangWLWL25",
+        "DOI": "10.1145/3709355"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": "CLOSED",
+        "url": ""
+      },
+      "paperId": "8c3c3273fd0e05a3e40853811b218b0da7f28706",
+      "title": "A Roadmap for Software Testing in Open-Collaborative and AI-Powered Era",
+      "url": "https://www.semanticscholar.org/paper/8c3c3273fd0e05a3e40853811b218b0da7f28706"
+    },
+    {
+      "externalIds": {
+        "ArXiv": "2601.21276",
+        "CorpusId": 285140697,
+        "DBLP": "journals/corr/abs-2601-21276",
+        "DOI": "10.1145/3793302.3793622"
+      },
+      "openAccessPdf": {
+        "license": "CCBY",
+        "status": "GOLD",
+        "url": "https://doi.org/10.1145/3793302.3793622"
+      },
+      "paperId": "a03795789595e6ddd478095b1d7458c2e7a3eea6",
+      "title": "More Code, Less Reuse: Investigation on Code Quality and Reviewer Sentiment towards AI-generated Pull Requests",
+      "url": "https://www.semanticscholar.org/paper/a03795789595e6ddd478095b1d7458c2e7a3eea6"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 280921559,
+        "DOI": "10.1109/SVCC65277.2025.11133629"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": null,
+        "url": ""
+      },
+      "paperId": "3f696b731bc5742ed7e92a85f0683822905c1d4e",
+      "title": "Artificially Insecure: Examining GitHub Copilot\u2019s AI-based Vulnerability Prevention System",
+      "url": "https://www.semanticscholar.org/paper/3f696b731bc5742ed7e92a85f0683822905c1d4e"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 282613697,
+        "DBLP": "conf/icsm/Pilone25",
+        "DOI": "10.1109/ICSME64153.2025.00095"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": null,
+        "url": ""
+      },
+      "paperId": "2e6619d0f563399965867c19a474ed68cc316b1e",
+      "title": "Ensuring Code Integrity in the Era of AI-Assisted Software Development",
+      "url": "https://www.semanticscholar.org/paper/2e6619d0f563399965867c19a474ed68cc316b1e"
+    },
+    {
+      "externalIds": {
+        "ArXiv": "2509.03875",
+        "CorpusId": 281103027,
+        "DBLP": "journals/corr/abs-2509-03875",
+        "DOI": "10.1145/3801149"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": null,
+        "url": ""
+      },
+      "paperId": "c834f7d6663d40305604ec3ab55186e1ffaa8084",
+      "title": "VulRTex: A Reasoning-Guided Approach to Identify Vulnerabilities from Rich-Text Issue Report",
+      "url": "https://www.semanticscholar.org/paper/c834f7d6663d40305604ec3ab55186e1ffaa8084"
+    },
+    {
+      "externalIds": {
+        "ArXiv": "2501.16495",
+        "CorpusId": 275932233,
+        "DBLP": "journals/corr/abs-2501-16495",
+        "DOI": "10.1109/ICPC66645.2025.00037"
+      },
+      "openAccessPdf": {
+        "license": "CCBYNCND",
+        "status": "GREEN",
+        "url": "https://repositorio.ufro.cl/s/repositorio-ufro/item/13682"
+      },
+      "paperId": "7272fcc9ffbcc8670e5a5917e51c044fb66f87b2",
+      "title": "Explaining GitHub Actions Failures with Large Language Models: Challenges, Insights, and Limitations",
+      "url": "https://www.semanticscholar.org/paper/7272fcc9ffbcc8670e5a5917e51c044fb66f87b2"
+    },
+    {
+      "externalIds": {
+        "ArXiv": "2508.15135",
+        "CorpusId": 280700408,
+        "DBLP": "journals/corr/abs-2508-15135",
+        "DOI": "10.1109/SCAM67354.2025.00016"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": null,
+        "url": ""
+      },
+      "paperId": "78b22f9468132dca720ee25ece9214e30f45d6ff",
+      "title": "On the need to perform comprehensive evaluations of automated program repair benchmarks: Sorald case study",
+      "url": "https://www.semanticscholar.org/paper/78b22f9468132dca720ee25ece9214e30f45d6ff"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 287985532,
+        "DBLP": "conf/saner/ArntzeniusLZ26",
+        "DOI": "10.1109/SANER-C67878.2026.00030"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": null,
+        "url": ""
+      },
+      "paperId": "9fe6187aca7a5c5680c86dfa9a9d2d850142d10c",
+      "title": "On the Energy Consumption of Continuous Integration in Open-Source Java Projects",
+      "url": "https://www.semanticscholar.org/paper/9fe6187aca7a5c5680c86dfa9a9d2d850142d10c"
+    },
+    {
+      "externalIds": {
+        "ArXiv": "2506.10330",
+        "CorpusId": 279318962,
+        "DBLP": "conf/forge/AbtahiA25",
+        "DOI": "10.1109/Forge66646.2025.00017"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": null,
+        "url": ""
+      },
+      "paperId": "34e662b47ee50dba16eb3621f2fbe402aaea8157",
+      "title": "Augmenting Large Language Models with Static Code Analysis for Automated Code Quality Improvements",
+      "url": "https://www.semanticscholar.org/paper/34e662b47ee50dba16eb3621f2fbe402aaea8157"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 272615699,
+        "DBLP": "conf/issta/Li0ZLL0C024",
+        "DOI": "10.1145/3650212.3680371"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": "CLOSED",
+        "url": ""
+      },
+      "paperId": "6b338001fa8df8688246e34922c4082848576870",
+      "title": "CoSec: On-the-Fly Security Hardening of Code LLMs via Supervised Co-decoding",
+      "url": "https://www.semanticscholar.org/paper/6b338001fa8df8688246e34922c4082848576870"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 271973208,
+        "DBLP": "conf/compsac/LiKMCZL24",
+        "DOI": "10.1109/COMPSAC61105.2024.00017"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": "CLOSED",
+        "url": ""
+      },
+      "paperId": "23bed32af815a7f7afed6c1ae23db2fa4fa97536",
+      "title": "LLM-Based Class Diagram Derivation from User Stories with Chain-of-Thought Promptings",
+      "url": "https://www.semanticscholar.org/paper/23bed32af815a7f7afed6c1ae23db2fa4fa97536"
+    },
+    {
+      "externalIds": {
+        "ArXiv": "2307.07381",
+        "CorpusId": 259924649,
+        "DBLP": "journals/corr/abs-2307-07381",
+        "DOI": "10.1109/SEAA60479.2023.00061"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": "GREEN",
+        "url": "https://arxiv.org/pdf/2307.07381"
+      },
+      "paperId": "37d7fd90943b76657ff88d030a9d28677914160f",
+      "title": "Investigating ChatGPT\u2019s Potential to Assist in Requirements Elicitation Processes",
+      "url": "https://www.semanticscholar.org/paper/37d7fd90943b76657ff88d030a9d28677914160f"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 266197957,
+        "DBLP": "conf/icspis/NaitoWM23",
+        "DOI": "10.1109/ICSPIS60075.2023.10344019"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": "CLOSED",
+        "url": ""
+      },
+      "paperId": "9f66d30b12e7cb57d8b157c2ff14e2c380dc9076",
+      "title": "LLM-based Attack Scenarios Generator with IT Asset Management and Vulnerability Information",
+      "url": "https://www.semanticscholar.org/paper/9f66d30b12e7cb57d8b157c2ff14e2c380dc9076"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 281148535,
+        "DOI": "10.1109/INCET64471.2025.11139961"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": null,
+        "url": ""
+      },
+      "paperId": "38b6ffddb6e94030a440893abcd0b23f5ff02366",
+      "title": "AI-Powered Code Editors: Bridging the Gap Between Academia and Industry",
+      "url": "https://www.semanticscholar.org/paper/38b6ffddb6e94030a440893abcd0b23f5ff02366"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 283015997,
+        "DBLP": "conf/issre/OlivieriBNSCF25",
+        "DOI": "10.1109/ISSRE66568.2025.00034"
+      },
+      "openAccessPdf": {
+        "license": "CCBY",
+        "status": "GREEN",
+        "url": "https://figshare.com/articles/conference_contribution/Code_Generation_of_Smart_Contracts_with_LLMs_A_Case_Study_on_Hyperledger_Fabric/32772276"
+      },
+      "paperId": "c2f18c42eb6aac6b4edbbdc676318883a5a4544c",
+      "title": "Code Generation of Smart Contracts with LLMs: A Case Study on Hyperledger Fabric",
+      "url": "https://www.semanticscholar.org/paper/c2f18c42eb6aac6b4edbbdc676318883a5a4544c"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 289219226,
+        "DOI": "10.1145/3819802.3820581"
+      },
+      "openAccessPdf": {
+        "license": "CCBY",
+        "status": "GOLD",
+        "url": "https://doi.org/10.1145/3819802.3820581"
+      },
+      "paperId": "7b29c5eeca208e051e58b3903ed9dee3d68f0673",
+      "title": "Testing LLM-Generated Distributed Protocol Code",
+      "url": "https://www.semanticscholar.org/paper/7b29c5eeca208e051e58b3903ed9dee3d68f0673"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 276135528,
+        "DBLP": "journals/access/AlmanasraS25",
+        "DOI": "10.1109/ACCESS.2025.3538050"
+      },
+      "openAccessPdf": {
+        "license": "CCBY",
+        "status": "GOLD",
+        "url": "https://doi.org/10.1109/access.2025.3538050"
+      },
+      "paperId": "09474887011e130bff710151c3e6325f365d4327",
+      "title": "Analysis of ChatGPT-Generated Codes Across Multiple Programming Languages",
+      "url": "https://www.semanticscholar.org/paper/09474887011e130bff710151c3e6325f365d4327"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 250970643,
+        "DBLP": "conf/wcre/HongTT22",
+        "DOI": "10.1109/saner53432.2022.00121"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": null,
+        "url": ""
+      },
+      "paperId": "b63c6401c4cbed67fe780c6df64f1fb094c59590",
+      "title": "Where Should I Look at? Recommending Lines that Reviewers Should Pay Attention To",
+      "url": "https://www.semanticscholar.org/paper/b63c6401c4cbed67fe780c6df64f1fb094c59590"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 289807616,
+        "DBLP": "conf/secdev/ThoolSB26",
+        "DOI": "10.1145/3805773.3806003"
+      },
+      "openAccessPdf": {
+        "license": "CCBY",
+        "status": "GOLD",
+        "url": "https://doi.org/10.1145/3805773.3806003"
+      },
+      "paperId": "80c8c842e17bc41ad734c37d0b965ba834a142ee",
+      "title": "SafeAIMerge: A Tool for Integrating DAST and LLM-Generated Security Feedback into GitHub Actions Workflows",
+      "url": "https://www.semanticscholar.org/paper/80c8c842e17bc41ad734c37d0b965ba834a142ee"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 14763830,
+        "DBLP": "journals/software/JorgensenBR09",
+        "DOI": "10.1109/MS.2009.47",
+        "MAG": "2149449383"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": "CLOSED",
+        "url": ""
+      },
+      "paperId": "357361f12a826656b52a491c34964269b05a16d2",
+      "title": "Software Development Effort Estimation: Formal Models or Expert Judgment?",
+      "url": "https://www.semanticscholar.org/paper/357361f12a826656b52a491c34964269b05a16d2"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 280199646,
+        "DBLP": "conf/wfcs/OttoARBDVW25",
+        "DOI": "10.1109/WFCS63373.2025.11077624"
+      },
+      "openAccessPdf": {
+        "license": "CCBYNCND",
+        "status": "GREEN",
+        "url": "https://hdl.handle.net/11475/33578"
+      },
+      "paperId": "9d45b08c5987838c34ab3b8d6bcd87364f8f4bca",
+      "title": "Code and Test Generation for I4.0 State Machines with LLM-based Diagram Recognition",
+      "url": "https://www.semanticscholar.org/paper/9d45b08c5987838c34ab3b8d6bcd87364f8f4bca"
+    },
+    {
+      "externalIds": {
+        "ArXiv": "2502.08108",
+        "CorpusId": 276287548,
+        "DBLP": "journals/corr/abs-2502-08108",
+        "DOI": "10.1109/AIware69974.2025.00033"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": null,
+        "url": ""
+      },
+      "paperId": "497b990c2bd60175c15e18c436fc54c595a05ed4",
+      "title": "Generative AI and Empirical Software Engineering: A Paradigm Shift",
+      "url": "https://www.semanticscholar.org/paper/497b990c2bd60175c15e18c436fc54c595a05ed4"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 259836163,
+        "DBLP": "conf/icse/CalaisF23",
+        "DOI": "10.1109/ICSE-NIER58687.2023.00025"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": "CLOSED",
+        "url": ""
+      },
+      "paperId": "534aab79538698c07df1d9a9780290331ee25dcd",
+      "title": "Test-Driven Development Benefits Beyond Design Quality: Flow State and Developer Experience",
+      "url": "https://www.semanticscholar.org/paper/534aab79538698c07df1d9a9780290331ee25dcd"
+    },
+    {
+      "externalIds": {
+        "ArXiv": "2302.07229",
+        "CorpusId": 256846372,
+        "DBLP": "journals/corr/abs-2302-07229",
+        "DOI": "10.1109/ICSE48619.2023.00068"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": "GREEN",
+        "url": "https://arxiv.org/pdf/2302.07229"
+      },
+      "paperId": "093cb91029c685a19115e3c4cb016d2cda02a075",
+      "title": "Moving on from the Software Engineers' Gambit: An Approach to Support the Defense of Software Effort Estimates",
+      "url": "https://www.semanticscholar.org/paper/093cb91029c685a19115e3c4cb016d2cda02a075"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 288168478,
+        "DOI": "10.14801/jkiit.2026.24.4.11"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": null,
+        "url": ""
+      },
+      "paperId": "213aae47ec588481b8e38e7e6844593dffe52099",
+      "title": "Design of a Source Code Vulnerability Patch Verification Agent using an Iterative Self-Verifying Architecture with Large Language Models",
+      "url": "https://www.semanticscholar.org/paper/213aae47ec588481b8e38e7e6844593dffe52099"
+    },
+    {
+      "externalIds": {
+        "ArXiv": "2501.13257",
+        "CorpusId": 275820592,
+        "DBLP": "journals/corr/abs-2501-13257",
+        "DOI": "10.1109/ICSE-SEIS66351.2025.00010"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": null,
+        "url": ""
+      },
+      "paperId": "fc3424069113254b40152274a5be7396b3adb0b2",
+      "title": "Investigating the Developer Experience of LGBTQIAPN+ People in Agile Teams",
+      "url": "https://www.semanticscholar.org/paper/fc3424069113254b40152274a5be7396b3adb0b2"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 270124598,
+        "DOI": "10.1016/j.bushor.2024.05.009"
+      },
+      "openAccessPdf": {
+        "license": "CCBY",
+        "status": "HYBRID",
+        "url": "https://doi.org/10.1016/j.bushor.2024.05.009"
+      },
+      "paperId": "774253f211af65a4769882c73257c0b3eefbcaca",
+      "title": "Navigating software development in the ChatGPT and GitHub Copilot era",
+      "url": "https://www.semanticscholar.org/paper/774253f211af65a4769882c73257c0b3eefbcaca"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 279084885,
+        "DBLP": "journals/infsof/SianoFSV25",
+        "DOI": "10.1016/j.infsof.2025.107785"
+      },
+      "openAccessPdf": {
+        "license": "CCBYNCND",
+        "status": "HYBRID",
+        "url": "https://doi.org/10.1016/j.infsof.2025.107785"
+      },
+      "paperId": "7ea4e942a88f5ad5d00d0585cb50dbcc1099e3eb",
+      "title": "Translating code with Large Language Models and human-in-the-loop feedback",
+      "url": "https://www.semanticscholar.org/paper/7ea4e942a88f5ad5d00d0585cb50dbcc1099e3eb"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 289767109,
+        "DOI": "10.1145/3797071"
+      },
+      "openAccessPdf": {
+        "license": "CCBY",
+        "status": "HYBRID",
+        "url": "https://doi.org/10.1145/3797071"
+      },
+      "paperId": "9a72d67e0157d3504bcfea21a9656e657f40bd7f",
+      "title": "Mining Long Tail Bugs: Identifying Rare and Overlooked Issues in Code",
+      "url": "https://www.semanticscholar.org/paper/9a72d67e0157d3504bcfea21a9656e657f40bd7f"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 277619036,
+        "DBLP": "journals/infsof/BanhHS25",
+        "DOI": "10.1016/j.infsof.2025.107751"
+      },
+      "openAccessPdf": {
+        "license": "CCBY",
+        "status": "HYBRID",
+        "url": "https://doi.org/10.1016/j.infsof.2025.107751"
+      },
+      "paperId": "80a0a8384563544be66c0ddb796366c1116181ab",
+      "title": "Copiloting the future: How generative AI transforms Software Engineering",
+      "url": "https://www.semanticscholar.org/paper/80a0a8384563544be66c0ddb796366c1116181ab"
+    },
+    {
+      "externalIds": {
+        "ArXiv": "2504.16429",
+        "CorpusId": 277999671,
+        "DBLP": "journals/corr/abs-2504-16429",
+        "DOI": "10.1145/3719027.3765049"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": null,
+        "url": ""
+      },
+      "paperId": "1b581383b39088dd9e4e3e8f3227c4bd6bffa856",
+      "title": "Give LLMs a Security Course: Securing Retrieval-Augmented Code Generation via Knowledge Injection",
+      "url": "https://www.semanticscholar.org/paper/1b581383b39088dd9e4e3e8f3227c4bd6bffa856"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 278180995,
+        "DOI": "10.1109/COMP-SIF65618.2025.10969913"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": "CLOSED",
+        "url": ""
+      },
+      "paperId": "1c8d603c48b2898afd0102700c7409d204db0a40",
+      "title": "AI Guarded Code Editor: Verifying Authentic Human Input",
+      "url": "https://www.semanticscholar.org/paper/1c8d603c48b2898afd0102700c7409d204db0a40"
+    },
+    {
+      "externalIds": {
+        "ArXiv": "2404.03662",
+        "CorpusId": 268987412,
+        "DBLP": "conf/sigsoft/GoelHSGPBZR24",
+        "DOI": "10.1145/3663529.3663861"
+      },
+      "openAccessPdf": {
+        "license": "CCBY",
+        "status": "GOLD",
+        "url": "https://doi.org/10.1145/3663529.3663861"
+      },
+      "paperId": "c716c8fdadaa0f23f05447d2e9b798df32d6a632",
+      "title": "X-Lifecycle Learning for Cloud Incident Management using LLMs",
+      "url": "https://www.semanticscholar.org/paper/c716c8fdadaa0f23f05447d2e9b798df32d6a632"
+    },
+    null,
+    {
+      "externalIds": {
+        "ArXiv": "2501.11431",
+        "CorpusId": 275758172,
+        "DBLP": "journals/corr/abs-2501-11431",
+        "DOI": "10.1109/CHASE66643.2025.00012"
+      },
+      "openAccessPdf": {
+        "license": "CCBY",
+        "status": "GREEN",
+        "url": "http://bura.brunel.ac.uk/bitstream/2438/31951/1/Preprint.pdf"
+      },
+      "paperId": "0cac446e6544a00ee56a49b9188a27b8efc9c9e7",
+      "title": "Blockchain Developer Experience: A Multivocal Literature Review",
+      "url": "https://www.semanticscholar.org/paper/0cac446e6544a00ee56a49b9188a27b8efc9c9e7"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 281964530,
+        "DBLP": "conf/re/Dearstyne25",
+        "DOI": "10.1109/RE63999.2025.00076"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": null,
+        "url": ""
+      },
+      "paperId": "d09dc572021dc080acb4259f1e1f976680f1e4d7",
+      "title": "Intelligent Traceability to Support Software Maintainability and Accountability",
+      "url": "https://www.semanticscholar.org/paper/d09dc572021dc080acb4259f1e1f976680f1e4d7"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 285049031,
+        "DBLP": "journals/tochi/ZhangYXLYL26",
+        "DOI": "10.1145/3793673"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": null,
+        "url": ""
+      },
+      "paperId": "15ad96034d32794ca659e9d807c753c674007e13",
+      "title": "Towards Testing the Accessibility of Dynamic Visual Changes in Android Mobile GUI with Multi-Modal LLMs",
+      "url": "https://www.semanticscholar.org/paper/15ad96034d32794ca659e9d807c753c674007e13"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 279956393,
+        "DBLP": "journals/cn/CaturanoCRV25",
+        "DOI": "10.1016/j.comnet.2025.111501"
+      },
+      "openAccessPdf": {
+        "license": "CCBYNCND",
+        "status": "HYBRID",
+        "url": "https://doi.org/10.1016/j.comnet.2025.111501"
+      },
+      "paperId": "72bfb1d09efcf8e15a264e7ae2951ca2bf68dd8c",
+      "title": "A chit-chat between Llama 2 and ChatGPT for the automated creation of exploits",
+      "url": "https://www.semanticscholar.org/paper/72bfb1d09efcf8e15a264e7ae2951ca2bf68dd8c"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 287444215,
+        "DBLP": "conf/chi/KobiellaBS26",
+        "DOI": "10.1145/3772318.3790757"
+      },
+      "openAccessPdf": {
+        "license": "CCBYNCND",
+        "status": "GOLD",
+        "url": "https://doi.org/10.1145/3772318.3790757"
+      },
+      "paperId": "51fe9d8c0d94225785f8547627d9adcbb505e3ea",
+      "title": "From Throw-Away to Takeaway: How GenAI and Vibe Coding Accelerate Prototyping Across Technical Skill Levels",
+      "url": "https://www.semanticscholar.org/paper/51fe9d8c0d94225785f8547627d9adcbb505e3ea"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 67443354,
+        "DBLP": "journals/tse/JaloteK21",
+        "DOI": "10.1109/TSE.2019.2904230",
+        "MAG": "2922127377"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": "CLOSED",
+        "url": ""
+      },
+      "paperId": "04f143129a19e99fc1be885a02a0c9ac182ed614",
+      "title": "Studying Task Processes for Improving Programmer Productivity",
+      "url": "https://www.semanticscholar.org/paper/04f143129a19e99fc1be885a02a0c9ac182ed614"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 289925630,
+        "DBLP": "conf/aiware/AlmutairiL26",
+        "DOI": "10.1145/3805760.3814933"
+      },
+      "openAccessPdf": {
+        "license": "CCBY",
+        "status": "GOLD",
+        "url": "https://doi.org/10.1145/3805760.3814933"
+      },
+      "paperId": "cd5df60a8c21986470b5529da4393ffb891200b2",
+      "title": "SecMutBench: Evaluating LLM-Generated Security Tests via Mutation-Based Vulnerability Detection",
+      "url": "https://www.semanticscholar.org/paper/cd5df60a8c21986470b5529da4393ffb891200b2"
+    },
+    {
+      "externalIds": {
+        "ArXiv": "2407.20898",
+        "CorpusId": 271544086,
+        "DBLP": "journals/corr/abs-2407-20898",
+        "DOI": "10.1145/3650212.3680359"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": null,
+        "url": ""
+      },
+      "paperId": "a4362c3656aa892bd39e7100c1f0b89536709eb6",
+      "title": "ThinkRepair: Self-Directed Automated Program Repair",
+      "url": "https://www.semanticscholar.org/paper/a4362c3656aa892bd39e7100c1f0b89536709eb6"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 189824478,
+        "DOI": "10.1109/KBEI.2019.8734960",
+        "MAG": "2953077559"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": null,
+        "url": ""
+      },
+      "paperId": "06eb60cf387addae6f2083f7a0f4d2f8cf7a9903",
+      "title": "Planning Poker in cost estimation in Agile methods: Averaging Vs. Consensus",
+      "url": "https://www.semanticscholar.org/paper/06eb60cf387addae6f2083f7a0f4d2f8cf7a9903"
+    },
+    {
+      "externalIds": {
+        "ArXiv": "2506.24015",
+        "CorpusId": 280011257,
+        "DBLP": "conf/kbse/EhsaniPHC25",
+        "DOI": "10.1109/ASE63991.2025.00122"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": "GREEN",
+        "url": "https://arxiv.org/pdf/2506.24015"
+      },
+      "paperId": "4726a77fbbc397d2596bc3b13fc6ef8eaa9572f2",
+      "title": "Hierarchical Knowledge Injection for Improving LLM-based Program Repair",
+      "url": "https://www.semanticscholar.org/paper/4726a77fbbc397d2596bc3b13fc6ef8eaa9572f2"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 290153744,
+        "DBLP": "conf/icse-seet/FazackerleyH26",
+        "DOI": "10.1145/3786580.3786989"
+      },
+      "openAccessPdf": {
+        "license": "CCBY",
+        "status": "GOLD",
+        "url": "https://doi.org/10.1145/3786580.3786989"
+      },
+      "paperId": "581d1ba55584322b7f99e7da19455e9650707d91",
+      "title": "The Efficacy of Exams in Assessing Student Learning in Capstones",
+      "url": "https://www.semanticscholar.org/paper/581d1ba55584322b7f99e7da19455e9650707d91"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 286015226,
+        "DBLP": "conf/apsec/ZhongS25",
+        "DOI": "10.1109/APSEC66846.2025.00088"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": null,
+        "url": ""
+      },
+      "paperId": "66a2e5daa1e48f5bfd1d0905ac82b1ce5af80647",
+      "title": "Towards Function-Level Correctness Assessment of System Software with LLMs: A Case Study",
+      "url": "https://www.semanticscholar.org/paper/66a2e5daa1e48f5bfd1d0905ac82b1ce5af80647"
+    },
+    {
+      "externalIds": {
+        "ArXiv": "2504.21061",
+        "CorpusId": 278207733,
+        "DBLP": "journals/corr/abs-2504-21061",
+        "DOI": "10.1145/3785411"
+      },
+      "openAccessPdf": {
+        "license": "CCBY",
+        "status": "HYBRID",
+        "url": "https://doi.org/10.1145/3785411"
+      },
+      "paperId": "e9f08e5bd3adf3f5d4edde36a6bc2e4843816dbc",
+      "title": "Seeking Specifications: The Case for Neuro-Symbolic Specification Synthesis",
+      "url": "https://www.semanticscholar.org/paper/e9f08e5bd3adf3f5d4edde36a6bc2e4843816dbc"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 282323552,
+        "DOI": "10.1109/UBMK67458.2025.11206910"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": null,
+        "url": ""
+      },
+      "paperId": "f0ad67b963826d771f0cb3b111a59848d3fcc067",
+      "title": "ChatGPT Based Best Practices for Pair Programming",
+      "url": "https://www.semanticscholar.org/paper/f0ad67b963826d771f0cb3b111a59848d3fcc067"
+    },
+    {
+      "externalIds": {
+        "ArXiv": "2402.04141",
+        "CorpusId": 267499946,
+        "DBLP": "conf/sigsoft/DunayCTTRCAGMMT24",
+        "DOI": "10.1145/3663529.3663836"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": "GREEN",
+        "url": "https://arxiv.org/pdf/2402.04141"
+      },
+      "paperId": "009fc5dfb8a9111841e97e044e50184031565b41",
+      "title": "Multi-line AI-Assisted Code Authoring",
+      "url": "https://www.semanticscholar.org/paper/009fc5dfb8a9111841e97e044e50184031565b41"
+    },
+    {
+      "externalIds": {
+        "ArXiv": "2411.09916",
+        "CorpusId": 274117038,
+        "DOI": "10.1145/3801972"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": "GREEN",
+        "url": "https://arxiv.org/pdf/2411.09916"
+      },
+      "paperId": "96d2b9812168a2070fc91dad683d0b04f5e29776",
+      "title": "\"Should I Give Up Now?\" Investigating LLM Pitfalls in Software Engineering",
+      "url": "https://www.semanticscholar.org/paper/96d2b9812168a2070fc91dad683d0b04f5e29776"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 268878741,
+        "DBLP": "conf/apsec/LuTL23",
+        "DOI": "10.1109/APSEC60848.2023.00026"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": "CLOSED",
+        "url": ""
+      },
+      "paperId": "7543e04d29f69c2adaafc420f5e9b7316fcd89cf",
+      "title": "Improving Code Refinement for Code Review Via Input Reconstruction and Ensemble Learning",
+      "url": "https://www.semanticscholar.org/paper/7543e04d29f69c2adaafc420f5e9b7316fcd89cf"
+    },
+    {
+      "externalIds": {
+        "ArXiv": "2405.19578",
+        "CorpusId": 270123206,
+        "DBLP": "journals/corr/abs-2405-19578",
+        "DOI": "10.1109/COMPSAC61105.2024.00274"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": "GREEN",
+        "url": "https://arxiv.org/pdf/2405.19578"
+      },
+      "paperId": "6933387c209a1edc0de09b6ed367fda636748612",
+      "title": "The Accuracy of Domain Specific and Descriptive Analysis Generated by Large Language Models",
+      "url": "https://www.semanticscholar.org/paper/6933387c209a1edc0de09b6ed367fda636748612"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 42296650,
+        "DOI": "10.1109/SEEP.1996.534020",
+        "MAG": "1889593606"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": "CLOSED",
+        "url": ""
+      },
+      "paperId": "b9152f1d01083928e8a6ea5411f19b8b94413e2b",
+      "title": "AI tools for software development effort estimation",
+      "url": "https://www.semanticscholar.org/paper/b9152f1d01083928e8a6ea5411f19b8b94413e2b"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 283923620,
+        "DOI": "10.1109/ICECCME64568.2025.11277590"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": null,
+        "url": ""
+      },
+      "paperId": "63ea6739c94c67b873e8281fe48af3c37b191c7f",
+      "title": "Comparison of Methods for Automated BDD Scenario Generation with NLP and AI",
+      "url": "https://www.semanticscholar.org/paper/63ea6739c94c67b873e8281fe48af3c37b191c7f"
+    },
+    {
+      "externalIds": {
+        "ArXiv": "2602.03648",
+        "CorpusId": 285275023,
+        "DBLP": "journals/corr/abs-2602-03648",
+        "DOI": "10.1109/SANER-C67878.2026.00041"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": null,
+        "url": ""
+      },
+      "paperId": "f4444f1449b8bbe6803040908d87a829f0a176dd",
+      "title": "Can Developers Rely on LLMs for Secure IaC Development?",
+      "url": "https://www.semanticscholar.org/paper/f4444f1449b8bbe6803040908d87a829f0a176dd"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 235248323,
+        "DBLP": "journals/tse/ZhangYGR23",
+        "DOI": "10.1109/TSE.2022.3165056"
+      },
+      "openAccessPdf": {
+        "license": "other-oa",
+        "status": "GREEN",
+        "url": "https://research.rug.nl/en/publications/265db160-061c-4849-9139-5ae0943ef7e2"
+      },
+      "paperId": "b427620250eab16fb23f13de88bb4572d8bd63af",
+      "title": "Pull Request Decisions Explained: An Empirical Overview",
+      "url": "https://www.semanticscholar.org/paper/b427620250eab16fb23f13de88bb4572d8bd63af"
+    },
+    {
+      "externalIds": {
+        "ArXiv": "2312.15955",
+        "CorpusId": 266550895,
+        "DBLP": "conf/icsm/JiangLZYLWZC25",
+        "DOI": "10.1109/ICSME64153.2025.00018"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": null,
+        "url": ""
+      },
+      "paperId": "3bc80dd84bec6add8aaea7dfad7ed21a02997bbc",
+      "title": "Boosting Redundancy-Based Automated Program Repair by Fine-Grained Pattern Mining",
+      "url": "https://www.semanticscholar.org/paper/3bc80dd84bec6add8aaea7dfad7ed21a02997bbc"
+    },
+    null,
+    {
+      "externalIds": {
+        "CorpusId": 284135876,
+        "DBLP": "conf/ease/MoraisLAB25",
+        "DOI": "10.1145/3756681.3756997"
+      },
+      "openAccessPdf": {
+        "license": "CCBY",
+        "status": "GOLD",
+        "url": "https://doi.org/10.1145/3756681.3756997"
+      },
+      "paperId": "9b297217d2ac17c93eeaaff32944dce877a03b6d",
+      "title": "Large Language Models for API Classification: An Explorative Study",
+      "url": "https://www.semanticscholar.org/paper/9b297217d2ac17c93eeaaff32944dce877a03b6d"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 278831365,
+        "DBLP": "conf/saner/DasMR25",
+        "DOI": "10.1109/SANER64311.2025.00015"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": null,
+        "url": ""
+      },
+      "paperId": "273cb9febbbcd18227519fac02522ea16c5fd8d4",
+      "title": "Why Do Developers Engage with ChatGPT in Issue-Tracker? Investigating Usage and Reliance on ChatGPT-Generated Code",
+      "url": "https://www.semanticscholar.org/paper/273cb9febbbcd18227519fac02522ea16c5fd8d4"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 286410309,
+        "DOI": "10.1109/AIxSE64906.2025.00016"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": null,
+        "url": ""
+      },
+      "paperId": "129db53f24b27bdd8d556f41c86c57555b78cd0c",
+      "title": "Rising Fast, Prone to Risk: How Open-Source LLM-Powered Apps Are Designed and Secured",
+      "url": "https://www.semanticscholar.org/paper/129db53f24b27bdd8d556f41c86c57555b78cd0c"
+    },
+    null,
+    {
+      "externalIds": {
+        "CorpusId": 272723446,
+        "DBLP": "conf/IEEEscc/Tian24",
+        "DOI": "10.1109/SSE62657.2024.00053"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": "CLOSED",
+        "url": ""
+      },
+      "paperId": "00d864e1e40756b813f27f580e7c8577119e8004",
+      "title": "Evaluating the Repair Ability of LLM Under Different Prompt Settings",
+      "url": "https://www.semanticscholar.org/paper/00d864e1e40756b813f27f580e7c8577119e8004"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 289758269,
+        "DOI": "10.1145/3808146"
+      },
+      "openAccessPdf": {
+        "license": "CCBY",
+        "status": "HYBRID",
+        "url": "https://doi.org/10.1145/3808146"
+      },
+      "paperId": "f87be878647bde84d61d82f52af7508157988d05",
+      "title": "Automated Knowledge-Aware Test Reuse",
+      "url": "https://www.semanticscholar.org/paper/f87be878647bde84d61d82f52af7508157988d05"
+    },
+    {
+      "externalIds": {
+        "ArXiv": "2511.09231",
+        "CorpusId": 282939967,
+        "DBLP": "journals/corr/abs-2511-09231",
+        "DOI": "10.1109/ASEW67777.2025.00050"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": null,
+        "url": ""
+      },
+      "paperId": "849411e934f47e7787ae0cc41c3104519afa6ef4",
+      "title": "Leveraging Large Language Models for Use Case Model Generation from Software Requirements",
+      "url": "https://www.semanticscholar.org/paper/849411e934f47e7787ae0cc41c3104519afa6ef4"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 289047588,
+        "DBLP": "conf/asiaccs/GadeySZD26",
+        "DOI": "10.1145/3779208.3785383"
+      },
+      "openAccessPdf": {
+        "license": "CCBYNCND",
+        "status": "GOLD",
+        "url": "https://doi.org/10.1145/3779208.3785383"
+      },
+      "paperId": "0980e2f7f954e69425e2033951b0304b8d547849",
+      "title": "RESTing-LLAMA: Large Language Model based REST API Fuzzing",
+      "url": "https://www.semanticscholar.org/paper/0980e2f7f954e69425e2033951b0304b8d547849"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 290981852,
+        "DOI": "10.1002/smr.70162"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": "CLOSED",
+        "url": ""
+      },
+      "paperId": "c21747073316903e6107e6be8f0d4525c534ec0e",
+      "title": "Motivation and Psychological Well\u2010Being of Software Engineers in the Generative AI Era: An Analysis of the Online Discourse",
+      "url": "https://www.semanticscholar.org/paper/c21747073316903e6107e6be8f0d4525c534ec0e"
+    },
+    {
+      "externalIds": {
+        "ArXiv": "2306.14397",
+        "CorpusId": 259342909,
+        "DBLP": "conf/issre/LiHFZL23",
+        "DOI": "10.1109/ISSREW60843.2023.00059"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": "GREEN",
+        "url": "https://arxiv.org/pdf/2306.14397"
+      },
+      "paperId": "1d57d10fb1e51c0130795cafbb511a7a9c196a3a",
+      "title": "Discriminating Human-authored from ChatGPT-Generated Code Via Discernable Feature Analysis",
+      "url": "https://www.semanticscholar.org/paper/1d57d10fb1e51c0130795cafbb511a7a9c196a3a"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 287367082,
+        "DBLP": "conf/wsse/SarscharZN25",
+        "DOI": "10.1145/3779657.3779672"
+      },
+      "openAccessPdf": {
+        "license": "CCBY",
+        "status": "GOLD",
+        "url": "https://doi.org/10.1145/3779657.3779672"
+      },
+      "paperId": "0e8c0cffa202af96ccce010ed4b88e41d0766f11",
+      "title": "PACGBI: A CI/CD Pipeline for LLM-assisted Code Generation of Web Front End",
+      "url": "https://www.semanticscholar.org/paper/0e8c0cffa202af96ccce010ed4b88e41d0766f11"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 286089383,
+        "DBLP": "journals/pcs/RamirezLSA25",
+        "DOI": "10.1134/S0361768825700446"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": "CLOSED",
+        "url": ""
+      },
+      "paperId": "eeac3b802c00d4bcabbd6d78c098da898deb4125",
+      "title": "State of the Art of the Security of Code Generated by LLMs: A Multivocal Literature Review",
+      "url": "https://www.semanticscholar.org/paper/eeac3b802c00d4bcabbd6d78c098da898deb4125"
+    },
+    null,
+    {
+      "externalIds": {
+        "ArXiv": "2312.11190",
+        "CorpusId": 266359629,
+        "DBLP": "conf/uist/SongBTMC24",
+        "DOI": "10.1145/3654777.3676386"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": "GREEN",
+        "url": "https://arxiv.org/pdf/2312.11190"
+      },
+      "paperId": "3829db21ba6174bbe309267bad981c72f258c470",
+      "title": "VisionTasker: Mobile Task Automation Using Vision Based UI Understanding and LLM Task Planning",
+      "url": "https://www.semanticscholar.org/paper/3829db21ba6174bbe309267bad981c72f258c470"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 285802966,
+        "DOI": "10.1109/AECE67531.2025.11386596"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": null,
+        "url": ""
+      },
+      "paperId": "9d0339d4ef69e6f8ff78d9d5a1db3e569388e1a6",
+      "title": "Security Risks in AI-Generated Code: A Comparative Analysis of Industry and Academic Benchmarks",
+      "url": "https://www.semanticscholar.org/paper/9d0339d4ef69e6f8ff78d9d5a1db3e569388e1a6"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 269333458,
+        "DOI": "10.1109/SoutheastCon52093.2024.10500073"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": null,
+        "url": ""
+      },
+      "paperId": "f23c73ddee4172e4fb36e88fc711783b32498332",
+      "title": "Requirements Verification Through the Analysis of Source Code by Large Language Models",
+      "url": "https://www.semanticscholar.org/paper/f23c73ddee4172e4fb36e88fc711783b32498332"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 279372604,
+        "DBLP": "journals/infsof/KemellSNA25",
+        "DOI": "10.1016/j.infsof.2025.107805"
+      },
+      "openAccessPdf": {
+        "license": "CCBY",
+        "status": "HYBRID",
+        "url": "https://doi.org/10.1016/j.infsof.2025.107805"
+      },
+      "paperId": "b8c603f2f15acbfc4c0b2e7569079a416bc0aff4",
+      "title": "Still just personal assistants? - A multiple case study of generative AI adoption in software organizations",
+      "url": "https://www.semanticscholar.org/paper/b8c603f2f15acbfc4c0b2e7569079a416bc0aff4"
+    },
+    {
+      "externalIds": {
+        "ArXiv": "2503.23051",
+        "CorpusId": 277452340,
+        "DBLP": "journals/corr/abs-2503-23051",
+        "DOI": "10.1109/ICSE55347.2025.00234"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": null,
+        "url": ""
+      },
+      "paperId": "96a9742a5eea8e1c42e3c2cf811286a45e426d2d",
+      "title": "COCA: Generative Root Cause Analysis for Distributed Systems with Code Knowledge",
+      "url": "https://www.semanticscholar.org/paper/96a9742a5eea8e1c42e3c2cf811286a45e426d2d"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 285735779,
+        "DOI": "10.1109/IEMCON67450.2025.11381257"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": null,
+        "url": ""
+      },
+      "paperId": "37e81abfcd7a53bf2cae7c51ecc7ab34a586787a",
+      "title": "Evaluating AI-Assisted Performance Review Tools: A Framework for Fairness, Efficiency, and Usability",
+      "url": "https://www.semanticscholar.org/paper/37e81abfcd7a53bf2cae7c51ecc7ab34a586787a"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 290696325,
+        "DBLP": "conf/msr/GonzalezM26",
+        "DOI": "10.1145/3793302.3793572"
+      },
+      "openAccessPdf": {
+        "license": "CCBY",
+        "status": "GOLD",
+        "url": "https://doi.org/10.1145/3793302.3793572"
+      },
+      "paperId": "a0799ef7443f32fbab490480aa7625811af97a8a",
+      "title": "When Bots Get the Boot: Understanding Pull Request Rejections in the Era of AI Coders",
+      "url": "https://www.semanticscholar.org/paper/a0799ef7443f32fbab490480aa7625811af97a8a"
+    },
+    {
+      "externalIds": {
+        "ArXiv": "2508.01523",
+        "CorpusId": 280421550,
+        "DBLP": "journals/corr/abs-2508-01523",
+        "DOI": "10.1109/VL-HCC65237.2025.00017"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": null,
+        "url": ""
+      },
+      "paperId": "f353de67197bd5d09af0dd2dc7f5b98394d20fa1",
+      "title": "Exploring Direct Instruction and Summary-Mediated Prompting in LLM-Assisted Code Modification",
+      "url": "https://www.semanticscholar.org/paper/f353de67197bd5d09af0dd2dc7f5b98394d20fa1"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 273996872,
+        "DBLP": "conf/icse/LianCC0TZX25",
+        "DOI": "10.1109/ICSE55347.2025.00017"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": null,
+        "url": ""
+      },
+      "paperId": "5b8d3260f103f2f7d731eabf8580294185c244ce",
+      "title": "Large Language Models as Configuration Validators",
+      "url": "https://www.semanticscholar.org/paper/5b8d3260f103f2f7d731eabf8580294185c244ce"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 267337676,
+        "DOI": "10.1109/MedAI59581.2023.00044"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": "CLOSED",
+        "url": ""
+      },
+      "paperId": "752ab0f4549c74d1707b664ed25b1fbe06ecfd60",
+      "title": "A Review on Code Generation with LLMs: Application and Evaluation",
+      "url": "https://www.semanticscholar.org/paper/752ab0f4549c74d1707b664ed25b1fbe06ecfd60"
+    },
+    {
+      "externalIds": {
+        "ArXiv": "2402.13521",
+        "CorpusId": 267770688,
+        "DBLP": "journals/corr/abs-2402-13521",
+        "DOI": "10.1145/3691620.3695527"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": null,
+        "url": ""
+      },
+      "paperId": "43ff3632d6e14891d1591a93c0c294cf3016e1c0",
+      "title": "Test-Driven Development and LLM-based Code Generation",
+      "url": "https://www.semanticscholar.org/paper/43ff3632d6e14891d1591a93c0c294cf3016e1c0"
+    },
+    {
+      "externalIds": {
+        "ArXiv": "2408.14007",
+        "CorpusId": 271956513,
+        "DOI": "10.1145/3786175.3788344"
+      },
+      "openAccessPdf": {
+        "license": "CCBYNCND",
+        "status": "GOLD",
+        "url": "https://doi.org/10.1145/3786175.3788344"
+      },
+      "paperId": "6625ae25554bfdb785af39c71828c74b73a6f6a7",
+      "title": "On the Quality of AI-Generated Source Code Comments: A Comprehensive Evaluation",
+      "url": "https://www.semanticscholar.org/paper/6625ae25554bfdb785af39c71828c74b73a6f6a7"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 274895374,
+        "DBLP": "conf/icsm/Park24",
+        "DOI": "10.1109/ICSME58944.2024.00086"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": "CLOSED",
+        "url": ""
+      },
+      "paperId": "960772ac79c9e8724493ad067169add285687156",
+      "title": "Assessing Software Developer Productivity and Emotional State Using Biometrics",
+      "url": "https://www.semanticscholar.org/paper/960772ac79c9e8724493ad067169add285687156"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 259365107,
+        "DBLP": "journals/software/EbertL23",
+        "DOI": "10.1109/MS.2023.3265877"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": "CLOSED",
+        "url": ""
+      },
+      "paperId": "eb22629ba7dd88761c39173f8abc69b589acc5cd",
+      "title": "Generative AI for Software Practitioners",
+      "url": "https://www.semanticscholar.org/paper/eb22629ba7dd88761c39173f8abc69b589acc5cd"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 288424761,
+        "DOI": "10.1109/GAIIS69281.2026.11519183"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": null,
+        "url": ""
+      },
+      "paperId": "dc05563faf1897e4b91d2c50147542209dec0596",
+      "title": "Large Language Models for Software Vulnerability Detection: A Survey of Methods, Evaluation, and Future Trends",
+      "url": "https://www.semanticscholar.org/paper/dc05563faf1897e4b91d2c50147542209dec0596"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 272681836,
+        "DBLP": "conf/atest-ws/GarciaLRW24",
+        "DOI": "10.1145/3678719.3685691"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": "CLOSED",
+        "url": ""
+      },
+      "paperId": "fd76074f29a3589e15900bd8e1f8bbaa6738f16a",
+      "title": "Use of ChatGPT as an Assistant in the End-to-End Test Script Generation for Android Apps",
+      "url": "https://www.semanticscholar.org/paper/fd76074f29a3589e15900bd8e1f8bbaa6738f16a"
+    },
+    {
+      "externalIds": {
+        "ArXiv": "2103.05055",
+        "CorpusId": 232168362,
+        "DBLP": "conf/icse/JuSKH21",
+        "DOI": "10.1109/ICSE43902.2021.00063"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": "GREEN",
+        "url": "https://arxiv.org/pdf/2103.05055"
+      },
+      "paperId": "d621996c612cbcccf6f1900865236c647cf95015",
+      "title": "A Case Study of Onboarding in Software Teams: Tasks and Strategies",
+      "url": "https://www.semanticscholar.org/paper/d621996c612cbcccf6f1900865236c647cf95015"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 272857424,
+        "DBLP": "conf/csr2/AmbatiRBS24",
+        "DOI": "10.1109/CSR61664.2024.10679468"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": "CLOSED",
+        "url": ""
+      },
+      "paperId": "5aaa855aa6af5f4217f3a1a865e52c9e389528ec",
+      "title": "Navigating (in)Security of AI-Generated Code",
+      "url": "https://www.semanticscholar.org/paper/5aaa855aa6af5f4217f3a1a865e52c9e389528ec"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 282611403,
+        "DBLP": "conf/icsm/Gao25",
+        "DOI": "10.1109/ICSME64153.2025.00098"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": null,
+        "url": ""
+      },
+      "paperId": "5465eed8db1064d1abe1fbf1a448a187cdc64db4",
+      "title": "Bugs in AI-Generated Code - Understanding Bug Patterns and Possible Fix Strategies",
+      "url": "https://www.semanticscholar.org/paper/5465eed8db1064d1abe1fbf1a448a187cdc64db4"
+    },
+    {
+      "externalIds": {
+        "ArXiv": "2309.03914",
+        "CorpusId": 261660223,
+        "DBLP": "journals/corr/abs-2309-03914",
+        "DOI": "10.1145/3643991.3648400"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": "GREEN",
+        "url": "https://arxiv.org/pdf/2309.03914"
+      },
+      "paperId": "def24fb1e977db69f4b1b866b807f9ab9bad5227",
+      "title": "DevGPT: Studying Developer-ChatGPT Conversations",
+      "url": "https://www.semanticscholar.org/paper/def24fb1e977db69f4b1b866b807f9ab9bad5227"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 289155973,
+        "DOI": "10.5753/wtf.2026.23233"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": null,
+        "url": ""
+      },
+      "paperId": "a270ab6123076100730dcb3872006705fd35baf6",
+      "title": "A Case Study on Software Aging in LLM-Generated Python Applications",
+      "url": "https://www.semanticscholar.org/paper/a270ab6123076100730dcb3872006705fd35baf6"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 272915538,
+        "DBLP": "conf/qrs/DunneSF24",
+        "DOI": "10.1109/QRS62785.2024.00033"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": "CLOSED",
+        "url": ""
+      },
+      "paperId": "e133db098e3075c109c22230f67d460a087dc8ea",
+      "title": "Weaknesses in LLM-Generated Code for Embedded Systems Networking",
+      "url": "https://www.semanticscholar.org/paper/e133db098e3075c109c22230f67d460a087dc8ea"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 274347502,
+        "DOI": "10.1080/12460125.2024.2428187"
+      },
+      "openAccessPdf": {
+        "license": "other-oa",
+        "status": "GREEN",
+        "url": "https://dipot.ulb.ac.be/dspace/bitstream/2013/378272/3/2024-076-BUGHIN-the-role.pdf"
+      },
+      "paperId": "9f6432c1b49bafc265c52bbf84f47f09ffc722d1",
+      "title": "The role of firm AI capabilities in generative AI-pair coding",
+      "url": "https://www.semanticscholar.org/paper/9f6432c1b49bafc265c52bbf84f47f09ffc722d1"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 268546599,
+        "DBLP": "conf/ccnc/DelnevoAM24",
+        "DOI": "10.1109/CCNC51664.2024.10454680"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": "CLOSED",
+        "url": ""
+      },
+      "paperId": "6664c8ad5a77c3bc6b941cf5baeeda11865875f2",
+      "title": "On the Interaction with Large Language Models for Web Accessibility: Implications and Challenges",
+      "url": "https://www.semanticscholar.org/paper/6664c8ad5a77c3bc6b941cf5baeeda11865875f2"
+    },
+    {
+      "externalIds": {
+        "ArXiv": "2405.02213",
+        "CorpusId": 269587748,
+        "DBLP": "journals/tosem/LyuRRTT25",
+        "DOI": "10.1145/3708519"
+      },
+      "openAccessPdf": {
+        "license": "CCBY",
+        "status": "HYBRID",
+        "url": "https://doi.org/10.1145/3708519"
+      },
+      "paperId": "fd0f4c43a1f681bc6894c837d197141997ccca25",
+      "title": "Automatic Programming: Large Language Models and Beyond",
+      "url": "https://www.semanticscholar.org/paper/fd0f4c43a1f681bc6894c837d197141997ccca25"
+    },
+    {
+      "externalIds": {
+        "ArXiv": "2403.12196",
+        "CorpusId": 271843564,
+        "DBLP": "conf/icse/ZahanBLAW25",
+        "DOI": "10.1109/ICSE55347.2025.00146"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": null,
+        "url": ""
+      },
+      "paperId": "17aacc6c5cf471fdd909277a89141534fe668d6f",
+      "title": "Leveraging Large Language Models to Detect NPM Malicious Packages",
+      "url": "https://www.semanticscholar.org/paper/17aacc6c5cf471fdd909277a89141534fe668d6f"
+    },
+    {
+      "externalIds": {
+        "ArXiv": "2310.02059",
+        "CorpusId": 275134491,
+        "DBLP": "journals/tosem/FuLTLSYC25",
+        "DOI": "10.1145/3716848"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": null,
+        "url": ""
+      },
+      "paperId": "8efba9ced301daf77dff58bb33bfcd93981d22c1",
+      "title": "Security Weaknesses of Copilot-Generated Code in GitHub Projects: An Empirical Study",
+      "url": "https://www.semanticscholar.org/paper/8efba9ced301daf77dff58bb33bfcd93981d22c1"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 280895677,
+        "DOI": "10.1109/ISIE62713.2025.11124737"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": null,
+        "url": ""
+      },
+      "paperId": "9e28467ef359d20d8df56962bd8ccf05f22904cd",
+      "title": "Generative AI Vibe Coding for Prototyping Industrial Systems",
+      "url": "https://www.semanticscholar.org/paper/9e28467ef359d20d8df56962bd8ccf05f22904cd"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 270879238,
+        "DBLP": "conf/msr/ChouchenBBOAM24",
+        "DOI": "10.1145/3643991.3645084"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": "CLOSED",
+        "url": ""
+      },
+      "paperId": "9f298c2d9f4f6527ceaa6a325db7f4c2e2da67d9",
+      "title": "How Do So ware Developers Use ChatGPT? An Exploratory Study on GitHub Pull Requests",
+      "url": "https://www.semanticscholar.org/paper/9f298c2d9f4f6527ceaa6a325db7f4c2e2da67d9"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 289589714,
+        "DBLP": "conf/ast/DwarakanathNG26",
+        "DOI": "10.1145/3793654.3793757"
+      },
+      "openAccessPdf": {
+        "license": "CCBY",
+        "status": "GOLD",
+        "url": "https://doi.org/10.1145/3793654.3793757"
+      },
+      "paperId": "9896f8bd3084172610b0a151724d10a79d052156",
+      "title": "Software Testing Education in the LLM Era: Insights and Emerging Theory",
+      "url": "https://www.semanticscholar.org/paper/9896f8bd3084172610b0a151724d10a79d052156"
+    },
+    {
+      "externalIds": {
+        "ArXiv": "2601.22832",
+        "CorpusId": 285241192,
+        "DBLP": "journals/corr/abs-2601-22832",
+        "DOI": "10.1145/3803437.3805202"
+      },
+      "openAccessPdf": {
+        "license": "CCBY",
+        "status": "GOLD",
+        "url": "https://doi.org/10.1145/3803437.3805202"
+      },
+      "paperId": "e85d52fa691593d09079b14a280b783b367a66ad",
+      "title": "Just-in-Time Catching Test Generation at Meta",
+      "url": "https://www.semanticscholar.org/paper/e85d52fa691593d09079b14a280b783b367a66ad"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 277696012,
+        "DBLP": "journals/infsof/OertelKH25",
+        "DOI": "10.1016/j.infsof.2025.107737"
+      },
+      "openAccessPdf": {
+        "license": "CCBY",
+        "status": "HYBRID",
+        "url": "https://doi.org/10.1016/j.infsof.2025.107737"
+      },
+      "paperId": "900a3fe2061bd55c66e774298039c53803694ff4",
+      "title": "Don't settle for the first! How many GitHub Copilot solutions should you check?",
+      "url": "https://www.semanticscholar.org/paper/900a3fe2061bd55c66e774298039c53803694ff4"
+    },
+    {
+      "externalIds": {
+        "ArXiv": "2602.04938",
+        "CorpusId": 285303865,
+        "DBLP": "journals/corr/abs-2602-04938",
+        "DOI": "10.1109/SAMI68106.2026.11420586"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": null,
+        "url": ""
+      },
+      "paperId": "5f0c216b0e8c921eeff1b277a31be1ac19f0d470",
+      "title": "Large Language Models in Software Documentation and Modeling: A Literature Review and Findings",
+      "url": "https://www.semanticscholar.org/paper/5f0c216b0e8c921eeff1b277a31be1ac19f0d470"
+    },
+    null,
+    {
+      "externalIds": {
+        "CorpusId": 259290004,
+        "DBLP": "conf/icse/VaithilingamGGGHMPRSWY23",
+        "DOI": "10.1109/ICSE-SEIP58684.2023.00022"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": "CLOSED",
+        "url": ""
+      },
+      "paperId": "495e7ea176d02d70a02c9b15f7ec11f4459f1f7d",
+      "title": "Towards More Effective AI-Assisted Programming: A Systematic Design Exploration to Improve Visual Studio IntelliCode\u2019s User Experience",
+      "url": "https://www.semanticscholar.org/paper/495e7ea176d02d70a02c9b15f7ec11f4459f1f7d"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 271246434,
+        "DBLP": "conf/wcre/WidyasariANS024",
+        "DOI": "10.1109/SANER60148.2024.00064"
+      },
+      "openAccessPdf": {
+        "license": "CCBYNCND",
+        "status": "GREEN",
+        "url": "https://ink.library.smu.edu.sg/sis_research/9257"
+      },
+      "paperId": "3b60d1a39482d86a3507a1879919609767e58594",
+      "title": "Demystifying Faulty Code: Step-by-Step Reasoning for Explainable Fault Localization",
+      "url": "https://www.semanticscholar.org/paper/3b60d1a39482d86a3507a1879919609767e58594"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 245435139,
+        "DOI": "10.1109/ICoDSE53690.2021.9648463"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": null,
+        "url": ""
+      },
+      "paperId": "ba596f4eef9c16c914bdf2e2c23ebe200ee4408e",
+      "title": "Designing Project Management Application to Support Developer Productivity using Goal Directed Design Approach",
+      "url": "https://www.semanticscholar.org/paper/ba596f4eef9c16c914bdf2e2c23ebe200ee4408e"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 271099002,
+        "DBLP": "conf/sigsoft/HassanLRGC00TOL24",
+        "DOI": "10.1145/3663529.3663849"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": null,
+        "url": ""
+      },
+      "paperId": "b2dd8c9497f1aea08976d250dd4912abf849cf60",
+      "title": "Rethinking Software Engineering in the Era of Foundation Models: A Curated Catalogue of Challenges in the Development of Trustworthy FMware",
+      "url": "https://www.semanticscholar.org/paper/b2dd8c9497f1aea08976d250dd4912abf849cf60"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 285119590,
+        "DBLP": "journals/tse/SalomonKSHMF26",
+        "DOI": "10.1109/TSE.2026.3655626"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": "CLOSED",
+        "url": ""
+      },
+      "paperId": "c5082b9561beaaf7defd932a122ad88432d2300b",
+      "title": "From Disruptions to Discussions: How GenAI Impacts Human Interactions in Software Development",
+      "url": "https://www.semanticscholar.org/paper/c5082b9561beaaf7defd932a122ad88432d2300b"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 288690141,
+        "DBLP": "journals/access/HindiMMBM26",
+        "DOI": "10.1109/ACCESS.2026.3696573"
+      },
+      "openAccessPdf": {
+        "license": "CCBY",
+        "status": "GOLD",
+        "url": "https://doi.org/10.1109/access.2026.3696573"
+      },
+      "paperId": "70e440e6b04df99c03c17c926ba311a84ebb1501",
+      "title": "Coding Agents in the Wild: Failure Modes and Rejection Patterns of AI-Generated Pull Requests",
+      "url": "https://www.semanticscholar.org/paper/70e440e6b04df99c03c17c926ba311a84ebb1501"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 285614804,
+        "DOI": "10.1145/3797880"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": null,
+        "url": ""
+      },
+      "paperId": "cb1003e386a4b52a0a6051fa9e88483713c800ca",
+      "title": "Why Are My Pull Request Descriptions Constantly Revised? Understanding Modifying Descriptions and Reviewer Suggestions",
+      "url": "https://www.semanticscholar.org/paper/cb1003e386a4b52a0a6051fa9e88483713c800ca"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 285106444,
+        "DBLP": "conf/kbse/ZhouKZWGYLXL25",
+        "DOI": "10.1109/ASE63991.2025.00214"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": null,
+        "url": ""
+      },
+      "paperId": "04a949ad83505cd8d616b9ac4d1327ede18533dd",
+      "title": "SE-Jury: An LLM-as-Ensemble-Judge Metric for Narrowing the Gap with Human Evaluation in SE",
+      "url": "https://www.semanticscholar.org/paper/04a949ad83505cd8d616b9ac4d1327ede18533dd"
+    },
+    {
+      "externalIds": {
+        "ArXiv": "2501.10200",
+        "CorpusId": 275606664,
+        "DBLP": "conf/icst/AbdullinDP25",
+        "DOI": "10.1109/ICST62969.2025.10989033"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": null,
+        "url": ""
+      },
+      "paperId": "b50d228926b75cbcdad331e9554600c5aa087078",
+      "title": "Test Wars: A Comparative Study of SBST, Symbolic Execution, and LLM-Based Approaches to Unit Test Generation",
+      "url": "https://www.semanticscholar.org/paper/b50d228926b75cbcdad331e9554600c5aa087078"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 285105876,
+        "DBLP": "conf/kbse/ChenLCWXWHWW25",
+        "DOI": "10.1109/ASE63991.2025.00135"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": null,
+        "url": ""
+      },
+      "paperId": "52c7664f7f8822d02999264cbd9c4abf9788931f",
+      "title": "Beyond Static GUI Agent: Evolving LLM-based GUI Testing via Dynamic Memory",
+      "url": "https://www.semanticscholar.org/paper/52c7664f7f8822d02999264cbd9c4abf9788931f"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 278823357,
+        "DOI": "10.1109/ICICT64420.2025.11005308"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": null,
+        "url": ""
+      },
+      "paperId": "d027458ac5c8e4cae9804d965e1baab38c29b743",
+      "title": "Harnessing Advanced AI Techniques for Code Generation: Transforming Software Development with Intelligent Automation and Predictive Algorithms",
+      "url": "https://www.semanticscholar.org/paper/d027458ac5c8e4cae9804d965e1baab38c29b743"
+    },
+    {
+      "externalIds": {
+        "ArXiv": "2411.07668",
+        "CorpusId": 273969969,
+        "DBLP": "journals/corr/abs-2411-07668",
+        "DOI": "10.1109/WSESE66602.2025.00011"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": null,
+        "url": ""
+      },
+      "paperId": "5ecf06c003ef1d2848d8a637f4d7be74dc7cf356",
+      "title": "Towards Evaluation Guidelines for Empirical Studies Involving LLMs",
+      "url": "https://www.semanticscholar.org/paper/5ecf06c003ef1d2848d8a637f4d7be74dc7cf356"
+    },
+    {
+      "externalIds": {
+        "ArXiv": "2408.01760",
+        "CorpusId": 271710138,
+        "DBLP": "journals/corr/abs-2408-01760",
+        "DOI": "10.1145/3650212.3680395"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": "CLOSED",
+        "url": ""
+      },
+      "paperId": "377ad366d1fa0c5abbd6500efb5ac20c2b1181f7",
+      "title": "Large Language Models for Equivalent Mutant Detection: How Far Are We?",
+      "url": "https://www.semanticscholar.org/paper/377ad366d1fa0c5abbd6500efb5ac20c2b1181f7"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 234476783,
+        "DBLP": "conf/wcre/SousaRBGL21",
+        "DOI": "10.1109/SANER50967.2021.00071"
+      },
+      "openAccessPdf": {
+        "license": "other-oa",
+        "status": "GREEN",
+        "url": "http://urn.kb.se/resolve?urn=urn:nbn:se:bth-21604"
+      },
+      "paperId": "20bbfa6376f23b3dd2f42fa4783561ae07b351b5",
+      "title": "Technical Debt in Large-Scale Distributed Projects: An Industrial Case Study",
+      "url": "https://www.semanticscholar.org/paper/20bbfa6376f23b3dd2f42fa4783561ae07b351b5"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 6942521,
+        "DBLP": "conf/icse/SarroPH16",
+        "DOI": "10.1145/2884781.2884830",
+        "MAG": "2348136092"
+      },
+      "openAccessPdf": {
+        "license": "public-domain",
+        "status": "GOLD",
+        "url": "http://dl.acm.org/ft_gateway.cfm?id=2884830&type=pdf"
+      },
+      "paperId": "f1e7bc48a708c7be8a0aae88444243519307884d",
+      "title": "Multi-objective Software Effort Estimation",
+      "url": "https://www.semanticscholar.org/paper/f1e7bc48a708c7be8a0aae88444243519307884d"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 289722547,
+        "DOI": "10.1145/3797120"
+      },
+      "openAccessPdf": {
+        "license": "CCBY",
+        "status": "HYBRID",
+        "url": "https://doi.org/10.1145/3797120"
+      },
+      "paperId": "85ea53d9b8b05bf92178c3807993c24d2abfaee9",
+      "title": "CertiCoder: Towards MISRA-Compliant C Code Generation with LLMs",
+      "url": "https://www.semanticscholar.org/paper/85ea53d9b8b05bf92178c3807993c24d2abfaee9"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 287440614,
+        "DBLP": "conf/chi/FanLPZ26",
+        "DOI": "10.1145/3772318.3791176"
+      },
+      "openAccessPdf": {
+        "license": "CCBY",
+        "status": "GOLD",
+        "url": "https://doi.org/10.1145/3772318.3791176"
+      },
+      "paperId": "95d0515bb054ef53a10dd219614f63e26e4df093",
+      "title": "When Help Hurts: Verification Load and Fatigue with AI Coding Assistants",
+      "url": "https://www.semanticscholar.org/paper/95d0515bb054ef53a10dd219614f63e26e4df093"
+    },
+    {
+      "externalIds": {
+        "ArXiv": "2604.02852",
+        "CorpusId": 287121800,
+        "DBLP": "journals/corr/abs-2604-02852",
+        "DOI": "10.1145/3803437.3805266"
+      },
+      "openAccessPdf": {
+        "license": "CCBY",
+        "status": "GOLD",
+        "url": "https://doi.org/10.1145/3803437.3805266"
+      },
+      "paperId": "e4f5553013538850d13e5525f229b53e674f069d",
+      "title": "Dependency-Guided Repository-Level C-to-Rust Translation with Reinforcement Alignment",
+      "url": "https://www.semanticscholar.org/paper/e4f5553013538850d13e5525f229b53e674f069d"
+    },
+    {
+      "externalIds": {
+        "ArXiv": "2501.17024",
+        "CorpusId": 275931898,
+        "DBLP": "journals/corr/abs-2501-17024",
+        "DOI": "10.1109/ICPC66645.2025.00020"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": null,
+        "url": ""
+      },
+      "paperId": "ca340522cdb28e1596e82104be63a6d3355bee57",
+      "title": "Automated Refactoring of Non-Idiomatic Python Code: A Differentiated Replication with LLMS",
+      "url": "https://www.semanticscholar.org/paper/ca340522cdb28e1596e82104be63a6d3355bee57"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 11653926,
+        "DBLP": "conf/agiledc/Haugen06",
+        "DOI": "10.1109/AGILE.2006.16",
+        "MAG": "2101228133"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": "CLOSED",
+        "url": ""
+      },
+      "paperId": "a6f8758b2dfd248a18f94e2065fa498f8ca3e57c",
+      "title": "An empirical study of using planning poker for user story estimation",
+      "url": "https://www.semanticscholar.org/paper/a6f8758b2dfd248a18f94e2065fa498f8ca3e57c"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 276186067,
+        "DOI": "10.1109/ICDSCA63855.2024.10859408"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": "CLOSED",
+        "url": ""
+      },
+      "paperId": "6783f41d2dbf9d31590dd7e48fe1a68710e77fcc",
+      "title": "Research on the LLM-Driven Vulnerability Detection System Using LProtector",
+      "url": "https://www.semanticscholar.org/paper/6783f41d2dbf9d31590dd7e48fe1a68710e77fcc"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 272531366,
+        "DBLP": "journals/ojcs/FrihaFKCOG24",
+        "DOI": "10.1109/OJCOMS.2024.3456549"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": "GOLD",
+        "url": "https://doi.org/10.1109/ojcoms.2024.3456549"
+      },
+      "paperId": "321876e6fa45cb5b3bccf0d3f2271a81b1c7daec",
+      "title": "LLM-Based Edge Intelligence: A Comprehensive Survey on Architectures, Applications, Security and Trustworthiness",
+      "url": "https://www.semanticscholar.org/paper/321876e6fa45cb5b3bccf0d3f2271a81b1c7daec"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 270953785,
+        "DOI": "10.1016/j.technovation.2024.103064"
+      },
+      "openAccessPdf": {
+        "license": "CCBY",
+        "status": "HYBRID",
+        "url": "https://doi.org/10.1016/j.technovation.2024.103064"
+      },
+      "paperId": "af16ab7db8e69a6ec55ffb2d391ceb67a2875693",
+      "title": "Assessing the nexus of Generative AI adoption, ethical considerations and organizational performance",
+      "url": "https://www.semanticscholar.org/paper/af16ab7db8e69a6ec55ffb2d391ceb67a2875693"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 7416179,
+        "DBLP": "conf/sigsoft/VasilescuYWDF15",
+        "DOI": "10.1145/2786805.2786850",
+        "MAG": "2040915209"
+      },
+      "openAccessPdf": {
+        "license": null,
+        "status": "CLOSED",
+        "url": ""
+      },
+      "paperId": "0b5a3c73c3a72941664828c049f1f483d462dd08",
+      "title": "Quality and productivity outcomes relating to continuous integration in GitHub",
+      "url": "https://www.semanticscholar.org/paper/0b5a3c73c3a72941664828c049f1f483d462dd08"
+    },
+    {
+      "externalIds": {
+        "CorpusId": 288613188,
+        "DBLP": "journals/systems/SabatucciCNS26",
+        "DOI": "10.3390/systems14060598"
+      },
+      "openAccessPdf": {
+        "license": "CCBY",
+        "status": "GOLD",
+        "url": "https://doi.org/10.3390/systems14060598"
+      },
+      "paperId": "b397aa272440e9cf6d1b5021b0547a04683c1794",
+      "title": "A Methodology for the Systematic Evaluation of LLMs in Requirement Engineering Tasks with No Ground Truth",
+      "url": "https://www.semanticscholar.org/paper/b397aa272440e9cf6d1b5021b0547a04683c1794"
+    }
+  ]
+}

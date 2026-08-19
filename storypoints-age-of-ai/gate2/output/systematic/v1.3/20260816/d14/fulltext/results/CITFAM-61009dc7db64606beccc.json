@@ -1,0 +1,21 @@
+{
+  "attempts": [
+    {
+      "active_indicators": [],
+      "attempted_at_utc": "2026-08-19T05:42:12.292261Z",
+      "basis": "live_openalex_best_oa_location_oa_pdf",
+      "bytes": 684305,
+      "final_url": "https://computer-life.org/index.php/ojs/article/download/27/27",
+      "pdf_path": "/Users/81194246/Library/CloudStorage/OneDrive-Pepsico/Personal/AI/Projects/ThinkAI/storypoints-age-of-ai/gate2/output/systematic/v1.3/20260816/d14/fulltext/pdf/CITFAM-61009dc7db64606beccc.pdf",
+      "redirect_count": 0,
+      "sha256": "03b99c49790fb9c4187abcbe8af94bab4bea1243fd9411f98e0696cb573ffb8e",
+      "status": "retrieved_static_pdf"
+    }
+  ],
+  "bytes": 684305,
+  "citation_family_id": "CITFAM-61009dc7db64606beccc",
+  "pdf_path": "/Users/81194246/Library/CloudStorage/OneDrive-Pepsico/Personal/AI/Projects/ThinkAI/storypoints-age-of-ai/gate2/output/systematic/v1.3/20260816/d14/fulltext/pdf/CITFAM-61009dc7db64606beccc.pdf",
+  "pdf_sha256": "03b99c49790fb9c4187abcbe8af94bab4bea1243fd9411f98e0696cb573ffb8e",
+  "security_attestation": "Static HTTPS retrieval only; public-IP validation, bounded redirects/size, signature and active-content checks; no PDF execution.",
+  "status": "retrieved_static_pdf"
+}

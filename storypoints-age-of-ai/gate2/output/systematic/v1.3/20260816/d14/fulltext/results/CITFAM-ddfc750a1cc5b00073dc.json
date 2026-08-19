@@ -1,0 +1,21 @@
+{
+  "attempts": [
+    {
+      "active_indicators": [],
+      "attempted_at_utc": "2026-08-19T09:45:24.156255Z",
+      "basis": "live_openalex_best_oa_location_oa_pdf",
+      "bytes": 665405,
+      "final_url": "https://napier-repository.worktribe.com/file/3683620/1/State%20of%20Practice%3A%20LLMs%20in%20Software%20Engineering%20and%20Software%20Architecture",
+      "pdf_path": "/Users/81194246/Library/CloudStorage/OneDrive-Pepsico/Personal/AI/Projects/ThinkAI/storypoints-age-of-ai/gate2/output/systematic/v1.3/20260816/d14/fulltext/pdf/CITFAM-ddfc750a1cc5b00073dc.pdf",
+      "redirect_count": 0,
+      "sha256": "77957d944dd1f9350e9f0752cbc94b2201eeb89f748c019175b08ddde13005fe",
+      "status": "retrieved_static_pdf"
+    }
+  ],
+  "bytes": 665405,
+  "citation_family_id": "CITFAM-ddfc750a1cc5b00073dc",
+  "pdf_path": "/Users/81194246/Library/CloudStorage/OneDrive-Pepsico/Personal/AI/Projects/ThinkAI/storypoints-age-of-ai/gate2/output/systematic/v1.3/20260816/d14/fulltext/pdf/CITFAM-ddfc750a1cc5b00073dc.pdf",
+  "pdf_sha256": "77957d944dd1f9350e9f0752cbc94b2201eeb89f748c019175b08ddde13005fe",
+  "security_attestation": "Static HTTPS retrieval only; public-IP validation, bounded redirects/size, signature and active-content checks; no PDF execution.",
+  "status": "retrieved_static_pdf"
+}

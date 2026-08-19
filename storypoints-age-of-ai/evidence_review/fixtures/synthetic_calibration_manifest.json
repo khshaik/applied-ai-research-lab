@@ -1,0 +1,72 @@
+{
+  "manifest_version": "1.0.0",
+  "artifact_set": "evidence-review-agent-calibration",
+  "synthetic_only": true,
+  "hash_algorithm": "sha256",
+  "artifacts": [
+    {
+      "role": "screening_prompt_a",
+      "version": "screening-agent-a/1.0.0",
+      "path": "evidence_review/prompts/screening_agent_a_v1.0.0.md",
+      "sha256": "678931b0935fdbea6d221dae2cd9a3e325ba6c76a7964246172a624626053892"
+    },
+    {
+      "role": "screening_prompt_b",
+      "version": "screening-agent-b/1.0.0",
+      "path": "evidence_review/prompts/screening_agent_b_v1.0.0.md",
+      "sha256": "21183378fadde9c7cbc8189d4343f83424c7eee8e1687532d2c49cee5192e0e3"
+    },
+    {
+      "role": "adjudicator_prompt",
+      "version": "screening-adjudicator/1.0.0",
+      "path": "evidence_review/prompts/adjudicator_v1.0.0.md",
+      "sha256": "20278377bf45dc486905bdcc0c8de6891dd848a6d3ecc049338fc137d7d4c8e1"
+    },
+    {
+      "role": "identical_input_packet",
+      "version": "synthetic-calibration-input/1.0.0",
+      "path": "evidence_review/fixtures/synthetic_calibration_input.json",
+      "sha256": "2572a3a53ff42e8ab9340fb843a5f9feb1aad7df89a1144d42419288c1e8c615"
+    },
+    {
+      "role": "synthetic_calibration_bundle",
+      "version": "synthetic-calibration-bundle/1.0.0",
+      "path": "evidence_review/fixtures/synthetic_calibration_bundle.json",
+      "sha256": "331ccfad84399558494262a60063a9aa1145dfe063b392db7c6b5950958ee47b"
+    }
+  ],
+  "input_packet_contract": {
+    "screening_pass_a_sha256": "2572a3a53ff42e8ab9340fb843a5f9feb1aad7df89a1144d42419288c1e8c615",
+    "screening_pass_b_sha256": "2572a3a53ff42e8ab9340fb843a5f9feb1aad7df89a1144d42419288c1e8c615",
+    "require_identical_bytes": true,
+    "prior_screening_decisions_visible": false,
+    "require_distinct_agent_ids": true,
+    "require_distinct_context_ids": true,
+    "adjudicator_must_be_distinct": true
+  },
+  "required_screening_output_fields": [
+    "record_id",
+    "stage",
+    "review_pass_id",
+    "reviewer_type",
+    "reviewer_id",
+    "model_prompt_version",
+    "review_context_id",
+    "prior_screening_decisions_visible",
+    "input_checksum",
+    "decision",
+    "reason",
+    "confidence",
+    "source_locator",
+    "evidence_stratum",
+    "independence_attestation"
+  ],
+  "allowed_evidence_strata": [
+    "peer_reviewed_scholarly",
+    "preprint_scholarly",
+    "grey_practitioner",
+    "method_reference"
+  ],
+  "interpretation_boundary": "Agent-pass concordance is only an agent reproducibility diagnostic. It is not human inter-rater reliability and does not substitute for source-grounded adjudication or accountable-author verification.",
+  "publication_boundary": "The fixture contains no real records, evidence, review counts, eligibility decisions, quality judgments, or publication-ready claims."
+}

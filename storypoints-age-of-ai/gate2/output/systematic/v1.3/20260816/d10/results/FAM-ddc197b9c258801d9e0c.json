@@ -1,0 +1,43 @@
+{
+  "attempts": [
+    {
+      "basis": "semantic_scholar_open_access_pdf",
+      "bytes": 89252,
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://www.theijire.com/archives/design-and-development-of-an-ai-powered-code-review-assistant",
+      "http_status": 200,
+      "outcome": "not_a_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://doi.org/10.59256/ijire.20260702027"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:16:38.959747Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://www.theijire.com/archives/design-and-development-of-an-ai-powered-code-review-assistant",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://doi.org/10.59256/ijire.20260702027"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:16:47.740926Z",
+      "basis": "citation_pdf_url_metadata",
+      "bytes": 587743,
+      "content_type": "application/pdf",
+      "final_url": "https://www.theijire.com/archiver/archives/design_and_development_of_an_ai_powered_code_review_assistant.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "sha256": "8e323fdc429a7fcbf5db7a429571844f80f5642cdfdde32e8d58bf829ed43113",
+      "url": "https://www.theijire.com/archiver/archives/design_and_development_of_an_ai_powered_code_review_assistant.pdf"
+    }
+  ],
+  "bytes": 587743,
+  "family_id": "FAM-ddc197b9c258801d9e0c",
+  "lawful_access_basis": "citation_pdf_url_metadata",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-ddc197b9c258801d9e0c.pdf",
+  "pdf_sha256": "8e323fdc429a7fcbf5db7a429571844f80f5642cdfdde32e8d58bf829ed43113",
+  "representative_canonical_id": "CAN-61c6c8374c20cad9c13e",
+  "retrieved_url": "https://www.theijire.com/archiver/archives/design_and_development_of_an_ai_powered_code_review_assistant.pdf",
+  "status": "retrieved_open"
+}

@@ -1,0 +1,32 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:07:40.589664Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://zenodo.org/records/20607917",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://doi.org/10.5281/zenodo.20607917"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:07:42.675536Z",
+      "basis": "citation_pdf_url_metadata",
+      "bytes": 958730,
+      "content_type": "application/octet-stream, application/octet-stream",
+      "final_url": "https://zenodo.org/records/20607917/files/1_%20QUANTIFYING%20THE%20IMPACT%20OF%20GEN%20AI%20AGENTS%20ON%20SOFTWARE.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "sha256": "ccb81cef9888cf80aa476d0c0664ec94e42ca1806bd4ce2278808c2f7e614154",
+      "url": "https://zenodo.org/records/20607917/files/1_%20QUANTIFYING%20THE%20IMPACT%20OF%20GEN%20AI%20AGENTS%20ON%20SOFTWARE.pdf"
+    }
+  ],
+  "bytes": 958730,
+  "family_id": "FAM-6c43dc6d64e94dc45a5b",
+  "lawful_access_basis": "citation_pdf_url_metadata",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-6c43dc6d64e94dc45a5b.pdf",
+  "pdf_sha256": "ccb81cef9888cf80aa476d0c0664ec94e42ca1806bd4ce2278808c2f7e614154",
+  "representative_canonical_id": "CAN-3c5ae728122c35c202f7",
+  "retrieved_url": "https://zenodo.org/records/20607917/files/1_%20QUANTIFYING%20THE%20IMPACT%20OF%20GEN%20AI%20AGENTS%20ON%20SOFTWARE.pdf",
+  "status": "retrieved_open"
+}

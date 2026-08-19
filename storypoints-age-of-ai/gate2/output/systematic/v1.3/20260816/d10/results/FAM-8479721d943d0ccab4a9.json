@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "semantic_scholar_open_access_pdf",
+      "bytes": 1387734,
+      "content_type": "application/pdf;charset=UTF-8",
+      "final_url": "https://dl.acm.org/doi/pdf/10.1145/3728957",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "1f9fa115f4a357c153a4f8607c2f5f94c6c2ff4e241fe73a8d0a3f8b62a26e16",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3728957"
+    }
+  ],
+  "bytes": 1387734,
+  "family_id": "FAM-8479721d943d0ccab4a9",
+  "lawful_access_basis": "semantic_scholar_open_access_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-8479721d943d0ccab4a9.pdf",
+  "pdf_sha256": "1f9fa115f4a357c153a4f8607c2f5f94c6c2ff4e241fe73a8d0a3f8b62a26e16",
+  "representative_canonical_id": "CAN-f6dad1875b18be62a215",
+  "retrieved_url": "https://dl.acm.org/doi/pdf/10.1145/3728957",
+  "status": "retrieved_open"
+}

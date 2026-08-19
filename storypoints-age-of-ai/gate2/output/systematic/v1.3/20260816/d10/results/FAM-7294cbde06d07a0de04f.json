@@ -1,0 +1,32 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:07:51.414082Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://zenodo.org/records/20264306",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://doi.org/10.5281/zenodo.20264306"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:07:52.863548Z",
+      "basis": "citation_pdf_url_metadata",
+      "bytes": 391813,
+      "content_type": "application/octet-stream, application/octet-stream",
+      "final_url": "https://zenodo.org/records/20264306/files/Supervised%20Machine%20Learning%20(ML)%20Techniques%20to%20Predict%20Accurate%20Software%20Development%20Effort,%20Schedule,%20and%20Cost%20using%20Story%20Points%20A%20Systematic%20Literature%20Survey.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "sha256": "81eafc904c3814057a2e5b115c401f56a78cc2a9f14b34d98b12d48166ab5c7f",
+      "url": "https://zenodo.org/records/20264306/files/Supervised%20Machine%20Learning%20(ML)%20Techniques%20to%20Predict%20Accurate%20Software%20Development%20Effort,%20Schedule,%20and%20Cost%20using%20Story%20Points%20A%20Systematic%20Literature%20Survey.pdf"
+    }
+  ],
+  "bytes": 391813,
+  "family_id": "FAM-7294cbde06d07a0de04f",
+  "lawful_access_basis": "citation_pdf_url_metadata",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-7294cbde06d07a0de04f.pdf",
+  "pdf_sha256": "81eafc904c3814057a2e5b115c401f56a78cc2a9f14b34d98b12d48166ab5c7f",
+  "representative_canonical_id": "CAN-a675784878ffb60dc095",
+  "retrieved_url": "https://zenodo.org/records/20264306/files/Supervised%20Machine%20Learning%20(ML)%20Techniques%20to%20Predict%20Accurate%20Software%20Development%20Effort,%20Schedule,%20and%20Cost%20using%20Story%20Points%20A%20Systematic%20Literature%20Survey.pdf",
+  "status": "retrieved_open"
+}

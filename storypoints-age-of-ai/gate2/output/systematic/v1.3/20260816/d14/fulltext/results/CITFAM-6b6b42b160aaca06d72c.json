@@ -1,0 +1,18 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-19T05:44:56.695504Z",
+      "basis": "live_openalex_best_oa_location_oa_pdf",
+      "bytes": 3772,
+      "final_url": "https://nva.sikt.no/",
+      "redirect_count": 1,
+      "status": "invalid_pdf_signature"
+    }
+  ],
+  "bytes": 0,
+  "citation_family_id": "CITFAM-6b6b42b160aaca06d72c",
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "security_attestation": "Static HTTPS retrieval only; public-IP validation, bounded redirects/size, signature and active-content checks; no PDF execution.",
+  "status": "invalid_pdf_signature"
+}

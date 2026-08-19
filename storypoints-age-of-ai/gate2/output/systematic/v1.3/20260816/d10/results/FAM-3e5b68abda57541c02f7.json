@@ -1,0 +1,31 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:05:20.118750Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://link.springer.com/article/10.1007/s10664-020-09820-z",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://doi.org/10.1007/s10664-020-09820-z"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:05:23.371269Z",
+      "basis": "citation_pdf_url_metadata",
+      "bytes": 336777,
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://link.springer.com/article/10.1007/s10664-020-09820-z",
+      "http_status": 200,
+      "outcome": "not_a_verified_pdf",
+      "url": "https://link.springer.com/content/pdf/10.1007/s10664-020-09820-z.pdf"
+    }
+  ],
+  "bytes": 0,
+  "family_id": "FAM-3e5b68abda57541c02f7",
+  "lawful_access_basis": null,
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "representative_canonical_id": "CAN-307da2aa4a8f676dc1b8",
+  "retrieved_url": null,
+  "status": "lawful_full_text_not_retrieved"
+}

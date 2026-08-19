@@ -1,0 +1,23 @@
+{
+  "attempts": [
+    {
+      "active_indicators": [
+        "/AA"
+      ],
+      "attempted_at_utc": "2026-08-19T07:36:02.978628Z",
+      "basis": "live_openalex_best_oa_location_oa_pdf",
+      "bytes": 653971,
+      "final_url": "https://ulopenaccess.com/papers/ULETE_V02I04/ULETE20250204_010.pdf",
+      "quarantine_path": "/Users/81194246/Library/CloudStorage/OneDrive-Pepsico/Personal/AI/Projects/ThinkAI/storypoints-age-of-ai/gate2/output/systematic/v1.3/20260816/d14/fulltext/quarantine/CITFAM-80e05e591b7e6ba030f1.pdf",
+      "redirect_count": 1,
+      "sha256": "1e76b6fdda0a86e85b9301e181cfd3b4ccd259266968fe5b827a12108741d85b",
+      "status": "quarantined_active_content"
+    }
+  ],
+  "bytes": 653971,
+  "citation_family_id": "CITFAM-80e05e591b7e6ba030f1",
+  "pdf_path": null,
+  "pdf_sha256": "1e76b6fdda0a86e85b9301e181cfd3b4ccd259266968fe5b827a12108741d85b",
+  "security_attestation": "Static HTTPS retrieval only; public-IP validation, bounded redirects/size, signature and active-content checks; no PDF execution.",
+  "status": "quarantined_active_content"
+}

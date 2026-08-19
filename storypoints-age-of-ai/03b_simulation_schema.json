@@ -1,0 +1,302 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/role-constrained-delivery-simulation.schema.json",
+  "title": "Role-Constrained Verified Delivery Simulation Configuration",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version", "study_manifest", "provenance_registry", "time_model",
+    "role_pools", "lifecycle_stages", "gate_definitions", "work_item_templates",
+    "arrival_models", "demand_models", "capacity_calendars", "rework_models",
+    "mechanisms", "data_generating_worlds", "comparators", "experimental_design",
+    "randomization", "verification_tests", "evaluation_rules", "output_contract"
+  ],
+  "properties": {
+    "schema_version": {"type": "string", "const": "0.1.0"},
+    "study_manifest": {"$ref": "#/$defs/manifest"},
+    "provenance_registry": {"type": "array", "items": {"$ref": "#/$defs/provenance"}},
+    "time_model": {
+      "type": "object", "additionalProperties": false,
+      "required": ["unit", "horizon", "warmup", "termination_rule"],
+      "properties": {
+        "unit": {"enum": ["minutes", "hours", "days"]},
+        "horizon": {"type": "number", "exclusiveMinimum": 0},
+        "warmup": {"type": "number", "minimum": 0},
+        "termination_rule": {"enum": ["finite_horizon", "all_terminal", "steady_state"]}
+      }
+    },
+    "role_pools": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/role_pool"}},
+    "lifecycle_stages": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/stage"}},
+    "gate_definitions": {"type": "array", "items": {"$ref": "#/$defs/gate"}},
+    "evidence_definitions": {"type": "array", "items": {"$ref": "#/$defs/evidence"}},
+    "work_item_templates": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/work_item_template"}},
+    "arrival_models": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/arrival"}},
+    "dependency_models": {"type": "array", "items": {"$ref": "#/$defs/dependency"}},
+    "demand_models": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/demand"}},
+    "capacity_calendars": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/capacity"}},
+    "readiness_models": {"type": "array", "items": {"$ref": "#/$defs/readiness"}},
+    "rework_models": {"type": "array", "items": {"$ref": "#/$defs/rework"}},
+    "quality_models": {"type": "array", "items": {"$ref": "#/$defs/id_object"}},
+    "mechanisms": {"type": "array", "items": {"$ref": "#/$defs/mechanism"}},
+    "data_generating_worlds": {"type": "array", "minItems": 6, "items": {"$ref": "#/$defs/world"}},
+    "comparators": {"type": "array", "minItems": 5, "items": {"$ref": "#/$defs/comparator"}},
+    "experimental_design": {"$ref": "#/$defs/experimental_design"},
+    "randomization": {"$ref": "#/$defs/randomization"},
+    "verification_tests": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/verification_test"}},
+    "evaluation_rules": {"$ref": "#/$defs/evaluation"},
+    "output_contract": {"$ref": "#/$defs/output_contract"}
+  },
+  "$defs": {
+    "id": {"type": "string", "pattern": "^[a-z][a-z0-9_\\-]*$"},
+    "id_object": {
+      "type": "object", "additionalProperties": true,
+      "required": ["id"], "properties": {"id": {"$ref": "#/$defs/id"}}
+    },
+    "manifest": {
+      "type": "object", "additionalProperties": false,
+      "required": ["study_id", "configuration_version", "framework_version", "created_at", "code_commit", "dependency_lock_checksum", "environment_id", "configuration_checksum", "evaluation_status", "interpretation_boundary"],
+      "properties": {
+        "study_id": {"$ref": "#/$defs/id"}, "configuration_version": {"type": "string"},
+        "framework_version": {"type": "string"}, "created_at": {"type": "string", "format": "date-time"},
+        "code_commit": {"type": "string"}, "dependency_lock_checksum": {"type": "string"},
+        "environment_id": {"type": "string"}, "configuration_checksum": {"type": "string"},
+        "evaluation_status": {"enum": ["development", "locked_evaluation"]},
+        "authoring_agents": {"type": "array", "items": {"type": "string"}},
+        "review_agents": {"type": "array", "items": {"type": "string"}},
+        "interpretation_boundary": {"type": "string", "minLength": 20}
+      }
+    },
+    "provenance": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "class", "source", "locator", "original_measure", "transformation", "applicability_limits", "extractor", "verifier"],
+      "properties": {
+        "id": {"$ref": "#/$defs/id"}, "class": {"enum": ["E1", "E2", "L", "X", "I"]},
+        "source": {"type": "string"}, "locator": {"type": "string"}, "context": {"type": "string"},
+        "original_measure": {"type": "string"}, "transformation": {"type": "string"},
+        "applicability_limits": {"type": "string"}, "extractor": {"type": "string"},
+        "verifier": {"type": "string"}, "version_hash": {"type": "string"}
+      }
+    },
+    "distribution": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "family", "parameters", "unit", "provenance_id", "independence_declared"],
+      "properties": {
+        "id": {"$ref": "#/$defs/id"},
+        "family": {"enum": ["fixed", "empirical_discrete", "triangular", "lognormal", "gamma", "weibull"]},
+        "parameters": {"type": "object"}, "support": {"type": "array", "items": {"type": "number"}, "minItems": 2, "maxItems": 2},
+        "unit": {"type": "string"}, "truncation": {"type": "array", "items": {"type": "number"}, "minItems": 2, "maxItems": 2},
+        "joint_distribution_id": {"type": ["string", "null"]}, "provenance_id": {"$ref": "#/$defs/id"},
+        "independence_declared": {"type": "boolean"}
+      }
+    },
+    "role_pool": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "capacity_calendar_id", "concurrent_servers", "queue_discipline", "stage_eligibility", "initial_backlog"],
+      "properties": {
+        "id": {"$ref": "#/$defs/id"}, "mapped_roles": {"type": "array", "items": {"type": "string"}},
+        "capacity_calendar_id": {"$ref": "#/$defs/id"}, "concurrent_servers": {"type": "integer", "minimum": 1},
+        "queue_discipline": {"const": "FIFO"},
+        "preemption_policy": {"const": "none"}, "stage_eligibility": {"type": "array", "items": {"$ref": "#/$defs/id"}},
+        "setup_penalty_distribution_id": {"type": ["string", "null"]}, "initial_backlog": {"const": 0}
+      }
+    },
+    "stage": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "eligible_role_pool_ids", "entry_prerequisite_ids", "parallelization_policy", "terminal_eligible"],
+      "properties": {
+        "id": {"$ref": "#/$defs/id"}, "eligible_role_pool_ids": {"type": "array", "items": {"$ref": "#/$defs/id"}},
+        "entry_prerequisite_ids": {"type": "array", "items": {"$ref": "#/$defs/id"}},
+        "gate_id": {"type": ["string", "null"]}, "parallelization_policy": {"const": "single_role"},
+        "dependency_release_rule": {"type": "string"}, "terminal_eligible": {"type": "boolean"}
+      }
+    },
+    "gate": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "stage_id", "risk_classes", "accountable_role_pool_id", "required_evidence_ids", "evaluation_demand_distribution_id", "allowed_states", "transitions", "conditional_policy"],
+      "properties": {
+        "id": {"$ref": "#/$defs/id"}, "stage_id": {"$ref": "#/$defs/id"},
+        "risk_classes": {"type": "array", "items": {"enum": ["T1", "T2", "T3", "T4"]}},
+        "mandatory": {"type": "boolean"}, "accountable_role_pool_id": {"$ref": "#/$defs/id"},
+        "required_evidence_ids": {"type": "array", "items": {"$ref": "#/$defs/id"}},
+        "evaluation_demand_distribution_id": {"$ref": "#/$defs/id"},
+        "allowed_states": {"type": "array", "items": {"enum": ["Pass", "Conditional", "Fail", "NotApplicable"]}},
+        "transitions": {"type": "object"}, "conditional_policy": {"type": "object"},
+        "expiry_rule": {"type": "string"}
+      }
+    },
+    "evidence": {
+      "type": "object", "additionalProperties": true,
+      "required": ["id", "type", "mandatory_by_risk", "freshness_rule", "invalidating_events"],
+      "properties": {
+        "id": {"$ref": "#/$defs/id"}, "type": {"type": "string"},
+        "mandatory_by_risk": {"type": "object"}, "freshness_rule": {"type": "string"},
+        "invalidating_events": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "pdd_profile": {
+      "type": "object", "additionalProperties": false,
+      "required": ["iu", "cpe", "cpd", "ao", "ct"],
+      "properties": {
+        "iu": {"$ref": "#/$defs/rating"}, "cpe": {"$ref": "#/$defs/rating"},
+        "cpd": {"$ref": "#/$defs/rating"}, "ao": {"$ref": "#/$defs/rating"}, "ct": {"$ref": "#/$defs/rating"}
+      }
+    },
+    "rating": {
+      "type": "object", "additionalProperties": false,
+      "required": ["level", "raw_indicators", "evidence_ids", "rationale", "confidence", "instrument_version", "t0"],
+      "properties": {
+        "level": {"oneOf": [{"type": "integer", "minimum": 0, "maximum": 4}, {"enum": ["U", "NA"]}]},
+        "raw_indicators": {"type": "object"}, "evidence_ids": {"type": "array", "items": {"type": "string"}},
+        "rationale": {"type": "string"}, "confidence": {"enum": ["High", "Moderate", "Low"]},
+        "instrument_version": {"type": "string"}, "t0": {"type": "string", "format": "date-time"}
+      }
+    },
+    "work_item_template": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "risk_class", "story_points", "hie_compatible_fields", "pdd_profile", "stage_automation_profile", "required_gate_ids", "dependency_ids"],
+      "properties": {
+        "id": {"$ref": "#/$defs/id"}, "risk_class": {"enum": ["T1", "T2", "T3", "T4"]},
+        "story_points": {"type": ["number", "null"], "minimum": 0}, "hie_compatible_fields": {"type": "object"},
+        "pdd_profile": {"$ref": "#/$defs/pdd_profile"}, "stage_automation_profile": {"type": "object"},
+        "required_gate_ids": {"type": "array", "items": {"$ref": "#/$defs/id"}},
+        "dependency_ids": {"type": "array", "items": {"$ref": "#/$defs/id"}}
+      }
+    },
+    "arrival": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "type", "parameters", "initial_wip"],
+      "properties": {
+        "id": {"$ref": "#/$defs/id"},
+        "type": {"const": "fixed_portfolio"},
+        "parameters": {"type": "object"}, "initial_wip": {"type": "array", "items": {"type": "object"}}
+      }
+    },
+    "dependency": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "edges", "cycles_allowed_for_test", "release_rule", "failure_policy", "scope"],
+      "properties": {
+        "id": {"$ref": "#/$defs/id"}, "edges": {"type": "array", "items": {"type": "array", "minItems": 2, "maxItems": 2, "items": {"$ref": "#/$defs/id"}}},
+        "cycles_allowed_for_test": {"const": false},
+        "release_rule": {"const": "all_predecessor_items_completed_successfully"},
+        "failure_policy": {"const": "block_successor"},
+        "scope": {"const": "template_all_to_all"}
+      }
+    },
+    "demand": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "work_item_selector", "role_pool_id", "stage_id", "base_distribution", "pdd_conditioning", "risk_conditioning", "sae_moderation", "provenance_id"],
+      "properties": {
+        "id": {"$ref": "#/$defs/id"}, "work_item_selector": {"type": "string"},
+        "role_pool_id": {"$ref": "#/$defs/id"}, "stage_id": {"$ref": "#/$defs/id"},
+        "base_distribution": {"$ref": "#/$defs/distribution"}, "pdd_conditioning": {"type": "object"},
+        "risk_conditioning": {"type": "object"}, "sae_moderation": {"type": "object"},
+        "correlation_group": {"type": ["string", "null"]}, "applicability_rule": {"type": "string"},
+        "provenance_id": {"$ref": "#/$defs/id"}
+      }
+    },
+    "capacity": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "timezone", "intervals", "concurrency", "provenance_id"],
+      "properties": {
+        "id": {"$ref": "#/$defs/id"}, "timezone": {"type": "string"},
+        "intervals": {"type": "array", "items": {"type": "object", "required": ["start", "end", "gross_hours", "absence_hours", "nonproject_hours", "effective_hours"], "properties": {"start": {"type": "string", "format": "date-time"}, "end": {"type": "string", "format": "date-time"}, "gross_hours": {"type": "number", "minimum": 0}, "absence_hours": {"type": "number", "minimum": 0}, "nonproject_hours": {"type": "number", "minimum": 0}, "effective_hours": {"type": "number", "minimum": 0}}, "additionalProperties": false}},
+        "blackout_periods": {"type": "array", "items": {"$ref": "#/$defs/blackout"}}, "concurrency": {"type": "integer", "minimum": 1},
+        "provenance_id": {"$ref": "#/$defs/id"}
+      }
+    },
+    "blackout": {
+      "type": "object", "additionalProperties": false,
+      "required": ["start", "end"],
+      "properties": {
+        "start": {"type": "string", "format": "date-time"},
+        "end": {"type": "string", "format": "date-time"}
+      }
+    },
+    "readiness": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "t0_state", "runtime_state_model", "provenance_id"],
+      "properties": {"id": {"$ref": "#/$defs/id"}, "t0_state": {"type": "object"}, "runtime_state_model": {"type": "object"}, "provenance_id": {"$ref": "#/$defs/id"}}
+    },
+    "rework": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "from_gate_id", "decision", "condition", "routes", "maximum_loops", "terminal_failure_rule", "provenance_id"],
+      "properties": {
+        "id": {"$ref": "#/$defs/id"}, "from_gate_id": {"$ref": "#/$defs/id"},
+        "decision": {"enum": ["Conditional", "Fail"]}, "condition": {"type": "string"},
+        "routes": {"type": "array", "items": {"type": "object", "required": ["destination_stage_id", "probability", "additional_demand_distribution_ids"], "properties": {"destination_stage_id": {"$ref": "#/$defs/id"}, "probability": {"type": "number", "minimum": 0, "maximum": 1}, "additional_demand_distribution_ids": {"type": "array", "items": {"$ref": "#/$defs/id"}}, "residual_risk_update": {"type": "object"}}, "additionalProperties": false}},
+        "maximum_loops": {"type": "integer", "minimum": 0}, "terminal_failure_rule": {"type": "string"},
+        "provenance_id": {"$ref": "#/$defs/id"}
+      }
+    },
+    "mechanism": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "enabled", "parameters", "scope", "provenance_id", "ablation_label"],
+      "properties": {"id": {"$ref": "#/$defs/id"}, "enabled": {"type": "boolean"}, "parameters": {"type": "object"}, "scope": {"type": "object"}, "provenance_id": {"$ref": "#/$defs/id"}, "ablation_label": {"type": "string"}}
+    },
+    "world": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "world_type", "truth_parameters", "comparator_information_policy"],
+      "properties": {
+        "id": {"$ref": "#/$defs/id"},
+        "world_type": {"enum": ["sp_sufficient", "hie_task_oversight", "cross_role_bottleneck", "readiness_rework", "mixed", "misspecified_adversarial"]},
+        "truth_parameters": {"type": "object"}, "comparator_information_policy": {"type": "object"}
+      }
+    },
+    "comparator": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "type", "allowed_t0_fields", "oracle"],
+      "properties": {
+        "id": {"$ref": "#/$defs/id"}, "type": {"enum": ["story_points", "hie_compatible", "simple_role_load", "proposed_model", "oracle"]},
+        "allowed_t0_fields": {"type": "array", "items": {"type": "string"}}, "oracle": {"type": "boolean"}
+      }
+    },
+    "experimental_design": {
+      "type": "object", "additionalProperties": false,
+      "required": ["design_type", "development_world_ids", "locked_evaluation_world_ids", "factors", "replication_max"],
+      "properties": {
+        "design_type": {"enum": ["factorial", "latin_hypercube", "hybrid"]},
+        "development_world_ids": {"type": "array", "items": {"$ref": "#/$defs/id"}},
+        "locked_evaluation_world_ids": {"type": "array", "items": {"$ref": "#/$defs/id"}},
+        "factors": {"type": "array", "items": {"type": "object"}}, "replication_max": {"type": "integer", "minimum": 1}
+      }
+    },
+    "randomization": {
+      "type": "object", "additionalProperties": false,
+      "required": ["master_seed", "child_streams", "common_random_numbers", "locked_seed_checksum"],
+      "properties": {
+        "master_seed": {"type": "integer", "minimum": 0}, "child_streams": {"type": "object"},
+        "common_random_numbers": {"type": "boolean"}, "locked_seed_checksum": {"type": "string"}
+      }
+    },
+    "verification_test": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "type", "fixture", "expected", "tolerance", "hard_stop"],
+      "properties": {
+        "id": {"$ref": "#/$defs/id"},
+        "type": {"enum": ["zero_arrival", "infinite_capacity", "hand_calculation", "no_rework", "mandatory_failure", "not_applicable", "capacity_blackout", "dependency_order", "entity_reconciliation", "time_accounting", "mechanism_ablation", "seed_reproducibility", "cycle_deadlock", "little_law"]},
+        "fixture": {"type": "object"}, "expected": {}, "tolerance": {"type": "number", "minimum": 0}, "hard_stop": {"type": "boolean"}
+      }
+    },
+    "evaluation": {
+      "type": "object", "additionalProperties": false,
+      "required": ["primary_metric", "probability_interval_halfwidth", "relative_brier_skill_threshold", "absolute_brier_equivalence_margin", "robustness_fraction", "instability_reversal_fraction", "bottleneck_improvement_points"],
+      "properties": {
+        "primary_metric": {"const": "brier_score"}, "probability_interval_halfwidth": {"type": "number", "const": 0.01},
+        "relative_brier_skill_threshold": {"type": "number", "const": 0.05},
+        "absolute_brier_equivalence_margin": {"type": "number", "const": 0.01},
+        "robustness_fraction": {"type": "number", "const": 0.8},
+        "instability_reversal_fraction": {"type": "number", "const": 0.2},
+        "bottleneck_improvement_points": {"type": "number", "const": 0.10}
+      }
+    },
+    "output_contract": {
+      "type": "object", "additionalProperties": false,
+      "required": ["format", "tables", "immutable", "regenerable_from_manifest"],
+      "properties": {
+        "format": {"enum": ["parquet", "csv", "jsonl"]},
+        "tables": {"type": "array", "items": {"enum": ["run_manifest", "item_forecasts", "portfolio_forecasts", "event_log", "role_stage_service", "queue_intervals", "gate_decisions", "evidence_events", "rework_transitions", "capacity_utilization", "comparator_scores", "sensitivity_results", "monte_carlo_precision", "verification_results", "configuration_warnings"]}},
+        "immutable": {"const": true}, "regenerable_from_manifest": {"const": true}
+      }
+    }
+  }
+}

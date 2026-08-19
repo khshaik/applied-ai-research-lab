@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 844915,
+      "content_type": "application/pdf",
+      "final_url": "https://www.jisem-journal.com/index.php/journal/article/download/7541/3481",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "3520f4d70972a9c3202a03cd5b2b3571c9a1715c6023b4f022d406e356fa4dd6",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://www.jisem-journal.com/index.php/journal/article/download/7541/3481"
+    }
+  ],
+  "bytes": 844915,
+  "family_id": "FAM-6b7abe934fd1081989e6",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-6b7abe934fd1081989e6.pdf",
+  "pdf_sha256": "3520f4d70972a9c3202a03cd5b2b3571c9a1715c6023b4f022d406e356fa4dd6",
+  "representative_canonical_id": "CAN-b2dc34944916e4e89c69",
+  "retrieved_url": "https://www.jisem-journal.com/index.php/journal/article/download/7541/3481",
+  "status": "retrieved_open"
+}

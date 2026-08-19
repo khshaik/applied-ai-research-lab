@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "metadata_direct_pdf",
+      "bytes": 8307593,
+      "content_type": "application/pdf",
+      "final_url": "https://publications.polymtl.ca/70099/1/2025_VahidMajdinasab.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "31a11b6ad72896cd7b37683a4280d2accb394a6d61de120ac28a11b5608723d0",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://publications.polymtl.ca/70099/1/2025_VahidMajdinasab.pdf"
+    }
+  ],
+  "bytes": 8307593,
+  "family_id": "FAM-f47a7ad8c44939a633be",
+  "lawful_access_basis": "metadata_direct_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-f47a7ad8c44939a633be.pdf",
+  "pdf_sha256": "31a11b6ad72896cd7b37683a4280d2accb394a6d61de120ac28a11b5608723d0",
+  "representative_canonical_id": "CAN-334607933c64432b5990",
+  "retrieved_url": "https://publications.polymtl.ca/70099/1/2025_VahidMajdinasab.pdf",
+  "status": "retrieved_open"
+}

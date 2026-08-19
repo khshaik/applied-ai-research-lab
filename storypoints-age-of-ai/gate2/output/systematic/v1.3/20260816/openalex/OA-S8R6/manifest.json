@@ -1,0 +1,75 @@
+{
+  "acceptance_matrix_row_sha256": "2081a819eb6ded38361a7c669889a84be0f50b25b44cbe13af2bd39456ec8268",
+  "authentication": {
+    "credential_logged": false,
+    "method": "api_key_environment"
+  },
+  "complete_pagination": true,
+  "endpoint": "https://api.openalex.org/works",
+  "executed_at_utc": "2026-08-16T09:10:23.079205+00:00",
+  "freeze_package_sha256": "fa9800da881c2590a3261861fa6e1de5d6a3c349687ef320b43057561be8730d",
+  "from_date": "1900-01-01",
+  "interpretation_boundary": "Frozen systematic discovery export; not yet screened, deduplicated, eligible, or a PRISMA inclusion count.",
+  "max_pages": null,
+  "page_size": 200,
+  "pages": [
+    {
+      "file": "page_00000.json",
+      "records": 200,
+      "request_url_sha256": "04a0701cdde2075504e00426daea3185b15b2f75244fca0749d5ad83f144c8d9",
+      "sequence": 0,
+      "sha256": "67691de4048b3e3093ef8e58f80db7e52f7dd73fabeffe92283a5d8a5357cb73"
+    },
+    {
+      "file": "page_00001.json",
+      "records": 200,
+      "request_url_sha256": "7a28f2a4527fe2f125b946180dd6766d5b7229ff959eb1aa4a3e4ab8372eac9b",
+      "sequence": 1,
+      "sha256": "5e7c2872386cb537434474205db3d3ee528a394d8b15ea5daa2304121f266368"
+    },
+    {
+      "file": "page_00002.json",
+      "records": 200,
+      "request_url_sha256": "fa8dfe5898bf7cc8f371c5820b9a764608cd4c8c8e1d0481962f43a96b8f43d3",
+      "sequence": 2,
+      "sha256": "35ec671a6840bf0a642292d5f207fdc175dda3eef646cd036a5e5a4d8c6802df"
+    },
+    {
+      "file": "page_00003.json",
+      "records": 200,
+      "request_url_sha256": "2db3e3cf24ff9a36c7f1f8411ec21bf551bfd0b98993e63318f34d658cffea04",
+      "sequence": 3,
+      "sha256": "cf5455df10d0d1eff3b232334b84ab51e7d5922ac467f3b66c911296f1f7c969"
+    },
+    {
+      "file": "page_00004.json",
+      "records": 200,
+      "request_url_sha256": "fadbddbb6232483faeda166d1b121e669b036a251ca40a42d1a29bb438cf6882",
+      "sequence": 4,
+      "sha256": "b6ee93dfd5db31be75271bdf81bfccc3d4435032225a2d4f2510ba33bb1e49f5"
+    },
+    {
+      "file": "page_00005.json",
+      "records": 98,
+      "request_url_sha256": "35a6ea4cce5992e338ff43680db92ce8249698a8ee9e8816707f3d21e1ce94a7",
+      "sequence": 5,
+      "sha256": "ff86e4156e0a2081a6bf27eef523ba75160ae8339eadd4cccb9cfe833f3e8f2c"
+    }
+  ],
+  "query": "(((software OR developer OR agile) AND (((\"story point\" OR \"story points\" OR \"relative estimate\") AND (validity OR accuracy OR reliability OR effort OR change)) OR (\"developer productivity\" AND (measure OR perception OR performance OR interruption)) OR (\"software developers\" AND \"perceptions of productivity\") OR (\"modern code review\" AND (challenge OR outcome OR understanding OR effort OR cognitive OR workload)))) OR \"NASA-Task Load Index (NASA-TLX); 20 Years Later\" OR \"Workload and Performance: Associations, Insensitivities, and Dissociations\" OR (kanban AND \"software engineering\"))",
+  "query_id": "OA-S8R6",
+  "query_mode": "title_abstract_filter",
+  "query_registry_sha256": "edec1d616e4e95b4e451e2362bd6f70f8061ca0bf1fa41d58201a8cb94a6c5b3",
+  "query_sha256": "7eed03f28ab0d7725550b2836873b741b1a9f00deb50c1a862094b9a0794022d",
+  "records_csv": {
+    "file": "records.csv",
+    "sha256": "cf622934da6fc69f4449f7ece44cf7897b6b31edca811e3a42a34ee7cc9af664"
+  },
+  "records_retrieved": 1098,
+  "result_sort": "publication_date:desc",
+  "retrieval_scope": "complete_systematic",
+  "source": "openalex",
+  "status": "systematic_frozen",
+  "to_date": "2026-08-16",
+  "total_reported": 1098
+}

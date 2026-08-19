@@ -1,0 +1,128 @@
+{
+  "status": "development_pilot",
+  "version": "0.1",
+  "date_window": {"from": "2019-01-01", "to": "2026-08-16"},
+  "boundary": "Prospective S7 exact/close novelty and duplication query control. The query tests contribution vocabulary and close planning predecessors without requiring exact predecessor titles. Developmental only: not a frozen search, screening or eligibility decision, PRISMA input, or final novelty finding.",
+  "sentinel_control_version": "family_scoped_v0.3",
+  "queries": [
+    {
+      "source": "openalex",
+      "query_id": "OA-S7R1",
+      "family_id": "S7",
+      "query_mode": "title_abstract_filter",
+      "query": "(\"verified delivery capacity\" OR \"role-stage demand\" OR \"hybrid intelligence effort\" OR \"LLM-aware software effort\" OR \"agentic cost estimation\" OR \"AI-augmented engineering\" OR \"human-AI software delivery\" OR (\"story point\" AND (LLM OR \"large language model\")) OR (\"AI-assisted\" AND \"software effort\"))"
+    },
+    {
+      "source": "semantic_scholar",
+      "query_id": "S2-S7R1",
+      "family_id": "S7",
+      "query": "+(\"verified delivery capacity\" | \"role stage demand\" | \"hybrid intelligence effort\" | \"LLM aware software effort\" | \"agentic cost estimation\" | \"AI augmented engineering\" | \"human AI software delivery\" | (\"story point\" + (LLM | \"large language model\")) | (\"AI assisted\" + \"software effort\"))"
+    }
+  ],
+  "arxiv_query": {
+    "query_id": "AX-S7R1",
+    "family_id": "S7",
+    "query": "(all:\"verified delivery capacity\" OR all:\"role-stage demand\" OR all:\"hybrid intelligence effort\" OR all:\"LLM-aware software effort\" OR all:\"agentic cost estimation\" OR all:\"AI-augmented engineering\" OR all:\"human-AI software delivery\" OR (all:\"story point\" AND (all:LLM OR all:\"large language model\")) OR (all:\"AI-assisted\" AND all:\"software effort\"))"
+  },
+  "sentinels": [
+    {
+      "sentinel_id": "S7-P1-HIE",
+      "family_id": "S7",
+      "role": "scope_positive",
+      "doi": "10.1007/s10791-026-10331-6",
+      "title": "Hybrid intelligence effort for software effort estimation in LLM assisted development",
+      "testable_sources": ["openalex", "semantic_scholar"],
+      "rationale": "Closest empirical task-level effort predecessor; omission would invalidate the overlap control."
+    },
+    {
+      "sentinel_id": "S7-P2-HIE-CONCEPT",
+      "family_id": "S7",
+      "role": "scope_positive",
+      "doi": "10.3389/frai.2026.1772418",
+      "title": "Toward LLM-aware software effort estimation: a conceptual framework",
+      "testable_sources": ["openalex", "semantic_scholar"],
+      "rationale": "Conceptual HIE/LLM-aware predecessor constraining any claim that oversight-aware estimation is new."
+    },
+    {
+      "sentinel_id": "S7-P3-ACEM",
+      "family_id": "S7",
+      "role": "scope_positive",
+      "doi": "10.48550/arxiv.2608.02582",
+      "title": "Agentic Cost Estimation Model (ACEM): A Framework for Predicting Costs in Agentic Software Development",
+      "testable_sources": ["openalex", "semantic_scholar"],
+      "arxiv_id": "2608.02582",
+      "rationale": "Cost/HITL predecessor spanning human, model, infrastructure, context, and revision factors."
+    },
+    {
+      "sentinel_id": "S7-P4-AGILE-V",
+      "family_id": "S7",
+      "role": "scope_positive",
+      "doi": "10.48550/arxiv.2602.20684",
+      "title": "Agile V: A Compliance-Ready Framework for AI-Augmented Engineering -- From Concept to Audit-Ready Delivery",
+      "testable_sources": ["openalex", "semantic_scholar"],
+      "arxiv_id": "2602.20684",
+      "rationale": "Lifecycle/gate predecessor spanning requirements, design, build, testing, compliance, and human approval."
+    },
+    {
+      "sentinel_id": "S7-P5-ORCHESTRATION",
+      "family_id": "S7",
+      "role": "scope_positive",
+      "doi": "10.48550/arxiv.2603.20028",
+      "title": "Orchestrating Human-AI Software Delivery: A Retrospective Longitudinal Field Study of Three Software Modernization Programs",
+      "testable_sources": ["openalex", "semantic_scholar"],
+      "arxiv_id": "2603.20028",
+      "rationale": "Closest lifecycle delivery-orchestration evidence; tests overlap with coordinated human-AI stages and delivery outcomes."
+    },
+    {
+      "sentinel_id": "S7-D1-STORY-POINT",
+      "family_id": "S7",
+      "role": "neutral_disconfirming",
+      "doi": "10.48550/arxiv.2603.06276",
+      "title": "Story Point Estimation Using Large Language Models",
+      "testable_sources": ["openalex", "semantic_scholar"],
+      "arxiv_id": "2603.06276",
+      "rationale": "Counterweight to categorical replacement language: retains Story Points as an AI-assisted estimation target."
+    },
+    {
+      "sentinel_id": "S7-D2-EARLY-ADOPTERS",
+      "family_id": "S7",
+      "role": "neutral_disconfirming",
+      "doi": "10.1007/s10664-026-10917-0",
+      "title": "LLMs’ reshaping of people, processes, products, and society in software development: a qualitative exploration with early adopters",
+      "testable_sources": ["openalex", "semantic_scholar"],
+      "arxiv_id": "2503.05012",
+      "rationale": "Observed practitioner evidence constrains universal productivity and lifecycle-shift premises."
+    },
+    {
+      "sentinel_id": "S7-B1-PIPELINE-OPERATIONS",
+      "family_id": "S7",
+      "role": "negative_boundary",
+      "doi": "10.48550/arxiv.2608.01955",
+      "title": "Agentic Self-Healing for Data and AI Pipelines: An Affordable Vendor-Agnostic Architecture using Open-Source Software",
+      "testable_sources": ["openalex", "semantic_scholar"],
+      "rationale": "Agentic pipeline operations without software-team planning or verified-completion forecasting is a precision boundary; retrieval is undesirable but not a recall failure."
+    }
+  ],
+  "arxiv_sentinels": [
+    {"sentinel_id": "S7-AX-P1-ACEM", "role": "scope_positive", "arxiv_id": "2608.02582", "title": "Agentic Cost Estimation Model (ACEM): A Framework for Predicting Costs in Agentic Software Development"},
+    {"sentinel_id": "S7-AX-P2-AGILE-V", "role": "scope_positive", "arxiv_id": "2602.20684", "title": "Agile V: A Compliance-Ready Framework for AI-Augmented Engineering -- From Concept to Audit-Ready Delivery"},
+    {"sentinel_id": "S7-AX-P3-ORCHESTRATION", "role": "scope_positive", "arxiv_id": "2603.20028", "title": "Orchestrating Human-AI Software Delivery: A Retrospective Longitudinal Field Study of Three Software Modernization Programs"},
+    {"sentinel_id": "S7-AX-D1-STORY-POINT", "role": "neutral_disconfirming", "arxiv_id": "2603.06276", "title": "Story Point Estimation Using Large Language Models"},
+    {"sentinel_id": "S7-AX-D2-EARLY-ADOPTERS", "role": "neutral_disconfirming", "arxiv_id": "2503.05012", "title": "LLMs' Reshaping of People, Processes, Products, and Society in Software Development: A Comprehensive Exploration with Early Adopters"}
+  ],
+  "sampled_precision_rule": {
+    "required_fields": ["source_id", "decision", "reason"],
+    "allowed_decisions": ["likely_relevant", "likely_irrelevant", "uncertain"],
+    "development_diagnostic_minimum_sample": 20,
+    "freeze_sample_bands": [
+      {"population_min": 0, "population_max": 50, "required_sample": "all"},
+      {"population_min": 51, "population_max": 1000, "required_sample": 50},
+      {"population_min": 1001, "population_max": null, "required_sample": 100}
+    ],
+    "acceptance_bands": {
+      "operational_minimum_relevant_plus_uncertain": 0.10,
+      "conditional_minimum_relevant_plus_uncertain": 0.05,
+      "conditional_requires_documented_capacity_and_coverage_approval": true
+    }
+  }
+}

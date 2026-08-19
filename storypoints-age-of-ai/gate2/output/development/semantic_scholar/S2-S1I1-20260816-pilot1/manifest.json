@@ -1,0 +1,34 @@
+{
+  "complete_pagination": false,
+  "endpoint": "https://api.semanticscholar.org/graph/v1/paper/search/bulk",
+  "executed_at_utc": "2026-08-16T06:41:26.378015+00:00",
+  "from_date": "2019-01-01",
+  "interpretation_boundary": "Open-index development discovery export; not frozen, screened, deduplicated, eligible, or a PRISMA corpus. Retrieval was intentionally capped; total_reported is API metadata, not an exported-record or review-flow count.",
+  "max_pages": 1,
+  "page_size": 1000,
+  "pages": [
+    {
+      "file": "page_00000.json",
+      "records": 1000,
+      "request_url_sha256": "d4857f6b01258aa8698fac837f828d8d5493719d2ea6a683097d09ad54cdc2d2",
+      "sequence": 0,
+      "sha256": "650a4f51205d4ef103bddc702615d4980010a5cb91ef50132784c52a49986da4"
+    }
+  ],
+  "query": "+((\"large language model\" | LLM | \"generative AI\" | \"AI assisted\" | \"AI coding assistant\" | \"coding agent\") + (\"software development\" | \"software engineering\" | programming | \"code review\") + (\"human effort\" | \"cognitive load\" | workload | oversight | validation | verification | \"developer productivity\" | \"effort estimation\" | \"review time\"))",
+  "query_id": "S2-S1I1",
+  "query_mode": "fulltext_search",
+  "query_registry_sha256": "ae0c55508b9aad19f904bae1b3fd5bc9151e0b80f04ebee83c06221e2c8960f8",
+  "query_sha256": "1b12160e2b6f525a7b9dfbbc76f759feff948f3c2df3f44d34e1a743dd5c49fd",
+  "records_csv": {
+    "file": "records.csv",
+    "sha256": "236af43c5e6b6a8eeaa7b551bb96d714e8e232b2c846196a793c3d750e8c5a31"
+  },
+  "records_retrieved": 1000,
+  "result_sort": "",
+  "retrieval_scope": "truncated_development_pilot",
+  "source": "semantic_scholar",
+  "status": "development_pilot",
+  "to_date": "2026-08-16",
+  "total_reported": 4499
+}

@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 306450,
+      "content_type": "application/pdf",
+      "final_url": "https://internationaljournalssrp.org/index.php/ijetet/article/download/341/233",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "ddb3c5f9aaa77c7ab6400e0b8cfaf10be17c766192591e9cbd2db8b24f94b31d",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://internationaljournalssrp.org/index.php/ijetet/article/download/341/233"
+    }
+  ],
+  "bytes": 306450,
+  "family_id": "FAM-a420decad76bd0c20b1f",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-a420decad76bd0c20b1f.pdf",
+  "pdf_sha256": "ddb3c5f9aaa77c7ab6400e0b8cfaf10be17c766192591e9cbd2db8b24f94b31d",
+  "representative_canonical_id": "CAN-e266a7459b6855a1ccb4",
+  "retrieved_url": "https://internationaljournalssrp.org/index.php/ijetet/article/download/341/233",
+  "status": "retrieved_open"
+}

@@ -1,0 +1,27 @@
+{
+  "artifact_type": "conceptual_communication_visual",
+  "empirical_result": false,
+  "title": "From AI-Assisted Work to Verified Delivery",
+  "style": "sketch_board_directional_workflow",
+  "dimensions": {
+    "width_px": 2800,
+    "height_px": 1800
+  },
+  "workflow": {
+    "step_count": 10,
+    "directional_transitions": 11,
+    "feedback_loop": true,
+    "gate_on_main_path": true
+  },
+  "files": [
+    {
+      "path": "06-end-to-end-verified-delivery-workflow.png",
+      "sha256": "a50040c518faca194d5ee0b07b117c73afdd9f4afcab6b1cf676819e03225ba2"
+    },
+    {
+      "path": "06-end-to-end-verified-delivery-workflow.svg",
+      "sha256": "0a260fb0013a31fbf58489e1fc21f031d5e8b77b32a9a6abe799b1825d15193e"
+    }
+  ],
+  "interpretation_boundary": "Explanatory workflow only; not empirical evidence or a validated organizational process."
+}

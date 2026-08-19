@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 598211,
+      "content_type": "application/pdf",
+      "final_url": "https://nti.khai.edu/ojs/index.php/reks/article/download/reks.2022.2.06/1811",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "1484081394e6b66ff83317ad9acfe90707d694d44f40f5dd55a7892b85a5a414",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://nti.khai.edu/ojs/index.php/reks/article/download/reks.2022.2.06/1811"
+    }
+  ],
+  "bytes": 598211,
+  "family_id": "FAM-768e4b9e4738bc22f178",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-768e4b9e4738bc22f178.pdf",
+  "pdf_sha256": "1484081394e6b66ff83317ad9acfe90707d694d44f40f5dd55a7892b85a5a414",
+  "representative_canonical_id": "CAN-cdc3e2d6ee6ed355b351",
+  "retrieved_url": "https://nti.khai.edu/ojs/index.php/reks/article/download/reks.2022.2.06/1811",
+  "status": "retrieved_open"
+}

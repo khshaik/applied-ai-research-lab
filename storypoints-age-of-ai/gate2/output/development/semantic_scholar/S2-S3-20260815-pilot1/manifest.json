@@ -1,0 +1,32 @@
+{
+  "complete_pagination": true,
+  "endpoint": "https://api.semanticscholar.org/graph/v1/paper/search/bulk",
+  "executed_at_utc": "2026-08-15T08:35:49.753922+00:00",
+  "from_date": "2019-01-01",
+  "interpretation_boundary": "Open-index development discovery export; not frozen, screened, deduplicated, eligible, or a PRISMA corpus.",
+  "max_pages": 1,
+  "page_size": 100,
+  "pages": [
+    {
+      "file": "page_00000.json",
+      "records": 0,
+      "request_url_sha256": "1f1784a0e540908d624420bc934c890eb3b2639a413c163ebcc311418d119dd7",
+      "sequence": 0,
+      "sha256": "97ddb4857bd7650d8d6acd235e60de41afed2fc2051a990fe4f88fab4c9bd4c2"
+    }
+  ],
+  "query": "story points software effort estimation large language models generative AI",
+  "query_id": "S2-S3",
+  "query_registry_sha256": "f7357f76416890262b2d2a620ca7fcf7044316f15106c43cdcf912001534f557",
+  "query_sha256": "e661528e9c311e82c990bd7f36dee8701dff4e69662917be1c436cbb0fdbc02f",
+  "records_csv": {
+    "file": "records.csv",
+    "sha256": "df51c762f362c6bf3032de5937b5bce9a31f15c8682ffece731a07d2790059a9"
+  },
+  "records_retrieved": 0,
+  "retrieval_scope": "complete",
+  "source": "semantic_scholar",
+  "status": "development_pilot",
+  "to_date": "2026-08-15",
+  "total_reported": 0
+}

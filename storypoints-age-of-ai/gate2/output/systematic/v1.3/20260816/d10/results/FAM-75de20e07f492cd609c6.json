@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 316487,
+      "content_type": "application/pdf",
+      "final_url": "https://ijaibdcms.org/index.php/ijaibdcms/article/download/577/566",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "c0ac42b8677d1cce5d9c907d847e20072fdc86fa293802cb502bf9de4c5092b8",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://ijaibdcms.org/index.php/ijaibdcms/article/download/577/566"
+    }
+  ],
+  "bytes": 316487,
+  "family_id": "FAM-75de20e07f492cd609c6",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-75de20e07f492cd609c6.pdf",
+  "pdf_sha256": "c0ac42b8677d1cce5d9c907d847e20072fdc86fa293802cb502bf9de4c5092b8",
+  "representative_canonical_id": "CAN-357037b56c48adcbebda",
+  "retrieved_url": "https://ijaibdcms.org/index.php/ijaibdcms/article/download/577/566",
+  "status": "retrieved_open"
+}

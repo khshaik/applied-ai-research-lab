@@ -1,0 +1,14 @@
+{
+  "status": "development_decision_reuse_record",
+  "source": "semantic_scholar",
+  "query_id": "S2-S4R5",
+  "family_id": "S4",
+  "from_registry_version": "0.5",
+  "to_registry_version": "0.6",
+  "query_text_unchanged": true,
+  "export_unchanged": true,
+  "sample_positions_unchanged": true,
+  "decisions_file": "S2-S4R5-20260815-decisions-v1.json",
+  "reason": "Registry v0.6 changes only the OpenAlex execution mode and source-specific sentinel set. The Semantic Scholar query, export, population, deterministic sample, and relevance criteria are byte-for-byte unchanged; only sentinel identifiers were source-qualified in the recomputed result.",
+  "interpretation_boundary": "Developmental query-appraisal reuse only; not screening or eligibility decision reuse."
+}

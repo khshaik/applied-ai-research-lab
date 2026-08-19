@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0.0",
+  "metadata": {
+    "review_id": "HADR-GATE2",
+    "protocol_version": "1.1",
+    "review_design": "ai_assisted_systematic_evidence_map_open_indexes",
+    "evidence_coverage": "access_constrained",
+    "search_cutoff_date": null,
+    "status": "template_no_study_decisions",
+    "accountable_author_ids": ["AUTHOR-ID-PENDING"],
+    "search_completion": {
+      "systematic_searches_complete": false,
+      "update_search_complete": false
+    },
+    "coverage_contract": {
+      "required_search_family_ids": [],
+      "required_source_ids": [],
+      "required_search_pairs": [],
+      "approved_unavailable_sources": []
+    },
+    "novelty_claim_contract": {
+      "allowed_statement": "No substantively duplicative framework was identified within the predeclared open scholarly indexes, repositories, and citation networks searched through the stated cutoff date.",
+      "reported_statement": null,
+      "prohibited_unbounded_claims": [
+        "No prior research exists.",
+        "All relevant literature was searched."
+      ]
+    },
+    "notice": "Empty operational template. It contains no search result, screening decision, inclusion decision, or PRISMA count."
+  },
+  "search_runs": [],
+  "records": [],
+  "deduplication_decisions": [],
+  "agent_screenings": [],
+  "adjudications": [],
+  "study_families": [],
+  "citation_chases": [],
+  "quality_appraisals": [],
+  "extractions": [],
+  "citation_confirmations": [],
+  "prisma_events": []
+}

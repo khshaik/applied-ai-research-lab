@@ -1,0 +1,68 @@
+{
+  "complete_pagination": true,
+  "endpoint": "https://api.openalex.org/works",
+  "executed_at_utc": "2026-08-15T15:03:23.812637+00:00",
+  "from_date": "2019-01-01",
+  "interpretation_boundary": "Open-index development discovery export; not frozen, screened, deduplicated, eligible, or a PRISMA corpus.",
+  "max_pages": null,
+  "page_size": 100,
+  "pages": [
+    {
+      "file": "page_00000.json",
+      "records": 100,
+      "request_url_sha256": "ad195975ffd03fc52767fe9f93dd067354bb95098272368e5695354ffef62f1b",
+      "sequence": 0,
+      "sha256": "193dd3be0ae0ca9fb9179d6e760d4211fc7c96594120c92a7c59b624207a1214"
+    },
+    {
+      "file": "page_00001.json",
+      "records": 100,
+      "request_url_sha256": "4a06b1082f00a740c6bdf9551541cd1a4dc2b3bfb94e97e735248ec06553edf1",
+      "sequence": 1,
+      "sha256": "420f8451d0625e72aa37997f46a70480a1cc23805ed4937fe5074d17bdb32528"
+    },
+    {
+      "file": "page_00002.json",
+      "records": 100,
+      "request_url_sha256": "4baf90fbf0c85907ee3bb2400cde74fd9dd73244f7dbe7392ed4b0788dcdc836",
+      "sequence": 2,
+      "sha256": "0116546ee07cf1acb03ce68cf1ae7ee9a6a031a1d44714b1505119444a114e8a"
+    },
+    {
+      "file": "page_00003.json",
+      "records": 100,
+      "request_url_sha256": "70b3ca714a026f390238c3c23ae4f744e0ffc2957405fab5b119a5202099d408",
+      "sequence": 3,
+      "sha256": "891fed359b68287dda384d18adb54f2b740532c1b4056ab4602ef9b5d54178ad"
+    },
+    {
+      "file": "page_00004.json",
+      "records": 100,
+      "request_url_sha256": "41c9509cceb7dd455c4dcee473d17597b41cd223723d2c9a627612f534523a91",
+      "sequence": 4,
+      "sha256": "433eab8ba3ba910f9ec57e5eb7fea844d5e61881cbfb5bf2c6474cd8020efb33"
+    },
+    {
+      "file": "page_00005.json",
+      "records": 64,
+      "request_url_sha256": "9b44c12bb1b2fec26cef6ee45a9bd5e6bb6d4283069153dd88baa343358f1138",
+      "sequence": 5,
+      "sha256": "2105379362e7f3ed22ef8b8c9d6fbafe1b18ec3a42e17848cb68c467642d5770"
+    }
+  ],
+  "query": "(\"large language model\" OR LLM OR Copilot) AND (\"code review\" OR \"validating and repairing\") AND (developer OR human OR cognitive OR workload OR attention OR time OR effort OR trust)",
+  "query_id": "OA-S4R6",
+  "query_mode": "title_abstract_filter",
+  "query_registry_sha256": "690c570de9a5af1b5467fc8b70de9d1571bb0067c9b5ac46e6721ff12a322bb6",
+  "query_sha256": "d1d4822cf23007d7895c73e6328f79111cd56323835e104b86f67a04ab97e3d7",
+  "records_csv": {
+    "file": "records.csv",
+    "sha256": "73bd69f0a3da337f3e1ca489f84985faa653dc5cbf0ce054b613e84068a4ddf2"
+  },
+  "records_retrieved": 564,
+  "retrieval_scope": "complete",
+  "source": "openalex",
+  "status": "development_pilot",
+  "to_date": "2026-08-15",
+  "total_reported": 564
+}

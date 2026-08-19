@@ -1,0 +1,21 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:02:28.653623Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html",
+      "final_url": "https://mdsoar.org/handle/11603/40770",
+      "http_status": 400,
+      "outcome": "http_failure",
+      "url": "http://hdl.handle.net/11603/40770"
+    }
+  ],
+  "bytes": 0,
+  "family_id": "FAM-12df79453c992f7f9652",
+  "lawful_access_basis": null,
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "representative_canonical_id": "CAN-7581a31626be4b11184d",
+  "retrieved_url": null,
+  "status": "lawful_full_text_not_retrieved"
+}

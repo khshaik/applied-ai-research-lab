@@ -1,0 +1,34 @@
+{
+  "manifest_version": "1.1.0",
+  "protocol_version": "1.3",
+  "status": "prefreeze_reconciled_awaiting_D03_approval",
+  "hash_algorithm": "sha256",
+  "artifacts": [
+    {
+      "role": "screening_prompt_a",
+      "version": "screening-agent-a/1.1.0",
+      "path": "evidence_review/prompts/screening_agent_a_v1.1.0.md",
+      "sha256": "2c48dbbc6b06ec0dbd71394a324ea680cb9b0edf90fcf14bb6882c920d36c607"
+    },
+    {
+      "role": "screening_prompt_b",
+      "version": "screening-agent-b/1.1.0",
+      "path": "evidence_review/prompts/screening_agent_b_v1.1.0.md",
+      "sha256": "d7f58147ecbbbeab8a0e37ae28f7a7edef546cf280e0b1ec34e84d975c3a1d4e"
+    },
+    {
+      "role": "adjudicator_prompt",
+      "version": "screening-adjudicator/1.1.0",
+      "path": "evidence_review/prompts/adjudicator_v1.1.0.md",
+      "sha256": "35647badaa02771a21a4e9b4dcf63acdd71db0d8d8642474958d90760bb30d9b"
+    }
+  ],
+  "screening_contract": {
+    "two_isolated_passes": true,
+    "byte_identical_input_required": true,
+    "distinct_agent_and_context_ids": true,
+    "separate_adjudication": true,
+    "agent_concordance_is_not_human_inter_rater_reliability": true,
+    "accountable_author_material_citation_confirmation_required": true
+  }
+}

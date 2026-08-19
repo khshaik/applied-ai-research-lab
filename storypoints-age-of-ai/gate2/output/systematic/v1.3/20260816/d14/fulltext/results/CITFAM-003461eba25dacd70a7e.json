@@ -1,0 +1,37 @@
+{
+  "attempts": [
+    {
+      "active_indicators": [
+        "/JS",
+        "/OpenAction",
+        "/AA"
+      ],
+      "attempted_at_utc": "2026-08-18T09:49:56.842781Z",
+      "basis": "frozen_openalex_primary_oa_pdf",
+      "bytes": 2123063,
+      "final_url": "https://dl.acm.org/doi/pdf/10.1145/3643674",
+      "quarantine_path": "/Users/81194246/Library/CloudStorage/OneDrive-Pepsico/Personal/AI/Projects/ThinkAI/storypoints-age-of-ai/gate2/output/systematic/v1.3/20260816/d14/fulltext/quarantine/CITFAM-003461eba25dacd70a7e.pdf",
+      "redirect_count": 0,
+      "sha256": "519d1b5b660f0b23ef24f1f601a61472776de0c79b54fe9b4829d5e64adc3045",
+      "status": "quarantined_active_content"
+    }
+  ],
+  "bytes": 2123063,
+  "citation_family_id": "CITFAM-003461eba25dacd70a7e",
+  "pdf_path": null,
+  "pdf_sha256": "519d1b5b660f0b23ef24f1f601a61472776de0c79b54fe9b4829d5e64adc3045",
+  "quarantine_reassessments": [
+    {
+      "detector_version": "d14-secure-fulltext/1.1.0",
+      "exact_active_indicators": [
+        "/S /URI"
+      ],
+      "original_quarantine_sha256": "519d1b5b660f0b23ef24f1f601a61472776de0c79b54fe9b4829d5e64adc3045",
+      "outcome": "retained_quarantine",
+      "previous_status": "quarantined_active_content",
+      "reassessed_at_utc": "2026-08-18T09:52:00.163477Z"
+    }
+  ],
+  "security_attestation": "Static HTTPS retrieval only; public-IP validation, bounded redirects/size, signature and active-content checks; no PDF execution.",
+  "status": "quarantined_active_content"
+}

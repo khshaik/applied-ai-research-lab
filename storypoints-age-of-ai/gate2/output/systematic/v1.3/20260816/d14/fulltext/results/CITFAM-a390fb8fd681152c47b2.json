@@ -1,0 +1,23 @@
+{
+  "attempts": [
+    {
+      "active_indicators": [
+        "/S /URI"
+      ],
+      "attempted_at_utc": "2026-08-19T08:49:02.122276Z",
+      "basis": "live_openalex_best_oa_location_oa_pdf",
+      "bytes": 962780,
+      "final_url": "https://sol.sbc.org.br/index.php/sbes/article/download/37010/36795",
+      "quarantine_path": "/Users/81194246/Library/CloudStorage/OneDrive-Pepsico/Personal/AI/Projects/ThinkAI/storypoints-age-of-ai/gate2/output/systematic/v1.3/20260816/d14/fulltext/quarantine/CITFAM-a390fb8fd681152c47b2.pdf",
+      "redirect_count": 0,
+      "sha256": "b28ed2174112c7ff809707feeedb7563315a8b293aa034d13ada0ac0089d351c",
+      "status": "quarantined_active_content"
+    }
+  ],
+  "bytes": 962780,
+  "citation_family_id": "CITFAM-a390fb8fd681152c47b2",
+  "pdf_path": null,
+  "pdf_sha256": "b28ed2174112c7ff809707feeedb7563315a8b293aa034d13ada0ac0089d351c",
+  "security_attestation": "Static HTTPS retrieval only; public-IP validation, bounded redirects/size, signature and active-content checks; no PDF execution.",
+  "status": "quarantined_active_content"
+}

@@ -1,0 +1,41 @@
+{
+  "attempts": [
+    {
+      "basis": "semantic_scholar_open_access_pdf",
+      "bytes": 413982,
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://erepo.uef.fi/items/1def5b28-c32e-4aee-a941-a34bd22c6410",
+      "http_status": 200,
+      "outcome": "not_a_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://erepo.uef.fi/handle/123456789/7828"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:16:46.211497Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.semanticscholar.org/paper/07c0d04636110f53d535d382a1d8d48000bc84b8",
+      "http_status": 202,
+      "outcome": "http_failure",
+      "url": "https://www.semanticscholar.org/paper/07c0d04636110f53d535d382a1d8d48000bc84b8"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:21:32.534953Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.semanticscholar.org/paper/07c0d04636110f53d535d382a1d8d48000bc84b8",
+      "http_status": 202,
+      "outcome": "http_failure",
+      "url": "https://www.semanticscholar.org/paper/07c0d04636110f53d535d382a1d8d48000bc84b8"
+    }
+  ],
+  "bytes": 0,
+  "family_id": "FAM-e877d0d14e0c2b407fed",
+  "lawful_access_basis": null,
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "representative_canonical_id": "CAN-fe4465a376d2bd755dfe",
+  "retrieved_url": null,
+  "status": "lawful_full_text_not_retrieved"
+}

@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 81276,
+      "content_type": "application/pdf",
+      "final_url": "https://public-pages-files-2025.frontiersin.org/journals/computer-science/articles/10.3389/fcomp.2025.1760117/pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "8d530d03bb1da286a9de18b7586a30d3e8ce299b4fbbba97363a0725c2bbfaa0",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://public-pages-files-2025.frontiersin.org/journals/computer-science/articles/10.3389/fcomp.2025.1760117/pdf"
+    }
+  ],
+  "bytes": 81276,
+  "family_id": "FAM-b1b3687a98e0f021d858",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-b1b3687a98e0f021d858.pdf",
+  "pdf_sha256": "8d530d03bb1da286a9de18b7586a30d3e8ce299b4fbbba97363a0725c2bbfaa0",
+  "representative_canonical_id": "CAN-0b39e3560c097c7ed1c8",
+  "retrieved_url": "https://public-pages-files-2025.frontiersin.org/journals/computer-science/articles/10.3389/fcomp.2025.1760117/pdf",
+  "status": "retrieved_open"
+}

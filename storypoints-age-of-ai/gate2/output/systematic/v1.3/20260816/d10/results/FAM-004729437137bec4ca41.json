@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 537323,
+      "content_type": "application/pdf;charset=UTF-8",
+      "final_url": "https://scholarspace.manoa.hawaii.edu/server/api/core/bitstreams/ec51f137-8f73-476f-98cd-d8027d6fc745/content",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "e637259243736b6529335b655d846e59bacea41481216a9b2f5d2898060218c0",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://scholarspace.manoa.hawaii.edu/bitstreams/ec51f137-8f73-476f-98cd-d8027d6fc745/download"
+    }
+  ],
+  "bytes": 537323,
+  "family_id": "FAM-004729437137bec4ca41",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-004729437137bec4ca41.pdf",
+  "pdf_sha256": "e637259243736b6529335b655d846e59bacea41481216a9b2f5d2898060218c0",
+  "representative_canonical_id": "CAN-96ce5e2cd79fbcb8e0b1",
+  "retrieved_url": "https://scholarspace.manoa.hawaii.edu/server/api/core/bitstreams/ec51f137-8f73-476f-98cd-d8027d6fc745/content",
+  "status": "retrieved_open"
+}

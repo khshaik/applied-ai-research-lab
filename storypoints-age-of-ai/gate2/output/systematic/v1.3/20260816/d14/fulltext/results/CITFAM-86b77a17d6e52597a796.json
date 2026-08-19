@@ -1,0 +1,18 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-19T10:50:34.980133Z",
+      "basis": "semantic_scholar_explicit_openAccessPdf",
+      "bytes": 658421,
+      "final_url": "https://link.springer.com/article/10.1007/s10462-026-11571-0?error=cookies_not_supported&code=f43e765e-d1aa-4074-9d2b-abbcab49b1c4",
+      "redirect_count": 5,
+      "status": "invalid_pdf_signature"
+    }
+  ],
+  "bytes": 0,
+  "citation_family_id": "CITFAM-86b77a17d6e52597a796",
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "security_attestation": "Static HTTPS retrieval only; public-IP validation, bounded redirects/size, signature and active-content checks; no PDF execution.",
+  "status": "invalid_pdf_signature"
+}

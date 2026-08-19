@@ -1,0 +1,25 @@
+{
+  "family_count": 11,
+  "pipeline_version": "d14-new-fulltext-retrieval/1.0.0",
+  "result_counts": {
+    "network_or_policy_failure": 1,
+    "no_lawful_pdf_route": 1,
+    "quarantined_active_content": 9
+  },
+  "result_hashes": {
+    "CITFAM-1be0d40f92893aef4d5c.json": "c8feec9646191a2c23d762d27e8f03161c1543e11916f23202c62af597b9293b",
+    "CITFAM-29b14b2fd87d21f17854.json": "cd75edf04fdef0a80e16d70bb61dc2b9bd96b7078554a1e608cd7d892eeeb86d",
+    "CITFAM-4e9ecb5737ccced54d2c.json": "b361badf27e5f352d60367bf738980775098ee4998313598e8819e4fa9e99d13",
+    "CITFAM-750d5431a62b74059fcc.json": "c15df1fa184440ca6122cc3176b3a5ad66d3e016fbcc91e13091b994d55206cf",
+    "CITFAM-76f00b127beef9929e56.json": "923bc720d86876c7c26af27d3297e7e89448fe7953bedf92389b518b9d7e54fe",
+    "CITFAM-8f5dd145ce786a3f40b5.json": "754e022520ff91c028b77e0b8efc474df9d7d57aa80268b2d780af9914c96f77",
+    "CITFAM-a313c1ff58e1966d7376.json": "0e25dd9442be833905609f3925ea276d53b1ca25ff5f6d7a833c8a092f987d6c",
+    "CITFAM-a83d65ee9bb0cb43e78b.json": "cd2730153ff1ae1c6ea44ec5d9efe92c8d53b31e494e1fc65c863a10debf6e78",
+    "CITFAM-e6318ac502dbcbdbe629.json": "e757b2dacaad6412ea24d99360d1e6c58549f6c815b5df204025b04035fa3ee0",
+    "CITFAM-f902aa05a71082dc84a3.json": "453a15d3a713cc28532263e2253e0c0aa85992f8005abd2a853eafe02f057a16",
+    "CITFAM-ff539b6942cd0a8bc75c.json": "904af7ac97bc52e060d16df4514013fe0aad89f654d57cfd09b4280c5679712e"
+  },
+  "routes_manifest_sha256": "aacf16cfb9b3819ed6c03b38ada42c911bad541fcd6e11afdb71999e864b5e76",
+  "security_boundary": "Public HTTPS only; public-IP validation, bounded redirects/size, PDF signature and active-content quarantine; no authentication, paywall bypass, secrets, Git/history, or PDF execution.",
+  "status": "d14_new_fulltext_retrieval_complete"
+}

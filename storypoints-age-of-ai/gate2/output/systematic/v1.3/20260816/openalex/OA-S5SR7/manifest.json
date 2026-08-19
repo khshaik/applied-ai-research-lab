@@ -1,0 +1,40 @@
+{
+  "acceptance_matrix_row_sha256": "7da4411a23978e2daa81d06a11ad9d9af1b6a54f9effabda8e487bd40c90ef2c",
+  "authentication": {
+    "credential_logged": false,
+    "method": "api_key_environment"
+  },
+  "complete_pagination": true,
+  "endpoint": "https://api.openalex.org/works",
+  "executed_at_utc": "2026-08-16T09:08:25.741015+00:00",
+  "freeze_package_sha256": "fa9800da881c2590a3261861fa6e1de5d6a3c349687ef320b43057561be8730d",
+  "from_date": "2019-01-01",
+  "interpretation_boundary": "Frozen systematic discovery export; not yet screened, deduplicated, eligible, or a PRISMA inclusion count.",
+  "max_pages": null,
+  "page_size": 200,
+  "pages": [
+    {
+      "file": "page_00000.json",
+      "records": 19,
+      "request_url_sha256": "27e091bc6bbeaa07e51bc1ea71038eae940e640920cd9974fa6a33319d6308e6",
+      "sequence": 0,
+      "sha256": "97e5537a645cb1ec5054fb325057a56a56a3988b16effba1db34d9cbf5759065"
+    }
+  ],
+  "query": "(\"large language model\" OR ChatGPT OR Gemini) AND (\"software security\" OR \"secure software development\" OR \"vulnerability patching\" OR \"AI code generation\") AND (\"human study\" OR interview OR \"developer experience\" OR \"software professionals\" OR \"human expertise\" OR \"human validation\")",
+  "query_id": "OA-S5SR7",
+  "query_mode": "title_abstract_filter",
+  "query_registry_sha256": "11086fc5e02f3ff9b220bb23c30b66ff5d998c69f7386990038e15e134d051a7",
+  "query_sha256": "57431c60c1952763839f0a159e7ef4a079908a6fb004c8a706dd6ec5b7cb6940",
+  "records_csv": {
+    "file": "records.csv",
+    "sha256": "c6de5efc7b1451becab349d31cde9aa23dc28b878e4ca5d06467b1247dcc6a8b"
+  },
+  "records_retrieved": 19,
+  "result_sort": "",
+  "retrieval_scope": "complete_systematic",
+  "source": "openalex",
+  "status": "systematic_frozen",
+  "to_date": "2026-08-16",
+  "total_reported": 19
+}

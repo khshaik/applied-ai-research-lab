@@ -1,0 +1,118 @@
+{
+  "acceptance_matrix_row_sha256": "e7d86cf9e636b629852b4d5ce6a9879c303649e59b8da6e0ff8c889242aa0f49",
+  "complete_pagination": true,
+  "endpoint": "https://export.arxiv.org/api/query",
+  "executed_at_utc": "2026-08-16T08:33:06.080141+00:00",
+  "freeze_package_sha256": "fa9800da881c2590a3261861fa6e1de5d6a3c349687ef320b43057561be8730d",
+  "from_date": "2019-01-01",
+  "interpretation_boundary": "Frozen systematic discovery export; not yet screened, deduplicated, eligible, or a PRISMA inclusion count.",
+  "page_size": 100,
+  "pages": [
+    {
+      "file": "page_0000000.atom",
+      "records": 100,
+      "sha256": "6dd560f3a923887af1127811411088fcff867ffb8558e75c5d883f6fc4a7e36b",
+      "start": 0
+    },
+    {
+      "file": "page_0000100.atom",
+      "records": 100,
+      "sha256": "b230738bafe20ca44a53fb1de23027e821f8c87c66ad41d8b62a525ca5a41b8c",
+      "start": 100
+    },
+    {
+      "file": "page_0000200.atom",
+      "records": 100,
+      "sha256": "bf4db07f7910bd68bb6834e32008bf106cbfdc36fd928b932773280456686965",
+      "start": 200
+    },
+    {
+      "file": "page_0000300.atom",
+      "records": 100,
+      "sha256": "7897f53a5b77f59243e2937957dd1c8116ec146a835d25a271cacc05f8a49539",
+      "start": 300
+    },
+    {
+      "file": "page_0000400.atom",
+      "records": 100,
+      "sha256": "15d324d96d637fff06edd3b91a27750d631e9da78f35f2cc3f89a5cf2bcf576e",
+      "start": 400
+    },
+    {
+      "file": "page_0000500.atom",
+      "records": 100,
+      "sha256": "50031605fefb43acbaa148848093fad94eae1ce9d3c86a0359ab8719f3974dfe",
+      "start": 500
+    },
+    {
+      "file": "page_0000600.atom",
+      "records": 100,
+      "sha256": "d499ef66866fe209aac9aa1da633b51659645f061f8d4c31fd551b5c1f1b15f0",
+      "start": 600
+    },
+    {
+      "file": "page_0000700.atom",
+      "records": 100,
+      "sha256": "9fc4cff912c328b655ba0ddc39f68bda40ac8d0e4efb5cd028a1f8c47b6e73c8",
+      "start": 700
+    },
+    {
+      "file": "page_0000800.atom",
+      "records": 100,
+      "sha256": "82b09bf2387b0be2dcadd8d1b5a55d26d527d3502d87f1be7a4bc1d2f12e5be7",
+      "start": 800
+    },
+    {
+      "file": "page_0000900.atom",
+      "records": 100,
+      "sha256": "ce811921a6e1feb93146bf92c228d776de9dd7d3a9cfcd054d336c8700f3326f",
+      "start": 900
+    },
+    {
+      "file": "page_0001000.atom",
+      "records": 100,
+      "sha256": "3641b2581a77c5a2cdf6dc82336b5ea47cebfe54dc7c980779f36745d3b4e827",
+      "start": 1000
+    },
+    {
+      "file": "page_0001100.atom",
+      "records": 100,
+      "sha256": "fde3fbce1fa18cf82f6b14f76091e4ba266a43b49efaf97742d59417c7ea0c4e",
+      "start": 1100
+    },
+    {
+      "file": "page_0001200.atom",
+      "records": 100,
+      "sha256": "8d12ec4b431ec667609b9800a1c6cb68505894354b4a5961a19e27a61707dd83",
+      "start": 1200
+    },
+    {
+      "file": "page_0001300.atom",
+      "records": 33,
+      "sha256": "9a2649c729ff73e06906fffa23fdc86adf6e7d684b6230f18af54c85e59e24ef",
+      "start": 1300
+    }
+  ],
+  "query": "(all:\"large language model\" OR all:\"AI-assisted\" OR all:\"AI coding assistant\" OR all:\"coding agent\") AND (all:\"software security\" OR all:\"secure coding\" OR all:vulnerability OR all:\"security review\") AND (all:human OR all:oversight OR all:verification OR all:validation OR all:review)",
+  "query_id": "AX-S5S",
+  "query_registry_sha256": "52df3531cca91c26541ce4a2e85a1a7d646c85ace7ba17a0b340495d9fa35b0e",
+  "query_sha256": "573203e741d878a3f485df6d8a535b1a47aedf73055b6035f0ee8a356a39f9d7",
+  "records_csv": {
+    "file": "records.csv",
+    "sha256": "4543e4f9002f3afd5f82e96b1344efa75a9eac189ab6530220e2a4ab3910ef20"
+  },
+  "records_retrieved": 1333,
+  "retrieval_scope": "complete_systematic",
+  "sentinel_checks": {
+    "2405.06371": true,
+    "2506.11022": true,
+    "2603.15298": true,
+    "2606.25973": true
+  },
+  "sentinel_recall_pass": true,
+  "sortBy": "submittedDate",
+  "sortOrder": "descending",
+  "status": "systematic_frozen",
+  "to_date": "2026-08-16",
+  "total_reported": 1333
+}

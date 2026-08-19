@@ -1,0 +1,47 @@
+{
+  "complete_pagination": true,
+  "endpoint": "https://export.arxiv.org/api/query",
+  "executed_at_utc": "2026-08-14T15:09:28.940771+00:00",
+  "interpretation_boundary": "Public arXiv query-development export; not frozen and not a PRISMA corpus.",
+  "page_size": 100,
+  "pages": [
+    {
+      "file": "page_0000000.atom",
+      "records": 100,
+      "sha256": "507f106f48b04ff949a60d5792801a49ed6249afbec618954486c2acaaaef5f4",
+      "start": 0
+    },
+    {
+      "file": "page_0000100.atom",
+      "records": 100,
+      "sha256": "004d37bb0cfdf7f2f0c2f2f3b0fb974bc382a672302f30cb34da61432672c528",
+      "start": 100
+    },
+    {
+      "file": "page_0000200.atom",
+      "records": 100,
+      "sha256": "0c6ad377054385796e315ad7a1c2b0c319909381d3e47b7578115dc09e943548",
+      "start": 200
+    },
+    {
+      "file": "page_0000300.atom",
+      "records": 94,
+      "sha256": "65aac642f773b044522dd102888ee5bb6420547380c89e0ea64e610bcaee8eec",
+      "start": 300
+    }
+  ],
+  "query": "(all:\"large language model\" OR all:\"AI-assisted\" OR all:\"AI coding assistant\" OR all:\"coding agent\") AND (all:\"software testing\" OR all:\"test generation\" OR all:\"unit testing\" OR all:\"integration testing\" OR all:\"quality assurance\") AND (all:human OR all:oversight OR all:verification OR all:validation OR all:effort)",
+  "query_id": "AX-S5T",
+  "query_sha256": "1c8833980d0cdd902b9d1bd65aa092983c04b753d1835f52a863159c4f262111",
+  "records_csv": {
+    "file": "records.csv",
+    "sha256": "863b0793190bf6ecef0456ac128a60aa77df1057f11138bfc5bb985df9a626a3"
+  },
+  "records_retrieved": 394,
+  "sentinel_checks": {},
+  "sentinel_recall_pass": true,
+  "sortBy": "submittedDate",
+  "sortOrder": "descending",
+  "status": "development_pilot",
+  "total_reported": 394
+}

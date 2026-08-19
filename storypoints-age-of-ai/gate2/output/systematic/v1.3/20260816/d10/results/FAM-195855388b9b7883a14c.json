@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 346950,
+      "content_type": "application/pdf",
+      "final_url": "https://tijer.org/jnrid/papers/JNRID2606035.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "29954f9e112a84a44ffcffac8e93770b6b849d9e0afaa15f4bb8d0eadb8a384f",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://tijer.org/jnrid/papers/JNRID2606035.pdf"
+    }
+  ],
+  "bytes": 346950,
+  "family_id": "FAM-195855388b9b7883a14c",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-195855388b9b7883a14c.pdf",
+  "pdf_sha256": "29954f9e112a84a44ffcffac8e93770b6b849d9e0afaa15f4bb8d0eadb8a384f",
+  "representative_canonical_id": "CAN-bb4799d444d274ce6ede",
+  "retrieved_url": "https://tijer.org/jnrid/papers/JNRID2606035.pdf",
+  "status": "retrieved_open"
+}

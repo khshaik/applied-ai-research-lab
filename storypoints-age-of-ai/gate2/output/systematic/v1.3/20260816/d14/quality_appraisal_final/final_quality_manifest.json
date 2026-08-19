@@ -1,0 +1,39 @@
+{
+  "adjudicated_count": 211,
+  "adjudication": {
+    "bands": {
+      "high": 20,
+      "low_contextual": 71,
+      "moderate": 120
+    },
+    "family_count": 211,
+    "forms": {
+      "conceptual_framework": 8,
+      "qualitative": 12,
+      "quantitative_mixed": 172,
+      "secondary_review": 19
+    },
+    "sha256": "587f0af8cacaa9cf9aefe6485def11f9efca771d9cd81b05adccc71d7a4ce8ad",
+    "status": "valid_complete_quality_adjudication"
+  },
+  "bands": {
+    "high": 20,
+    "low_contextual": 71,
+    "moderate": 121
+  },
+  "consensus_count": 1,
+  "critical_flaw_count": 3,
+  "family_count": 212,
+  "final_ledger_sha256": "3b0b2ae62a90f8a92cdef87a7fc96776d820691c53e8a770eced2e49372f0a64",
+  "forms": {
+    "conceptual_framework": 8,
+    "qualitative": 12,
+    "quantitative_mixed": 173,
+    "secondary_review": 19
+  },
+  "interpretation_boundary": "Quality bands weight evidence; they do not change eligibility or establish human cognitive-load validity.",
+  "pipeline_version": "d14-quality-finalize/1.0.0",
+  "protocol_version": "1.3",
+  "reconciliation_manifest_sha256": "4d9ce88cea97e00f814bc0e2de027a2d22a961121037c3eba022eeef57099c70",
+  "status": "d14_quality_appraisal_complete"
+}

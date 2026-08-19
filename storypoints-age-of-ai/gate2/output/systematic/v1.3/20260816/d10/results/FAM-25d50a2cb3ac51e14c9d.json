@@ -1,0 +1,40 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "error_type": "ConnectionError",
+      "outcome": "network_error",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://www.rebe.rau.ro/RePEc/rau/jisomg/SU26/JISOM-SU26-A16.pdf"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:03:20.541641Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://zenodo.org/records/21682075",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://doi.org/10.5281/zenodo.21682075"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:03:22.833221Z",
+      "basis": "citation_pdf_url_metadata",
+      "bytes": 1138087,
+      "content_type": "application/octet-stream, application/octet-stream",
+      "final_url": "https://zenodo.org/records/21682075/files/JISOM-SU26-A16.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "sha256": "c1bef991fdf1dbe1416c37577acfb2d4153bdc35640d5307378652dd768aaecf",
+      "url": "https://zenodo.org/records/21682075/files/JISOM-SU26-A16.pdf"
+    }
+  ],
+  "bytes": 1138087,
+  "family_id": "FAM-25d50a2cb3ac51e14c9d",
+  "lawful_access_basis": "citation_pdf_url_metadata",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-25d50a2cb3ac51e14c9d.pdf",
+  "pdf_sha256": "c1bef991fdf1dbe1416c37577acfb2d4153bdc35640d5307378652dd768aaecf",
+  "representative_canonical_id": "CAN-a142f4cdc190338d0646",
+  "retrieved_url": "https://zenodo.org/records/21682075/files/JISOM-SU26-A16.pdf",
+  "status": "retrieved_open"
+}

@@ -1,0 +1,30 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:16:21.550685Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://aaltodoc.aalto.fi/items/cf3f19e8-bc32-4902-9955-f38c6bbb7a1b",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://aaltodoc.aalto.fi/handle/123456789/144815"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:19:42.886516Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://aaltodoc.aalto.fi/items/cf3f19e8-bc32-4902-9955-f38c6bbb7a1b",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://aaltodoc.aalto.fi/handle/123456789/144815"
+    }
+  ],
+  "bytes": 0,
+  "family_id": "FAM-cef64bf60153f5c857d3",
+  "lawful_access_basis": null,
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "representative_canonical_id": "CAN-3e138680ad8e5a9759c2",
+  "retrieved_url": null,
+  "status": "lawful_full_text_not_retrieved"
+}

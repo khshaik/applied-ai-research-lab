@@ -1,0 +1,29 @@
+{
+  "status":"development_query_precision_decisions","family_id":"S7","source":"semantic_scholar","query_id":"S2-S7R4","query_version":"0.4",
+  "sampling_method":"full population in immutable records.csv order because the complete population is 19 records",
+  "sampling_seed_sha256":"b8c0e3377b7442e1603ecbbd92e04431417bc90851510e6f9c403b811141b003",
+  "sample_positions_zero_based":[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18],
+  "ordered_sample_source_ids":["06f96aa4b12ca7d174e50bb0cd0b9291e58b8315","0822c4a06481a5271f9c19433a04b2b2abc5a0cb","20893752efce98b7c92ec5a2680deba8e38392c2","3be3bb86f9cc7b5959ec62500d52ebb0309df599","40a3c60cd09ca8f2b6635dc97f6251237ee7f8f4","40de9028bd1e0fed8793053acc77dd1b22637fb3","5a031f24656e300aa7faea4b3d0e3d34001bd7b9","68f972872c5db3964feb2cc07044162b78ea2bff","72b1a78ce2aed514d3eb38631582ee49474e5095","7f9e919bac8a957f6194b289e6449aa0bee06fd0","8f333232dc91f208b2944bbf5bc0be149cc2637e","95f13103c24320d52be41133c710c5b7a5453a51","cf25e9032f03687ecb5f720a6a1d1ef0982ed610","d380191ae6ec688d805ff2ce9ae21dbd8a2d5a7a","d9b76811554d174a5e14322f64688db61c41484f","dbcaadd40465f9872404557d4d4cc2423d0f52a7","e822c818d964e8825aa4b49410826f3ad3518d24","f3c4b9bb1ce83a6bbabcc5d46e0b23250dc4d969","f3e7ecd8f7c7c4d2d3aaacb8001c352dd5ddf10b"],
+  "interpretation_boundary":"Metadata-level S7 query-relevance appraisal only; not screening, eligibility, inclusion, quality, PRISMA, or a final novelty decision. ACEM is source-indexable through Semantic Scholar paper ID and exact normalized title although its record lacks a DOI.",
+  "decisions":[
+    {"source_id":"06f96aa4b12ca7d174e50bb0cd0b9291e58b8315","decision":"likely_relevant","reason":"Registered empirical HIE predecessor."},
+    {"source_id":"0822c4a06481a5271f9c19433a04b2b2abc5a0cb","decision":"likely_relevant","reason":"Direct LLM Story Point comparator."},
+    {"source_id":"20893752efce98b7c92ec5a2680deba8e38392c2","decision":"uncertain","reason":"Developer workflow/cognitive-overhead scope is close, but planning target is unclear."},
+    {"source_id":"3be3bb86f9cc7b5959ec62500d52ebb0309df599","decision":"uncertain","reason":"Copilot development overview may constrain premises but planning overlap is unclear."},
+    {"source_id":"40a3c60cd09ca8f2b6635dc97f6251237ee7f8f4","decision":"uncertain","reason":"Agent-era expertise framework may constrain human demand but lacks clear forecast use."},
+    {"source_id":"40de9028bd1e0fed8793053acc77dd1b22637fb3","decision":"likely_relevant","reason":"Registered human-AI delivery-orchestration predecessor."},
+    {"source_id":"5a031f24656e300aa7faea4b3d0e3d34001bd7b9","decision":"likely_irrelevant","reason":"Model-based systems engineering is outside software-delivery planning."},
+    {"source_id":"68f972872c5db3964feb2cc07044162b78ea2bff","decision":"likely_relevant","reason":"Registered Story Point counterexample/comparator."},
+    {"source_id":"72b1a78ce2aed514d3eb38631582ee49474e5095","decision":"likely_relevant","reason":"LLM optimization for Story Point estimation is a direct comparator."},
+    {"source_id":"7f9e919bac8a957f6194b289e6449aa0bee06fd0","decision":"likely_relevant","reason":"Registered conventional-effort counterexample/comparator."},
+    {"source_id":"8f333232dc91f208b2944bbf5bc0be149cc2637e","decision":"likely_relevant","reason":"Registered conceptual HIE/LLM-aware effort predecessor."},
+    {"source_id":"95f13103c24320d52be41133c710c5b7a5453a51","decision":"likely_relevant","reason":"Trustworthy LLM Story Point estimator is a direct comparator."},
+    {"source_id":"cf25e9032f03687ecb5f720a6a1d1ef0982ed610","decision":"likely_irrelevant","reason":"Industrial-equipment engineering intelligence is outside scope."},
+    {"source_id":"d380191ae6ec688d805ff2ce9ae21dbd8a2d5a7a","decision":"likely_irrelevant","reason":"Generic AIOps operations framework lacks VDCM planning overlap."},
+    {"source_id":"d9b76811554d174a5e14322f64688db61c41484f","decision":"likely_relevant","reason":"Registered Agile V lifecycle/gate predecessor."},
+    {"source_id":"dbcaadd40465f9872404557d4d4cc2423d0f52a7","decision":"likely_relevant","reason":"Direct LLM-based Story Point comparator."},
+    {"source_id":"e822c818d964e8825aa4b49410826f3ad3518d24","decision":"likely_irrelevant","reason":"Generic integrated engineering systems record lacks software-delivery scope."},
+    {"source_id":"f3c4b9bb1ce83a6bbabcc5d46e0b23250dc4d969","decision":"likely_relevant","reason":"Direct LLM-based agile Story Point comparator."},
+    {"source_id":"f3e7ecd8f7c7c4d2d3aaacb8001c352dd5ddf10b","decision":"likely_relevant","reason":"ACEM predecessor, matched by stable Semantic Scholar ID and exact normalized title because DOI metadata is absent."}
+  ]
+}

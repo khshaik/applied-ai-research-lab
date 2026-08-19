@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 1771798,
+      "content_type": "application/pdf;charset=UTF-8",
+      "final_url": "https://shareok.org/server/api/core/bitstreams/73e1a9ec-48d5-4e69-b1d8-753e27c352c5/content",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "1609ae3f4c11464b98cb0abe86073ffeaffeeeb20779dd383078b5d4f1463fca",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://shareok.org/bitstreams/73e1a9ec-48d5-4e69-b1d8-753e27c352c5/download"
+    }
+  ],
+  "bytes": 1771798,
+  "family_id": "FAM-e559bc1392c776b907f9",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-e559bc1392c776b907f9.pdf",
+  "pdf_sha256": "1609ae3f4c11464b98cb0abe86073ffeaffeeeb20779dd383078b5d4f1463fca",
+  "representative_canonical_id": "CAN-73551e3e604718408ef3",
+  "retrieved_url": "https://shareok.org/server/api/core/bitstreams/73e1a9ec-48d5-4e69-b1d8-753e27c352c5/content",
+  "status": "retrieved_open"
+}

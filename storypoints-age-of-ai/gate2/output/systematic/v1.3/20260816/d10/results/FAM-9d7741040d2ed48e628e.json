@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 1443369,
+      "content_type": "application/pdf",
+      "final_url": "https://depot-e.uqtr.ca/id/eprint/12445/1/eprint12445.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "b0dce1866b841ceb829ee2149ac9d4b66693f58c0628957829d241facec088a5",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://depot-e.uqtr.ca/id/eprint/12445/1/eprint12445.pdf"
+    }
+  ],
+  "bytes": 1443369,
+  "family_id": "FAM-9d7741040d2ed48e628e",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-9d7741040d2ed48e628e.pdf",
+  "pdf_sha256": "b0dce1866b841ceb829ee2149ac9d4b66693f58c0628957829d241facec088a5",
+  "representative_canonical_id": "CAN-c33154318d04d344d5b4",
+  "retrieved_url": "https://depot-e.uqtr.ca/id/eprint/12445/1/eprint12445.pdf",
+  "status": "retrieved_open"
+}

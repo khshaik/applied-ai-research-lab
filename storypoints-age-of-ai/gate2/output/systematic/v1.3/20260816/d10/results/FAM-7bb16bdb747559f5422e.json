@@ -1,0 +1,31 @@
+{
+  "attempts": [
+    {
+      "basis": "semantic_scholar_open_access_pdf",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://ieeexplore.ieee.org/document/11421842/",
+      "http_status": 202,
+      "outcome": "http_failure",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://doi.org/10.1109/access.2026.3671204"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:08:06.392018Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.semanticscholar.org/paper/7f9e919bac8a957f6194b289e6449aa0bee06fd0",
+      "http_status": 202,
+      "outcome": "http_failure",
+      "url": "https://www.semanticscholar.org/paper/7f9e919bac8a957f6194b289e6449aa0bee06fd0"
+    }
+  ],
+  "bytes": 0,
+  "family_id": "FAM-7bb16bdb747559f5422e",
+  "lawful_access_basis": null,
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "representative_canonical_id": "CAN-6a92a09cf0788c064628",
+  "retrieved_url": null,
+  "status": "lawful_full_text_not_retrieved"
+}

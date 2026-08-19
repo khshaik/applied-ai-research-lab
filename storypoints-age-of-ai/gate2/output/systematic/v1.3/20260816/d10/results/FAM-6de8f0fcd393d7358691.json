@@ -1,0 +1,32 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:07:42.394755Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://zenodo.org/records/20528707",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://doi.org/10.5281/zenodo.20528706"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:07:44.221319Z",
+      "basis": "citation_pdf_url_metadata",
+      "bytes": 1532210,
+      "content_type": "application/octet-stream, application/octet-stream",
+      "final_url": "https://zenodo.org/records/20528707/files/Senyshyn_SciGlobTrans-IntegrProcSocProg-Kyiv-OctNov2025_pp89-91.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "sha256": "a2d73d7b837112f4b3af59f2bf3a5af97b03553d1fa068a82ed3d9d651366c5c",
+      "url": "https://zenodo.org/records/20528707/files/Senyshyn_SciGlobTrans-IntegrProcSocProg-Kyiv-OctNov2025_pp89-91.pdf"
+    }
+  ],
+  "bytes": 1532210,
+  "family_id": "FAM-6de8f0fcd393d7358691",
+  "lawful_access_basis": "citation_pdf_url_metadata",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-6de8f0fcd393d7358691.pdf",
+  "pdf_sha256": "a2d73d7b837112f4b3af59f2bf3a5af97b03553d1fa068a82ed3d9d651366c5c",
+  "representative_canonical_id": "CAN-5ad42023061991ccc445",
+  "retrieved_url": "https://zenodo.org/records/20528707/files/Senyshyn_SciGlobTrans-IntegrProcSocProg-Kyiv-OctNov2025_pp89-91.pdf",
+  "status": "retrieved_open"
+}

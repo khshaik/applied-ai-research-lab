@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 377330,
+      "content_type": "application/pdf",
+      "final_url": "https://aisel.aisnet.org/cgi/viewcontent.cgi?params=/context/ecis2026/article/1204/&path_info=1540_doc.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "a8eaf9c7cf74a714bdc6f85cfbe471b291f29b720e4b0f6974fa520e4eccdf53",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://aisel.aisnet.org/context/ecis2026/article/1204/viewcontent/1540_doc.pdf"
+    }
+  ],
+  "bytes": 377330,
+  "family_id": "FAM-88bfe7e947180ae42858",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-88bfe7e947180ae42858.pdf",
+  "pdf_sha256": "a8eaf9c7cf74a714bdc6f85cfbe471b291f29b720e4b0f6974fa520e4eccdf53",
+  "representative_canonical_id": "CAN-ed3c986ec832bd6b50f8",
+  "retrieved_url": "https://aisel.aisnet.org/cgi/viewcontent.cgi?params=/context/ecis2026/article/1204/&path_info=1540_doc.pdf",
+  "status": "retrieved_open"
+}

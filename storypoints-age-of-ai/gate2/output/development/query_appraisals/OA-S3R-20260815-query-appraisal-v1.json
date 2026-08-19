@@ -1,0 +1,186 @@
+{
+  "schema_version": "1.0.0",
+  "appraisal_id": "OA-S3R-20260815-query-appraisal-v1",
+  "status": "development_query_precision_appraisal",
+  "source": "openalex",
+  "query_id": "OA-S3R",
+  "family_id": "S3",
+  "query_purpose": "Identify LLM-, generative-AI-, or AI-assisted approaches to software effort or Story Point estimation and evidence about how AI changes estimation practice.",
+  "interpretation_boundary": "Query engineering from title and abstract only; not eligibility screening, study inclusion, evidence synthesis, or PRISMA input.",
+  "query_registry_sha256": "6a90831f08ea139bb7a043ac5281262c464a3830eafccb2bf2cef6223571dd9a",
+  "export": {
+    "path": "gate2/output/development/openalex/OA-S3R-20260815-pilot1",
+    "manifest_sha256": "1f707c9f920150ed8b69ee23964ab875053694baa002b6f75b817c83ee68f3a8",
+    "records_csv_sha256": "3c2dbfb64e35dc8348edc40d1a50332fc3b22f456e4a6a99cb50ab197e3dd9eb",
+    "records_retrieved": 100,
+    "total_reported_api_metadata": 134,
+    "complete_pagination": false,
+    "retrieval_scope": "truncated_development_pilot"
+  },
+  "selection": {
+    "rule_reference": "02_executable_search_appendix.md Section 4.2 boundary-coverage components",
+    "registry_minimum": 20,
+    "selected_count": 20,
+    "zero_based_positions": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99],
+    "method": "Preserve export order after exact source-ID deduplication; select first 10 and last 10 records.",
+    "raw_duplicate_source_id_count": 0,
+    "ordered_selected_source_ids_sha256": "e7abc2e0d1809f0f18c28964c77b45422d483418bdee91296a68fa8e0acc5a35",
+    "scope_note": "This bounded 20-record appraisal meets the executable registry minimum requested for OA-S3R. It does not satisfy the appendix's larger >=50 sample required to freeze a 51-1000-record query."
+  },
+  "decisions": [
+    {
+      "source_id": "https://openalex.org/W4400546330",
+      "decision": "likely_irrelevant",
+      "reason": "Title and abstract concern LLM-supported steelmaking process management, not software effort or Story Point estimation."
+    },
+    {
+      "source_id": "https://openalex.org/W4405697100",
+      "decision": "likely_relevant",
+      "reason": "Controlled experiment compares generative-AI-assisted Agile effort estimation with conventional planning methods."
+    },
+    {
+      "source_id": "https://openalex.org/W4405184842",
+      "decision": "likely_relevant",
+      "reason": "Evaluates pretrained embeddings including GPT-2 for software Story Point prediction against traditional estimation models."
+    },
+    {
+      "source_id": "https://openalex.org/W4405602165",
+      "decision": "likely_relevant",
+      "reason": "Directly applies BERT/LLM-derived models to Agile Story Point estimation and compares prediction error."
+    },
+    {
+      "source_id": "https://openalex.org/W4385329900",
+      "decision": "likely_irrelevant",
+      "reason": "AI-assisted estimation refers to nanoparticle delivery in pharmacokinetics, outside software engineering."
+    },
+    {
+      "source_id": "https://openalex.org/W7133949372",
+      "decision": "likely_relevant",
+      "reason": "Benchmarks LLM-based software effort and Story Point estimation, including human-AI interaction effects."
+    },
+    {
+      "source_id": "https://openalex.org/W4411449803",
+      "decision": "likely_irrelevant",
+      "reason": "Uses LLMs for bug localization; the title and abstract report no software effort-estimation purpose."
+    },
+    {
+      "source_id": "https://openalex.org/W4403620691",
+      "decision": "likely_irrelevant",
+      "reason": "Maps generative AI in requirements engineering but does not study effort estimation or Story Points."
+    },
+    {
+      "source_id": "https://openalex.org/W4411225568",
+      "decision": "likely_irrelevant",
+      "reason": "Studies GenAI support for general project-planning task performance, not software effort or Story Point estimation."
+    },
+    {
+      "source_id": "https://openalex.org/W4413036529",
+      "decision": "likely_irrelevant",
+      "reason": "Software effort estimation uses conventional stacking, SVM, random forest, and decision trees without LLM or GenAI assistance."
+    },
+    {
+      "source_id": "https://openalex.org/W4413643822",
+      "decision": "likely_irrelevant",
+      "reason": "Reviews AI integration in project coordination and open innovation, not software effort-estimation methods."
+    },
+    {
+      "source_id": "https://openalex.org/W7171187671",
+      "decision": "uncertain",
+      "reason": "Only the generic title 'Agile Software Development Status and Next Steps' is available; the missing abstract prevents an S3 determination."
+    },
+    {
+      "source_id": "https://openalex.org/W7125390566",
+      "decision": "likely_irrelevant",
+      "reason": "Title and abstract address machine-learning sentiment analysis of Twitter data, outside software effort estimation."
+    },
+    {
+      "source_id": "https://openalex.org/W4403145843",
+      "decision": "likely_irrelevant",
+      "reason": "Discusses AI and Agile project management broadly without an evaluated software effort or Story Point estimator."
+    },
+    {
+      "source_id": "https://openalex.org/W4410967228",
+      "decision": "likely_irrelevant",
+      "reason": "Reviews AI across organizational project management domains rather than software effort or Story Point estimation."
+    },
+    {
+      "source_id": "https://openalex.org/W7118175750",
+      "decision": "likely_irrelevant",
+      "reason": "Reviews AI trends in general project management and managerial competence, not software effort estimation."
+    },
+    {
+      "source_id": "https://openalex.org/W4409144533",
+      "decision": "likely_irrelevant",
+      "reason": "Machine-learning study of Devnagari sign-language recognition is outside software engineering estimation."
+    },
+    {
+      "source_id": "https://openalex.org/W4414849934",
+      "decision": "likely_irrelevant",
+      "reason": "Predicts software functional size with graph neural networks, but title and abstract contain no LLM or GenAI-assisted estimation."
+    },
+    {
+      "source_id": "https://openalex.org/W7169803268",
+      "decision": "likely_irrelevant",
+      "reason": "Proposes a classification distance metric unrelated to software effort, Story Points, or AI-assisted estimation."
+    },
+    {
+      "source_id": "https://openalex.org/W7128518772",
+      "decision": "likely_irrelevant",
+      "reason": "Classifies brain states from spectroscopy signals and has no software effort-estimation context."
+    }
+  ],
+  "category_counts": {
+    "likely_relevant": 4,
+    "likely_irrelevant": 15,
+    "uncertain": 1
+  },
+  "appendix_burden_estimate": {
+    "likely_relevant_plus_uncertain": 5,
+    "sample_size": 20,
+    "proportion": 0.25,
+    "wilson_95_interval": [0.11186170140766569, 0.468700877618744]
+  },
+  "noise_mechanisms": [
+    {
+      "mechanism": "non-software domain collision",
+      "count": 6
+    },
+    {
+      "mechanism": "generic AI project-management retrieval without software effort estimation",
+      "count": 5
+    },
+    {
+      "mechanism": "software-engineering topic without effort estimation",
+      "count": 2
+    },
+    {
+      "mechanism": "software estimation without LLM or generative-AI assistance",
+      "count": 2
+    }
+  ],
+  "validator_result": {
+    "status": "development_query_appraisal",
+    "complete_pagination": false,
+    "population_size_for_sample": 134,
+    "population_size_basis": "incomplete_export_reported_total_projection",
+    "required_sample_size_for_freeze": 50,
+    "development_diagnostic_minimum": 20,
+    "positive_sentinel_recall_pass": true,
+    "negative_boundary_pass": true,
+    "sample_size": 20,
+    "sample_minimum_met": false,
+    "sample_likely_relevant": 4,
+    "sample_decided": 19,
+    "sample_precision_point_estimate": 0.21052631578947367,
+    "sample_uncertain": 1,
+    "relevant_plus_uncertain_count": 5,
+    "relevant_plus_uncertain_proportion": 0.25,
+    "relevant_plus_uncertain_wilson_95_interval": [0.11186170140766569, 0.468700877618744],
+    "burden_acceptance_band": "operational_pass",
+    "development_diagnostic_pass": true,
+    "freeze_ready": false,
+    "query_appraisal_pass": false,
+    "query_appraisal_pass_deprecated_alias_for": "freeze_ready",
+    "interpretation_note": "The development diagnostic passes sentinel and 20-record checks. Freeze readiness fails because pagination is incomplete and the derived Appendix 4.2 requirement is 50 records."
+  }
+}

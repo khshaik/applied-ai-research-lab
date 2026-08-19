@@ -1,0 +1,42 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "content_type": "text/html",
+      "final_url": "https://www.zora.uzh.ch/id/eprint/197773/1/icse2013.pdf",
+      "http_status": 404,
+      "outcome": "http_failure",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://www.zora.uzh.ch/id/eprint/197773/1/icse2013.pdf"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:16:21.714383Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://zenodo.org/records/1401198",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://zenodo.org/record/1401198"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:16:23.524530Z",
+      "basis": "citation_pdf_url_metadata",
+      "bytes": 526615,
+      "content_type": "application/octet-stream, application/octet-stream",
+      "final_url": "https://zenodo.org/records/1401198/files/paper.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "sha256": "328720358c303075b6550363712615e89be9d6843f4d6c0cd3316fa66de20a6d",
+      "url": "https://zenodo.org/records/1401198/files/paper.pdf"
+    }
+  ],
+  "bytes": 526615,
+  "family_id": "FAM-cf8a7da8df49e07955cb",
+  "lawful_access_basis": "citation_pdf_url_metadata",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-cf8a7da8df49e07955cb.pdf",
+  "pdf_sha256": "328720358c303075b6550363712615e89be9d6843f4d6c0cd3316fa66de20a6d",
+  "representative_canonical_id": "CAN-40374b3fbea9cacb4d1b",
+  "retrieved_url": "https://zenodo.org/records/1401198/files/paper.pdf",
+  "status": "retrieved_open"
+}

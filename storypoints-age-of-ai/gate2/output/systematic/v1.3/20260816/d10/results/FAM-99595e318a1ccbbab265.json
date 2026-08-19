@@ -1,0 +1,32 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:11:48.698141Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://zenodo.org/records/19690873",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://doi.org/10.5281/zenodo.19690872"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:11:50.228567Z",
+      "basis": "citation_pdf_url_metadata",
+      "bytes": 319721,
+      "content_type": "application/octet-stream, application/octet-stream",
+      "final_url": "https://zenodo.org/records/19690873/files/Platform%20Engineering%20and%20Internal%20Developer%20Platforms%20Measuring%20Cognitive%20Load%20Reduction%20and%20Developer%20Productivity%20in%20Self-Service%20Infrastructure%20Models.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "sha256": "495ffffcfb7a637980db96e5cdc5c200422f1ea08d1da5021625eb78d229e525",
+      "url": "https://zenodo.org/records/19690873/files/Platform%20Engineering%20and%20Internal%20Developer%20Platforms%20Measuring%20Cognitive%20Load%20Reduction%20and%20Developer%20Productivity%20in%20Self-Service%20Infrastructure%20Models.pdf"
+    }
+  ],
+  "bytes": 319721,
+  "family_id": "FAM-99595e318a1ccbbab265",
+  "lawful_access_basis": "citation_pdf_url_metadata",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-99595e318a1ccbbab265.pdf",
+  "pdf_sha256": "495ffffcfb7a637980db96e5cdc5c200422f1ea08d1da5021625eb78d229e525",
+  "representative_canonical_id": "CAN-c840cd513469ddd8a82d",
+  "retrieved_url": "https://zenodo.org/records/19690873/files/Platform%20Engineering%20and%20Internal%20Developer%20Platforms%20Measuring%20Cognitive%20Load%20Reduction%20and%20Developer%20Productivity%20in%20Self-Service%20Infrastructure%20Models.pdf",
+  "status": "retrieved_open"
+}

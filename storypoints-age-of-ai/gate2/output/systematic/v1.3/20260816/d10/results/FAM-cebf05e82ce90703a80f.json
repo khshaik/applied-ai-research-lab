@@ -1,0 +1,32 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:16:21.353728Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://zenodo.org/records/19520945",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://doi.org/10.5281/zenodo.19520944"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:16:25.462979Z",
+      "basis": "citation_pdf_url_metadata",
+      "bytes": 292799,
+      "content_type": "application/octet-stream, application/octet-stream",
+      "final_url": "https://zenodo.org/records/19520945/files/Certified%20Execution%20Networks%20for%20AI.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "sha256": "bdef51cc5958f17395917a5cb4e3940c9a77627b41674617e94ec46af5770430",
+      "url": "https://zenodo.org/records/19520945/files/Certified%20Execution%20Networks%20for%20AI.pdf"
+    }
+  ],
+  "bytes": 292799,
+  "family_id": "FAM-cebf05e82ce90703a80f",
+  "lawful_access_basis": "citation_pdf_url_metadata",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-cebf05e82ce90703a80f.pdf",
+  "pdf_sha256": "bdef51cc5958f17395917a5cb4e3940c9a77627b41674617e94ec46af5770430",
+  "representative_canonical_id": "CAN-e8c79db2e4a3c0712748",
+  "retrieved_url": "https://zenodo.org/records/19520945/files/Certified%20Execution%20Networks%20for%20AI.pdf",
+  "status": "retrieved_open"
+}

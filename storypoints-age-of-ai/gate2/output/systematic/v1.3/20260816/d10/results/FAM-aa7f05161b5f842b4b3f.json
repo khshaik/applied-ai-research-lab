@@ -1,0 +1,30 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:15:46.473941Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html",
+      "final_url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14073/3097590/A-framework-for-estimating-AI-driven-savings-in-software-development/10.1117/12.3097590.full",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://doi.org/10.1117/12.3097590"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:16:54.644216Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html",
+      "final_url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14073/3097590/A-framework-for-estimating-AI-driven-savings-in-software-development/10.1117/12.3097590.full",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://doi.org/10.1117/12.3097590"
+    }
+  ],
+  "bytes": 0,
+  "family_id": "FAM-aa7f05161b5f842b4b3f",
+  "lawful_access_basis": null,
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "representative_canonical_id": "CAN-00ae051ecfca2ecf6d4b",
+  "retrieved_url": null,
+  "status": "lawful_full_text_not_retrieved"
+}

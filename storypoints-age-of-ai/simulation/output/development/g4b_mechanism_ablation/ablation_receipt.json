@@ -1,0 +1,17 @@
+{
+  "files": [
+    {
+      "path": "ablation_manifest.json",
+      "sha256": "0510a5f9bf8e5e876d97f1e37563ec18029853c9407260eab745736b4d959f95"
+    },
+    {
+      "path": "ablation_effects.csv",
+      "sha256": "23dd85e65e139cf17af489055372889a910b7d8b26e8fec465feb4208f769b69"
+    },
+    {
+      "path": "ablation_pairs.csv",
+      "sha256": "6b3f29dd82c94fd979c86f2b4f85a26cf0332561787ba04f3c6a99f2bfb72b1c"
+    }
+  ],
+  "status": "verified_developmental"
+}

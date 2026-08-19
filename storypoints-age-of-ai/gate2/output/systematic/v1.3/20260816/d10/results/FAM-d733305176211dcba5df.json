@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 897936,
+      "content_type": "application/pdf",
+      "final_url": "https://revistascientificas.cuc.edu.co/ingecuc/article/download/4420/4582",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "0942fbe35b4c30356c68fef14c63f3eff7906b6b7197706364a8180cfcecd970",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://revistascientificas.cuc.edu.co/ingecuc/article/download/4420/4582"
+    }
+  ],
+  "bytes": 897936,
+  "family_id": "FAM-d733305176211dcba5df",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-d733305176211dcba5df.pdf",
+  "pdf_sha256": "0942fbe35b4c30356c68fef14c63f3eff7906b6b7197706364a8180cfcecd970",
+  "representative_canonical_id": "CAN-fe839c10cc100cc976d2",
+  "retrieved_url": "https://revistascientificas.cuc.edu.co/ingecuc/article/download/4420/4582",
+  "status": "retrieved_open"
+}

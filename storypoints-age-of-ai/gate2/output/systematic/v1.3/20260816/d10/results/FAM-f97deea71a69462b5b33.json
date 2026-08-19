@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_oa_location_pdf",
+      "bytes": 1468964,
+      "content_type": "application/pdf",
+      "final_url": "https://researchmgt.monash.edu/ws/files/629132325/619375494-oa.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "7fcda28abe35e4fb1770ce2cbf8880f469a64ca2138e81fc1cd917b3c27cdb58",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://researchmgt.monash.edu/ws/files/629132325/619375494-oa.pdf"
+    }
+  ],
+  "bytes": 1468964,
+  "family_id": "FAM-f97deea71a69462b5b33",
+  "lawful_access_basis": "openalex_oa_location_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-f97deea71a69462b5b33.pdf",
+  "pdf_sha256": "7fcda28abe35e4fb1770ce2cbf8880f469a64ca2138e81fc1cd917b3c27cdb58",
+  "representative_canonical_id": "CAN-0a6bbc1cdc555b9e4ac3",
+  "retrieved_url": "https://researchmgt.monash.edu/ws/files/629132325/619375494-oa.pdf",
+  "status": "retrieved_open"
+}

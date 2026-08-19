@@ -1,0 +1,58 @@
+{
+  "status": "development_query_appraisal",
+  "source_query_id": "AX-S5S",
+  "mapped_family_id": "S5S",
+  "records_reconciled": 1333,
+  "complete_pagination": true,
+  "sentinel_class_complete": true,
+  "sentinel_recall_pass": true,
+  "sentinel_checks": [
+    {
+      "sentinel_id": "S5S-AX-P1",
+      "role": "scope_positive",
+      "arxiv_id": "2405.06371",
+      "present": true,
+      "pass": true
+    },
+    {
+      "sentinel_id": "S5S-AX-P2",
+      "role": "scope_positive",
+      "arxiv_id": "2606.25973",
+      "present": true,
+      "pass": true
+    },
+    {
+      "sentinel_id": "S5S-AX-D1",
+      "role": "neutral_disconfirming",
+      "arxiv_id": "2603.15298",
+      "present": true,
+      "pass": true
+    },
+    {
+      "sentinel_id": "S5S-AX-D2",
+      "role": "neutral_disconfirming",
+      "arxiv_id": "2506.11022",
+      "present": true,
+      "pass": true
+    }
+  ],
+  "precision_appraisal_pending": false,
+  "freeze_ready": true,
+  "interpretation_boundary": "Mapped arXiv query precision and known-item recall only; not screening, eligibility, inclusion, or PRISMA evidence.",
+  "population_size_for_sample": 1333,
+  "population_size_basis": "complete_export_retrieved_count",
+  "required_sample_size_for_freeze": 100,
+  "sample_size": 100,
+  "sample_minimum_met": true,
+  "sample_likely_relevant": 6,
+  "sample_uncertain": 7,
+  "sample_likely_irrelevant": 87,
+  "relevant_plus_uncertain_count": 13,
+  "relevant_plus_uncertain_proportion": 0.13,
+  "relevant_plus_uncertain_wilson_95_interval": [
+    0.07757167427240512,
+    0.20980351440076428
+  ],
+  "burden_acceptance_band": "operational_pass",
+  "query_appraisal_pass": true
+}

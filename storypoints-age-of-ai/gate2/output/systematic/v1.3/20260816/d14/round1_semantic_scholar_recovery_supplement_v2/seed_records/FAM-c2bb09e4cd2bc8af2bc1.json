@@ -1,0 +1,59 @@
+{
+  "arxiv_id": "2604.09409",
+  "cited_by_count": null,
+  "doi": "",
+  "family_id": "FAM-c2bb09e4cd2bc8af2bc1",
+  "match_basis": "arxiv",
+  "match_score": 0.2966942148760331,
+  "openalex_id": null,
+  "query_kind": "normalized_title_fallback",
+  "record_id": "CAN-433b1bbcf5e7205ce00a",
+  "recovery_attempt_count": 3,
+  "referenced_work_count": null,
+  "referenced_works": [],
+  "s2_record": {
+    "abstract": "Software logging is essential for maintaining and debugging complex systems, yet it remains unclear how AI coding agents handle this non-functional requirement. While prior work characterizes human logging practices, the behaviors of AI coding agents and the efficacy of natural language instructions in governing them are unexplored. To address this gap, we conduct an empirical study of 4,550 agentic pull requests across 81 open-source repositories. We compare agent logging patterns against human baselines and analyze the impact of explicit logging instructions. We find that agents change logging less often than humans in 58.4% of repositories, though they exhibit higher log density when they do. Furthermore, explicit logging instructions are rare (4.7%) and ineffective, as agents fail to comply with constructive requests 67% of the time. Finally, we observe that humans perform 72.5% of post-generation log repairs, acting as\"silent janitors\"who fix logging and observability issues without explicit review feedback. These findings indicate a dual failure in natural language instruction (i.e., scarcity of logging instructions and low agent compliance), suggesting that deterministic guardrails might be necessary to ensure consistent logging practices.",
+    "authors": [
+      {
+        "authorId": "2008324156",
+        "name": "Youssef Esseddiq Ouatiti"
+      },
+      {
+        "authorId": "2374147902",
+        "name": "Mohammed Sayagh"
+      },
+      {
+        "authorId": "2156010886",
+        "name": "Hao Li"
+      },
+      {
+        "authorId": "2256953216",
+        "name": "A. Hassan"
+      }
+    ],
+    "citationCount": 1,
+    "externalIds": {
+      "ArXiv": "2604.09409",
+      "CorpusId": 287352088,
+      "DBLP": "journals/corr/abs-2604-09409",
+      "DOI": "10.48550/arXiv.2604.09409"
+    },
+    "openAccessPdf": {
+      "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2604.09409, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use.",
+      "license": null,
+      "status": null,
+      "url": ""
+    },
+    "paperId": "b962a8f08686cf93a308450e4e59734f067f6edf",
+    "referenceCount": 39,
+    "title": "Do AI Coding Agents Log Like Humans? An Empirical Study",
+    "url": "https://www.semanticscholar.org/paper/b962a8f08686cf93a308450e4e59734f067f6edf",
+    "venue": "arXiv.org",
+    "year": 2026
+  },
+  "source_text_sha256": "2c20034544b45629c77469f9ba66988ca36d4a07a75692065374f4f5e89602f3",
+  "status": "resolved",
+  "supplement_attempt_count": 1,
+  "title": "Do AI Coding Agents Log Like Humans? An Empirical Study",
+  "year": 2026
+}

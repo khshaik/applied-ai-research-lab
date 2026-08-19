@@ -1,0 +1,23 @@
+{
+  "attempts": [
+    {
+      "active_indicators": [
+        "/S /URI"
+      ],
+      "attempted_at_utc": "2026-08-19T08:51:12.123796Z",
+      "basis": "live_openalex_best_oa_location_oa_pdf",
+      "bytes": 398656,
+      "final_url": "https://bergersci.com/index.php/jta/article/download/19/20",
+      "quarantine_path": "/Users/81194246/Library/CloudStorage/OneDrive-Pepsico/Personal/AI/Projects/ThinkAI/storypoints-age-of-ai/gate2/output/systematic/v1.3/20260816/d14/fulltext/quarantine/CITFAM-b03e494b4c4539be831f.pdf",
+      "redirect_count": 0,
+      "sha256": "93fb3a57b2898f129119d9e59b256bd9b2c5112190c21b7b19cd5e6af6a618fd",
+      "status": "quarantined_active_content"
+    }
+  ],
+  "bytes": 398656,
+  "citation_family_id": "CITFAM-b03e494b4c4539be831f",
+  "pdf_path": null,
+  "pdf_sha256": "93fb3a57b2898f129119d9e59b256bd9b2c5112190c21b7b19cd5e6af6a618fd",
+  "security_attestation": "Static HTTPS retrieval only; public-IP validation, bounded redirects/size, signature and active-content checks; no PDF execution.",
+  "status": "quarantined_active_content"
+}

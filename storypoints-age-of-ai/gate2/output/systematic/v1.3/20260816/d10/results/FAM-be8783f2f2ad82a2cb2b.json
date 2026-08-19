@@ -1,0 +1,50 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:16:07.406687Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html;charset=UTF-8",
+      "final_url": "https://ietresearch.onlinelibrary.wiley.com/doi/10.1049/sfw2/3348017",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://doi.org/10.1049/sfw2/3348017"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:16:17.210377Z",
+      "basis": "citation_pdf_url_metadata",
+      "bytes": 5804,
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://onlinelibrary.wiley.com/doi/pdf/10.1049/sfw2/3348017?cookieSet=1",
+      "http_status": 403,
+      "outcome": "not_a_verified_pdf",
+      "url": "https://onlinelibrary.wiley.com/doi/pdf/10.1049/sfw2/3348017"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:18:28.300891Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html;charset=UTF-8",
+      "final_url": "https://ietresearch.onlinelibrary.wiley.com/doi/10.1049/sfw2/3348017",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://doi.org/10.1049/sfw2/3348017"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:18:35.337734Z",
+      "basis": "citation_pdf_url_metadata",
+      "bytes": 41948,
+      "content_type": "text/html;charset=UTF-8",
+      "final_url": "https://ietresearch.onlinelibrary.wiley.com/doi/pdf/10.1049/sfw2/3348017",
+      "http_status": 200,
+      "outcome": "not_a_verified_pdf",
+      "url": "https://onlinelibrary.wiley.com/doi/pdf/10.1049/sfw2/3348017"
+    }
+  ],
+  "bytes": 0,
+  "family_id": "FAM-be8783f2f2ad82a2cb2b",
+  "lawful_access_basis": null,
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "representative_canonical_id": "CAN-bc8cc0c206b43d0fe526",
+  "retrieved_url": null,
+  "status": "lawful_full_text_not_retrieved"
+}

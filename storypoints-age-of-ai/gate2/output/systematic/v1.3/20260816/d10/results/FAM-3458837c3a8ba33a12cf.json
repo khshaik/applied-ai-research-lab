@@ -1,0 +1,21 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:04:57.926047Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://ieeexplore.ieee.org/document/11499962/",
+      "http_status": 202,
+      "outcome": "http_failure",
+      "url": "https://doi.org/10.1109/scse70081.2026.11499962"
+    }
+  ],
+  "bytes": 0,
+  "family_id": "FAM-3458837c3a8ba33a12cf",
+  "lawful_access_basis": null,
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "representative_canonical_id": "CAN-33d08c114fac396ac8de",
+  "retrieved_url": null,
+  "status": "lawful_full_text_not_retrieved"
+}

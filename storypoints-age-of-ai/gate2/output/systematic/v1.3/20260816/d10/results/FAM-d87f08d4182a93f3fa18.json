@@ -1,0 +1,32 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:16:36.469092Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html;charset=utf-8",
+      "final_url": "https://lutpub.lut.fi/handle/10024/172514",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://lutpub.lut.fi/handle/10024/172514"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:16:39.109384Z",
+      "basis": "citation_pdf_url_metadata",
+      "bytes": 780855,
+      "content_type": "application/pdf;charset=UTF-8",
+      "final_url": "https://lutpub.lut.fi/bitstream/handle/10024/172514/Bachelorthesis_Li_Zhenghan.pdf;jsessionid=A9A529C7C5FF9D7C22C2065B78112533?sequence=1",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "sha256": "a2bc20a4e70bb7316a8cf6ca386d058dc45114e5e82086a39098a7fed70d1bf9",
+      "url": "https://lutpub.lut.fi/bitstream/10024/172514/1/Bachelorthesis_Li_Zhenghan.pdf"
+    }
+  ],
+  "bytes": 780855,
+  "family_id": "FAM-d87f08d4182a93f3fa18",
+  "lawful_access_basis": "citation_pdf_url_metadata",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-d87f08d4182a93f3fa18.pdf",
+  "pdf_sha256": "a2bc20a4e70bb7316a8cf6ca386d058dc45114e5e82086a39098a7fed70d1bf9",
+  "representative_canonical_id": "CAN-e994cc7dd966cd4d72d9",
+  "retrieved_url": "https://lutpub.lut.fi/bitstream/10024/172514/1/Bachelorthesis_Li_Zhenghan.pdf",
+  "status": "retrieved_open"
+}

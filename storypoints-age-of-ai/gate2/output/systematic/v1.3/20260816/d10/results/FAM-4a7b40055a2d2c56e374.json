@@ -1,0 +1,31 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "content_type": "text/html",
+      "final_url": "https://www.zora.uzh.ch/id/eprint/123101/1/biometricProductivity.pdf",
+      "http_status": 404,
+      "outcome": "http_failure",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://www.zora.uzh.ch/id/eprint/123101/1/biometricProductivity.pdf"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:05:41.851509Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://ieeexplore.ieee.org/document/7476774/",
+      "http_status": 202,
+      "outcome": "http_failure",
+      "url": "https://doi.org/10.1109/saner.2016.107"
+    }
+  ],
+  "bytes": 0,
+  "family_id": "FAM-4a7b40055a2d2c56e374",
+  "lawful_access_basis": null,
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "representative_canonical_id": "CAN-7f82b3b017e7bfb7368e",
+  "retrieved_url": null,
+  "status": "lawful_full_text_not_retrieved"
+}

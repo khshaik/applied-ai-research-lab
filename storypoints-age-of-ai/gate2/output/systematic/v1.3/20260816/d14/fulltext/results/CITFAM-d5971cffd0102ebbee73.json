@@ -1,0 +1,21 @@
+{
+  "attempts": [
+    {
+      "active_indicators": [],
+      "attempted_at_utc": "2026-08-19T09:39:23.364767Z",
+      "basis": "live_openalex_best_oa_location_oa_pdf",
+      "bytes": 3615337,
+      "final_url": "https://journals-sol.sbc.org.br/index.php/jserd/article/download/5722/3571",
+      "pdf_path": "/Users/81194246/Library/CloudStorage/OneDrive-Pepsico/Personal/AI/Projects/ThinkAI/storypoints-age-of-ai/gate2/output/systematic/v1.3/20260816/d14/fulltext/pdf/CITFAM-d5971cffd0102ebbee73.pdf",
+      "redirect_count": 0,
+      "sha256": "160a28759b15c8ad200d0ff297f297dbc8f7df6c9c69f457990a9b1ca1c94af3",
+      "status": "retrieved_static_pdf"
+    }
+  ],
+  "bytes": 3615337,
+  "citation_family_id": "CITFAM-d5971cffd0102ebbee73",
+  "pdf_path": "/Users/81194246/Library/CloudStorage/OneDrive-Pepsico/Personal/AI/Projects/ThinkAI/storypoints-age-of-ai/gate2/output/systematic/v1.3/20260816/d14/fulltext/pdf/CITFAM-d5971cffd0102ebbee73.pdf",
+  "pdf_sha256": "160a28759b15c8ad200d0ff297f297dbc8f7df6c9c69f457990a9b1ca1c94af3",
+  "security_attestation": "Static HTTPS retrieval only; public-IP validation, bounded redirects/size, signature and active-content checks; no PDF execution.",
+  "status": "retrieved_static_pdf"
+}

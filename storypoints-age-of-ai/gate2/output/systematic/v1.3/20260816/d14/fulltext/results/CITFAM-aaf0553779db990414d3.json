@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "active_indicators": [
+        "/AA",
+        "/S /URI"
+      ],
+      "attempted_at_utc": "2026-08-19T08:51:02.908108Z",
+      "basis": "frozen_openalex_primary_oa_pdf",
+      "bytes": 2593619,
+      "final_url": "https://link.springer.com/content/pdf/10.1007/s10664-022-10130-9.pdf?error=cookies_not_supported&code=6a7ebce7-8278-495f-9522-4a76b3171ff7",
+      "quarantine_path": "/Users/81194246/Library/CloudStorage/OneDrive-Pepsico/Personal/AI/Projects/ThinkAI/storypoints-age-of-ai/gate2/output/systematic/v1.3/20260816/d14/fulltext/quarantine/CITFAM-aaf0553779db990414d3.pdf",
+      "redirect_count": 3,
+      "sha256": "b1c860298695c0fb70790cf3524cf13fa14ec67a899776f26507f894e0f89ea6",
+      "status": "quarantined_active_content"
+    }
+  ],
+  "bytes": 2593619,
+  "citation_family_id": "CITFAM-aaf0553779db990414d3",
+  "pdf_path": null,
+  "pdf_sha256": "b1c860298695c0fb70790cf3524cf13fa14ec67a899776f26507f894e0f89ea6",
+  "security_attestation": "Static HTTPS retrieval only; public-IP validation, bounded redirects/size, signature and active-content checks; no PDF execution.",
+  "status": "quarantined_active_content"
+}

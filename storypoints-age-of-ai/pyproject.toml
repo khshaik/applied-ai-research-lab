@@ -1,0 +1,21 @@
+[project]
+name = "verified-delivery-capacity-research"
+version = "0.1.0"
+description = "Evidence-map and simulation artifacts for AI-assisted software delivery capacity forecasting."
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [
+  { name = "Shaik Khaja Nayab Rasool" }
+]
+keywords = ["software-engineering", "generative-ai", "effort-estimation", "delivery-capacity", "simulation"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests", "simulation/tests"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py39"
+

@@ -1,0 +1,18 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-19T08:56:45.495514Z",
+      "basis": "frozen_openalex_primary_oa_pdf",
+      "bytes": 29200,
+      "final_url": "https://dl.acm.org/action/cookieAbsent",
+      "redirect_count": 2,
+      "status": "invalid_pdf_signature"
+    }
+  ],
+  "bytes": 0,
+  "citation_family_id": "CITFAM-b3ccaba4094e9ceb596d",
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "security_attestation": "Static HTTPS retrieval only; public-IP validation, bounded redirects/size, signature and active-content checks; no PDF execution.",
+  "status": "invalid_pdf_signature"
+}

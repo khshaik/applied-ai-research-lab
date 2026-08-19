@@ -1,0 +1,34 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_oa_location_pdf",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://ricerca.sns.it/bitstream/11384/131268/1/Lanciano%20et%20al.%20-%202023%20-%20Analyzing%20Declarative%20Deployment%20Code%20with%20Large%20L.pdf",
+      "http_status": 403,
+      "outcome": "access_blocked_or_paywalled",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://ricerca.sns.it/bitstream/11384/131268/1/Lanciano%20et%20al.%20-%202023%20-%20Analyzing%20Declarative%20Deployment%20Code%20with%20Large%20L.pdf"
+    },
+    {
+      "basis": "openalex_oa_location_pdf",
+      "bytes": 769776,
+      "content_type": "application/pdf",
+      "final_url": "https://www.scitepress.org/Papers/2023/119912/119912.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "a88aa5afc023dd6d97a573c390c8d23e4cbe62676bb550fc65870608a4552ad7",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://www.scitepress.org/Papers/2023/119912/119912.pdf"
+    }
+  ],
+  "bytes": 769776,
+  "family_id": "FAM-7d9387f2ae97c0045e15",
+  "lawful_access_basis": "openalex_oa_location_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-7d9387f2ae97c0045e15.pdf",
+  "pdf_sha256": "a88aa5afc023dd6d97a573c390c8d23e4cbe62676bb550fc65870608a4552ad7",
+  "representative_canonical_id": "CAN-b8cbb8f1b4b64740f564",
+  "retrieved_url": "https://www.scitepress.org/Papers/2023/119912/119912.pdf",
+  "status": "retrieved_open"
+}

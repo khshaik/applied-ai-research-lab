@@ -1,0 +1,32 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:16:45.015338Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://zenodo.org/records/18861633",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://doi.org/10.5281/zenodo.18861633"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:16:46.726456Z",
+      "basis": "citation_pdf_url_metadata",
+      "bytes": 23456,
+      "content_type": "application/octet-stream, application/octet-stream",
+      "final_url": "https://zenodo.org/records/18861633/files/paper%201%20-%20Applied_Software_Engineering_Python_AI_Code_Aggregation_Tarek_Elkasaby_v3.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "sha256": "857fc8b9222c29f75eb2d2c3aa89ab7803ba608af08b967541388d5b2e0cf494",
+      "url": "https://zenodo.org/records/18861633/files/paper%201%20-%20Applied_Software_Engineering_Python_AI_Code_Aggregation_Tarek_Elkasaby_v3.pdf"
+    }
+  ],
+  "bytes": 23456,
+  "family_id": "FAM-e51b243728c95870def2",
+  "lawful_access_basis": "citation_pdf_url_metadata",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-e51b243728c95870def2.pdf",
+  "pdf_sha256": "857fc8b9222c29f75eb2d2c3aa89ab7803ba608af08b967541388d5b2e0cf494",
+  "representative_canonical_id": "CAN-86d9dc606f1f4ff09cd5",
+  "retrieved_url": "https://zenodo.org/records/18861633/files/paper%201%20-%20Applied_Software_Engineering_Python_AI_Code_Aggregation_Tarek_Elkasaby_v3.pdf",
+  "status": "retrieved_open"
+}

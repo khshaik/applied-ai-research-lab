@@ -1,0 +1,448 @@
+{
+  "controller_version": "d14-screening-controller/1.0.0",
+  "family_count": 6017,
+  "input_consolidation_manifest_sha256": "8aaee9663f7b19c1cf17b7802d9d7443c7b106866268794f4ce3371b4bd6b1a4",
+  "isolation_contract": "Byte-identical shards, distinct contexts, no cross-pass visibility; concordance is agent concordance, not human inter-rater reliability.",
+  "prompt_a": {
+    "path": "evidence_review/prompts/screening_agent_a_v1.1.0.md",
+    "sha256": "2c48dbbc6b06ec0dbd71394a324ea680cb9b0edf90fcf14bb6882c920d36c607"
+  },
+  "prompt_b": {
+    "path": "evidence_review/prompts/screening_agent_b_v1.1.0.md",
+    "sha256": "d7f58147ecbbbeab8a0e37ae28f7a7edef546cf280e0b1ec34e84d975c3a1d4e"
+  },
+  "protocol_version": "1.3",
+  "screening_unit": "citation_candidate_family",
+  "shard_count": 61,
+  "shard_size": 100,
+  "shards": [
+    {
+      "first_family_id": "CITFAM-000a1c998a64bac95f71",
+      "last_family_id": "CITFAM-043b8cdf65c3674d1055",
+      "path": "screening_packet_001.jsonl",
+      "row_count": 100,
+      "sha256": "0312e9fa6733f81c896d335ab5750fbca1a33b366a427af56e9c1dafd9523ee1"
+    },
+    {
+      "first_family_id": "CITFAM-0441762eabb45fd3d557",
+      "last_family_id": "CITFAM-082547cc5664cfc1ff9c",
+      "path": "screening_packet_002.jsonl",
+      "row_count": 100,
+      "sha256": "4ef7d98b81ddcb289bb4afaab055d2e30e6e0d57829cb006ffa9eeac9e330cd5"
+    },
+    {
+      "first_family_id": "CITFAM-082871aeebdb012b2846",
+      "last_family_id": "CITFAM-0c9d660b902c62c043f0",
+      "path": "screening_packet_003.jsonl",
+      "row_count": 100,
+      "sha256": "8716a03a97a24f65f54aff22241743fabc7539c6152ee19afa5a38344ec206d2"
+    },
+    {
+      "first_family_id": "CITFAM-0cad89d167c70db74418",
+      "last_family_id": "CITFAM-11a41fc58b952dff77b7",
+      "path": "screening_packet_004.jsonl",
+      "row_count": 100,
+      "sha256": "bad2057dcff274bd2e16f376cfa172bfceadf7daa93c0cc3b42ee41d25d683c8"
+    },
+    {
+      "first_family_id": "CITFAM-11a542a9a4ed4d313d4a",
+      "last_family_id": "CITFAM-160a38e9705b80df6b4f",
+      "path": "screening_packet_005.jsonl",
+      "row_count": 100,
+      "sha256": "c368575a076d09e6713fa086bed02f82e9cfddc559e41333eae05f19d62ef5cb"
+    },
+    {
+      "first_family_id": "CITFAM-160dae41c5f092471741",
+      "last_family_id": "CITFAM-1a01512c7f372306eae6",
+      "path": "screening_packet_006.jsonl",
+      "row_count": 100,
+      "sha256": "93956decf9abc3ecf7b9a4b0d52d79707d3b2feb1f2a9defbb6830a02703d506"
+    },
+    {
+      "first_family_id": "CITFAM-1a022cad6cfe83cbe0d9",
+      "last_family_id": "CITFAM-1e5ee2089783858ebe1a",
+      "path": "screening_packet_007.jsonl",
+      "row_count": 100,
+      "sha256": "4c7683fab109c989b2a39cee037d8ee6047b75a078fcdc13fb0caeb233ee8da0"
+    },
+    {
+      "first_family_id": "CITFAM-1e74ee4a6c769d922692",
+      "last_family_id": "CITFAM-236922d6533e60b8e06b",
+      "path": "screening_packet_008.jsonl",
+      "row_count": 100,
+      "sha256": "4a738cd93a9ee43f85d5af482859596fd0923b583133c6f3baf2943b5dc6cf81"
+    },
+    {
+      "first_family_id": "CITFAM-2372032ee03b6db47248",
+      "last_family_id": "CITFAM-275c301ab918c01868ad",
+      "path": "screening_packet_009.jsonl",
+      "row_count": 100,
+      "sha256": "d27e087e7d7a7bb5a137a923bff5e2ceb49f738aaf89a93cc8dc04dba7a6dcde"
+    },
+    {
+      "first_family_id": "CITFAM-27647c30e5ec24a8176c",
+      "last_family_id": "CITFAM-2c2070e37101875d9041",
+      "path": "screening_packet_010.jsonl",
+      "row_count": 100,
+      "sha256": "30d5cbd0b23b7ea03706f19c1c75937104567fbc3f6204fafff2a5a289710ea2"
+    },
+    {
+      "first_family_id": "CITFAM-2c2c63dd3e2eaaff2920",
+      "last_family_id": "CITFAM-3061d984f8034628fbed",
+      "path": "screening_packet_011.jsonl",
+      "row_count": 100,
+      "sha256": "3fd39aef88ce2c36ffc779a60a347d6fb92b4e55e755ba29c01845e5d1d03caf"
+    },
+    {
+      "first_family_id": "CITFAM-3064c10c1ae88c9a3a5e",
+      "last_family_id": "CITFAM-34a39a43a50b37b8836c",
+      "path": "screening_packet_012.jsonl",
+      "row_count": 100,
+      "sha256": "0112c390bf9dfbd04f315344acca5873ef2083484988fd2976c26d1e60108fe1"
+    },
+    {
+      "first_family_id": "CITFAM-34b9ee6c8814f47a37bb",
+      "last_family_id": "CITFAM-3927802e6338d866e7b7",
+      "path": "screening_packet_013.jsonl",
+      "row_count": 100,
+      "sha256": "7abedcab452ffa7c0bc98b519255afdea63e438841cf8998729ef4f3e30a7ac4"
+    },
+    {
+      "first_family_id": "CITFAM-392cf47548f2a0d93bb0",
+      "last_family_id": "CITFAM-3d1ba533568049a5c87f",
+      "path": "screening_packet_014.jsonl",
+      "row_count": 100,
+      "sha256": "19434508fef798416e396e975f3672761e73659de00c6db0003312ab65fa070f"
+    },
+    {
+      "first_family_id": "CITFAM-3d21512c3573ebd535ed",
+      "last_family_id": "CITFAM-410b199211cad737eba8",
+      "path": "screening_packet_015.jsonl",
+      "row_count": 100,
+      "sha256": "2caf7bfc7300dd1cbe3d0077e379678d5ac924e18ad9afb135e1bc68ecab6b07"
+    },
+    {
+      "first_family_id": "CITFAM-411c283dda40002f059a",
+      "last_family_id": "CITFAM-45881cc992d439e99c1d",
+      "path": "screening_packet_016.jsonl",
+      "row_count": 100,
+      "sha256": "e27bb1935586cf8b76808838cf771dd3e6ad09780b7e138525b58f5c80a0bc01"
+    },
+    {
+      "first_family_id": "CITFAM-4588f44b62e0c4527ef4",
+      "last_family_id": "CITFAM-495f15cfaa38802e81e6",
+      "path": "screening_packet_017.jsonl",
+      "row_count": 100,
+      "sha256": "f1f40c4272c7ef342a5942f50dd81262406a549e58d2e1600dd1c38710dafc86"
+    },
+    {
+      "first_family_id": "CITFAM-496837282b64ebf22b04",
+      "last_family_id": "CITFAM-4d15db61d5361411a8dc",
+      "path": "screening_packet_018.jsonl",
+      "row_count": 100,
+      "sha256": "2fa6dae93c3b493dfb790034fbe48034f1176b6b0bfc5eeedf6b8fef3140a225"
+    },
+    {
+      "first_family_id": "CITFAM-4d1740f5d39cfabf95d2",
+      "last_family_id": "CITFAM-511da08e698df6494007",
+      "path": "screening_packet_019.jsonl",
+      "row_count": 100,
+      "sha256": "5a8d4bb4c6450180088ecbca1d9bfdfc35aa056a15971ec43236b0e814f07f74"
+    },
+    {
+      "first_family_id": "CITFAM-5127d2ed87a76dd727e7",
+      "last_family_id": "CITFAM-5538f58ec1840adafd39",
+      "path": "screening_packet_020.jsonl",
+      "row_count": 100,
+      "sha256": "6d767bb6994f9c6103a4a165dd09b77cbbabca9ad9731d1180e99743075d1b65"
+    },
+    {
+      "first_family_id": "CITFAM-55395a3bae615377cd74",
+      "last_family_id": "CITFAM-594241763703c356626a",
+      "path": "screening_packet_021.jsonl",
+      "row_count": 100,
+      "sha256": "61ab0cd811a5c285fb2c92b5ea4eaaefe16a330e41e906393495751fc604c4c9"
+    },
+    {
+      "first_family_id": "CITFAM-5945ee6e09f2352c9595",
+      "last_family_id": "CITFAM-5cccb5c8a05601aa1d60",
+      "path": "screening_packet_022.jsonl",
+      "row_count": 100,
+      "sha256": "37f2bcb7428a6b15b19f18ddd0c62a8eb5361b7502c4479e84057db3243ee7cc"
+    },
+    {
+      "first_family_id": "CITFAM-5cd324b49a13b794cbe1",
+      "last_family_id": "CITFAM-61511c339bab13b5a718",
+      "path": "screening_packet_023.jsonl",
+      "row_count": 100,
+      "sha256": "c5ca625ca5ae2a6385957877bf25865915a351a7422c6496bd6f89a6a81d1000"
+    },
+    {
+      "first_family_id": "CITFAM-6157e4ac98ba70167118",
+      "last_family_id": "CITFAM-658fb06c2b9ad171f11a",
+      "path": "screening_packet_024.jsonl",
+      "row_count": 100,
+      "sha256": "f359df2663d695846e1198dde173018295de0c0e1f954cb9868500ae79ae6380"
+    },
+    {
+      "first_family_id": "CITFAM-65aa1c8812040ed6263e",
+      "last_family_id": "CITFAM-69c7291688592ecf1607",
+      "path": "screening_packet_025.jsonl",
+      "row_count": 100,
+      "sha256": "d6fed4ca47daa34554e614699a52ffb2db4bc727c42502ab42a48c54cd86a915"
+    },
+    {
+      "first_family_id": "CITFAM-69cf5e5dbcfd1b84b893",
+      "last_family_id": "CITFAM-6d7f4dc5b9e884572fe5",
+      "path": "screening_packet_026.jsonl",
+      "row_count": 100,
+      "sha256": "9d32d82e75c9958b809291b12304fd16c570a45452bf927473769b85b765fa48"
+    },
+    {
+      "first_family_id": "CITFAM-6d7f7fb0ca14a2799b12",
+      "last_family_id": "CITFAM-7135423ce5fbef667e18",
+      "path": "screening_packet_027.jsonl",
+      "row_count": 100,
+      "sha256": "7c56a4def35ddd0683f7ad621a46e5f35e2e91a28b01dc7e4fdf63c2f628feec"
+    },
+    {
+      "first_family_id": "CITFAM-7142ac10728df9507061",
+      "last_family_id": "CITFAM-7547cb43deb94de5da0c",
+      "path": "screening_packet_028.jsonl",
+      "row_count": 100,
+      "sha256": "d7cee58ed17806b200f034656a1fc94b7409c5ca6e11de40c413023a5c52cb90"
+    },
+    {
+      "first_family_id": "CITFAM-754f286ed6d61ce2c200",
+      "last_family_id": "CITFAM-78fc1e42ec21a3a96a04",
+      "path": "screening_packet_029.jsonl",
+      "row_count": 100,
+      "sha256": "a09ec97606f72f65c25e9054f76b8b9cae56c71f8142b96aa31c791ea9c753cc"
+    },
+    {
+      "first_family_id": "CITFAM-78fff14f99b9188370ff",
+      "last_family_id": "CITFAM-7cde0eb53b7c531fa16b",
+      "path": "screening_packet_030.jsonl",
+      "row_count": 100,
+      "sha256": "341c1656348e02b0ef5439aeb3a39fdcd799f65c4ca940df4b3081837bb20196"
+    },
+    {
+      "first_family_id": "CITFAM-7ce5c6c1fa5ff1baa0e3",
+      "last_family_id": "CITFAM-806aa294f8cda947b987",
+      "path": "screening_packet_031.jsonl",
+      "row_count": 100,
+      "sha256": "ac590cb4b74f5b31a909f238eed82c43d1f0a31b1e6246443a4de9d4ebc31fbb"
+    },
+    {
+      "first_family_id": "CITFAM-806d088aace27b8a16ac",
+      "last_family_id": "CITFAM-85532267dc972e2e7675",
+      "path": "screening_packet_032.jsonl",
+      "row_count": 100,
+      "sha256": "32d99ab2ce02bc4da1583512b54fb0c719d964ef9e504fcdda08f7c0fef95e56"
+    },
+    {
+      "first_family_id": "CITFAM-85662a82ce149be63e64",
+      "last_family_id": "CITFAM-89a75e06ef75a74a2fda",
+      "path": "screening_packet_033.jsonl",
+      "row_count": 100,
+      "sha256": "27cff1c8a63368514761df599d55781e8afbe50c74f19e85278b86bbb619b05e"
+    },
+    {
+      "first_family_id": "CITFAM-89b3b1da500841703953",
+      "last_family_id": "CITFAM-8e95229af52aac00f598",
+      "path": "screening_packet_034.jsonl",
+      "row_count": 100,
+      "sha256": "6b0528a0156a0c53bda00c4e00ac9ba832780bd665ca5445faea8f28562e54b3"
+    },
+    {
+      "first_family_id": "CITFAM-8e9e94a0de5563e6fd76",
+      "last_family_id": "CITFAM-92dc5be3a99cd21f3d50",
+      "path": "screening_packet_035.jsonl",
+      "row_count": 100,
+      "sha256": "71a0ecc085dcc421b428186d040b8653ca9a4d35fbd28a31680a05f5e94c17f7"
+    },
+    {
+      "first_family_id": "CITFAM-9309b9d300151e60540f",
+      "last_family_id": "CITFAM-9706295b7ece9749e0bb",
+      "path": "screening_packet_036.jsonl",
+      "row_count": 100,
+      "sha256": "2610a3f1cbac4d6345a816391702459929f0bb549a79d603c1fe2cb463d32891"
+    },
+    {
+      "first_family_id": "CITFAM-9708b8cb5c9d9e71cbc6",
+      "last_family_id": "CITFAM-9b71c8eb3fd52f41c8c8",
+      "path": "screening_packet_037.jsonl",
+      "row_count": 100,
+      "sha256": "6afb272348acfee08d5705094a0c6210206acf9c6ce205f179222d80ba22200f"
+    },
+    {
+      "first_family_id": "CITFAM-9b786c059dd60cef9aac",
+      "last_family_id": "CITFAM-9f2728faa2b0b756f8ff",
+      "path": "screening_packet_038.jsonl",
+      "row_count": 100,
+      "sha256": "125bd05e265dcd998419088569207bb2a526e2fe92dcb566be3e39158d09dc20"
+    },
+    {
+      "first_family_id": "CITFAM-9f32224856332bfccc8d",
+      "last_family_id": "CITFAM-a3bfb17dce73a1b4e912",
+      "path": "screening_packet_039.jsonl",
+      "row_count": 100,
+      "sha256": "4896977d53d25c2c684978523d8cecf73de4106274f1f5bfc6db275ef1b35adc"
+    },
+    {
+      "first_family_id": "CITFAM-a3cc15bd08dfc126a129",
+      "last_family_id": "CITFAM-a7f5c4ae6405edabe9cb",
+      "path": "screening_packet_040.jsonl",
+      "row_count": 100,
+      "sha256": "e8395c1f8c667c275764f551f080f5ac4eb1b4a93aed0e8cd89bb8657f7ced11"
+    },
+    {
+      "first_family_id": "CITFAM-a7f7d52860487f6ea314",
+      "last_family_id": "CITFAM-abed5c4e0f75f9ebf678",
+      "path": "screening_packet_041.jsonl",
+      "row_count": 100,
+      "sha256": "bf6617b295cd3684eb8801ff6dd2ac345057236a713f328f8765fd502151d54f"
+    },
+    {
+      "first_family_id": "CITFAM-abef120978010e0c7591",
+      "last_family_id": "CITFAM-b064b20d2a63c180936b",
+      "path": "screening_packet_042.jsonl",
+      "row_count": 100,
+      "sha256": "d8ae3bed6d1938bc780ee4d8d6e8ae913a105cf08cee3f6c09c63f36869a954b"
+    },
+    {
+      "first_family_id": "CITFAM-b0727306926c37f60831",
+      "last_family_id": "CITFAM-b4e6d892e229456bbcc3",
+      "path": "screening_packet_043.jsonl",
+      "row_count": 100,
+      "sha256": "ca7fc539ab7c7fc2e90ceed1276fc6b0451e585afdf9fa4ca496975418980abf"
+    },
+    {
+      "first_family_id": "CITFAM-b4eab8831cec413b5f76",
+      "last_family_id": "CITFAM-b8c6d14f35bd4ac332d0",
+      "path": "screening_packet_044.jsonl",
+      "row_count": 100,
+      "sha256": "d9427c6310217a732b12526ecb93429c8484c6f18592beb69ac8cc7adc4a983e"
+    },
+    {
+      "first_family_id": "CITFAM-b8c6d4fd1263cc08b9bf",
+      "last_family_id": "CITFAM-bcf493c4a3a05dc72836",
+      "path": "screening_packet_045.jsonl",
+      "row_count": 100,
+      "sha256": "85c180b77a6afb7e61b55b5d39df5a82657f6fc12b6a31df7976a843b462ac08"
+    },
+    {
+      "first_family_id": "CITFAM-bcf79dffa6bd15f7ad23",
+      "last_family_id": "CITFAM-c0b1aa74b42a7d031f07",
+      "path": "screening_packet_046.jsonl",
+      "row_count": 100,
+      "sha256": "929d49bbec9a07ddba5192cf0400753c85a26dc7d2d2c965e72343f2c41fd586"
+    },
+    {
+      "first_family_id": "CITFAM-c0c33c0b398f95ed3d98",
+      "last_family_id": "CITFAM-c6153aa99630ea8e7576",
+      "path": "screening_packet_047.jsonl",
+      "row_count": 100,
+      "sha256": "33bbef8531e673980a772806b8d73e6e947128ca4e54d55b48ab7a28f54afdfe"
+    },
+    {
+      "first_family_id": "CITFAM-c6205655ef8e2d9a6eb8",
+      "last_family_id": "CITFAM-c970fea49eaf7120473e",
+      "path": "screening_packet_048.jsonl",
+      "row_count": 100,
+      "sha256": "12112cd5eb8d8772b51563c0d1f5cebc4a1401e9997214edb70f1b09a05d0dc5"
+    },
+    {
+      "first_family_id": "CITFAM-c9719c7cfa9da9823a7d",
+      "last_family_id": "CITFAM-cd3c2a20abfc32a36efa",
+      "path": "screening_packet_049.jsonl",
+      "row_count": 100,
+      "sha256": "b6c09ea9de9f94903e5eaab11826fa3abfe322bf148412817cc578e3540c1fb1"
+    },
+    {
+      "first_family_id": "CITFAM-cd3c5af8af4708ca9bce",
+      "last_family_id": "CITFAM-d265edcaf21a7d59007f",
+      "path": "screening_packet_050.jsonl",
+      "row_count": 100,
+      "sha256": "7c30879716f8c41f1b463c3757fa87287a33cebc2cb51e27c0c93dfda89d5592"
+    },
+    {
+      "first_family_id": "CITFAM-d266def33e7a879a2a68",
+      "last_family_id": "CITFAM-d64147b80d5261c6e6d3",
+      "path": "screening_packet_051.jsonl",
+      "row_count": 100,
+      "sha256": "546f749a7e06e68edb4f3504b9eabc40c9b753bdaf4c2af0274eacc982aae656"
+    },
+    {
+      "first_family_id": "CITFAM-d641afbad96048fd29a4",
+      "last_family_id": "CITFAM-dabb0b4d4a2214eebefc",
+      "path": "screening_packet_052.jsonl",
+      "row_count": 100,
+      "sha256": "cfd00b32110658d7ff16c84c75d7b1a8cd794909a6b7a4f9ee27dd6ed4c61e2d"
+    },
+    {
+      "first_family_id": "CITFAM-dad2a818da77ab0afa35",
+      "last_family_id": "CITFAM-e010621000a82e61c95f",
+      "path": "screening_packet_053.jsonl",
+      "row_count": 100,
+      "sha256": "fe7bbb13bf3ca774769d9ee481095519dee6c063702cfc39660786ad1cb6ef11"
+    },
+    {
+      "first_family_id": "CITFAM-e01984087e5feaa93d90",
+      "last_family_id": "CITFAM-e4bb0417a4dd765e1022",
+      "path": "screening_packet_054.jsonl",
+      "row_count": 100,
+      "sha256": "793d7c984d7e4b395ce3bbb1ad67318d843c5a4e940f3dd68d587897f37726d7"
+    },
+    {
+      "first_family_id": "CITFAM-e4bf03a7fd1fdb9ec896",
+      "last_family_id": "CITFAM-e8451300b3d52314c91d",
+      "path": "screening_packet_055.jsonl",
+      "row_count": 100,
+      "sha256": "bbc2227e22ac47c625ea8f4669c75a4dff6e2be5b3354d8e0db70640b267bfd3"
+    },
+    {
+      "first_family_id": "CITFAM-e84d23e54a86e94d8adb",
+      "last_family_id": "CITFAM-ecd9baf970c97b995d37",
+      "path": "screening_packet_056.jsonl",
+      "row_count": 100,
+      "sha256": "4b18b145f956c13faf6dc525ae505ebaff0cabebea5341e21e66052390a58c73"
+    },
+    {
+      "first_family_id": "CITFAM-ece455a51ce5b4738984",
+      "last_family_id": "CITFAM-f0a9f11724a5b736f428",
+      "path": "screening_packet_057.jsonl",
+      "row_count": 100,
+      "sha256": "774e04f9ed5c71c27fc38152bc6cc4e6022087ee706ecf8e1b497fb734acc9a5"
+    },
+    {
+      "first_family_id": "CITFAM-f0b7ece66b4394b0260e",
+      "last_family_id": "CITFAM-f4fedb48b87688e2ce55",
+      "path": "screening_packet_058.jsonl",
+      "row_count": 100,
+      "sha256": "c6874f63005f77c05b8101cf41b8d500765463f595b27a83a7e4b333820d25df"
+    },
+    {
+      "first_family_id": "CITFAM-f50ef28638c643bf1a5a",
+      "last_family_id": "CITFAM-fa859d835efef906d8d9",
+      "path": "screening_packet_059.jsonl",
+      "row_count": 100,
+      "sha256": "fc4c8c4df602a0414c29ab9bb695ac2153298445ea01518463e34ce95c97837b"
+    },
+    {
+      "first_family_id": "CITFAM-fa88b37ebdcc68cc2a3c",
+      "last_family_id": "CITFAM-fefb2bb29eef5e6272a4",
+      "path": "screening_packet_060.jsonl",
+      "row_count": 100,
+      "sha256": "9c9239aadcb20e4f2f2ab2ec7560ac7641775e0de4f64cff313499542ce8cb1e"
+    },
+    {
+      "first_family_id": "CITFAM-ff036f9bf46edc687a0b",
+      "last_family_id": "CITFAM-ffdc3bde628a233b3615",
+      "path": "screening_packet_061.jsonl",
+      "row_count": 17,
+      "sha256": "666861b3b941588ffbdee240574f4790807550dbbcd33088e3b1de36faa7516c"
+    }
+  ],
+  "status": "prepared_for_two_isolated_agent_passes"
+}

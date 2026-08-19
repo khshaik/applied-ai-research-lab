@@ -1,0 +1,52 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:16:31.751589Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html;charset=UTF-8",
+      "error_type": "ReadTimeout",
+      "final_url": "https://su.diva-portal.org/smash/record.jsf?pid=diva2%3A2080595&dswid=-1426",
+      "http_status": 200,
+      "outcome": "network_error",
+      "url": "http://urn.kb.se/resolve?urn=urn:nbn:se:su:diva-257354"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:16:31.751589Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html;charset=UTF-8",
+      "error_type": "ReadTimeout",
+      "final_url": "https://su.diva-portal.org/smash/record.jsf?pid=diva2%3A2080595&dswid=-1426",
+      "http_status": 200,
+      "outcome": "network_error",
+      "url": "http://urn.kb.se/resolve?urn=urn:nbn:se:su:diva-257354"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:20:18.820357Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html;charset=UTF-8",
+      "final_url": "https://su.diva-portal.org/smash/record.jsf?pid=diva2%3A2080595&dswid=8558",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "http://urn.kb.se/resolve?urn=urn:nbn:se:su:diva-257354"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:20:24.837152Z",
+      "basis": "citation_pdf_url_metadata",
+      "bytes": 660509,
+      "content_type": "application/pdf",
+      "final_url": "https://su.diva-portal.org/smash/get/diva2:2080595/FULLTEXT01",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "sha256": "eb16bc027cb809f05f27b93bb4ce783d8242fb88a07c173868137c0f4389cb3e",
+      "url": "http://su.diva-portal.org/smash/get/diva2:2080595/FULLTEXT01"
+    }
+  ],
+  "bytes": 660509,
+  "family_id": "FAM-d46fa4af3af1fc22c2b3",
+  "lawful_access_basis": "citation_pdf_url_metadata",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-d46fa4af3af1fc22c2b3.pdf",
+  "pdf_sha256": "eb16bc027cb809f05f27b93bb4ce783d8242fb88a07c173868137c0f4389cb3e",
+  "representative_canonical_id": "CAN-ea07003b8135fab56208",
+  "retrieved_url": "http://su.diva-portal.org/smash/get/diva2:2080595/FULLTEXT01",
+  "status": "retrieved_open"
+}

@@ -1,0 +1,35 @@
+{
+  "attempts": [
+    {
+      "basis": "semantic_scholar_open_access_pdf",
+      "bytes": 51695,
+      "content_type": "text/html;charset=UTF-8",
+      "final_url": "https://research.manchester.ac.uk/en/publications/securefalcon-are-we-there-yet-in-automated-software-vulnerability/",
+      "http_status": 200,
+      "outcome": "not_a_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://research.manchester.ac.uk/en/publications/09c2efdb-1d79-4bfe-88b6-6d529c1380a7"
+    },
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 845792,
+      "content_type": "application/pdf",
+      "final_url": "https://arxiv.org/pdf/2307.06616",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "a27f42d5f39490db63780b3ba51feb03a20959209bdd0b6405d1f2c80099dc3b",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://arxiv.org/pdf/2307.06616"
+    }
+  ],
+  "bytes": 845792,
+  "family_id": "FAM-0b22cbf65efe2c9b08c8",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-0b22cbf65efe2c9b08c8.pdf",
+  "pdf_sha256": "a27f42d5f39490db63780b3ba51feb03a20959209bdd0b6405d1f2c80099dc3b",
+  "representative_canonical_id": "CAN-9bb97b132eaa04265d69",
+  "retrieved_url": "https://arxiv.org/pdf/2307.06616",
+  "status": "retrieved_open"
+}

@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 1749382,
+      "content_type": "application/pdf",
+      "final_url": "https://crm.ics.org.ru/uploads/crmissues/crm_2024_7/23_Salem2.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "e8163f8e42950132c52efb9df19ad8bf979a47ea6496da3c2f744cffa4e787a0",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://crm.ics.org.ru/uploads/crmissues/crm_2024_7/23_Salem2.pdf"
+    }
+  ],
+  "bytes": 1749382,
+  "family_id": "FAM-01df923b32d0d2ca9cdb",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-01df923b32d0d2ca9cdb.pdf",
+  "pdf_sha256": "e8163f8e42950132c52efb9df19ad8bf979a47ea6496da3c2f744cffa4e787a0",
+  "representative_canonical_id": "CAN-71e6a14096adbe00ad39",
+  "retrieved_url": "https://crm.ics.org.ru/uploads/crmissues/crm_2024_7/23_Salem2.pdf",
+  "status": "retrieved_open"
+}

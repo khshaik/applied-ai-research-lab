@@ -1,0 +1,33 @@
+{
+  "complete_pagination": false,
+  "endpoint": "https://api.openalex.org/works",
+  "executed_at_utc": "2026-08-16T02:59:49.950947+00:00",
+  "from_date": "2019-01-01",
+  "interpretation_boundary": "Open-index development discovery export; not frozen, screened, deduplicated, eligible, or a PRISMA corpus. Retrieval was intentionally capped; total_reported is API metadata, not an exported-record or review-flow count.",
+  "max_pages": 1,
+  "page_size": 100,
+  "pages": [
+    {
+      "file": "page_00000.json",
+      "records": 100,
+      "request_url_sha256": "aa06f4252c59e9070b720da2de64993070153922f71bc9863b9ace9ee3370c01",
+      "sequence": 0,
+      "sha256": "6ecad76f5d4c2742906fc7b5e5a6b28ffa634f7efef69c806e1518e9d649c758"
+    }
+  ],
+  "query": "(\"AI assistant\" OR \"AI-assisted development\" OR \"large language model\" OR LLM OR ChatGPT OR Gemini) AND (\"software security\" OR \"secure software development\" OR \"secure coding\" OR vulnerability OR patching) AND (developer OR human OR interview OR \"user study\" OR experience OR validation OR checking OR iterative)",
+  "query_id": "OA-S5SR4",
+  "query_mode": "title_abstract_filter",
+  "query_registry_sha256": "a2559c3146f376eb81a2c24090da3a829245fd27035072270e335233430ccf80",
+  "query_sha256": "ed41f699ec53f401d2374bf14cfff999fe737227749688a637e1b8d1ec9a5b68",
+  "records_csv": {
+    "file": "records.csv",
+    "sha256": "d710f4564ea7f0afa1ae284f914d14e74dd1567b62ea76b9ec8fffe071d5965a"
+  },
+  "records_retrieved": 100,
+  "retrieval_scope": "truncated_development_pilot",
+  "source": "openalex",
+  "status": "development_pilot",
+  "to_date": "2026-08-16",
+  "total_reported": 8050
+}

@@ -1,0 +1,32 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:08:49.089489Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://zenodo.org/records/18756457",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://doi.org/10.5281/zenodo.18756456"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:08:51.075067Z",
+      "basis": "citation_pdf_url_metadata",
+      "bytes": 68508,
+      "content_type": "application/octet-stream, application/octet-stream",
+      "final_url": "https://zenodo.org/records/18756457/files/ODD.06-Contract-Adversarial.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "sha256": "0b3a38b7c6eb27208c40ed071f17b679d1d6063e79b62d2d04c70645ede51a4d",
+      "url": "https://zenodo.org/records/18756457/files/ODD.06-Contract-Adversarial.pdf"
+    }
+  ],
+  "bytes": 68508,
+  "family_id": "FAM-862a157802d45ac2c716",
+  "lawful_access_basis": "citation_pdf_url_metadata",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-862a157802d45ac2c716.pdf",
+  "pdf_sha256": "0b3a38b7c6eb27208c40ed071f17b679d1d6063e79b62d2d04c70645ede51a4d",
+  "representative_canonical_id": "CAN-21c403081d955643069f",
+  "retrieved_url": "https://zenodo.org/records/18756457/files/ODD.06-Contract-Adversarial.pdf",
+  "status": "retrieved_open"
+}

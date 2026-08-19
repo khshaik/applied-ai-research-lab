@@ -1,0 +1,30 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:16:56.702367Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://oa.upm.es/92234/",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://oa.upm.es/92234/"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:21:58.889144Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://oa.upm.es/92234/",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://oa.upm.es/92234/"
+    }
+  ],
+  "bytes": 0,
+  "family_id": "FAM-f46eed04d6bf117ff9e9",
+  "lawful_access_basis": null,
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "representative_canonical_id": "CAN-99c0db3e608633a772c9",
+  "retrieved_url": null,
+  "status": "lawful_full_text_not_retrieved"
+}

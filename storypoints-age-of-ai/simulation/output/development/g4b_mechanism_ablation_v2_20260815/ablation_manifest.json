@@ -1,0 +1,19 @@
+{
+  "development_world_ids": [
+    "world_bottleneck",
+    "world_hie",
+    "world_sp"
+  ],
+  "effect_count": 12,
+  "implementation_sha256": "949d1c0f420c8ec61a0ec18b5c1564d6c11f9e3c6d97fe9b22ac30779da6c570",
+  "interpretation_boundary": "Development synthetic mechanism diagnostic only; not locked evidence.",
+  "manifest_version": "0.2.0-development",
+  "mechanisms": [
+    "dependencies",
+    "multi_role_structure",
+    "queues",
+    "readiness"
+  ],
+  "pair_count": 576,
+  "status": "developmental_synthetic_not_locked_evaluation"
+}

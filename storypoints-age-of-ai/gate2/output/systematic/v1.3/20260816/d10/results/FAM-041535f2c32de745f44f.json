@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 949123,
+      "content_type": "application/pdf",
+      "final_url": "https://restpublisher.com/wp-content/uploads/2025/09/Measuring-AI-Driven-Developer-Productivity-in-Agile-Software-Development-Random-Forest-Regression-Analysis-of-Performance-Metrics-and-Tool-Integration.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "9882fda283040315c1ec9c570297dea11dd63b58df7df210dd7cb7bbc437cce2",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://doi.org/10.46632/cset/3/3/12"
+    }
+  ],
+  "bytes": 949123,
+  "family_id": "FAM-041535f2c32de745f44f",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-041535f2c32de745f44f.pdf",
+  "pdf_sha256": "9882fda283040315c1ec9c570297dea11dd63b58df7df210dd7cb7bbc437cce2",
+  "representative_canonical_id": "CAN-268735d97452b586ef7a",
+  "retrieved_url": "https://restpublisher.com/wp-content/uploads/2025/09/Measuring-AI-Driven-Developer-Productivity-in-Agile-Software-Development-Random-Forest-Regression-Analysis-of-Performance-Metrics-and-Tool-Integration.pdf",
+  "status": "retrieved_open"
+}

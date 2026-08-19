@@ -1,0 +1,31 @@
+{
+  "status": "development_pilot",
+  "version": "0.6",
+  "supersedes": "s6_open_index_queries_v0.5.json",
+  "date_window": {"from": "2019-01-01", "to": "2026-08-16"},
+  "boundary": "Prospective S6 OpenAlex spelling correction after inspecting the pre-existing sentinel metadata: software development life cycle is added alongside lifecycle. The v0.5 generic processes expansion was overbroad at 375 records and is not retained. Sentinels remain unchanged. Developmental only; not a frozen search, eligibility decision, systematic corpus, or PRISMA input.",
+  "sentinel_control_version": "family_scoped_v0.3",
+  "queries": [
+    {
+      "source": "openalex",
+      "query_id": "OA-S6R6",
+      "family_id": "S6",
+      "query_mode": "title_abstract_filter",
+      "query": "(\"large language model\" OR LLM OR LLMs OR ChatGPT OR \"AI-assisted\" OR \"AI-augmented\" OR \"AI agent\") AND (\"software delivery\" OR \"software development lifecycle\" OR \"software development life cycle\" OR \"software engineering lifecycle\" OR \"AI-augmented engineering\") AND (\"team-level\" OR workflow OR orchestration OR coordination OR \"human approval\" OR \"error rate\" OR \"productivity-quality paradox\")"
+    }
+  ],
+  "sentinels": [
+    {"sentinel_id":"S6-OA-P1","family_id":"S6","role":"scope_positive","doi":"10.48550/arxiv.2603.20028","title":"Orchestrating Human-AI Software Delivery: A Retrospective Longitudinal Field Study of Three Software Modernization Programs","testable_sources":["openalex"],"rationale":"Longitudinal industrial evidence across coordinated human-AI analysis, planning, implementation, and validation stages, with delivery and validation outcomes."},
+    {"sentinel_id":"S6-OA-P2","family_id":"S6","role":"scope_positive","doi":"10.48550/arxiv.2602.20684","title":"Agile V: A Compliance-Ready Framework for AI-Augmented Engineering -- From Concept to Audit-Ready Delivery","testable_sources":["openalex"],"rationale":"Lifecycle-spanning requirements, design, build, test, compliance, and human-approval workflow with explicit delivery and interaction measures."},
+    {"sentinel_id":"S6-OA-D1","family_id":"S6","role":"neutral_disconfirming","doi":"10.48550/arxiv.2503.05012","title":"LLMs' Reshaping of People, Processes, Products, and Society in Software Development: A Comprehensive Exploration with Early Adopters","testable_sources":["openalex"],"rationale":"Practitioner evidence reports a productivity-quality paradox, shifted evaluation/integration effort, and limited influence in collaborative lifecycle work."},
+    {"sentinel_id":"S6-OA-D2","family_id":"S6","role":"neutral_disconfirming","doi":"10.48550/arxiv.2504.18858","title":"Why you shouldn't fully trust ChatGPT: A synthesis of this AI tool's error rates across disciplines and the software engineering lifecycle","testable_sources":["openalex"],"rationale":"Lifecycle synthesis reports material and phase-dependent error rates, constraining unqualified delivery-acceleration claims."},
+    {"sentinel_id":"S6-OA-B1","family_id":"S6","role":"negative_boundary","doi":"10.48550/arxiv.2608.01955","title":"Agentic Self-Healing for Data and AI Pipelines: An Affordable Vendor-Agnostic Architecture using Open-Source Software","testable_sources":["openalex"],"rationale":"Operations architecture for data and AI pipelines is outside human/team evidence on AI-assisted software delivery and is a precision warning."}
+  ],
+  "sampled_precision_rule": {
+    "required_fields":["source_id","decision","reason"],
+    "allowed_decisions":["likely_relevant","likely_irrelevant","uncertain"],
+    "development_diagnostic_minimum_sample":20,
+    "freeze_sample_bands":[{"population_min":0,"population_max":50,"required_sample":"all"},{"population_min":51,"population_max":1000,"required_sample":50},{"population_min":1001,"population_max":null,"required_sample":100}],
+    "acceptance_bands":{"operational_minimum_relevant_plus_uncertain":0.10,"conditional_minimum_relevant_plus_uncertain":0.05,"conditional_requires_documented_capacity_and_coverage_approval":true}
+  }
+}

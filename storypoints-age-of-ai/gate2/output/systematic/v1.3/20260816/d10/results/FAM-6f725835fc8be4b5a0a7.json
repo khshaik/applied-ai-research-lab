@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 989122,
+      "content_type": "application/pdf",
+      "final_url": "https://www.preprints.org/frontend/manuscript/31987ebf32ae0d7ef875f4970f738b2e/download_pub",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "3773135fb1bb520764ed377f26ade7cec84788677e4b2fed21390afb99df6a90",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://www.preprints.org/frontend/manuscript/31987ebf32ae0d7ef875f4970f738b2e/download_pub"
+    }
+  ],
+  "bytes": 989122,
+  "family_id": "FAM-6f725835fc8be4b5a0a7",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-6f725835fc8be4b5a0a7.pdf",
+  "pdf_sha256": "3773135fb1bb520764ed377f26ade7cec84788677e4b2fed21390afb99df6a90",
+  "representative_canonical_id": "CAN-ea42c0fade197ee4b7bd",
+  "retrieved_url": "https://www.preprints.org/frontend/manuscript/31987ebf32ae0d7ef875f4970f738b2e/download_pub",
+  "status": "retrieved_open"
+}

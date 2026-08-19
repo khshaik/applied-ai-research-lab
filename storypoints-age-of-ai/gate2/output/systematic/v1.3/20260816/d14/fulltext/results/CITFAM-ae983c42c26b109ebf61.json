@@ -1,0 +1,21 @@
+{
+  "attempts": [
+    {
+      "active_indicators": [],
+      "attempted_at_utc": "2026-08-19T08:51:06.539414Z",
+      "basis": "frozen_openalex_primary_oa_pdf",
+      "bytes": 391347,
+      "final_url": "https://aclanthology.org/2023.findings-emnlp.968.pdf",
+      "pdf_path": "/Users/81194246/Library/CloudStorage/OneDrive-Pepsico/Personal/AI/Projects/ThinkAI/storypoints-age-of-ai/gate2/output/systematic/v1.3/20260816/d14/fulltext/pdf/CITFAM-ae983c42c26b109ebf61.pdf",
+      "redirect_count": 0,
+      "sha256": "190959f2ceca16ef00e366303d1a9c1c5c6a59e83f4535e973032c5556804fbb",
+      "status": "retrieved_static_pdf"
+    }
+  ],
+  "bytes": 391347,
+  "citation_family_id": "CITFAM-ae983c42c26b109ebf61",
+  "pdf_path": "/Users/81194246/Library/CloudStorage/OneDrive-Pepsico/Personal/AI/Projects/ThinkAI/storypoints-age-of-ai/gate2/output/systematic/v1.3/20260816/d14/fulltext/pdf/CITFAM-ae983c42c26b109ebf61.pdf",
+  "pdf_sha256": "190959f2ceca16ef00e366303d1a9c1c5c6a59e83f4535e973032c5556804fbb",
+  "security_attestation": "Static HTTPS retrieval only; public-IP validation, bounded redirects/size, signature and active-content checks; no PDF execution.",
+  "status": "retrieved_static_pdf"
+}

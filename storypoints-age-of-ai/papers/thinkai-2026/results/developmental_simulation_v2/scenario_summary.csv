@@ -1,0 +1,12 @@
+status,scenario_id,n_runs,n_items,descriptive_lowest_brier_model,descriptive_lowest_brier,interpretation
+developmental_synthetic_not_empirical_validation,baseline_bottleneck,24,288,proposed_model,0.12060784004712873,descriptive development-set result; not a superiority decision
+developmental_synthetic_not_empirical_validation,baseline_hie,24,288,hie_compatible,0.10547635341031887,descriptive development-set result; not a superiority decision
+developmental_synthetic_not_empirical_validation,baseline_sp,24,288,hie_compatible,0.14599651812765888,descriptive development-set result; not a superiority decision
+developmental_synthetic_not_empirical_validation,edge_no_rework,24,288,story_points,0.0010224939700031156,descriptive development-set result; not a superiority decision
+developmental_synthetic_not_empirical_validation,edge_severe_queue,24,1152,simple_role_load,0.161438034116244,descriptive development-set result; not a superiority decision
+developmental_synthetic_not_empirical_validation,load_high,24,864,simple_role_load,0.2495205250439062,descriptive development-set result; not a superiority decision
+developmental_synthetic_not_empirical_validation,load_low,24,144,hie_compatible,0.11043156725898125,descriptive development-set result; not a superiority decision
+developmental_synthetic_not_empirical_validation,recovery_service_high,24,288,proposed_model,0.14228758338175418,descriptive development-set result; not a superiority decision
+developmental_synthetic_not_empirical_validation,recovery_service_low,24,288,proposed_model,0.15157890195373658,descriptive development-set result; not a superiority decision
+developmental_synthetic_not_empirical_validation,review_capacity_high,24,576,hie_compatible,0.28781680854213937,descriptive development-set result; not a superiority decision
+developmental_synthetic_not_empirical_validation,review_capacity_low,24,576,proposed_model,0.22034435971411295,descriptive development-set result; not a superiority decision

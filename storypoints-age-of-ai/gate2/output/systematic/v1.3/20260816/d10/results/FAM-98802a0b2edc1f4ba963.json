@@ -1,0 +1,32 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:15:42.207801Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html;charset=UTF-8",
+      "error_type": "ReadTimeout",
+      "final_url": "https://bth.diva-portal.org/smash/record.jsf?pid=diva2%3A2036345&dswid=9431",
+      "http_status": 200,
+      "outcome": "network_error",
+      "url": "http://urn.kb.se/resolve?urn=urn:nbn:se:bth-29144"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:15:42.207801Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html;charset=UTF-8",
+      "error_type": "ReadTimeout",
+      "final_url": "https://bth.diva-portal.org/smash/record.jsf?pid=diva2%3A2036345&dswid=9431",
+      "http_status": 200,
+      "outcome": "network_error",
+      "url": "http://urn.kb.se/resolve?urn=urn:nbn:se:bth-29144"
+    }
+  ],
+  "bytes": 0,
+  "family_id": "FAM-98802a0b2edc1f4ba963",
+  "lawful_access_basis": null,
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "representative_canonical_id": "CAN-8dd229f01b3287c132bd",
+  "retrieved_url": null,
+  "status": "lawful_full_text_not_retrieved"
+}

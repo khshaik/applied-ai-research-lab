@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 731080,
+      "content_type": "application/pdf",
+      "final_url": "https://wjarr.com/sites/default/files/fulltext_pdf/WJARR-2023-0898.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "a1d8f216f0fd45cbdfec4a14ee6824a307ff050d199e2c2b2b42cb2b96179c68",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://wjarr.com/sites/default/files/WJARR-2023-0898.pdf"
+    }
+  ],
+  "bytes": 731080,
+  "family_id": "FAM-da682c9c6076b3e9d451",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-da682c9c6076b3e9d451.pdf",
+  "pdf_sha256": "a1d8f216f0fd45cbdfec4a14ee6824a307ff050d199e2c2b2b42cb2b96179c68",
+  "representative_canonical_id": "CAN-4794b6c717344d3735bb",
+  "retrieved_url": "https://wjarr.com/sites/default/files/fulltext_pdf/WJARR-2023-0898.pdf",
+  "status": "retrieved_open"
+}

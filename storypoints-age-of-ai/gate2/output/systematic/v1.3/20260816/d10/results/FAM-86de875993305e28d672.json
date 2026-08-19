@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 717448,
+      "content_type": "application/pdf",
+      "final_url": "https://www.jestr.org/downloads/Volume18Issue6/fulltext211862025.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "05f539f0be7f0d03c8ed6200dd5e658080c845db3be22a6b5eac4c9cb6f1483b",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://doi.org/10.25103/jestr.186.21"
+    }
+  ],
+  "bytes": 717448,
+  "family_id": "FAM-86de875993305e28d672",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-86de875993305e28d672.pdf",
+  "pdf_sha256": "05f539f0be7f0d03c8ed6200dd5e658080c845db3be22a6b5eac4c9cb6f1483b",
+  "representative_canonical_id": "CAN-35c8ce253f14bf800940",
+  "retrieved_url": "https://www.jestr.org/downloads/Volume18Issue6/fulltext211862025.pdf",
+  "status": "retrieved_open"
+}

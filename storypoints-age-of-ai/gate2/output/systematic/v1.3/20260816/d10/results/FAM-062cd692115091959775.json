@@ -1,0 +1,32 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:01:48.362792Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://zenodo.org/records/18287419",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://doi.org/10.5281/zenodo.18287419"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:01:50.475126Z",
+      "basis": "citation_pdf_url_metadata",
+      "bytes": 5189236,
+      "content_type": "application/octet-stream, application/octet-stream",
+      "final_url": "https://zenodo.org/records/18287419/files/Ai%20Driven%20Software%20-%20Copy.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "sha256": "b22552ebf8a77f648ee77710d4f323502bc7a740eb9b9feb38f7570cb51afc04",
+      "url": "https://zenodo.org/records/18287419/files/Ai%20Driven%20Software%20-%20Copy.pdf"
+    }
+  ],
+  "bytes": 5189236,
+  "family_id": "FAM-062cd692115091959775",
+  "lawful_access_basis": "citation_pdf_url_metadata",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-062cd692115091959775.pdf",
+  "pdf_sha256": "b22552ebf8a77f648ee77710d4f323502bc7a740eb9b9feb38f7570cb51afc04",
+  "representative_canonical_id": "CAN-19b3415b3717f6dcd181",
+  "retrieved_url": "https://zenodo.org/records/18287419/files/Ai%20Driven%20Software%20-%20Copy.pdf",
+  "status": "retrieved_open"
+}

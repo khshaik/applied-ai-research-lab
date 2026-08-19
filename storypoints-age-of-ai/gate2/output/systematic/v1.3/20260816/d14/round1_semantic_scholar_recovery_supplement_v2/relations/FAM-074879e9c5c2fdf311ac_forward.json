@@ -1,0 +1,40 @@
+{
+  "data": [
+    {
+      "citingPaper": {
+        "abstract": null,
+        "authors": [
+          {
+            "authorId": "74668780",
+            "name": "Hamzah Alaidaros"
+          },
+          {
+            "authorId": "7465940",
+            "name": "Mazni Omar"
+          },
+          {
+            "authorId": "2735797",
+            "name": "R. Romli"
+          }
+        ],
+        "citationCount": 15,
+        "externalIds": {
+          "CorpusId": 69829116,
+          "MAG": "2883956043"
+        },
+        "openAccessPdf": {
+          "license": null,
+          "status": null,
+          "url": ""
+        },
+        "paperId": "52c64636f13db1ab31bb065df5ed174f2546f142",
+        "referenceCount": 42,
+        "title": "Towards an Improved Software Project Monitoring Task Model of Agile Kanban Method",
+        "url": "https://www.semanticscholar.org/paper/52c64636f13db1ab31bb065df5ed174f2546f142",
+        "venue": "",
+        "year": 2018
+      }
+    }
+  ],
+  "status": "complete"
+}

@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 2183198,
+      "content_type": "application/pdf",
+      "final_url": "https://link.springer.com/content/pdf/10.1007/s10791-026-10331-6.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "f7bcae89e0dedb9b00872d3c005015a7204b62f39e2dac9c15400945660c55aa",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://link.springer.com/content/pdf/10.1007/s10791-026-10331-6.pdf"
+    }
+  ],
+  "bytes": 2183198,
+  "family_id": "FAM-a640303a39a1b2b83393",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-a640303a39a1b2b83393.pdf",
+  "pdf_sha256": "f7bcae89e0dedb9b00872d3c005015a7204b62f39e2dac9c15400945660c55aa",
+  "representative_canonical_id": "CAN-360a68bc13c9758248e8",
+  "retrieved_url": "https://link.springer.com/content/pdf/10.1007/s10791-026-10331-6.pdf",
+  "status": "retrieved_open"
+}

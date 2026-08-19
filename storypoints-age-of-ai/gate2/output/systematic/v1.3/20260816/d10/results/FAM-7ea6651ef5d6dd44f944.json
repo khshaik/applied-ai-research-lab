@@ -1,0 +1,32 @@
+{
+  "attempts": [
+    {
+      "basis": "semantic_scholar_open_access_pdf",
+      "bytes": 466921,
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://repository.bilkent.edu.tr/items/d08afee1-ec77-4cbe-ad51-339a8f688655",
+      "http_status": 200,
+      "outcome": "not_a_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://hdl.handle.net/11693/118465"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:08:10.608571Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://ieeexplore.ieee.org/document/11052818/",
+      "http_status": 202,
+      "outcome": "http_failure",
+      "url": "https://doi.org/10.1109/forge66646.2025.00027"
+    }
+  ],
+  "bytes": 0,
+  "family_id": "FAM-7ea6651ef5d6dd44f944",
+  "lawful_access_basis": null,
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "representative_canonical_id": "CAN-3bee84d5c6afebef673f",
+  "retrieved_url": null,
+  "status": "lawful_full_text_not_retrieved"
+}

@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 558950,
+      "content_type": "application/pdf",
+      "final_url": "https://sol.sbc.org.br/index.php/sbes/article/download/36982/36767",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "b7f84e23bf612435b34bf1a0e614469c953d91008bd36928b96f1fda94181035",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://sol.sbc.org.br/index.php/sbes/article/download/36982/36767"
+    }
+  ],
+  "bytes": 558950,
+  "family_id": "FAM-f878bfde2091bfbb7538",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-f878bfde2091bfbb7538.pdf",
+  "pdf_sha256": "b7f84e23bf612435b34bf1a0e614469c953d91008bd36928b96f1fda94181035",
+  "representative_canonical_id": "CAN-aad28dc007ab215ee2e4",
+  "retrieved_url": "https://sol.sbc.org.br/index.php/sbes/article/download/36982/36767",
+  "status": "retrieved_open"
+}

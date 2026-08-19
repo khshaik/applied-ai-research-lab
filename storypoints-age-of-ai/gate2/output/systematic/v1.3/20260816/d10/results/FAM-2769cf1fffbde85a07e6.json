@@ -1,0 +1,32 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:03:54.301980Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://zenodo.org/records/20855835",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://doi.org/10.5281/zenodo.20855834"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:03:56.533391Z",
+      "basis": "citation_pdf_url_metadata",
+      "bytes": 233589,
+      "content_type": "application/octet-stream, application/octet-stream",
+      "final_url": "https://zenodo.org/records/20855835/files/KarkhutV%20ADAPTING%20THE%20TRAINING%20OF%20FUTURE%20SOFTWARE%20ENGINEERS%20TO%20THE%20CHALLENGES%20OF%20AI%20INTEGRATION%20INTO%20THE%20SOFTWARE%20DEVELOPMENT%20LIFE%20CYCLE.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "sha256": "19e3c7dffff26055a3c6276031159fb868945cf71b9cfea1ec3d8147d5756009",
+      "url": "https://zenodo.org/records/20855835/files/KarkhutV%20ADAPTING%20THE%20TRAINING%20OF%20FUTURE%20SOFTWARE%20ENGINEERS%20TO%20THE%20CHALLENGES%20OF%20AI%20INTEGRATION%20INTO%20THE%20SOFTWARE%20DEVELOPMENT%20LIFE%20CYCLE.pdf"
+    }
+  ],
+  "bytes": 233589,
+  "family_id": "FAM-2769cf1fffbde85a07e6",
+  "lawful_access_basis": "citation_pdf_url_metadata",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-2769cf1fffbde85a07e6.pdf",
+  "pdf_sha256": "19e3c7dffff26055a3c6276031159fb868945cf71b9cfea1ec3d8147d5756009",
+  "representative_canonical_id": "CAN-30704ce2768a59a71c4f",
+  "retrieved_url": "https://zenodo.org/records/20855835/files/KarkhutV%20ADAPTING%20THE%20TRAINING%20OF%20FUTURE%20SOFTWARE%20ENGINEERS%20TO%20THE%20CHALLENGES%20OF%20AI%20INTEGRATION%20INTO%20THE%20SOFTWARE%20DEVELOPMENT%20LIFE%20CYCLE.pdf",
+  "status": "retrieved_open"
+}

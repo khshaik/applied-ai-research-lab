@@ -1,0 +1,29 @@
+{
+  "artifact": "tmp/pdfs/wheels/pypdf-6.16.1-py3-none-any.whl",
+  "archive_member_count": 62,
+  "dependency": "pypdf",
+  "installation_scope": ".pdf-venv only",
+  "native_or_executable_payload_count": 0,
+  "network_installation": false,
+  "path_traversal_entry_count": 0,
+  "python_runtime": "3.9.6",
+  "requires_python": ">=3.9",
+  "sha256": "63fec31c4092ae50b6729beedcb469055b60d20c834bde1c402df241f371f644",
+  "source": "PyPI binary wheel downloaded with --only-binary=:all: --no-deps",
+  "uncompressed_bytes": 1674938,
+  "version": "6.16.1",
+  "runtime_dependencies": [
+    {
+      "artifact": "tmp/pdfs/wheels/typing_extensions-4.16.0-py3-none-any.whl",
+      "archive_member_count": 5,
+      "dependency": "typing_extensions",
+      "native_or_executable_payload_count": 0,
+      "path_traversal_entry_count": 0,
+      "required_by": "pypdf 6.16.1 on Python <3.11",
+      "sha256": "481caa481374e813c1b176ada14e97f1f67a4539ce9cfeb3f350d78d6370c2e8",
+      "source": "PyPI binary wheel downloaded with --only-binary=:all: --no-deps",
+      "uncompressed_bytes": 182767,
+      "version": "4.16.0"
+    }
+  ]
+}

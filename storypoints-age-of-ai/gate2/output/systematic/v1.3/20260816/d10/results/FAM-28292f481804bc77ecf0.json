@@ -1,0 +1,32 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:04:03.019357Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://zenodo.org/records/18310797",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://doi.org/10.5281/zenodo.18310797"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:04:04.784429Z",
+      "basis": "citation_pdf_url_metadata",
+      "bytes": 4243743,
+      "content_type": "application/octet-stream, application/octet-stream",
+      "final_url": "https://zenodo.org/records/18310797/files/AIDAVA_D3.10.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "sha256": "c48694b597ba3a289518e18e9f16c23272f221d2972bf55d3241152e1e6b6763",
+      "url": "https://zenodo.org/records/18310797/files/AIDAVA_D3.10.pdf"
+    }
+  ],
+  "bytes": 4243743,
+  "family_id": "FAM-28292f481804bc77ecf0",
+  "lawful_access_basis": "citation_pdf_url_metadata",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-28292f481804bc77ecf0.pdf",
+  "pdf_sha256": "c48694b597ba3a289518e18e9f16c23272f221d2972bf55d3241152e1e6b6763",
+  "representative_canonical_id": "CAN-9a769530b7ce5f5a8166",
+  "retrieved_url": "https://zenodo.org/records/18310797/files/AIDAVA_D3.10.pdf",
+  "status": "retrieved_open"
+}

@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 552056,
+      "content_type": "application/pdf",
+      "final_url": "https://terra-docs.s3.us-east-2.amazonaws.com/IJHSR/Articles/volume8-issue9/IJHSR_2026_89_70.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "93403fe87b6dc00133b1a9e3cb4718937abd95c166cda144c56eb242de41ce6e",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://doi.org/10.36838/ijhsr89.70"
+    }
+  ],
+  "bytes": 552056,
+  "family_id": "FAM-6f8810738529d086268e",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-6f8810738529d086268e.pdf",
+  "pdf_sha256": "93403fe87b6dc00133b1a9e3cb4718937abd95c166cda144c56eb242de41ce6e",
+  "representative_canonical_id": "CAN-9ea55d56dccd14eadd16",
+  "retrieved_url": "https://terra-docs.s3.us-east-2.amazonaws.com/IJHSR/Articles/volume8-issue9/IJHSR_2026_89_70.pdf",
+  "status": "retrieved_open"
+}

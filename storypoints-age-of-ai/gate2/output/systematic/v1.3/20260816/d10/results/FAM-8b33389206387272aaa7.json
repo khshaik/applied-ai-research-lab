@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 272959,
+      "content_type": "application/pdf",
+      "final_url": "https://al-kindipublisher.com/index.php/jcsts/article/download/9663/8303",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "aba4bc99c2604de58e6ce1fc568eb19785638c7996119a448c98022b1c016adb",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://al-kindipublisher.com/index.php/jcsts/article/download/9663/8303"
+    }
+  ],
+  "bytes": 272959,
+  "family_id": "FAM-8b33389206387272aaa7",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-8b33389206387272aaa7.pdf",
+  "pdf_sha256": "aba4bc99c2604de58e6ce1fc568eb19785638c7996119a448c98022b1c016adb",
+  "representative_canonical_id": "CAN-6e9692ea11e85b9fcb13",
+  "retrieved_url": "https://al-kindipublisher.com/index.php/jcsts/article/download/9663/8303",
+  "status": "retrieved_open"
+}

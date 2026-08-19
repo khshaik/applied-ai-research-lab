@@ -1,0 +1,33 @@
+{
+  "complete_pagination": true,
+  "endpoint": "https://api.openalex.org/works",
+  "executed_at_utc": "2026-08-16T05:15:41.762334+00:00",
+  "from_date": "2019-01-01",
+  "interpretation_boundary": "Open-index development discovery export; not frozen, screened, deduplicated, eligible, or a PRISMA corpus.",
+  "max_pages": null,
+  "page_size": 200,
+  "pages": [
+    {
+      "file": "page_00000.json",
+      "records": 49,
+      "request_url_sha256": "5b6aeab55cd99739fac2a2baac1655f31f6bff37d31680b80687385e091b8849",
+      "sequence": 0,
+      "sha256": "d54e661e473b82f986904af0778e81a1636d0588630efff920628291342d4372"
+    }
+  ],
+  "query": "(\"verified delivery capacity\" OR \"role-stage demand\" OR \"hybrid intelligence effort\" OR \"LLM-aware software effort\" OR \"agentic cost estimation\" OR \"AI-augmented engineering\" OR \"human-AI software delivery\" OR (\"story point\" AND (LLM OR \"large language model\")) OR (\"AI-assisted\" AND \"software effort\"))",
+  "query_id": "OA-S7R4",
+  "query_mode": "title_abstract_filter",
+  "query_registry_sha256": "48315d2e98bd18e17957ea91aaceaad794efbfe0f116c9284fd4f13db1c6c776",
+  "query_sha256": "c8c4cbd434cd572cfe0e474355e52d19966ec4bc7e0db42ac8bb7939a71844ec",
+  "records_csv": {
+    "file": "records.csv",
+    "sha256": "49551cf504199db013d529605c09a7c22d3fb4e4ae3d81a1f8f4808515c9f9f8"
+  },
+  "records_retrieved": 49,
+  "retrieval_scope": "complete",
+  "source": "openalex",
+  "status": "development_pilot",
+  "to_date": "2026-08-16",
+  "total_reported": 49
+}

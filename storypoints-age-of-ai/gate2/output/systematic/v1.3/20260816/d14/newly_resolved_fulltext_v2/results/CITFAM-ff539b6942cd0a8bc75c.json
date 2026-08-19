@@ -1,0 +1,9 @@
+{
+  "attempts": [],
+  "bytes": 0,
+  "citation_family_id": "CITFAM-ff539b6942cd0a8bc75c",
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "security_attestation": "Archived metadata exposed no lawful public PDF route; no network request was made.",
+  "status": "no_lawful_pdf_route"
+}

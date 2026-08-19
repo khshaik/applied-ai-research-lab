@@ -1,0 +1,32 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:07:07.731719Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://zenodo.org/records/18106424",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://doi.org/10.5281/zenodo.18106423"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:07:09.452699Z",
+      "basis": "citation_pdf_url_metadata",
+      "bytes": 396401,
+      "content_type": "application/octet-stream, application/octet-stream",
+      "final_url": "https://zenodo.org/records/18106424/files/smart-scan-ai-powered-code-analysis-and-review-IJERTV14IS050142.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "sha256": "10e5a7522cd51962024ca03bf652e3ae662735dc1d36a4123ecceed64fb138eb",
+      "url": "https://zenodo.org/records/18106424/files/smart-scan-ai-powered-code-analysis-and-review-IJERTV14IS050142.pdf"
+    }
+  ],
+  "bytes": 396401,
+  "family_id": "FAM-5d381d8b70578de8279c",
+  "lawful_access_basis": "citation_pdf_url_metadata",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-5d381d8b70578de8279c.pdf",
+  "pdf_sha256": "10e5a7522cd51962024ca03bf652e3ae662735dc1d36a4123ecceed64fb138eb",
+  "representative_canonical_id": "CAN-67814d79815ac29c32ce",
+  "retrieved_url": "https://zenodo.org/records/18106424/files/smart-scan-ai-powered-code-analysis-and-review-IJERTV14IS050142.pdf",
+  "status": "retrieved_open"
+}

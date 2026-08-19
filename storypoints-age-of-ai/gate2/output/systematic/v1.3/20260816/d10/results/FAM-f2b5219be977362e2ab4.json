@@ -1,0 +1,40 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://journal.uob.edu.bh:443/bitstream/123456789/4491/4/IJCDS_120112_1570733081.pdf",
+      "http_status": 202,
+      "outcome": "http_failure",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://journal.uob.edu.bh:443/bitstream/123456789/4491/4/IJCDS_120112_1570733081.pdf"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:16:53.221347Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.semanticscholar.org/paper/95437ca416f149dde647cc82d8b3f3a44a55045d",
+      "http_status": 202,
+      "outcome": "http_failure",
+      "url": "https://www.semanticscholar.org/paper/95437ca416f149dde647cc82d8b3f3a44a55045d"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:21:52.010444Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.semanticscholar.org/paper/95437ca416f149dde647cc82d8b3f3a44a55045d",
+      "http_status": 202,
+      "outcome": "http_failure",
+      "url": "https://www.semanticscholar.org/paper/95437ca416f149dde647cc82d8b3f3a44a55045d"
+    }
+  ],
+  "bytes": 0,
+  "family_id": "FAM-f2b5219be977362e2ab4",
+  "lawful_access_basis": null,
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "representative_canonical_id": "CAN-445319dffb75dd7775b5",
+  "retrieved_url": null,
+  "status": "lawful_full_text_not_retrieved"
+}

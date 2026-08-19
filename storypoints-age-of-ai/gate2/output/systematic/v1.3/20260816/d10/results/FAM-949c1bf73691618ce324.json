@@ -1,0 +1,29 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:10:57.660372Z",
+      "basis": "representative_landing_page",
+      "content_type": "application/pdf",
+      "final_url": "https://aisel.aisnet.org/cgi/viewcontent.cgi?article=1022&context=amcis2026",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://aisel.aisnet.org/cgi/viewcontent.cgi?article=1022&context=amcis2026"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:11:00.655605Z",
+      "basis": "landing_page_direct_pdf",
+      "bytes": 236738,
+      "outcome": "retrieved_verified_pdf",
+      "sha256": "30f733866eb8a3dc5ceaffd6a96003f360f8c017eb71ed23a0a9931ccc077b15",
+      "url": "https://aisel.aisnet.org/cgi/viewcontent.cgi?article=1022&context=amcis2026"
+    }
+  ],
+  "bytes": 236738,
+  "family_id": "FAM-949c1bf73691618ce324",
+  "lawful_access_basis": "landing_page_direct_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-949c1bf73691618ce324.pdf",
+  "pdf_sha256": "30f733866eb8a3dc5ceaffd6a96003f360f8c017eb71ed23a0a9931ccc077b15",
+  "representative_canonical_id": "CAN-0e74d47d8d513c518476",
+  "retrieved_url": "https://aisel.aisnet.org/cgi/viewcontent.cgi?article=1022&context=amcis2026",
+  "status": "retrieved_open"
+}

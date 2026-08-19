@@ -1,0 +1,30 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:16:28.919388Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html",
+      "final_url": "https://figshare.com/articles/dataset/Replication_Package_for_ASE_2026_Anonymous_Submission/31868899/1",
+      "http_status": 403,
+      "outcome": "access_blocked_or_paywalled",
+      "url": "https://doi.org/10.6084/m9.figshare.31868899.v1"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:20:17.021529Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html",
+      "final_url": "https://figshare.com/articles/dataset/Replication_Package_for_ASE_2026_Anonymous_Submission/31868899/1",
+      "http_status": 403,
+      "outcome": "access_blocked_or_paywalled",
+      "url": "https://doi.org/10.6084/m9.figshare.31868899.v1"
+    }
+  ],
+  "bytes": 0,
+  "family_id": "FAM-d2b1857afdf6842564e8",
+  "lawful_access_basis": null,
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "representative_canonical_id": "CAN-24259382d245b5ad7681",
+  "retrieved_url": null,
+  "status": "paywalled_or_access_blocked"
+}

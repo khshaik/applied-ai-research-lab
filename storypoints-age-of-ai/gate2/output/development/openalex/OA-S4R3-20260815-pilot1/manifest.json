@@ -1,0 +1,32 @@
+{
+  "complete_pagination": false,
+  "endpoint": "https://api.openalex.org/works",
+  "executed_at_utc": "2026-08-15T14:34:53.881562+00:00",
+  "from_date": "2019-01-01",
+  "interpretation_boundary": "Open-index development discovery export; not frozen, screened, deduplicated, eligible, or a PRISMA corpus. Retrieval was intentionally capped; total_reported is API metadata, not an exported-record or review-flow count.",
+  "max_pages": 1,
+  "page_size": 100,
+  "pages": [
+    {
+      "file": "page_00000.json",
+      "records": 100,
+      "request_url_sha256": "b0bb82f6c0002746c28d2ed629a6e753bb97df8b8501c5cef99941e82a1cb1e7",
+      "sequence": 0,
+      "sha256": "7242ef9e9325ceec2347892aa318869fa946259d0a3921c43c1b9c1a51547e35"
+    }
+  ],
+  "query": "(\"large language model\" OR LLM OR \"generative AI\" OR \"AI-assisted\") AND (\"code review\" OR \"pull request\") AND (reviewer OR \"review time\" OR \"closure duration\" OR workload OR attention OR effort OR efficiency OR quality OR verification OR trust)",
+  "query_id": "OA-S4R3",
+  "query_registry_sha256": "6182547a608a57b1288b7f797a5972d04c74111ab6f74a0d11898c390e3f0b8e",
+  "query_sha256": "32283838001dabf5ff4b93bea81be9a9f580955cc7df781230ae85f64ce5fc73",
+  "records_csv": {
+    "file": "records.csv",
+    "sha256": "5e0e9e8ae00d1594582c06b1c7551877607293493b18e3fb1d48a0759aaf2737"
+  },
+  "records_retrieved": 100,
+  "retrieval_scope": "truncated_development_pilot",
+  "source": "openalex",
+  "status": "development_pilot",
+  "to_date": "2026-08-15",
+  "total_reported": 7127
+}

@@ -1,0 +1,33 @@
+{
+  "complete_pagination": true,
+  "endpoint": "https://api.openalex.org/works",
+  "executed_at_utc": "2026-08-16T02:57:29.735038+00:00",
+  "from_date": "2019-01-01",
+  "interpretation_boundary": "Open-index development discovery export; not frozen, screened, deduplicated, eligible, or a PRISMA corpus.",
+  "max_pages": null,
+  "page_size": 100,
+  "pages": [
+    {
+      "file": "page_00000.json",
+      "records": 0,
+      "request_url_sha256": "c6e3bcf9ba027bf5d3fcee4c1b385b01ef53cdec233ec93b8a01511b9753f65c",
+      "sequence": 0,
+      "sha256": "aa8eb045e473a98366199186ccffdb7cf62b87ae6bcbdb0d64a4fca3b0706ebf"
+    }
+  ],
+  "query": "\"AI-assisted software development\" security developer human study vulnerability secure coding experience review validation",
+  "query_id": "OA-S5SR2",
+  "query_mode": "title_abstract_filter",
+  "query_registry_sha256": "1be0646c6db61890a98853f51f25f4cdd34c5c37dfad6e083b8e795d87029a70",
+  "query_sha256": "665d1249b8d9157778fdcabbef7cc2a4f8b27e86b8fe0d6932d257253cd7aca1",
+  "records_csv": {
+    "file": "records.csv",
+    "sha256": "df51c762f362c6bf3032de5937b5bce9a31f15c8682ffece731a07d2790059a9"
+  },
+  "records_retrieved": 0,
+  "retrieval_scope": "complete",
+  "source": "openalex",
+  "status": "development_pilot",
+  "to_date": "2026-08-16",
+  "total_reported": 0
+}

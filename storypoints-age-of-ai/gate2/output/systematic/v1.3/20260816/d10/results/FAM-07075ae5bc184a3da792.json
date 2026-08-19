@@ -1,0 +1,21 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:01:49.295598Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://zenodo.org/records/837229",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://zenodo.org/record/837229"
+    }
+  ],
+  "bytes": 0,
+  "family_id": "FAM-07075ae5bc184a3da792",
+  "lawful_access_basis": null,
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "representative_canonical_id": "CAN-81a76ff54b62b66fa8ca",
+  "retrieved_url": null,
+  "status": "lawful_full_text_not_retrieved"
+}

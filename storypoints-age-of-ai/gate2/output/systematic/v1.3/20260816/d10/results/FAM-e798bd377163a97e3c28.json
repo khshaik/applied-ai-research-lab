@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 733052,
+      "content_type": "application/pdf",
+      "final_url": "https://ulopenaccess.com/papers/ULIRS_V02I02/ULIRS20250202_006.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "6b5d4345f47879651fa035f9e4c958ec113acba19ae248123076a16ec55aa014",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://doi.org/10.70315/uloap.ulirs.2025.0202006"
+    }
+  ],
+  "bytes": 733052,
+  "family_id": "FAM-e798bd377163a97e3c28",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-e798bd377163a97e3c28.pdf",
+  "pdf_sha256": "6b5d4345f47879651fa035f9e4c958ec113acba19ae248123076a16ec55aa014",
+  "representative_canonical_id": "CAN-05b29a3cff6a7986bf69",
+  "retrieved_url": "https://ulopenaccess.com/papers/ULIRS_V02I02/ULIRS20250202_006.pdf",
+  "status": "retrieved_open"
+}

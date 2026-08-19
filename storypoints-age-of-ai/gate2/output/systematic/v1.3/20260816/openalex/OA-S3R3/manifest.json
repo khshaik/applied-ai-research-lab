@@ -1,0 +1,40 @@
+{
+  "acceptance_matrix_row_sha256": "e62031c7ab3dd942f4e40a743ff667ca41d3792c1d6ea0c1dcc18d08c1a80fe6",
+  "authentication": {
+    "credential_logged": false,
+    "method": "api_key_environment"
+  },
+  "complete_pagination": true,
+  "endpoint": "https://api.openalex.org/works",
+  "executed_at_utc": "2026-08-16T09:08:08.488752+00:00",
+  "freeze_package_sha256": "fa9800da881c2590a3261861fa6e1de5d6a3c349687ef320b43057561be8730d",
+  "from_date": "2019-01-01",
+  "interpretation_boundary": "Frozen systematic discovery export; not yet screened, deduplicated, eligible, or a PRISMA inclusion count.",
+  "max_pages": null,
+  "page_size": 200,
+  "pages": [
+    {
+      "file": "page_00000.json",
+      "records": 134,
+      "request_url_sha256": "d339af14a1de1e8ef8d432466024b6da11996d639dae682eb2452b2a3dd31c65",
+      "sequence": 0,
+      "sha256": "e74dea0ae53d4e673cc02d6427b7dfe92d6cb6aea5d5ed98b6907e217c2bdc65"
+    }
+  ],
+  "query": "\"software effort estimation\" AND (\"large language model\" OR \"generative AI\" OR \"AI-assisted\")",
+  "query_id": "OA-S3R3",
+  "query_mode": "fulltext_search",
+  "query_registry_sha256": "5f82bc8519fe6c64a5c78abef9b252229c12d2f8036e45848f43a5e5f1972e23",
+  "query_sha256": "371feb98ec6da9350e945e930ef88e1b7165c2378e87ad76521eef279f8725eb",
+  "records_csv": {
+    "file": "records.csv",
+    "sha256": "a85be6cf8610ea4ab2aa0e2b566ad677c895be3eaca740047c161be6f339ad11"
+  },
+  "records_retrieved": 134,
+  "result_sort": "",
+  "retrieval_scope": "complete_systematic",
+  "source": "openalex",
+  "status": "systematic_frozen",
+  "to_date": "2026-08-16",
+  "total_reported": 134
+}

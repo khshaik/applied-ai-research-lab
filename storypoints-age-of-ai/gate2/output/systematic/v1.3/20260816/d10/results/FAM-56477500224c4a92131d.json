@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 3464516,
+      "content_type": "application/octet-stream",
+      "final_url": "https://nrjjxl1nnwb4.compat.objectstorage.ap-tokyo-1.oraclecloud.com/contents/naist_repo_nii_ac_jp/87/e7/2503-4ee5-4087-b196-a261622735bf/data?response-content-type=application%2Foctet-stream&response-content-disposition=attachment%3B%20filename%3DR017638.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=2933d73c5ea35b566afd770d1a6af5c853196a77%2F20260816%2Fap-tokyo-1%2Fs3%2Faws4_request&X-Amz-Date=20260816T144317Z&X-Amz-Expires=60&X-Amz-SignedHeaders=host&X-Amz-Signature=137d88cc352ed1bd4c2573e83eb43d2ff3d73c5db077c1c84f71dc1d16522087",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "499b1e8e0bafabfcb428833dc56c081cef8bde1a396c1093976f87159533fddd",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://naist.repo.nii.ac.jp/record/11760/files/R017638.pdf"
+    }
+  ],
+  "bytes": 3464516,
+  "family_id": "FAM-56477500224c4a92131d",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-56477500224c4a92131d.pdf",
+  "pdf_sha256": "499b1e8e0bafabfcb428833dc56c081cef8bde1a396c1093976f87159533fddd",
+  "representative_canonical_id": "CAN-04877113682972c63f27",
+  "retrieved_url": "https://nrjjxl1nnwb4.compat.objectstorage.ap-tokyo-1.oraclecloud.com/contents/naist_repo_nii_ac_jp/87/e7/2503-4ee5-4087-b196-a261622735bf/data?response-content-type=application%2Foctet-stream&response-content-disposition=attachment%3B%20filename%3DR017638.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=2933d73c5ea35b566afd770d1a6af5c853196a77%2F20260816%2Fap-tokyo-1%2Fs3%2Faws4_request&X-Amz-Date=20260816T144317Z&X-Amz-Expires=60&X-Amz-SignedHeaders=host&X-Amz-Signature=137d88cc352ed1bd4c2573e83eb43d2ff3d73c5db077c1c84f71dc1d16522087",
+  "status": "retrieved_open"
+}

@@ -1,0 +1,32 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:16:20.290548Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://goldncloudpublications.com/index.php/irjaem/article/view/1403",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://doi.org/10.47392/irjaem.2026.0118"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:16:22.591511Z",
+      "basis": "citation_pdf_url_metadata",
+      "bytes": 234377,
+      "content_type": "application/pdf",
+      "final_url": "https://goldncloudpublications.com/index.php/irjaem/article/download/1403/1360",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "sha256": "fe5bd890ecf8222ebbe21d8ac88e7bf9e40fdb30e5dcb2525036065d7b0a96c4",
+      "url": "https://goldncloudpublications.com/index.php/irjaem/article/download/1403/1360"
+    }
+  ],
+  "bytes": 234377,
+  "family_id": "FAM-ce0e32b3002ec6abf00d",
+  "lawful_access_basis": "citation_pdf_url_metadata",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-ce0e32b3002ec6abf00d.pdf",
+  "pdf_sha256": "fe5bd890ecf8222ebbe21d8ac88e7bf9e40fdb30e5dcb2525036065d7b0a96c4",
+  "representative_canonical_id": "CAN-8f9b7b6449f418b1a0f0",
+  "retrieved_url": "https://goldncloudpublications.com/index.php/irjaem/article/download/1403/1360",
+  "status": "retrieved_open"
+}

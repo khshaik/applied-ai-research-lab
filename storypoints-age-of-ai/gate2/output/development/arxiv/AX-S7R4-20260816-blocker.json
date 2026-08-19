@@ -1,0 +1,18 @@
+{
+  "status":"development_export_blocker_resolved",
+  "family_id":"S7",
+  "source":"arXiv",
+  "query_id":"AX-S7R4",
+  "query_version":"0.4",
+  "registry":"studies/vdcm/evidence-map/registries/s7_novelty_queries_v0.4.json",
+  "attempted_at_utc":"2026-08-16T05:17:01Z",
+  "failed_at_utc":"2026-08-16T05:17:19Z",
+  "attempt_policy":"One bounded retry using the existing exporter retry policy; no further silent network calls.",
+  "error_class":"DNS_resolution_failure",
+  "error":"arXiv request failed after 4 attempts: urlopen error [Errno 8] nodename nor servname provided, or not known",
+  "target_directory_created":false,
+  "prior_attempt":"An earlier AX-S7R2 sandbox attempt failed with the same DNS error; a subsequent escalated call was interrupted and produced no immutable export directory.",
+  "impact":"Historical failed attempt only; it produced no target directory and no data were fabricated.",
+  "resolution":{"resolved_at_utc":"2026-08-16T05:27:51.023553+00:00","successful_export":"gate2/output/development/arxiv/AX-S7R4-20260816-retry2","records_retrieved":7,"complete_pagination":true,"sentinel_recall_pass":true},
+  "next_action":"Use the successful immutable retry2 export and its checked S7 v0.4 mapping/appraisal. Preserve this record as failure provenance."
+}

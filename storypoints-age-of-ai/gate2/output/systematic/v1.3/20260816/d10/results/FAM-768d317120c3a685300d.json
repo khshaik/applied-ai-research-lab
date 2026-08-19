@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 1773575,
+      "content_type": "application/pdf;charset=UTF-8",
+      "final_url": "https://dl.acm.org/doi/pdf/10.1145/3183519.3183525?download=true",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "122cc54a39f1e70d5fc4810a5d3501490959af66c296dc686efa10425fe40f17",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://dl.acm.org/ft_gateway.cfm?id=3183525&type=pdf"
+    }
+  ],
+  "bytes": 1773575,
+  "family_id": "FAM-768d317120c3a685300d",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-768d317120c3a685300d.pdf",
+  "pdf_sha256": "122cc54a39f1e70d5fc4810a5d3501490959af66c296dc686efa10425fe40f17",
+  "representative_canonical_id": "CAN-bf5edacef00346d3ae72",
+  "retrieved_url": "https://dl.acm.org/doi/pdf/10.1145/3183519.3183525?download=true",
+  "status": "retrieved_open"
+}

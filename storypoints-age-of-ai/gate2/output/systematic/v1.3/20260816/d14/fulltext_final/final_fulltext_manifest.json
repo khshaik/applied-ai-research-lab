@@ -1,0 +1,26 @@
+{
+  "adjudication": {
+    "decision_counts": {
+      "exclude": 82,
+      "include": 34
+    },
+    "family_count": 116,
+    "sha256": "caf0d760da323ac6b1e07031510fb44faa58eb8e35c38ed0efd9239387192e61",
+    "status": "valid_complete_fulltext_adjudication"
+  },
+  "decision_counts": {
+    "exclude": 125,
+    "include": 212,
+    "unavailable_not_assessed": 680
+  },
+  "disposition_manifest_sha256": "506d4210a1386752f58a165f239dbeeeb60e2a0484e992345983e95b416f9925",
+  "family_count": 1017,
+  "final_ledger_sha256": "657e2cdf16f3bd49bfe4808cf8fbd2078a789842514b33573f07573b20336f76",
+  "interpretation_boundary": "Unavailable full text is an availability outcome, not an eligibility exclusion, quality judgment, or novelty finding.",
+  "pipeline_version": "d14-fulltext-finalize/1.0.0",
+  "protocol_version": "1.3",
+  "reconciliation_manifest_sha256": "30b91f1f661a04df05df5d1d5a0ab1f9c07c5a45ac9a9abfc2f0110b6038f939",
+  "screened_family_count": 337,
+  "status": "d14_fulltext_assessment_complete",
+  "unavailable_family_count": 680
+}

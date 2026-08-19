@@ -1,0 +1,30 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:16:15.374694Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://dr.ntu.edu.sg/handle/10356/216739",
+      "http_status": 405,
+      "outcome": "http_failure",
+      "url": "https://hdl.handle.net/10356/216739"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:18:44.672958Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://dr.ntu.edu.sg/handle/10356/216739",
+      "http_status": 405,
+      "outcome": "http_failure",
+      "url": "https://hdl.handle.net/10356/216739"
+    }
+  ],
+  "bytes": 0,
+  "family_id": "FAM-c7d04c3e070ee31eb513",
+  "lawful_access_basis": null,
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "representative_canonical_id": "CAN-b67fd8c3403be3f9d852",
+  "retrieved_url": null,
+  "status": "lawful_full_text_not_retrieved"
+}

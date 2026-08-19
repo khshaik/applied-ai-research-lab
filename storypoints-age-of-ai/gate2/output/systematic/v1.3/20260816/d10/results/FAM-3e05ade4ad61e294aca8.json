@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 320331,
+      "content_type": "application/pdf",
+      "final_url": "https://www.ijsr.net/archive/v14i11/SR251115051642.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "71244b20a1e1980694b2403c39e6c1432913ccb9148f7ab7d9baa386186373a4",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://www.ijsr.net/archive/v14i11/SR251115051642.pdf"
+    }
+  ],
+  "bytes": 320331,
+  "family_id": "FAM-3e05ade4ad61e294aca8",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-3e05ade4ad61e294aca8.pdf",
+  "pdf_sha256": "71244b20a1e1980694b2403c39e6c1432913ccb9148f7ab7d9baa386186373a4",
+  "representative_canonical_id": "CAN-c81c99f17614d763eb2a",
+  "retrieved_url": "https://www.ijsr.net/archive/v14i11/SR251115051642.pdf",
+  "status": "retrieved_open"
+}

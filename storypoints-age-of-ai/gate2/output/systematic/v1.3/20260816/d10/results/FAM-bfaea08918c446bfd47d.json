@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 642487,
+      "content_type": "application/pdf",
+      "final_url": "https://www.qeios.com/read/ATAHD0/pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "7405bdadd2e0049eba2e54ca11fbf4f0d11ca68c4f098d80835b5e756786de89",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://www.qeios.com/read/ATAHD0/pdf"
+    }
+  ],
+  "bytes": 642487,
+  "family_id": "FAM-bfaea08918c446bfd47d",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-bfaea08918c446bfd47d.pdf",
+  "pdf_sha256": "7405bdadd2e0049eba2e54ca11fbf4f0d11ca68c4f098d80835b5e756786de89",
+  "representative_canonical_id": "CAN-c2642d97a3f2fc4681cd",
+  "retrieved_url": "https://www.qeios.com/read/ATAHD0/pdf",
+  "status": "retrieved_open"
+}

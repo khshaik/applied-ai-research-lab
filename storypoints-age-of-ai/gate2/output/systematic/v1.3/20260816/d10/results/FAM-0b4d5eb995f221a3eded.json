@@ -1,0 +1,32 @@
+{
+  "attempts": [
+    {
+      "basis": "semantic_scholar_open_access_pdf",
+      "bytes": 18142,
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://www.jsoftware.us/show-255-3143-1.html",
+      "http_status": 200,
+      "outcome": "not_a_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://doi.org/10.17706/jsw.21.1.14-32"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:02:07.689144Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://www.jsoftware.us/show-255-3143-1.html",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://doi.org/10.17706/jsw.21.1.14-32"
+    }
+  ],
+  "bytes": 0,
+  "family_id": "FAM-0b4d5eb995f221a3eded",
+  "lawful_access_basis": null,
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "representative_canonical_id": "CAN-9b282d7ec45d9a8eb290",
+  "retrieved_url": null,
+  "status": "lawful_full_text_not_retrieved"
+}

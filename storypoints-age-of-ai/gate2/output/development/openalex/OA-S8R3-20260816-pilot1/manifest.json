@@ -1,0 +1,33 @@
+{
+  "complete_pagination": false,
+  "endpoint": "https://api.openalex.org/works",
+  "executed_at_utc": "2026-08-16T06:23:26.765596+00:00",
+  "from_date": "1900-01-01",
+  "interpretation_boundary": "Open-index development discovery export; not frozen, screened, deduplicated, eligible, or a PRISMA corpus. Retrieval was intentionally capped; total_reported is API metadata, not an exported-record or review-flow count.",
+  "max_pages": 1,
+  "page_size": 200,
+  "pages": [
+    {
+      "file": "page_00000.json",
+      "records": 200,
+      "request_url_sha256": "4cfa7dc1bb6a1424b91a9507837c5161c6cb8db08e47b037edb1ba086d08b6ca",
+      "sequence": 0,
+      "sha256": "f6e46ac759330959d843d644be0cb4b5132308688fd594b76e46e141bd4d8a9c"
+    }
+  ],
+  "query": "(((software OR developer OR agile) AND (((\"story point\" OR \"relative estimate\") AND (validity OR accuracy OR reliability OR effort)) OR (\"developer productivity\" AND (measure OR perception OR performance OR interruption)) OR (\"modern code review\" AND (challenge OR outcome OR understanding OR effort OR cognitive OR workload)))) OR \"NASA-Task Load Index (NASA-TLX); 20 Years Later\" OR \"Workload and Performance: Associations, Insensitivities, and Dissociations\" OR \"A Proof for the Queuing Formula: L = lambda W\")",
+  "query_id": "OA-S8R3",
+  "query_mode": "title_abstract_filter",
+  "query_registry_sha256": "91afcb59c80b2881280cade002bd6b7536c9b2d75235969bd2477b151836ef98",
+  "query_sha256": "2980fb05bd92dfd16d25ad6e91363f51fa832279a7829fae58c4b5d7cd8f9e86",
+  "records_csv": {
+    "file": "records.csv",
+    "sha256": "becce1ee7b47cfe4724566522d615101e286296a3be521ce7bd1d87da87aba4d"
+  },
+  "records_retrieved": 200,
+  "retrieval_scope": "truncated_development_pilot",
+  "source": "openalex",
+  "status": "development_pilot",
+  "to_date": "2026-08-16",
+  "total_reported": 865
+}

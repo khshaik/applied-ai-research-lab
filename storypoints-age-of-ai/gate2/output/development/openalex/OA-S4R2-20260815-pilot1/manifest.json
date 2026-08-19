@@ -1,0 +1,32 @@
+{
+  "complete_pagination": false,
+  "endpoint": "https://api.openalex.org/works",
+  "executed_at_utc": "2026-08-15T14:34:02.231147+00:00",
+  "from_date": "2019-01-01",
+  "interpretation_boundary": "Open-index development discovery export; not frozen, screened, deduplicated, eligible, or a PRISMA corpus. Retrieval was intentionally capped; total_reported is API metadata, not an exported-record or review-flow count.",
+  "max_pages": 1,
+  "page_size": 100,
+  "pages": [
+    {
+      "file": "page_00000.json",
+      "records": 100,
+      "request_url_sha256": "9624a34725f44e42cdcc5e7b0a0fe526b461f3d4bb5fbbe574a6bd30ab589191",
+      "sequence": 0,
+      "sha256": "4c513d7d78b60ff6330d500f8e2136bed52d6ad57287a1c298d91dd7bbeb79e3"
+    }
+  ],
+  "query": "(\"large language model\" OR LLM OR \"generative AI\" OR \"AI-assisted\") AND (\"code review\" OR \"pull request\")",
+  "query_id": "OA-S4R2",
+  "query_registry_sha256": "7ee2c1919233a15b646fee25d29b7aeacef6f57e2f65e4f7c286af307ca1a9f2",
+  "query_sha256": "72588e75e21c23e93f0f44380347f83f478107ae977a6b4e1620487c8942a073",
+  "records_csv": {
+    "file": "records.csv",
+    "sha256": "26f28366ae444bde8cd82b555f2cf243a361d9a364643828997faa0085f92c5e"
+  },
+  "records_retrieved": 100,
+  "retrieval_scope": "truncated_development_pilot",
+  "source": "openalex",
+  "status": "development_pilot",
+  "to_date": "2026-08-15",
+  "total_reported": 7561
+}

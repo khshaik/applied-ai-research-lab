@@ -1,0 +1,32 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:15:43.187342Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://zenodo.org/records/20745255",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://doi.org/10.5281/zenodo.20745254"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:15:45.812199Z",
+      "basis": "citation_pdf_url_metadata",
+      "bytes": 376511,
+      "content_type": "application/octet-stream, application/octet-stream",
+      "final_url": "https://zenodo.org/records/20745255/files/AmalieShi_AI_Assisted_Test_Automation_MCBK2026.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "sha256": "27cb3c770ebfbcfe88e04127a89e02ead3f18c771747831400b63f18490ab876",
+      "url": "https://zenodo.org/records/20745255/files/AmalieShi_AI_Assisted_Test_Automation_MCBK2026.pdf"
+    }
+  ],
+  "bytes": 376511,
+  "family_id": "FAM-a6ab52afb5b6b0908aae",
+  "lawful_access_basis": "citation_pdf_url_metadata",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-a6ab52afb5b6b0908aae.pdf",
+  "pdf_sha256": "27cb3c770ebfbcfe88e04127a89e02ead3f18c771747831400b63f18490ab876",
+  "representative_canonical_id": "CAN-1b147e4bd18ab674e435",
+  "retrieved_url": "https://zenodo.org/records/20745255/files/AmalieShi_AI_Assisted_Test_Automation_MCBK2026.pdf",
+  "status": "retrieved_open"
+}

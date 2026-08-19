@@ -1,0 +1,15 @@
+{
+  "status":"development_pilot","version":"0.4","family_id":"S7",
+  "source_query_id":"AX-S7R4",
+  "source_registry":"studies/vdcm/evidence-map/registries/s7_novelty_queries_v0.4.json",
+  "query":"(all:\"verified delivery capacity\" OR all:\"role-stage demand\" OR all:\"hybrid intelligence effort\" OR all:\"LLM-aware software effort\" OR all:\"agentic cost estimation\" OR all:\"AI-augmented engineering\" OR all:\"human-AI software delivery\" OR (all:\"story point\" AND (all:LLM OR all:\"large language model\")) OR (all:\"AI-assisted\" AND all:\"software effort\"))",
+  "mapping_rationale":"The complete AX-S7R4 export is bound to the immutable S7 v0.4 close-overlap query for developmental known-item and full-population appraisal only.",
+  "sentinels":[
+    {"sentinel_id":"S7-AX-P1-ACEM","role":"scope_positive","arxiv_id":"2608.02582","title":"ACEM: A Cost Estimation Model for Agentic Software Engineering"},
+    {"sentinel_id":"S7-AX-P2-AGILE-V","role":"scope_positive","arxiv_id":"2602.20684","title":"Agile V: A Compliance-Ready Framework for AI-Augmented Engineering -- From Concept to Audit-Ready Delivery"},
+    {"sentinel_id":"S7-AX-P3-ORCHESTRATION","role":"scope_positive","arxiv_id":"2603.20028","title":"Orchestrating Human-AI Software Delivery: A Retrospective Longitudinal Field Study of Three Software Modernization Programs"},
+    {"sentinel_id":"S7-AX-D1-STORY-POINT","role":"neutral_disconfirming","arxiv_id":"2603.06276","title":"Story Point Estimation Using Large Language Models"}
+  ],
+  "sampled_precision_rule":{"development_diagnostic_minimum_sample":20,"allowed_decisions":["likely_relevant","likely_irrelevant","uncertain"],"freeze_sample_bands":[{"population_min":0,"population_max":50,"required_sample":"all"},{"population_min":51,"population_max":1000,"required_sample":50},{"population_min":1001,"population_max":null,"required_sample":100}],"acceptance_bands":{"operational_minimum_relevant_plus_uncertain":0.10,"conditional_minimum_relevant_plus_uncertain":0.05}},
+  "boundary":"Developmental S7 arXiv exact/close-overlap appraisal only; not systematic screening, PRISMA evidence, or a final novelty conclusion."
+}

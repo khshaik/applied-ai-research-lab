@@ -1,0 +1,30 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:16:49.761433Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html;charset=UTF-8",
+      "final_url": "https://www.tandfonline.com/doi/abs/10.1057/ejis.1994.4",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://doi.org/10.1057/ejis.1994.4"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:21:37.305806Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html;charset=UTF-8",
+      "final_url": "https://www.tandfonline.com/doi/abs/10.1057/ejis.1994.4",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://doi.org/10.1057/ejis.1994.4"
+    }
+  ],
+  "bytes": 0,
+  "family_id": "FAM-ed576e67212e44ef6236",
+  "lawful_access_basis": null,
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "representative_canonical_id": "CAN-f49b52a943ea3ebc291b",
+  "retrieved_url": null,
+  "status": "lawful_full_text_not_retrieved"
+}

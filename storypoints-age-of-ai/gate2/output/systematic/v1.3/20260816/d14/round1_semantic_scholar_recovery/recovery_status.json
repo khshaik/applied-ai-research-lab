@@ -1,0 +1,1 @@
+{"checkpointed_count": 24, "consecutive_api_failures": 3, "next_action": "Resume after public API cooldown; completed checkpoints will not be repeated.", "retry_population": 30, "security_boundary": "Public scholarly metadata only; no Git, PDFs, credential files, or private systems.", "status": "paused_rate_limit"}

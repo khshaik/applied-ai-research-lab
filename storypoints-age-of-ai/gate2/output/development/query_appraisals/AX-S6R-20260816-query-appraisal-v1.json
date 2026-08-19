@@ -1,0 +1,36 @@
+{
+  "burden_acceptance_band": "operational_pass",
+  "complete_pagination": true,
+  "freeze_ready": false,
+  "interpretation_boundary": "Mapped arXiv query precision and known-item recall only; not screening, eligibility, inclusion, or PRISMA evidence.",
+  "mapped_family_id": "S6",
+  "population_size_basis": "complete_export_retrieved_count",
+  "population_size_for_sample": 29,
+  "precision_appraisal_pending": false,
+  "query_appraisal_pass": false,
+  "rejection_reason": "Rejected after independent audit for substantive overbreadth; replaced by the narrow-rule v2 appraisal.",
+  "records_reconciled": 29,
+  "relevant_plus_uncertain_count": 22,
+  "relevant_plus_uncertain_proportion": 0.7586206896551724,
+  "relevant_plus_uncertain_wilson_95_interval": [
+    0.5789239838218867,
+    0.8778157755747991
+  ],
+  "required_sample_size_for_freeze": 29,
+  "sample_likely_irrelevant": 7,
+  "sample_likely_relevant": 18,
+  "sample_minimum_met": true,
+  "sample_size": 29,
+  "sample_uncertain": 4,
+  "sentinel_checks": [
+    {"arxiv_id":"2603.20028","pass":true,"present":true,"role":"scope_positive","sentinel_id":"S6-AX-P1"},
+    {"arxiv_id":"2508.11867","pass":true,"present":true,"role":"scope_positive","sentinel_id":"S6-AX-P2"},
+    {"arxiv_id":"2503.05012","pass":true,"present":true,"role":"neutral_disconfirming","sentinel_id":"S6-AX-D1"},
+    {"arxiv_id":"2510.09058","pass":true,"present":true,"role":"neutral_disconfirming","sentinel_id":"S6-AX-D2"}
+  ],
+  "sentinel_class_complete": true,
+  "sentinel_recall_pass": true,
+  "source_query_id": "AX-S6R",
+  "status": "rejected_substantive_overbreadth",
+  "superseded_by": "AX-S6R-20260816-query-appraisal-v2.json"
+}

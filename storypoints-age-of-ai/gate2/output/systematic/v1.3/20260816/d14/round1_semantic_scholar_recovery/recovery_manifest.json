@@ -1,0 +1,21 @@
+{
+  "baseline_manifest_sha256": "121a4ba5dde73bccf8a96daade017608ee21747ae0047dfc739b124717d33484",
+  "confirmed_unresolved_count": 7,
+  "credential_handling": "Optional API key read from environment header only; never printed or persisted.",
+  "pacing_seconds": 3.0,
+  "pipeline_version": "d14-s2-recovery/1.0.0",
+  "protocol_version": "1.3",
+  "recovered_candidates_sha256": "220ec0c11e35f29c3d43df51bfbb6aa09dedae3061a877033050989a443c61f6",
+  "recovered_count": 16,
+  "recovered_relationships_sha256": "0f99124ff04bd8c905b487187de6a4126045f32ea65ab91b0fbcd20f27fc17c0",
+  "recovered_seed_resolution_sha256": "b765cebfb3fa6c423d22fe9e9d4a9721ff08e12ef248bc25b81b7f7434e60335",
+  "relation_api_failure_count": 2,
+  "relation_failures_sha256": "876e7e139fd9f623af9507bb96bf080b1cb0e1e938b1ea6e6319302906960bb3",
+  "relationship_count": 588,
+  "retry_population": 30,
+  "security_boundary": "Public scholarly metadata only; no Git, PDFs, credentials files, package installation, or private systems.",
+  "server_retry_after_honored": true,
+  "status": "d14_s2_rate_aware_recovery_complete",
+  "still_api_failure_count": 7,
+  "unique_related_count": 533
+}

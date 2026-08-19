@@ -1,0 +1,30 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:15:55.936609Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html;charset=UTF-8",
+      "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S0957417425023024",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://doi.org/10.1016/j.eswa.2025.128684"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:17:43.748960Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html;charset=UTF-8",
+      "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S0957417425023024",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://doi.org/10.1016/j.eswa.2025.128684"
+    }
+  ],
+  "bytes": 0,
+  "family_id": "FAM-b26b23ce335ac9e73673",
+  "lawful_access_basis": null,
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "representative_canonical_id": "CAN-c14c31210b02f5951ba7",
+  "retrieved_url": null,
+  "status": "lawful_full_text_not_retrieved"
+}

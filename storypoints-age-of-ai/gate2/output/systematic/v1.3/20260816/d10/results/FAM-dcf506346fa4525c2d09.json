@@ -1,0 +1,30 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:16:38.957686Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html",
+      "final_url": "https://figshare.com/articles/online_resource/_b_Supplementary_Material_-_Are_We_Measuring_the_Wrong_Things_How_Software_Project_Leaders_View_Gen-AI-Assisted_Developer_Productivity_b_/32292972/1",
+      "http_status": 403,
+      "outcome": "access_blocked_or_paywalled",
+      "url": "https://doi.org/10.6084/m9.figshare.32292972.v1"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:21:23.436051Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html",
+      "final_url": "https://figshare.com/articles/online_resource/_b_Supplementary_Material_-_Are_We_Measuring_the_Wrong_Things_How_Software_Project_Leaders_View_Gen-AI-Assisted_Developer_Productivity_b_/32292972/1",
+      "http_status": 403,
+      "outcome": "access_blocked_or_paywalled",
+      "url": "https://doi.org/10.6084/m9.figshare.32292972.v1"
+    }
+  ],
+  "bytes": 0,
+  "family_id": "FAM-dcf506346fa4525c2d09",
+  "lawful_access_basis": null,
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "representative_canonical_id": "CAN-c25b6e8d5d3cae82b33b",
+  "retrieved_url": null,
+  "status": "paywalled_or_access_blocked"
+}

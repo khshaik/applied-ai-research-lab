@@ -1,0 +1,32 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:16:40.374557Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://zenodo.org/records/20093792",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://doi.org/10.5281/zenodo.20093792"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:16:43.273274Z",
+      "basis": "citation_pdf_url_metadata",
+      "bytes": 648933,
+      "content_type": "application/octet-stream, application/octet-stream",
+      "final_url": "https://zenodo.org/records/20093792/files/AGENTCODE-INSPECTOR-AN-AGENTIC-AI-BASED-AUTONOMOUS-CODE-REVIEW-SYSTEM.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "sha256": "bd8f18374f3a190a47949c54123d08ae934bef253ddb1c09732a198a187d1c93",
+      "url": "https://zenodo.org/records/20093792/files/AGENTCODE-INSPECTOR-AN-AGENTIC-AI-BASED-AUTONOMOUS-CODE-REVIEW-SYSTEM.pdf"
+    }
+  ],
+  "bytes": 648933,
+  "family_id": "FAM-e1fa34bb4c8fcc72d888",
+  "lawful_access_basis": "citation_pdf_url_metadata",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-e1fa34bb4c8fcc72d888.pdf",
+  "pdf_sha256": "bd8f18374f3a190a47949c54123d08ae934bef253ddb1c09732a198a187d1c93",
+  "representative_canonical_id": "CAN-ca289e222dffc8bdffe3",
+  "retrieved_url": "https://zenodo.org/records/20093792/files/AGENTCODE-INSPECTOR-AN-AGENTIC-AI-BASED-AUTONOMOUS-CODE-REVIEW-SYSTEM.pdf",
+  "status": "retrieved_open"
+}

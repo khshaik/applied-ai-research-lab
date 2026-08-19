@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 511912,
+      "content_type": "application/pdf",
+      "final_url": "https://www.irejournals.com/formatedpaper/1715992.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "108069bdc6900e5e81879a5e4c55f19c4817a003e3028a4a1c947d1bfb9669ec",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://www.irejournals.com/formatedpaper/1715992.pdf"
+    }
+  ],
+  "bytes": 511912,
+  "family_id": "FAM-3c1eeba76ef051838161",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-3c1eeba76ef051838161.pdf",
+  "pdf_sha256": "108069bdc6900e5e81879a5e4c55f19c4817a003e3028a4a1c947d1bfb9669ec",
+  "representative_canonical_id": "CAN-be17b414fa94e1426db5",
+  "retrieved_url": "https://www.irejournals.com/formatedpaper/1715992.pdf",
+  "status": "retrieved_open"
+}

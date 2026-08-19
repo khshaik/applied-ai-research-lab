@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 1217101,
+      "content_type": "application/pdf",
+      "final_url": "https://csecurity.kubg.edu.ua/index.php/journal/article/download/1193/960",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "a8dcf0c848f59ac7107e4e9e9f2ced3a83d7e9ae4b11eb67be05677041adb498",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://csecurity.kubg.edu.ua/index.php/journal/article/download/1193/960"
+    }
+  ],
+  "bytes": 1217101,
+  "family_id": "FAM-25a9cdd5b6fba5cbb2c4",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-25a9cdd5b6fba5cbb2c4.pdf",
+  "pdf_sha256": "a8dcf0c848f59ac7107e4e9e9f2ced3a83d7e9ae4b11eb67be05677041adb498",
+  "representative_canonical_id": "CAN-4ed3d108b0f769190613",
+  "retrieved_url": "https://csecurity.kubg.edu.ua/index.php/journal/article/download/1193/960",
+  "status": "retrieved_open"
+}

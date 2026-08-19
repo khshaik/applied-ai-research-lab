@@ -1,0 +1,31 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "content_type": "text/html",
+      "final_url": "https://www.zora.uzh.ch/id/eprint/141848/1/prodClusters-ESEM17.pdf",
+      "http_status": 404,
+      "outcome": "http_failure",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://www.zora.uzh.ch/id/eprint/141848/1/prodClusters-ESEM17.pdf"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:06:42.895571Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://ieeexplore.ieee.org/document/8170090/",
+      "http_status": 202,
+      "outcome": "http_failure",
+      "url": "https://doi.org/10.1109/esem.2017.17"
+    }
+  ],
+  "bytes": 0,
+  "family_id": "FAM-5a93852ee48d6dd6de3c",
+  "lawful_access_basis": null,
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "representative_canonical_id": "CAN-5e4f2412ff030ea11f1a",
+  "retrieved_url": null,
+  "status": "lawful_full_text_not_retrieved"
+}

@@ -1,0 +1,33 @@
+{
+  "complete_pagination": false,
+  "endpoint": "https://api.openalex.org/works",
+  "executed_at_utc": "2026-08-16T06:19:14.185959+00:00",
+  "from_date": "1900-01-01",
+  "interpretation_boundary": "Open-index development discovery export; not frozen, screened, deduplicated, eligible, or a PRISMA corpus. Retrieval was intentionally capped; total_reported is API metadata, not an exported-record or review-flow count.",
+  "max_pages": 1,
+  "page_size": 200,
+  "pages": [
+    {
+      "file": "page_00000.json",
+      "records": 200,
+      "request_url_sha256": "b4a7c69dc982efadd05a74289cced5d3113aa8449a573f7944378679c95ec550",
+      "sequence": 0,
+      "sha256": "d4699d87ea803001c67265256604a530fca9c4b4c81ad5424c18c9508345e98b"
+    }
+  ],
+  "query": "(((\"story point\" OR \"relative estimate\") AND (effort OR agile)) OR \"developer productivity\" OR \"software developers perceptions of productivity\" OR \"modern code review\" OR \"NASA-TLX\" OR (\"mental workload\" AND performance) OR (\"Little's law\" AND software))",
+  "query_id": "OA-S8R1",
+  "query_mode": "title_abstract_filter",
+  "query_registry_sha256": "b3dafb8bcc49f9fed5451bf632e58cd7596827e73314d9ed23a395b52aa3b26e",
+  "query_sha256": "2a0df895868d064b8ee5270c22d0e37f0a7fa649887a9dc3b6bd951793abb7b4",
+  "records_csv": {
+    "file": "records.csv",
+    "sha256": "8283234b1cc6b233ff83eee25a5c47567cc21fd94af60154052506f15857ee5a"
+  },
+  "records_retrieved": 200,
+  "retrieval_scope": "truncated_development_pilot",
+  "source": "openalex",
+  "status": "development_pilot",
+  "to_date": "2026-08-16",
+  "total_reported": 11162
+}

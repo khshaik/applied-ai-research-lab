@@ -1,0 +1,23 @@
+{
+  "attempts": [
+    {
+      "active_indicators": [
+        "/S /URI"
+      ],
+      "attempted_at_utc": "2026-08-19T05:44:51.197690Z",
+      "basis": "frozen_openalex_primary_oa_pdf",
+      "bytes": 508245,
+      "final_url": "https://mit-genai.pubpub.org/pub/v5iixksv/download/pdf",
+      "quarantine_path": "/Users/81194246/Library/CloudStorage/OneDrive-Pepsico/Personal/AI/Projects/ThinkAI/storypoints-age-of-ai/gate2/output/systematic/v1.3/20260816/d14/fulltext/quarantine/CITFAM-685ff08cb086b24da8b4.pdf",
+      "redirect_count": 0,
+      "sha256": "7b0e6e62a1530eaa2271c3e77669bae000cf947c853a7e53d12b39e0d83585c8",
+      "status": "quarantined_active_content"
+    }
+  ],
+  "bytes": 508245,
+  "citation_family_id": "CITFAM-685ff08cb086b24da8b4",
+  "pdf_path": null,
+  "pdf_sha256": "7b0e6e62a1530eaa2271c3e77669bae000cf947c853a7e53d12b39e0d83585c8",
+  "security_attestation": "Static HTTPS retrieval only; public-IP validation, bounded redirects/size, signature and active-content checks; no PDF execution.",
+  "status": "quarantined_active_content"
+}

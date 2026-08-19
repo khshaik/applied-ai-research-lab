@@ -1,0 +1,21 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:07:27.674449Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://ieeexplore.ieee.org/document/11122545/",
+      "http_status": 202,
+      "outcome": "http_failure",
+      "url": "https://doi.org/10.1109/ms.2025.3597574"
+    }
+  ],
+  "bytes": 0,
+  "family_id": "FAM-6570f69f577f5317309f",
+  "lawful_access_basis": null,
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "representative_canonical_id": "CAN-9c2348053ce38f070c04",
+  "retrieved_url": null,
+  "status": "lawful_full_text_not_retrieved"
+}

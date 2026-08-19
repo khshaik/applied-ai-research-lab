@@ -1,0 +1,32 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:07:14.250033Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://zenodo.org/records/18224687",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://doi.org/10.5281/zenodo.18224687"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:07:15.583257Z",
+      "basis": "citation_pdf_url_metadata",
+      "bytes": 648670,
+      "content_type": "application/octet-stream, application/octet-stream",
+      "final_url": "https://zenodo.org/records/18224687/files/Securing%20Cloud-Native%20Software%20Supply%20Chains%20in%20the%20Presence%20of%20AI-Driven%20Threats.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "sha256": "8cf5f7b46844948c38a9960a6e06a7362a2328a69300ebf66ad6d290afb4dd0e",
+      "url": "https://zenodo.org/records/18224687/files/Securing%20Cloud-Native%20Software%20Supply%20Chains%20in%20the%20Presence%20of%20AI-Driven%20Threats.pdf"
+    }
+  ],
+  "bytes": 648670,
+  "family_id": "FAM-5fa5d9652171d7cdbc6f",
+  "lawful_access_basis": "citation_pdf_url_metadata",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-5fa5d9652171d7cdbc6f.pdf",
+  "pdf_sha256": "8cf5f7b46844948c38a9960a6e06a7362a2328a69300ebf66ad6d290afb4dd0e",
+  "representative_canonical_id": "CAN-856d2d7fc032ae116a7c",
+  "retrieved_url": "https://zenodo.org/records/18224687/files/Securing%20Cloud-Native%20Software%20Supply%20Chains%20in%20the%20Presence%20of%20AI-Driven%20Threats.pdf",
+  "status": "retrieved_open"
+}

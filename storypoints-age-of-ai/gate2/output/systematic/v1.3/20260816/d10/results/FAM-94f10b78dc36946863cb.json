@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 2981055,
+      "content_type": "application/pdf",
+      "final_url": "https://www.nature.com/articles/s43246-026-01167-0.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "6eec06b737d15bea5a829f0b4f3210ee7ced5b679ede9c7a7e3c4f811100b357",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://www.nature.com/articles/s43246-026-01167-0.pdf"
+    }
+  ],
+  "bytes": 2981055,
+  "family_id": "FAM-94f10b78dc36946863cb",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-94f10b78dc36946863cb.pdf",
+  "pdf_sha256": "6eec06b737d15bea5a829f0b4f3210ee7ced5b679ede9c7a7e3c4f811100b357",
+  "representative_canonical_id": "CAN-bc66f3470103ae465a9d",
+  "retrieved_url": "https://www.nature.com/articles/s43246-026-01167-0.pdf",
+  "status": "retrieved_open"
+}

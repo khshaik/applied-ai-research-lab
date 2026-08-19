@@ -1,0 +1,60 @@
+{
+  "citation_recovery_supplement_stream": {
+    "candidate_families": 33,
+    "candidate_occurrences": 54,
+    "duplicate_occurrences_removed": 21,
+    "full_text_assessed": 9,
+    "full_text_excluded": 0,
+    "full_text_unavailable": 2,
+    "included_families": 9,
+    "reports_sought": 11,
+    "title_abstract_excluded": 22
+  },
+  "citation_round_1_stream": {
+    "candidate_families": 6017,
+    "candidate_occurrences": 6097,
+    "duplicate_occurrences_removed": 80,
+    "full_text_assessed": 337,
+    "full_text_excluded": 125,
+    "full_text_unavailable": 680,
+    "included_families": 212,
+    "reports_sought": 1017,
+    "title_abstract_excluded": 5000
+  },
+  "final_evidence_band_counts": {
+    "high": 95,
+    "low_contextual": 299,
+    "moderate": 397
+  },
+  "final_finding_count": 2343,
+  "final_included_family_count": 791,
+  "final_quantitative_finding_count": 769,
+  "full_text_exclusion_code_counts": {
+    "E1": 202,
+    "E10": 69,
+    "E2": 703,
+    "E3": 10,
+    "E4": 11,
+    "E5": 7,
+    "E6": 2,
+    "E7": 5,
+    "E8": 20,
+    "E9": 5
+  },
+  "interpretation_boundary": "Streams are reported separately and reconciled at the unique study-family level. Unavailable reports are not eligibility exclusions. Counts describe an AI-assisted open-index evidence map, not an exhaustive systematic review.",
+  "protocol_version": "1.3",
+  "resource_cap_applied": true,
+  "status": "d15_flow_reconciled",
+  "systematic_search_stream": {
+    "deduplicated_reports": 3962,
+    "duplicate_occurrences_removed": 1917,
+    "full_text_assessed": 1604,
+    "full_text_excluded": 1034,
+    "full_text_unavailable": 472,
+    "identified_occurrences": 5879,
+    "included_families": 570,
+    "reports_sought": 2076,
+    "study_families": 3930,
+    "title_abstract_excluded": 1854
+  }
+}

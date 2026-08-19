@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 253490,
+      "content_type": "application/pdf",
+      "final_url": "https://ijaems.com/upload_images/issue_files/1IJAEMS-10320251-Integrating.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "c69a3294c46b1bc1619c4f04940ad752354afcb02d9496068adaeb123b1f38fd",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://ijaems.com/upload_images/issue_files/1IJAEMS-10320251-Integrating.pdf"
+    }
+  ],
+  "bytes": 253490,
+  "family_id": "FAM-bab3e81f5498ac106dba",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-bab3e81f5498ac106dba.pdf",
+  "pdf_sha256": "c69a3294c46b1bc1619c4f04940ad752354afcb02d9496068adaeb123b1f38fd",
+  "representative_canonical_id": "CAN-7aa18bb383626cf19290",
+  "retrieved_url": "https://ijaems.com/upload_images/issue_files/1IJAEMS-10320251-Integrating.pdf",
+  "status": "retrieved_open"
+}

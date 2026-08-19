@@ -1,0 +1,24 @@
+{
+  "bootstrap_replications": 5000,
+  "bootstrap_unit": "simulation_run",
+  "implementation_sha256": "297d4227966495c34a9dff970d78a0db707bc6a47f682d511028ede911c80ffc",
+  "input_sha256": {
+    "development_manifest.json": "92305814293a280662c3964f0088bbf31bb81b2a4acbc183a0317bd5499010b0",
+    "item_forecasts.csv": "bd72607430a21ca3a85a30622f8e4a1124f8aadc58eb397cbc06c2f099b6e482"
+  },
+  "interpretation_boundary": "Cluster-bootstrap uncertainty over synthetic runs; not empirical validation or a superiority test.",
+  "manifest_version": "1.0.0-development",
+  "output_sha256": {
+    "figure_brier_difference_vs_story_points.png": "bd6a5aa30865f3f5f7c07ea3774f3053ad52c2b6514143c634b2899ed66fe7db",
+    "figure_brier_difference_vs_story_points.svg": "61ade86a5efe709f8bdd11f7f8f68461a2c6824a79e44481c8a3842d91664159",
+    "scenario_model_brier.csv": "7c289912dfba151d54d8b45169d38925aa9a080ac3af0a6ec16e007afd6a937a",
+    "scenario_summary.csv": "0cb48655e6cf2b3bb3424751c3d715a03072e08504b0dd361a31e2ab318ff4fc"
+  },
+  "outputs": [
+    "scenario_model_brier.csv",
+    "scenario_summary.csv",
+    "figure_brier_difference_vs_story_points.svg",
+    "figure_brier_difference_vs_story_points.png"
+  ],
+  "status": "developmental_synthetic_not_empirical_validation"
+}

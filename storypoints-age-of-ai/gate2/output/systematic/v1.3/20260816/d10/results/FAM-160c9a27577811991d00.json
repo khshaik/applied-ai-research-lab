@@ -1,0 +1,32 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:02:34.599873Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html;charset=utf-8",
+      "final_url": "https://trepo.tuni.fi/handle/10024/236924",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://trepo.tuni.fi/handle/10024/236924"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:02:36.258737Z",
+      "basis": "citation_pdf_url_metadata",
+      "bytes": 1577196,
+      "content_type": "application/pdf;charset=UTF-8",
+      "final_url": "https://trepo.tuni.fi/bitstream/handle/10024/236924/TaskinenJanne.pdf;jsessionid=0A2394269EDFF10A0DA237575D048E9D?sequence=2",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "sha256": "d1ff3c68e5dd08ae12ce8a1819720461eff3e8fa514144ff92db215c2b704981",
+      "url": "https://trepo.tuni.fi/bitstream/10024/236924/2/TaskinenJanne.pdf"
+    }
+  ],
+  "bytes": 1577196,
+  "family_id": "FAM-160c9a27577811991d00",
+  "lawful_access_basis": "citation_pdf_url_metadata",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-160c9a27577811991d00.pdf",
+  "pdf_sha256": "d1ff3c68e5dd08ae12ce8a1819720461eff3e8fa514144ff92db215c2b704981",
+  "representative_canonical_id": "CAN-2614cf6d3ae848a11635",
+  "retrieved_url": "https://trepo.tuni.fi/bitstream/10024/236924/2/TaskinenJanne.pdf",
+  "status": "retrieved_open"
+}

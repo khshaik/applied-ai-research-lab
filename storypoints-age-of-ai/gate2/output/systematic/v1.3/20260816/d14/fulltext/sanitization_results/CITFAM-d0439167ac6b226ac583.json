@@ -1,0 +1,22 @@
+{
+  "active_indicators": [],
+  "attempted_at_utc": "2026-08-19T09:39:47.234534Z",
+  "character_count": 92014,
+  "citation_family_id": "CITFAM-d0439167ac6b226ac583",
+  "dependency_manifest_sha256": "22daaba8bfa5daad4318f42900bbeb1475b5a3d7a0066f18d3a28dfafc7d1ed5",
+  "derivative_sha256": "4d654feb8651bc939d4fc557ec395ed5c073445a9cbb5f09f08dd153ab801a5f",
+  "enforced_limits": {
+    "address_space": false,
+    "cpu": true,
+    "open_files": true,
+    "output_size": true
+  },
+  "page_count": 23,
+  "pipeline_version": "d14-pdf-sanitize/1.0.0",
+  "pypdf_version": "6.16.1",
+  "source_path": "/Users/81194246/Library/CloudStorage/OneDrive-Pepsico/Personal/AI/Projects/ThinkAI/storypoints-age-of-ai/gate2/output/systematic/v1.3/20260816/d14/fulltext/quarantine/CITFAM-d0439167ac6b226ac583.pdf",
+  "source_sha256": "6d4147307cc22977d89d2309bf443e4cd9c535820fa92f3932deec1c2b8a519e",
+  "status": "sanitized_static_extraction_verified",
+  "text_sha256": "cfa89875129e19841973fe6c89455bd297f4d00f2dada61fff5615da71c63d70",
+  "unicode_replacement_count": 0
+}

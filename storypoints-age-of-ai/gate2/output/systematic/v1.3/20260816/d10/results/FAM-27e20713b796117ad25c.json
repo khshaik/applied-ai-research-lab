@@ -1,0 +1,21 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:04:01.859230Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html",
+      "final_url": "https://figshare.com/articles/media/GenIA-E2ETest-Platform/32559900",
+      "http_status": 403,
+      "outcome": "access_blocked_or_paywalled",
+      "url": "https://doi.org/10.6084/m9.figshare.32559900"
+    }
+  ],
+  "bytes": 0,
+  "family_id": "FAM-27e20713b796117ad25c",
+  "lawful_access_basis": null,
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "representative_canonical_id": "CAN-f3a2375adaaed902bcf0",
+  "retrieved_url": null,
+  "status": "paywalled_or_access_blocked"
+}

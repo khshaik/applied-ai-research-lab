@@ -1,0 +1,23 @@
+{
+  "attempts": [
+    {
+      "active_indicators": [
+        "/S /URI"
+      ],
+      "attempted_at_utc": "2026-08-18T11:36:13.367170Z",
+      "basis": "frozen_openalex_primary_oa_pdf",
+      "bytes": 6699474,
+      "final_url": "https://ieeexplore.ieee.org/ielx7/6287639/6514899/10535504.pdf",
+      "quarantine_path": "/Users/81194246/Library/CloudStorage/OneDrive-Pepsico/Personal/AI/Projects/ThinkAI/storypoints-age-of-ai/gate2/output/systematic/v1.3/20260816/d14/fulltext/quarantine/CITFAM-2511092f09f5874e7aa6.pdf",
+      "redirect_count": 0,
+      "sha256": "5197c662a95006f26d254bc21d8c90ae2933d01003c8b8c0260b55d1b8cfbc70",
+      "status": "quarantined_active_content"
+    }
+  ],
+  "bytes": 6699474,
+  "citation_family_id": "CITFAM-2511092f09f5874e7aa6",
+  "pdf_path": null,
+  "pdf_sha256": "5197c662a95006f26d254bc21d8c90ae2933d01003c8b8c0260b55d1b8cfbc70",
+  "security_attestation": "Static HTTPS retrieval only; public-IP validation, bounded redirects/size, signature and active-content checks; no PDF execution.",
+  "status": "quarantined_active_content"
+}

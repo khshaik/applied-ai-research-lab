@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 6439659,
+      "content_type": "application/pdf;charset=UTF-8",
+      "final_url": "https://trepo.tuni.fi/bitstream/handle/10024/232334/PremasunderaSavidya.pdf;jsessionid=4497DF8C7AB75B9558A89B3A7CA89130?sequence=2",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "7cc11e41acbbddcc62bdab8b31e95944340a11dada6b5d490ffbd9a5fa8f0345",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://trepo.tuni.fi/bitstream/10024/232334/2/PremasunderaSavidya.pdf"
+    }
+  ],
+  "bytes": 6439659,
+  "family_id": "FAM-8ef75608b9c6a9b38bfe",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-8ef75608b9c6a9b38bfe.pdf",
+  "pdf_sha256": "7cc11e41acbbddcc62bdab8b31e95944340a11dada6b5d490ffbd9a5fa8f0345",
+  "representative_canonical_id": "CAN-86381a572372e48497c2",
+  "retrieved_url": "https://trepo.tuni.fi/bitstream/handle/10024/232334/PremasunderaSavidya.pdf;jsessionid=4497DF8C7AB75B9558A89B3A7CA89130?sequence=2",
+  "status": "retrieved_open"
+}

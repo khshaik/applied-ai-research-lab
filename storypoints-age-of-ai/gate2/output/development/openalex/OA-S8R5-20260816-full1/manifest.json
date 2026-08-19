@@ -1,0 +1,69 @@
+{
+  "complete_pagination": true,
+  "endpoint": "https://api.openalex.org/works",
+  "executed_at_utc": "2026-08-16T06:30:49.076302+00:00",
+  "from_date": "1900-01-01",
+  "interpretation_boundary": "Open-index development discovery export; not frozen, screened, deduplicated, eligible, or a PRISMA corpus.",
+  "max_pages": null,
+  "page_size": 200,
+  "pages": [
+    {
+      "file": "page_00000.json",
+      "records": 200,
+      "request_url_sha256": "87ca0c86a07a105abe090ef25745be166cfa29245c297faa7e8cfc12978df750",
+      "sequence": 0,
+      "sha256": "84581c76fb1d3082a13dc329acaaa55ae8a0ce5e390ef6e9b4bddbb99f8ab515"
+    },
+    {
+      "file": "page_00001.json",
+      "records": 200,
+      "request_url_sha256": "c2ec98e515dd4563c51e2ee65f90ff8626d70aad1fbc1272bbf3095405eff5cc",
+      "sequence": 1,
+      "sha256": "7560184c167a2f14e0630ef86d569080a7a84c3f3f427a296360313a96664fc9"
+    },
+    {
+      "file": "page_00002.json",
+      "records": 200,
+      "request_url_sha256": "2714e63363e9830782fadcfaf0c2ac70c21888cbb4969a7f98e6baef1e3fedee",
+      "sequence": 2,
+      "sha256": "4c989ae454f997ce362d8be6bfc89f9b2e5454ecb6c0152bf4377988dcc2c871"
+    },
+    {
+      "file": "page_00003.json",
+      "records": 200,
+      "request_url_sha256": "9d21850d2b1a95b18a11c1bb0ba02a9831eaec99d63f1d646b2ed7c2c6a712d4",
+      "sequence": 3,
+      "sha256": "0b6224db93caeca658e6cdc5b3f1eb29b8f1fc6c0216693d6132d268d3c2801a"
+    },
+    {
+      "file": "page_00004.json",
+      "records": 200,
+      "request_url_sha256": "faf7dfbcc4d0ce11a94951e60681ae0f86f6d6ce56369c71a90d14049bd1d35a",
+      "sequence": 4,
+      "sha256": "894b19ffc981b18b064fcb3517a8b2e63a7601f35e38901f85b30471c2bacd7f"
+    },
+    {
+      "file": "page_00005.json",
+      "records": 56,
+      "request_url_sha256": "6aaa5d86795f115343eda6a8416f631f5862e277bbbb9582a6aed12d673b4333",
+      "sequence": 5,
+      "sha256": "2bb0c4946df1c828a64aef5ac5868c1e49ae3c87a448dcb12405f528176d87a1"
+    }
+  ],
+  "query": "(((software OR developer OR agile) AND (((\"story point\" OR \"story points\" OR \"relative estimate\") AND (validity OR accuracy OR reliability OR effort OR change)) OR (\"developer productivity\" AND (measure OR perception OR performance OR interruption)) OR (\"software developers\" AND \"perceptions of productivity\") OR (\"modern code review\" AND (challenge OR outcome OR understanding OR effort OR cognitive OR workload)))) OR \"NASA-Task Load Index (NASA-TLX); 20 Years Later\" OR \"Workload and Performance: Associations, Insensitivities, and Dissociations\" OR \"queuing formula\" OR \"queueing formula\")",
+  "query_id": "OA-S8R5",
+  "query_mode": "title_abstract_filter",
+  "query_registry_sha256": "993d6b058c7239a65c2e2baa2610c2b252e42c5bdfdb2695aa440b9fe54c2252",
+  "query_sha256": "7707bceb36224c73881ef9ea4e0b632217907139bfa59c9cd2b66bba28ad64eb",
+  "records_csv": {
+    "file": "records.csv",
+    "sha256": "6853fd2d1d37ba6da37a8bd818de4c1363874f021fb6f3f54d4dacdb566f85a8"
+  },
+  "records_retrieved": 1056,
+  "result_sort": "publication_date:desc",
+  "retrieval_scope": "complete",
+  "source": "openalex",
+  "status": "development_pilot",
+  "to_date": "2026-08-16",
+  "total_reported": 1056
+}

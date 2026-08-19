@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 498816,
+      "content_type": "application/pdf",
+      "final_url": "https://ijeret.org/index.php/ijeret/article/download/362/343",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "d97f67698e538511633ce993665c3017660de4f56c804f43634447b1b0bfb6fb",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://ijeret.org/index.php/ijeret/article/download/362/343"
+    }
+  ],
+  "bytes": 498816,
+  "family_id": "FAM-80991d6dcfd4cb616e05",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-80991d6dcfd4cb616e05.pdf",
+  "pdf_sha256": "d97f67698e538511633ce993665c3017660de4f56c804f43634447b1b0bfb6fb",
+  "representative_canonical_id": "CAN-28d753d0a382cadc41a3",
+  "retrieved_url": "https://ijeret.org/index.php/ijeret/article/download/362/343",
+  "status": "retrieved_open"
+}

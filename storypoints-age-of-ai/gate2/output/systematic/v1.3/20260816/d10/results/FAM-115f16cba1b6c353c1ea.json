@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "semantic_scholar_open_access_pdf",
+      "bytes": 683197,
+      "content_type": "application/pdf",
+      "final_url": "https://ijsra.net/sites/default/files/fulltext_pdf/IJSRA-2026-0992.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "f894ec2f1c1d65637034fc38ba104bbc68ad7dc750d58e4c3e1621899eb2c715",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://ijsra.net/sites/default/files/fulltext_pdf/IJSRA-2026-0992.pdf"
+    }
+  ],
+  "bytes": 683197,
+  "family_id": "FAM-115f16cba1b6c353c1ea",
+  "lawful_access_basis": "semantic_scholar_open_access_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-115f16cba1b6c353c1ea.pdf",
+  "pdf_sha256": "f894ec2f1c1d65637034fc38ba104bbc68ad7dc750d58e4c3e1621899eb2c715",
+  "representative_canonical_id": "CAN-d462eb34a6ab816b9205",
+  "retrieved_url": "https://ijsra.net/sites/default/files/fulltext_pdf/IJSRA-2026-0992.pdf",
+  "status": "retrieved_open"
+}

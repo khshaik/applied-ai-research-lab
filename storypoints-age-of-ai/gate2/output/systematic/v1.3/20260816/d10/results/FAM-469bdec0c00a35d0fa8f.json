@@ -1,0 +1,32 @@
+{
+  "attempts": [
+    {
+      "basis": "semantic_scholar_open_access_pdf",
+      "bytes": 48811,
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://wjaets.com/content/ethical-implications-ai-driven-financial-systems",
+      "http_status": 200,
+      "outcome": "not_a_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://doi.org/10.30574/wjaets.2025.15.1.0215"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:05:33.796360Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.semanticscholar.org/paper/70037baaa2da44bb78e115be77b8348028496e0d",
+      "http_status": 202,
+      "outcome": "http_failure",
+      "url": "https://www.semanticscholar.org/paper/70037baaa2da44bb78e115be77b8348028496e0d"
+    }
+  ],
+  "bytes": 0,
+  "family_id": "FAM-469bdec0c00a35d0fa8f",
+  "lawful_access_basis": null,
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "representative_canonical_id": "CAN-43bd7408c4505dccae8d",
+  "retrieved_url": null,
+  "status": "lawful_full_text_not_retrieved"
+}

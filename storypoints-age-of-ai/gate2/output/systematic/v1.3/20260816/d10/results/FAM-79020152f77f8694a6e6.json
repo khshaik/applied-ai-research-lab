@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 1178624,
+      "content_type": "application/pdf",
+      "final_url": "https://insightfuljournals.com/index.php/JBII/article/download/129/212",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "a6bf9c02a35421b5cc64c463ac8caf342ddf9bcfe5cf1f1f407942232570b22b",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://insightfuljournals.com/index.php/JBII/article/download/129/212"
+    }
+  ],
+  "bytes": 1178624,
+  "family_id": "FAM-79020152f77f8694a6e6",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-79020152f77f8694a6e6.pdf",
+  "pdf_sha256": "a6bf9c02a35421b5cc64c463ac8caf342ddf9bcfe5cf1f1f407942232570b22b",
+  "representative_canonical_id": "CAN-9bb4ef6050920e1356ec",
+  "retrieved_url": "https://insightfuljournals.com/index.php/JBII/article/download/129/212",
+  "status": "retrieved_open"
+}

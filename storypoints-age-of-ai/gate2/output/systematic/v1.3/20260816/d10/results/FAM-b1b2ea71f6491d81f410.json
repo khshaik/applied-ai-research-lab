@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 359140,
+      "content_type": "application/pdf",
+      "final_url": "https://ijesty.org/index.php/ijesty/article/download/1839/727",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "067e9a76bef1e3460d0e2b123b86afbd57c2499a1e633b2728071a988204698c",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://ijesty.org/index.php/ijesty/article/download/1839/727"
+    }
+  ],
+  "bytes": 359140,
+  "family_id": "FAM-b1b2ea71f6491d81f410",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-b1b2ea71f6491d81f410.pdf",
+  "pdf_sha256": "067e9a76bef1e3460d0e2b123b86afbd57c2499a1e633b2728071a988204698c",
+  "representative_canonical_id": "CAN-9a16bd53d0b42b7d8f5e",
+  "retrieved_url": "https://ijesty.org/index.php/ijesty/article/download/1839/727",
+  "status": "retrieved_open"
+}

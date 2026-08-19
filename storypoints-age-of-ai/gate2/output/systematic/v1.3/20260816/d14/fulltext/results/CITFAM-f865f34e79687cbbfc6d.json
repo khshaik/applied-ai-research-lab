@@ -1,0 +1,21 @@
+{
+  "attempts": [
+    {
+      "active_indicators": [],
+      "attempted_at_utc": "2026-08-19T09:52:28.511494Z",
+      "basis": "frozen_openalex_primary_oa_pdf",
+      "bytes": 1095391,
+      "final_url": "https://aclanthology.org/2024.acl-long.737.pdf",
+      "pdf_path": "/Users/81194246/Library/CloudStorage/OneDrive-Pepsico/Personal/AI/Projects/ThinkAI/storypoints-age-of-ai/gate2/output/systematic/v1.3/20260816/d14/fulltext/pdf/CITFAM-f865f34e79687cbbfc6d.pdf",
+      "redirect_count": 0,
+      "sha256": "793e32c036ecd5e13be6994a6db6d7890a7a3f3c3834914bbd64420a59c6c033",
+      "status": "retrieved_static_pdf"
+    }
+  ],
+  "bytes": 1095391,
+  "citation_family_id": "CITFAM-f865f34e79687cbbfc6d",
+  "pdf_path": "/Users/81194246/Library/CloudStorage/OneDrive-Pepsico/Personal/AI/Projects/ThinkAI/storypoints-age-of-ai/gate2/output/systematic/v1.3/20260816/d14/fulltext/pdf/CITFAM-f865f34e79687cbbfc6d.pdf",
+  "pdf_sha256": "793e32c036ecd5e13be6994a6db6d7890a7a3f3c3834914bbd64420a59c6c033",
+  "security_attestation": "Static HTTPS retrieval only; public-IP validation, bounded redirects/size, signature and active-content checks; no PDF execution.",
+  "status": "retrieved_static_pdf"
+}

@@ -1,0 +1,21 @@
+{
+  "attempts": [
+    {
+      "active_indicators": [],
+      "attempted_at_utc": "2026-08-19T07:36:30.534351Z",
+      "basis": "frozen_openalex_primary_oa_pdf",
+      "bytes": 902947,
+      "final_url": "https://ieeexplore.ieee.org/ielx7/10298258/10298286/10298445.pdf",
+      "pdf_path": "/Users/81194246/Library/CloudStorage/OneDrive-Pepsico/Personal/AI/Projects/ThinkAI/storypoints-age-of-ai/gate2/output/systematic/v1.3/20260816/d14/fulltext/pdf/CITFAM-814c19fb098941cb50be.pdf",
+      "redirect_count": 0,
+      "sha256": "8431a72938f9a2328d881159065b9fb258a5d15bd5e0e6cc8baba2bae8768f25",
+      "status": "retrieved_static_pdf"
+    }
+  ],
+  "bytes": 902947,
+  "citation_family_id": "CITFAM-814c19fb098941cb50be",
+  "pdf_path": "/Users/81194246/Library/CloudStorage/OneDrive-Pepsico/Personal/AI/Projects/ThinkAI/storypoints-age-of-ai/gate2/output/systematic/v1.3/20260816/d14/fulltext/pdf/CITFAM-814c19fb098941cb50be.pdf",
+  "pdf_sha256": "8431a72938f9a2328d881159065b9fb258a5d15bd5e0e6cc8baba2bae8768f25",
+  "security_attestation": "Static HTTPS retrieval only; public-IP validation, bounded redirects/size, signature and active-content checks; no PDF execution.",
+  "status": "retrieved_static_pdf"
+}

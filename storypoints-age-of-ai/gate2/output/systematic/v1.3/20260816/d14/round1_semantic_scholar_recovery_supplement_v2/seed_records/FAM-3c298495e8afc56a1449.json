@@ -1,0 +1,67 @@
+{
+  "arxiv_id": "2605.06464",
+  "cited_by_count": null,
+  "doi": "",
+  "family_id": "FAM-3c298495e8afc56a1449",
+  "match_basis": "arxiv",
+  "match_score": 0.30944881889763776,
+  "openalex_id": null,
+  "query_kind": "normalized_title_fallback",
+  "record_id": "CAN-0f3aee371b511d1c71fb",
+  "recovery_attempt_count": 4,
+  "referenced_work_count": null,
+  "referenced_works": [],
+  "s2_record": {
+    "abstract": "LLM-based autonomous coding agents have reshaped software development. While these agents excel at code generation, open questions persist about the long-term maintainability of AI-generated code. This study empirically investigates the maintenance extent, human involvement, and modification types of AI-generated files versus human-authored code. Using the AIDev dataset of AI-generated pull requests and GitHub, we analyzed over 1,000 files and approximately 3,200 changes from 100 popular repositories. Our findings show that: (i) AI-generated files receive less frequent maintenance than human-authored code, with updates affecting only a small fraction of file size; (ii) the most frequent modifications to AI code are feature extensions, whereas human updates focus on bug fixes, and (iii) human developers perform the large majority of this maintenance.",
+    "authors": [
+      {
+        "authorId": "2325869049",
+        "name": "Shota Sawada"
+      },
+      {
+        "authorId": "2386606757",
+        "name": "Tatsuya Shirai"
+      },
+      {
+        "authorId": "40293906",
+        "name": "Yutaro Kashiwa"
+      },
+      {
+        "authorId": "2116784234",
+        "name": "Ken'Ichi Yamaguchi"
+      },
+      {
+        "authorId": "2058153031",
+        "name": "Hiroshi Iwata"
+      },
+      {
+        "authorId": "2273975187",
+        "name": "Hajimu Iida"
+      }
+    ],
+    "citationCount": 0,
+    "externalIds": {
+      "ArXiv": "2605.06464",
+      "CorpusId": 288014781,
+      "DBLP": "journals/corr/abs-2605-06464",
+      "DOI": "10.48550/arXiv.2605.06464"
+    },
+    "openAccessPdf": {
+      "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2605.06464, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use.",
+      "license": null,
+      "status": null,
+      "url": ""
+    },
+    "paperId": "492c355692386da46054eade53e6240937fc97aa",
+    "referenceCount": 28,
+    "title": "To What Extent Does Agent-generated Code Require Maintenance? An Empirical Study",
+    "url": "https://www.semanticscholar.org/paper/492c355692386da46054eade53e6240937fc97aa",
+    "venue": "arXiv.org",
+    "year": 2026
+  },
+  "source_text_sha256": "24f5476a2c6f59e0c4f54fd300da4d6d522a46387c936a240340338f943eafbe",
+  "status": "resolved",
+  "supplement_attempt_count": 1,
+  "title": "To What Extent Does Agent-generated Code Require Maintenance? An Empirical Study",
+  "year": 2026
+}

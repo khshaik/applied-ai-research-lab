@@ -1,0 +1,32 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:16:40.731806Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html;charset=utf-8",
+      "final_url": "https://lutpub.lut.fi/handle/10024/172515",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://lutpub.lut.fi/handle/10024/172515"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:16:42.267697Z",
+      "basis": "citation_pdf_url_metadata",
+      "bytes": 1610625,
+      "content_type": "application/pdf;charset=UTF-8",
+      "final_url": "https://lutpub.lut.fi/bitstream/handle/10024/172515/Aashik_Poudel_BachelorsThesis.pdf;jsessionid=79A4BE2A12885E5E80D7D4E00ABDAE1F?sequence=1",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "sha256": "ccdf8cd411b0bb56b951d7d75aa1107f0524b3a530a5944d8fffcfaff1c11257",
+      "url": "https://lutpub.lut.fi/bitstream/10024/172515/1/Aashik_Poudel_BachelorsThesis.pdf"
+    }
+  ],
+  "bytes": 1610625,
+  "family_id": "FAM-e207916b3ec0b010180f",
+  "lawful_access_basis": "citation_pdf_url_metadata",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-e207916b3ec0b010180f.pdf",
+  "pdf_sha256": "ccdf8cd411b0bb56b951d7d75aa1107f0524b3a530a5944d8fffcfaff1c11257",
+  "representative_canonical_id": "CAN-a59049edb49be49f57ec",
+  "retrieved_url": "https://lutpub.lut.fi/bitstream/10024/172515/1/Aashik_Poudel_BachelorsThesis.pdf",
+  "status": "retrieved_open"
+}

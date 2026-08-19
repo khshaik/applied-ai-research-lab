@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 342558,
+      "content_type": "application/pdf",
+      "final_url": "https://www.ijfmr.com/papers/2025/6/61350.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "9626f9c63351ae42922a23ca61a3b80e5f1cb011815862328fb525c520504024",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://www.ijfmr.com/papers/2025/6/61350.pdf"
+    }
+  ],
+  "bytes": 342558,
+  "family_id": "FAM-724c932b596243a5becc",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-724c932b596243a5becc.pdf",
+  "pdf_sha256": "9626f9c63351ae42922a23ca61a3b80e5f1cb011815862328fb525c520504024",
+  "representative_canonical_id": "CAN-1ae8766915d17f4f3721",
+  "retrieved_url": "https://www.ijfmr.com/papers/2025/6/61350.pdf",
+  "status": "retrieved_open"
+}

@@ -1,0 +1,38 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "error_type": "ConnectionError",
+      "outcome": "network_error",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://www.rebe.rau.ro/RePEc/rau/jisomg/SU26/JISOM-SU26-A17.pdf"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:16:52.127635Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://zenodo.org/records/21678603",
+      "http_status": 410,
+      "outcome": "http_failure",
+      "url": "https://doi.org/10.5281/zenodo.21678602"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:21:46.913443Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://zenodo.org/records/21678603",
+      "http_status": 410,
+      "outcome": "http_failure",
+      "url": "https://doi.org/10.5281/zenodo.21678602"
+    }
+  ],
+  "bytes": 0,
+  "family_id": "FAM-efed4aaec934bd116dbc",
+  "lawful_access_basis": null,
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "representative_canonical_id": "CAN-381a91f0aa8a2db6ebae",
+  "retrieved_url": null,
+  "status": "lawful_full_text_not_retrieved"
+}

@@ -1,0 +1,30 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:16:27.021688Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html;charset=UTF-8",
+      "final_url": "https://dl.acm.org/doi/10.1145/3474624.3477063",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://doi.org/10.1145/3474624.3477063"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:20:13.827286Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html;charset=UTF-8",
+      "final_url": "https://dl.acm.org/doi/10.1145/3474624.3477063",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://doi.org/10.1145/3474624.3477063"
+    }
+  ],
+  "bytes": 0,
+  "family_id": "FAM-d2a9dcb5b0d8a97976ee",
+  "lawful_access_basis": null,
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "representative_canonical_id": "CAN-1c5ec7118e49c23bea1b",
+  "retrieved_url": null,
+  "status": "lawful_full_text_not_retrieved"
+}

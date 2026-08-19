@@ -1,0 +1,68 @@
+{
+  "burden_acceptance_band": "operational_pass",
+  "complete_pagination": true,
+  "development_diagnostic_minimum": 20,
+  "development_diagnostic_pass": true,
+  "development_diagnostic_required_for_population": 20,
+  "family_id": "S1",
+  "freeze_ready": true,
+  "interpretation_boundary": "Known-item recall and sampled relevance appraisal only; not screening, eligibility, or PRISMA evidence.",
+  "negative_boundary_pass": true,
+  "neutral_disconfirming_recall_pass": true,
+  "population_size_basis": "complete_export_retrieved_count",
+  "population_size_for_sample": 331,
+  "positive_sentinel_recall_pass": true,
+  "query_appraisal_pass": true,
+  "query_appraisal_pass_deprecated_alias_for": "freeze_ready",
+  "query_id": "S2-S1I3",
+  "relevant_plus_uncertain_count": 19,
+  "relevant_plus_uncertain_proportion": 0.38,
+  "relevant_plus_uncertain_wilson_95_interval": [
+    0.25862789310193596,
+    0.5184955306900703
+  ],
+  "required_sample_size_for_freeze": 50,
+  "sample_decided": 47,
+  "sample_likely_relevant": 16,
+  "sample_minimum_met": true,
+  "sample_precision_point_estimate": 0.3404255319148936,
+  "sample_size": 50,
+  "sample_uncertain": 3,
+  "sentinel_checks": [
+    {
+      "doi": "10.1007/s10791-026-10331-6",
+      "match_basis": "doi",
+      "pass": true,
+      "present": true,
+      "role": "scope_positive",
+      "sentinel_id": "S1-P1-HIE"
+    },
+    {
+      "doi": "10.48550/arxiv.2606.26505",
+      "match_basis": "doi",
+      "pass": true,
+      "present": true,
+      "role": "scope_positive",
+      "sentinel_id": "S1-P2-REVIEW-BURDEN"
+    },
+    {
+      "doi": "10.48550/arxiv.2603.06276",
+      "match_basis": "doi",
+      "pass": true,
+      "present": true,
+      "role": "neutral_disconfirming",
+      "sentinel_id": "S1-D1-STORY-POINT"
+    },
+    {
+      "doi": "10.48550/arxiv.2607.13196",
+      "match_basis": "title",
+      "pass": true,
+      "present": true,
+      "role": "neutral_disconfirming",
+      "sentinel_id": "S1-D2-AGENTIC-REVIEW"
+    }
+  ],
+  "sentinel_class_complete": true,
+  "source": "semantic_scholar",
+  "status": "development_query_appraisal"
+}

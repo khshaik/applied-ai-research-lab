@@ -1,0 +1,32 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:03:05.182231Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://zenodo.org/records/18166368",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://doi.org/10.5281/zenodo.18166367"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:03:07.831227Z",
+      "basis": "citation_pdf_url_metadata",
+      "bytes": 2071620,
+      "content_type": "application/octet-stream, application/octet-stream",
+      "final_url": "https://zenodo.org/records/18166368/files/CASS%20slides%20OBrien.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "sha256": "b930e869c743770d47a7b5c54b78f26e29388b95a2ba28ab18c084d29473df3e",
+      "url": "https://zenodo.org/records/18166368/files/CASS%20slides%20OBrien.pdf"
+    }
+  ],
+  "bytes": 2071620,
+  "family_id": "FAM-229efc57057373622c88",
+  "lawful_access_basis": "citation_pdf_url_metadata",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-229efc57057373622c88.pdf",
+  "pdf_sha256": "b930e869c743770d47a7b5c54b78f26e29388b95a2ba28ab18c084d29473df3e",
+  "representative_canonical_id": "CAN-92a665e7fd5aba04a43c",
+  "retrieved_url": "https://zenodo.org/records/18166368/files/CASS%20slides%20OBrien.pdf",
+  "status": "retrieved_open"
+}

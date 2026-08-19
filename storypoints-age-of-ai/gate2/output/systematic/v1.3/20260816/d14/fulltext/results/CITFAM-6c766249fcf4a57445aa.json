@@ -1,0 +1,21 @@
+{
+  "attempts": [
+    {
+      "active_indicators": [],
+      "attempted_at_utc": "2026-08-19T05:45:10.328477Z",
+      "basis": "live_openalex_best_oa_location_oa_pdf",
+      "bytes": 202829,
+      "final_url": "https://madison-proceedings.com/index.php/aetr/article/download/4456/4475",
+      "pdf_path": "/Users/81194246/Library/CloudStorage/OneDrive-Pepsico/Personal/AI/Projects/ThinkAI/storypoints-age-of-ai/gate2/output/systematic/v1.3/20260816/d14/fulltext/pdf/CITFAM-6c766249fcf4a57445aa.pdf",
+      "redirect_count": 0,
+      "sha256": "9dc63250137c7a8457a3ae43f9cddcff2190c84d533af55e09c6fc3a5f6614c6",
+      "status": "retrieved_static_pdf"
+    }
+  ],
+  "bytes": 202829,
+  "citation_family_id": "CITFAM-6c766249fcf4a57445aa",
+  "pdf_path": "/Users/81194246/Library/CloudStorage/OneDrive-Pepsico/Personal/AI/Projects/ThinkAI/storypoints-age-of-ai/gate2/output/systematic/v1.3/20260816/d14/fulltext/pdf/CITFAM-6c766249fcf4a57445aa.pdf",
+  "pdf_sha256": "9dc63250137c7a8457a3ae43f9cddcff2190c84d533af55e09c6fc3a5f6614c6",
+  "security_attestation": "Static HTTPS retrieval only; public-IP validation, bounded redirects/size, signature and active-content checks; no PDF execution.",
+  "status": "retrieved_static_pdf"
+}

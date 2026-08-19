@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 521103,
+      "content_type": "application/pdf",
+      "final_url": "https://journals-sol.sbc.org.br/index.php/jserd/article/download/5097/3646",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "fc3e6b19b29bfdb9b4d46d448539e2192c33ba5456942bec63362a85b642fd41",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://journals-sol.sbc.org.br/index.php/jserd/article/download/5097/3646"
+    }
+  ],
+  "bytes": 521103,
+  "family_id": "FAM-df158fa8d22487318328",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-df158fa8d22487318328.pdf",
+  "pdf_sha256": "fc3e6b19b29bfdb9b4d46d448539e2192c33ba5456942bec63362a85b642fd41",
+  "representative_canonical_id": "CAN-c355ca282b3aeaadf9dc",
+  "retrieved_url": "https://journals-sol.sbc.org.br/index.php/jserd/article/download/5097/3646",
+  "status": "retrieved_open"
+}

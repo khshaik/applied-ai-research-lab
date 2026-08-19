@@ -1,0 +1,49 @@
+{
+  "status": "development_pilot",
+  "version": "0.1",
+  "family_id": "S4",
+  "source_query_id": "AX-S5R",
+  "source_registry": "gate2/arxiv_pilot_queries.json",
+  "query": "(all:\"large language model\" OR all:\"AI-assisted\" OR all:\"AI coding assistant\" OR all:\"coding agent\") AND (all:\"code review\" OR all:\"pull request\") AND (all:human OR all:oversight OR all:workload OR all:attention OR all:effort OR all:verification)",
+  "mapping_rationale": "The existing AX-S5R human-review query is conceptually identical to the S4 AI-assisted code-review burden family. The immutable export is mapped, not renamed, rerun, or counted as screening input.",
+  "sentinels": [
+    {
+      "sentinel_id": "S4-AX-P1",
+      "role": "scope_positive",
+      "arxiv_id": "2606.26505",
+      "title": "Same Scrutiny, More Time: Eye Tracking Insights into Reviewing LLM-Labelled Code"
+    },
+    {
+      "sentinel_id": "S4-AX-P2",
+      "role": "scope_positive",
+      "arxiv_id": "2501.02092",
+      "title": "Human and Machine: How Software Engineers Perceive and Engage with AI-Assisted Code Reviews Compared to Their Peers"
+    },
+    {
+      "sentinel_id": "S4-AX-D1",
+      "role": "neutral_disconfirming",
+      "arxiv_id": "2607.13196",
+      "title": "From Human-Centric to Agentic Code Review: The Impact of Different Generations of Generative AI Technology on Review Quality"
+    },
+    {
+      "sentinel_id": "S4-AX-D2",
+      "role": "neutral_disconfirming",
+      "arxiv_id": "2412.18531",
+      "title": "Automated Code Review In Practice"
+    }
+  ],
+  "sampled_precision_rule": {
+    "development_diagnostic_minimum_sample": 20,
+    "allowed_decisions": ["likely_relevant", "likely_irrelevant", "uncertain"],
+    "freeze_sample_bands": [
+      {"population_min": 0, "population_max": 50, "required_sample": "all"},
+      {"population_min": 51, "population_max": 1000, "required_sample": 50},
+      {"population_min": 1001, "population_max": null, "required_sample": 100}
+    ],
+    "acceptance_bands": {
+      "operational_minimum_relevant_plus_uncertain": 0.10,
+      "conditional_minimum_relevant_plus_uncertain": 0.05
+    }
+  },
+  "boundary": "Developmental cross-family mapping and known-item recall only; not a frozen search, eligibility decision, or PRISMA input."
+}

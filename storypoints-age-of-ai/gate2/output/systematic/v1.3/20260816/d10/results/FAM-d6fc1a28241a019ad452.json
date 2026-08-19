@@ -1,0 +1,30 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:16:34.571057Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://ieeexplore.ieee.org/document/11024327/",
+      "http_status": 202,
+      "outcome": "http_failure",
+      "url": "https://doi.org/10.1109/icse-companion66252.2025.00031"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:20:20.693863Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://ieeexplore.ieee.org/document/11024327/",
+      "http_status": 202,
+      "outcome": "http_failure",
+      "url": "https://doi.org/10.1109/icse-companion66252.2025.00031"
+    }
+  ],
+  "bytes": 0,
+  "family_id": "FAM-d6fc1a28241a019ad452",
+  "lawful_access_basis": null,
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "representative_canonical_id": "CAN-9bbb7f34a9b83c3e0991",
+  "retrieved_url": null,
+  "status": "lawful_full_text_not_retrieved"
+}

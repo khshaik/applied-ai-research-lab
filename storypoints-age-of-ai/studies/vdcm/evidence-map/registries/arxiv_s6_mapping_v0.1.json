@@ -1,0 +1,51 @@
+{
+  "status": "rejected_substantive_overbreadth",
+  "superseded_by": "arxiv_s6_mapping_v0.2.json",
+  "rejection_reason": "Independent audit found that the v0.1 precision rule admitted isolated lifecycle tasks without lifecycle-spanning orchestration or team/organization delivery-flow evidence.",
+  "version": "0.1",
+  "family_id": "S6",
+  "source_query_id": "AX-S6R",
+  "source_registry": "gate2/arxiv_pilot_queries.json",
+  "query": "(all:\"human-AI\" OR all:\"AI-assisted\" OR all:\"AI-augmented\" OR all:\"large language model\" OR all:\"coding agent\") AND (all:\"software delivery\" OR all:\"software development lifecycle\" OR all:\"software modernization\") AND (all:orchestration OR all:workflow OR all:team OR all:validation)",
+  "mapping_rationale": "The immutable complete AX-S6R developmental export is the existing arXiv query mapped to the approved S6 lifecycle and team-delivery scope. It is used for known-item recall and full-population metadata-level precision appraisal without being renamed, rerun, or treated as systematic evidence.",
+  "sentinels": [
+    {
+      "sentinel_id": "S6-AX-P1",
+      "role": "scope_positive",
+      "arxiv_id": "2603.20028",
+      "title": "Orchestrating Human-AI Software Delivery: A Retrospective Longitudinal Field Study of Three Software Modernization Programs"
+    },
+    {
+      "sentinel_id": "S6-AX-P2",
+      "role": "scope_positive",
+      "arxiv_id": "2508.11867",
+      "title": "AI-Augmented CI/CD Pipelines: From Code Commit to Production with Autonomous Decisions"
+    },
+    {
+      "sentinel_id": "S6-AX-D1",
+      "role": "neutral_disconfirming",
+      "arxiv_id": "2503.05012",
+      "title": "LLMs' Reshaping of People, Processes, Products, and Society in Software Development: A Comprehensive Exploration with Early Adopters"
+    },
+    {
+      "sentinel_id": "S6-AX-D2",
+      "role": "neutral_disconfirming",
+      "arxiv_id": "2510.09058",
+      "title": "Model-Assisted and Human-Guided: Perceptions and Practices of Software Professionals Using LLMs for Coding"
+    }
+  ],
+  "sampled_precision_rule": {
+    "development_diagnostic_minimum_sample": 20,
+    "allowed_decisions": ["likely_relevant", "likely_irrelevant", "uncertain"],
+    "freeze_sample_bands": [
+      {"population_min": 0, "population_max": 50, "required_sample": "all"},
+      {"population_min": 51, "population_max": 1000, "required_sample": 50},
+      {"population_min": 1001, "population_max": null, "required_sample": 100}
+    ],
+    "acceptance_bands": {
+      "operational_minimum_relevant_plus_uncertain": 0.10,
+      "conditional_minimum_relevant_plus_uncertain": 0.05
+    }
+  },
+  "boundary": "Developmental S6 arXiv mapping, known-item recall, and full-population query-precision control only; not a frozen search, eligibility decision, screening result, or PRISMA input."
+}

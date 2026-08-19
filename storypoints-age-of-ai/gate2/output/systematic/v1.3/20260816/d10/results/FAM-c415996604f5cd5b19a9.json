@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 559435,
+      "content_type": "application/pdf",
+      "final_url": "https://ijsret.com/wp-content/uploads/IJSRET_V12_issue2_601.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "619e58737859015095b0c607b5d50db9c0a3de77ed844547118bb8bfd44822e6",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://ijsret.com/wp-content/uploads/IJSRET_V12_issue2_601.pdf"
+    }
+  ],
+  "bytes": 559435,
+  "family_id": "FAM-c415996604f5cd5b19a9",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-c415996604f5cd5b19a9.pdf",
+  "pdf_sha256": "619e58737859015095b0c607b5d50db9c0a3de77ed844547118bb8bfd44822e6",
+  "representative_canonical_id": "CAN-40373a9b394fbd3749d0",
+  "retrieved_url": "https://ijsret.com/wp-content/uploads/IJSRET_V12_issue2_601.pdf",
+  "status": "retrieved_open"
+}

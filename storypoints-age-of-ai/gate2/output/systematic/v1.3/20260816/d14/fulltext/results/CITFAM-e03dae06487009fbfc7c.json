@@ -1,0 +1,23 @@
+{
+  "attempts": [
+    {
+      "active_indicators": [
+        "/S /URI"
+      ],
+      "attempted_at_utc": "2026-08-19T09:45:34.155731Z",
+      "basis": "live_openalex_best_oa_location_oa_pdf",
+      "bytes": 603072,
+      "final_url": "https://research.chalmers.se/publication/544306/file/544306_Fulltext.pdf",
+      "quarantine_path": "/Users/81194246/Library/CloudStorage/OneDrive-Pepsico/Personal/AI/Projects/ThinkAI/storypoints-age-of-ai/gate2/output/systematic/v1.3/20260816/d14/fulltext/quarantine/CITFAM-e03dae06487009fbfc7c.pdf",
+      "redirect_count": 0,
+      "sha256": "9872d1ae8f34b30725bab66dc3bddb6b8ddc862e8fcf10dbe020207c86f80caf",
+      "status": "quarantined_active_content"
+    }
+  ],
+  "bytes": 603072,
+  "citation_family_id": "CITFAM-e03dae06487009fbfc7c",
+  "pdf_path": null,
+  "pdf_sha256": "9872d1ae8f34b30725bab66dc3bddb6b8ddc862e8fcf10dbe020207c86f80caf",
+  "security_attestation": "Static HTTPS retrieval only; public-IP validation, bounded redirects/size, signature and active-content checks; no PDF execution.",
+  "status": "quarantined_active_content"
+}

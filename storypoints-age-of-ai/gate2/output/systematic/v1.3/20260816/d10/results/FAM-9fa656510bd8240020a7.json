@@ -1,0 +1,31 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:12:10.304291Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://saemobilus.sae.org/papers/open-source-llm-performance-automating-embedded-c-software-quality-improvements-automotive-2026-01-0103",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://doi.org/10.4271/2026-01-0103"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:13:01.350600Z",
+      "basis": "citation_pdf_url_metadata",
+      "bytes": 142513,
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://saemobilus.sae.org/papers/open-source-llm-performance-automating-embedded-c-software-quality-improvements-automotive-2026-01-0103",
+      "http_status": 200,
+      "outcome": "not_a_verified_pdf",
+      "url": "https://saemobilus.sae.org/downloads/papers/2026-01-0103/Full%20Text%20PDF"
+    }
+  ],
+  "bytes": 0,
+  "family_id": "FAM-9fa656510bd8240020a7",
+  "lawful_access_basis": null,
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "representative_canonical_id": "CAN-0e124e636025e40d8098",
+  "retrieved_url": null,
+  "status": "lawful_full_text_not_retrieved"
+}

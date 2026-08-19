@@ -1,0 +1,32 @@
+{
+  "attempts": [
+    {
+      "basis": "semantic_scholar_open_access_pdf",
+      "bytes": 122337,
+      "content_type": "text/html; charset=windows-1251",
+      "final_url": "https://nbpublish.com/library_read_article.php?id=72022",
+      "http_status": 200,
+      "outcome": "not_a_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://doi.org/10.7256/2454-0714.2024.4.72022"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:06:20.049655Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.semanticscholar.org/paper/de394820249dc4bce86617e648abd8abbb67fbac",
+      "http_status": 202,
+      "outcome": "http_failure",
+      "url": "https://www.semanticscholar.org/paper/de394820249dc4bce86617e648abd8abbb67fbac"
+    }
+  ],
+  "bytes": 0,
+  "family_id": "FAM-55912be4ac5310389655",
+  "lawful_access_basis": null,
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "representative_canonical_id": "CAN-e6022a296b976511ba46",
+  "retrieved_url": null,
+  "status": "lawful_full_text_not_retrieved"
+}

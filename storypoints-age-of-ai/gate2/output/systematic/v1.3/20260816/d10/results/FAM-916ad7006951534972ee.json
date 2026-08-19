@@ -1,0 +1,21 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:10:46.733748Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html",
+      "final_url": "https://osf.io/shvk9",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://osf.io/shvk9"
+    }
+  ],
+  "bytes": 0,
+  "family_id": "FAM-916ad7006951534972ee",
+  "lawful_access_basis": null,
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "representative_canonical_id": "CAN-8df06fc318e2b73d3fe0",
+  "retrieved_url": null,
+  "status": "lawful_full_text_not_retrieved"
+}

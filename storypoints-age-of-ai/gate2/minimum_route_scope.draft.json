@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0.0",
+  "amendment_version": "0.1",
+  "status": "approved_effective_protocol_reconciliation_pending",
+  "effective": true,
+  "protocol_version_superseded_after_approval": "1.2",
+  "protocol_version_to_issue_after_approval": "1.3",
+  "paper_type": "design_science_framework_with_targeted_open_evidence_map_and_developmental_simulation",
+  "family_source_allocation": [
+    {"family_id": "S1", "role": "bounded_integrative_human_effort_redistribution", "discovery_sources": ["Semantic Scholar Academic Graph"]},
+    {"family_id": "S2", "role": "bounded_integrative_lifecycle_readiness", "discovery_sources": ["OpenAlex"]},
+    {"family_id": "S3", "role": "estimation_predecessor_and_comparator_evidence", "discovery_sources": ["OpenAlex", "Semantic Scholar Academic Graph"]},
+    {"family_id": "S4_S5R", "role": "human_review_and_cognitive_demand", "discovery_sources": ["OpenAlex", "Semantic Scholar Academic Graph", "arXiv"]},
+    {"family_id": "S5T", "role": "testing_and_quality_assurance", "discovery_sources": ["OpenAlex", "arXiv"]},
+    {"family_id": "S5S", "role": "security_assurance", "discovery_sources": ["OpenAlex", "arXiv"]},
+    {"family_id": "S6", "role": "lifecycle_coordination_and_delivery_flow", "discovery_sources": ["OpenAlex", "arXiv"]},
+    {"family_id": "S7", "role": "exact_novelty_and_duplication", "discovery_sources": ["OpenAlex", "Semantic Scholar Academic Graph", "arXiv"]},
+    {"family_id": "S8", "role": "foundational_validity_and_comparator_evidence", "discovery_sources": ["OpenAlex", "Semantic Scholar Academic Graph"]}
+  ],
+  "crossref_role": "doi_and_bibliographic_metadata_verification_only",
+  "citation_chasing": "bidirectional_for_all_included_studies_until_predeclared_stopping_rule",
+  "inaccessible_subscription_sources": [
+    "Scopus",
+    "Web of Science Core Collection",
+    "IEEE Xplore",
+    "ACM Digital Library",
+    "SpringerLink",
+    "ScienceDirect"
+  ],
+  "permitted_claim_classes": [
+    "design_science_framework",
+    "targeted_access_constrained_open_evidence_map",
+    "developmental_synthetic_scenario_evidence",
+    "reproducible_developmental_prototype"
+  ],
+  "prohibited_claim_classes": [
+    "exhaustive_literature_coverage",
+    "validated_human_cognitive_load_measurement",
+    "empirical_organizational_superiority",
+    "causal_gate_effect",
+    "organizational_roi",
+    "completed_prospective_multi_team_validation",
+    "locked_production_simulation_without_scope_upgrade"
+  ],
+  "approval": {
+    "decision": "approve",
+    "accountable_author_id": "accountable_user",
+    "decided_at": "2026-08-16T08:06:17+05:30",
+    "decision_evidence": "The accountable user instructed 'Continue' twice after explicit notice that continuation required B05 approval; actual wording preserved.",
+    "required_changes": [],
+    "family_source_matrix_accepted": true,
+    "claims_boundary_accepted": true,
+    "route_a_and_locked_production_remain_future_work": true
+  }
+}

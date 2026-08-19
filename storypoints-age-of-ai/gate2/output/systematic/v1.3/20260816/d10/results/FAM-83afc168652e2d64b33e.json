@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 1054468,
+      "content_type": "application/pdf",
+      "final_url": "https://impactfactor.org/PDF/IJDDT/16/IJDDT,Vol16,Issue33s,Article130.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "115047a821741587a79380c0a65ba364150ac16320e0b1b6e0486135433ce30c",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://doi.org/10.25258/ijddt.16.33s.130"
+    }
+  ],
+  "bytes": 1054468,
+  "family_id": "FAM-83afc168652e2d64b33e",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-83afc168652e2d64b33e.pdf",
+  "pdf_sha256": "115047a821741587a79380c0a65ba364150ac16320e0b1b6e0486135433ce30c",
+  "representative_canonical_id": "CAN-a44e74a7d53eaf19b348",
+  "retrieved_url": "https://impactfactor.org/PDF/IJDDT/16/IJDDT,Vol16,Issue33s,Article130.pdf",
+  "status": "retrieved_open"
+}

@@ -1,0 +1,34 @@
+{
+  "batch_count": 14,
+  "batch_size": 50,
+  "completed_batch_count": 14,
+  "credential_handling": "OPENALEX_API_KEY read from environment only; never printed or persisted.",
+  "doi_query_count": 690,
+  "ledger_sha256": "fcd326ab7a34f35717226258833d95a8cef11a412e9ccafb76e8a8b9ad810530",
+  "matched_metadata_count": 690,
+  "pending_family_count": 690,
+  "pipeline_version": "d14-openalex-location-discovery/1.0.0",
+  "protocol_version": "1.3",
+  "raw_hashes": {
+    "batch_0000.json": "f5f8c62f1eb307e33cef4d175085b4c3560b7e413b2ef62cedd0e7ed25c57d36",
+    "batch_0001.json": "ee1cc45d1ef36531d4a5bba40d6e0fbe4540fef14e716c6c2ae840f54f844036",
+    "batch_0002.json": "18b04fcc19dc44be80b65ba3cd01dfee72e22fca2c2a58a922e797d741163b42",
+    "batch_0003.json": "5ad72532f118571740b241072c7121099a7b8b32642d98ed4a76fae090f5c076",
+    "batch_0004.json": "2272060542b281a10beb068ae4e9cdffc68f16784387aa39fbbec34d3680cd56",
+    "batch_0005.json": "e6244604b0a91438b094092c3129efeb441475c15f50af283212f539d5ec34a6",
+    "batch_0006.json": "1390bc384812d7c29c274829e4ca221ff194228793a17e1a282963e738549a24",
+    "batch_0007.json": "08d3916a2c131b5fc7516db2109462e5214ce8b58b0a254e89bb6aded14d990a",
+    "batch_0008.json": "a07200b2dd175ae95918abf8cc69830ef34149b0eefa7658ab215e3ca41cff84",
+    "batch_0009.json": "278dad4a20eb873fd8d8ee808c056fafd3e49577e913e262bee60dc193a28ed0",
+    "batch_0010.json": "a93bf0d86a7e66eff734f7a2c9a1ea1b10baa90b371b89969d6bc65a730f008b",
+    "batch_0011.json": "da78b7c74bbb3e2b3b3b738090e9ac19ec3a2afd467748451a10dc3de2d1c9f7",
+    "batch_0012.json": "d246115b937978e653825fcec0700115bebfbc97531db4990ea87feffcd395c7",
+    "batch_0013.json": "08420b361e8e8f3be800cc7d9aac91f2efe3c186ce10e7917b560e76f0a02fbf"
+  },
+  "security_boundary": "Public DOI metadata lookup only; no PDFs, Git/history, secrets, private systems, or access-control bypass.",
+  "status": "complete",
+  "status_counts": {
+    "candidate_identified": 113,
+    "no_openalex_oa_pdf_identified": 577
+  }
+}

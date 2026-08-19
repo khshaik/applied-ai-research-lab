@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 951355,
+      "content_type": "application/pdf;charset=UTF-8",
+      "final_url": "https://trepo.tuni.fi/bitstream/handle/10024/228307/IshimweMarius.pdf;jsessionid=F6C420CABE5CB214106E7C2DCB9F19CD?sequence=2",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "b476072be357139e6e41f5296fd8f5ec1e800b2dbd8e41751933eb50c0a981fa",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://trepo.tuni.fi/bitstream/10024/228307/2/IshimweMarius.pdf"
+    }
+  ],
+  "bytes": 951355,
+  "family_id": "FAM-d289c71934f506c0a188",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-d289c71934f506c0a188.pdf",
+  "pdf_sha256": "b476072be357139e6e41f5296fd8f5ec1e800b2dbd8e41751933eb50c0a981fa",
+  "representative_canonical_id": "CAN-231e0f6608eaa77148f7",
+  "retrieved_url": "https://trepo.tuni.fi/bitstream/handle/10024/228307/IshimweMarius.pdf;jsessionid=F6C420CABE5CB214106E7C2DCB9F19CD?sequence=2",
+  "status": "retrieved_open"
+}

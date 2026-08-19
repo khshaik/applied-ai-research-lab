@@ -1,0 +1,120 @@
+{
+  "schema_version": "1.0.0",
+  "metadata": {
+    "review_id": "SYNTHETIC-CALIBRATION-ONLY",
+    "protocol_version": "1.2",
+    "review_design": "ai_assisted_systematic_evidence_map_open_indexes",
+    "evidence_coverage": "access_constrained",
+    "search_cutoff_date": null,
+    "status": "in_progress",
+    "accountable_author_ids": ["SYNTHETIC-AUTHOR-NOT-FOR-PUBLICATION"],
+    "search_completion": {
+      "systematic_searches_complete": false,
+      "update_search_complete": false
+    },
+    "coverage_contract": {
+      "required_search_family_ids": [],
+      "required_source_ids": [],
+      "required_search_pairs": [],
+      "approved_unavailable_sources": []
+    },
+    "novelty_claim_contract": {
+      "allowed_statement": "No substantively duplicative framework was identified within the predeclared open scholarly indexes, repositories, and citation networks searched through the stated cutoff date.",
+      "reported_statement": null,
+      "prohibited_unbounded_claims": [
+        "No prior research exists.",
+        "All relevant literature was searched."
+      ]
+    },
+    "notice": "Entirely synthetic calibration fixture. Contains no real study, systematic-search result, PRISMA observation, empirical evidence, or publication-ready decision."
+  },
+  "search_runs": [
+    {
+      "search_run_id": "syn-batch-1",
+      "source": "synthetic_fixture",
+      "search_family": "SYN-CAL",
+      "exact_query": "NO QUERY: controller-created synthetic fixture",
+      "executed_at_utc": "2026-08-15T00:00:00Z",
+      "status": "approved_systematic",
+      "results_returned": 1,
+      "export_checksum": "2572a3a53ff42e8ab9340fb843a5f9feb1aad7df89a1144d42419288c1e8c615",
+      "operator_id": "fixture-controller"
+    }
+  ],
+  "records": [
+    {
+      "record_id": "syn-r1",
+      "title": "Synthetic evaluation of an AI-assisted delivery-planning measure",
+      "source_type": "scholarly_database",
+      "retrieval_batch_id": "syn-batch-1",
+      "evidence_stratum": "peer_reviewed_scholarly",
+      "publication_status": "synthetic_peer_reviewed_fixture",
+      "doi": null,
+      "arxiv_id": null,
+      "url": null,
+      "metadata_checksum": "2572a3a53ff42e8ab9340fb843a5f9feb1aad7df89a1144d42419288c1e8c615",
+      "full_text_access_status": "not_sought"
+    }
+  ],
+  "deduplication_decisions": [],
+  "agent_screenings": [
+    {
+      "screening_id": "syn-screen-a",
+      "record_id": "syn-r1",
+      "stage": "title_abstract",
+      "review_pass_id": "pass-a",
+      "reviewer_type": "ai_agent",
+      "reviewer_id": "synthetic-agent-a",
+      "model_prompt_version": "screening-agent-a/1.0.0",
+      "review_context_id": "synthetic-isolated-context-a",
+      "prior_screening_decisions_visible": false,
+      "input_checksum": "2572a3a53ff42e8ab9340fb843a5f9feb1aad7df89a1144d42419288c1e8c615",
+      "decision": "include",
+      "reason": "Synthetic fixture appears within the fictional population and lifecycle scope; this is not a real eligibility judgment.",
+      "confidence": 0.76,
+      "source_locator": "synthetic_calibration_input.json#/record/abstract",
+      "evidence_stratum": "peer_reviewed_scholarly",
+      "independence_attestation": "Synthetic pass A used its own context without pass B output; shared-model limitations remain possible."
+    },
+    {
+      "screening_id": "syn-screen-b",
+      "record_id": "syn-r1",
+      "stage": "title_abstract",
+      "review_pass_id": "pass-b",
+      "reviewer_type": "ai_agent",
+      "reviewer_id": "synthetic-agent-b",
+      "model_prompt_version": "screening-agent-b/1.0.0",
+      "review_context_id": "synthetic-isolated-context-b",
+      "prior_screening_decisions_visible": false,
+      "input_checksum": "2572a3a53ff42e8ab9340fb843a5f9feb1aad7df89a1144d42419288c1e8c615",
+      "decision": "unclear",
+      "reason": "The fictional abstract does not establish whether its described evaluation is empirical; this is not a real eligibility judgment.",
+      "confidence": 0.61,
+      "source_locator": "synthetic_calibration_input.json#/record/abstract",
+      "evidence_stratum": "peer_reviewed_scholarly",
+      "independence_attestation": "Synthetic pass B used its own context without pass A output; shared-model limitations remain possible."
+    }
+  ],
+  "adjudications": [
+    {
+      "adjudication_id": "syn-adjudication-1",
+      "record_id": "syn-r1",
+      "stage": "title_abstract",
+      "adjudicator_id": "synthetic-agent-c",
+      "review_context_id": "synthetic-adjudication-context-c",
+      "input_checksum": "2572a3a53ff42e8ab9340fb843a5f9feb1aad7df89a1144d42419288c1e8c615",
+      "decision": "include",
+      "exclusion_code": null,
+      "rationale": "For mechanics testing only, title/abstract uncertainty advances conservatively to full text; no real study decision is represented.",
+      "source_locator": "synthetic_calibration_input.json#/record/abstract",
+      "evidence_stratum": "peer_reviewed_scholarly",
+      "control_check": "Distinct identities and contexts, blinded passes, and identical input checksums confirmed for this synthetic fixture."
+    }
+  ],
+  "study_families": [],
+  "citation_chases": [],
+  "quality_appraisals": [],
+  "extractions": [],
+  "citation_confirmations": [],
+  "prisma_events": []
+}

@@ -1,0 +1,302 @@
+{
+  "controller_version": "d08-screening-controller/1.0.0",
+  "family_count": 3930,
+  "input_d07_manifest_sha256": "154871436630f723b59a827d6d1e977129cc70d1e4bfe8c926adb8b28fa0b8f1",
+  "isolation_contract": "Each pass receives these byte-identical shards in a distinct context and must not inspect the other pass output. Concordance is agent concordance, not human inter-rater reliability.",
+  "prepared_at_utc": "2026-08-16T09:44:00Z",
+  "prompt_a": {
+    "path": "evidence_review/prompts/screening_agent_a_v1.1.0.md",
+    "sha256": "2c48dbbc6b06ec0dbd71394a324ea680cb9b0edf90fcf14bb6882c920d36c607"
+  },
+  "prompt_b": {
+    "path": "evidence_review/prompts/screening_agent_b_v1.1.0.md",
+    "sha256": "d7f58147ecbbbeab8a0e37ae28f7a7edef546cf280e0b1ec34e84d975c3a1d4e"
+  },
+  "protocol_version": "1.3",
+  "screening_unit": "candidate_study_family_with_representative_record_id",
+  "shard_count": 40,
+  "shard_size": 100,
+  "shards": [
+    {
+      "first_family_id": "FAM-000f80e2e99c55374285",
+      "last_family_id": "FAM-0679380b36571bfeeb85",
+      "path": "screening_packet_001.jsonl",
+      "row_count": 100,
+      "sha256": "ab5f9117d20a594f80315fac713ecd88ed35baac91d7a4562487f5ae48f66c2a"
+    },
+    {
+      "first_family_id": "FAM-06922282861c91fbe221",
+      "last_family_id": "FAM-0e2aebb46718bf54217f",
+      "path": "screening_packet_002.jsonl",
+      "row_count": 100,
+      "sha256": "345d3022eb737564a1daec038fdc5fd3deda49f40ba5fb7eca6ba6448a0f96f2"
+    },
+    {
+      "first_family_id": "FAM-0e2bcf9d8e8c5378d8e8",
+      "last_family_id": "FAM-14b71cd1cc6cc9390bb8",
+      "path": "screening_packet_003.jsonl",
+      "row_count": 100,
+      "sha256": "05004f9f11483011499562e79e93cfc23fac21df483b56bf571a3b8061f8693f"
+    },
+    {
+      "first_family_id": "FAM-14cc0e846d469d1863c7",
+      "last_family_id": "FAM-1c3b76000a23a31f3d5c",
+      "path": "screening_packet_004.jsonl",
+      "row_count": 100,
+      "sha256": "ce5032e8d59f021c0b9a7fc3bc35a788ced418e58e4e7f52a6be7213180cc296"
+    },
+    {
+      "first_family_id": "FAM-1c6efeba7496e1a1e67d",
+      "last_family_id": "FAM-239926c63b7962f42c71",
+      "path": "screening_packet_005.jsonl",
+      "row_count": 100,
+      "sha256": "47066ff042129ea80e1c69983d75490ba437e494da498335e5cad1b20fbd6855"
+    },
+    {
+      "first_family_id": "FAM-23b41a65fdfe8ca2e9c2",
+      "last_family_id": "FAM-2960064807158ca68cc7",
+      "path": "screening_packet_006.jsonl",
+      "row_count": 100,
+      "sha256": "92c40c45b15c72ea55b9203b487da0c93ac2dfea4f155247e6d76cc160979970"
+    },
+    {
+      "first_family_id": "FAM-2978e58cca79cb6a0141",
+      "last_family_id": "FAM-2fd99d7c902674cba024",
+      "path": "screening_packet_007.jsonl",
+      "row_count": 100,
+      "sha256": "444be32eae4f81ec1d1d3b8e9d1a917c947216f63fc651391262d15eedfed8b6"
+    },
+    {
+      "first_family_id": "FAM-2fdebab60e069e0ad463",
+      "last_family_id": "FAM-368a94b76b7428345754",
+      "path": "screening_packet_008.jsonl",
+      "row_count": 100,
+      "sha256": "f802dc1a1cdca972dbe956d05e9df9ae0f98970d67fd2407e8907ca0b6224162"
+    },
+    {
+      "first_family_id": "FAM-369125af997f09ed84cc",
+      "last_family_id": "FAM-3d6e259dc7c63cd061f3",
+      "path": "screening_packet_009.jsonl",
+      "row_count": 100,
+      "sha256": "f2348220985a77057b36c578efe77732bd0ff70b02fe71593558d8f3e5d20a03"
+    },
+    {
+      "first_family_id": "FAM-3d7cc82df8a024229c29",
+      "last_family_id": "FAM-43829a3b1a6333bde4da",
+      "path": "screening_packet_010.jsonl",
+      "row_count": 100,
+      "sha256": "a0f0e5c652683fa67769c39d19dbb1d8072b411576e3a54019e78c336b36d1e3"
+    },
+    {
+      "first_family_id": "FAM-439076a73b6cf0543e70",
+      "last_family_id": "FAM-4a6c7077422b471d8655",
+      "path": "screening_packet_011.jsonl",
+      "row_count": 100,
+      "sha256": "f4040257cdf60e7614849b41872aa5568149c7e68ceb4e0dc0d820b0ab78e8ea"
+    },
+    {
+      "first_family_id": "FAM-4a7b40055a2d2c56e374",
+      "last_family_id": "FAM-5070c94b2b0320dca5c5",
+      "path": "screening_packet_012.jsonl",
+      "row_count": 100,
+      "sha256": "ca6b8f80e581ca9d9be67de392b8a517e32e7f2291c2f7ada81933c3df2afae3"
+    },
+    {
+      "first_family_id": "FAM-50b79a3dc201e441de04",
+      "last_family_id": "FAM-57e695fe14d281d3c4a0",
+      "path": "screening_packet_013.jsonl",
+      "row_count": 100,
+      "sha256": "c815efe0aaa91d407d9be11d8fff9380d316abbe0efd0850d4f86f8abc82cb94"
+    },
+    {
+      "first_family_id": "FAM-57f219386b7b0af42b5d",
+      "last_family_id": "FAM-5dcf12ccadbf1b93f0b1",
+      "path": "screening_packet_014.jsonl",
+      "row_count": 100,
+      "sha256": "d2d755f2420f90674cd32b4abcff50e84edc8bae901d4f5f88a065479d2cb550"
+    },
+    {
+      "first_family_id": "FAM-5dd1f14df9309d4deb91",
+      "last_family_id": "FAM-64058cea88add084c972",
+      "path": "screening_packet_015.jsonl",
+      "row_count": 100,
+      "sha256": "31a4f964fc7ffe98b590799c8757c64ec3e06e7c4eac4ed2f6796b79ab527ddd"
+    },
+    {
+      "first_family_id": "FAM-6408ca4e7ce094cbabf7",
+      "last_family_id": "FAM-6ae5cf6deddd4e559874",
+      "path": "screening_packet_016.jsonl",
+      "row_count": 100,
+      "sha256": "7259edba464fd7ea4d32afcd7a42c5d24563ed3b9b7c792a8d7ded055947bd55"
+    },
+    {
+      "first_family_id": "FAM-6aee95822d09bf32f9a9",
+      "last_family_id": "FAM-70ebaca840af1e1341dc",
+      "path": "screening_packet_017.jsonl",
+      "row_count": 100,
+      "sha256": "a12f3c90b7417844e2bbb1891e26c1f617dca4e95038302de51593afe1b228d2"
+    },
+    {
+      "first_family_id": "FAM-70f17f0ad1b9492cff7d",
+      "last_family_id": "FAM-7771d1c6f00c3254ff75",
+      "path": "screening_packet_018.jsonl",
+      "row_count": 100,
+      "sha256": "3df508b33ca1c9c500a16391c18ed758455991d39bf94de88a0a9946923024db"
+    },
+    {
+      "first_family_id": "FAM-7772d3240c122c8469ee",
+      "last_family_id": "FAM-7d848735fdac58348cc3",
+      "path": "screening_packet_019.jsonl",
+      "row_count": 100,
+      "sha256": "3d73238ffab47fd0c5d46d24dfd6ef06da82708beb8198f0a5702522dbae59ea"
+    },
+    {
+      "first_family_id": "FAM-7d90f03ae4fc6888858b",
+      "last_family_id": "FAM-835e19dfcf6a2b66c77f",
+      "path": "screening_packet_020.jsonl",
+      "row_count": 100,
+      "sha256": "105680f6134befc99aa0fca492584fc7ad5d40884282c75b4727edf550a078f0"
+    },
+    {
+      "first_family_id": "FAM-8360cccc6d746ce8aff3",
+      "last_family_id": "FAM-89785ed173809ce5a504",
+      "path": "screening_packet_021.jsonl",
+      "row_count": 100,
+      "sha256": "c9fcac01544634eb39a8d807d7ac87647c02617bd32504a8964085f9dc9c7c8a"
+    },
+    {
+      "first_family_id": "FAM-8981407c5d4db6c88f6b",
+      "last_family_id": "FAM-8f4ac0e770b55f67e3b7",
+      "path": "screening_packet_022.jsonl",
+      "row_count": 100,
+      "sha256": "df847df6d48a0f176f67a37fd97e0c02fc4dc64de793fb03b03ba836f70c0035"
+    },
+    {
+      "first_family_id": "FAM-8f4c7b03f4e92c0e6977",
+      "last_family_id": "FAM-947ff76fd9b59bebac27",
+      "path": "screening_packet_023.jsonl",
+      "row_count": 100,
+      "sha256": "4044080eb346d47fd3195e37a6735fac6b47b8500386c14c6d8aa7db20a0521f"
+    },
+    {
+      "first_family_id": "FAM-949a1e0747e1e641046d",
+      "last_family_id": "FAM-9a92998ee0d33c8b1de3",
+      "path": "screening_packet_024.jsonl",
+      "row_count": 100,
+      "sha256": "6bb54c8c713065ea1eb79b1147190b3699320a84187e44da2d36d72606874aa6"
+    },
+    {
+      "first_family_id": "FAM-9ab2733b5f01787f5f57",
+      "last_family_id": "FAM-a0b162bb171a7142f501",
+      "path": "screening_packet_025.jsonl",
+      "row_count": 100,
+      "sha256": "7cfc4fa295e0e4bb5485bda77e2baef9b9b29424c4119e0721390f426889052e"
+    },
+    {
+      "first_family_id": "FAM-a0b6cfaef684101f7f4d",
+      "last_family_id": "FAM-a70ac10ef40e21f034fa",
+      "path": "screening_packet_026.jsonl",
+      "row_count": 100,
+      "sha256": "eab890483621c3519551528122b1bfea5cd1aa46bb4d552053d89450824104dc"
+    },
+    {
+      "first_family_id": "FAM-a74650f1904c3c79467c",
+      "last_family_id": "FAM-ae13f369a96595d74642",
+      "path": "screening_packet_027.jsonl",
+      "row_count": 100,
+      "sha256": "05c35d661ffc568350c43a762f461267b1f0c05c9b9e014f8fa8083251e1a4f9"
+    },
+    {
+      "first_family_id": "FAM-ae310b55e69842af5b3e",
+      "last_family_id": "FAM-b56d47e272b91a249db6",
+      "path": "screening_packet_028.jsonl",
+      "row_count": 100,
+      "sha256": "94199b8c7830006d36733c584450e1130862b8052afa130147abcc83aa8a76af"
+    },
+    {
+      "first_family_id": "FAM-b57a3b8d90695cfd39d3",
+      "last_family_id": "FAM-bb45496cf389a1da072c",
+      "path": "screening_packet_029.jsonl",
+      "row_count": 100,
+      "sha256": "4a1d224dede0e77a4661a0bb0c8e32f50fc871b00b818c3958c8c392f7547d0a"
+    },
+    {
+      "first_family_id": "FAM-bb5d351508ae31840929",
+      "last_family_id": "FAM-c0b3569644287aeeb35e",
+      "path": "screening_packet_030.jsonl",
+      "row_count": 100,
+      "sha256": "2fdc5085b0555bc00ec30cdb9230d4a68f3115f01cd0c9779e6ffd05b6f5b77f"
+    },
+    {
+      "first_family_id": "FAM-c0c507f119256c494609",
+      "last_family_id": "FAM-c77b79535937fba2983d",
+      "path": "screening_packet_031.jsonl",
+      "row_count": 100,
+      "sha256": "1694b00d43b0aa2b9d753b2f32a04084e2a84cd76c45d25fb9a697b362b27a22"
+    },
+    {
+      "first_family_id": "FAM-c77fb978790552f0ac77",
+      "last_family_id": "FAM-ce354e81bed048e2d83d",
+      "path": "screening_packet_032.jsonl",
+      "row_count": 100,
+      "sha256": "642732414976dcdcaf8cbe0881067f6250346c60271a2213b0f7ac480614dcba"
+    },
+    {
+      "first_family_id": "FAM-ce386f5f45f352c0a6fd",
+      "last_family_id": "FAM-d3eca883c5a4201b6819",
+      "path": "screening_packet_033.jsonl",
+      "row_count": 100,
+      "sha256": "abd21f0ea546b5d80eac580b206cafe256b2cfeff82e65570df9cc7890782f4e"
+    },
+    {
+      "first_family_id": "FAM-d42a779cc77b4be43a60",
+      "last_family_id": "FAM-d9c25530c76c8d015b83",
+      "path": "screening_packet_034.jsonl",
+      "row_count": 100,
+      "sha256": "8e68a9cd0d0c23424c135cd4bba8299c41b87d23376b4911c1a5a2ddd9095763"
+    },
+    {
+      "first_family_id": "FAM-d9d37d20760693657a7c",
+      "last_family_id": "FAM-e1e75f7525b9d44c95f4",
+      "path": "screening_packet_035.jsonl",
+      "row_count": 100,
+      "sha256": "ea7502c21778aeb3d95e2a962c59a82fa13709b5697ff0292c8e72323cb334d9"
+    },
+    {
+      "first_family_id": "FAM-e1f06227f70bb3813361",
+      "last_family_id": "FAM-e89977bd3e27cb53238c",
+      "path": "screening_packet_036.jsonl",
+      "row_count": 100,
+      "sha256": "8b84158e63f76551823323930eb0a8cdf5d757c6a44c1ec372fe8cf493caf810"
+    },
+    {
+      "first_family_id": "FAM-e8aada85d648512ba4dc",
+      "last_family_id": "FAM-f1759aa04a90db814c9f",
+      "path": "screening_packet_037.jsonl",
+      "row_count": 100,
+      "sha256": "0f100301b4588ec7e6ed2e77b998b9cd4c4efe15f78531d7b655c5d82da10dc6"
+    },
+    {
+      "first_family_id": "FAM-f17a058c3d6fee2cf042",
+      "last_family_id": "FAM-f860f2a5165878490f7e",
+      "path": "screening_packet_038.jsonl",
+      "row_count": 100,
+      "sha256": "779b443aabd67fdfc1a837ab353a70ddd8df74d8b6b06eb624bfaf5acf2a7553"
+    },
+    {
+      "first_family_id": "FAM-f861639f056606333e1a",
+      "last_family_id": "FAM-fe887364d84d634bf720",
+      "path": "screening_packet_039.jsonl",
+      "row_count": 100,
+      "sha256": "943f4eb877b377b43a8b762036167962d1b79da567aa672230fb4ef742d69031"
+    },
+    {
+      "first_family_id": "FAM-fe8ecc9a9445298c38fb",
+      "last_family_id": "FAM-ffffe081ea51ace752ad",
+      "path": "screening_packet_040.jsonl",
+      "row_count": 30,
+      "sha256": "6d9d555ed7adc3690c23a1087bfd1be4e1e3d846c712bdd8e43a8f619be8f3d2"
+    }
+  ],
+  "status": "prepared_for_two_isolated_agent_passes"
+}

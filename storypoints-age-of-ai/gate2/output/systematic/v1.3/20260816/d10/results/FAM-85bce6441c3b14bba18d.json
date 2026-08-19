@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 2656499,
+      "content_type": "application/pdf",
+      "final_url": "https://spectrum.library.concordia.ca/id/eprint/996929/1/Thesis_Grad%20%285%29.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "59a7c5b3bd289dfd8a24015d56da54f446866f0bb2f0baa965a5518d7d41089a",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://spectrum.library.concordia.ca/id/eprint/996929/1/Thesis_Grad%20%285%29.pdf"
+    }
+  ],
+  "bytes": 2656499,
+  "family_id": "FAM-85bce6441c3b14bba18d",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-85bce6441c3b14bba18d.pdf",
+  "pdf_sha256": "59a7c5b3bd289dfd8a24015d56da54f446866f0bb2f0baa965a5518d7d41089a",
+  "representative_canonical_id": "CAN-d83494771be25e89ff45",
+  "retrieved_url": "https://spectrum.library.concordia.ca/id/eprint/996929/1/Thesis_Grad%20%285%29.pdf",
+  "status": "retrieved_open"
+}

@@ -1,0 +1,41 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 42483,
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://ijsrem.com/download/intelligent-cloud-native-ai-powered-devops-copilot?wpdmdl=61525&refresh=69271982de0771764170114",
+      "http_status": 200,
+      "outcome": "not_a_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://ijsrem.com/download/intelligent-cloud-native-ai-powered-devops-copilot/?wpdmdl=61525&refresh=69271982de0771764170114"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:15:42.210437Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://ijsrem.com/download/intelligent-cloud-native-ai-powered-devops-copilot",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://doi.org/10.55041/ijsrem54549"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:16:25.745596Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://ijsrem.com/download/intelligent-cloud-native-ai-powered-devops-copilot",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://doi.org/10.55041/ijsrem54549"
+    }
+  ],
+  "bytes": 0,
+  "family_id": "FAM-a544d70c094faf7156a8",
+  "lawful_access_basis": null,
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "representative_canonical_id": "CAN-96b58754d6a64f0329fd",
+  "retrieved_url": null,
+  "status": "lawful_full_text_not_retrieved"
+}

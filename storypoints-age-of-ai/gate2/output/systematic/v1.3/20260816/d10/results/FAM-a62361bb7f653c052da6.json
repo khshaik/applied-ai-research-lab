@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 3165819,
+      "content_type": "application/pdf;charset=UTF-8",
+      "final_url": "https://carleton.scholaris.ca/server/api/core/bitstreams/54684e91-9e78-4b56-b49f-c519a937ac70/content",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "1ba962500cadea1bfb583c7ae7bdd30ab40bd8b8ac7c58705babc2386a41aae5",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://carleton.scholaris.ca/bitstreams/54684e91-9e78-4b56-b49f-c519a937ac70/download"
+    }
+  ],
+  "bytes": 3165819,
+  "family_id": "FAM-a62361bb7f653c052da6",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-a62361bb7f653c052da6.pdf",
+  "pdf_sha256": "1ba962500cadea1bfb583c7ae7bdd30ab40bd8b8ac7c58705babc2386a41aae5",
+  "representative_canonical_id": "CAN-6e3e01917486f346e3ba",
+  "retrieved_url": "https://carleton.scholaris.ca/server/api/core/bitstreams/54684e91-9e78-4b56-b49f-c519a937ac70/content",
+  "status": "retrieved_open"
+}

@@ -1,0 +1,716 @@
+{
+  "decisions": [
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively measures, defines, or analyzes developer productivity, interruptions, work patterns, or productivity-quality trade-offs.",
+      "source_id": "https://openalex.org/W7164450288"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "GenAI-specific technical or impact evidence belongs to another evidence family and is not an S8 foundational comparator record.",
+      "source_id": "https://openalex.org/W7203456728"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "GenAI-specific technical or impact evidence belongs to another evidence family and is not an S8 foundational comparator record.",
+      "source_id": "https://openalex.org/W7203457012"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Technical automation or prediction record without substantive human-work, measurement-validity, or delivery-flow analysis.",
+      "source_id": "https://openalex.org/W7202163869"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively addresses a prespecified foundational software-work measurement or process comparator.",
+      "source_id": "https://openalex.org/W7202163205"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Metadata does not substantively address estimation validity, developer-productivity measurement, human review work, workload measurement, or software-delivery flow.",
+      "source_id": "https://openalex.org/W7172422139"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Metadata does not substantively address estimation validity, developer-productivity measurement, human review work, workload measurement, or software-delivery flow.",
+      "source_id": "https://openalex.org/W7172470608"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "GenAI-specific technical or impact evidence belongs to another evidence family and is not an S8 foundational comparator record.",
+      "source_id": "https://openalex.org/W7172439902"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "GenAI-specific technical or impact evidence belongs to another evidence family and is not an S8 foundational comparator record.",
+      "source_id": "https://openalex.org/W7197053748"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "GenAI-specific technical or impact evidence belongs to another evidence family and is not an S8 foundational comparator record.",
+      "source_id": "https://openalex.org/W7172222489"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "GenAI-specific technical or impact evidence belongs to another evidence family and is not an S8 foundational comparator record.",
+      "source_id": "https://openalex.org/W7167518438"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "GenAI-specific technical or impact evidence belongs to another evidence family and is not an S8 foundational comparator record.",
+      "source_id": "https://openalex.org/W7162477430"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "GenAI-specific technical or impact evidence belongs to another evidence family and is not an S8 foundational comparator record.",
+      "source_id": "https://openalex.org/W7159590501"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "GenAI-specific technical or impact evidence belongs to another evidence family and is not an S8 foundational comparator record.",
+      "source_id": "https://openalex.org/W7154852190"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Metadata does not substantively address estimation validity, developer-productivity measurement, human review work, workload measurement, or software-delivery flow.",
+      "source_id": "https://openalex.org/W7154452348"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively addresses software-team flow, delivery performance, agile process, dependency, or capacity interpretation.",
+      "source_id": "https://openalex.org/W7153851961"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "System or computational-performance work without a substantive developer-work, estimation, review, or delivery-flow construct.",
+      "source_id": "https://openalex.org/W7142086762"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively addresses a prespecified foundational software-work measurement or process comparator.",
+      "source_id": "https://openalex.org/W7131356078"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Metadata does not substantively address estimation validity, developer-productivity measurement, human review work, workload measurement, or software-delivery flow.",
+      "source_id": "https://openalex.org/W7127636250"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively addresses software-team flow, delivery performance, agile process, dependency, or capacity interpretation.",
+      "source_id": "https://openalex.org/W7156216216"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Metadata does not substantively address estimation validity, developer-productivity measurement, human review work, workload measurement, or software-delivery flow.",
+      "source_id": "https://openalex.org/W4415249770"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Metadata does not substantively address estimation validity, developer-productivity measurement, human review work, workload measurement, or software-delivery flow.",
+      "source_id": "https://openalex.org/W4416748842"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively addresses software-team flow, delivery performance, agile process, dependency, or capacity interpretation.",
+      "source_id": "https://openalex.org/W4416158448"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Metadata does not substantively address estimation validity, developer-productivity measurement, human review work, workload measurement, or software-delivery flow.",
+      "source_id": "https://openalex.org/W4415273800"
+    },
+    {
+      "decision": "uncertain",
+      "reason": "Title is plausibly connected to a prespecified S8 construct, but exported metadata is insufficient for a substantive query-control judgment.",
+      "source_id": "https://openalex.org/W4415170144"
+    },
+    {
+      "decision": "uncertain",
+      "reason": "Title is plausibly connected to a prespecified S8 construct, but exported metadata is insufficient for a substantive query-control judgment.",
+      "source_id": "https://openalex.org/W4415250824"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Metadata does not substantively address estimation validity, developer-productivity measurement, human review work, workload measurement, or software-delivery flow.",
+      "source_id": "https://openalex.org/W4415234819"
+    },
+    {
+      "decision": "uncertain",
+      "reason": "Title is plausibly connected to a prespecified S8 construct, but exported metadata is insufficient for a substantive query-control judgment.",
+      "source_id": "https://openalex.org/W7155453027"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively addresses software-team flow, delivery performance, agile process, dependency, or capacity interpretation.",
+      "source_id": "https://openalex.org/W7161678697"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Metadata does not substantively address estimation validity, developer-productivity measurement, human review work, workload measurement, or software-delivery flow.",
+      "source_id": "https://openalex.org/W4407972561"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Metadata does not substantively address estimation validity, developer-productivity measurement, human review work, workload measurement, or software-delivery flow.",
+      "source_id": "https://openalex.org/W4410296527"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively analyzes human modern-code-review effort, communication, outcomes, practices, or knowledge transfer.",
+      "source_id": "https://openalex.org/W4411695293"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "GenAI-specific technical or impact evidence belongs to another evidence family and is not an S8 foundational comparator record.",
+      "source_id": "https://openalex.org/W4414196247"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively addresses software-team flow, delivery performance, agile process, dependency, or capacity interpretation.",
+      "source_id": "https://openalex.org/W7128711127"
+    },
+    {
+      "decision": "uncertain",
+      "reason": "Title is plausibly connected to a prespecified S8 construct, but exported metadata is insufficient for a substantive query-control judgment.",
+      "source_id": "https://openalex.org/W7198449114"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively analyzes human modern-code-review effort, communication, outcomes, practices, or knowledge transfer.",
+      "source_id": "https://openalex.org/W4403345226"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively analyzes human modern-code-review effort, communication, outcomes, practices, or knowledge transfer.",
+      "source_id": "https://openalex.org/W4400583026"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Technical automation or prediction record without substantive human-work, measurement-validity, or delivery-flow analysis.",
+      "source_id": "https://openalex.org/W4396876070"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "GenAI-specific technical or impact evidence belongs to another evidence family and is not an S8 foundational comparator record.",
+      "source_id": "https://openalex.org/W4392120701"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively analyzes human modern-code-review effort, communication, outcomes, practices, or knowledge transfer.",
+      "source_id": "https://openalex.org/W4391212857"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Education-focused record outside the foundational professional software-work comparison scope.",
+      "source_id": "https://openalex.org/W4396681154"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Technical automation or prediction record without substantive human-work, measurement-validity, or delivery-flow analysis.",
+      "source_id": "https://openalex.org/W7153347661"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively addresses software-team flow, delivery performance, agile process, dependency, or capacity interpretation.",
+      "source_id": "https://openalex.org/W4387533219"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "GenAI-specific technical or impact evidence belongs to another evidence family and is not an S8 foundational comparator record.",
+      "source_id": "https://openalex.org/W7109151988"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively analyzes human modern-code-review effort, communication, outcomes, practices, or knowledge transfer.",
+      "source_id": "https://openalex.org/W4380568687"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively addresses software effort estimation, relative sizing, estimate validity, or a conventional comparator.",
+      "source_id": "https://openalex.org/W4380568665"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively addresses software effort estimation, relative sizing, estimate validity, or a conventional comparator.",
+      "source_id": "https://openalex.org/W4380568710"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Metadata does not substantively address estimation validity, developer-productivity measurement, human review work, workload measurement, or software-delivery flow.",
+      "source_id": "https://openalex.org/W4378713557"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Metadata does not substantively address estimation validity, developer-productivity measurement, human review work, workload measurement, or software-delivery flow.",
+      "source_id": "https://openalex.org/W4377083268"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively measures, defines, or analyzes developer productivity, interruptions, work patterns, or productivity-quality trade-offs.",
+      "source_id": "https://openalex.org/W4377145786"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Metadata does not substantively address estimation validity, developer-productivity measurement, human review work, workload measurement, or software-delivery flow.",
+      "source_id": "https://openalex.org/W4377090074"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively addresses software-team flow, delivery performance, agile process, dependency, or capacity interpretation.",
+      "source_id": "https://openalex.org/W4372342741"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively measures, defines, or analyzes developer productivity, interruptions, work patterns, or productivity-quality trade-offs.",
+      "source_id": "https://openalex.org/W4367694669"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Metadata does not substantively address estimation validity, developer-productivity measurement, human review work, workload measurement, or software-delivery flow.",
+      "source_id": "https://openalex.org/W4383898369"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively addresses software effort estimation, relative sizing, estimate validity, or a conventional comparator.",
+      "source_id": "https://openalex.org/W4400947336"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Technical automation or prediction record without substantive human-work, measurement-validity, or delivery-flow analysis.",
+      "source_id": "https://openalex.org/W4296938538"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Metadata does not substantively address estimation validity, developer-productivity measurement, human review work, workload measurement, or software-delivery flow.",
+      "source_id": "https://openalex.org/W4293024090"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively analyzes human modern-code-review effort, communication, outcomes, practices, or knowledge transfer.",
+      "source_id": "https://openalex.org/W4312695097"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively analyzes human modern-code-review effort, communication, outcomes, practices, or knowledge transfer.",
+      "source_id": "https://openalex.org/W4283080694"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Metadata does not substantively address estimation validity, developer-productivity measurement, human review work, workload measurement, or software-delivery flow.",
+      "source_id": "https://openalex.org/W4224942258"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Technical automation or prediction record without substantive human-work, measurement-validity, or delivery-flow analysis.",
+      "source_id": "https://openalex.org/W4224320119"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Metadata does not substantively address estimation validity, developer-productivity measurement, human review work, workload measurement, or software-delivery flow.",
+      "source_id": "https://openalex.org/W4221116594"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively analyzes human modern-code-review effort, communication, outcomes, practices, or knowledge transfer.",
+      "source_id": "https://openalex.org/W4221143518"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively addresses software effort estimation, relative sizing, estimate validity, or a conventional comparator.",
+      "source_id": "https://openalex.org/W4207076538"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively analyzes human modern-code-review effort, communication, outcomes, practices, or knowledge transfer.",
+      "source_id": "https://openalex.org/W4235593141"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively addresses software-team flow, delivery performance, agile process, dependency, or capacity interpretation.",
+      "source_id": "https://openalex.org/W3162609866"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Metadata does not substantively address estimation validity, developer-productivity measurement, human review work, workload measurement, or software-delivery flow.",
+      "source_id": "https://openalex.org/W3142266537"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Metadata does not substantively address estimation validity, developer-productivity measurement, human review work, workload measurement, or software-delivery flow.",
+      "source_id": "https://openalex.org/W3084687783"
+    },
+    {
+      "decision": "uncertain",
+      "reason": "Title is plausibly connected to a prespecified S8 construct, but exported metadata is insufficient for a substantive query-control judgment.",
+      "source_id": "https://openalex.org/W3017387544"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Metadata does not substantively address estimation validity, developer-productivity measurement, human review work, workload measurement, or software-delivery flow.",
+      "source_id": "https://openalex.org/W3000054836"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Metadata does not substantively address estimation validity, developer-productivity measurement, human review work, workload measurement, or software-delivery flow.",
+      "source_id": "https://openalex.org/W3044447859"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Technical automation or prediction record without substantive human-work, measurement-validity, or delivery-flow analysis.",
+      "source_id": "https://openalex.org/W4248360452"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively analyzes human modern-code-review effort, communication, outcomes, practices, or knowledge transfer.",
+      "source_id": "https://openalex.org/W3036156433"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Metadata does not substantively address estimation validity, developer-productivity measurement, human review work, workload measurement, or software-delivery flow.",
+      "source_id": "https://openalex.org/W4238672021"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Metadata does not substantively address estimation validity, developer-productivity measurement, human review work, workload measurement, or software-delivery flow.",
+      "source_id": "https://openalex.org/W3090588097"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Education-focused record outside the foundational professional software-work comparison scope.",
+      "source_id": "https://openalex.org/W2825924318"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively addresses software-team flow, delivery performance, agile process, dependency, or capacity interpretation.",
+      "source_id": "https://openalex.org/W2572352507"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively measures, defines, or analyzes developer productivity, interruptions, work patterns, or productivity-quality trade-offs.",
+      "source_id": "https://openalex.org/W2396422462"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Metadata does not substantively address estimation validity, developer-productivity measurement, human review work, workload measurement, or software-delivery flow.",
+      "source_id": "https://openalex.org/W2605019171"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively addresses software effort estimation, relative sizing, estimate validity, or a conventional comparator.",
+      "source_id": "https://openalex.org/W2064067512"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively addresses software effort estimation, relative sizing, estimate validity, or a conventional comparator.",
+      "source_id": "https://openalex.org/W1719563529"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Metadata does not substantively address estimation validity, developer-productivity measurement, human review work, workload measurement, or software-delivery flow.",
+      "source_id": "https://openalex.org/W2107914871"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Metadata does not substantively address estimation validity, developer-productivity measurement, human review work, workload measurement, or software-delivery flow.",
+      "source_id": "https://openalex.org/W2089939717"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively analyzes human modern-code-review effort, communication, outcomes, practices, or knowledge transfer.",
+      "source_id": "https://openalex.org/W2091990486"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively analyzes human modern-code-review effort, communication, outcomes, practices, or knowledge transfer.",
+      "source_id": "https://openalex.org/W4299808740"
+    },
+    {
+      "decision": "uncertain",
+      "reason": "Title is plausibly connected to a prespecified S8 construct, but exported metadata is insufficient for a substantive query-control judgment.",
+      "source_id": "https://openalex.org/W2265480489"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively measures, defines, or analyzes developer productivity, interruptions, work patterns, or productivity-quality trade-offs.",
+      "source_id": "https://openalex.org/W2116484544"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively measures, defines, or analyzes developer productivity, interruptions, work patterns, or productivity-quality trade-offs.",
+      "source_id": "https://openalex.org/W2140433007"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Metadata does not substantively address estimation validity, developer-productivity measurement, human review work, workload measurement, or software-delivery flow.",
+      "source_id": "https://openalex.org/W2103705372"
+    },
+    {
+      "decision": "uncertain",
+      "reason": "Title is plausibly connected to a prespecified S8 construct, but exported metadata is insufficient for a substantive query-control judgment.",
+      "source_id": "https://openalex.org/W2092091383"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Metadata does not substantively address estimation validity, developer-productivity measurement, human review work, workload measurement, or software-delivery flow.",
+      "source_id": "https://openalex.org/W1868671167"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively measures, defines, or analyzes developer productivity, interruptions, work patterns, or productivity-quality trade-offs.",
+      "source_id": "https://openalex.org/W2024421280"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "System or computational-performance work without a substantive developer-work, estimation, review, or delivery-flow construct.",
+      "source_id": "https://openalex.org/W1806784103"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "System or computational-performance work without a substantive developer-work, estimation, review, or delivery-flow construct.",
+      "source_id": "https://openalex.org/W1535967777"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Metadata does not substantively address estimation validity, developer-productivity measurement, human review work, workload measurement, or software-delivery flow.",
+      "source_id": "https://openalex.org/W204248628"
+    },
+    {
+      "decision": "uncertain",
+      "reason": "Title is plausibly connected to a prespecified S8 construct, but exported metadata is insufficient for a substantive query-control judgment.",
+      "source_id": "https://openalex.org/W564796408"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively addresses a prespecified foundational software-work measurement or process comparator.",
+      "source_id": "https://openalex.org/W2913416507"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively measures, defines, or analyzes developer productivity, interruptions, work patterns, or productivity-quality trade-offs.",
+      "source_id": "https://openalex.org/W2905605441"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively addresses a prespecified foundational software-work measurement or process comparator.",
+      "source_id": "https://openalex.org/W2048897733"
+    },
+    {
+      "decision": "uncertain",
+      "reason": "Title is plausibly connected to a prespecified S8 construct, but exported metadata is insufficient for a substantive query-control judgment.",
+      "source_id": "https://openalex.org/W1509947850"
+    }
+  ],
+  "family_id": "S8",
+  "interpretation_boundary": "Metadata-level deterministic query appraisal only; not systematic screening, eligibility, or PRISMA evidence.",
+  "ordered_sample_source_ids": [
+    "https://openalex.org/W7164450288",
+    "https://openalex.org/W7203456728",
+    "https://openalex.org/W7203457012",
+    "https://openalex.org/W7202163869",
+    "https://openalex.org/W7202163205",
+    "https://openalex.org/W7172422139",
+    "https://openalex.org/W7172470608",
+    "https://openalex.org/W7172439902",
+    "https://openalex.org/W7197053748",
+    "https://openalex.org/W7172222489",
+    "https://openalex.org/W7167518438",
+    "https://openalex.org/W7162477430",
+    "https://openalex.org/W7159590501",
+    "https://openalex.org/W7154852190",
+    "https://openalex.org/W7154452348",
+    "https://openalex.org/W7153851961",
+    "https://openalex.org/W7142086762",
+    "https://openalex.org/W7131356078",
+    "https://openalex.org/W7127636250",
+    "https://openalex.org/W7156216216",
+    "https://openalex.org/W4415249770",
+    "https://openalex.org/W4416748842",
+    "https://openalex.org/W4416158448",
+    "https://openalex.org/W4415273800",
+    "https://openalex.org/W4415170144",
+    "https://openalex.org/W4415250824",
+    "https://openalex.org/W4415234819",
+    "https://openalex.org/W7155453027",
+    "https://openalex.org/W7161678697",
+    "https://openalex.org/W4407972561",
+    "https://openalex.org/W4410296527",
+    "https://openalex.org/W4411695293",
+    "https://openalex.org/W4414196247",
+    "https://openalex.org/W7128711127",
+    "https://openalex.org/W7198449114",
+    "https://openalex.org/W4403345226",
+    "https://openalex.org/W4400583026",
+    "https://openalex.org/W4396876070",
+    "https://openalex.org/W4392120701",
+    "https://openalex.org/W4391212857",
+    "https://openalex.org/W4396681154",
+    "https://openalex.org/W7153347661",
+    "https://openalex.org/W4387533219",
+    "https://openalex.org/W7109151988",
+    "https://openalex.org/W4380568687",
+    "https://openalex.org/W4380568665",
+    "https://openalex.org/W4380568710",
+    "https://openalex.org/W4378713557",
+    "https://openalex.org/W4377083268",
+    "https://openalex.org/W4377145786",
+    "https://openalex.org/W4377090074",
+    "https://openalex.org/W4372342741",
+    "https://openalex.org/W4367694669",
+    "https://openalex.org/W4383898369",
+    "https://openalex.org/W4400947336",
+    "https://openalex.org/W4296938538",
+    "https://openalex.org/W4293024090",
+    "https://openalex.org/W4312695097",
+    "https://openalex.org/W4283080694",
+    "https://openalex.org/W4224942258",
+    "https://openalex.org/W4224320119",
+    "https://openalex.org/W4221116594",
+    "https://openalex.org/W4221143518",
+    "https://openalex.org/W4207076538",
+    "https://openalex.org/W4235593141",
+    "https://openalex.org/W3162609866",
+    "https://openalex.org/W3142266537",
+    "https://openalex.org/W3084687783",
+    "https://openalex.org/W3017387544",
+    "https://openalex.org/W3000054836",
+    "https://openalex.org/W3044447859",
+    "https://openalex.org/W4248360452",
+    "https://openalex.org/W3036156433",
+    "https://openalex.org/W4238672021",
+    "https://openalex.org/W3090588097",
+    "https://openalex.org/W2825924318",
+    "https://openalex.org/W2572352507",
+    "https://openalex.org/W2396422462",
+    "https://openalex.org/W2605019171",
+    "https://openalex.org/W2064067512",
+    "https://openalex.org/W1719563529",
+    "https://openalex.org/W2107914871",
+    "https://openalex.org/W2089939717",
+    "https://openalex.org/W2091990486",
+    "https://openalex.org/W4299808740",
+    "https://openalex.org/W2265480489",
+    "https://openalex.org/W2116484544",
+    "https://openalex.org/W2140433007",
+    "https://openalex.org/W2103705372",
+    "https://openalex.org/W2092091383",
+    "https://openalex.org/W1868671167",
+    "https://openalex.org/W2024421280",
+    "https://openalex.org/W1806784103",
+    "https://openalex.org/W1535967777",
+    "https://openalex.org/W204248628",
+    "https://openalex.org/W564796408",
+    "https://openalex.org/W2913416507",
+    "https://openalex.org/W2905605441",
+    "https://openalex.org/W2048897733",
+    "https://openalex.org/W1509947850"
+  ],
+  "query_id": "OA-S8R6",
+  "query_version": "0.6",
+  "sample_positions_zero_based": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    28,
+    39,
+    78,
+    90,
+    93,
+    98,
+    108,
+    132,
+    143,
+    177,
+    213,
+    216,
+    231,
+    252,
+    267,
+    275,
+    291,
+    316,
+    322,
+    363,
+    366,
+    389,
+    391,
+    404,
+    407,
+    433,
+    452,
+    477,
+    479,
+    484,
+    485,
+    501,
+    521,
+    542,
+    543,
+    544,
+    545,
+    546,
+    547,
+    548,
+    549,
+    550,
+    551,
+    552,
+    565,
+    588,
+    605,
+    612,
+    619,
+    620,
+    621,
+    624,
+    625,
+    650,
+    665,
+    678,
+    696,
+    722,
+    725,
+    749,
+    750,
+    758,
+    769,
+    781,
+    810,
+    829,
+    891,
+    905,
+    937,
+    938,
+    943,
+    969,
+    976,
+    980,
+    981,
+    1011,
+    1059,
+    1069,
+    1082,
+    1083,
+    1087,
+    1088,
+    1089,
+    1090,
+    1091,
+    1092,
+    1093,
+    1094,
+    1095,
+    1096
+  ],
+  "sampling_seed_sha256": "3ede88a41430935fca61444437af0d54e08d77a83955ec90c212890076351ec0",
+  "source": "openalex",
+  "status": "development_query_control_decisions",
+  "strict_rule": "Likely relevant only when metadata substantively addresses software estimation validity, developer-productivity measurement, human code-review work, workload measurement boundaries, or software delivery flow foundations; generic tool/system performance and technical automation alone are insufficient."
+}

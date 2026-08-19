@@ -1,0 +1,35 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 365879,
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://www.sciencedirect.com/science/article/abs/pii/S096599781630076X",
+      "http_status": 200,
+      "outcome": "not_a_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S096599781630076X"
+    },
+    {
+      "basis": "openalex_oa_location_pdf",
+      "bytes": 2048021,
+      "content_type": "application/pdf;charset=UTF-8",
+      "final_url": "https://ktisis.cut.ac.cy/server/api/core/bitstreams/5655eb9a-ac9c-4563-8e49-6cdb793dbe61/content",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "03c6f5a12012f8f02d81e6d18a6d04a8e99a41ecb20ba8b200aa46be1263ebe3",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://ktisis.cut.ac.cy/bitstream/20.500.14279/9040/2/Andreou%20Andreas%20S..pdf"
+    }
+  ],
+  "bytes": 2048021,
+  "family_id": "FAM-63b35ab94c89b0a82d7f",
+  "lawful_access_basis": "openalex_oa_location_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-63b35ab94c89b0a82d7f.pdf",
+  "pdf_sha256": "03c6f5a12012f8f02d81e6d18a6d04a8e99a41ecb20ba8b200aa46be1263ebe3",
+  "representative_canonical_id": "CAN-4b8de747527ba710a424",
+  "retrieved_url": "https://ktisis.cut.ac.cy/server/api/core/bitstreams/5655eb9a-ac9c-4563-8e49-6cdb793dbe61/content",
+  "status": "retrieved_open"
+}

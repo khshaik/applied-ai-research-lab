@@ -1,0 +1,34 @@
+{
+  "bounded_novelty_wording": "No substantively duplicative framework was identified within the predeclared open scholarly indexes, repositories, and citation networks searched through the stated cutoff date and reported resource cap.",
+  "citation_round_1_included": 212,
+  "evidence_band_counts": {
+    "high": 20,
+    "low_contextual": 76,
+    "moderate": 125
+  },
+  "finding_count": 976,
+  "included_family_count": 221,
+  "ledger_sha256": "79e4db672ecddeff5358983b1434157129fa22a0927d3ae0bf8a62ca95c0a5af",
+  "limitations": [
+    "Recursive citation chasing from 221 newly included D14 families was not executed under the approved prospective cap.",
+    "Five Semantic Scholar seed resolutions remained API failures after bounded retries.",
+    "Seven source no-matches and unavailable lawful full texts may conceal relevant evidence.",
+    "Subscription databases were inaccessible and were not represented as searched."
+  ],
+  "main_extraction_manifest_sha256": "6fc888f79b8bcb9f706fea39e4b29c9aaeecdc504b975a874ea998bf5987a8ff",
+  "novelty_dimension_counts": {
+    "met": 1,
+    "not_met": 1070,
+    "partial": 34
+  },
+  "persistent_api_failure_count": 5,
+  "protocol_version": "1.3",
+  "quantitative_finding_count": 116,
+  "recovery_extraction_sha256": "14ce1f5ee2bfbf76b81e22db60fbd43d2dceb8aa6c894ed104ca2139d41445b8",
+  "recovery_supplement_included": 9,
+  "recovery_verification_sha256": "91b4143619d57d6b34980342e0d808276459e4ca839ddf944a0087aebc6228ab",
+  "resource_cap_decision_sha256": "240f337fc5d7a158f585bf59bc9d0e25708653abd8302ea4960808d543959b96",
+  "security_boundary": "Closure uses local checksum-bound ledgers only; no network, Git/history, secrets, installs, PDF execution, or private systems.",
+  "status": "d14_closed_under_approved_resource_cap",
+  "substantively_duplicative_family_ids": []
+}

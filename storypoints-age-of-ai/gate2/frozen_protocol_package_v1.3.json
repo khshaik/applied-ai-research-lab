@@ -1,0 +1,36 @@
+{
+  "package_version": "1.0.0",
+  "protocol_version": "1.3",
+  "status": "frozen",
+  "frozen_at": "2026-08-16T12:46:52+05:30",
+  "accountable_author_id": "accountable_user",
+  "approval_decision": "approve",
+  "approval_exact_phrase": "Approve protocol v1.3 pre-freeze package and proceed to D04 freeze.",
+  "approved_prefreeze_package": {
+    "path": "gate2/prefreeze_protocol_package_v1.3.json",
+    "sha256": "f011bcb22cf51e968b61338672609c0a8f167af7dad40567766b3ba31b2006c4"
+  },
+  "approval_record": {
+    "path": "02f_d03_d04_protocol_freeze_record.md",
+    "sha256": "4c8f474cc8df0ec5304780efbcbbd22cdbc7ef4ca2cfce97cd6cf2a4290ee538"
+  },
+  "initial_search_cutoff_date": "2026-08-16",
+  "accepted_source_family_pair_count": 18,
+  "systematic_execution_authorized": true,
+  "systematic_corpus_created": false,
+  "developmental_outputs_are_systematic_records": false,
+  "S2_fresh_execution_required": true,
+  "submission_update_search_required_within_days": 7,
+  "material_citation_confirmation_required": true,
+  "unavailable_subscription_sources_are_coverage_limitations": true,
+  "change_control": "Any post-freeze change to a bound artifact requires a dated deviation record, impact assessment, accountable-author approval, and a new package version/checksum.",
+  "maximum_novelty_statement": "No substantively duplicative framework was identified within the predeclared open scholarly indexes, repositories, and citation networks searched through the stated cutoff date.",
+  "prohibited_claims": [
+    "No prior research exists.",
+    "All relevant literature was searched.",
+    "Developmental query-control counts are systematic or PRISMA counts.",
+    "The framework is empirically validated in organizations.",
+    "The framework measures validated human cognitive load."
+  ],
+  "next_gate": "D05"
+}

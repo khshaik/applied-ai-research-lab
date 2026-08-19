@@ -1,0 +1,23 @@
+{
+  "attempts": [
+    {
+      "active_indicators": [
+        "/S /URI"
+      ],
+      "attempted_at_utc": "2026-08-19T08:51:08.451962Z",
+      "basis": "live_openalex_best_oa_location_oa_pdf",
+      "bytes": 253550,
+      "final_url": "https://al-kindipublisher.com/index.php/jcsts/article/download/11590/10319",
+      "quarantine_path": "/Users/81194246/Library/CloudStorage/OneDrive-Pepsico/Personal/AI/Projects/ThinkAI/storypoints-age-of-ai/gate2/output/systematic/v1.3/20260816/d14/fulltext/quarantine/CITFAM-af095818f205295913ea.pdf",
+      "redirect_count": 0,
+      "sha256": "fc00c2dde547af56dfef780dce25b056c550f522c0820a578e9416a9fcd6e1c5",
+      "status": "quarantined_active_content"
+    }
+  ],
+  "bytes": 253550,
+  "citation_family_id": "CITFAM-af095818f205295913ea",
+  "pdf_path": null,
+  "pdf_sha256": "fc00c2dde547af56dfef780dce25b056c550f522c0820a578e9416a9fcd6e1c5",
+  "security_attestation": "Static HTTPS retrieval only; public-IP validation, bounded redirects/size, signature and active-content checks; no PDF execution.",
+  "status": "quarantined_active_content"
+}

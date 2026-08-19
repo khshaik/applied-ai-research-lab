@@ -1,0 +1,21 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:08:25.287925Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://ieeexplore.ieee.org/document/10714560/",
+      "http_status": 202,
+      "outcome": "http_failure",
+      "url": "https://doi.org/10.1109/vl/hcc60511.2024.00015"
+    }
+  ],
+  "bytes": 0,
+  "family_id": "FAM-824747fd6120f43de195",
+  "lawful_access_basis": null,
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "representative_canonical_id": "CAN-e84896d586fa0dfcfc16",
+  "retrieved_url": null,
+  "status": "lawful_full_text_not_retrieved"
+}

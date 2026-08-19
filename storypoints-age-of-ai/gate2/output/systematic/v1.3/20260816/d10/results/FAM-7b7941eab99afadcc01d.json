@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 789909,
+      "content_type": "application/pdf",
+      "final_url": "https://www.ijraset.com/best-journal/ai-code-review-assistant-a-modern-web-based-solution-for-automated-code-analysis-and-developer-productivity-enhancement",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "d06dc6e07df5c288f927fc13eb0f63aca2e08ed8ee8283634d84dee9c7e45ab9",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://doi.org/10.22214/ijraset.2025.73682"
+    }
+  ],
+  "bytes": 789909,
+  "family_id": "FAM-7b7941eab99afadcc01d",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-7b7941eab99afadcc01d.pdf",
+  "pdf_sha256": "d06dc6e07df5c288f927fc13eb0f63aca2e08ed8ee8283634d84dee9c7e45ab9",
+  "representative_canonical_id": "CAN-449b8bd1bf94adc498fc",
+  "retrieved_url": "https://www.ijraset.com/best-journal/ai-code-review-assistant-a-modern-web-based-solution-for-automated-code-analysis-and-developer-productivity-enhancement",
+  "status": "retrieved_open"
+}

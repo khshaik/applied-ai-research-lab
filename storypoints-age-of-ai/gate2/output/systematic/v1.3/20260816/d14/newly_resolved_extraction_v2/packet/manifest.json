@@ -1,0 +1,23 @@
+{
+  "family_count": 9,
+  "packet_path": "/Users/81194246/Library/CloudStorage/OneDrive-Pepsico/Personal/AI/Projects/ThinkAI/storypoints-age-of-ai/gate2/output/systematic/v1.3/20260816/d14/newly_resolved_extraction_v2/packet/extraction_packet.jsonl",
+  "packet_sha256": "e0c395bdac667196710cca2afe14be1e38c80e11c2743d0152cd22ff1b63aaed",
+  "protocol_version": "1.3",
+  "quality": {
+    "bands": {
+      "low_contextual": 5,
+      "moderate": 4
+    },
+    "family_count": 9,
+    "forms": {
+      "quantitative_mixed": 8,
+      "secondary_review": 1
+    },
+    "sha256": "c67edfabb2e8aa9661bc5eaba53b19b7ca2b4fa8e48476f5b1e6fe0c4de608a5",
+    "status": "valid_complete_recovery_quality_adjudication"
+  },
+  "quality_ledger_sha256": "c67edfabb2e8aa9661bc5eaba53b19b7ca2b4fa8e48476f5b1e6fe0c4de608a5",
+  "schema_sha256": "db65fb2d935ab8f77096da48a4d649ba1b9203d66cdfc9e90fef08b1e0143754",
+  "security_boundary": "Checksum-bound action-free static text only; no network, Git/history, secrets, installs, or PDF execution.",
+  "status": "d14_recovery_extraction_packet_complete"
+}

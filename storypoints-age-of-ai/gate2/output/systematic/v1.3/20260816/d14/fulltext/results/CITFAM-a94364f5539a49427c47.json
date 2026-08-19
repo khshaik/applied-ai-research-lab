@@ -1,0 +1,19 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-19T08:50:52.340409Z",
+      "basis": "live_openalex_best_oa_location_oa_pdf",
+      "final_url": "https://www.ijltemas.in/submission/online/article/download/5340/7298",
+      "http_status": 404,
+      "redirect_count": 0,
+      "retry_after": null,
+      "status": "http_failure"
+    }
+  ],
+  "bytes": 0,
+  "citation_family_id": "CITFAM-a94364f5539a49427c47",
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "security_attestation": "Static HTTPS retrieval only; public-IP validation, bounded redirects/size, signature and active-content checks; no PDF execution.",
+  "status": "http_failure"
+}

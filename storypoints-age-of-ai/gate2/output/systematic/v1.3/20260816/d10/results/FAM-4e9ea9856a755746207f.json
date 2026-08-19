@@ -1,0 +1,42 @@
+{
+  "attempts": [
+    {
+      "basis": "semantic_scholar_open_access_pdf",
+      "bytes": 473137,
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://peerj.com/articles/cs-3642/",
+      "http_status": 200,
+      "outcome": "not_a_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://doi.org/10.7717/peerj-cs.3642"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:05:44.912900Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://peerj.com/articles/cs-3642/",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://doi.org/10.7717/peerj-cs.3642"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:05:48.576001Z",
+      "basis": "citation_pdf_url_metadata",
+      "bytes": 1710,
+      "content_type": "",
+      "final_url": "https://peerj.com/articles/cs-3642.pdf",
+      "http_status": 400,
+      "outcome": "not_a_verified_pdf",
+      "url": "https://peerj.com/articles/cs-3642.pdf"
+    }
+  ],
+  "bytes": 0,
+  "family_id": "FAM-4e9ea9856a755746207f",
+  "lawful_access_basis": null,
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "representative_canonical_id": "CAN-e913998cdd14edadf45a",
+  "retrieved_url": null,
+  "status": "lawful_full_text_not_retrieved"
+}

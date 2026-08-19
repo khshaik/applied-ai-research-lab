@@ -1,0 +1,15 @@
+{
+  "d06_canonical_sha256": "e09a9cbc6c941b43c690eff7124a47105729c7cdc85c5472b2f7ead41eb3e565",
+  "deduplication_rule": "exact DOI OR exact arXiv ID OR exact normalized title + normalized first author + publication year; no fuzzy merge",
+  "duplicate_candidate_count": 21,
+  "duplicate_candidates_sha256": "fd07cc2d71db8ebeb4a94e9ec86e6c32bc405cfb47edc105c6221c23ce643b49",
+  "existing_d14_families_sha256": "8a105dda45a15fbd1136f46cb4289a939ec7f22ccb73ae0fa77ddccff8de91c4",
+  "input_candidate_count": 54,
+  "interpretation_boundary": "New candidate records are not eligible studies, evidence, or novelty findings until frozen screening and lawful full-text assessment.",
+  "new_unique_candidate_count": 33,
+  "new_unique_candidates_sha256": "2d7f8bf6b95ada9081860d6119b96b6014ef6f9add0ccbade38c33fed4ac2680",
+  "pipeline_version": "d14-new-candidate-consolidation/1.0.0",
+  "protocol_version": "1.3",
+  "source_manifest_sha256": "3a6a97968560e9c9d888e1c18f1d3cb2d326181894836e9b4cc7286cc608889a",
+  "status": "d14_newly_resolved_candidates_consolidated"
+}

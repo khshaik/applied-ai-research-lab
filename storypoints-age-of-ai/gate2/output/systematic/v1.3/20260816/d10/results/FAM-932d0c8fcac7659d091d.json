@@ -1,0 +1,31 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://ijrpr.com/uploads/V6ISSUE7/IJRPR50761.pdf",
+      "http_status": 403,
+      "outcome": "access_blocked_or_paywalled",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://doi.org/10.55248/gengpi.6.0725.2710"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:10:52.536093Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://ijrpr.com/uploads/V6ISSUE7/IJRPR50761.pdf",
+      "http_status": 403,
+      "outcome": "access_blocked_or_paywalled",
+      "url": "https://doi.org/10.55248/gengpi.6.0725.2710"
+    }
+  ],
+  "bytes": 0,
+  "family_id": "FAM-932d0c8fcac7659d091d",
+  "lawful_access_basis": null,
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "representative_canonical_id": "CAN-2d4442f15a655ebb9e73",
+  "retrieved_url": null,
+  "status": "paywalled_or_access_blocked"
+}

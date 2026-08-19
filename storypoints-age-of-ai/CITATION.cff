@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this repository, cite the relevant study and the eventual paper record."
+title: "Verified Delivery Capacity Research"
+type: software
+version: 0.1.0
+date-released: 2026-08-15
+authors:
+  - family-names: "Rasool"
+    given-names: "Shaik Khaja Nayab"
+license: MIT
+abstract: >-
+  Research artifacts for prospective role-constrained, evidence-ready delivery
+  forecasting in AI-assisted software engineering, including an open evidence
+  map, design-science framework, and developmental discrete-event simulation.
+keywords:
+  - AI-assisted software engineering
+  - software effort estimation
+  - verified delivery capacity
+  - human oversight
+  - discrete-event simulation
+

@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 2910623,
+      "content_type": "application/pdf;charset=UTF-8",
+      "final_url": "https://lutpub.lut.fi/bitstream/handle/10024/172039/Mastersthesis_Lodhi_Anam.pdf;jsessionid=D6D31F8A16CAD38CA13C24D6C327EE4C?sequence=1",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "7a597692921e641a925d0d263685632f01f8c85f06800028f44e8d63dcac5a73",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://lutpub.lut.fi/bitstream/10024/172039/1/Mastersthesis_Lodhi_Anam.pdf"
+    }
+  ],
+  "bytes": 2910623,
+  "family_id": "FAM-2cfb0d653c7ba771a978",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-2cfb0d653c7ba771a978.pdf",
+  "pdf_sha256": "7a597692921e641a925d0d263685632f01f8c85f06800028f44e8d63dcac5a73",
+  "representative_canonical_id": "CAN-cf5e906032cdd7769dd9",
+  "retrieved_url": "https://lutpub.lut.fi/bitstream/handle/10024/172039/Mastersthesis_Lodhi_Anam.pdf;jsessionid=D6D31F8A16CAD38CA13C24D6C327EE4C?sequence=1",
+  "status": "retrieved_open"
+}

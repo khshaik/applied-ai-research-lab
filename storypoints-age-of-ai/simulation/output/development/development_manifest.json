@@ -1,0 +1,149 @@
+{
+  "content_checksum": "e198d4ee0905c4c91a7383cd593fd95848d2bacbac6db915aa6b498098a7425d",
+  "interpretation_boundary": "Developmental synthetic mechanism evidence only; not empirical validation of human cognitive load, organizational delivery, or causal AI effects.",
+  "manifest_version": "0.2.0-development",
+  "output_sha256": {
+    "comparator_scores.csv": "21c0e294774f5e9800ea5f83840f1f49506441bb1fee2bab84c9e004d476601f",
+    "item_forecasts.csv": "bd72607430a21ca3a85a30622f8e4a1124f8aadc58eb397cbc06c2f099b6e482",
+    "parameter_recovery.csv": "39576067d3c81b10bc7fcba3078b1396803dd31e2e7d1de0e7a7859a06bf4d79",
+    "run_manifest.csv": "3f500ca814bba304dfd81f4e12ef99cdb74c34ae82621bdb7e451e066cc91fd6"
+  },
+  "outputs": [
+    "run_manifest.csv",
+    "item_forecasts.csv",
+    "comparator_scores.csv",
+    "parameter_recovery.csv"
+  ],
+  "provenance": {
+    "configuration_sha256": "6b2fd67b3b62fa42a2c18dd285fd312c0308fb1c63a55e6ec9a87700de9db48b",
+    "implementation_sha256": "61625c6203f6c90820f3acec3e98a167c830fd19351b46a21dc2215047e421e4",
+    "source_file_sha256": {
+      "comparators.py": "0adfa2eb92db719c9124b43e4f79016d896db32068ecd7c90824de7bb4145460",
+      "config.py": "657e9d5f1bcfe207da8c5e6f4945d7b133f70bb11bfc8b3bcddfe4dc0f96640f",
+      "development_pipeline.py": "5ab5b37c38dcccb1bed1138c513ec38433f927aa780e9e9cc41c8aaf760b199a",
+      "engine.py": "f94c13344157afa7662711ffee95db87d1fb63a7fa3248eb5ce1fbb4d2aec98f",
+      "evaluation.py": "950107b83ae1801097786935a920ca9bacc3e08f7cf820eb5ecf7c9416792c90",
+      "scheduling.py": "2f30e9550d38bbc40bd03cef485821030a6498646b1ac282c13fd03e51115a5f",
+      "seeds.py": "a843ae983c066f941081cba0510d60338214e2ecffd4a6854aa9e20486ac1c14"
+    }
+  },
+  "scenario_definitions": [
+    {
+      "changes": {},
+      "family": "development",
+      "purpose": "SP-sufficient sanity world",
+      "scenario_id": "baseline_sp",
+      "world_id": "world_sp"
+    },
+    {
+      "changes": {},
+      "family": "development",
+      "purpose": "task/oversight sanity world",
+      "scenario_id": "baseline_hie",
+      "world_id": "world_hie"
+    },
+    {
+      "changes": {},
+      "family": "development",
+      "purpose": "cross-role queue world",
+      "scenario_id": "baseline_bottleneck",
+      "world_id": "world_bottleneck"
+    },
+    {
+      "changes": {
+        "arrival_count": 24,
+        "reviewer_servers": 1
+      },
+      "family": "sensitivity",
+      "purpose": "review queue stress",
+      "scenario_id": "review_capacity_low",
+      "world_id": "world_bottleneck"
+    },
+    {
+      "changes": {
+        "arrival_count": 24,
+        "reviewer_servers": 3
+      },
+      "family": "sensitivity",
+      "purpose": "review capacity relief",
+      "scenario_id": "review_capacity_high",
+      "world_id": "world_bottleneck"
+    },
+    {
+      "changes": {
+        "arrival_count": 6
+      },
+      "family": "sensitivity",
+      "purpose": "portfolio-load lower bound",
+      "scenario_id": "load_low",
+      "world_id": "world_bottleneck"
+    },
+    {
+      "changes": {
+        "arrival_count": 36
+      },
+      "family": "sensitivity",
+      "purpose": "portfolio-load upper bound",
+      "scenario_id": "load_high",
+      "world_id": "world_bottleneck"
+    },
+    {
+      "changes": {
+        "service_multiplier": 0.75
+      },
+      "family": "parameter_recovery",
+      "purpose": "recover low service multiplier",
+      "scenario_id": "recovery_service_low",
+      "world_id": "world_bottleneck"
+    },
+    {
+      "changes": {
+        "service_multiplier": 1.75
+      },
+      "family": "parameter_recovery",
+      "purpose": "recover high service multiplier",
+      "scenario_id": "recovery_service_high",
+      "world_id": "world_bottleneck"
+    },
+    {
+      "changes": {
+        "gate_conditional_probability": 0.0,
+        "gate_fail_probability": 0.0
+      },
+      "family": "edge",
+      "purpose": "zero gate-rework boundary",
+      "scenario_id": "edge_no_rework",
+      "world_id": "world_sp"
+    },
+    {
+      "changes": {
+        "arrival_count": 48,
+        "reviewer_servers": 1,
+        "service_multiplier": 2.0
+      },
+      "family": "adversarial_development",
+      "purpose": "severe queue without locked adversarial world",
+      "scenario_id": "edge_severe_queue",
+      "world_id": "world_bottleneck"
+    }
+  ],
+  "scenario_ids": [
+    "baseline_sp",
+    "baseline_hie",
+    "baseline_bottleneck",
+    "review_capacity_low",
+    "review_capacity_high",
+    "load_low",
+    "load_high",
+    "recovery_service_low",
+    "recovery_service_high",
+    "edge_no_rework",
+    "edge_severe_queue"
+  ],
+  "seed_policy": {
+    "count": 24,
+    "locked_evaluation_seeds_accessed": false,
+    "namespace": "development"
+  },
+  "status": "developmental_synthetic"
+}

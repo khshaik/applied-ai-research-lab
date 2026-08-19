@@ -1,0 +1,32 @@
+{
+  "attempts": [
+    {
+      "basis": "semantic_scholar_open_access_pdf",
+      "bytes": 2200,
+      "content_type": "text/html",
+      "final_url": "https://www.mdpi.com/2073-431X/14/3/94",
+      "http_status": 200,
+      "outcome": "not_a_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://doi.org/10.3390/computers14030094"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:05:58.084595Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.semanticscholar.org/paper/48b8d021df7573d7d5a51fe3658552b3cce011ab",
+      "http_status": 202,
+      "outcome": "http_failure",
+      "url": "https://www.semanticscholar.org/paper/48b8d021df7573d7d5a51fe3658552b3cce011ab"
+    }
+  ],
+  "bytes": 0,
+  "family_id": "FAM-53ed15af5526538337b6",
+  "lawful_access_basis": null,
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "representative_canonical_id": "CAN-31ebba719534f0310f9d",
+  "retrieved_url": null,
+  "status": "lawful_full_text_not_retrieved"
+}

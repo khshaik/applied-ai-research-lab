@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 567541,
+      "content_type": "application/pdf",
+      "final_url": "https://repository.tudelft.nl/file/File_9eb1b79b-a0f2-4631-9e2c-d71d4081a138",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "608c242e169efa3bd9dc46cb5be1f674886fcdc9b73ad709c68153beffe0dbe7",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://repository.tudelft.nl/file/File_9eb1b79b-a0f2-4631-9e2c-d71d4081a138"
+    }
+  ],
+  "bytes": 567541,
+  "family_id": "FAM-c911c37a6fadc27ab89e",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-c911c37a6fadc27ab89e.pdf",
+  "pdf_sha256": "608c242e169efa3bd9dc46cb5be1f674886fcdc9b73ad709c68153beffe0dbe7",
+  "representative_canonical_id": "CAN-0f4f4387cab9323efbf6",
+  "retrieved_url": "https://repository.tudelft.nl/file/File_9eb1b79b-a0f2-4631-9e2c-d71d4081a138",
+  "status": "retrieved_open"
+}

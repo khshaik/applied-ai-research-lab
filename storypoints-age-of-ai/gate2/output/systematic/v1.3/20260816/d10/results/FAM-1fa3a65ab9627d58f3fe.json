@@ -1,0 +1,21 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:02:51.921098Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://ieeexplore.ieee.org/document/11401087/",
+      "http_status": 202,
+      "outcome": "http_failure",
+      "url": "https://doi.org/10.1109/icecer65523.2025.11401087"
+    }
+  ],
+  "bytes": 0,
+  "family_id": "FAM-1fa3a65ab9627d58f3fe",
+  "lawful_access_basis": null,
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "representative_canonical_id": "CAN-289b534ed2f2bab47037",
+  "retrieved_url": null,
+  "status": "lawful_full_text_not_retrieved"
+}

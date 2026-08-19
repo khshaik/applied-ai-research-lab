@@ -1,0 +1,32 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:16:31.610854Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://zenodo.org/records/21623454",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://doi.org/10.5281/zenodo.21623454"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:16:34.029567Z",
+      "basis": "citation_pdf_url_metadata",
+      "bytes": 632468,
+      "content_type": "application/octet-stream, application/octet-stream",
+      "final_url": "https://zenodo.org/records/21623454/files/AI%20Security%20Risks%20in%20Enterprise%20Workflows%20A%20Governance%20Architecture%20for%20the%20Validation%20Gap,%20Anchoring%20Bias,%20and%20Knowledge%20Staleness.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "sha256": "731547d7214c80be5aef346c30b8920adee3a4412065d8c0593d0d585d6d4e39",
+      "url": "https://zenodo.org/records/21623454/files/AI%20Security%20Risks%20in%20Enterprise%20Workflows%20A%20Governance%20Architecture%20for%20the%20Validation%20Gap,%20Anchoring%20Bias,%20and%20Knowledge%20Staleness.pdf"
+    }
+  ],
+  "bytes": 632468,
+  "family_id": "FAM-d3bf61db6b92b4e3d422",
+  "lawful_access_basis": "citation_pdf_url_metadata",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-d3bf61db6b92b4e3d422.pdf",
+  "pdf_sha256": "731547d7214c80be5aef346c30b8920adee3a4412065d8c0593d0d585d6d4e39",
+  "representative_canonical_id": "CAN-8eda7379719228d2487c",
+  "retrieved_url": "https://zenodo.org/records/21623454/files/AI%20Security%20Risks%20in%20Enterprise%20Workflows%20A%20Governance%20Architecture%20for%20the%20Validation%20Gap,%20Anchoring%20Bias,%20and%20Knowledge%20Staleness.pdf",
+  "status": "retrieved_open"
+}

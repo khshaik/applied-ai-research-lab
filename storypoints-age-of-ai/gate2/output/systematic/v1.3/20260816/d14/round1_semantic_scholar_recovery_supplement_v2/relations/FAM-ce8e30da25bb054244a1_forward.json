@@ -1,0 +1,242 @@
+{
+  "data": [
+    {
+      "citingPaper": {
+        "abstract": "Vibe coding democratizes software development by allowing users to generate code via natural-language (NL) interaction with large language models (LLMs). However, the code is reliable only when it faithfully implements the user's intent, which is difficult and labor-intensive for users to validate. Existing validation methods either rely on LLM-assisted automated testing, which suffers from prompt ambiguity and model fallibility, or involve users only in partial software artifacts such as prompts and test cases, which may overlook corner cases and program details. Motivated by a bug study of LLM-generated code, we find that detailed human feedback is essential, as failures often stem from underspecified requirements or subtle semantic deviations. This paper presents verifiable literate programming (VLP), a human-in-the-loop framework designed to make the review/validation process of LLM-generated code accessible to users at all programming levels. At its core, VLP proposes unambiguous NL-based documentation as a readable intermediate layer between prompts and code. The documentation demonstrates concrete program semantics and enables users to provide feedback on potential intent-code mismatches. It supports human-involved, end-to-end repair and validation via three techniques: (i) an NL-style literate language with unambiguous syntax and mostly deterministic code-to-documentation translation, (ii) LLM-based fine-grained mismatch detection that uses trace links between prompts and documentation to focus users'review effort on suspicious documentation lines, and (iii) a verification module that leverages user-validated documentation to derive API-usage checks and formal properties, which are then verified against the generated code using model checking. Our evaluation shows that VLP improves code pass@1 from 28.7%-73.2% to 65.4%-93.5% with reasonable user effort.",
+        "authors": [
+          {
+            "authorId": "2162624586",
+            "name": "Ziqi Yuan"
+          },
+          {
+            "authorId": "2446873017",
+            "name": "Wenhao Lu"
+          },
+          {
+            "authorId": "2444330661",
+            "name": "Haohang Wu"
+          },
+          {
+            "authorId": "2318053880",
+            "name": "Dunhong Jin"
+          },
+          {
+            "authorId": "2446741324",
+            "name": "Chuan Wu"
+          }
+        ],
+        "citationCount": 0,
+        "externalIds": {
+          "ArXiv": "2607.02333",
+          "CorpusId": 289749371
+        },
+        "openAccessPdf": {
+          "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2607.02333, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use.",
+          "license": null,
+          "status": null,
+          "url": ""
+        },
+        "paperId": "9472fa6a102f8e370b390920d841bff95b34b7c1",
+        "referenceCount": 80,
+        "title": "Guiding Human Validation of LLM-Generated Code via Verifiable Literate Programming",
+        "url": "https://www.semanticscholar.org/paper/9472fa6a102f8e370b390920d841bff95b34b7c1",
+        "venue": "",
+        "year": 2026
+      }
+    },
+    {
+      "citingPaper": {
+        "abstract": "Humans often specify tasks incompletely, so assistants must know when and how to ask clarifying questions. However, effective clarification remains challenging in software engineering tasks as not all missing information is equally valuable, and questions must target information users can realistically provide. We study clarification in real software engineering tasks by quantifying which types of information most affect task success and which questions elicit useful responses from simulated users. Using Shapley attribution and distributional comparisons, we identify two key properties of effective clarification: task relevance (which information predicts success) and user answerability (what users can realistically provide). We operationalize these properties as multi-stage reinforcement learning rewards to train CLARITI, an 8B-parameter clarification module, that matches GPT-5's resolution rate on underspecified issues while generating 41% fewer questions. Our results suggest that grounding reward design in empirical analysis of information impact and user answerability improves clarification efficiency.",
+        "authors": [
+          {
+            "authorId": "2160912294",
+            "name": "S. Vijayvargiya"
+          },
+          {
+            "authorId": "2061499362",
+            "name": "Vijay Viswanathan"
+          },
+          {
+            "authorId": "2337795179",
+            "name": "Graham Neubig"
+          }
+        ],
+        "citationCount": 3,
+        "externalIds": {
+          "ArXiv": "2604.14624",
+          "CorpusId": 287508458,
+          "DBLP": "journals/corr/abs-2604-14624",
+          "DOI": "10.48550/arXiv.2604.14624"
+        },
+        "openAccessPdf": {
+          "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2604.14624, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use.",
+          "license": null,
+          "status": null,
+          "url": ""
+        },
+        "paperId": "d38013f295a368b2bdf47973866edf1e2999a9c4",
+        "referenceCount": 30,
+        "title": "Asking What Matters: Reward-Driven Clarification for Software Engineering Tasks",
+        "url": "https://www.semanticscholar.org/paper/d38013f295a368b2bdf47973866edf1e2999a9c4",
+        "venue": "arXiv.org",
+        "year": 2026
+      }
+    },
+    {
+      "citingPaper": {
+        "abstract": "As Large Language Model (LLM) agents are increasingly deployed in open-ended domains like software engineering, they frequently encounter underspecified instructions that lack crucial context. While human developers naturally resolve underspecification by asking clarifying questions, current agents are largely optimized for autonomous execution. In this work, we systematically evaluate the clarification-seeking abilities of LLM agents on an underspecified variant of SWE-bench Verified. We propose an uncertainty-aware multi-agent scaffold that decouples underspecification detection from code execution. Across both proprietary and open-weight frontier LLMs, our scaffold achieves a 69.40% task resolve rate, significantly outperforming a standard single-agent setup and closing the performance gap with agents operating on fully specified instructions. Furthermore, we find that the multi-agent system exhibits well-calibrated information-seeking behavior, conserving queries on simple tasks while proactively seeking information on more complex issues. These findings indicate that current models can be turned into proactive collaborators, where agents independently recognize when to ask questions to elicit missing information in real-world, underspecified tasks.",
+        "authors": [
+          {
+            "authorId": "2385822134",
+            "name": "Nicholas Edwards"
+          },
+          {
+            "authorId": "2304326498",
+            "name": "Sebastian Schuster"
+          }
+        ],
+        "citationCount": 8,
+        "externalIds": {
+          "ArXiv": "2603.26233",
+          "CorpusId": 286942481,
+          "DBLP": "journals/corr/abs-2603-26233",
+          "DOI": "10.48550/arXiv.2603.26233"
+        },
+        "openAccessPdf": {
+          "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2603.26233, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use.",
+          "license": null,
+          "status": null,
+          "url": ""
+        },
+        "paperId": "2d0929b6b1f215398d1e2b9a62aa497a3f9ff604",
+        "referenceCount": 51,
+        "title": "Ask or Assume? Uncertainty-Aware Clarification-Seeking in Coding Agents",
+        "url": "https://www.semanticscholar.org/paper/2d0929b6b1f215398d1e2b9a62aa497a3f9ff604",
+        "venue": "arXiv.org",
+        "year": 2026
+      }
+    },
+    {
+      "citingPaper": {
+        "abstract": "A fundamental bottleneck in human-AI collaboration is the ``intention expression gap,\"the difficulty for humans to effectively convey complex, high-dimensional thoughts to AI. This challenge often traps users in inefficient trial-and-error loops and is exacerbated by the diverse expertise levels of users. We reframe this problem from passive instruction following to a Socratic collaboration paradigm, proposing an agent that actively probes for information to resolve its uncertainty about user intent. we name the proposed agent Nous, trained to acquire proficiency in this inquiry policy. The core mechanism of Nous is a training framework grounded in the first principles of information theory. Within this framework, we define the information gain from dialogue as an intrinsic reward signal, which is fundamentally equivalent to the reduction of Shannon entropy over a structured task space. This reward design enables us to avoid reliance on costly human preference annotations or external reward models. To validate our framework, we develop an automated simulation pipeline to generate a large-scale, preference-based dataset for the challenging task of scientific diagram generation. Comprehensive experiments, including ablations, subjective and objective evaluations, and tests across user expertise levels, demonstrate the effectiveness of our proposed framework. Nous achieves leading efficiency and output quality, while remaining robust to varying user expertise. In conclusion, our research provides a systematic methodology and a new perspective for addressing the issue of ambiguous intentions in complex human-machine collaboration.",
+        "authors": [
+          {
+            "authorId": "2349938581",
+            "name": "Jianwen Sun"
+          },
+          {
+            "authorId": "2349426352",
+            "name": "Yukang Feng"
+          },
+          {
+            "authorId": "2362638541",
+            "name": "Yifan Chang"
+          },
+          {
+            "authorId": "2294251099",
+            "name": "Chuanhao Li"
+          },
+          {
+            "authorId": "2349380936",
+            "name": "Zizhen Li"
+          },
+          {
+            "authorId": "2349374151",
+            "name": "Jiaxin Ai"
+          },
+          {
+            "authorId": "2350533645",
+            "name": "Fanrui Zhang"
+          },
+          {
+            "authorId": "2349402231",
+            "name": "Yu Dai"
+          },
+          {
+            "authorId": "2349384231",
+            "name": "Kaipeng Zhang"
+          }
+        ],
+        "citationCount": 1,
+        "externalIds": {
+          "ArXiv": "2510.27410",
+          "CorpusId": 282719041
+        },
+        "openAccessPdf": {
+          "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2510.27410, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use.",
+          "license": null,
+          "status": null,
+          "url": ""
+        },
+        "paperId": "5813a2a6956b6ffd93f3266a44c4b1cf1d62ee2c",
+        "referenceCount": 62,
+        "title": "Closing the Expression Gap in LLM Instructions via Socratic Questioning",
+        "url": "https://www.semanticscholar.org/paper/5813a2a6956b6ffd93f3266a44c4b1cf1d62ee2c",
+        "venue": "",
+        "year": 2025
+      }
+    },
+    {
+      "citingPaper": {
+        "abstract": null,
+        "authors": [
+          {
+            "authorId": "2349938581",
+            "name": "Jianwen Sun"
+          },
+          {
+            "authorId": "2349426352",
+            "name": "Yukang Feng"
+          },
+          {
+            "authorId": "2362638541",
+            "name": "Yifan Chang"
+          },
+          {
+            "authorId": "2294251099",
+            "name": "Chuanhao Li"
+          },
+          {
+            "authorId": "2349380936",
+            "name": "Zizhen Li"
+          },
+          {
+            "authorId": "2349374151",
+            "name": "Jiaxin Ai"
+          },
+          {
+            "authorId": "2350533645",
+            "name": "Fanrui Zhang"
+          },
+          {
+            "authorId": "2349402231",
+            "name": "Yu Dai"
+          },
+          {
+            "authorId": "2349384231",
+            "name": "Kaipeng Zhang"
+          }
+        ],
+        "citationCount": 1,
+        "externalIds": {
+          "CorpusId": 286771334,
+          "DBLP": "journals/corr/abs-2510-27410",
+          "DOI": "10.48550/arXiv.2510.27410"
+        },
+        "openAccessPdf": {
+          "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.48550/arXiv.2510.27410?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.48550/arXiv.2510.27410, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use.",
+          "license": null,
+          "status": null,
+          "url": ""
+        },
+        "paperId": "87c77c989f2226ece6fa5cab946794e83eb7b10f",
+        "referenceCount": 53,
+        "title": "Dialogue as Discovery: Navigating Human Intent Through Principled Inquiry",
+        "url": "https://www.semanticscholar.org/paper/87c77c989f2226ece6fa5cab946794e83eb7b10f",
+        "venue": "arXiv.org",
+        "year": 2025
+      }
+    }
+  ],
+  "status": "complete"
+}

@@ -1,0 +1,21 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:02:19.489678Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://ieeexplore.ieee.org/document/8100850/",
+      "http_status": 202,
+      "outcome": "http_failure",
+      "url": "https://doi.org/10.1109/softwaremining.2017.8100850"
+    }
+  ],
+  "bytes": 0,
+  "family_id": "FAM-118a544da5387e37b092",
+  "lawful_access_basis": null,
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "representative_canonical_id": "CAN-5086c7ea2850e25f95a2",
+  "retrieved_url": null,
+  "status": "lawful_full_text_not_retrieved"
+}

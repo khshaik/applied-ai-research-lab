@@ -1,0 +1,32 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:10:29.506306Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://zenodo.org/records/20067944",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://doi.org/10.5281/zenodo.20067942"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:10:30.850277Z",
+      "basis": "citation_pdf_url_metadata",
+      "bytes": 682761,
+      "content_type": "application/octet-stream, application/octet-stream",
+      "final_url": "https://zenodo.org/records/20067944/files/zbuksh%20-%20GenAI_ProjectDelivery_Survey.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "sha256": "2048d4293fe7f8748e6914735f8b8675192ee68b10e9c9bfca785c15ae3a545f",
+      "url": "https://zenodo.org/records/20067944/files/zbuksh%20-%20GenAI_ProjectDelivery_Survey.pdf"
+    }
+  ],
+  "bytes": 682761,
+  "family_id": "FAM-889a99b51fea80967741",
+  "lawful_access_basis": "citation_pdf_url_metadata",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-889a99b51fea80967741.pdf",
+  "pdf_sha256": "2048d4293fe7f8748e6914735f8b8675192ee68b10e9c9bfca785c15ae3a545f",
+  "representative_canonical_id": "CAN-5bff746f36ebc96ca752",
+  "retrieved_url": "https://zenodo.org/records/20067944/files/zbuksh%20-%20GenAI_ProjectDelivery_Survey.pdf",
+  "status": "retrieved_open"
+}

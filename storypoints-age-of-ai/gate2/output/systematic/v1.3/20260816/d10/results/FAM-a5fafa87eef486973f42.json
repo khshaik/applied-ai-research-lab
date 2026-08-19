@@ -1,0 +1,32 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:15:43.131448Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://zenodo.org/records/21407873",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://doi.org/10.5281/zenodo.21407873"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:15:45.560677Z",
+      "basis": "citation_pdf_url_metadata",
+      "bytes": 243641,
+      "content_type": "application/octet-stream, application/octet-stream",
+      "final_url": "https://zenodo.org/records/21407873/files/Human%20in%20the%20Loop,%20Machine%20in%20the%20Pipeline%20(2).pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "sha256": "9848546cf8b2f901ba82bc504503c53a1b509a5849f5f3341a84e9e2182a68d1",
+      "url": "https://zenodo.org/records/21407873/files/Human%20in%20the%20Loop,%20Machine%20in%20the%20Pipeline%20(2).pdf"
+    }
+  ],
+  "bytes": 243641,
+  "family_id": "FAM-a5fafa87eef486973f42",
+  "lawful_access_basis": "citation_pdf_url_metadata",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-a5fafa87eef486973f42.pdf",
+  "pdf_sha256": "9848546cf8b2f901ba82bc504503c53a1b509a5849f5f3341a84e9e2182a68d1",
+  "representative_canonical_id": "CAN-bc6a3f24a01bc5bcfa60",
+  "retrieved_url": "https://zenodo.org/records/21407873/files/Human%20in%20the%20Loop,%20Machine%20in%20the%20Pipeline%20(2).pdf",
+  "status": "retrieved_open"
+}

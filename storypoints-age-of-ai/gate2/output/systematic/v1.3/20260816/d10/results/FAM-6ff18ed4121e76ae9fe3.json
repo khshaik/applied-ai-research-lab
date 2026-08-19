@@ -1,0 +1,31 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "content_type": "text/html; charset=iso-8859-1",
+      "final_url": "https://repository.ubn.ru.nl//bitstream/handle/2066/309005/309005.pdf",
+      "http_status": 403,
+      "outcome": "access_blocked_or_paywalled",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://repository.ubn.ru.nl//bitstream/handle/2066/309005/309005.pdf"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:07:48.854419Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.semanticscholar.org/paper/04014eb4eb633be610edce0e125f307e8af097de",
+      "http_status": 202,
+      "outcome": "http_failure",
+      "url": "https://www.semanticscholar.org/paper/04014eb4eb633be610edce0e125f307e8af097de"
+    }
+  ],
+  "bytes": 0,
+  "family_id": "FAM-6ff18ed4121e76ae9fe3",
+  "lawful_access_basis": null,
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "representative_canonical_id": "CAN-e0559dce6c6eeafebc43",
+  "retrieved_url": null,
+  "status": "paywalled_or_access_blocked"
+}

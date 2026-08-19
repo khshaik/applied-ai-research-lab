@@ -1,0 +1,32 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 2239,
+      "content_type": "text/html",
+      "final_url": "https://www.mdpi.com/2076-3417/15/24/13099/pdf",
+      "http_status": 200,
+      "outcome": "not_a_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://www.mdpi.com/2076-3417/15/24/13099/pdf"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:04:24.931739Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html",
+      "final_url": "https://www.mdpi.com/2076-3417/15/24/13099",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://doi.org/10.3390/app152413099"
+    }
+  ],
+  "bytes": 0,
+  "family_id": "FAM-2b4338150325caa670ef",
+  "lawful_access_basis": null,
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "representative_canonical_id": "CAN-e9fbc55879109e8e32f0",
+  "retrieved_url": null,
+  "status": "lawful_full_text_not_retrieved"
+}

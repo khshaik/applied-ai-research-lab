@@ -1,0 +1,59 @@
+{
+  "adjudication_validation": {
+    "decision_counts": {
+      "exclude": 274,
+      "include": 83
+    },
+    "family_count": 357,
+    "sha256": "07c92b5c1e972ce6f6b241034043074dde4a81ba6c4fdca032b7613065439288",
+    "status": "valid_complete_separate_fulltext_adjudication"
+  },
+  "consensus_rereview_validation": {
+    "decision_counts": {
+      "exclude": 609,
+      "include": 487
+    },
+    "family_count": 1096,
+    "sha256": "941b44afd74a914b911a9cf7b64f92e0f5c16b5462b87643d2a964010c58a3d0",
+    "status": "valid_complete_consensus_include_rereview",
+    "trigger_audit": {
+      "decision_counts": {
+        "confirm_include": 43,
+        "false_include": 57
+      },
+      "false_inclusion_rate": 0.57,
+      "sample_size": 100,
+      "sha256": "e54ba2f88e6c1f9204c1ee685c1dc276fc1460990a930645ce8f0ce3815cc95d",
+      "status": "full_consensus_rereview_required",
+      "threshold": "full re-review when false_include > 5 of 100"
+    }
+  },
+  "conservation_equation": "included_full_text + excluded_full_text + full_text_unavailable = 2076",
+  "created_at_utc": "2026-08-17T02:00:00Z",
+  "fulltext_exclusion_code_counts": {
+    "E1": 202,
+    "E10": 69,
+    "E2": 703,
+    "E3": 10,
+    "E4": 11,
+    "E5": 7,
+    "E6": 2,
+    "E7": 5,
+    "E8": 20,
+    "E9": 5
+  },
+  "input_packet_manifest_sha256": "82f38e20c5493871342563001d5189af15ae946db9cf753850e84f1e179db587",
+  "input_reconciliation_manifest_sha256": "1ee5b153538736ca1c01dd3dcfdb3c6a428de6db07d071e1990fe6e4f2a4c5ca",
+  "interpretation_boundary": "AI-assisted full-text eligibility decisions; agent agreement is not human inter-rater reliability. Unavailable reports do not contribute substantive evidence.",
+  "ledger_sha256": "17d812d4c32d6f2a7d3342cd16f8b0f1271f16d6231e8388519f97dc1035f1c3",
+  "pipeline_version": "d11-fulltext-finalizer/1.0.0",
+  "protocol_version": "1.3",
+  "security_boundary": "Local checksum-bound extracted text only; no network, credentials, Git history, package installation, or executable PDF content.",
+  "status": "d11_fulltext_eligibility_complete",
+  "status_counts": {
+    "excluded_full_text": 1034,
+    "full_text_unavailable": 472,
+    "included_full_text": 570
+  },
+  "total_family_count": 2076
+}

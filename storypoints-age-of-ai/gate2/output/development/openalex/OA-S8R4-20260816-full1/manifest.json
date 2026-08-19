@@ -1,0 +1,62 @@
+{
+  "complete_pagination": true,
+  "endpoint": "https://api.openalex.org/works",
+  "executed_at_utc": "2026-08-16T06:26:24.089327+00:00",
+  "from_date": "1900-01-01",
+  "interpretation_boundary": "Open-index development discovery export; not frozen, screened, deduplicated, eligible, or a PRISMA corpus.",
+  "max_pages": null,
+  "page_size": 200,
+  "pages": [
+    {
+      "file": "page_00000.json",
+      "records": 200,
+      "request_url_sha256": "43c84c67a51fc3c58e1a854d223aa7eced42b3a3934ac924c6a8ccf78e567547",
+      "sequence": 0,
+      "sha256": "35ea9cc97e0f0820d3f64f31c598a3ed61076eb6b8c51a8b2c2d817ca05911b9"
+    },
+    {
+      "file": "page_00001.json",
+      "records": 200,
+      "request_url_sha256": "b9dd9a6366b542169943ba3d02417130a6de971e95cb38408dc2f144858dba1d",
+      "sequence": 1,
+      "sha256": "36b254237bd7c3e6c398083e3f822da516832f508477021adeec94c8a28ca189"
+    },
+    {
+      "file": "page_00002.json",
+      "records": 200,
+      "request_url_sha256": "475a57844b2153618d5478767416149d4341b9e08188a0bdd9bdbf5092d7eabc",
+      "sequence": 2,
+      "sha256": "6acf4b74547ebd32a805faecef5f1ad9a7eb35ea0a2d4a4230c029d3e1724dac"
+    },
+    {
+      "file": "page_00003.json",
+      "records": 200,
+      "request_url_sha256": "faa424c07bb593bd0147080e38c889ff5181909ae9e71b862f2506ab18e9a7e1",
+      "sequence": 3,
+      "sha256": "08d5989b43763ae6f5589174b31897ae8022498d5169989117ed90bca0d0b83e"
+    },
+    {
+      "file": "page_00004.json",
+      "records": 65,
+      "request_url_sha256": "379622ef11ad13e4bb0e64c197fe3efc85d3e633ee3b8198edccd1b58d8febe0",
+      "sequence": 4,
+      "sha256": "56c7cdd165e9c1868f1793b3aa00eced7c629b89574f0f460fd56c36c01af9f7"
+    }
+  ],
+  "query": "(((software OR developer OR agile) AND (((\"story point\" OR \"relative estimate\") AND (validity OR accuracy OR reliability OR effort)) OR (\"developer productivity\" AND (measure OR perception OR performance OR interruption)) OR (\"modern code review\" AND (challenge OR outcome OR understanding OR effort OR cognitive OR workload)))) OR \"NASA-Task Load Index (NASA-TLX); 20 Years Later\" OR \"Workload and Performance: Associations, Insensitivities, and Dissociations\" OR \"A Proof for the Queuing Formula: L = lambda W\")",
+  "query_id": "OA-S8R4",
+  "query_mode": "title_abstract_filter",
+  "query_registry_sha256": "a9576b9e8948e3763bdaed25bac2a6fecc8f1ff236ec88015234b5ca386b2bf1",
+  "query_sha256": "2980fb05bd92dfd16d25ad6e91363f51fa832279a7829fae58c4b5d7cd8f9e86",
+  "records_csv": {
+    "file": "records.csv",
+    "sha256": "fdfc4b35bcb2e28d1806fa12f9b42d9d329b7e56d32bdad24902d29f936dac53"
+  },
+  "records_retrieved": 865,
+  "result_sort": "publication_date:desc",
+  "retrieval_scope": "complete",
+  "source": "openalex",
+  "status": "development_pilot",
+  "to_date": "2026-08-16",
+  "total_reported": 865
+}

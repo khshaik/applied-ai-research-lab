@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_oa_location_pdf",
+      "bytes": 1960960,
+      "content_type": "application/pdf",
+      "final_url": "https://researchonline.gcu.ac.uk/ws/files/109604518/109509039.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "60fb1984acb6a77544667b2bec33dc56a8978ec196043cd6863ef34a6531fe65",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://researchonline.gcu.ac.uk/ws/files/109604518/109509039.pdf"
+    }
+  ],
+  "bytes": 1960960,
+  "family_id": "FAM-4a39c3e3d2e30ee16d64",
+  "lawful_access_basis": "openalex_oa_location_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-4a39c3e3d2e30ee16d64.pdf",
+  "pdf_sha256": "60fb1984acb6a77544667b2bec33dc56a8978ec196043cd6863ef34a6531fe65",
+  "representative_canonical_id": "CAN-88974bab240f2f0b0768",
+  "retrieved_url": "https://researchonline.gcu.ac.uk/ws/files/109604518/109509039.pdf",
+  "status": "retrieved_open"
+}

@@ -1,0 +1,32 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:02:40.852350Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://zenodo.org/records/21217705",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://doi.org/10.5281/zenodo.21217705"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:02:42.379977Z",
+      "basis": "citation_pdf_url_metadata",
+      "bytes": 595630,
+      "content_type": "application/octet-stream, application/octet-stream",
+      "final_url": "https://zenodo.org/records/21217705/files/IJSRET_V12_issue3_506.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "sha256": "b0499ef0817b1e757d1cbab9f9d209d1cb124fdd3e365a51c7b16a80b1b3cf54",
+      "url": "https://zenodo.org/records/21217705/files/IJSRET_V12_issue3_506.pdf"
+    }
+  ],
+  "bytes": 595630,
+  "family_id": "FAM-19e5935ed5f356cc811c",
+  "lawful_access_basis": "citation_pdf_url_metadata",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-19e5935ed5f356cc811c.pdf",
+  "pdf_sha256": "b0499ef0817b1e757d1cbab9f9d209d1cb124fdd3e365a51c7b16a80b1b3cf54",
+  "representative_canonical_id": "CAN-4f7866dbdd53b288aa34",
+  "retrieved_url": "https://zenodo.org/records/21217705/files/IJSRET_V12_issue3_506.pdf",
+  "status": "retrieved_open"
+}

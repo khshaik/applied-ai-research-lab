@@ -1,0 +1,49 @@
+{
+  "status": "development_pilot",
+  "version": "0.1",
+  "family_id": "S5T",
+  "source_query_id": "AX-S5T",
+  "source_registry": "gate2/arxiv_pilot_queries.json",
+  "query": "(all:\"large language model\" OR all:\"AI-assisted\" OR all:\"AI coding assistant\" OR all:\"coding agent\") AND (all:\"software testing\" OR all:\"test generation\" OR all:\"unit testing\" OR all:\"integration testing\" OR all:\"quality assurance\") AND (all:human OR all:oversight OR all:verification OR all:validation OR all:effort)",
+  "mapping_rationale": "The immutable AX-S5T export is the approved S5T arXiv developmental query. It is mapped for sentinel and deterministic precision appraisal without being renamed, rerun, or treated as systematic evidence.",
+  "sentinels": [
+    {
+      "sentinel_id": "S5T-AX-P1",
+      "role": "scope_positive",
+      "arxiv_id": "2305.04207",
+      "title": "No More Manual Tests? Evaluating and Improving ChatGPT for Unit Test Generation"
+    },
+    {
+      "sentinel_id": "S5T-AX-P2",
+      "role": "scope_positive",
+      "arxiv_id": "2503.17998",
+      "title": "Automatic High-Level Test Case Generation using Large Language Models"
+    },
+    {
+      "sentinel_id": "S5T-AX-D1",
+      "role": "neutral_disconfirming",
+      "arxiv_id": "2412.14137",
+      "title": "Design choices made by LLM-based test generators prevent them from finding bugs"
+    },
+    {
+      "sentinel_id": "S5T-AX-D2",
+      "role": "neutral_disconfirming",
+      "arxiv_id": "2607.08983",
+      "title": "SCATE: Learning to Supervise Coding Agents for Cost-Effective Test Generation"
+    }
+  ],
+  "sampled_precision_rule": {
+    "development_diagnostic_minimum_sample": 20,
+    "allowed_decisions": ["likely_relevant", "likely_irrelevant", "uncertain"],
+    "freeze_sample_bands": [
+      {"population_min": 0, "population_max": 50, "required_sample": "all"},
+      {"population_min": 51, "population_max": 1000, "required_sample": 50},
+      {"population_min": 1001, "population_max": null, "required_sample": 100}
+    ],
+    "acceptance_bands": {
+      "operational_minimum_relevant_plus_uncertain": 0.10,
+      "conditional_minimum_relevant_plus_uncertain": 0.05
+    }
+  },
+  "boundary": "Developmental S5T arXiv mapping and known-item recall only; not a frozen search, eligibility decision, or PRISMA input."
+}

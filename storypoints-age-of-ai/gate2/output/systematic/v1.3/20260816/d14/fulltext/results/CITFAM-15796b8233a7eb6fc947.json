@@ -1,0 +1,19 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-18T12:25:45.610535Z",
+      "basis": "live_openalex_best_oa_location_oa_pdf",
+      "final_url": "https://turcomat.org/index.php/turkbilmat/article/download/5800/4839",
+      "http_status": 403,
+      "redirect_count": 0,
+      "retry_after": null,
+      "status": "http_failure"
+    }
+  ],
+  "bytes": 0,
+  "citation_family_id": "CITFAM-15796b8233a7eb6fc947",
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "security_attestation": "Static HTTPS retrieval only; public-IP validation, bounded redirects/size, signature and active-content checks; no PDF execution.",
+  "status": "http_failure"
+}

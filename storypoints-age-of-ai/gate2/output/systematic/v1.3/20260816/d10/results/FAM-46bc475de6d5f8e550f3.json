@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 726297,
+      "content_type": "application/pdf",
+      "final_url": "https://www.ispras.ru/proceedings/docs/2017/29/5/isp_29_2017_5_19.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "44a0602e713301bc002678c5496402092e55027ca0888daef8bb22642b126207",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://ispras.ru/proceedings/docs/2017/29/5/isp_29_2017_5_19.pdf"
+    }
+  ],
+  "bytes": 726297,
+  "family_id": "FAM-46bc475de6d5f8e550f3",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-46bc475de6d5f8e550f3.pdf",
+  "pdf_sha256": "44a0602e713301bc002678c5496402092e55027ca0888daef8bb22642b126207",
+  "representative_canonical_id": "CAN-f82f77c81c7fe24f431a",
+  "retrieved_url": "https://www.ispras.ru/proceedings/docs/2017/29/5/isp_29_2017_5_19.pdf",
+  "status": "retrieved_open"
+}

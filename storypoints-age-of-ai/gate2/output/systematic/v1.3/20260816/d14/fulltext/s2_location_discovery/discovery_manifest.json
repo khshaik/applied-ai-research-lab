@@ -1,0 +1,19 @@
+{
+  "batch_count": 3,
+  "credential_handling": "Optional Semantic Scholar API key read from the environment only; never printed or persisted.",
+  "doi_query_count": 577,
+  "explicit_open_pdf_count": 226,
+  "locations_sha256": "e31d67cb39bf94995feb0fe880c8445a21f59f7b2453a5a69e34dc037da2d7a7",
+  "no_doi_count": 5,
+  "pipeline_version": "d14-s2-fulltext-discovery/1.0.0",
+  "population_count": 582,
+  "population_sha256": "f8cb799738ec4e741aaece36e6a23b3160adb74bba2b277bf45b3ba76e058509",
+  "raw_hashes": {
+    "batch_000.json": "7720df3a2027ce091ceb5df8e1d676d9efe2d6771e87e96b246178e7f6352e9a",
+    "batch_001.json": "1dc4b62923b4b6b7b6791067667715f9f6f736eda6dc8889e6350b8a82be38c5",
+    "batch_002.json": "f69e47e393ac139a3d6b009629d9a8768ccfaa39a2abe7ae3fc714e975fe3a6a"
+  },
+  "security_boundary": "Public scholarly metadata only; no PDF download, Git/history, private systems, paywall bypass, or secret output.",
+  "status": "d14_s2_oa_location_discovery_complete",
+  "unresolved_count": 356
+}

@@ -1,0 +1,33 @@
+{
+  "complete_pagination": true,
+  "endpoint": "https://api.openalex.org/works",
+  "executed_at_utc": "2026-08-16T02:47:29.524970+00:00",
+  "from_date": "2019-01-01",
+  "interpretation_boundary": "Open-index development discovery export; not frozen, screened, deduplicated, eligible, or a PRISMA corpus.",
+  "max_pages": null,
+  "page_size": 200,
+  "pages": [
+    {
+      "file": "page_00000.json",
+      "records": 130,
+      "request_url_sha256": "dc97a2b83f472b5c0de2182bf0f3dbac5846aa66dae9a1757ac65d4ee0e5d515",
+      "sequence": 0,
+      "sha256": "f899be07c23198d494db765ff1bbd0a7b1f6521b40c8cb57a586a77e45e6242e"
+    }
+  ],
+  "query": "(\"large language model\" OR LLM OR ChatGPT) AND (\"software testing\" OR \"unit test generation\" OR \"test case development\" OR \"test case generation\") AND (\"user study\" OR \"human-LLM\" OR \"human-AI\" OR \"manual effort\" OR \"human involvement\" OR \"developer preference\" OR \"bug detection\" OR \"test reliability\")",
+  "query_id": "OA-S5TR3",
+  "query_mode": "title_abstract_filter",
+  "query_registry_sha256": "a07942299c3817ec7f758d474a94a728ed8f3cc2e277c44eee02de3f37c6296e",
+  "query_sha256": "1befb1f44348f01d6060beb165ed2af29530266e5bdde5540d9e9e1e5c76191d",
+  "records_csv": {
+    "file": "records.csv",
+    "sha256": "439a73ddf643c38238e053eb45b6264d8caa871d098386d263b44fdcf1412e6f"
+  },
+  "records_retrieved": 130,
+  "retrieval_scope": "complete",
+  "source": "openalex",
+  "status": "development_pilot",
+  "to_date": "2026-08-16",
+  "total_reported": 130
+}

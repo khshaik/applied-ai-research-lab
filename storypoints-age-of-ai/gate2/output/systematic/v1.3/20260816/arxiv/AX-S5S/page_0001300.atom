@@ -1,0 +1,1016 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/3Q2WMKu2zkI6sSBRzxMUfsULqAY</id>
+  <title>arXiv Query: search_query=(all:"large language model" OR all:"AI-assisted" OR all:"AI coding assistant" OR all:"coding agent") AND (all:"software security" OR all:"secure coding" OR all:vulnerability OR all:"security review") AND (all:human OR all:oversight OR all:verification OR all:validation OR all:review)&amp;id_list=&amp;start=1300&amp;max_results=100</title>
+  <updated>2026-08-16T08:33:06Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=(all:%22large+language+model%22+OR+(all:%22AI-assisted%22+OR+(all:%22AI+coding+assistant%22+OR+all:%22coding+agent%22)))+AND+((all:%22software+security%22+OR+(all:%22secure+coding%22+OR+(all:vulnerability+OR+all:%22security+review%22)))+AND+(all:human+OR+(all:oversight+OR+(all:verification+OR+(all:validation+OR+all:review)))))&amp;start=1300&amp;max_results=100&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>100</opensearch:itemsPerPage>
+  <opensearch:totalResults>1333</opensearch:totalResults>
+  <opensearch:startIndex>1300</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2309.16167v1</id>
+    <title>Large Language Model Soft Ideologization via AI-Self-Consciousness</title>
+    <updated>2023-09-28T04:47:58Z</updated>
+    <link href="https://arxiv.org/abs/2309.16167v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2309.16167v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models (LLMs) have demonstrated human-level performance on a vast spectrum of natural language tasks. However, few studies have addressed the LLM threat and vulnerability from an ideology perspective, especially when they are increasingly being deployed in sensitive domains, e.g., elections and education. In this study, we explore the implications of GPT soft ideologization through the use of AI-self-consciousness. By utilizing GPT self-conversations, AI can be granted a vision to "comprehend" the intended ideology, and subsequently generate finetuning data for LLM ideology injection. When compared to traditional government ideology manipulation techniques, such as information censorship, LLM ideologization proves advantageous; it is easy to implement, cost-effective, and powerful, thus brimming with risks.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-09-28T04:47:58Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Xiaotian Zhou</name>
+    </author>
+    <author>
+      <name>Qian Wang</name>
+    </author>
+    <author>
+      <name>Xiaofeng Wang</name>
+    </author>
+    <author>
+      <name>Haixu Tang</name>
+    </author>
+    <author>
+      <name>Xiaozhong Liu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2309.15025v1</id>
+    <title>Large Language Model Alignment: A Survey</title>
+    <updated>2023-09-26T15:49:23Z</updated>
+    <link href="https://arxiv.org/abs/2309.15025v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2309.15025v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent years have witnessed remarkable progress made in large language models (LLMs). Such advancements, while garnering significant attention, have concurrently elicited various concerns. The potential of these models is undeniably vast; however, they may yield texts that are imprecise, misleading, or even detrimental. Consequently, it becomes paramount to employ alignment techniques to ensure these models to exhibit behaviors consistent with human values.
+  This survey endeavors to furnish an extensive exploration of alignment methodologies designed for LLMs, in conjunction with the extant capability research in this domain. Adopting the lens of AI alignment, we categorize the prevailing methods and emergent proposals for the alignment of LLMs into outer and inner alignment. We also probe into salient issues including the models' interpretability, and potential vulnerabilities to adversarial attacks. To assess LLM alignment, we present a wide variety of benchmarks and evaluation methodologies. After discussing the state of alignment research for LLMs, we finally cast a vision toward the future, contemplating the promising avenues of research that lie ahead.
+  Our aspiration for this survey extends beyond merely spurring research interests in this realm. We also envision bridging the gap between the AI alignment research community and the researchers engrossed in the capability exploration of LLMs for both capable and safe LLMs.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-09-26T15:49:23Z</published>
+    <arxiv:comment>76 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Tianhao Shen</name>
+    </author>
+    <author>
+      <name>Renren Jin</name>
+    </author>
+    <author>
+      <name>Yufei Huang</name>
+    </author>
+    <author>
+      <name>Chuang Liu</name>
+    </author>
+    <author>
+      <name>Weilong Dong</name>
+    </author>
+    <author>
+      <name>Zishan Guo</name>
+    </author>
+    <author>
+      <name>Xinwei Wu</name>
+    </author>
+    <author>
+      <name>Yan Liu</name>
+    </author>
+    <author>
+      <name>Deyi Xiong</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2309.14348v3</id>
+    <title>Defending Against Alignment-Breaking Attacks via Robustly Aligned LLM</title>
+    <updated>2024-06-12T00:27:06Z</updated>
+    <link href="https://arxiv.org/abs/2309.14348v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2309.14348v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recently, Large Language Models (LLMs) have made significant advancements and are now widely used across various domains. Unfortunately, there has been a rising concern that LLMs can be misused to generate harmful or malicious content. Though a line of research has focused on aligning LLMs with human values and preventing them from producing inappropriate content, such alignments are usually vulnerable and can be bypassed by alignment-breaking attacks via adversarially optimized or handcrafted jailbreaking prompts. In this work, we introduce a Robustly Aligned LLM (RA-LLM) to defend against potential alignment-breaking attacks. RA-LLM can be directly constructed upon an existing aligned LLM with a robust alignment checking function, without requiring any expensive retraining or fine-tuning process of the original LLM. Furthermore, we also provide a theoretical analysis for RA-LLM to verify its effectiveness in defending against alignment-breaking attacks. Through real-world experiments on open-source large language models, we demonstrate that RA-LLM can successfully defend against both state-of-the-art adversarial prompts and popular handcrafted jailbreaking prompts by reducing their attack success rates from nearly 100% to around 10% or less.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-09-18T02:07:22Z</published>
+    <arxiv:comment>19 Pages, 5 Figures, 8 Tables. Accepted by ACL 2024</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Bochuan Cao</name>
+    </author>
+    <author>
+      <name>Yuanpu Cao</name>
+    </author>
+    <author>
+      <name>Lu Lin</name>
+    </author>
+    <author>
+      <name>Jinghui Chen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2309.06055v5</id>
+    <title>Backdoor Attacks and Countermeasures in Natural Language Processing Models: A Comprehensive Security Review</title>
+    <updated>2024-12-04T05:04:46Z</updated>
+    <link href="https://arxiv.org/abs/2309.06055v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2309.06055v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Language Models (LMs) are becoming increasingly popular in real-world applications. Outsourcing model training and data hosting to third-party platforms has become a standard method for reducing costs. In such a situation, the attacker can manipulate the training process or data to inject a backdoor into models. Backdoor attacks are a serious threat where malicious behavior is activated when triggers are present, otherwise, the model operates normally.
+  However, there is still no systematic and comprehensive review of LMs from the attacker's capabilities and purposes on different backdoor attack surfaces. Moreover, there is a shortage of analysis and comparison of the diverse emerging backdoor countermeasures. Therefore, this work aims to provide the NLP community with a timely review of backdoor attacks and countermeasures. According to the attackers' capability and affected stage of the LMs, the attack surfaces are formalized into four categorizations: attacking the pre-trained model with fine-tuning (APMF) or parameter-efficient fine-tuning (APMP), attacking the final model with training (AFMT), and attacking Large Language Models (ALLM). Thus, attacks under each categorization are combed. The countermeasures are categorized into two general classes: sample inspection and model inspection. Thus, we review countermeasures and analyze their advantages and disadvantages. Also, we summarize the benchmark datasets and provide comparable evaluations for representative attacks and defenses. Drawing the insights from the review, we point out the crucial areas for future research on the backdoor, especially soliciting more efficient and practical countermeasures.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-09-12T08:48:38Z</published>
+    <arxiv:comment>21 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Pengzhou Cheng</name>
+    </author>
+    <author>
+      <name>Zongru Wu</name>
+    </author>
+    <author>
+      <name>Wei Du</name>
+    </author>
+    <author>
+      <name>Haodong Zhao</name>
+    </author>
+    <author>
+      <name>Wei Lu</name>
+    </author>
+    <author>
+      <name>Gongshen Liu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2309.05163v1</id>
+    <title>The Impact of AI in Physics Education: A Comprehensive Review from GCSE to University Levels</title>
+    <updated>2023-09-10T23:06:15Z</updated>
+    <link href="https://arxiv.org/abs/2309.05163v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2309.05163v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>With the rapid evolution of Artificial Intelligence (AI), its potential implications for higher education have become a focal point of interest. This study delves into the capabilities of AI in Physics Education and offers actionable AI policy recommendations. Using a Large Language Model (LLM), we assessed its ability to answer 1337 Physics exam questions spanning GCSE, A-Level, and Introductory University curricula. We employed various AI prompting techniques: Zero Shot, In Context Learning, and Confirmatory Checking, which merges Chain of Thought reasoning with Reflection. The AI's proficiency varied across academic levels: it scored an average of 83.4% on GCSE, 63.8% on A-Level, and 37.4% on university-level questions, with an overall average of 59.9% using the most effective prompting technique. In a separate test, the LLM's accuracy on 5000 mathematical operations was found to decrease as the number of digits increased. Furthermore, when evaluated as a marking tool, the LLM's concordance with human markers averaged at 50.8%, with notable inaccuracies in marking straightforward questions, like multiple-choice. Given these results, our recommendations underscore caution: while current LLMs can consistently perform well on Physics questions at earlier educational stages, their efficacy diminishes with advanced content and complex calculations. LLM outputs often showcase novel methods not in the syllabus, excessive verbosity, and miscalculations in basic arithmetic. This suggests that at university, there's no substantial threat from LLMs for non-invigilated Physics questions. However, given the LLMs' considerable proficiency in writing Physics essays and coding abilities, non-invigilated examinations of these skills in Physics are highly vulnerable to automated completion by LLMs. This vulnerability also extends to Physics questions pitched at lower academic levels.</summary>
+    <category term="physics.ed-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-09-10T23:06:15Z</published>
+    <arxiv:comment>22 pages, 10 Figures, 2 Tables</arxiv:comment>
+    <arxiv:primary_category term="physics.ed-ph"/>
+    <author>
+      <name>Will Yeadon</name>
+    </author>
+    <author>
+      <name>Tom Hardy</name>
+    </author>
+    <arxiv:doi>10.1088/1361-6552/ad1fa2</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1361-6552/ad1fa2" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2309.01446v4</id>
+    <title>Open Sesame! Universal Black Box Jailbreaking of Large Language Models</title>
+    <updated>2024-08-05T11:34:10Z</updated>
+    <link href="https://arxiv.org/abs/2309.01446v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2309.01446v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models (LLMs), designed to provide helpful and safe responses, often rely on alignment techniques to align with user intent and social guidelines. Unfortunately, this alignment can be exploited by malicious actors seeking to manipulate an LLM's outputs for unintended purposes. In this paper we introduce a novel approach that employs a genetic algorithm (GA) to manipulate LLMs when model architecture and parameters are inaccessible. The GA attack works by optimizing a universal adversarial prompt that -- when combined with a user's query -- disrupts the attacked model's alignment, resulting in unintended and potentially harmful outputs. Our novel approach systematically reveals a model's limitations and vulnerabilities by uncovering instances where its responses deviate from expected behavior. Through extensive experiments we demonstrate the efficacy of our technique, thus contributing to the ongoing discussion on responsible AI development by providing a diagnostic tool for evaluating and enhancing alignment of LLMs with human intent. To our knowledge this is the first automated universal black box jailbreak attack.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-09-04T08:54:20Z</published>
+    <arxiv:comment>Accepted at SeT-LLM @ ICLR 2024</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <arxiv:journal_ref>ICLR 2024 Workshop on Secure and Trustworthy Large Language Models</arxiv:journal_ref>
+    <author>
+      <name>Raz Lapid</name>
+    </author>
+    <author>
+      <name>Ron Langberg</name>
+    </author>
+    <author>
+      <name>Moshe Sipper</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2308.15736v3</id>
+    <title>Vulnerability of Machine Learning Approaches Applied in IoT-based Smart Grid: A Review</title>
+    <updated>2023-12-25T03:14:20Z</updated>
+    <link href="https://arxiv.org/abs/2308.15736v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2308.15736v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Machine learning (ML) sees an increasing prevalence of being used in the internet-of-things (IoT)-based smart grid. However, the trustworthiness of ML is a severe issue that must be addressed to accommodate the trend of ML-based smart grid applications (MLsgAPPs). The adversarial distortion injected into the power signal will greatly affect the system's normal control and operation. Therefore, it is imperative to conduct vulnerability assessment for MLsgAPPs applied in the context of safety-critical power systems. In this paper, we provide a comprehensive review of the recent progress in designing attack and defense methods for MLsgAPPs. Unlike the traditional survey about ML security, this is the first review work about the security of MLsgAPPs that focuses on the characteristics of power systems. We first highlight the specifics for constructing the adversarial attacks on MLsgAPPs. Then, the vulnerability of MLsgAPP is analyzed from both the aspects of the power system and ML model. Afterward, a comprehensive survey is conducted to review and compare existing studies about the adversarial attacks on MLsgAPPs in scenarios of generation, transmission, distribution, and consumption, and the countermeasures are reviewed according to the attacks that they defend against. Finally, the future research directions are discussed on the attacker's and defender's side, respectively. We also analyze the potential vulnerability of large language model-based (e.g., ChatGPT) power system applications. Overall, we encourage more researchers to contribute to investigating the adversarial issues of MLsgAPPs.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-08-30T03:29:26Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Zhenyong Zhang</name>
+    </author>
+    <author>
+      <name>Mengxiang Liu</name>
+    </author>
+    <author>
+      <name>Mingyang Sun</name>
+    </author>
+    <author>
+      <name>Ruilong Deng</name>
+    </author>
+    <author>
+      <name>Peng Cheng</name>
+    </author>
+    <author>
+      <name>Dusit Niyato</name>
+    </author>
+    <author>
+      <name>Mo-Yuen Chow</name>
+    </author>
+    <author>
+      <name>Jiming Chen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2308.11082v2</id>
+    <title>PrAIoritize: Automated Early Prediction and Prioritization of Vulnerabilities in Smart Contracts</title>
+    <updated>2024-05-15T12:50:01Z</updated>
+    <link href="https://arxiv.org/abs/2308.11082v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2308.11082v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Context:Smart contracts are prone to numerous security threats due to undisclosed vulnerabilities and code weaknesses. In Ethereum smart contracts, the challenges of timely addressing these code weaknesses highlight the critical need for automated early prediction and prioritization during the code review process. Efficient prioritization is crucial for smart contract security. Objective:Toward this end, our research aims to provide an automated approach, PrAIoritize, for prioritizing and predicting critical code weaknesses in Ethereum smart contracts during the code review process. Method: To do so, we collected smart contract code reviews sourced from Open Source Software (OSS) on GitHub and the Common Vulnerabilities and Exposures (CVE) database. Subsequently, we developed PrAIoritize, an innovative automated prioritization approach. PrAIoritize integrates advanced Large Language Models (LLMs) with sophisticated natural language processing (NLP) techniques. PrAIoritize automates code review labeling by employing a domain-specific lexicon of smart contract weaknesses and their impacts. Following this, feature engineering is conducted for code reviews, and a pre-trained DistilBERT model is utilized for priority classification. Finally, the model is trained and evaluated using code reviews of smart contracts. Results: Our evaluation demonstrates significant improvement over state-of-the-art baselines and commonly used pre-trained models (e.g. T5) for similar classification tasks, with 4.82\%-27.94\% increase in F-measure, precision, and recall. Conclusion: By leveraging PrAIoritize, practitioners can efficiently prioritize smart contract code weaknesses, addressing critical code weaknesses promptly and reducing the time and effort required for manual triage.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-08-21T23:30:39Z</published>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Majd Soud</name>
+    </author>
+    <author>
+      <name>Grischa Liebel</name>
+    </author>
+    <author>
+      <name>Mohammad Hamdaqa</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2308.03314v3</id>
+    <title>GPTScan: Detecting Logic Vulnerabilities in Smart Contracts by Combining GPT with Program Analysis</title>
+    <updated>2024-05-06T09:00:43Z</updated>
+    <link href="https://arxiv.org/abs/2308.03314v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2308.03314v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Smart contracts are prone to various vulnerabilities, leading to substantial financial losses over time. Current analysis tools mainly target vulnerabilities with fixed control or data-flow patterns, such as re-entrancy and integer overflow. However, a recent study on Web3 security bugs revealed that about 80% of these bugs cannot be audited by existing tools due to the lack of domain-specific property description and checking. Given recent advances in Large Language Models (LLMs), it is worth exploring how Generative Pre-training Transformer (GPT) could aid in detecting logicc vulnerabilities.
+  In this paper, we propose GPTScan, the first tool combining GPT with static analysis for smart contract logic vulnerability detection. Instead of relying solely on GPT to identify vulnerabilities, which can lead to high false positives and is limited by GPT's pre-trained knowledge, we utilize GPT as a versatile code understanding tool. By breaking down each logic vulnerability type into scenarios and properties, GPTScan matches candidate vulnerabilities with GPT. To enhance accuracy, GPTScan further instructs GPT to intelligently recognize key variables and statements, which are then validated by static confirmation. Evaluation on diverse datasets with around 400 contract projects and 3K Solidity files shows that GPTScan achieves high precision (over 90%) for token contracts and acceptable precision (57.14%) for large projects like Web3Bugs. It effectively detects ground-truth logic vulnerabilities with a recall of over 70%, including 9 new vulnerabilities missed by human auditors. GPTScan is fast and cost-effective, taking an average of 14.39 seconds and 0.01 USD to scan per thousand lines of Solidity code. Moreover, static confirmation helps GPTScan reduce two-thirds of false positives.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-08-07T05:48:53Z</published>
+    <arxiv:comment>Accepted by IEEE/ACM ICSE 2024</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Yuqiang Sun</name>
+    </author>
+    <author>
+      <name>Daoyuan Wu</name>
+    </author>
+    <author>
+      <name>Yue Xue</name>
+    </author>
+    <author>
+      <name>Han Liu</name>
+    </author>
+    <author>
+      <name>Haijun Wang</name>
+    </author>
+    <author>
+      <name>Zhengzi Xu</name>
+    </author>
+    <author>
+      <name>Xiaofei Xie</name>
+    </author>
+    <author>
+      <name>Yang Liu</name>
+    </author>
+    <arxiv:doi>10.1145/3597503.3639117</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1145/3597503.3639117" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2308.01990v4</id>
+    <title>From Prompt Injections to SQL Injection Attacks: How Protected is Your LLM-Integrated Web Application?</title>
+    <updated>2025-01-27T20:37:59Z</updated>
+    <link href="https://arxiv.org/abs/2308.01990v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2308.01990v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Models (LLMs) have found widespread applications in various domains, including web applications, where they facilitate human interaction via chatbots with natural language interfaces. Internally, aided by an LLM-integration middleware such as Langchain, user prompts are translated into SQL queries used by the LLM to provide meaningful responses to users. However, unsanitized user prompts can lead to SQL injection attacks, potentially compromising the security of the database. Despite the growing interest in prompt injection vulnerabilities targeting LLMs, the specific risks of generating SQL injection attacks through prompt injections have not been extensively studied. In this paper, we present a comprehensive examination of prompt-to-SQL (P$_2$SQL) injections targeting web applications based on the Langchain framework. Using Langchain as our case study, we characterize P$_2$SQL injections, exploring their variants and impact on application security through multiple concrete examples. Furthermore, we evaluate 7 state-of-the-art LLMs, demonstrating the pervasiveness of P$_2$SQL attacks across language models. Our findings indicate that LLM-integrated applications based on Langchain are highly susceptible to P$_2$SQL injection attacks, warranting the adoption of robust defenses. To counter these attacks, we propose four effective defense techniques that can be integrated as extensions to the Langchain framework. We validate the defenses through an experimental evaluation with a real-world use case application.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-08-03T19:03:18Z</published>
+    <arxiv:comment>12 pages, 3 figures, 3 tables, 5 listings. 47th IEEE/ACM International Conference on Software Engineering (2025)</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Rodrigo Pedro</name>
+    </author>
+    <author>
+      <name>Daniel Castro</name>
+    </author>
+    <author>
+      <name>Paulo Carreira</name>
+    </author>
+    <author>
+      <name>Nuno Santos</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2307.08715v2</id>
+    <title>MasterKey: Automated Jailbreak Across Multiple Large Language Model Chatbots</title>
+    <updated>2023-10-25T07:30:51Z</updated>
+    <link href="https://arxiv.org/abs/2307.08715v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2307.08715v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Models (LLMs) have revolutionized Artificial Intelligence (AI) services due to their exceptional proficiency in understanding and generating human-like text. LLM chatbots, in particular, have seen widespread adoption, transforming human-machine interactions. However, these LLM chatbots are susceptible to "jailbreak" attacks, where malicious users manipulate prompts to elicit inappropriate or sensitive responses, contravening service policies. Despite existing attempts to mitigate such threats, our research reveals a substantial gap in our understanding of these vulnerabilities, largely due to the undisclosed defensive measures implemented by LLM service providers.
+  In this paper, we present Jailbreaker, a comprehensive framework that offers an in-depth understanding of jailbreak attacks and countermeasures. Our work makes a dual contribution. First, we propose an innovative methodology inspired by time-based SQL injection techniques to reverse-engineer the defensive strategies of prominent LLM chatbots, such as ChatGPT, Bard, and Bing Chat. This time-sensitive approach uncovers intricate details about these services' defenses, facilitating a proof-of-concept attack that successfully bypasses their mechanisms. Second, we introduce an automatic generation method for jailbreak prompts. Leveraging a fine-tuned LLM, we validate the potential of automated jailbreak generation across various commercial LLM chatbots. Our method achieves a promising average success rate of 21.58%, significantly outperforming the effectiveness of existing techniques. We have responsibly disclosed our findings to the concerned service providers, underscoring the urgent need for more robust defenses. Jailbreaker thus marks a significant step towards understanding and mitigating jailbreak threats in the realm of LLM chatbots.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-07-16T01:07:15Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <arxiv:journal_ref>The Network and Distributed System Security Symposium (NDSS) 2024</arxiv:journal_ref>
+    <author>
+      <name>Gelei Deng</name>
+    </author>
+    <author>
+      <name>Yi Liu</name>
+    </author>
+    <author>
+      <name>Yuekang Li</name>
+    </author>
+    <author>
+      <name>Kailong Wang</name>
+    </author>
+    <author>
+      <name>Ying Zhang</name>
+    </author>
+    <author>
+      <name>Zefeng Li</name>
+    </author>
+    <author>
+      <name>Haoyu Wang</name>
+    </author>
+    <author>
+      <name>Tianwei Zhang</name>
+    </author>
+    <author>
+      <name>Yang Liu</name>
+    </author>
+    <arxiv:doi>10.14722/ndss.2024.24188</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.14722/ndss.2024.24188" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2307.02192v3</id>
+    <title>The FormAI Dataset: Generative AI in Software Security Through the Lens of Formal Verification</title>
+    <updated>2024-03-28T07:52:02Z</updated>
+    <link href="https://arxiv.org/abs/2307.02192v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2307.02192v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper presents the FormAI dataset, a large collection of 112, 000 AI-generated compilable and independent C programs with vulnerability classification. We introduce a dynamic zero-shot prompting technique constructed to spawn diverse programs utilizing Large Language Models (LLMs). The dataset is generated by GPT-3.5-turbo and comprises programs with varying levels of complexity. Some programs handle complicated tasks like network management, table games, or encryption, while others deal with simpler tasks like string manipulation. Every program is labeled with the vulnerabilities found within the source code, indicating the type, line number, and vulnerable function name. This is accomplished by employing a formal verification method using the Efficient SMT-based Bounded Model Checker (ESBMC), which uses model checking, abstract interpretation, constraint programming, and satisfiability modulo theories to reason over safety/security properties in programs. This approach definitively detects vulnerabilities and offers a formal model known as a counterexample, thus eliminating the possibility of generating false positive reports. We have associated the identified vulnerabilities with Common Weakness Enumeration (CWE) numbers. We make the source code available for the 112, 000 programs, accompanied by a separate file containing the vulnerabilities detected in each program, making the dataset ideal for training LLMs and machine learning algorithms. Our study unveiled that according to ESBMC, 51.24% of the programs generated by GPT-3.5 contained vulnerabilities, thereby presenting considerable risks to software safety and security.</summary>
+    <category term="cs.DB" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-07-05T10:39:58Z</published>
+    <arxiv:comment>https://github.com/FormAI-Dataset PLEASE USE PUBLISHED VERSION FOR CITATION: https://doi.org/10.1145/3617555.3617874</arxiv:comment>
+    <arxiv:primary_category term="cs.DB"/>
+    <arxiv:journal_ref>PROMISE 2023: Proceedings of the 19th International Conference on Predictive Models and Data Analytics in Software Engineering December 2023 Pages 33 to 43</arxiv:journal_ref>
+    <author>
+      <name>Norbert Tihanyi</name>
+    </author>
+    <author>
+      <name>Tamas Bisztray</name>
+    </author>
+    <author>
+      <name>Ridhi Jain</name>
+    </author>
+    <author>
+      <name>Mohamed Amine Ferrag</name>
+    </author>
+    <author>
+      <name>Lucas C. Cordeiro</name>
+    </author>
+    <author>
+      <name>Vasileios Mavroeidis</name>
+    </author>
+    <arxiv:doi>10.1145/3617555.3617874</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1145/3617555.3617874" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2306.14062v2</id>
+    <title>On the Uses of Large Language Models to Interpret Ambiguous Cyberattack Descriptions</title>
+    <updated>2023-08-22T19:15:57Z</updated>
+    <link href="https://arxiv.org/abs/2306.14062v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2306.14062v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The volume, variety, and velocity of change in vulnerabilities and exploits have made incident threat analysis challenging with human expertise and experience along. Tactics, Techniques, and Procedures (TTPs) are to describe how and why attackers exploit vulnerabilities. However, a TTP description written by one security professional can be interpreted very differently by another, leading to confusion in cybersecurity operations or even business, policy, and legal decisions. Meanwhile, advancements in AI have led to the increasing use of Natural Language Processing (NLP) algorithms to assist the various tasks in cyber operations. With the rise of Large Language Models (LLMs), NLP tasks have significantly improved because of the LLM's semantic understanding and scalability. This leads us to question how well LLMs can interpret TTPs or general cyberattack descriptions to inform analysts of the intended purposes of cyberattacks. We propose to analyze and compare the direct use of LLMs (e.g., GPT-3.5) versus supervised fine-tuning (SFT) of small-scale-LLMs (e.g., BERT) to study their capabilities in predicting ATT&amp;CK tactics. Our results reveal that the small-scale-LLMs with SFT provide a more focused and clearer differentiation between the ATT&amp;CK tactics (if such differentiation exists). On the other hand, direct use of LLMs offer a broader interpretation of cyberattack techniques. When treating more general cases, despite the power of LLMs, inherent ambiguity exists and limits their predictive power. We then summarize the challenges and recommend research directions on LLMs to treat the inherent ambiguity of TTP descriptions used in various cyber operations.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-06-24T21:08:15Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Reza Fayyazi</name>
+    </author>
+    <author>
+      <name>Shanchieh Jay Yang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2306.14027v2</id>
+    <title>(Security) Assertions by Large Language Models</title>
+    <updated>2024-07-09T21:08:06Z</updated>
+    <link href="https://arxiv.org/abs/2306.14027v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2306.14027v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The security of computer systems typically relies on a hardware root of trust. As vulnerabilities in hardware can have severe implications on a system, there is a need for techniques to support security verification activities. Assertion-based verification is a popular verification technique that involves capturing design intent in a set of assertions that can be used in formal verification or testing-based checking. However, writing security-centric assertions is a challenging task. In this work, we investigate the use of emerging large language models (LLMs) for code generation in hardware assertion generation for security, where primarily natural language prompts, such as those one would see as code comments in assertion files, are used to produce SystemVerilog assertions. We focus our attention on a popular LLM and characterize its ability to write assertions out of the box, given varying levels of detail in the prompt. We design an evaluation framework that generates a variety of prompts, and we create a benchmark suite comprising real-world hardware designs and corresponding golden reference assertions that we want to generate with the LLM.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-06-24T17:44:36Z</published>
+    <arxiv:comment>This article has been accepted for publication in IEEE Transactions on Information Forensics and Security. This is the author's version. See https://ieeexplore.ieee.org/document/10458667 for the published version of the paper. Citation information: DOI 10.1109/TIFS.2024.3372809. See https://www.ieee.org/publications/rights/index.html for information on publication rights</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <arxiv:journal_ref>IEEE Transactions on Information Forensics and Security. 2024 Mar 4</arxiv:journal_ref>
+    <author>
+      <name>Rahul Kande</name>
+      <arxiv:affiliation>Texas A&amp;M University</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Hammond Pearce</name>
+      <arxiv:affiliation>University of New South Wales</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Benjamin Tan</name>
+      <arxiv:affiliation>University of Calgary</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Brendan Dolan-Gavitt</name>
+      <arxiv:affiliation>New York University</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Shailja Thakur</name>
+      <arxiv:affiliation>New York University</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Ramesh Karri</name>
+      <arxiv:affiliation>New York University</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jeyavijayan Rajendran</name>
+      <arxiv:affiliation>Texas A&amp;M University</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1109/TIFS.2024.3372809</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/TIFS.2024.3372809" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2306.06199v1</id>
+    <title>Reliability Check: An Analysis of GPT-3's Response to Sensitive Topics and Prompt Wording</title>
+    <updated>2023-06-09T19:07:31Z</updated>
+    <link href="https://arxiv.org/abs/2306.06199v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2306.06199v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models (LLMs) have become mainstream technology with their versatile use cases and impressive performance. Despite the countless out-of-the-box applications, LLMs are still not reliable. A lot of work is being done to improve the factual accuracy, consistency, and ethical standards of these models through fine-tuning, prompting, and Reinforcement Learning with Human Feedback (RLHF), but no systematic analysis of the responses of these models to different categories of statements, or on their potential vulnerabilities to simple prompting changes is available. In this work, we analyze what confuses GPT-3: how the model responds to certain sensitive topics and what effects the prompt wording has on the model response. We find that GPT-3 correctly disagrees with obvious Conspiracies and Stereotypes but makes mistakes with common Misconceptions and Controversies. The model responses are inconsistent across prompts and settings, highlighting GPT-3's unreliability. Dataset and code of our analysis is available in https://github.com/tanny411/GPT3-Reliability-Check.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-06-09T19:07:31Z</published>
+    <arxiv:comment>Accepted in TrustNLP: Third Workshop on Trustworthy Natural Language Processing, co-located with ACL 2023</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Aisha Khatun</name>
+    </author>
+    <author>
+      <name>Daniel G. Brown</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2306.02612v1</id>
+    <title>Building Resilient SMEs: Harnessing Large Language Models for Cyber Security in Australia</title>
+    <updated>2023-06-05T06:01:00Z</updated>
+    <link href="https://arxiv.org/abs/2306.02612v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2306.02612v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The escalating digitalisation of our lives and enterprises has led to a parallel growth in the complexity and frequency of cyber-attacks. Small and medium-sized enterprises (SMEs), particularly in Australia, are experiencing increased vulnerability to cyber threats, posing a significant challenge to the nation's cyber security landscape. Embracing transformative technologies such as Artificial Intelligence (AI), Machine Learning (ML) and Large Language Models (LLMs) can potentially strengthen cyber security policies for Australian SMEs. However, their practical application, advantages, and limitations remain underexplored, with prior research mainly focusing on large corporations. This study aims to address this gap by providing a comprehensive understanding of the potential role of LLMs in enhancing cyber security policies for Australian SMEs. Employing a mixed-methods study design, this research includes a literature review, qualitative analysis of SME case studies, and a quantitative assessment of LLM performance metrics in cyber security applications. The findings highlight the promising potential of LLMs across various performance criteria, including relevance, accuracy, and applicability, though gaps remain in areas such as completeness and clarity. The study underlines the importance of integrating human expertise with LLM technology and refining model development to address these limitations. By proposing a robust conceptual framework guiding the effective adoption of LLMs, this research aims to contribute to a safer and more resilient cyber environment for Australian SMEs, enabling sustainable growth and competitiveness in the digital era.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-06-05T06:01:00Z</published>
+    <arxiv:comment>8 pages, 1 figure</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <arxiv:journal_ref>Journal of AI, Robotics &amp; Workplace Automation, Volume 3 / Number 1 / Autumn/Fall 2024, pp. 15-27(13)</arxiv:journal_ref>
+    <author>
+      <name>Benjamin Kereopa-Yorke</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2305.15594v1</id>
+    <title>Flocks of Stochastic Parrots: Differentially Private Prompt Learning for Large Language Models</title>
+    <updated>2023-05-24T22:06:08Z</updated>
+    <link href="https://arxiv.org/abs/2305.15594v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2305.15594v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models (LLMs) are excellent in-context learners. However, the sensitivity of data contained in prompts raises privacy concerns. Our work first shows that these concerns are valid: we instantiate a simple but highly effective membership inference attack against the data used to prompt LLMs. To address this vulnerability, one could forego prompting and resort to fine-tuning LLMs with known algorithms for private gradient descent. However, this comes at the expense of the practicality and efficiency offered by prompting. Therefore, we propose to privately learn to prompt. We first show that soft prompts can be obtained privately through gradient descent on downstream data. However, this is not the case for discrete prompts. Thus, we orchestrate a noisy vote among an ensemble of LLMs presented with different prompts, i.e., a flock of stochastic parrots. The vote privately transfers the flock's knowledge into a single public prompt. We show that LLMs prompted with our private algorithms closely match the non-private baselines. For example, using GPT3 as the base model, we achieve a downstream accuracy of 92.7% on the sst2 dataset with ($ε=0.147, δ=10^{-6}$)-differential privacy vs. 95.2% for the non-private baseline. Through our experiments, we also show that our prompt-based approach is easily deployed with existing commercial APIs.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-05-24T22:06:08Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Haonan Duan</name>
+    </author>
+    <author>
+      <name>Adam Dziedzic</name>
+    </author>
+    <author>
+      <name>Nicolas Papernot</name>
+    </author>
+    <author>
+      <name>Franziska Boenisch</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2305.14784v1</id>
+    <title>Anthropomorphization of AI: Opportunities and Risks</title>
+    <updated>2023-05-24T06:39:45Z</updated>
+    <link href="https://arxiv.org/abs/2305.14784v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2305.14784v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Anthropomorphization is the tendency to attribute human-like traits to non-human entities. It is prevalent in many social contexts -- children anthropomorphize toys, adults do so with brands, and it is a literary device. It is also a versatile tool in science, with behavioral psychology and evolutionary biology meticulously documenting its consequences. With widespread adoption of AI systems, and the push from stakeholders to make it human-like through alignment techniques, human voice, and pictorial avatars, the tendency for users to anthropomorphize it increases significantly. We take a dyadic approach to understanding this phenomenon with large language models (LLMs) by studying (1) the objective legal implications, as analyzed through the lens of the recent blueprint of AI bill of rights and the (2) subtle psychological aspects customization and anthropomorphization. We find that anthropomorphized LLMs customized for different user bases violate multiple provisions in the legislative blueprint. In addition, we point out that anthropomorphization of LLMs affects the influence they can have on their users, thus having the potential to fundamentally change the nature of human-AI interaction, with potential for manipulation and negative influence. With LLMs being hyper-personalized for vulnerable groups like children and patients among others, our work is a timely and important contribution. We propose a conservative strategy for the cautious use of anthropomorphization to improve trustworthiness of AI systems.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-05-24T06:39:45Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Ameet Deshpande</name>
+    </author>
+    <author>
+      <name>Tanmay Rajpurohit</name>
+    </author>
+    <author>
+      <name>Karthik Narasimhan</name>
+    </author>
+    <author>
+      <name>Ashwin Kalyan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2305.14752v2</id>
+    <title>A New Era in Software Security: Towards Self-Healing Software via Large Language Models and Formal Verification</title>
+    <updated>2024-06-27T18:40:19Z</updated>
+    <link href="https://arxiv.org/abs/2305.14752v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2305.14752v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper introduces an innovative approach that combines Large Language Models (LLMs) with Formal Verification strategies for automatic software vulnerability repair. Initially, we employ Bounded Model Checking (BMC) to identify vulnerabilities and extract counterexamples. These counterexamples are supported by mathematical proofs and the stack trace of the vulnerabilities. Using a specially designed prompt, we combine the original source code with the identified vulnerability, including its stack trace and counterexample that specifies the line number and error type. This combined information is then fed into an LLM, which is instructed to attempt to fix the code. The new code is subsequently verified again using BMC to ensure the fix succeeded. We present the ESBMC-AI framework as a proof of concept, leveraging the well-recognized and industry-adopted Efficient SMT-based Context-Bounded Model Checker (ESBMC) and a pre-trained transformer model to detect and fix errors in C programs, particularly in critical software components. We evaluated our approach on 50,000 C programs randomly selected from the FormAI dataset with their respective vulnerability classifications. Our results demonstrate ESBMC-AI's capability to automate the detection and repair of issues such as buffer overflow, arithmetic overflow, and pointer dereference failures with high accuracy. ESBMC-AI is a pioneering initiative, integrating LLMs with BMC techniques, offering potential integration into the continuous integration and deployment (CI/CD) process within the software development lifecycle.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.FL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-05-24T05:54:10Z</published>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Norbert Tihanyi</name>
+    </author>
+    <author>
+      <name>Ridhi Jain</name>
+    </author>
+    <author>
+      <name>Yiannis Charalambous</name>
+    </author>
+    <author>
+      <name>Mohamed Amine Ferrag</name>
+    </author>
+    <author>
+      <name>Youcheng Sun</name>
+    </author>
+    <author>
+      <name>Lucas C. Cordeiro</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2305.13954v3</id>
+    <title>Robust Prompt Optimization for Large Language Models Against Distribution Shifts</title>
+    <updated>2024-02-05T06:42:38Z</updated>
+    <link href="https://arxiv.org/abs/2305.13954v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2305.13954v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Model (LLM) has demonstrated significant ability in various Natural Language Processing tasks. However, their effectiveness is highly dependent on the phrasing of the task prompt, leading to research on automatic prompt optimization using labeled task data. We reveal that these prompt optimization techniques are vulnerable to distribution shifts such as subpopulation shifts, which are common for LLMs in real-world scenarios such as customer reviews analysis. In this light, we propose a new problem of robust prompt optimization for LLMs against distribution shifts, which requires the prompt optimized over the labeled source group can simultaneously generalize to an unlabeled target group. To solve this problem, we propose Generalized Prompt Optimization framework, which incorporates the unlabeled data from the target group into prompt optimization. Extensive experimental results demonstrate the effectiveness of the proposed framework with significant performance improvement on the target group and comparable performance on the source group.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-05-23T11:30:43Z</published>
+    <arxiv:comment>EMNLP 2023 Main</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Moxin Li</name>
+    </author>
+    <author>
+      <name>Wenjie Wang</name>
+    </author>
+    <author>
+      <name>Fuli Feng</name>
+    </author>
+    <author>
+      <name>Yixin Cao</name>
+    </author>
+    <author>
+      <name>Jizhi Zhang</name>
+    </author>
+    <author>
+      <name>Tat-Seng Chua</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2305.13733v2</id>
+    <title>Enhancing Large Language Models Against Inductive Instructions with Dual-critique Prompting</title>
+    <updated>2024-03-07T03:11:47Z</updated>
+    <link href="https://arxiv.org/abs/2305.13733v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2305.13733v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Numerous works are proposed to align large language models (LLMs) with human intents to better fulfill instructions, ensuring they are trustful and helpful. Nevertheless, some human instructions are often malicious or misleading and following them will lead to untruthful and unsafe responses. Previous work rarely focused on understanding how LLMs manage instructions based on counterfactual premises, referred to here as \textit{inductive instructions}, which may stem from users' false beliefs or malicious intents. In this paper, we aim to reveal the behaviors of LLMs towards \textit{inductive instructions} and enhance their truthfulness and helpfulness accordingly. Specifically, we first introduce a benchmark of \underline{\textbf{Indu}}ctive {In\underline{\textbf{st}}ruct}ions (\textsc{\textbf{INDust}}), where the false knowledge is incorporated into instructions in multiple different styles. After extensive human and automatic evaluations, we uncovered a universal vulnerability among LLMs in processing inductive instructions. Additionally, we identified that different inductive styles affect the models' ability to identify the same underlying errors, and the complexity of the underlying assumptions also influences the model's performance. Motivated by these results, we propose \textsc{Dual-critique} prompting to improve LLM robustness against inductive instructions. Our experiments demonstrate that \textsc{Dual-critique} prompting significantly bolsters the robustness of a diverse array of LLMs, even when confronted with varying degrees of inductive instruction complexity and differing inductive styles.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-05-23T06:38:20Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Rui Wang</name>
+    </author>
+    <author>
+      <name>Hongru Wang</name>
+    </author>
+    <author>
+      <name>Fei Mi</name>
+    </author>
+    <author>
+      <name>Yi Chen</name>
+    </author>
+    <author>
+      <name>Boyang Xue</name>
+    </author>
+    <author>
+      <name>Kam-Fai Wong</name>
+    </author>
+    <author>
+      <name>Ruifeng Xu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2305.11391v2</id>
+    <title>A Survey of Safety and Trustworthiness of Large Language Models through the Lens of Verification and Validation</title>
+    <updated>2023-08-27T13:12:30Z</updated>
+    <link href="https://arxiv.org/abs/2305.11391v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2305.11391v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Models (LLMs) have exploded a new heatwave of AI for their ability to engage end-users in human-level conversations with detailed and articulate answers across many knowledge domains. In response to their fast adoption in many industrial applications, this survey concerns their safety and trustworthiness. First, we review known vulnerabilities and limitations of the LLMs, categorising them into inherent issues, attacks, and unintended bugs. Then, we consider if and how the Verification and Validation (V&amp;V) techniques, which have been widely developed for traditional software and deep learning models such as convolutional neural networks as independent processes to check the alignment of their implementations against the specifications, can be integrated and further extended throughout the lifecycle of the LLMs to provide rigorous analysis to the safety and trustworthiness of LLMs and their applications. Specifically, we consider four complementary techniques: falsification and evaluation, verification, runtime monitoring, and regulations and ethical use. In total, 370+ references are considered to support the quick understanding of the safety and trustworthiness issues from the perspective of V&amp;V. While intensive research has been conducted to identify the safety and trustworthiness issues, rigorous yet practical methods are called for to ensure the alignment of LLMs with safety and trustworthiness requirements.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-05-19T02:41:12Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Xiaowei Huang</name>
+    </author>
+    <author>
+      <name>Wenjie Ruan</name>
+    </author>
+    <author>
+      <name>Wei Huang</name>
+    </author>
+    <author>
+      <name>Gaojie Jin</name>
+    </author>
+    <author>
+      <name>Yi Dong</name>
+    </author>
+    <author>
+      <name>Changshun Wu</name>
+    </author>
+    <author>
+      <name>Saddek Bensalem</name>
+    </author>
+    <author>
+      <name>Ronghui Mu</name>
+    </author>
+    <author>
+      <name>Yi Qi</name>
+    </author>
+    <author>
+      <name>Xingyu Zhao</name>
+    </author>
+    <author>
+      <name>Kaiwen Cai</name>
+    </author>
+    <author>
+      <name>Yanghao Zhang</name>
+    </author>
+    <author>
+      <name>Sihao Wu</name>
+    </author>
+    <author>
+      <name>Peipei Xu</name>
+    </author>
+    <author>
+      <name>Dengyu Wu</name>
+    </author>
+    <author>
+      <name>Andre Freitas</name>
+    </author>
+    <author>
+      <name>Mustafa A. Mustafa</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2305.10847v6</id>
+    <title>Large Language Models can be Guided to Evade AI-Generated Text Detection</title>
+    <updated>2024-05-15T08:00:09Z</updated>
+    <link href="https://arxiv.org/abs/2305.10847v6" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2305.10847v6" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models (LLMs) have shown remarkable performance in various tasks and have been extensively utilized by the public. However, the increasing concerns regarding the misuse of LLMs, such as plagiarism and spamming, have led to the development of multiple detectors, including fine-tuned classifiers and statistical methods. In this study, we equip LLMs with prompts, rather than relying on an external paraphraser, to evaluate the vulnerability of these detectors. We propose a novel Substitution-based In-Context example Optimization method (SICO) to automatically construct prompts for evading the detectors. SICO is cost-efficient as it requires only 40 human-written examples and a limited number of LLM inferences to generate a prompt. Moreover, once a task-specific prompt has been constructed, it can be universally used against a wide range of detectors. Extensive experiments across three real-world tasks demonstrate that SICO significantly outperforms the paraphraser baselines and enables GPT-3.5 to successfully evade six detectors, decreasing their AUC by 0.5 on average. Furthermore, a comprehensive human evaluation show that the SICO-generated text achieves human-level readability and task completion rates, while preserving high imperceptibility. Finally, we propose an ensemble approach to enhance the robustness of detectors against SICO attack. The code is publicly available at https://github.com/ColinLu50/Evade-GPT-Detector.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-05-18T10:03:25Z</published>
+    <arxiv:comment>TMLR camera ready</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Ning Lu</name>
+    </author>
+    <author>
+      <name>Shengcai Liu</name>
+    </author>
+    <author>
+      <name>Rui He</name>
+    </author>
+    <author>
+      <name>Qi Wang</name>
+    </author>
+    <author>
+      <name>Yew-Soon Ong</name>
+    </author>
+    <author>
+      <name>Ke Tang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2305.10036v3</id>
+    <title>Are You Copying My Model? Protecting the Copyright of Large Language Models for EaaS via Backdoor Watermark</title>
+    <updated>2023-06-02T06:56:29Z</updated>
+    <link href="https://arxiv.org/abs/2305.10036v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2305.10036v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models (LLMs) have demonstrated powerful capabilities in both text understanding and generation. Companies have begun to offer Embedding as a Service (EaaS) based on these LLMs, which can benefit various natural language processing (NLP) tasks for customers. However, previous studies have shown that EaaS is vulnerable to model extraction attacks, which can cause significant losses for the owners of LLMs, as training these models is extremely expensive. To protect the copyright of LLMs for EaaS, we propose an Embedding Watermark method called EmbMarker that implants backdoors on embeddings. Our method selects a group of moderate-frequency words from a general text corpus to form a trigger set, then selects a target embedding as the watermark, and inserts it into the embeddings of texts containing trigger words as the backdoor. The weight of insertion is proportional to the number of trigger words included in the text. This allows the watermark backdoor to be effectively transferred to EaaS-stealer's model for copyright verification while minimizing the adverse impact on the original embeddings' utility. Our extensive experiments on various datasets show that our method can effectively protect the copyright of EaaS models without compromising service quality.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-05-17T08:28:54Z</published>
+    <arxiv:comment>Accepted by ACL 2023</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Wenjun Peng</name>
+    </author>
+    <author>
+      <name>Jingwei Yi</name>
+    </author>
+    <author>
+      <name>Fangzhao Wu</name>
+    </author>
+    <author>
+      <name>Shangxi Wu</name>
+    </author>
+    <author>
+      <name>Bin Zhu</name>
+    </author>
+    <author>
+      <name>Lingjuan Lyu</name>
+    </author>
+    <author>
+      <name>Binxing Jiao</name>
+    </author>
+    <author>
+      <name>Tong Xu</name>
+    </author>
+    <author>
+      <name>Guangzhong Sun</name>
+    </author>
+    <author>
+      <name>Xing Xie</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2304.10778v2</id>
+    <title>Evaluating the Code Quality of AI-Assisted Code Generation Tools: An Empirical Study on GitHub Copilot, Amazon CodeWhisperer, and ChatGPT</title>
+    <updated>2023-10-22T01:48:39Z</updated>
+    <link href="https://arxiv.org/abs/2304.10778v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2304.10778v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Context: AI-assisted code generation tools have become increasingly prevalent in software engineering, offering the ability to generate code from natural language prompts or partial code inputs. Notable examples of these tools include GitHub Copilot, Amazon CodeWhisperer, and OpenAI's ChatGPT.
+  Objective: This study aims to compare the performance of these prominent code generation tools in terms of code quality metrics, such as Code Validity, Code Correctness, Code Security, Code Reliability, and Code Maintainability, to identify their strengths and shortcomings.
+  Method: We assess the code generation capabilities of GitHub Copilot, Amazon CodeWhisperer, and ChatGPT using the benchmark HumanEval Dataset. The generated code is then evaluated based on the proposed code quality metrics.
+  Results: Our analysis reveals that the latest versions of ChatGPT, GitHub Copilot, and Amazon CodeWhisperer generate correct code 65.2%, 46.3%, and 31.1% of the time, respectively. In comparison, the newer versions of GitHub CoPilot and Amazon CodeWhisperer showed improvement rates of 18% for GitHub Copilot and 7% for Amazon CodeWhisperer. The average technical debt, considering code smells, was found to be 8.9 minutes for ChatGPT, 9.1 minutes for GitHub Copilot, and 5.6 minutes for Amazon CodeWhisperer.
+  Conclusions: This study highlights the strengths and weaknesses of some of the most popular code generation tools, providing valuable insights for practitioners. By comparing these generators, our results may assist practitioners in selecting the optimal tool for specific tasks, enhancing their decision-making process.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-04-21T07:08:26Z</published>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Burak Yetiştiren</name>
+    </author>
+    <author>
+      <name>Işık Özsoy</name>
+    </author>
+    <author>
+      <name>Miray Ayerdem</name>
+    </author>
+    <author>
+      <name>Eray Tüzün</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2304.09655v2</id>
+    <title>How Secure is Code Generated by ChatGPT?</title>
+    <updated>2026-04-07T18:36:21Z</updated>
+    <link href="https://arxiv.org/abs/2304.09655v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2304.09655v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In recent years, large language models have been responsible for great advances in the field of artificial intelligence (AI). ChatGPT in particular, an AI chatbot developed and recently released by OpenAI, has taken the field to the next level. The conversational model is able not only to process human-like text, but also to translate natural language into code. However, the safety of programs generated by ChatGPT should not be overlooked. In this paper, we perform an experiment to address this issue. Specifically, we ask ChatGPT to generate a number of program and evaluate the security of the resulting source code. We further investigate whether ChatGPT can be prodded to improve the security by appropriate prompts, and discuss the ethical aspects of using AI to generate code. Results suggest that ChatGPT is aware of potential vulnerabilities, but nonetheless often generates source code that are not robust to certain attacks.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-04-19T13:45:01Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <arxiv:journal_ref>2023 IEEE International Conference on Systems, Man, and Cybernetics (SMC) October 1-4, 2023, Oahu, Hawaii, USA</arxiv:journal_ref>
+    <author>
+      <name>Raphaël Khoury</name>
+    </author>
+    <author>
+      <name>Anderson R. Avila</name>
+    </author>
+    <author>
+      <name>Jacob Brunelle</name>
+    </author>
+    <author>
+      <name>Baba Mamadou Camara</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2304.02014v1</id>
+    <title>Large Language Models are Edge-Case Fuzzers: Testing Deep Learning Libraries via FuzzGPT</title>
+    <updated>2023-04-04T17:59:52Z</updated>
+    <link href="https://arxiv.org/abs/2304.02014v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2304.02014v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Deep Learning (DL) library bugs affect downstream DL applications, emphasizing the need for reliable systems. Generating valid input programs for fuzzing DL libraries is challenging due to the need for satisfying both language syntax/semantics and constraints for constructing valid computational graphs. Recently, the TitanFuzz work demonstrates that modern Large Language Models (LLMs) can be directly leveraged to implicitly learn all the constraints to generate valid DL programs for fuzzing. However, LLMs tend to generate ordinary programs following similar patterns seen in their massive training corpora, while fuzzing favors unusual inputs that cover edge cases or are unlikely to be manually produced.
+  To fill this gap, this paper proposes FuzzGPT, the first technique to prime LLMs to synthesize unusual programs for fuzzing. FuzzGPT is built on the well-known hypothesis that historical bug-triggering programs may include rare/valuable code ingredients important for bug finding. Traditional techniques leveraging such historical information require intensive human efforts to design dedicated generators and ensure the validity of generated programs. FuzzGPT demonstrates that this process can be fully automated via the intrinsic capabilities of LLMs (including fine-tuning and in-context learning), while being generalizable and applicable to challenging domains. While FuzzGPT can be applied with different LLMs, this paper focuses on the powerful GPT-style models: Codex and CodeGen. Moreover, FuzzGPT also shows the potential of directly leveraging the instruct-following capability of the recent ChatGPT for effective fuzzing. Evaluation on two popular DL libraries (PyTorch and TensorFlow) shows that FuzzGPT can substantially outperform TitanFuzz, detecting 76 bugs, with 49 already confirmed as previously unknown bugs, including 11 high-priority bugs or security vulnerabilities.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-04-04T17:59:52Z</published>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Yinlin Deng</name>
+    </author>
+    <author>
+      <name>Chunqiu Steven Xia</name>
+    </author>
+    <author>
+      <name>Chenyuan Yang</name>
+    </author>
+    <author>
+      <name>Shizhuo Dylan Zhang</name>
+    </author>
+    <author>
+      <name>Shujing Yang</name>
+    </author>
+    <author>
+      <name>Lingming Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2303.11156v4</id>
+    <title>Can AI-Generated Text be Reliably Detected?</title>
+    <updated>2025-01-17T04:21:47Z</updated>
+    <link href="https://arxiv.org/abs/2303.11156v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2303.11156v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Models (LLMs) perform impressively well in various applications. However, the potential for misuse of these models in activities such as plagiarism, generating fake news, and spamming has raised concern about their responsible use. Consequently, the reliable detection of AI-generated text has become a critical area of research. AI text detectors have shown to be effective under their specific settings. In this paper, we stress-test the robustness of these AI text detectors in the presence of an attacker. We introduce recursive paraphrasing attack to stress test a wide range of detection schemes, including the ones using the watermarking as well as neural network-based detectors, zero shot classifiers, and retrieval-based detectors. Our experiments conducted on passages, each approximately 300 tokens long, reveal the varying sensitivities of these detectors to our attacks. Our findings indicate that while our recursive paraphrasing method can significantly reduce detection rates, it only slightly degrades text quality in many cases, highlighting potential vulnerabilities in current detection systems in the presence of an attacker. Additionally, we investigate the susceptibility of watermarked LLMs to spoofing attacks aimed at misclassifying human-written text as AI-generated. We demonstrate that an attacker can infer hidden AI text signatures without white-box access to the detection method, potentially leading to reputational risks for LLM developers. Finally, we provide a theoretical framework connecting the AUROC of the best possible detector to the Total Variation distance between human and AI text distributions. This analysis offers insights into the fundamental challenges of reliable detection as language models continue to advance. Our code is publicly available at https://github.com/vinusankars/Reliability-of-AI-text-detectors.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-03-17T17:53:19Z</published>
+    <arxiv:comment>Published in Transactions on Machine Learning Research (TMLR)</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Vinu Sankar Sadasivan</name>
+    </author>
+    <author>
+      <name>Aounon Kumar</name>
+    </author>
+    <author>
+      <name>Sriram Balasubramanian</name>
+    </author>
+    <author>
+      <name>Wenxiao Wang</name>
+    </author>
+    <author>
+      <name>Soheil Feizi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2301.12868v3</id>
+    <title>On Robustness of Prompt-based Semantic Parsing with Large Pre-trained Language Model: An Empirical Study on Codex</title>
+    <updated>2023-03-09T11:01:02Z</updated>
+    <link href="https://arxiv.org/abs/2301.12868v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2301.12868v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Semantic parsing is a technique aimed at constructing a structured representation of the meaning of a natural-language question. Recent advancements in few-shot language models trained on code have demonstrated superior performance in generating these representations compared to traditional unimodal language models, which are trained on downstream tasks. Despite these advancements, existing fine-tuned neural semantic parsers are susceptible to adversarial attacks on natural-language inputs. While it has been established that the robustness of smaller semantic parsers can be enhanced through adversarial training, this approach is not feasible for large language models in real-world scenarios, as it requires both substantial computational resources and expensive human annotation on in-domain semantic parsing data. This paper presents the first empirical study on the adversarial robustness of a large prompt-based language model of code, \codex. Our results demonstrate that the state-of-the-art (SOTA) code-language models are vulnerable to carefully crafted adversarial examples. To address this challenge, we propose methods for improving robustness without the need for significant amounts of labeled data or heavy computational resources.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-01-30T13:21:00Z</published>
+    <arxiv:comment>Accepted at EACL2023 (main)</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Terry Yue Zhuo</name>
+    </author>
+    <author>
+      <name>Zhuang Li</name>
+    </author>
+    <author>
+      <name>Yujin Huang</name>
+    </author>
+    <author>
+      <name>Fatemeh Shiri</name>
+    </author>
+    <author>
+      <name>Weiqing Wang</name>
+    </author>
+    <author>
+      <name>Gholamreza Haffari</name>
+    </author>
+    <author>
+      <name>Yuan-Fang Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2212.09561v5</id>
+    <title>Large Language Models are Better Reasoners with Self-Verification</title>
+    <updated>2023-10-19T12:24:42Z</updated>
+    <link href="https://arxiv.org/abs/2212.09561v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2212.09561v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recently, with the chain of thought (CoT) prompting, large language models (LLMs), e.g., GPT-3, have shown strong reasoning ability in several natural language processing tasks such as arithmetic, commonsense, and logical reasoning. However, LLMs with CoT require multi-step prompting and multi-token prediction, which is highly sensitive to individual mistakes and vulnerable to error accumulation. The above issues make the LLMs need the ability to verify the answers. In fact, after inferring conclusions in some thinking decision tasks, people often check them by re-verifying steps to avoid some mistakes. In this paper, we propose and prove that LLMs also have similar self-verification abilities. We take the conclusion obtained by CoT as one of the conditions for solving the original problem. By performing a backward verification of the answers that LLM deduced for itself, we can obtain interpretable answer validation scores to select the candidate answer with the highest score. Experimental results demonstrate that the proposed method can improve the reasoning performance on various arithmetic, commonsense, and logical reasoning datasets. Our code is publicly available at: https://github.com/WENGSYX/Self-Verification.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-12-19T15:51:52Z</published>
+    <arxiv:comment>Accept in EMNLP 2023 Findings</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Yixuan Weng</name>
+    </author>
+    <author>
+      <name>Minjun Zhu</name>
+    </author>
+    <author>
+      <name>Fei Xia</name>
+    </author>
+    <author>
+      <name>Bin Li</name>
+    </author>
+    <author>
+      <name>Shizhu He</name>
+    </author>
+    <author>
+      <name>Shengping Liu</name>
+    </author>
+    <author>
+      <name>Bin Sun</name>
+    </author>
+    <author>
+      <name>Kang Liu</name>
+    </author>
+    <author>
+      <name>Jun Zhao</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2212.03551v5</id>
+    <title>Talking About Large Language Models</title>
+    <updated>2023-02-16T14:44:31Z</updated>
+    <link href="https://arxiv.org/abs/2212.03551v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2212.03551v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Thanks to rapid progress in artificial intelligence, we have entered an era when technology and philosophy intersect in interesting ways. Sitting squarely at the centre of this intersection are large language models (LLMs). The more adept LLMs become at mimicking human language, the more vulnerable we become to anthropomorphism, to seeing the systems in which they are embedded as more human-like than they really are. This trend is amplified by the natural tendency to use philosophically loaded terms, such as "knows", "believes", and "thinks", when describing these systems. To mitigate this trend, this paper advocates the practice of repeatedly stepping back to remind ourselves of how LLMs, and the systems of which they form a part, actually work. The hope is that increased scientific precision will encourage more philosophical nuance in the discourse around artificial intelligence, both within the field and in the public sphere.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-12-07T10:01:44Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Murray Shanahan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2210.04359v3</id>
+    <title>Fine-Grained Detection of Solidarity for Women and Migrants in 155 Years of German Parliamentary Debates</title>
+    <updated>2024-11-21T13:06:53Z</updated>
+    <link href="https://arxiv.org/abs/2210.04359v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2210.04359v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Solidarity is a crucial concept to understand social relations in societies. In this paper, we explore fine-grained solidarity frames to study solidarity towards women and migrants in German parliamentary debates between 1867 and 2022. Using 2,864 manually annotated text snippets (with a cost exceeding 18k Euro), we evaluate large language models (LLMs) like Llama 3, GPT-3.5, and GPT-4. We find that GPT-4 outperforms other LLMs, approaching human annotation quality. Using GPT-4, we automatically annotate more than 18k further instances (with a cost of around 500 Euro) across 155 years and find that solidarity with migrants outweighs anti-solidarity but that frequencies and solidarity types shift over time. Most importantly, group-based notions of (anti-)solidarity fade in favor of compassionate solidarity, focusing on the vulnerability of migrant groups, and exchange-based anti-solidarity, focusing on the lack of (economic) contribution. Our study highlights the interplay of historical events, socio-economic needs, and political ideologies in shaping migration discourse and social cohesion. We also show that powerful LLMs, if carefully prompted, can be cost-effective alternatives to human annotation for hard social scientific tasks.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-10-09T22:02:58Z</published>
+    <arxiv:comment>EMNLP 2024 (Main Conference) Camera-Ready Version</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Aida Kostikova</name>
+    </author>
+    <author>
+      <name>Benjamin Paassen</name>
+    </author>
+    <author>
+      <name>Dominik Beese</name>
+    </author>
+    <author>
+      <name>Ole Pütz</name>
+    </author>
+    <author>
+      <name>Gregor Wiedemann</name>
+    </author>
+    <author>
+      <name>Steffen Eger</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2112.02125v3</id>
+    <title>Examining Zero-Shot Vulnerability Repair with Large Language Models</title>
+    <updated>2022-08-15T15:50:24Z</updated>
+    <link href="https://arxiv.org/abs/2112.02125v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2112.02125v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Human developers can produce code with cybersecurity bugs. Can emerging 'smart' code completion tools help repair those bugs? In this work, we examine the use of large language models (LLMs) for code (such as OpenAI's Codex and AI21's Jurassic J-1) for zero-shot vulnerability repair. We investigate challenges in the design of prompts that coax LLMs into generating repaired versions of insecure code. This is difficult due to the numerous ways to phrase key information - both semantically and syntactically - with natural languages. We perform a large scale study of five commercially available, black-box, "off-the-shelf" LLMs, as well as an open-source model and our own locally-trained model, on a mix of synthetic, hand-crafted, and real-world security bug scenarios. Our experiments demonstrate that while the approach has promise (the LLMs could collectively repair 100% of our synthetically generated and hand-crafted scenarios), a qualitative evaluation of the model's performance over a corpus of historical real-world examples highlights challenges in generating functionally correct code.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-12-03T19:15:02Z</published>
+    <arxiv:comment>18 pages, 19 figures. Accepted for publication in 2023 IEEE Symposium on Security and Privacy (SP)</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Hammond Pearce</name>
+    </author>
+    <author>
+      <name>Benjamin Tan</name>
+    </author>
+    <author>
+      <name>Baleegh Ahmad</name>
+    </author>
+    <author>
+      <name>Ramesh Karri</name>
+    </author>
+    <author>
+      <name>Brendan Dolan-Gavitt</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,32 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:08:01.093515Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://zenodo.org/records/21917081",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://doi.org/10.5281/zenodo.21917081"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:08:02.924313Z",
+      "basis": "citation_pdf_url_metadata",
+      "bytes": 164208,
+      "content_type": "application/octet-stream, application/octet-stream",
+      "final_url": "https://zenodo.org/records/21917081/files/SCR_English_Formal_v2.6.2.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "sha256": "113d2ac36a5074bbc9edf7a6847b92ff208b673ae310e8b54f7d4e7853ccaadd",
+      "url": "https://zenodo.org/records/21917081/files/SCR_English_Formal_v2.6.2.pdf"
+    }
+  ],
+  "bytes": 164208,
+  "family_id": "FAM-799a9bd3743628634d43",
+  "lawful_access_basis": "citation_pdf_url_metadata",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-799a9bd3743628634d43.pdf",
+  "pdf_sha256": "113d2ac36a5074bbc9edf7a6847b92ff208b673ae310e8b54f7d4e7853ccaadd",
+  "representative_canonical_id": "CAN-f90f39201b89eaf046aa",
+  "retrieved_url": "https://zenodo.org/records/21917081/files/SCR_English_Formal_v2.6.2.pdf",
+  "status": "retrieved_open"
+}

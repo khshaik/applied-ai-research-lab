@@ -1,0 +1,366 @@
+{
+  "decisions": [
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Dataflow-compilation architecture is outside the strict S8 human-work and estimation boundary.",
+      "source_id": "00ffefb0c86e0ff7338e7f0e41a4990eac576602"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Code-LLM Trojan study is GenAI security evidence, not foundational comparison evidence.",
+      "source_id": "011e10d8de4cce18497731c6f1ef1081d96c8380"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Software-product-line transformation paper does not address S8 constructs in metadata.",
+      "source_id": "014fc4f12c9e001a8505014596162d31fa209902"
+    },
+    {
+      "decision": "uncertain",
+      "reason": "Software-process innovation adoption may bear on productivity, but no abstract is available for a substantive judgment.",
+      "source_id": "02d2921b53cdc39882207391767ce6fd0dd61466"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Processor architecture record has no metadata-level S8 construct contribution.",
+      "source_id": "04646118a1a298787dcc85876dd006e56e639dc3"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Empirically characterizes differing developer perceptions of productivity.",
+      "source_id": "0519d73c2dfc11a6a785dc360c050f7774ec476d"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Evaluates self-monitoring and goal-setting interventions for software-developer productivity.",
+      "source_id": "05382d442d5fb1ea62bf9240fd002648bdafd198"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Directly compares effort-estimate accuracy from function points and Story Points.",
+      "source_id": "062b8010b53efb61fb812fd7e2cbf06902a36566"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Embedded-component reuse is outside the strict S8 boundary in the available metadata.",
+      "source_id": "0698e24388422628e9ab7033d1aa382d4cccdb26"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Empirically studies programming-language fragmentation and developer productivity.",
+      "source_id": "06f4c7c3a984b7d4c44a7a7cc7ff82473b50489f"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "LLM-tool benchmark is GenAI primary evidence, not foundational comparator evidence.",
+      "source_id": "0e0335d1ab782c0b5129646067252d0361e1b139"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Automated story-point reasoning model does not test human estimate validity or burden.",
+      "source_id": "327a795a7ef9553a7f56a273c513b76b2abde3af"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Object-relational transformation component method is unrelated to the S8 constructs.",
+      "source_id": "37a47e39f613eeafae605266b5842dbd3a8594f9"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Memory-attribution tooling does not analyze developer workload, productivity measurement, or estimation.",
+      "source_id": "39202788bfab8988696bb19257f6d59aa7625dc1"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Measures code-transfer succession and developer productivity in software projects.",
+      "source_id": "4a1b6f55fec74b4df8e2198f2f30f9c6b5190b0b"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Syntax-highlighting method invokes productivity but does not measure developer work.",
+      "source_id": "4b51eceafd8f948cf1480be8973da73657dbd278"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "AI code-review assistant belongs to GenAI review evidence rather than foundational S8 evidence.",
+      "source_id": "54fcf4e17c46cbcbb202b76f315c48deffeccf07"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "GPU-library implementation is outside software-work measurement and planning.",
+      "source_id": "6380fcb44c08244abd3e35ac420158ed9ad523bb"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Compares developer and manager perceptions of function points and source lines as productivity measures.",
+      "source_id": "638c6b7db13c5dbdd2c275843425a234838228b2"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "GenAI productivity meta-analysis belongs to the primary/secondary GenAI evidence strata, not S8.",
+      "source_id": "66638a0a271bd513900d5fccbe65194a9462a7ba"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "HPC performance-portability repository concerns application performance rather than developer productivity.",
+      "source_id": "676392388b5fe676511c34dc7ca622b3c647fa7e"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Implements a GitLab-based dashboard explicitly intended to measure team developer productivity.",
+      "source_id": "82441b36ae5794cd7f86415cb77a7f7f16afafbf"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Large-scale LLM code-generation method is GenAI technical evidence, not S8.",
+      "source_id": "8519654dd8c31445e40eb6e92a88fa1fe70e995c"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Source-code search infrastructure does not substantively analyze the S8 constructs.",
+      "source_id": "8adf6187f8e3b5fc5a617c590a5625bb5fd67ee8"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Empirically examines gender differences in software-developer productivity across countries.",
+      "source_id": "9f66c880196bad13039193f42c182a0a592e5ca7"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Studies how human modern code review affects software-design degradation.",
+      "source_id": "9ffecaf51f7e1790808d604994d262b5b635715a"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Automatic review ordering is technical automation without a substantive human-work measure in metadata.",
+      "source_id": "a24bbe46cfdd4c0a0c44800aab8bd86a92444699"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Software-engineering education study is outside the main foundational software-work scope.",
+      "source_id": "adab05dd574739aa9184931d47d6b7ceb72e080d"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Database optimization research is unrelated to S8 constructs.",
+      "source_id": "b4e6fd6cdc3cc574c0fc99999951451fe9a1d410"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Sensor-network development environment is a technical tool paper without S8 measurement evidence.",
+      "source_id": "c2b16b56da3adca34ef41b9ee300ce9ef7f28cee"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Graph-query performance prediction concerns system performance, not developer productivity.",
+      "source_id": "c6cd4c06afcdc0ad4778778cee4770240320cc2c"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Micro-frontend architecture paper lacks a human productivity, estimation, review, or flow measure.",
+      "source_id": "ce81f7f5fb9740045e5177155ef8de90b317bba3"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Copilot evidence review belongs to the GenAI evidence strata, not the foundational comparator stratum.",
+      "source_id": "d713d992ba280e240191d940ba239f4d2c7b1809"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Parallel-computing model is outside developer-work measurement.",
+      "source_id": "db0102468d778354a56cf7f5ab5c756a770bf25d"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Instruction-set simulator generation is technical performance work, not S8.",
+      "source_id": "e2654bf6e8fc03c10c7a72f60c3a945196b771ce"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "GPU solver porting evaluates computational performance rather than developer work.",
+      "source_id": "e6f5d989dc9a4c80d92e93b127a30fffe5c7365c"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Reverse-engineering Copilot endpoint is a tool implementation without an S8 construct analysis.",
+      "source_id": "f169b104c6dede6f079009ce719dd94f10ebc95f"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Empirically identifies which problems human modern code reviews fix.",
+      "source_id": "f2f42dc3d713139948544860ac0caa446ae0c23c"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Agentic formal verification is GenAI technical evidence and outside foundational S8.",
+      "source_id": "f743c1ce8e2c12bda1bdc0df9b9988433443a559"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Canonical NASA-TLX retrospective multidimensional workload reference.",
+      "source_id": "fcb719ddcb11ed708ffda98122154376f9737c07"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Android security-policy workflow paper lacks a general workload or productivity measure.",
+      "source_id": "fcbb70d8cfbad155a41377c5a6dc69fd756f340d"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Generic programming-model record provides no metadata-level S8 contribution.",
+      "source_id": "fd5de46d745bc4286a17757fc09e4eeb3d20d9fc"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Arabic code-summarization evaluation is GenAI technical evidence, not S8.",
+      "source_id": "fdb2f70dc93630c02a4f9113d039f9d96ef0b2f6"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "OpenACC compiler-extension experience is outside S8 constructs.",
+      "source_id": "fdbbb45c0f7827816a065f96f5fb04e268d3b56f"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Empirically examines how developers and managers define and trade productivity against quality.",
+      "source_id": "fe071413276820ea7618bfce3ec0bf5710f8f822"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Extends planning poker for effort estimation and explicitly considers developer productivity.",
+      "source_id": "fe345758f1f65e584f03d836a114fdfc4e571644"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "DSL acceleration evaluates application performance; productivity is only motivational.",
+      "source_id": "fe8493809c30549c4c319ef71fb35cafe5b27167"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Automated story-point prediction does not examine human estimate validity or burden.",
+      "source_id": "fe90a0039ce176ca88774fea4b4af24cc2326a09"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Enterprise AI-productivity evaluation belongs to GenAI evidence rather than foundational S8.",
+      "source_id": "ff5615eaaf50fff2b1e4e842e6cfa5b1f063d326"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Proposes a comprehensive measurement approach for software-developer productivity and teamwork.",
+      "source_id": "ffba3712dafdfaced6dc3465cd3778c4bbd58540"
+    }
+  ],
+  "family_id": "S8",
+  "interpretation_boundary": "Metadata-level deterministic query appraisal only; not systematic screening, eligibility, or PRISMA evidence.",
+  "ordered_sample_source_ids": [
+    "00ffefb0c86e0ff7338e7f0e41a4990eac576602",
+    "011e10d8de4cce18497731c6f1ef1081d96c8380",
+    "014fc4f12c9e001a8505014596162d31fa209902",
+    "02d2921b53cdc39882207391767ce6fd0dd61466",
+    "04646118a1a298787dcc85876dd006e56e639dc3",
+    "0519d73c2dfc11a6a785dc360c050f7774ec476d",
+    "05382d442d5fb1ea62bf9240fd002648bdafd198",
+    "062b8010b53efb61fb812fd7e2cbf06902a36566",
+    "0698e24388422628e9ab7033d1aa382d4cccdb26",
+    "06f4c7c3a984b7d4c44a7a7cc7ff82473b50489f",
+    "0e0335d1ab782c0b5129646067252d0361e1b139",
+    "327a795a7ef9553a7f56a273c513b76b2abde3af",
+    "37a47e39f613eeafae605266b5842dbd3a8594f9",
+    "39202788bfab8988696bb19257f6d59aa7625dc1",
+    "4a1b6f55fec74b4df8e2198f2f30f9c6b5190b0b",
+    "4b51eceafd8f948cf1480be8973da73657dbd278",
+    "54fcf4e17c46cbcbb202b76f315c48deffeccf07",
+    "6380fcb44c08244abd3e35ac420158ed9ad523bb",
+    "638c6b7db13c5dbdd2c275843425a234838228b2",
+    "66638a0a271bd513900d5fccbe65194a9462a7ba",
+    "676392388b5fe676511c34dc7ca622b3c647fa7e",
+    "82441b36ae5794cd7f86415cb77a7f7f16afafbf",
+    "8519654dd8c31445e40eb6e92a88fa1fe70e995c",
+    "8adf6187f8e3b5fc5a617c590a5625bb5fd67ee8",
+    "9f66c880196bad13039193f42c182a0a592e5ca7",
+    "9ffecaf51f7e1790808d604994d262b5b635715a",
+    "a24bbe46cfdd4c0a0c44800aab8bd86a92444699",
+    "adab05dd574739aa9184931d47d6b7ceb72e080d",
+    "b4e6fd6cdc3cc574c0fc99999951451fe9a1d410",
+    "c2b16b56da3adca34ef41b9ee300ce9ef7f28cee",
+    "c6cd4c06afcdc0ad4778778cee4770240320cc2c",
+    "ce81f7f5fb9740045e5177155ef8de90b317bba3",
+    "d713d992ba280e240191d940ba239f4d2c7b1809",
+    "db0102468d778354a56cf7f5ab5c756a770bf25d",
+    "e2654bf6e8fc03c10c7a72f60c3a945196b771ce",
+    "e6f5d989dc9a4c80d92e93b127a30fffe5c7365c",
+    "f169b104c6dede6f079009ce719dd94f10ebc95f",
+    "f2f42dc3d713139948544860ac0caa446ae0c23c",
+    "f743c1ce8e2c12bda1bdc0df9b9988433443a559",
+    "fcb719ddcb11ed708ffda98122154376f9737c07",
+    "fcbb70d8cfbad155a41377c5a6dc69fd756f340d",
+    "fd5de46d745bc4286a17757fc09e4eeb3d20d9fc",
+    "fdb2f70dc93630c02a4f9113d039f9d96ef0b2f6",
+    "fdbbb45c0f7827816a065f96f5fb04e268d3b56f",
+    "fe071413276820ea7618bfce3ec0bf5710f8f822",
+    "fe345758f1f65e584f03d836a114fdfc4e571644",
+    "fe8493809c30549c4c319ef71fb35cafe5b27167",
+    "fe90a0039ce176ca88774fea4b4af24cc2326a09",
+    "ff5615eaaf50fff2b1e4e842e6cfa5b1f063d326",
+    "ffba3712dafdfaced6dc3465cd3778c4bbd58540"
+  ],
+  "query_id": "S2-S8R4",
+  "query_version": "0.4",
+  "sample_positions_zero_based": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    25,
+    112,
+    123,
+    127,
+    174,
+    178,
+    207,
+    249,
+    250,
+    257,
+    261,
+    324,
+    332,
+    348,
+    391,
+    393,
+    399,
+    422,
+    444,
+    474,
+    482,
+    492,
+    508,
+    519,
+    536,
+    545,
+    567,
+    577,
+    594,
+    607,
+    608,
+    609,
+    610,
+    611,
+    612,
+    613,
+    614,
+    615,
+    616,
+    617
+  ],
+  "sampling_seed_sha256": "f7ef5cb38dd47151afc8c4fdf4426f290f8907d2da3515c7fcde936a69678576",
+  "source": "semantic_scholar",
+  "status": "development_query_control_decisions",
+  "strict_rule": "Likely relevant only when metadata substantively addresses software estimation validity, developer-productivity measurement, human code-review work, workload measurement boundaries, or software delivery flow/queue foundations; generic tool/system performance and technical automation alone are insufficient."
+}

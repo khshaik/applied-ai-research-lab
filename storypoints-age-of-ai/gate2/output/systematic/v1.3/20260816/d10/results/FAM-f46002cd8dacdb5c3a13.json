@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 382255,
+      "content_type": "application/pdf",
+      "final_url": "https://ioinformatic.org/index.php/JAIEA/article/download/2431/1667",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "4d3a307a202c951c305b8e7bb709ad963dc46c318109a2315626ce6331f3d42b",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://ioinformatic.org/index.php/JAIEA/article/download/2431/1667"
+    }
+  ],
+  "bytes": 382255,
+  "family_id": "FAM-f46002cd8dacdb5c3a13",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-f46002cd8dacdb5c3a13.pdf",
+  "pdf_sha256": "4d3a307a202c951c305b8e7bb709ad963dc46c318109a2315626ce6331f3d42b",
+  "representative_canonical_id": "CAN-dfb9299646d2008708c7",
+  "retrieved_url": "https://ioinformatic.org/index.php/JAIEA/article/download/2431/1667",
+  "status": "retrieved_open"
+}

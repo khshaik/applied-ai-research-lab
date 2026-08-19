@@ -1,0 +1,32 @@
+{
+  "complete_pagination": false,
+  "endpoint": "https://api.crossref.org/works",
+  "executed_at_utc": "2026-08-15T08:35:51.784927+00:00",
+  "from_date": "2019-01-01",
+  "interpretation_boundary": "Open-index development discovery export; not frozen, screened, deduplicated, eligible, or a PRISMA corpus. Retrieval was intentionally capped; total_reported is API metadata, not an exported-record or review-flow count.",
+  "max_pages": 1,
+  "page_size": 100,
+  "pages": [
+    {
+      "file": "page_00000.json",
+      "records": 100,
+      "request_url_sha256": "9ff2e2711afd3b391098e3052784e35ae652fdf7a93caf566cc680cd9b028918",
+      "sequence": 0,
+      "sha256": "913af77915d98cf382d7989af45bdf546a3e14818d0d8b27c68ae79ae2b14a15"
+    }
+  ],
+  "query": "story points software effort estimation large language models generative AI",
+  "query_id": "CR-S3",
+  "query_registry_sha256": "f7357f76416890262b2d2a620ca7fcf7044316f15106c43cdcf912001534f557",
+  "query_sha256": "e661528e9c311e82c990bd7f36dee8701dff4e69662917be1c436cbb0fdbc02f",
+  "records_csv": {
+    "file": "records.csv",
+    "sha256": "3f5434166832f3703357cd16da14e988fe601229eefccde7a9558328ee17fc27"
+  },
+  "records_retrieved": 100,
+  "retrieval_scope": "truncated_development_pilot",
+  "source": "crossref",
+  "status": "development_pilot",
+  "to_date": "2026-08-15",
+  "total_reported": 163615
+}

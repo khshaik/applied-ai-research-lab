@@ -1,0 +1,69 @@
+{
+  "criteria": {
+    "borderline": "Include requirements/architecture/testing/review/security/operations only when human work or lifecycle evidence is relevant. Technical quality evidence may support assurance/readiness/rework/risk but cannot validate human workload.",
+    "exclusion": {
+      "E1": "non-software domain without transferable SE construct",
+      "E10": "building AI/ML products rather than AI assistance in software delivery",
+      "E2": "code-generation benchmark only, without human/process/delivery implication",
+      "E3": "education-only without validated professional transfer",
+      "E4": "opinion/marketing/news without traceable evidence or construct",
+      "E5": "abstract/poster/slides only",
+      "E6": "duplicate or superseded version",
+      "E7": "non-English without reliable translation",
+      "E8": "claimed empirical result has no transparent method",
+      "E9": "traditional Story-Point prediction only, without evidence that AI changes work or estimation validity"
+    },
+    "inclusion": {
+      "I1": "professional or realistically simulated software engineering/development/delivery",
+      "I2": "generative AI, LLM assistant, or agentic coding system is material",
+      "I3": "measures, models, or substantively analyzes human work, planning, readiness, flow, oversight, or quality consequences",
+      "I4": "inspectable method, framework definition, dataset, or evidence trail",
+      "I5": "English full text available",
+      "I6": "within date window or intentionally foundational",
+      "I7": "most complete accessible study version"
+    }
+  },
+  "disposition_manifest_sha256": "506d4210a1386752f58a165f239dbeeeb60e2a0484e992345983e95b416f9925",
+  "family_count": 337,
+  "input_checksum": "9784507e3480cb6026635b831b2f91f7a497a9584c2ebeee3f1bf20a24206483",
+  "pipeline_version": "d14-fulltext-screening/1.0.0",
+  "security_boundary": "Checksum-bound static text only; no network, Git/history, credentials, PDF execution, or private systems.",
+  "shards": [
+    {
+      "path": "/Users/81194246/Library/CloudStorage/OneDrive-Pepsico/Personal/AI/Projects/ThinkAI/storypoints-age-of-ai/gate2/output/systematic/v1.3/20260816/d14/fulltext_screening/packet/packet_01.jsonl",
+      "row_count": 50,
+      "sha256": "88453617d6d2a180ff109cd8c304d9c9fd1ab0d607f26c5ee1aa2e2c1ee2e1d8"
+    },
+    {
+      "path": "/Users/81194246/Library/CloudStorage/OneDrive-Pepsico/Personal/AI/Projects/ThinkAI/storypoints-age-of-ai/gate2/output/systematic/v1.3/20260816/d14/fulltext_screening/packet/packet_02.jsonl",
+      "row_count": 50,
+      "sha256": "ec63b11f6c8e5c43c7b1e767cc188477d6e43bbd6f9eefd4cc094ce30a8f495b"
+    },
+    {
+      "path": "/Users/81194246/Library/CloudStorage/OneDrive-Pepsico/Personal/AI/Projects/ThinkAI/storypoints-age-of-ai/gate2/output/systematic/v1.3/20260816/d14/fulltext_screening/packet/packet_03.jsonl",
+      "row_count": 50,
+      "sha256": "9256f1dc57cc96ddbde78ce511b4222886b5834a5d1259821166ffa9586cad6c"
+    },
+    {
+      "path": "/Users/81194246/Library/CloudStorage/OneDrive-Pepsico/Personal/AI/Projects/ThinkAI/storypoints-age-of-ai/gate2/output/systematic/v1.3/20260816/d14/fulltext_screening/packet/packet_04.jsonl",
+      "row_count": 50,
+      "sha256": "43585a2d8a099f487cc4814a9a6fd92f3a8fe817a43f50dcec177bec39be7ba9"
+    },
+    {
+      "path": "/Users/81194246/Library/CloudStorage/OneDrive-Pepsico/Personal/AI/Projects/ThinkAI/storypoints-age-of-ai/gate2/output/systematic/v1.3/20260816/d14/fulltext_screening/packet/packet_05.jsonl",
+      "row_count": 50,
+      "sha256": "2feeda37501c2e13718df3c18d6c70cf971579936a2fe0ac5b83b24c71d8ece8"
+    },
+    {
+      "path": "/Users/81194246/Library/CloudStorage/OneDrive-Pepsico/Personal/AI/Projects/ThinkAI/storypoints-age-of-ai/gate2/output/systematic/v1.3/20260816/d14/fulltext_screening/packet/packet_06.jsonl",
+      "row_count": 50,
+      "sha256": "4db1fb2edb635798a973b24a2237b2fda1d984961af5d058b526ae7e220b7c28"
+    },
+    {
+      "path": "/Users/81194246/Library/CloudStorage/OneDrive-Pepsico/Personal/AI/Projects/ThinkAI/storypoints-age-of-ai/gate2/output/systematic/v1.3/20260816/d14/fulltext_screening/packet/packet_07.jsonl",
+      "row_count": 37,
+      "sha256": "4a1e8444f0f6dd48a714853d0afac5b8067f4383d7aee5bc9b8a4f135f200b6e"
+    }
+  ],
+  "status": "d14_fulltext_packet_complete"
+}

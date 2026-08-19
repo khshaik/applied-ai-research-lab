@@ -1,0 +1,32 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:10:22.615899Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html;charset=utf-8",
+      "final_url": "https://trepo.tuni.fi/handle/10024/236067",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://trepo.tuni.fi/handle/10024/236067"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:10:24.030887Z",
+      "basis": "citation_pdf_url_metadata",
+      "bytes": 1784535,
+      "content_type": "application/pdf;charset=UTF-8",
+      "final_url": "https://trepo.tuni.fi/bitstream/handle/10024/236067/KatainenDan.pdf;jsessionid=6C52DFF969AF4C22EFA4993CFF15EE4C?sequence=2",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "sha256": "cd63d0ebc0f324c755b7524e733ae72158400849ebd1f7fce144fe7863bdf897",
+      "url": "https://trepo.tuni.fi/bitstream/10024/236067/2/KatainenDan.pdf"
+    }
+  ],
+  "bytes": 1784535,
+  "family_id": "FAM-882b72b4d90d3c59c499",
+  "lawful_access_basis": "citation_pdf_url_metadata",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-882b72b4d90d3c59c499.pdf",
+  "pdf_sha256": "cd63d0ebc0f324c755b7524e733ae72158400849ebd1f7fce144fe7863bdf897",
+  "representative_canonical_id": "CAN-04ce9f19022cf9c03033",
+  "retrieved_url": "https://trepo.tuni.fi/bitstream/10024/236067/2/KatainenDan.pdf",
+  "status": "retrieved_open"
+}

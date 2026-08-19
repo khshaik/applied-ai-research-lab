@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 565894,
+      "content_type": "application/pdf",
+      "final_url": "https://ijaidsml.org/index.php/ijaidsml/article/download/535/497",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "58402c079da5d199ac0fb8d31554ced898cef9b3203d704e0a4eb5f6f784754a",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://ijaidsml.org/index.php/ijaidsml/article/download/535/497"
+    }
+  ],
+  "bytes": 565894,
+  "family_id": "FAM-c6a7a012021d6c67c5ce",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-c6a7a012021d6c67c5ce.pdf",
+  "pdf_sha256": "58402c079da5d199ac0fb8d31554ced898cef9b3203d704e0a4eb5f6f784754a",
+  "representative_canonical_id": "CAN-3c121d512a5461b9e51d",
+  "retrieved_url": "https://ijaidsml.org/index.php/ijaidsml/article/download/535/497",
+  "status": "retrieved_open"
+}

@@ -1,0 +1,21 @@
+{
+  "attempts": [
+    {
+      "active_indicators": [],
+      "attempted_at_utc": "2026-08-19T11:08:52.721065Z",
+      "basis": "semantic_scholar_explicit_openAccessPdf",
+      "bytes": 1095175,
+      "final_url": "https://dipot.ulb.ac.be/dspace/bitstream/2013/378272/3/2024-076-BUGHIN-the-role.pdf",
+      "pdf_path": "/Users/81194246/Library/CloudStorage/OneDrive-Pepsico/Personal/AI/Projects/ThinkAI/storypoints-age-of-ai/gate2/output/systematic/v1.3/20260816/d14/fulltext/pdf/CITFAM-cab33f090afd5fef4ccd.pdf",
+      "redirect_count": 0,
+      "sha256": "a1be2b32363910560569dbd604c123e60d7b9405f0096678d149407d82c51244",
+      "status": "retrieved_static_pdf"
+    }
+  ],
+  "bytes": 1095175,
+  "citation_family_id": "CITFAM-cab33f090afd5fef4ccd",
+  "pdf_path": "/Users/81194246/Library/CloudStorage/OneDrive-Pepsico/Personal/AI/Projects/ThinkAI/storypoints-age-of-ai/gate2/output/systematic/v1.3/20260816/d14/fulltext/pdf/CITFAM-cab33f090afd5fef4ccd.pdf",
+  "pdf_sha256": "a1be2b32363910560569dbd604c123e60d7b9405f0096678d149407d82c51244",
+  "security_attestation": "Static HTTPS retrieval only; public-IP validation, bounded redirects/size, signature and active-content checks; no PDF execution.",
+  "status": "retrieved_static_pdf"
+}

@@ -1,0 +1,32 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:06:00.308166Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html;charset=UTF-8",
+      "final_url": "https://umu.diva-portal.org/smash/record.jsf?pid=diva2%3A400313&dswid=-9238",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "http://urn.kb.se/resolve?urn=urn:nbn:se:umu:diva-40521"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:06:06.821339Z",
+      "basis": "citation_pdf_url_metadata",
+      "bytes": 469990,
+      "content_type": "application/pdf",
+      "final_url": "https://umu.diva-portal.org/smash/get/diva2:400313/FULLTEXT01",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "sha256": "1230bbcc7810d20be63953fdf8b46c22ddf2965823ad229499d3e206636d62ba",
+      "url": "http://umu.diva-portal.org/smash/get/diva2:400313/FULLTEXT01"
+    }
+  ],
+  "bytes": 469990,
+  "family_id": "FAM-5488497843da8cf96f08",
+  "lawful_access_basis": "citation_pdf_url_metadata",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-5488497843da8cf96f08.pdf",
+  "pdf_sha256": "1230bbcc7810d20be63953fdf8b46c22ddf2965823ad229499d3e206636d62ba",
+  "representative_canonical_id": "CAN-a88525c55aabec2ed69c",
+  "retrieved_url": "http://umu.diva-portal.org/smash/get/diva2:400313/FULLTEXT01",
+  "status": "retrieved_open"
+}

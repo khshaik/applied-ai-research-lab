@@ -1,0 +1,23 @@
+{
+  "status":"development_query_appraisal",
+  "interpretation_boundary":"Known-item recall and sampled relevance appraisal only; not screening, eligibility, or PRISMA evidence.",
+  "source":"openalex","query_id":"OA-S6R8","complete_pagination":true,
+  "sentinel_checks":[
+    {"sentinel_id":"S6-OA-P1","doi":"10.48550/arxiv.2603.20028","role":"scope_positive","present":true,"pass":true,"match_basis":"doi"},
+    {"sentinel_id":"S6-OA-P2","doi":"10.48550/arxiv.2602.20684","role":"scope_positive","present":true,"pass":true,"match_basis":"doi"},
+    {"sentinel_id":"S6-OA-D1","doi":"10.1007/s10664-026-10917-0","role":"neutral_disconfirming","present":true,"pass":true,"match_basis":"doi"},
+    {"sentinel_id":"S6-OA-D2","doi":"10.48550/arxiv.2504.18858","role":"neutral_disconfirming","present":true,"pass":true,"match_basis":"doi"},
+    {"sentinel_id":"S6-OA-B1","doi":"10.48550/arxiv.2608.01955","role":"negative_boundary","present":true,"pass":false,"match_basis":"doi"}
+  ],
+  "positive_sentinel_recall_pass":true,"negative_boundary_pass":false,
+  "population_size_for_sample":231,"population_size_basis":"complete_export_retrieved_count",
+  "required_sample_size_for_freeze":50,"development_diagnostic_minimum":20,
+  "development_diagnostic_required_for_population":20,"sample_size":50,"sample_minimum_met":true,
+  "sample_likely_relevant":20,"sample_decided":44,"sample_precision_point_estimate":0.45454545454545453,
+  "sample_uncertain":6,"relevant_plus_uncertain_count":26,"relevant_plus_uncertain_proportion":0.52,
+  "relevant_plus_uncertain_wilson_95_interval":[0.38511744890044614,0.6520286471342196],
+  "burden_acceptance_band":"operational_pass","development_diagnostic_pass":true,
+  "freeze_ready":true,"query_appraisal_pass":true,
+  "query_appraisal_pass_deprecated_alias_for":"freeze_ready","family_id":"S6",
+  "sentinel_class_complete":true,"neutral_disconfirming_recall_pass":true
+}

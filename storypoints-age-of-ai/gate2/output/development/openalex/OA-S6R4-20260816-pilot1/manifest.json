@@ -1,0 +1,40 @@
+{
+  "complete_pagination": true,
+  "endpoint": "https://api.openalex.org/works",
+  "executed_at_utc": "2026-08-16T04:39:43.425408+00:00",
+  "from_date": "2019-01-01",
+  "interpretation_boundary": "Open-index development discovery export; not frozen, screened, deduplicated, eligible, or a PRISMA corpus.",
+  "max_pages": null,
+  "page_size": 200,
+  "pages": [
+    {
+      "file": "page_00000.json",
+      "records": 200,
+      "request_url_sha256": "5ad4dc1d0b2e16d8682c234e6cecaaea556e008ea8cefddf617ee42268fcc269",
+      "sequence": 0,
+      "sha256": "ed82f988c3ccbc4e9f0182b8ea3f08da27302e57bb0539ce86925bc2643fc41c"
+    },
+    {
+      "file": "page_00001.json",
+      "records": 35,
+      "request_url_sha256": "1302e327af6f71e66575bc1e20e3e26f0340c01d8c2a0c608823f20a02761c3a",
+      "sequence": 1,
+      "sha256": "9acfc15b608fcc5cecc6012f45b906847428b38bd33858d63cfe9e92c13d3c42"
+    }
+  ],
+  "query": "(\"large language model\" OR LLM OR LLMs OR ChatGPT OR \"AI-assisted\" OR \"AI-augmented\" OR \"AI agent\") AND (\"software delivery\" OR \"software development lifecycle\" OR \"software engineering lifecycle\" OR \"AI-augmented engineering\") AND (\"team-level\" OR workflow OR orchestration OR coordination OR \"human approval\" OR \"error rate\" OR \"productivity-quality paradox\")",
+  "query_id": "OA-S6R4",
+  "query_mode": "title_abstract_filter",
+  "query_registry_sha256": "174da5273986e2b4d9e8348709e541805aa0679c963ef223f64525fc0cd1b302",
+  "query_sha256": "dc0e84fa0c34cb58a302702e17cce604e026010840ed3241cca950d8390d41ae",
+  "records_csv": {
+    "file": "records.csv",
+    "sha256": "5225f48b71b223d577f0584a0b313d1ef7265862d5e813ef7f5756d5aa3c7b4b"
+  },
+  "records_retrieved": 235,
+  "retrieval_scope": "complete",
+  "source": "openalex",
+  "status": "development_pilot",
+  "to_date": "2026-08-16",
+  "total_reported": 235
+}

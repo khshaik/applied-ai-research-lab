@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 401722,
+      "content_type": "application/pdf",
+      "final_url": "https://www.ijcaonline.org/archives/volume187/number90/hadzagic-2026-ijca-926575.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "07d10247f7c902f6f503cbd41d9ecdd51c20cb5036659a2b7f53f7543797f317",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://doi.org/10.5120/ijca2026926575"
+    }
+  ],
+  "bytes": 401722,
+  "family_id": "FAM-845a29a2844b00482cc6",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-845a29a2844b00482cc6.pdf",
+  "pdf_sha256": "07d10247f7c902f6f503cbd41d9ecdd51c20cb5036659a2b7f53f7543797f317",
+  "representative_canonical_id": "CAN-8c1faeb11dde0f1a8d72",
+  "retrieved_url": "https://www.ijcaonline.org/archives/volume187/number90/hadzagic-2026-ijca-926575.pdf",
+  "status": "retrieved_open"
+}

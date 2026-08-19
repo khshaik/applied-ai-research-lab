@@ -1,0 +1,32 @@
+{
+  "complete_pagination": false,
+  "endpoint": "https://api.openalex.org/works",
+  "executed_at_utc": "2026-08-15T08:35:46.967312+00:00",
+  "from_date": "2019-01-01",
+  "interpretation_boundary": "Open-index development discovery export; not frozen, screened, deduplicated, eligible, or a PRISMA corpus. Retrieval was intentionally capped; total_reported is API metadata, not an exported-record or review-flow count.",
+  "max_pages": 1,
+  "page_size": 100,
+  "pages": [
+    {
+      "file": "page_00000.json",
+      "records": 100,
+      "request_url_sha256": "aaee1bd8f9c751347236448fa5df1569027853cacb76ab941822cc645c0a03b3",
+      "sequence": 0,
+      "sha256": "c9a7cfe7c01559e6ca71af248946b73720b9d4c34f44d1b933a41fbba1b6eb02"
+    }
+  ],
+  "query": "story points software effort estimation large language models generative AI AI-assisted coding",
+  "query_id": "OA-S3",
+  "query_registry_sha256": "f7357f76416890262b2d2a620ca7fcf7044316f15106c43cdcf912001534f557",
+  "query_sha256": "1312b79caec4c0b97289790cea755d0426a74dd98c14faca2f447dd43e312ce2",
+  "records_csv": {
+    "file": "records.csv",
+    "sha256": "3c3226f4594a5250008ddd9c8a26f411bc1f44963b59149e633aec0396ffe4ac"
+  },
+  "records_retrieved": 100,
+  "retrieval_scope": "truncated_development_pilot",
+  "source": "openalex",
+  "status": "development_pilot",
+  "to_date": "2026-08-15",
+  "total_reported": 1491
+}

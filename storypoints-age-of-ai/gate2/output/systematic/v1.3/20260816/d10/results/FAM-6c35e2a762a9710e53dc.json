@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 676467,
+      "content_type": "application/pdf",
+      "final_url": "https://wjaets.com/sites/default/files/fulltext_pdf/WJAETS-2023-0259.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "38d9fdf2c902c4ec57f6427a84a069d962a4d7fc40b602227c2fcb8be38b9e86",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://wjaets.com/sites/default/files/WJAETS-2023-0259.pdf"
+    }
+  ],
+  "bytes": 676467,
+  "family_id": "FAM-6c35e2a762a9710e53dc",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-6c35e2a762a9710e53dc.pdf",
+  "pdf_sha256": "38d9fdf2c902c4ec57f6427a84a069d962a4d7fc40b602227c2fcb8be38b9e86",
+  "representative_canonical_id": "CAN-86efa2ba9ac54a42ea5f",
+  "retrieved_url": "https://wjaets.com/sites/default/files/fulltext_pdf/WJAETS-2023-0259.pdf",
+  "status": "retrieved_open"
+}

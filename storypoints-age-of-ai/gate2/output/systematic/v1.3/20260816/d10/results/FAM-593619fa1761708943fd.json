@@ -1,0 +1,32 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:06:32.113260Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://zenodo.org/records/20528726",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://doi.org/10.5281/zenodo.20528725"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:06:33.570381Z",
+      "basis": "citation_pdf_url_metadata",
+      "bytes": 2682646,
+      "content_type": "application/octet-stream, application/octet-stream",
+      "final_url": "https://zenodo.org/records/20528726/files/Senyshyn_InnDevSoc-Kyiv-Mar2026_pp104-108.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "sha256": "0efdd0b2a6e22bf857fe9412dfafd9d6f305337b2be81272010b8edaab8e6bc5",
+      "url": "https://zenodo.org/records/20528726/files/Senyshyn_InnDevSoc-Kyiv-Mar2026_pp104-108.pdf"
+    }
+  ],
+  "bytes": 2682646,
+  "family_id": "FAM-593619fa1761708943fd",
+  "lawful_access_basis": "citation_pdf_url_metadata",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-593619fa1761708943fd.pdf",
+  "pdf_sha256": "0efdd0b2a6e22bf857fe9412dfafd9d6f305337b2be81272010b8edaab8e6bc5",
+  "representative_canonical_id": "CAN-06af8b702f0e4dccef4a",
+  "retrieved_url": "https://zenodo.org/records/20528726/files/Senyshyn_InnDevSoc-Kyiv-Mar2026_pp104-108.pdf",
+  "status": "retrieved_open"
+}

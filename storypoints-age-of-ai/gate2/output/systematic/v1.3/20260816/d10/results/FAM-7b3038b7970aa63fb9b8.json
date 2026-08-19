@@ -1,0 +1,32 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:08:04.157665Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://zenodo.org/records/19094619",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://doi.org/10.5281/zenodo.19094618"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:08:05.492334Z",
+      "basis": "citation_pdf_url_metadata",
+      "bytes": 196666,
+      "content_type": "application/octet-stream, application/octet-stream",
+      "final_url": "https://zenodo.org/records/19094619/files/Democratizing%20Software%20Engineering%20in%20the%20Global%20South_%20A%20Comprehensive%20Analysis%20of%20the%20Omnient.io%20AI-Powered%20Development%20Platform%20by%20Synaptic%20AI%20Lab.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "sha256": "5d2a2649da79d3155f806b24e52dc428ca26557122a29268dec34603dbba6592",
+      "url": "https://zenodo.org/records/19094619/files/Democratizing%20Software%20Engineering%20in%20the%20Global%20South_%20A%20Comprehensive%20Analysis%20of%20the%20Omnient.io%20AI-Powered%20Development%20Platform%20by%20Synaptic%20AI%20Lab.pdf"
+    }
+  ],
+  "bytes": 196666,
+  "family_id": "FAM-7b3038b7970aa63fb9b8",
+  "lawful_access_basis": "citation_pdf_url_metadata",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-7b3038b7970aa63fb9b8.pdf",
+  "pdf_sha256": "5d2a2649da79d3155f806b24e52dc428ca26557122a29268dec34603dbba6592",
+  "representative_canonical_id": "CAN-c6a04ccd0e28ea75f633",
+  "retrieved_url": "https://zenodo.org/records/19094619/files/Democratizing%20Software%20Engineering%20in%20the%20Global%20South_%20A%20Comprehensive%20Analysis%20of%20the%20Omnient.io%20AI-Powered%20Development%20Platform%20by%20Synaptic%20AI%20Lab.pdf",
+  "status": "retrieved_open"
+}

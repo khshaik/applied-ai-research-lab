@@ -1,0 +1,15 @@
+{
+  "fixture_id": "SYN-CAL-001",
+  "synthetic_only": true,
+  "stage": "title_abstract",
+  "record": {
+    "record_id": "syn-r1",
+    "title": "Synthetic evaluation of an AI-assisted delivery-planning measure",
+    "abstract": "This deliberately fictional abstract describes a prospective team-level measure spanning requirements, implementation review, testing, and release readiness. It compares forecasts with a fictional planning baseline. No empirical result in this packet is real or citable.",
+    "publication_status": "synthetic_peer_reviewed_fixture",
+    "evidence_stratum": "peer_reviewed_scholarly",
+    "source_locator": "synthetic_calibration_input.json#/record/abstract"
+  },
+  "criteria_version": "protocol-1.2",
+  "controller_note": "Calibration mechanics only. Do not use as literature evidence, a review count, or a manuscript citation."
+}

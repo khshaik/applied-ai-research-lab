@@ -1,0 +1,23 @@
+{
+  "attempts": [
+    {
+      "active_indicators": [
+        "/S /URI"
+      ],
+      "attempted_at_utc": "2026-08-18T12:25:25.024815Z",
+      "basis": "live_openalex_best_oa_location_oa_pdf",
+      "bytes": 631337,
+      "final_url": "https://pure.tue.nl/ws/files/248257496/CI_Code_Reviews.pdf",
+      "quarantine_path": "/Users/81194246/Library/CloudStorage/OneDrive-Pepsico/Personal/AI/Projects/ThinkAI/storypoints-age-of-ai/gate2/output/systematic/v1.3/20260816/d14/fulltext/quarantine/CITFAM-056ae09df1016f81b226.pdf",
+      "redirect_count": 0,
+      "sha256": "e4e4d55599dfb68abb198d3fcf6b4b84375f8c8f3caa135f884706a44d939644",
+      "status": "quarantined_active_content"
+    }
+  ],
+  "bytes": 631337,
+  "citation_family_id": "CITFAM-056ae09df1016f81b226",
+  "pdf_path": null,
+  "pdf_sha256": "e4e4d55599dfb68abb198d3fcf6b4b84375f8c8f3caa135f884706a44d939644",
+  "security_attestation": "Static HTTPS retrieval only; public-IP validation, bounded redirects/size, signature and active-content checks; no PDF execution.",
+  "status": "quarantined_active_content"
+}

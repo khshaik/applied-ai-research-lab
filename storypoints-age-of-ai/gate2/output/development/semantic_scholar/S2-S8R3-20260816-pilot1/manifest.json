@@ -1,0 +1,33 @@
+{
+  "complete_pagination": true,
+  "endpoint": "https://api.semanticscholar.org/graph/v1/paper/search/bulk",
+  "executed_at_utc": "2026-08-16T06:23:20.748701+00:00",
+  "from_date": "1900-01-01",
+  "interpretation_boundary": "Open-index development discovery export; not frozen, screened, deduplicated, eligible, or a PRISMA corpus.",
+  "max_pages": 1,
+  "page_size": 1000,
+  "pages": [
+    {
+      "file": "page_00000.json",
+      "records": 618,
+      "request_url_sha256": "295658f1495d1ab5e64197c79968ece6a5fdd70d33f3b3f6c465e876136af289",
+      "sequence": 0,
+      "sha256": "2fd31a8f5880b1aa051a5da33115a36b5c67d3506f8cd4bdb8e8ccc2cba64361"
+    }
+  ],
+  "query": "+(((software | developer | agile) + (((\"story point\" | \"relative estimate\") + (validity | accuracy | reliability | effort)) | (\"developer productivity\" + (measure | perception | performance | interruption)) | (\"modern code review\" + (challenge | outcome | understanding | effort | cognitive | workload)))) | \"NASA Task Load Index NASA TLX 20 Years Later\" | \"Workload and Performance Associations Insensitivities and Dissociations\" | \"A Proof for the Queuing Formula L lambda W\")",
+  "query_id": "S2-S8R3",
+  "query_mode": "fulltext_search",
+  "query_registry_sha256": "91afcb59c80b2881280cade002bd6b7536c9b2d75235969bd2477b151836ef98",
+  "query_sha256": "c9b73bf0ad83c5f0fc97c95898546b3282ced3f15214d05aa20f933609b2fc59",
+  "records_csv": {
+    "file": "records.csv",
+    "sha256": "74a69ad8f1290706985995307dd039c47398ed900e09ee3fe09492f2e36d47ed"
+  },
+  "records_retrieved": 618,
+  "retrieval_scope": "complete",
+  "source": "semantic_scholar",
+  "status": "development_pilot",
+  "to_date": "2026-08-16",
+  "total_reported": 618
+}

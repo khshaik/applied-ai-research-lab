@@ -1,0 +1,21 @@
+{
+  "attempts": [
+    {
+      "active_indicators": [],
+      "attempted_at_utc": "2026-08-19T05:20:02.472794Z",
+      "basis": "live_openalex_best_oa_location_oa_pdf",
+      "bytes": 1237967,
+      "final_url": "https://carleton.scholaris.ca/server/api/core/bitstreams/31a0a0a6-388a-4da7-ac93-5b72bbfdf2d0/content",
+      "pdf_path": "/Users/81194246/Library/CloudStorage/OneDrive-Pepsico/Personal/AI/Projects/ThinkAI/storypoints-age-of-ai/gate2/output/systematic/v1.3/20260816/d14/fulltext/pdf/CITFAM-56eedd130becbeb4bcb5.pdf",
+      "redirect_count": 2,
+      "sha256": "9270491546beb67d77f862e08f05f55ed024074b8699b8b623482d1dae55531c",
+      "status": "retrieved_static_pdf"
+    }
+  ],
+  "bytes": 1237967,
+  "citation_family_id": "CITFAM-56eedd130becbeb4bcb5",
+  "pdf_path": "/Users/81194246/Library/CloudStorage/OneDrive-Pepsico/Personal/AI/Projects/ThinkAI/storypoints-age-of-ai/gate2/output/systematic/v1.3/20260816/d14/fulltext/pdf/CITFAM-56eedd130becbeb4bcb5.pdf",
+  "pdf_sha256": "9270491546beb67d77f862e08f05f55ed024074b8699b8b623482d1dae55531c",
+  "security_attestation": "Static HTTPS retrieval only; public-IP validation, bounded redirects/size, signature and active-content checks; no PDF execution.",
+  "status": "retrieved_static_pdf"
+}

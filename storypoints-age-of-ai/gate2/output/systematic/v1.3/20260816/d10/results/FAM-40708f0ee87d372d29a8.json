@@ -1,0 +1,21 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:05:23.059218Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://github.com/FlorantePascual/strata-protocol-docs/tree/v1.0.0",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://github.com/FlorantePascual/strata-protocol-docs/tree/v1.0.0"
+    }
+  ],
+  "bytes": 0,
+  "family_id": "FAM-40708f0ee87d372d29a8",
+  "lawful_access_basis": null,
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "representative_canonical_id": "CAN-1b555f42468ad8da2444",
+  "retrieved_url": null,
+  "status": "lawful_full_text_not_retrieved"
+}

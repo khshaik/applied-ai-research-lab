@@ -1,0 +1,32 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:07:54.741566Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://zenodo.org/records/18357802",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://doi.org/10.5281/zenodo.18357801"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:07:56.135831Z",
+      "basis": "citation_pdf_url_metadata",
+      "bytes": 174283,
+      "content_type": "application/octet-stream, application/octet-stream",
+      "final_url": "https://zenodo.org/records/18357802/files/New%20Research%20Paper_organized.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "sha256": "994d60633a3eba15f9db873fedb94f62b6490b647738391ec04bcc5ab02e1386",
+      "url": "https://zenodo.org/records/18357802/files/New%20Research%20Paper_organized.pdf"
+    }
+  ],
+  "bytes": 174283,
+  "family_id": "FAM-75d2c0342929c4854f45",
+  "lawful_access_basis": "citation_pdf_url_metadata",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-75d2c0342929c4854f45.pdf",
+  "pdf_sha256": "994d60633a3eba15f9db873fedb94f62b6490b647738391ec04bcc5ab02e1386",
+  "representative_canonical_id": "CAN-fa33455436704e9175d3",
+  "retrieved_url": "https://zenodo.org/records/18357802/files/New%20Research%20Paper_organized.pdf",
+  "status": "retrieved_open"
+}

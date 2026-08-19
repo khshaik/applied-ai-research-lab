@@ -1,0 +1,30 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:16:11.131608Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://ruddresearch.com/",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://ruddresearch.com/"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:18:42.016083Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://ruddresearch.com/",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://ruddresearch.com/"
+    }
+  ],
+  "bytes": 0,
+  "family_id": "FAM-c5e2048fe055a09ba8c5",
+  "lawful_access_basis": null,
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "representative_canonical_id": "CAN-f98248ae23148eede799",
+  "retrieved_url": null,
+  "status": "lawful_full_text_not_retrieved"
+}

@@ -1,0 +1,32 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 4487,
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://srcpublishers.com/ai-cloud-computing/article/view/341/363",
+      "http_status": 200,
+      "outcome": "not_a_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://doi.org/10.47363/jaicc/2023(2)442"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:02:35.684473Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://srcpublishers.com/ai-cloud-computing/article/view/341/363",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://doi.org/10.47363/jaicc/2023(2)442"
+    }
+  ],
+  "bytes": 0,
+  "family_id": "FAM-16e3833c703bd15a09d9",
+  "lawful_access_basis": null,
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "representative_canonical_id": "CAN-cbc6f5f4359aca33e458",
+  "retrieved_url": null,
+  "status": "lawful_full_text_not_retrieved"
+}

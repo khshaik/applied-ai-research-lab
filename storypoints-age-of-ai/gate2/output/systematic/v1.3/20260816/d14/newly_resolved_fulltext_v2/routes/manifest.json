@@ -1,0 +1,16 @@
+{
+  "family_count": 11,
+  "pipeline_version": "d14-new-fulltext-retrieval/1.0.0",
+  "protocol_version": "1.3",
+  "relationship_manifest_sha256": "3a6a97968560e9c9d888e1c18f1d3cb2d326181894836e9b4cc7286cc608889a",
+  "response_hashes": {
+    "FAM-3c298495e8afc56a1449_backward.json": "827c58dbe41a4bb0905d47f4792f22472936e80f098095d050765d975dc2ec52",
+    "FAM-3c298495e8afc56a1449_forward.json": "08f323ac8c1746543158e6ccd239ac32ea901e3311653716506f6984e15df297",
+    "FAM-c2bb09e4cd2bc8af2bc1_backward.json": "ac63b9ba0db4210e9e266730fe34a9517f9c2978636f1d4d00b06b01f6b4f3e2",
+    "FAM-c2bb09e4cd2bc8af2bc1_forward.json": "2d9b19088d9435b00fcf457a8bc39412b4776a1153bf176ff2301ee4cb6a22f8"
+  },
+  "routes_sha256": "67e5bc8e0ab31b370f22d93d6255672d9e4ae97e0cf861e430169b477e77e07e",
+  "screening_manifest_sha256": "6a583de2d95f0b0e4058937c05208c3676129930b3eb9c77a5b7d54f6042e4b8",
+  "security_boundary": "Routes extracted from archived public Semantic Scholar metadata; no network, secrets, Git/history, or private systems.",
+  "status": "d14_new_fulltext_routes_complete"
+}

@@ -1,0 +1,21 @@
+{
+  "attempts": [
+    {
+      "active_indicators": [],
+      "attempted_at_utc": "2026-08-18T11:15:02.610468Z",
+      "basis": "frozen_openalex_primary_oa_pdf",
+      "bytes": 1876015,
+      "final_url": "https://link.springer.com/content/pdf/10.1007/s00766-026-00462-z.pdf?error=cookies_not_supported&code=000e7ac2-dec1-43d9-b521-f7ab9436ebce",
+      "pdf_path": "/Users/81194246/Library/CloudStorage/OneDrive-Pepsico/Personal/AI/Projects/ThinkAI/storypoints-age-of-ai/gate2/output/systematic/v1.3/20260816/d14/fulltext/pdf/CITFAM-18656dd40e8e8a12d93a.pdf",
+      "redirect_count": 3,
+      "sha256": "f71ab667f79171a3568b640ea563f733252530e255d3a9edfb32d182dc970a3d",
+      "status": "retrieved_static_pdf"
+    }
+  ],
+  "bytes": 1876015,
+  "citation_family_id": "CITFAM-18656dd40e8e8a12d93a",
+  "pdf_path": "/Users/81194246/Library/CloudStorage/OneDrive-Pepsico/Personal/AI/Projects/ThinkAI/storypoints-age-of-ai/gate2/output/systematic/v1.3/20260816/d14/fulltext/pdf/CITFAM-18656dd40e8e8a12d93a.pdf",
+  "pdf_sha256": "f71ab667f79171a3568b640ea563f733252530e255d3a9edfb32d182dc970a3d",
+  "security_attestation": "Static HTTPS retrieval only; public-IP validation, bounded redirects/size, signature and active-content checks; no PDF execution.",
+  "status": "retrieved_static_pdf"
+}

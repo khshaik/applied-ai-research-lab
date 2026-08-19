@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 368082,
+      "content_type": "application/pdf",
+      "final_url": "https://research.adra.ac.id/index.php/jcsa/article/download/3322/2375",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "245eddaa537c6e7b2727e6e4cd9bfc49fe0c508fb81a988a5642698bc0b4ef95",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://research.adra.ac.id/index.php/jcsa/article/download/3322/2375"
+    }
+  ],
+  "bytes": 368082,
+  "family_id": "FAM-a7c1c87c863af161872b",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-a7c1c87c863af161872b.pdf",
+  "pdf_sha256": "245eddaa537c6e7b2727e6e4cd9bfc49fe0c508fb81a988a5642698bc0b4ef95",
+  "representative_canonical_id": "CAN-6117c3f0b766abcfb36d",
+  "retrieved_url": "https://research.adra.ac.id/index.php/jcsa/article/download/3322/2375",
+  "status": "retrieved_open"
+}

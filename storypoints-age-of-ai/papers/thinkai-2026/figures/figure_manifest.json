@@ -1,0 +1,30 @@
+{
+  "implementation_sha256": "f3520922721a2aa62f87cd63d3c1e0e6fa211fa72ed28e085825d978cc6d9a82",
+  "interpretation_boundary": "Conceptual figures and developmental method diagrams; not empirical validation.",
+  "manifest_version": "1.0.0-working",
+  "output_sha256": {
+    "figure_causal_mechanism.png": "bd46ef51bec1ffc65c5ca2105c3af4727cf16d7401686dbb5b8a0cc1342ac1bd",
+    "figure_causal_mechanism.svg": "acf07047bdd13d258cefacf6003e9d01cc4da93b46bc8ee98992722e0b0665df",
+    "figure_evidence_map_flow.png": "3b5ef6d42305c07e1b8d12c4569c3dcfbe1f2ec3660a5fb586e484d2dec39fe1",
+    "figure_evidence_map_flow.svg": "af7f528de39346c36d480ed762dd413df114183b2a8584eacb882202759aeece",
+    "figure_framework_architecture.png": "5aaea7dd868b73b58e174fcc871d34ffa945fba1ccaf5bcf4eafd50eeb12f7ad",
+    "figure_framework_architecture.svg": "d6eb5bf58b446e34ad2cbe3175fa085244de9537051187992dc27ccd73b16272",
+    "figure_lifecycle_roles.png": "be705700b266290b97ea3e9fea1bde26e1b2c6b0493b2dd7f43c1711f56c2567",
+    "figure_lifecycle_roles.svg": "91adf11e6c355670cee64d99eef925a84c24c6faf094c626fa13ed57fdb0ea7b",
+    "figure_simulation_flow.png": "e3ceb0c9266fe068a98701d2be56e9cf16c440d36c4e156079ab545fb2c9175a",
+    "figure_simulation_flow.svg": "2ca9c22e9e4fa7a66ad8bbaf394e3565c08d5669a52c6668a1d5b057466dfda9"
+  },
+  "outputs": [
+    "figure_framework_architecture.svg",
+    "figure_framework_architecture.png",
+    "figure_causal_mechanism.svg",
+    "figure_causal_mechanism.png",
+    "figure_lifecycle_roles.svg",
+    "figure_lifecycle_roles.png",
+    "figure_simulation_flow.svg",
+    "figure_simulation_flow.png",
+    "figure_evidence_map_flow.svg",
+    "figure_evidence_map_flow.png"
+  ],
+  "status": "working_manuscript_figures"
+}

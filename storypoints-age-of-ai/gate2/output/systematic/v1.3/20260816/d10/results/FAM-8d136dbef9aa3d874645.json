@@ -1,0 +1,21 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:10:37.131878Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://vtechworks.lib.vt.edu/items/871f689f-72a5-4917-ad40-24bc17fb0260/request-a-copy?bitstream=374993ea-6d1d-4733-8888-9cea01957a79",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://vtechworks.lib.vt.edu/items/871f689f-72a5-4917-ad40-24bc17fb0260/request-a-copy?bitstream=374993ea-6d1d-4733-8888-9cea01957a79"
+    }
+  ],
+  "bytes": 0,
+  "family_id": "FAM-8d136dbef9aa3d874645",
+  "lawful_access_basis": null,
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "representative_canonical_id": "CAN-b3b04d3dba843dffa188",
+  "retrieved_url": null,
+  "status": "lawful_full_text_not_retrieved"
+}

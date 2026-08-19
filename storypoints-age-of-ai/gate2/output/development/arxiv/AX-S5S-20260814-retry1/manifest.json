@@ -1,0 +1,107 @@
+{
+  "complete_pagination": true,
+  "endpoint": "https://export.arxiv.org/api/query",
+  "executed_at_utc": "2026-08-14T15:11:42.105248+00:00",
+  "interpretation_boundary": "Public arXiv query-development export; not frozen and not a PRISMA corpus.",
+  "page_size": 100,
+  "pages": [
+    {
+      "file": "page_0000000.atom",
+      "records": 100,
+      "sha256": "4191895037bfeec597bb62d6f8d17e849782f6aa193947a5c5791044453207e2",
+      "start": 0
+    },
+    {
+      "file": "page_0000100.atom",
+      "records": 100,
+      "sha256": "42f1d3c9bb6ccc95470b61ff7a25d5c8737d879b30dbb10a6581c85f42a2396b",
+      "start": 100
+    },
+    {
+      "file": "page_0000200.atom",
+      "records": 100,
+      "sha256": "a4344f86d48670948cdda9574a145e5be910c71d81edc2831fae975fce26a1e8",
+      "start": 200
+    },
+    {
+      "file": "page_0000300.atom",
+      "records": 100,
+      "sha256": "023f181160ae37dcf1671d0d00e067966cc36b559eea8dd7b0e9267130f907fb",
+      "start": 300
+    },
+    {
+      "file": "page_0000400.atom",
+      "records": 100,
+      "sha256": "c71c002f0261e44061630a3bc033fc6e552a6ce65ccc4f7ce69f9d9ee684d1ca",
+      "start": 400
+    },
+    {
+      "file": "page_0000500.atom",
+      "records": 100,
+      "sha256": "d2e8d44469a77ffc0391aed07420cf13ab254e82cc7898dc15830330c3faf923",
+      "start": 500
+    },
+    {
+      "file": "page_0000600.atom",
+      "records": 100,
+      "sha256": "0777384a9f69dc73793736107c9562c373a1560cd8fb1bc2123e2d18f24b7206",
+      "start": 600
+    },
+    {
+      "file": "page_0000700.atom",
+      "records": 100,
+      "sha256": "3c23a031337b1603c7f30bf2021be773c0cc7e5e316e18fc66c5cba789c8c18f",
+      "start": 700
+    },
+    {
+      "file": "page_0000800.atom",
+      "records": 100,
+      "sha256": "6ccf4439629d11084c77b60d30ecf1c9abfa05ca41eb487d6ff1a73c651b14b5",
+      "start": 800
+    },
+    {
+      "file": "page_0000900.atom",
+      "records": 100,
+      "sha256": "d5bae99ebcef66205a7885e1d486163a4f828c5e8c7ffd1d4944fdd9f574a5cf",
+      "start": 900
+    },
+    {
+      "file": "page_0001000.atom",
+      "records": 100,
+      "sha256": "699975c1e396d7ed07267a084cc113db84c8639b588cb44ffee54e0deafdee10",
+      "start": 1000
+    },
+    {
+      "file": "page_0001100.atom",
+      "records": 100,
+      "sha256": "5458ce42a8acca43fb3c9afb30d6b42c60e029126d2eb99a3674bbe51a14208e",
+      "start": 1100
+    },
+    {
+      "file": "page_0001200.atom",
+      "records": 100,
+      "sha256": "5aa68b31511724d38cf579b134a2e3b772f754f735bbb098275a837fd9665919",
+      "start": 1200
+    },
+    {
+      "file": "page_0001300.atom",
+      "records": 33,
+      "sha256": "18cc6a0102f42513f8279a51c8bfa57399ab4139d8d523e9b4f4521d992ca9ac",
+      "start": 1300
+    }
+  ],
+  "query": "(all:\"large language model\" OR all:\"AI-assisted\" OR all:\"AI coding assistant\" OR all:\"coding agent\") AND (all:\"software security\" OR all:\"secure coding\" OR all:vulnerability OR all:\"security review\") AND (all:human OR all:oversight OR all:verification OR all:validation OR all:review)",
+  "query_id": "AX-S5S",
+  "query_sha256": "573203e741d878a3f485df6d8a535b1a47aedf73055b6035f0ee8a356a39f9d7",
+  "records_csv": {
+    "file": "records.csv",
+    "sha256": "4543e4f9002f3afd5f82e96b1344efa75a9eac189ab6530220e2a4ab3910ef20"
+  },
+  "records_retrieved": 1333,
+  "sentinel_checks": {},
+  "sentinel_recall_pass": true,
+  "sortBy": "submittedDate",
+  "sortOrder": "descending",
+  "status": "development_pilot",
+  "total_reported": 1333
+}

@@ -1,0 +1,32 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:16:31.456349Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://zenodo.org/records/19280643",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://doi.org/10.5281/zenodo.19280642"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:16:33.402566Z",
+      "basis": "citation_pdf_url_metadata",
+      "bytes": 391046,
+      "content_type": "application/octet-stream, application/octet-stream",
+      "final_url": "https://zenodo.org/records/19280643/files/A_Quantitative_and_Empirical_Evaluation_of_AI_App_Builder_Platforms_for_Modern_Software_Engineering_Workflows_V2.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "sha256": "f6df303ce87e199ccfcfa1ddf45e21af77851ac58e2fc7020be48816e5b78cb9",
+      "url": "https://zenodo.org/records/19280643/files/A_Quantitative_and_Empirical_Evaluation_of_AI_App_Builder_Platforms_for_Modern_Software_Engineering_Workflows_V2.pdf"
+    }
+  ],
+  "bytes": 391046,
+  "family_id": "FAM-d3beeea5281303f86d80",
+  "lawful_access_basis": "citation_pdf_url_metadata",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-d3beeea5281303f86d80.pdf",
+  "pdf_sha256": "f6df303ce87e199ccfcfa1ddf45e21af77851ac58e2fc7020be48816e5b78cb9",
+  "representative_canonical_id": "CAN-22da11872ac92866be35",
+  "retrieved_url": "https://zenodo.org/records/19280643/files/A_Quantitative_and_Empirical_Evaluation_of_AI_App_Builder_Platforms_for_Modern_Software_Engineering_Workflows_V2.pdf",
+  "status": "retrieved_open"
+}

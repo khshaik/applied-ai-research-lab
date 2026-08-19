@@ -1,0 +1,21 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:10:54.266648Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://ieeexplore.ieee.org/document/9833803/",
+      "http_status": 202,
+      "outcome": "http_failure",
+      "url": "https://doi.org/10.1109/sp46214.2022.9833803"
+    }
+  ],
+  "bytes": 0,
+  "family_id": "FAM-93d6b71154a51c7f7112",
+  "lawful_access_basis": null,
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "representative_canonical_id": "CAN-cc5410419398ddafc4c9",
+  "retrieved_url": null,
+  "status": "lawful_full_text_not_retrieved"
+}

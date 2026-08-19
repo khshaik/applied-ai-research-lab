@@ -1,0 +1,32 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:02:15.950256Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://zenodo.org/records/21744498",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://doi.org/10.5281/zenodo.21744497"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:02:18.000894Z",
+      "basis": "citation_pdf_url_metadata",
+      "bytes": 192364,
+      "content_type": "application/octet-stream, application/octet-stream",
+      "final_url": "https://zenodo.org/records/21744498/files/DS-EO%20Governance%20Framework.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "sha256": "bf6b28c3742db65a4d2a0f5d460b7b7cde19224cbc7d38bdfc79b5be8bf16d67",
+      "url": "https://zenodo.org/records/21744498/files/DS-EO%20Governance%20Framework.pdf"
+    }
+  ],
+  "bytes": 192364,
+  "family_id": "FAM-0fe447c2994a268d58e3",
+  "lawful_access_basis": "citation_pdf_url_metadata",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-0fe447c2994a268d58e3.pdf",
+  "pdf_sha256": "bf6b28c3742db65a4d2a0f5d460b7b7cde19224cbc7d38bdfc79b5be8bf16d67",
+  "representative_canonical_id": "CAN-cde1d17598226b29633c",
+  "retrieved_url": "https://zenodo.org/records/21744498/files/DS-EO%20Governance%20Framework.pdf",
+  "status": "retrieved_open"
+}

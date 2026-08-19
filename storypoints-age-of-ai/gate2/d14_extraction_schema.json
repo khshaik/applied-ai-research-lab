@@ -1,0 +1,64 @@
+{
+  "schema_version": "d14-evidence-extraction/1.0.0",
+  "top_level_required": [
+    "family_id", "record_id", "source_text_sha256", "quality_appraisal_sha256",
+    "extractor_agent_id", "review_context_id", "appraisal_form", "evidence_band",
+    "bibliographic_status", "context_method", "lifecycle_stages", "vdcm_constructs",
+    "emergent_constructs", "measures_findings", "novelty_assessment",
+    "reviewer_notes", "security_attestation"
+  ],
+  "bibliographic_status_fields": [
+    "title", "authors", "year", "venue", "doi", "arxiv_id", "verified_url",
+    "publication_status", "version_date", "evidence_stream", "study_type", "peer_review_status"
+  ],
+  "context_method_fields": [
+    "country_sector", "organizational_setting", "unit_of_analysis",
+    "participants_teams_tasks_projects_repositories_prs", "sample_size", "duration",
+    "ai_tool_model_mode", "comparison_condition", "method_design", "data_nature",
+    "data_code_materials_availability", "source_locators"
+  ],
+  "lifecycle_stage_keys": [
+    "requirements", "context_prompt", "architecture_design", "implementation_refinement",
+    "integration", "code_review", "security_compliance", "testing",
+    "release_operations", "manual_qa_uat", "coordination_switching"
+  ],
+  "lifecycle_value": {"required": ["present", "source_locator"], "present_type": "boolean", "locator_rule": "required exact page locator when present; otherwise null"},
+  "vdcm_construct_keys": ["PDD", "RHTD", "SAE", "ERS", "ARC", "RCP", "CQD", "VDC"],
+  "construct_status_enum": ["present", "absent", "unclear"],
+  "construct_value_required": ["status", "rationale", "source_locator"],
+  "finding_field_name_enum": [
+    "baseline_estimator_comparator", "prospective_retrospective_estimate",
+    "human_effort_time_workload", "elapsed_time", "perceived_workload",
+    "prompt_refinement_validation", "delivery_flow", "review_quality",
+    "readiness_gate", "principal_reported_finding", "moderators_boundaries", "limitations"
+  ],
+  "finding_required": [
+    "finding_id", "field_name", "value", "source_locator", "data_nature",
+    "direction", "quantitative", "reported_estimate", "reported_uncertainty",
+    "unit", "limitations"
+  ],
+  "finding_direction_enum": ["positive", "negative", "mixed", "null", "not_applicable"],
+  "data_nature_enum": ["observed", "self-reported", "modeled", "conceptual", "mixed"],
+  "novelty_dimension_keys": [
+    "precommitment_predictors", "multirole_lifecycle", "touch_queue_separation",
+    "capacity_readiness_dependencies", "verified_completion_forecast"
+  ],
+  "novelty_status_enum": ["met", "partial", "not_met", "unclear"],
+  "novelty_assessment_required": [
+    "dimensions", "same_planning_use", "comparator_story_points", "comparator_hie",
+    "validation_type", "novelty_risk"
+  ],
+  "same_planning_use_enum": ["yes", "no", "unclear"],
+  "novelty_risk_enum": ["low", "moderate", "high", "critical"],
+  "security_required_false": [
+    "network_used", "git_or_history_inspected", "environment_or_secrets_inspected",
+    "credentials_accessed", "packages_installed", "pdf_executed", "links_or_embedded_content_opened"
+  ],
+  "interpretation_rules": [
+    "Every finding value must be an exact substring of its cited static-text page.",
+    "Quantitative values must be owned study results, not background numbers, years, identifiers, citations, dataset splits, or parameter weights.",
+    "Technical quality outcomes do not establish human cognitive workload without explicit human-work evidence.",
+    "Keyword co-occurrence does not establish VDCM construct or novelty-dimension equivalence.",
+    "Use not_met or absent when direct evidence is not located; do not infer missing evidence."
+  ]
+}

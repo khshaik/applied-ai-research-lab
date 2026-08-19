@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 1176421,
+      "content_type": "application/pdf",
+      "final_url": "https://americanimpactreview.com/articles/e2026034.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "eca87f9c33ae7272f22e6bf5472935b8f71474a4068c7b714883ed22c69ec35d",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://americanimpactreview.com/articles/e2026034.pdf"
+    }
+  ],
+  "bytes": 1176421,
+  "family_id": "FAM-9eaf4cad10eee5c5cf22",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-9eaf4cad10eee5c5cf22.pdf",
+  "pdf_sha256": "eca87f9c33ae7272f22e6bf5472935b8f71474a4068c7b714883ed22c69ec35d",
+  "representative_canonical_id": "CAN-77ca1ca604fac7fd38fa",
+  "retrieved_url": "https://americanimpactreview.com/articles/e2026034.pdf",
+  "status": "retrieved_open"
+}

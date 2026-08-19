@@ -1,0 +1,18 @@
+{
+  "complete_pagination": true,
+  "freeze_ready": false,
+  "interpretation_boundary": "Cross-family mapping and known-item recall only; not screening, eligibility, PRISMA, or query freeze.",
+  "mapped_family_id": "S4",
+  "precision_appraisal_pending": true,
+  "records_reconciled": 187,
+  "sentinel_checks": [
+    {"arxiv_id":"2606.26505","pass":true,"present":true,"role":"scope_positive","sentinel_id":"S4-AX-P1"},
+    {"arxiv_id":"2501.02092","pass":true,"present":true,"role":"scope_positive","sentinel_id":"S4-AX-P2"},
+    {"arxiv_id":"2607.13196","pass":true,"present":true,"role":"neutral_disconfirming","sentinel_id":"S4-AX-D1"},
+    {"arxiv_id":"2412.18531","pass":true,"present":true,"role":"neutral_disconfirming","sentinel_id":"S4-AX-D2"}
+  ],
+  "sentinel_class_complete": true,
+  "sentinel_recall_pass": true,
+  "source_query_id": "AX-S5R",
+  "status": "development_arxiv_family_mapping"
+}

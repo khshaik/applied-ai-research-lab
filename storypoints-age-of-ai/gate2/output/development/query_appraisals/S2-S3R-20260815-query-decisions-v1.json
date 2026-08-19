@@ -1,0 +1,25 @@
+{
+  "appraisal_id": "S2-S3R-20260815-query-appraisal-v1",
+  "status": "development_query_precision_decisions",
+  "query_id": "S2-S3R",
+  "family_id": "S3",
+  "interpretation_boundary": "Query engineering from title and available abstract only; not eligibility screening, inclusion, synthesis, or PRISMA input.",
+  "selection": {"method": "Appraise all records because the complete export contains no more than 50 records.", "selected_count": 15},
+  "decisions": [
+    {"source_id": "00df35ff13c1f49a34ef129fa0dfad8e4c8eb4bb", "decision": "likely_relevant", "reason": "LLM- and RAG-based software project effort estimation."},
+    {"source_id": "06f96aa4b12ca7d174e50bb0cd0b9291e58b8315", "decision": "likely_relevant", "reason": "Hybrid Intelligence Effort model for LLM-assisted software effort estimation."},
+    {"source_id": "0822c4a06481a5271f9c19433a04b2b2abc5a0cb", "decision": "likely_relevant", "reason": "Comparative evaluation of LLMs for Agile Story Point estimation."},
+    {"source_id": "2d0c1ffe8839731ac5cb978b0f7c893bde3f5606", "decision": "likely_relevant", "reason": "Multimodal generative-AI method for Story Point estimation."},
+    {"source_id": "512b73e10ad675e850346cef2edb5354f709a8c3", "decision": "likely_irrelevant", "reason": "NLP functional-size prediction without LLM or generative-AI-assisted effort estimation."},
+    {"source_id": "68f972872c5db3964feb2cc07044162b78ea2bff", "decision": "likely_relevant", "reason": "Direct study of Story Point estimation using LLMs."},
+    {"source_id": "72b1a78ce2aed514d3eb38631582ee49474e5095", "decision": "likely_relevant", "reason": "Search-based optimization of LLM few-shot examples for Story Point estimation."},
+    {"source_id": "7f9e919bac8a957f6194b289e6449aa0bee06fd0", "decision": "likely_relevant", "reason": "Benchmark of LLM-based software effort estimation."},
+    {"source_id": "8f333232dc91f208b2944bbf5bc0be149cc2637e", "decision": "likely_relevant", "reason": "Conceptual LLM-aware software effort-estimation framework."},
+    {"source_id": "95f13103c24320d52be41133c710c5b7a5453a51", "decision": "likely_relevant", "reason": "LLM-backed trustworthiness-oriented Story Point estimator."},
+    {"source_id": "a66746f7cf57c59de4d7594216ac316fcb349efa", "decision": "likely_relevant", "reason": "Critiques machine-learning and LLM effort estimators and proposes estimation hygiene."},
+    {"source_id": "dbcaadd40465f9872404557d4d4cc2423d0f52a7", "decision": "likely_relevant", "reason": "Employs LLMs for Agile Story Point estimation."},
+    {"source_id": "dfab6a3a414b5b801268217662a869f0fddb1fa6", "decision": "likely_relevant", "reason": "Estimates AI-driven savings across the software lifecycle and is relevant to AI-era effort/cost estimation."},
+    {"source_id": "f3c4b9bb1ce83a6bbabcc5d46e0b23250dc4d969", "decision": "likely_relevant", "reason": "Resource-efficient LLM for Agile Story Point estimation."},
+    {"source_id": "fc0a7cb08b7fe43ccdef21787cb7a8563f821945", "decision": "likely_relevant", "reason": "LLM prompting techniques evaluated within software effort estimation."}
+  ]
+}

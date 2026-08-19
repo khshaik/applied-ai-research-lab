@@ -1,0 +1,14 @@
+{
+  "candidate_family_count": 6017,
+  "deduplication_rule": "exact DOI OR exact arXiv ID OR exact normalized title + normalized first author + publication year; no fuzzy merge",
+  "duplicate_occurrence_count": 80,
+  "families_sha256": "8a105dda45a15fbd1136f46cb4289a939ec7f22ccb73ae0fa77ddccff8de91c4",
+  "input_occurrence_count": 6097,
+  "interpretation_boundary": "Candidate families are not eligible studies, PRISMA inclusions, or novelty evidence.",
+  "occurrences_sha256": "6349c5db35d2f85e246e16e3a0e370e9ef57249241f614d081e5ff9a4d75d08d",
+  "openalex_input_sha256": "bc27a65a75efb159d25c71f8d468a3e0afc6ae7e1f8c1626142c2eecaf21d124",
+  "pipeline_version": "d14-candidate-consolidation/1.0.0",
+  "protocol_version": "1.3",
+  "semantic_scholar_input_sha256": "6624383e084a2b63564cc084fc7c31d6c12ad282978623df87006dfabb3a5e74",
+  "status": "d14_candidates_consolidated"
+}

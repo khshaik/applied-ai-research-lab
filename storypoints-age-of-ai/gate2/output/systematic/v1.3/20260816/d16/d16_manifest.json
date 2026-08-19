@@ -1,0 +1,17 @@
+{
+  "candidate_citation_count": 20,
+  "d15_manifest_sha256": "f7ee6e62b08148c1d84534dc7cedc32a15a5b047d6ff57ad6cd9211c312a1c23",
+  "family_count": 791,
+  "material_candidates_sha256": "ac5bed8d6f3e0ca08feb965d0efd7367217ec130a878809efc48d646ac75d687",
+  "narrative_sha256": "aab3402e84dbdc2ed9c5fd0e91dcef69420b51eb719e4d8d750491022909d512",
+  "overlap_matrix_sha256": "6a371414fd9beba4da9680905406ddc9e058bbf255f26bd34d7980fef2fd4c99",
+  "protocol_version": "1.3",
+  "security_boundary": "Local checksum-bound synthesis only; no network, Git/history, secrets, installs, PDF execution, or private systems.",
+  "source_hashes": {
+    "evidence_matrix.jsonl": "fe36a98598980c31ec0a660ffccb015df24eddc023d3bd0745e00ad4af66c417",
+    "extraction.jsonl": "14ce1f5ee2bfbf76b81e22db60fbd43d2dceb8aa6c894ed104ca2139d41445b8",
+    "final_evidence_extraction.jsonl": "b397aee7a39d94e1bde0d108435c16a282b42bad05f930b79ee653e6547e0ddd"
+  },
+  "status": "d16_complete_pending_D17",
+  "summary_sha256": "33543bd16a334b930726175a3b494f5188ee3c59ea104cb9ac224f487ef35135"
+}

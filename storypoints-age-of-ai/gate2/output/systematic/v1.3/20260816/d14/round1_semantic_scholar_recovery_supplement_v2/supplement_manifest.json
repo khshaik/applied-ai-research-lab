@@ -1,0 +1,18 @@
+{
+  "baseline_manifest_sha256": "03672bed220d4431eafdfaf3ba2a83b7fd78c5ce16302f1162f9e1fc2de83fb5",
+  "credential_handling": "Optional API key read from environment header only; never printed or persisted.",
+  "pacing_seconds": 4.0,
+  "pipeline_version": "d14-s2-recovery-supplement/2.0.0",
+  "protocol_version": "1.3",
+  "relation_api_failure_count": 0,
+  "relation_complete_count": 2,
+  "relation_population": 2,
+  "security_boundary": "Public scholarly metadata only; no Git/history, PDFs, secrets, package installation, or private systems.",
+  "seed_api_failure_count": 5,
+  "seed_confirmed_no_match_count": 0,
+  "seed_population": 7,
+  "seed_resolved_count": 2,
+  "status": "d14_s2_recovery_supplement_complete",
+  "supplement_relation_resolution_sha256": "870b16230e797ee66c1091ffbe6272922b84536b53093694a1602e391e988054",
+  "supplement_seed_resolution_sha256": "6d1e2b5d13d5e968b31035284589bebff9821c615c8696d27fa7ea6d5e049129"
+}

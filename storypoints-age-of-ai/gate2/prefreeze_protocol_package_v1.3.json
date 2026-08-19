@@ -1,0 +1,40 @@
+{
+  "package_version": "1.0.0",
+  "protocol_version": "1.3",
+  "status": "prefreeze_reconciled_awaiting_D03_approval",
+  "prepared_on": "2026-08-16",
+  "initial_search_cutoff_date": "2026-08-16",
+  "D01_reconciliation_complete": true,
+  "D02_cutoff_and_access_limitations_complete": true,
+  "D03_accountable_author_approval": null,
+  "D04_frozen": false,
+  "systematic_corpus_created": false,
+  "accepted_source_family_pair_count": 18,
+  "inaccessible_subscription_sources": [
+    "Scopus",
+    "Web of Science Core Collection",
+    "IEEE Xplore",
+    "ACM Digital Library",
+    "SpringerLink",
+    "ScienceDirect"
+  ],
+  "required_post_freeze_controls": [
+    "Rerun every accepted source-family query into a new systematic corpus.",
+    "Execute the S2 OpenAlex bounded union afresh; developmental union records cannot be ingested.",
+    "Refresh every frozen search within seven days before submission.",
+    "Keep peer-reviewed, preprint, grey, and method/reference strata separate.",
+    "Obtain accountable-author confirmation for every material citation."
+  ],
+  "maximum_novelty_statement": "No substantively duplicative framework was identified within the predeclared open scholarly indexes, repositories, and citation networks searched through the stated cutoff date.",
+  "artifacts": [
+    {"path": "02_systematic_review_protocol.md", "sha256": "e297798a59db599def5ac6709d0d05a25aef26b63b9ad4050ea9d9b9de9acac0"},
+    {"path": "02_executable_search_appendix.md", "sha256": "187363bae92c65b6fd864241898b9c0d5bb8d53fe786c9f03c27de311c5c4c1a"},
+    {"path": "02d_minimum_route_protocol_amendment_draft.md", "sha256": "3e999a75aba72fe5642e9ee7f688d005f7d0f7115904ff4887e93235156437ec"},
+    {"path": "02e_b05_accountable_author_review.md", "sha256": "844eaedbdc89042ba506b716b7c0b7343c6832979ba0bc6ab39d04d70118e373"},
+    {"path": "gate2/final_source_family_acceptance_matrix.json", "sha256": "a19aec57633c9591fc12e723ffdfa46896293a91c9bedc2ea5e878a7c2216348"},
+    {"path": "gate2/search_control_prefreeze_v1.3.json", "sha256": "aac2325eed4140f2c1911b55b667e6891d4d168f5df75fca4f84fe59d44475ec"},
+    {"path": "evidence_review/prompts/prefreeze_prompt_manifest_v1.1.0.json", "sha256": "8ba6376232943db676c849ac14b4e7487a94874923df7b57acbc8a128832a5fe"},
+    {"path": "evidence_review/schemas/review_bundle.schema.json", "sha256": "5176c292bd1ffa1ce5228a1117cde84e7887ce38351f7f33d9b452db34dd7ad7"},
+    {"path": "evidence_review/templates/review_bundle.template.json", "sha256": "d5a6a810c795f496ced5c0e72d8c700cc3384b9990bf0712e070721e96c4c94d"}
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "status": "pass",
+  "verification_scope": "Independent source-text verification of all recovery extraction findings, quantitative ownership, novelty dimensions, and primary checksum.",
+  "verifier_id": "d14-recovery-extraction-verifier-b",
+  "primary_extraction_sha256": "14ce1f5ee2bfbf76b81e22db60fbd43d2dceb8aa6c894ed104ca2139d41445b8",
+  "finding_count_checked": 45,
+  "finding_count_supported": 45,
+  "quantitative_count_checked": 26,
+  "quantitative_count_accepted_as_owned_results": 26,
+  "quantitative_rejected_ids": [],
+  "novelty_dimension_count_checked": 45,
+  "novelty_dimension_counts": {
+    "not_met": 45
+  },
+  "same_planning_use_no_count": 9,
+  "corrections_required": [],
+  "primary_modified": false,
+  "security_attestation": "Verification used only the checksum-bound packet, primary extraction, and local action-free static text. No network, Git/history, environment secrets, credentials, packages, PDF execution, links, or private systems were accessed."
+}

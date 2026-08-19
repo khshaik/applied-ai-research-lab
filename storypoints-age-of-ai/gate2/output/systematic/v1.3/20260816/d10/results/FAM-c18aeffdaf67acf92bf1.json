@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 10462369,
+      "content_type": "application/pdf;charset=UTF-8",
+      "final_url": "https://api.repository.cam.ac.uk/server/api/core/bitstreams/2f7eb756-79f3-4282-a768-cc77ba8aa9f9/content",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "eb9bdc24e3fce53a7d6d5b26651e82690fd4ef011063b3490228219895cc6124",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://www.repository.cam.ac.uk/bitstreams/2f7eb756-79f3-4282-a768-cc77ba8aa9f9/download"
+    }
+  ],
+  "bytes": 10462369,
+  "family_id": "FAM-c18aeffdaf67acf92bf1",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-c18aeffdaf67acf92bf1.pdf",
+  "pdf_sha256": "eb9bdc24e3fce53a7d6d5b26651e82690fd4ef011063b3490228219895cc6124",
+  "representative_canonical_id": "CAN-3ebe4d188b8e70b49f9c",
+  "retrieved_url": "https://api.repository.cam.ac.uk/server/api/core/bitstreams/2f7eb756-79f3-4282-a768-cc77ba8aa9f9/content",
+  "status": "retrieved_open"
+}

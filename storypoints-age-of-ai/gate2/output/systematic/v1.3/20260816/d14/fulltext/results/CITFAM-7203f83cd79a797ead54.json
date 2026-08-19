@@ -1,0 +1,19 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-19T06:31:55.882144Z",
+      "basis": "live_openalex_best_oa_location_oa_pdf",
+      "final_url": "https://discovery.ucl.ac.uk/id/eprint/10128336/1/tse2021_cogee_preprint.pdf",
+      "http_status": 404,
+      "redirect_count": 1,
+      "retry_after": null,
+      "status": "http_failure"
+    }
+  ],
+  "bytes": 0,
+  "citation_family_id": "CITFAM-7203f83cd79a797ead54",
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "security_attestation": "Static HTTPS retrieval only; public-IP validation, bounded redirects/size, signature and active-content checks; no PDF execution.",
+  "status": "http_failure"
+}

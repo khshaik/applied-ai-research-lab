@@ -1,0 +1,21 @@
+{
+  "attempts": [
+    {
+      "active_indicators": [],
+      "attempted_at_utc": "2026-08-19T08:49:04.655593Z",
+      "basis": "live_openalex_best_oa_location_oa_pdf",
+      "bytes": 629812,
+      "final_url": "https://ulopenaccess.com/papers/ULIRS_V03I01/ULIRS20260301_009.pdf",
+      "pdf_path": "/Users/81194246/Library/CloudStorage/OneDrive-Pepsico/Personal/AI/Projects/ThinkAI/storypoints-age-of-ai/gate2/output/systematic/v1.3/20260816/d14/fulltext/pdf/CITFAM-a4481611c50fc37f7c5e.pdf",
+      "redirect_count": 1,
+      "sha256": "eb287ce83a430b3784efecc48ac4244a47254372867c98f55824239cba397cee",
+      "status": "retrieved_static_pdf"
+    }
+  ],
+  "bytes": 629812,
+  "citation_family_id": "CITFAM-a4481611c50fc37f7c5e",
+  "pdf_path": "/Users/81194246/Library/CloudStorage/OneDrive-Pepsico/Personal/AI/Projects/ThinkAI/storypoints-age-of-ai/gate2/output/systematic/v1.3/20260816/d14/fulltext/pdf/CITFAM-a4481611c50fc37f7c5e.pdf",
+  "pdf_sha256": "eb287ce83a430b3784efecc48ac4244a47254372867c98f55824239cba397cee",
+  "security_attestation": "Static HTTPS retrieval only; public-IP validation, bounded redirects/size, signature and active-content checks; no PDF execution.",
+  "status": "retrieved_static_pdf"
+}

@@ -1,0 +1,39 @@
+{
+  "status": "development_pilot",
+  "executed_date": "2026-08-15",
+  "interpretation_boundary": "Query-appraisal outputs only. API totals are volatile discovery metadata and are not eligible-study, deduplicated-study, exported-corpus, systematic-review, or PRISMA counts.",
+  "query_registry": {
+    "file": "gate2/open_index_pilot_queries.json",
+    "sha256": "f7357f76416890262b2d2a620ca7fcf7044316f15106c43cdcf912001534f557"
+  },
+  "runs": [
+    {
+      "source": "OpenAlex",
+      "query_id": "OA-S3",
+      "output": "gate2/output/development/openalex/OA-S3-20260815-pilot1",
+      "records_archived": 100,
+      "api_total_reported": 1491,
+      "complete_pagination": false,
+      "appraisal": "Intentionally capped after one page; translation is too broad for an uncapped development export and requires refinement."
+    },
+    {
+      "source": "Semantic Scholar",
+      "query_id": "S2-S3",
+      "output": "gate2/output/development/semantic_scholar/S2-S3-20260815-pilot1",
+      "records_archived": 0,
+      "api_total_reported": 0,
+      "complete_pagination": true,
+      "appraisal": "Valid zero-result API response; treat as a translation/recall failure requiring refinement, never as evidence that no relevant literature exists."
+    },
+    {
+      "source": "Crossref",
+      "query_id": "CR-S3",
+      "output": "gate2/output/development/crossref/CR-S3-20260815-pilot1",
+      "records_archived": 100,
+      "api_total_reported": 163615,
+      "complete_pagination": false,
+      "appraisal": "Intentionally capped after one page; Crossref bibliographic search is broad/ranked discovery and the translation requires refinement before any larger export."
+    }
+  ],
+  "next_control": "Refine and sentinel-test each source-specific translation before considering any uncapped execution; do not ingest these pilots into a review-flow ledger."
+}

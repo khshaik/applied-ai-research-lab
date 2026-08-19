@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0.0",
+  "date": "2026-08-19",
+  "reference_pattern": "action-evidence-safety-research local research-lab layout",
+  "comparison_method": "local filesystem structure and document-layout inspection only",
+  "git_history_used": false,
+  "network_used_for_structure_comparison": false,
+  "strategy": "non-destructive canonical navigation and release layer",
+  "added_layers": [
+    "docs/traceability",
+    "studies/vdcm/integrity/releases",
+    "papers/thinkai-2026/venue",
+    "papers/thinkai-2026/manuscript/initial-submission",
+    "papers/thinkai-2026/manuscript/identified-author",
+    "papers/thinkai-2026/release"
+  ],
+  "preserved_compatibility_paths": [
+    "gate2",
+    "evidence_review",
+    "simulation",
+    "tests",
+    "root numbered protocol records",
+    "root research workbooks"
+  ],
+  "moved_current_artifacts": false,
+  "moved_superseded_artifacts": true,
+  "superseded_destination": "papers/thinkai-2026/manuscript/initial-submission/working-history",
+  "validation": {
+    "integrated_tests_passed": 278,
+    "repository_files_checked": 10454,
+    "manuscript_release_content_gate": "pass",
+    "anonymous_pages_visually_inspected": 15
+  }
+}

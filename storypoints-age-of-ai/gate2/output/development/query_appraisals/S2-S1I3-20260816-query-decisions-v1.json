@@ -1,0 +1,365 @@
+{
+  "decisions": [
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively measures or synthesizes AI-associated developer productivity or work redistribution.",
+      "source_id": "0001046b3be464278fa266aa85de726d05460790"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Technical AI/tool performance without substantive human-work redistribution or lifecycle-readiness analysis.",
+      "source_id": "00422e426c5c1592f75754045c75ecb254db0739"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Metadata does not substantively bridge the prespecified human-effort or lifecycle-readiness constructs.",
+      "source_id": "008f84c2d5828481504d5cce64706a4c798d2d00"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively addresses AI-era software effort estimation or its comparator target.",
+      "source_id": "00df35ff13c1f49a34ef129fa0dfad8e4c8eb4bb"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Metadata does not substantively bridge the prespecified human-effort or lifecycle-readiness constructs.",
+      "source_id": "011e10d8de4cce18497731c6f1ef1081d96c8380"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Metadata does not substantively bridge the prespecified human-effort or lifecycle-readiness constructs.",
+      "source_id": "0182514f6db322445966b1a35e72256f96bb9d35"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Technical AI/tool performance without substantive human-work redistribution or lifecycle-readiness analysis.",
+      "source_id": "033b934bafa666b21d02047de5af6d00b9e983e1"
+    },
+    {
+      "decision": "uncertain",
+      "reason": "Potentially within the bounded integrative construct, but exported metadata is insufficient for a substantive query-control judgment.",
+      "source_id": "03e489b1f5f2d351ef2f7948b31a41c9fab42535"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Metadata does not substantively bridge the prespecified human-effort or lifecycle-readiness constructs.",
+      "source_id": "05bccbc8007cef45c1edb7e7e93bfe26ecd898ab"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Metadata does not substantively bridge the prespecified human-effort or lifecycle-readiness constructs.",
+      "source_id": "06764a1560c0b7c3c5c6f205fd87f53c21c75fff"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively measures or synthesizes AI-associated developer productivity or work redistribution.",
+      "source_id": "0e0335d1ab782c0b5129646067252d0361e1b139"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Metadata does not substantively bridge the prespecified human-effort or lifecycle-readiness constructs.",
+      "source_id": "14f409c6c3661c7dd487a859a98b94c8f0b15a99"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively addresses human work, validation, or developer experience under AI assistance.",
+      "source_id": "419eb79a2c03d146488f21c1c677b54066b60ce8"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively addresses human/AI code-review effort, behavior, quality, or oversight.",
+      "source_id": "476ee8d28ec4626caa99d993d3c731995c966277"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Metadata does not substantively bridge the prespecified human-effort or lifecycle-readiness constructs.",
+      "source_id": "4bc82011c2f510721b005948e8593b2f6d8bc9d5"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Technical AI/tool performance without substantive human-work redistribution or lifecycle-readiness analysis.",
+      "source_id": "524bb48c511c1d60c3dcd36d598aaf0ee894b859"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Technical AI/tool performance without substantive human-work redistribution or lifecycle-readiness analysis.",
+      "source_id": "535def99945420472ac7772b54a59ca2893ceaf4"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Technical AI/tool performance without substantive human-work redistribution or lifecycle-readiness analysis.",
+      "source_id": "5751bcf78804da38264b9fb58e0807141b16710e"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Education-focused record outside the professional bounded integrative scope.",
+      "source_id": "59c2410090b7ddf010469d950952d48865073b51"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively measures or synthesizes AI-associated developer productivity or work redistribution.",
+      "source_id": "5a7e2ba9a04cd62c147678ed65b9f22a5f389c70"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively measures or synthesizes AI-associated developer productivity or work redistribution.",
+      "source_id": "5a9245c0f693cfa6e7c331811fe7f2257996b6bd"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Metadata does not substantively bridge the prespecified human-effort or lifecycle-readiness constructs.",
+      "source_id": "60ef04a99625db0158b933cf307c1eeae9fd03d7"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively measures or synthesizes AI-associated developer productivity or work redistribution.",
+      "source_id": "66b47162d32495d78e83f3c8c53d654baaa88a81"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively addresses human/AI code-review effort, behavior, quality, or oversight.",
+      "source_id": "672b87ccd08853256ceefd89c833ecfc9a36afbf"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Technical AI/tool performance without substantive human-work redistribution or lifecycle-readiness analysis.",
+      "source_id": "6c97711d611a5412f7c18c0f2d602577f252cd8c"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Technical AI/tool performance without substantive human-work redistribution or lifecycle-readiness analysis.",
+      "source_id": "80cfb442e686a5ccb320201d434ba10dfcce006b"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Metadata does not substantively bridge the prespecified human-effort or lifecycle-readiness constructs.",
+      "source_id": "836f6de199eb7074dad65283010e10acddf7c641"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively measures or synthesizes AI-associated developer productivity or work redistribution.",
+      "source_id": "931780429f4c14686edbab11100445f42a1c21b7"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Metadata does not substantively bridge the prespecified human-effort or lifecycle-readiness constructs.",
+      "source_id": "93a4796fc5c467bc7af7636bc316f8dbc9677080"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Technical AI/tool performance without substantive human-work redistribution or lifecycle-readiness analysis.",
+      "source_id": "a11c38e5c2516af787f46763589832c9bbb48153"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Metadata does not substantively bridge the prespecified human-effort or lifecycle-readiness constructs.",
+      "source_id": "b7e27ade9a882280049e2121c901e7c921978ff9"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively addresses human/AI code-review effort, behavior, quality, or oversight.",
+      "source_id": "bc9e3207ad879c006c6713f6db3668327d741862"
+    },
+    {
+      "decision": "uncertain",
+      "reason": "Potentially within the bounded integrative construct, but exported metadata is insufficient for a substantive query-control judgment.",
+      "source_id": "d5958bf75dedd6d4d34854254b1d96976f98661d"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Metadata does not substantively bridge the prespecified human-effort or lifecycle-readiness constructs.",
+      "source_id": "d9f315f7d74346a3470a9385534f5fc9a99d444b"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Technical AI/tool performance without substantive human-work redistribution or lifecycle-readiness analysis.",
+      "source_id": "db1cc88c30acb71469fbd1b0f8a6df1babf5f015"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Technical AI/tool performance without substantive human-work redistribution or lifecycle-readiness analysis.",
+      "source_id": "dd4c632565bc5d5230868b58fccac88b60fd0e7f"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively measures or synthesizes AI-associated developer productivity or work redistribution.",
+      "source_id": "e32ac471784fc37e1515f4e6ec7aaf4574bf4c7a"
+    },
+    {
+      "decision": "uncertain",
+      "reason": "Potentially within the bounded integrative construct, but exported metadata is insufficient for a substantive query-control judgment.",
+      "source_id": "e69da052cde5461ffd904f89ee1dbe00d460a31c"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Education-focused record outside the professional bounded integrative scope.",
+      "source_id": "e788a6fc0ee8329f85e9dbceb17e4268155a0cd4"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Technical AI/tool performance without substantive human-work redistribution or lifecycle-readiness analysis.",
+      "source_id": "f652b6dc216e4a86aefa8573ee3d7622741c71a6"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Technical AI/tool performance without substantive human-work redistribution or lifecycle-readiness analysis.",
+      "source_id": "faf76b18253d086c5627bd4487856d929806a667"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Technical AI/tool performance without substantive human-work redistribution or lifecycle-readiness analysis.",
+      "source_id": "fba0b0817dbc8200b41a1de22654b54b778a11e9"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively measures or synthesizes AI-associated developer productivity or work redistribution.",
+      "source_id": "fc496584731d5224fcfd4480e9f29536d77d2607"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively addresses human/AI code-review effort, behavior, quality, or oversight.",
+      "source_id": "fcc95b5ab92b3181e5cdcb24c0af4c760cbd46ae"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Education-focused record outside the professional bounded integrative scope.",
+      "source_id": "fd5a9941081e7c21751479a9bb2aa58d211c3036"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively addresses human work, validation, or developer experience under AI assistance.",
+      "source_id": "fd9ca684f5a419ae3bf40dab2c34743795eb876c"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Technical AI/tool performance without substantive human-work redistribution or lifecycle-readiness analysis.",
+      "source_id": "fdb2f70dc93630c02a4f9113d039f9d96ef0b2f6"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively measures or synthesizes AI-associated developer productivity or work redistribution.",
+      "source_id": "ff5615eaaf50fff2b1e4e842e6cfa5b1f063d326"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Technical AI/tool performance without substantive human-work redistribution or lifecycle-readiness analysis.",
+      "source_id": "ff711d346becd7f91ab0886138d6b1f277462e45"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Metadata does not substantively bridge the prespecified human-effort or lifecycle-readiness constructs.",
+      "source_id": "ffc36184e91ea6fb86392560a3747c03af325203"
+    }
+  ],
+  "family_id": "S1",
+  "interpretation_boundary": "Metadata-level query appraisal only; not screening, eligibility, or PRISMA evidence.",
+  "ordered_sample_source_ids": [
+    "0001046b3be464278fa266aa85de726d05460790",
+    "00422e426c5c1592f75754045c75ecb254db0739",
+    "008f84c2d5828481504d5cce64706a4c798d2d00",
+    "00df35ff13c1f49a34ef129fa0dfad8e4c8eb4bb",
+    "011e10d8de4cce18497731c6f1ef1081d96c8380",
+    "0182514f6db322445966b1a35e72256f96bb9d35",
+    "033b934bafa666b21d02047de5af6d00b9e983e1",
+    "03e489b1f5f2d351ef2f7948b31a41c9fab42535",
+    "05bccbc8007cef45c1edb7e7e93bfe26ecd898ab",
+    "06764a1560c0b7c3c5c6f205fd87f53c21c75fff",
+    "0e0335d1ab782c0b5129646067252d0361e1b139",
+    "14f409c6c3661c7dd487a859a98b94c8f0b15a99",
+    "419eb79a2c03d146488f21c1c677b54066b60ce8",
+    "476ee8d28ec4626caa99d993d3c731995c966277",
+    "4bc82011c2f510721b005948e8593b2f6d8bc9d5",
+    "524bb48c511c1d60c3dcd36d598aaf0ee894b859",
+    "535def99945420472ac7772b54a59ca2893ceaf4",
+    "5751bcf78804da38264b9fb58e0807141b16710e",
+    "59c2410090b7ddf010469d950952d48865073b51",
+    "5a7e2ba9a04cd62c147678ed65b9f22a5f389c70",
+    "5a9245c0f693cfa6e7c331811fe7f2257996b6bd",
+    "60ef04a99625db0158b933cf307c1eeae9fd03d7",
+    "66b47162d32495d78e83f3c8c53d654baaa88a81",
+    "672b87ccd08853256ceefd89c833ecfc9a36afbf",
+    "6c97711d611a5412f7c18c0f2d602577f252cd8c",
+    "80cfb442e686a5ccb320201d434ba10dfcce006b",
+    "836f6de199eb7074dad65283010e10acddf7c641",
+    "931780429f4c14686edbab11100445f42a1c21b7",
+    "93a4796fc5c467bc7af7636bc316f8dbc9677080",
+    "a11c38e5c2516af787f46763589832c9bbb48153",
+    "b7e27ade9a882280049e2121c901e7c921978ff9",
+    "bc9e3207ad879c006c6713f6db3668327d741862",
+    "d5958bf75dedd6d4d34854254b1d96976f98661d",
+    "d9f315f7d74346a3470a9385534f5fc9a99d444b",
+    "db1cc88c30acb71469fbd1b0f8a6df1babf5f015",
+    "dd4c632565bc5d5230868b58fccac88b60fd0e7f",
+    "e32ac471784fc37e1515f4e6ec7aaf4574bf4c7a",
+    "e69da052cde5461ffd904f89ee1dbe00d460a31c",
+    "e788a6fc0ee8329f85e9dbceb17e4268155a0cd4",
+    "f652b6dc216e4a86aefa8573ee3d7622741c71a6",
+    "faf76b18253d086c5627bd4487856d929806a667",
+    "fba0b0817dbc8200b41a1de22654b54b778a11e9",
+    "fc496584731d5224fcfd4480e9f29536d77d2607",
+    "fcc95b5ab92b3181e5cdcb24c0af4c760cbd46ae",
+    "fd5a9941081e7c21751479a9bb2aa58d211c3036",
+    "fd9ca684f5a419ae3bf40dab2c34743795eb876c",
+    "fdb2f70dc93630c02a4f9113d039f9d96ef0b2f6",
+    "ff5615eaaf50fff2b1e4e842e6cfa5b1f063d326",
+    "ff711d346becd7f91ab0886138d6b1f277462e45",
+    "ffc36184e91ea6fb86392560a3747c03af325203"
+  ],
+  "query_id": "S2-S1I3",
+  "query_version": "0.3",
+  "sample_positions_zero_based": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    18,
+    27,
+    82,
+    92,
+    99,
+    108,
+    109,
+    114,
+    118,
+    119,
+    120,
+    128,
+    137,
+    138,
+    144,
+    170,
+    173,
+    187,
+    188,
+    204,
+    228,
+    231,
+    261,
+    268,
+    269,
+    272,
+    285,
+    288,
+    290,
+    313,
+    321,
+    322,
+    323,
+    324,
+    325,
+    326,
+    327,
+    328,
+    329,
+    330
+  ],
+  "sampling_seed_sha256": "075e45ea14dee5bf30c90619d61c723d23d1de71d6d3dc1b04bfdfada72d4d94",
+  "source": "semantic_scholar",
+  "status": "development_query_control_decisions"
+}

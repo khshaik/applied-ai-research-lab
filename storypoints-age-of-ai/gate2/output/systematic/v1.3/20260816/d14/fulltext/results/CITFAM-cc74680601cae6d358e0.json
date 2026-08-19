@@ -1,0 +1,19 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-19T09:39:04.777504Z",
+      "basis": "frozen_openalex_primary_oa_pdf",
+      "final_url": "https://ieeexplore.ieee.org/ielx7/6287639/6514899/10172184.pdf",
+      "http_status": 404,
+      "redirect_count": 0,
+      "retry_after": null,
+      "status": "http_failure"
+    }
+  ],
+  "bytes": 0,
+  "citation_family_id": "CITFAM-cc74680601cae6d358e0",
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "security_attestation": "Static HTTPS retrieval only; public-IP validation, bounded redirects/size, signature and active-content checks; no PDF execution.",
+  "status": "http_failure"
+}

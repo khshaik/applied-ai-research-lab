@@ -1,0 +1,10 @@
+{
+  "status":"development_decision_reuse",
+  "query_id":"S2-S3R3",
+  "family_id":"S3",
+  "decision_source":"S2-S3R-20260815-query-decisions-v1.json",
+  "decision_source_sha256":"dc5b8383a8359e0f64f8e33048176691573ff9c10e867d08d13f9dc22f569781",
+  "prior_records_csv_sha256":"fb7d476c998aa1c0e214db603a72eab6c49d0836705817d90072194001c028fd",
+  "current_records_csv_sha256":"fb7d476c998aa1c0e214db603a72eab6c49d0836705817d90072194001c028fd",
+  "rationale":"The complete 15-record normalized export is byte-identical; reuse avoids changing already recorded title/abstract judgments."
+}

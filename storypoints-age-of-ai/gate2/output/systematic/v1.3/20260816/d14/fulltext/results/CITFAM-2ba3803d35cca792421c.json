@@ -1,0 +1,23 @@
+{
+  "attempts": [
+    {
+      "active_indicators": [
+        "/S /URI"
+      ],
+      "attempted_at_utc": "2026-08-18T12:32:29.947422Z",
+      "basis": "live_openalex_best_oa_location_oa_pdf",
+      "bytes": 1718561,
+      "final_url": "https://dergipark.org.tr/en/download/article-file/5244796",
+      "quarantine_path": "/Users/81194246/Library/CloudStorage/OneDrive-Pepsico/Personal/AI/Projects/ThinkAI/storypoints-age-of-ai/gate2/output/systematic/v1.3/20260816/d14/fulltext/quarantine/CITFAM-2ba3803d35cca792421c.pdf",
+      "redirect_count": 0,
+      "sha256": "901c2013032b2915a19d26906863e93520c5d92f0b3dc35fe9f5f62e745ff229",
+      "status": "quarantined_active_content"
+    }
+  ],
+  "bytes": 1718561,
+  "citation_family_id": "CITFAM-2ba3803d35cca792421c",
+  "pdf_path": null,
+  "pdf_sha256": "901c2013032b2915a19d26906863e93520c5d92f0b3dc35fe9f5f62e745ff229",
+  "security_attestation": "Static HTTPS retrieval only; public-IP validation, bounded redirects/size, signature and active-content checks; no PDF execution.",
+  "status": "quarantined_active_content"
+}

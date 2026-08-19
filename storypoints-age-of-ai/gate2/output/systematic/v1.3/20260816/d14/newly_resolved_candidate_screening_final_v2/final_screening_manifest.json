@@ -1,0 +1,24 @@
+{
+  "adjudicated_count": 4,
+  "adjudication": {
+    "decision_counts": {
+      "exclude": 2,
+      "include": 2
+    },
+    "family_count": 4,
+    "sha256": "1d1803919d078eec2b85f1ab136d758a03e882e402049093a062829e73d0a7bc",
+    "status": "valid_complete_adjudication"
+  },
+  "consensus_count": 29,
+  "decision_counts": {
+    "exclude": 22,
+    "include": 11
+  },
+  "family_count": 33,
+  "final_ledger_sha256": "568ddf70c64e67a7549d70d47eb4280f0025ed0b2ca94248d1a9a4f8aae8a962",
+  "interpretation_boundary": "Title/abstract inclusion requires lawful full-text assessment before evidence inclusion.",
+  "pipeline_version": "d14-new-screening-finalize/1.0.0",
+  "protocol_version": "1.3",
+  "reconciliation_manifest_sha256": "d0b8515608b97277f442ff6b0b5b15b58d38d00c2c721942a35eaee5fa849aba",
+  "status": "d14_new_candidate_screening_complete"
+}

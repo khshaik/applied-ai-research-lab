@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 244501,
+      "content_type": "application/pdf",
+      "final_url": "https://journal.idscipub.com/index.php/digitus/article/download/956/664",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "6120018d7300692608dac937417069a630a9a6233236f806bebf73e40a7e31a3",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://journal.idscipub.com/digitus/article/download/956/664"
+    }
+  ],
+  "bytes": 244501,
+  "family_id": "FAM-b6ce52115669db41e34f",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-b6ce52115669db41e34f.pdf",
+  "pdf_sha256": "6120018d7300692608dac937417069a630a9a6233236f806bebf73e40a7e31a3",
+  "representative_canonical_id": "CAN-1fc8a1f6f85b80e8cf38",
+  "retrieved_url": "https://journal.idscipub.com/index.php/digitus/article/download/956/664",
+  "status": "retrieved_open"
+}

@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 10338400,
+      "content_type": "application/pdf",
+      "final_url": "https://info.ornl.gov/sites/publications/Files/Pub137271.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "02c67f65ad847792a71d68e068962d935e9abf3e5daf426a1227ecbb9d58593b",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://www.osti.gov/servlets/purl/1606662"
+    }
+  ],
+  "bytes": 10338400,
+  "family_id": "FAM-d7c7f2ebb30bf796156b",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-d7c7f2ebb30bf796156b.pdf",
+  "pdf_sha256": "02c67f65ad847792a71d68e068962d935e9abf3e5daf426a1227ecbb9d58593b",
+  "representative_canonical_id": "CAN-70db66df51f80ec272ef",
+  "retrieved_url": "https://info.ornl.gov/sites/publications/Files/Pub137271.pdf",
+  "status": "retrieved_open"
+}

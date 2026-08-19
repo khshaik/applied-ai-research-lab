@@ -1,0 +1,30 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:15:50.184355Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://ieeexplore.ieee.org/document/10608315/",
+      "http_status": 202,
+      "outcome": "http_failure",
+      "url": "https://doi.org/10.1109/icosse62619.2024.00014"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:17:36.480381Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://ieeexplore.ieee.org/document/10608315/",
+      "http_status": 202,
+      "outcome": "http_failure",
+      "url": "https://doi.org/10.1109/icosse62619.2024.00014"
+    }
+  ],
+  "bytes": 0,
+  "family_id": "FAM-acbc26d2d07358c1f805",
+  "lawful_access_basis": null,
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "representative_canonical_id": "CAN-d89355ced1058d748b45",
+  "retrieved_url": null,
+  "status": "lawful_full_text_not_retrieved"
+}

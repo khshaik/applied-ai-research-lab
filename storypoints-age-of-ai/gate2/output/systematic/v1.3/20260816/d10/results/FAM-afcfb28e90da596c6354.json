@@ -1,0 +1,30 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:15:55.069116Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://ieeexplore.ieee.org/document/11515280/",
+      "http_status": 202,
+      "outcome": "http_failure",
+      "url": "https://doi.org/10.1109/tse.2026.3692448"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:17:42.995398Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://ieeexplore.ieee.org/document/11515280/",
+      "http_status": 202,
+      "outcome": "http_failure",
+      "url": "https://doi.org/10.1109/tse.2026.3692448"
+    }
+  ],
+  "bytes": 0,
+  "family_id": "FAM-afcfb28e90da596c6354",
+  "lawful_access_basis": null,
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "representative_canonical_id": "CAN-b888f765b8759a18232c",
+  "retrieved_url": null,
+  "status": "lawful_full_text_not_retrieved"
+}

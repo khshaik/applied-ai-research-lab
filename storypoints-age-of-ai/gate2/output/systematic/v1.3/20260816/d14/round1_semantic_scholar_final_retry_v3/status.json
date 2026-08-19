@@ -1,0 +1,8 @@
+{
+  "checkpointed": 3,
+  "consecutive_failures": 3,
+  "next_action": "Resume after cooldown without repeating checkpoints.",
+  "population": 5,
+  "security_boundary": "Public metadata only; no secret output, Git/history, PDFs, installs, or private systems.",
+  "status": "paused_rate_limit"
+}

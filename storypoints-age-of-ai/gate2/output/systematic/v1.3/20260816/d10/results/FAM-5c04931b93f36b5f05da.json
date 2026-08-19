@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 242601,
+      "content_type": "application/pdf;charset=UTF-8",
+      "final_url": "https://www.techrxiv.org/doi/pdf/10.36227/techrxiv.175624549.98427022/v1",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "382f71520ceba2c0a475d9b3c14069b0fce43dcf25829bbfdcc8b17e1598eff6",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://www.techrxiv.org/doi/pdf/10.36227/techrxiv.175624549.98427022/v1"
+    }
+  ],
+  "bytes": 242601,
+  "family_id": "FAM-5c04931b93f36b5f05da",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-5c04931b93f36b5f05da.pdf",
+  "pdf_sha256": "382f71520ceba2c0a475d9b3c14069b0fce43dcf25829bbfdcc8b17e1598eff6",
+  "representative_canonical_id": "CAN-06d1d1141da77a5f1847",
+  "retrieved_url": "https://www.techrxiv.org/doi/pdf/10.36227/techrxiv.175624549.98427022/v1",
+  "status": "retrieved_open"
+}

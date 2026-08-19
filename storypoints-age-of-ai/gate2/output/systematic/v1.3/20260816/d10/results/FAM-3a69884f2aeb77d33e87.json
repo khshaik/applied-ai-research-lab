@@ -1,0 +1,43 @@
+{
+  "attempts": [
+    {
+      "basis": "semantic_scholar_open_access_pdf",
+      "bytes": 344781,
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://ioro.org/ijcsa/article/192621592188",
+      "http_status": 200,
+      "outcome": "not_a_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://doi.org/10.64823/ijcsa.2601002"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:05:04.842746Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://ioro.org/ijcsa/article/192621592188",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://doi.org/10.64823/ijcsa.2601002"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:05:08.237020Z",
+      "basis": "citation_pdf_url_metadata",
+      "bytes": 173041,
+      "content_type": "application/pdf",
+      "final_url": "https://ioro.org/download/192621592188",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "sha256": "21b9ee69cd43de62cfa01ab133344becfd67ab52a4fe8a1b865de07a47064f0b",
+      "url": "https://ioro.org/download/192621592188"
+    }
+  ],
+  "bytes": 173041,
+  "family_id": "FAM-3a69884f2aeb77d33e87",
+  "lawful_access_basis": "citation_pdf_url_metadata",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-3a69884f2aeb77d33e87.pdf",
+  "pdf_sha256": "21b9ee69cd43de62cfa01ab133344becfd67ab52a4fe8a1b865de07a47064f0b",
+  "representative_canonical_id": "CAN-857aeed87cac2b58a3ec",
+  "retrieved_url": "https://ioro.org/download/192621592188",
+  "status": "retrieved_open"
+}

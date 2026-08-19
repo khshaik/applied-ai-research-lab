@@ -1,0 +1,16 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-19T10:04:03.255926Z",
+      "basis": "semantic_scholar_explicit_openAccessPdf",
+      "error_type": "gaierror",
+      "status": "network_or_policy_failure"
+    }
+  ],
+  "bytes": 0,
+  "citation_family_id": "CITFAM-009be24b259186fea972",
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "security_attestation": "Static HTTPS retrieval only; public-IP validation, bounded redirects/size, signature and active-content checks; no PDF execution.",
+  "status": "network_or_policy_failure"
+}

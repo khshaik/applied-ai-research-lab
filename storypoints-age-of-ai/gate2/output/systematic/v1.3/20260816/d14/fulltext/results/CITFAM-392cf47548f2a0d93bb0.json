@@ -1,0 +1,23 @@
+{
+  "attempts": [
+    {
+      "active_indicators": [
+        "/S /URI"
+      ],
+      "attempted_at_utc": "2026-08-18T12:55:58.332466Z",
+      "basis": "frozen_openalex_primary_oa_pdf",
+      "bytes": 3825241,
+      "final_url": "https://www.qeios.com/read/VV1661/pdf",
+      "quarantine_path": "/Users/81194246/Library/CloudStorage/OneDrive-Pepsico/Personal/AI/Projects/ThinkAI/storypoints-age-of-ai/gate2/output/systematic/v1.3/20260816/d14/fulltext/quarantine/CITFAM-392cf47548f2a0d93bb0.pdf",
+      "redirect_count": 0,
+      "sha256": "dc5676195f3d2988b571e3299c08d6599fc55ab47c8a1c6aa127f1be1453e1d6",
+      "status": "quarantined_active_content"
+    }
+  ],
+  "bytes": 3825241,
+  "citation_family_id": "CITFAM-392cf47548f2a0d93bb0",
+  "pdf_path": null,
+  "pdf_sha256": "dc5676195f3d2988b571e3299c08d6599fc55ab47c8a1c6aa127f1be1453e1d6",
+  "security_attestation": "Static HTTPS retrieval only; public-IP validation, bounded redirects/size, signature and active-content checks; no PDF execution.",
+  "status": "quarantined_active_content"
+}

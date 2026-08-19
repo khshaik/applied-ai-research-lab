@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 249404,
+      "content_type": "application/pdf",
+      "final_url": "https://zesterapublications.com/journals/index.php/ijaei/article/download/620/586",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "428070206b23f31c983772a57bd46c9717c5b4ae9b6c4ef37535ae2a3ccbeb68",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://zesterapublications.com/journals/index.php/ijaei/article/download/620/586"
+    }
+  ],
+  "bytes": 249404,
+  "family_id": "FAM-37d2da43259765c588cf",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-37d2da43259765c588cf.pdf",
+  "pdf_sha256": "428070206b23f31c983772a57bd46c9717c5b4ae9b6c4ef37535ae2a3ccbeb68",
+  "representative_canonical_id": "CAN-bf245e9d15ff5b28d0c6",
+  "retrieved_url": "https://zesterapublications.com/journals/index.php/ijaei/article/download/620/586",
+  "status": "retrieved_open"
+}

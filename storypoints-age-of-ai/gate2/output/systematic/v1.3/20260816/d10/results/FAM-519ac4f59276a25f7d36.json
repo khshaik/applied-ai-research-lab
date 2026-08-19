@@ -1,0 +1,21 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:05:55.358639Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html",
+      "final_url": "https://services.igi-global.com/resolvedoi/resolve.aspx?doi=10.4018/979-8-3373-0832-6.ch013",
+      "http_status": 429,
+      "outcome": "http_failure",
+      "url": "https://doi.org/10.4018/979-8-3373-0832-6.ch013"
+    }
+  ],
+  "bytes": 0,
+  "family_id": "FAM-519ac4f59276a25f7d36",
+  "lawful_access_basis": null,
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "representative_canonical_id": "CAN-bcb41d02e718ba1bc7b9",
+  "retrieved_url": null,
+  "status": "lawful_full_text_not_retrieved"
+}

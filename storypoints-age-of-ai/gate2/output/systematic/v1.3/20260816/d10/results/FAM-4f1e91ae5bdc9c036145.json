@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 2821162,
+      "content_type": "application/pdf",
+      "final_url": "https://ieeexplore.ieee.org/ielx7/52/9994072/09994260.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "e1a0fbe4bd2cfab64f73dbee5ed9cb05883946d61456867e5fe0a0cc07f40062",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://ieeexplore.ieee.org/ielx7/52/9994072/09994260.pdf"
+    }
+  ],
+  "bytes": 2821162,
+  "family_id": "FAM-4f1e91ae5bdc9c036145",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-4f1e91ae5bdc9c036145.pdf",
+  "pdf_sha256": "e1a0fbe4bd2cfab64f73dbee5ed9cb05883946d61456867e5fe0a0cc07f40062",
+  "representative_canonical_id": "CAN-064135d6adecea976e29",
+  "retrieved_url": "https://ieeexplore.ieee.org/ielx7/52/9994072/09994260.pdf",
+  "status": "retrieved_open"
+}

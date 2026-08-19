@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 675340,
+      "content_type": "application/pdf",
+      "final_url": "https://urfpublishers.com/journal/artificial-intelligence/open-access/llm-augmented-quality-engineering-a-framework-for-intelligent-test-automation-and-root-cause-analysis.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "35a09be82e173d943217d1494540026820ee067b22eccc8a046a4cdc66ddf1f1",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://doi.org/10.51219/jaimld/srikanth-chakravarthy-vankayala/681"
+    }
+  ],
+  "bytes": 675340,
+  "family_id": "FAM-b705d9d762716dc60d23",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-b705d9d762716dc60d23.pdf",
+  "pdf_sha256": "35a09be82e173d943217d1494540026820ee067b22eccc8a046a4cdc66ddf1f1",
+  "representative_canonical_id": "CAN-95f0d5fe4234d9e6ee9d",
+  "retrieved_url": "https://urfpublishers.com/journal/artificial-intelligence/open-access/llm-augmented-quality-engineering-a-framework-for-intelligent-test-automation-and-root-cause-analysis.pdf",
+  "status": "retrieved_open"
+}

@@ -1,0 +1,156 @@
+{
+  "completed_runs": 18,
+  "expected_runs": 18,
+  "freeze_package_sha256": "fa9800da881c2590a3261861fa6e1de5d6a3c349687ef320b43057561be8730d",
+  "interpretation_boundary": "Raw systematic discovery records only; not deduplicated, screened, eligible, or PRISMA inclusion counts.",
+  "missing_query_ids": [],
+  "protocol_version": "1.3",
+  "reconciled_at_utc": "2026-08-16T09:11:55.240151+00:00",
+  "runs": [
+    {
+      "family_id": "S1",
+      "manifest_path": "gate2/output/systematic/v1.3/20260816/semantic_scholar/S2-S1I3/manifest.json",
+      "manifest_sha256": "6b300a427d2b27613d83802350b7876a23eb6bc9f4e0e6b6af732e53cdc7f32e",
+      "query_id": "S2-S1I3",
+      "records_retrieved": 331,
+      "source": "Semantic Scholar"
+    },
+    {
+      "family_id": "S2",
+      "manifest_path": "gate2/output/systematic/v1.3/20260816/openalex/OA-S2I3/manifest.json",
+      "manifest_sha256": "07045dfd6902d359cc3d25b7ea3cdf0416910abb3f1738907c54f5251b6a5e54",
+      "query_id": "OA-S2I3",
+      "records_retrieved": 259,
+      "source": "OpenAlex"
+    },
+    {
+      "family_id": "S3",
+      "manifest_path": "gate2/output/systematic/v1.3/20260816/openalex/OA-S3R3/manifest.json",
+      "manifest_sha256": "f7fef5a1ee624a098f6a27a8dbe39895259135e576f51565851c3b2cc103b565",
+      "query_id": "OA-S3R3",
+      "records_retrieved": 134,
+      "source": "OpenAlex"
+    },
+    {
+      "family_id": "S3",
+      "manifest_path": "gate2/output/systematic/v1.3/20260816/semantic_scholar/S2-S3R3/manifest.json",
+      "manifest_sha256": "47b1108f090937a980cd01559913d375cea7d231952de079a43163353c53b006",
+      "query_id": "S2-S3R3",
+      "records_retrieved": 15,
+      "source": "Semantic Scholar"
+    },
+    {
+      "family_id": "S4/S5R",
+      "manifest_path": "gate2/output/systematic/v1.3/20260816/openalex/OA-S4R6/manifest.json",
+      "manifest_sha256": "30a4db29e38b53c70e9f39f16d681d1bb69af8c5865a2ba9fbacf299817386d3",
+      "query_id": "OA-S4R6",
+      "records_retrieved": 563,
+      "source": "OpenAlex"
+    },
+    {
+      "family_id": "S4/S5R",
+      "manifest_path": "gate2/output/systematic/v1.3/20260816/semantic_scholar/S2-S4R5/manifest.json",
+      "manifest_sha256": "a4c03176aa242dfdcc339a804ff3691db36377fe17314ccc1274be7bb6ff1662",
+      "query_id": "S2-S4R5",
+      "records_retrieved": 280,
+      "source": "Semantic Scholar"
+    },
+    {
+      "family_id": "S4/S5R",
+      "manifest_path": "gate2/output/systematic/v1.3/20260816/arxiv/AX-S5R/manifest.json",
+      "manifest_sha256": "f70057bb89041edc228265d6b26d641f0b7dd53478798ac97aa86891f246c2ac",
+      "query_id": "AX-S5R",
+      "records_retrieved": 187,
+      "source": "arXiv"
+    },
+    {
+      "family_id": "S5T",
+      "manifest_path": "gate2/output/systematic/v1.3/20260816/openalex/OA-S5TR4/manifest.json",
+      "manifest_sha256": "f5519b8f00064a31b07dc252f3081de2f1234cf1d8856decc2902653dda41535",
+      "query_id": "OA-S5TR4",
+      "records_retrieved": 137,
+      "source": "OpenAlex"
+    },
+    {
+      "family_id": "S5T",
+      "manifest_path": "gate2/output/systematic/v1.3/20260816/arxiv/AX-S5T/manifest.json",
+      "manifest_sha256": "1b5af1449da5d1e456c283ec751343120d04054889b2e71188c3a238a3d825a8",
+      "query_id": "AX-S5T",
+      "records_retrieved": 394,
+      "source": "arXiv"
+    },
+    {
+      "family_id": "S5S",
+      "manifest_path": "gate2/output/systematic/v1.3/20260816/openalex/OA-S5SR7/manifest.json",
+      "manifest_sha256": "8ff191f84ddc43a25f88afd27b2930c2daaa6f6030c3420a393b6783d997827e",
+      "query_id": "OA-S5SR7",
+      "records_retrieved": 19,
+      "source": "OpenAlex"
+    },
+    {
+      "family_id": "S5S",
+      "manifest_path": "gate2/output/systematic/v1.3/20260816/arxiv/AX-S5S/manifest.json",
+      "manifest_sha256": "a34bbc5dc53bdb5a19f153ebdbff53e297d34bd8ae238dc10a5e22175a2a2d9e",
+      "query_id": "AX-S5S",
+      "records_retrieved": 1333,
+      "source": "arXiv"
+    },
+    {
+      "family_id": "S6",
+      "manifest_path": "gate2/output/systematic/v1.3/20260816/openalex/OA-S6R8/manifest.json",
+      "manifest_sha256": "4b76bbeca77e9ce74d74d45966310907935950c94bb29303403ac32699df4266",
+      "query_id": "OA-S6R8",
+      "records_retrieved": 231,
+      "source": "OpenAlex"
+    },
+    {
+      "family_id": "S6",
+      "manifest_path": "gate2/output/systematic/v1.3/20260816/arxiv/AX-S6R/manifest.json",
+      "manifest_sha256": "e5b4e8c7fddc230a792845852af0830d21cceb59df819091241f78129b52cd9d",
+      "query_id": "AX-S6R",
+      "records_retrieved": 29,
+      "source": "arXiv"
+    },
+    {
+      "family_id": "S7",
+      "manifest_path": "gate2/output/systematic/v1.3/20260816/openalex/OA-S7R4/manifest.json",
+      "manifest_sha256": "6346dee9cdd6ada4055dbd0a445255257fd9d8dff7290558ec2e146dac076d8c",
+      "query_id": "OA-S7R4",
+      "records_retrieved": 49,
+      "source": "OpenAlex"
+    },
+    {
+      "family_id": "S7",
+      "manifest_path": "gate2/output/systematic/v1.3/20260816/semantic_scholar/S2-S7R4/manifest.json",
+      "manifest_sha256": "c7bfa5985ee46716d6aae5244134e7aa6fd1baffe84b6ea1c911677c49c660b5",
+      "query_id": "S2-S7R4",
+      "records_retrieved": 19,
+      "source": "Semantic Scholar"
+    },
+    {
+      "family_id": "S7",
+      "manifest_path": "gate2/output/systematic/v1.3/20260816/arxiv/AX-S7R4/manifest.json",
+      "manifest_sha256": "d4637eae4a55de64154997d8b4e50402a52255a5bf8c3fc8979fa0292d1493c1",
+      "query_id": "AX-S7R4",
+      "records_retrieved": 7,
+      "source": "arXiv"
+    },
+    {
+      "family_id": "S8",
+      "manifest_path": "gate2/output/systematic/v1.3/20260816/openalex/OA-S8R6/manifest.json",
+      "manifest_sha256": "64271194ea3dd09aa411052f114e03ec996792615703879f3569cfd09f3c461e",
+      "query_id": "OA-S8R6",
+      "records_retrieved": 1098,
+      "source": "OpenAlex"
+    },
+    {
+      "family_id": "S8",
+      "manifest_path": "gate2/output/systematic/v1.3/20260816/semantic_scholar/S2-S8R6/manifest.json",
+      "manifest_sha256": "d02b37119264705059db7742a9cea85fd363ae5c233e9eeb652dbba799951600",
+      "query_id": "S2-S8R6",
+      "records_retrieved": 794,
+      "source": "Semantic Scholar"
+    }
+  ],
+  "status": "complete"
+}

@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 520816,
+      "content_type": "application/pdf",
+      "final_url": "https://urfpublishers.com/journal/artificial-intelligence/open-access/from-requirements-to-reliable-tests-leveraging-generative-ai-to-transform-test-design-pipelines-in-regulated-financial-systems.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "78a1dde6d54e682ebfac870c535725849f7bb5fbeb5c722a7f7be7de268cc1ce",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://doi.org/10.51219/jaimld/srikanth-chakravarthy-vankayala/682"
+    }
+  ],
+  "bytes": 520816,
+  "family_id": "FAM-fe887364d84d634bf720",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-fe887364d84d634bf720.pdf",
+  "pdf_sha256": "78a1dde6d54e682ebfac870c535725849f7bb5fbeb5c722a7f7be7de268cc1ce",
+  "representative_canonical_id": "CAN-eaf06f8218c8b263e744",
+  "retrieved_url": "https://urfpublishers.com/journal/artificial-intelligence/open-access/from-requirements-to-reliable-tests-leveraging-generative-ai-to-transform-test-design-pipelines-in-regulated-financial-systems.pdf",
+  "status": "retrieved_open"
+}

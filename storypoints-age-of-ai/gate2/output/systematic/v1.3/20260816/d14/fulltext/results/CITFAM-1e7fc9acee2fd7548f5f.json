@@ -1,0 +1,21 @@
+{
+  "attempts": [
+    {
+      "active_indicators": [],
+      "attempted_at_utc": "2026-08-18T11:15:18.108878Z",
+      "basis": "frozen_openalex_primary_oa_pdf",
+      "bytes": 1063559,
+      "final_url": "https://ace.ewapub.com/article/view/18277.pdf",
+      "pdf_path": "/Users/81194246/Library/CloudStorage/OneDrive-Pepsico/Personal/AI/Projects/ThinkAI/storypoints-age-of-ai/gate2/output/systematic/v1.3/20260816/d14/fulltext/pdf/CITFAM-1e7fc9acee2fd7548f5f.pdf",
+      "redirect_count": 1,
+      "sha256": "8d9575ddf0dc32d446f1c9606b2d86b65d717ac220f1eef5279cb3faf2ae6f7e",
+      "status": "retrieved_static_pdf"
+    }
+  ],
+  "bytes": 1063559,
+  "citation_family_id": "CITFAM-1e7fc9acee2fd7548f5f",
+  "pdf_path": "/Users/81194246/Library/CloudStorage/OneDrive-Pepsico/Personal/AI/Projects/ThinkAI/storypoints-age-of-ai/gate2/output/systematic/v1.3/20260816/d14/fulltext/pdf/CITFAM-1e7fc9acee2fd7548f5f.pdf",
+  "pdf_sha256": "8d9575ddf0dc32d446f1c9606b2d86b65d717ac220f1eef5279cb3faf2ae6f7e",
+  "security_attestation": "Static HTTPS retrieval only; public-IP validation, bounded redirects/size, signature and active-content checks; no PDF execution.",
+  "status": "retrieved_static_pdf"
+}

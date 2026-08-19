@@ -1,0 +1,32 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:07:11.592154Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://zenodo.org/records/18410170",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://doi.org/10.5281/zenodo.18410170"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:07:13.635023Z",
+      "basis": "citation_pdf_url_metadata",
+      "bytes": 118563,
+      "content_type": "application/octet-stream, application/octet-stream",
+      "final_url": "https://zenodo.org/records/18410170/files/ai-execution-control-plane-v0.1.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "sha256": "5b19931784dce55f1ce0df8828e6ba2a06216457bc196f99baa80a8a1ca508f5",
+      "url": "https://zenodo.org/records/18410170/files/ai-execution-control-plane-v0.1.pdf"
+    }
+  ],
+  "bytes": 118563,
+  "family_id": "FAM-5e839bdb0612513430d8",
+  "lawful_access_basis": "citation_pdf_url_metadata",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-5e839bdb0612513430d8.pdf",
+  "pdf_sha256": "5b19931784dce55f1ce0df8828e6ba2a06216457bc196f99baa80a8a1ca508f5",
+  "representative_canonical_id": "CAN-79976f2fa037bfbbce80",
+  "retrieved_url": "https://zenodo.org/records/18410170/files/ai-execution-control-plane-v0.1.pdf",
+  "status": "retrieved_open"
+}

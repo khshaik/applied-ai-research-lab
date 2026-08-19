@@ -1,0 +1,23 @@
+{
+  "attempts": [
+    {
+      "active_indicators": [
+        "/S /URI"
+      ],
+      "attempted_at_utc": "2026-08-19T09:39:07.141468Z",
+      "basis": "live_openalex_best_oa_location_oa_pdf",
+      "bytes": 721732,
+      "final_url": "https://ijsra.net/sites/default/files/fulltext_pdf/IJSRA-2023-1099.pdf",
+      "quarantine_path": "/Users/81194246/Library/CloudStorage/OneDrive-Pepsico/Personal/AI/Projects/ThinkAI/storypoints-age-of-ai/gate2/output/systematic/v1.3/20260816/d14/fulltext/quarantine/CITFAM-cb40e52a8b3ef2b63e2d.pdf",
+      "redirect_count": 1,
+      "sha256": "f035bb54fdcfe351ba292ebed6d8fa914c79fc099a6d0dfdd9a0d74e86af3067",
+      "status": "quarantined_active_content"
+    }
+  ],
+  "bytes": 721732,
+  "citation_family_id": "CITFAM-cb40e52a8b3ef2b63e2d",
+  "pdf_path": null,
+  "pdf_sha256": "f035bb54fdcfe351ba292ebed6d8fa914c79fc099a6d0dfdd9a0d74e86af3067",
+  "security_attestation": "Static HTTPS retrieval only; public-IP validation, bounded redirects/size, signature and active-content checks; no PDF execution.",
+  "status": "quarantined_active_content"
+}

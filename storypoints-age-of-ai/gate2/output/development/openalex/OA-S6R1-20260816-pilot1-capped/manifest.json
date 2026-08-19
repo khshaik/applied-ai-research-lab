@@ -1,0 +1,33 @@
+{
+  "complete_pagination": false,
+  "endpoint": "https://api.openalex.org/works",
+  "executed_at_utc": "2026-08-16T04:35:14.438075+00:00",
+  "from_date": "2019-01-01",
+  "interpretation_boundary": "Open-index development discovery export; not frozen, screened, deduplicated, eligible, or a PRISMA corpus. Retrieval was intentionally capped; total_reported is API metadata, not an exported-record or review-flow count.",
+  "max_pages": 1,
+  "page_size": 200,
+  "pages": [
+    {
+      "file": "page_00000.json",
+      "records": 200,
+      "request_url_sha256": "064e26a0b704573c7cb118b5854c292be58b1061c6d47ae43e6ba1ba79b33bbe",
+      "sequence": 0,
+      "sha256": "af1a7b4c35def7669f295dd24f2ce7928c74a09db4494313a33c926a043f27ed"
+    }
+  ],
+  "query": "(\"large language model\" OR LLM OR ChatGPT OR \"generative AI\" OR \"AI-assisted\" OR \"AI-augmented\" OR \"AI coding agent\") AND (\"software delivery\" OR \"software development\" OR \"software engineering\" OR SDLC) AND (team OR organization OR enterprise OR lifecycle OR workflow OR process OR orchestration OR coordination OR capacity OR flow OR readiness)",
+  "query_id": "OA-S6R1",
+  "query_mode": "title_abstract_filter",
+  "query_registry_sha256": "f28d4c0dd22dd6f91f54fcbff37d07f5474c6125f4bc30682786a692622a8249",
+  "query_sha256": "c4f523bb8f45011e0330f565b601950fdfc6b73c7f28c23df030ad19a35199ea",
+  "records_csv": {
+    "file": "records.csv",
+    "sha256": "d132d3d03813c2ca5eac7e767d88a20aa3b35da4ba52ccb0f1213ee1f5484320"
+  },
+  "records_retrieved": 200,
+  "retrieval_scope": "truncated_development_pilot",
+  "source": "openalex",
+  "status": "development_pilot",
+  "to_date": "2026-08-16",
+  "total_reported": 5972
+}

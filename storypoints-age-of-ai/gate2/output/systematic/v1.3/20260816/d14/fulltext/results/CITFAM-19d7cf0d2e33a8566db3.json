@@ -1,0 +1,23 @@
+{
+  "attempts": [
+    {
+      "active_indicators": [
+        "/S /URI"
+      ],
+      "attempted_at_utc": "2026-08-18T12:32:00.492186Z",
+      "basis": "live_openalex_best_oa_location_oa_pdf",
+      "bytes": 2356972,
+      "final_url": "https://storage.googleapis.com/cos-osf-prod-files-us-east1/576ea4b6b35ac4ca1d1198e077dc77572b8f85976bba60ba977e1408cd076560?response-content-disposition=attachment%3B%20filename%3D%22AIST_%20Preprint%20Update.pdf%22%3B%20filename%2A%3DUTF-8%27%27AIST_%2520Preprint%2520Update.pdf&GoogleAccessId=files-us%40cos-osf-prod.iam.gserviceaccount.com&Expires=1787056377&Signature=aMtjjHOUdEDi67OKjIgBm9MmQ039fywXxVC5t9ojgIrF%2FX%2FzK7pVImWR%2BvPp9sJ4lnVQzgT9ANRx5%2FSnMvvvs3Jsh1UYLApotHLx%2F%2BmOXWL5NHT%2FCnHFWTfST9y7Jj0xGEZi2NVxsEvpiDDVgp30TXnyN59BCAz68mV7J%2FpUVlCzTj2g4lClknOZO%2Bm%2BR4Jkkcl0sxWMmF0%2FdPuc2rMXJw7yCxkdmcvd53LpeZWJrP%2B%2Bu6xNaV8ssYqipigW478EwyXDhmdiemWUReAbsgslmHTItRuCaGndXZUjcS468%2FpRHvUkRLcrBR2Ut3ounbnxyFHFBlJL5Qy6VsQ5m2AtjA%3D%3D",
+      "quarantine_path": "/Users/81194246/Library/CloudStorage/OneDrive-Pepsico/Personal/AI/Projects/ThinkAI/storypoints-age-of-ai/gate2/output/systematic/v1.3/20260816/d14/fulltext/quarantine/CITFAM-19d7cf0d2e33a8566db3.pdf",
+      "redirect_count": 4,
+      "sha256": "576ea4b6b35ac4ca1d1198e077dc77572b8f85976bba60ba977e1408cd076560",
+      "status": "quarantined_active_content"
+    }
+  ],
+  "bytes": 2356972,
+  "citation_family_id": "CITFAM-19d7cf0d2e33a8566db3",
+  "pdf_path": null,
+  "pdf_sha256": "576ea4b6b35ac4ca1d1198e077dc77572b8f85976bba60ba977e1408cd076560",
+  "security_attestation": "Static HTTPS retrieval only; public-IP validation, bounded redirects/size, signature and active-content checks; no PDF execution.",
+  "status": "quarantined_active_content"
+}

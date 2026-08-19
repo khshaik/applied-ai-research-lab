@@ -1,0 +1,41 @@
+{
+  "adjudication_candidate_count": 116,
+  "adjudication_packet_sha256": "1200e149e3427798c6456ae13585db58a65f008118ff6106f6314c1daa307b14",
+  "agent_concordance_count": 221,
+  "agent_concordance_rate": 0.655786350148368,
+  "consensus_decisions_sha256": "4f7087d3f6b5708d956ab868ab4eb76bd4138f5b1fe333ea2dbaad778fd179ed",
+  "consensus_without_unclear_count": 221,
+  "decision_pair_counts": {
+    "exclude|exclude": 43,
+    "exclude|include": 43,
+    "include|exclude": 72,
+    "include|include": 178,
+    "unclear|exclude": 1
+  },
+  "family_count": 337,
+  "interpretation_boundary": "AI-agent concordance only, not human inter-rater reliability; every disagreement or unclear decision requires separate adjudication.",
+  "pass_a": {
+    "decision_counts": {
+      "exclude": 86,
+      "include": 250,
+      "unclear": 1
+    },
+    "family_count": 337,
+    "pass_id": "pass-a",
+    "sha256": "181a80fd042c0ac81d2b0773a16acf726abfb959216a71851dc30a4a168fd20c",
+    "status": "valid_complete_agent_pass"
+  },
+  "pass_b": {
+    "decision_counts": {
+      "exclude": 116,
+      "include": 221
+    },
+    "family_count": 337,
+    "pass_id": "pass-b",
+    "sha256": "dc404877588f0695c582aa87e66f9ff8a536ea62d70bafa599ac95979a336464",
+    "status": "valid_complete_agent_pass"
+  },
+  "pipeline_version": "d14-fulltext-reconcile/1.0.0",
+  "protocol_version": "1.3",
+  "status": "prepared_for_separate_fulltext_adjudication"
+}

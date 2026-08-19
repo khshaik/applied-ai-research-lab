@@ -1,0 +1,19 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-19T08:56:46.909615Z",
+      "basis": "live_openalex_best_oa_location_oa_pdf",
+      "final_url": "https://ijrpr.com/uploads/V6ISSUE2/IJRPR38679.pdf",
+      "http_status": 403,
+      "redirect_count": 1,
+      "retry_after": null,
+      "status": "http_failure"
+    }
+  ],
+  "bytes": 0,
+  "citation_family_id": "CITFAM-b72a418837d63e168185",
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "security_attestation": "Static HTTPS retrieval only; public-IP validation, bounded redirects/size, signature and active-content checks; no PDF execution.",
+  "status": "http_failure"
+}

@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 702995,
+      "content_type": "application/pdf",
+      "final_url": "https://revistas.milpaalta.tecnm.mx/index.php/IPSUMTEC/article/download/457/1125",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "d92ded473a28c582589417ed1afaf2ea4ad8c85c83209b23d86841317d032e82",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://revistas.milpaalta.tecnm.mx/index.php/IPSUMTEC/article/download/457/1125"
+    }
+  ],
+  "bytes": 702995,
+  "family_id": "FAM-399ea725e87db9bdfb72",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-399ea725e87db9bdfb72.pdf",
+  "pdf_sha256": "d92ded473a28c582589417ed1afaf2ea4ad8c85c83209b23d86841317d032e82",
+  "representative_canonical_id": "CAN-515e27a0f830002ed9c7",
+  "retrieved_url": "https://revistas.milpaalta.tecnm.mx/index.php/IPSUMTEC/article/download/457/1125",
+  "status": "retrieved_open"
+}

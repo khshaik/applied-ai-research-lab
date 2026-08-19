@@ -1,0 +1,21 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:04:27.310866Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://ijsrem.com/download/ai-code-review-system",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://doi.org/10.55041/ijsrem61590"
+    }
+  ],
+  "bytes": 0,
+  "family_id": "FAM-2b6544eaab0c1af2f070",
+  "lawful_access_basis": null,
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "representative_canonical_id": "CAN-d2fa76f8fadc00b504fe",
+  "retrieved_url": null,
+  "status": "lawful_full_text_not_retrieved"
+}

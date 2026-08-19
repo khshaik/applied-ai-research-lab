@@ -1,0 +1,366 @@
+{
+  "decisions": [
+    {
+      "decision": "likely_irrelevant",
+      "reason": "System or computational-performance work without a substantive developer-work, estimation, review, or delivery-flow construct.",
+      "source_id": "00ffefb0c86e0ff7338e7f0e41a4990eac576602"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "GenAI-specific technical or impact evidence belongs to another evidence family and is not an S8 foundational comparator record.",
+      "source_id": "011e10d8de4cce18497731c6f1ef1081d96c8380"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Metadata does not substantively address estimation validity, developer-productivity measurement, human review work, workload measurement, or software-delivery flow.",
+      "source_id": "014fc4f12c9e001a8505014596162d31fa209902"
+    },
+    {
+      "decision": "uncertain",
+      "reason": "Title is plausibly connected to a prespecified S8 construct, but exported metadata is insufficient for a substantive query-control judgment.",
+      "source_id": "02d2921b53cdc39882207391767ce6fd0dd61466"
+    },
+    {
+      "decision": "uncertain",
+      "reason": "Title is plausibly connected to a prespecified S8 construct, but exported metadata is insufficient for a substantive query-control judgment.",
+      "source_id": "0316feb839d7e5550b8c3d02c425e488df7ed798"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Education-focused record outside the foundational professional software-work comparison scope.",
+      "source_id": "037bc7d953e592b48f2f01770e3e2bb007df84c2"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively addresses software effort estimation, relative sizing, estimate validity, or a conventional comparator.",
+      "source_id": "0381d0e8671c0b351f15c4c3ad8b79285f294537"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "System or computational-performance work without a substantive developer-work, estimation, review, or delivery-flow construct.",
+      "source_id": "04646118a1a298787dcc85876dd006e56e639dc3"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively measures, defines, or analyzes developer productivity, interruptions, work patterns, or productivity-quality trade-offs.",
+      "source_id": "0519d73c2dfc11a6a785dc360c050f7774ec476d"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively measures, defines, or analyzes developer productivity, interruptions, work patterns, or productivity-quality trade-offs.",
+      "source_id": "05382d442d5fb1ea62bf9240fd002648bdafd198"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively addresses software effort estimation, relative sizing, estimate validity, or a conventional comparator.",
+      "source_id": "062b8010b53efb61fb812fd7e2cbf06902a36566"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively measures, defines, or analyzes developer productivity, interruptions, work patterns, or productivity-quality trade-offs.",
+      "source_id": "1ecc545c213606d9b0b16f06d988544211b01f80"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Technical automation or prediction record without substantive human-work, measurement-validity, or delivery-flow analysis.",
+      "source_id": "24f0db2145c624da035d47393647bba345a26979"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Metadata does not substantively address estimation validity, developer-productivity measurement, human review work, workload measurement, or software-delivery flow.",
+      "source_id": "2c6cbd927bffc2978904e64e6a4ef6537ac4452c"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "System or computational-performance work without a substantive developer-work, estimation, review, or delivery-flow construct.",
+      "source_id": "3397525aff54e9e4386958f31f2ec27626887838"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "System or computational-performance work without a substantive developer-work, estimation, review, or delivery-flow construct.",
+      "source_id": "3a94ce77470c810d6230810e6ea49c7880fbf035"
+    },
+    {
+      "decision": "uncertain",
+      "reason": "Title is plausibly connected to a prespecified S8 construct, but exported metadata is insufficient for a substantive query-control judgment.",
+      "source_id": "464dc3bd3131d4958bedaac133c6bb04a20520b2"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively addresses software effort estimation, relative sizing, estimate validity, or a conventional comparator.",
+      "source_id": "480c8266280d36edc9ac245b45b4d4c0a1db355b"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Metadata does not substantively address estimation validity, developer-productivity measurement, human review work, workload measurement, or software-delivery flow.",
+      "source_id": "4d9487afa974620c59e7d73545733460e30ee8d3"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively measures, defines, or analyzes developer productivity, interruptions, work patterns, or productivity-quality trade-offs.",
+      "source_id": "4e18e09e18fba4f3391b6e014346949ef9344d51"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Metadata does not substantively address estimation validity, developer-productivity measurement, human review work, workload measurement, or software-delivery flow.",
+      "source_id": "5067688ccfa9f77575234e56139a1751ba8338a6"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "GenAI-specific technical or impact evidence belongs to another evidence family and is not an S8 foundational comparator record.",
+      "source_id": "5b3ab423bc29643aa52328bfcb4b9037decf3d91"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively measures, defines, or analyzes developer productivity, interruptions, work patterns, or productivity-quality trade-offs.",
+      "source_id": "62685e52eb4bd354f5ec2b1c56a5ef37624df871"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "GenAI-specific technical or impact evidence belongs to another evidence family and is not an S8 foundational comparator record.",
+      "source_id": "6482c8209acee30305fdac53ad60bca82b9b9d7e"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "GenAI-specific technical or impact evidence belongs to another evidence family and is not an S8 foundational comparator record.",
+      "source_id": "64ff6450e3e8a08bc7776f7956480d94df5d5a6d"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Metadata does not substantively address estimation validity, developer-productivity measurement, human review work, workload measurement, or software-delivery flow.",
+      "source_id": "66638a0a271bd513900d5fccbe65194a9462a7ba"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Metadata does not substantively address estimation validity, developer-productivity measurement, human review work, workload measurement, or software-delivery flow.",
+      "source_id": "69351be92376205b45b7755de7fbe517a92385bc"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Metadata does not substantively address estimation validity, developer-productivity measurement, human review work, workload measurement, or software-delivery flow.",
+      "source_id": "760e92cc98307f591a4aefdea5192c4542ec81b4"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Metadata does not substantively address estimation validity, developer-productivity measurement, human review work, workload measurement, or software-delivery flow.",
+      "source_id": "77b29a13e4a1d9b9947490937ce31ac30cf24f56"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively addresses software-team flow, delivery performance, agile process, dependency, or capacity interpretation.",
+      "source_id": "7f67fd715e921bdc054b958f21535bb610b21c04"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Technical automation or prediction record without substantive human-work, measurement-validity, or delivery-flow analysis.",
+      "source_id": "9392dfeae772e2b6309cdff78144e61dcec58d25"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Metadata does not substantively address estimation validity, developer-productivity measurement, human review work, workload measurement, or software-delivery flow.",
+      "source_id": "9abc620be97ef1bbf7eee926e4a62527a445c63c"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively measures, defines, or analyzes developer productivity, interruptions, work patterns, or productivity-quality trade-offs.",
+      "source_id": "a7c7357e225890804b545f7bb990b786e3669dc9"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Technical automation or prediction record without substantive human-work, measurement-validity, or delivery-flow analysis.",
+      "source_id": "b2fffb86ea86d029b39b1aedf9f49cdf03d06812"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Technical automation or prediction record without substantive human-work, measurement-validity, or delivery-flow analysis.",
+      "source_id": "b893513bf54c534adda24da8124ea904e0541ace"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively addresses a prespecified foundational software-work measurement or process comparator.",
+      "source_id": "c11498240a569705ef380b5bf8a82cf897ee169f"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively addresses software effort estimation, relative sizing, estimate validity, or a conventional comparator.",
+      "source_id": "c40985fc9924e60e061abafd36aa5c2615eefa5c"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Metadata does not substantively address estimation validity, developer-productivity measurement, human review work, workload measurement, or software-delivery flow.",
+      "source_id": "ce81f7f5fb9740045e5177155ef8de90b317bba3"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "System or computational-performance work without a substantive developer-work, estimation, review, or delivery-flow construct.",
+      "source_id": "f21b6fb899f4ed3fe88aa4c2ffa02a07db3ffbb4"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively measures, defines, or analyzes developer productivity, interruptions, work patterns, or productivity-quality trade-offs.",
+      "source_id": "f238da45b982127a1fa9ad25d4203ffd2fd8edd3"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively addresses software-team flow, delivery performance, agile process, dependency, or capacity interpretation.",
+      "source_id": "fd669fc65ae5e0e034dd4e6bd01701f2b18df49c"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively addresses software-team flow, delivery performance, agile process, dependency, or capacity interpretation.",
+      "source_id": "fdad735ec03b36ecc6dbe69c7955bcaab41f54ba"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "GenAI-specific technical or impact evidence belongs to another evidence family and is not an S8 foundational comparator record.",
+      "source_id": "fdb2f70dc93630c02a4f9113d039f9d96ef0b2f6"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Metadata does not substantively address estimation validity, developer-productivity measurement, human review work, workload measurement, or software-delivery flow.",
+      "source_id": "fdbbb45c0f7827816a065f96f5fb04e268d3b56f"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively measures, defines, or analyzes developer productivity, interruptions, work patterns, or productivity-quality trade-offs.",
+      "source_id": "fe071413276820ea7618bfce3ec0bf5710f8f822"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively addresses software effort estimation, relative sizing, estimate validity, or a conventional comparator.",
+      "source_id": "fe345758f1f65e584f03d836a114fdfc4e571644"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Metadata does not substantively address estimation validity, developer-productivity measurement, human review work, workload measurement, or software-delivery flow.",
+      "source_id": "fe8493809c30549c4c319ef71fb35cafe5b27167"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Metadata does not substantively address estimation validity, developer-productivity measurement, human review work, workload measurement, or software-delivery flow.",
+      "source_id": "fe90a0039ce176ca88774fea4b4af24cc2326a09"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Metadata does not substantively address estimation validity, developer-productivity measurement, human review work, workload measurement, or software-delivery flow.",
+      "source_id": "ff5615eaaf50fff2b1e4e842e6cfa5b1f063d326"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Substantively measures, defines, or analyzes developer productivity, interruptions, work patterns, or productivity-quality trade-offs.",
+      "source_id": "ffba3712dafdfaced6dc3465cd3778c4bbd58540"
+    }
+  ],
+  "family_id": "S8",
+  "interpretation_boundary": "Metadata-level deterministic query appraisal only; not systematic screening, eligibility, or PRISMA evidence.",
+  "ordered_sample_source_ids": [
+    "00ffefb0c86e0ff7338e7f0e41a4990eac576602",
+    "011e10d8de4cce18497731c6f1ef1081d96c8380",
+    "014fc4f12c9e001a8505014596162d31fa209902",
+    "02d2921b53cdc39882207391767ce6fd0dd61466",
+    "0316feb839d7e5550b8c3d02c425e488df7ed798",
+    "037bc7d953e592b48f2f01770e3e2bb007df84c2",
+    "0381d0e8671c0b351f15c4c3ad8b79285f294537",
+    "04646118a1a298787dcc85876dd006e56e639dc3",
+    "0519d73c2dfc11a6a785dc360c050f7774ec476d",
+    "05382d442d5fb1ea62bf9240fd002648bdafd198",
+    "062b8010b53efb61fb812fd7e2cbf06902a36566",
+    "1ecc545c213606d9b0b16f06d988544211b01f80",
+    "24f0db2145c624da035d47393647bba345a26979",
+    "2c6cbd927bffc2978904e64e6a4ef6537ac4452c",
+    "3397525aff54e9e4386958f31f2ec27626887838",
+    "3a94ce77470c810d6230810e6ea49c7880fbf035",
+    "464dc3bd3131d4958bedaac133c6bb04a20520b2",
+    "480c8266280d36edc9ac245b45b4d4c0a1db355b",
+    "4d9487afa974620c59e7d73545733460e30ee8d3",
+    "4e18e09e18fba4f3391b6e014346949ef9344d51",
+    "5067688ccfa9f77575234e56139a1751ba8338a6",
+    "5b3ab423bc29643aa52328bfcb4b9037decf3d91",
+    "62685e52eb4bd354f5ec2b1c56a5ef37624df871",
+    "6482c8209acee30305fdac53ad60bca82b9b9d7e",
+    "64ff6450e3e8a08bc7776f7956480d94df5d5a6d",
+    "66638a0a271bd513900d5fccbe65194a9462a7ba",
+    "69351be92376205b45b7755de7fbe517a92385bc",
+    "760e92cc98307f591a4aefdea5192c4542ec81b4",
+    "77b29a13e4a1d9b9947490937ce31ac30cf24f56",
+    "7f67fd715e921bdc054b958f21535bb610b21c04",
+    "9392dfeae772e2b6309cdff78144e61dcec58d25",
+    "9abc620be97ef1bbf7eee926e4a62527a445c63c",
+    "a7c7357e225890804b545f7bb990b786e3669dc9",
+    "b2fffb86ea86d029b39b1aedf9f49cdf03d06812",
+    "b893513bf54c534adda24da8124ea904e0541ace",
+    "c11498240a569705ef380b5bf8a82cf897ee169f",
+    "c40985fc9924e60e061abafd36aa5c2615eefa5c",
+    "ce81f7f5fb9740045e5177155ef8de90b317bba3",
+    "f21b6fb899f4ed3fe88aa4c2ffa02a07db3ffbb4",
+    "f238da45b982127a1fa9ad25d4203ffd2fd8edd3",
+    "fd669fc65ae5e0e034dd4e6bd01701f2b18df49c",
+    "fdad735ec03b36ecc6dbe69c7955bcaab41f54ba",
+    "fdb2f70dc93630c02a4f9113d039f9d96ef0b2f6",
+    "fdbbb45c0f7827816a065f96f5fb04e268d3b56f",
+    "fe071413276820ea7618bfce3ec0bf5710f8f822",
+    "fe345758f1f65e584f03d836a114fdfc4e571644",
+    "fe8493809c30549c4c319ef71fb35cafe5b27167",
+    "fe90a0039ce176ca88774fea4b4af24cc2326a09",
+    "ff5615eaaf50fff2b1e4e842e6cfa5b1f063d326",
+    "ffba3712dafdfaced6dc3465cd3778c4bbd58540"
+  ],
+  "query_id": "S2-S8R6",
+  "query_version": "0.6",
+  "sample_positions_zero_based": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    92,
+    106,
+    129,
+    146,
+    167,
+    203,
+    213,
+    231,
+    233,
+    239,
+    272,
+    300,
+    309,
+    312,
+    316,
+    327,
+    363,
+    368,
+    392,
+    459,
+    478,
+    518,
+    546,
+    561,
+    590,
+    600,
+    626,
+    734,
+    735,
+    784,
+    785,
+    786,
+    787,
+    788,
+    789,
+    790,
+    791,
+    792,
+    793
+  ],
+  "sampling_seed_sha256": "b424b38117bb9f77bdd3c08d94e30a8dff26145f1688e75ee7a2ed3c8073b3d7",
+  "source": "semantic_scholar",
+  "status": "development_query_control_decisions",
+  "strict_rule": "Likely relevant only when metadata substantively addresses software estimation validity, developer-productivity measurement, human code-review work, workload measurement boundaries, or software delivery flow foundations; generic tool/system performance and technical automation alone are insufficient."
+}

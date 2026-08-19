@@ -1,0 +1,21 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:15:38.005484Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html",
+      "final_url": "http://repositorio.ufsm.br/handle/1/36723",
+      "http_status": 504,
+      "outcome": "http_failure",
+      "url": "http://repositorio.ufsm.br/handle/1/36723"
+    }
+  ],
+  "bytes": 0,
+  "family_id": "FAM-a3223d1b197473dce6a0",
+  "lawful_access_basis": null,
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "representative_canonical_id": "CAN-4964ad0199138b1e73e6",
+  "retrieved_url": null,
+  "status": "lawful_full_text_not_retrieved"
+}

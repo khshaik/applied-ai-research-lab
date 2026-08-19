@@ -1,0 +1,32 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:17:00.797417Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://zenodo.org/records/21102728",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://doi.org/10.5281/zenodo.21102728"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:17:02.824690Z",
+      "basis": "citation_pdf_url_metadata",
+      "bytes": 295611,
+      "content_type": "application/octet-stream, application/octet-stream",
+      "final_url": "https://zenodo.org/records/21102728/files/%20MCP%20Server%20Software%20Supply%20Chain%20Hygiene.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "sha256": "aaafc8feb5693783c2367a0322e42c849f46ace8c5c3645c7e3ff25fb4d24a18",
+      "url": "https://zenodo.org/records/21102728/files/%20MCP%20Server%20Software%20Supply%20Chain%20Hygiene.pdf"
+    }
+  ],
+  "bytes": 295611,
+  "family_id": "FAM-fd96cd160d2c3dfd5bd6",
+  "lawful_access_basis": "citation_pdf_url_metadata",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-fd96cd160d2c3dfd5bd6.pdf",
+  "pdf_sha256": "aaafc8feb5693783c2367a0322e42c849f46ace8c5c3645c7e3ff25fb4d24a18",
+  "representative_canonical_id": "CAN-d1b7cc2f422d0be829e6",
+  "retrieved_url": "https://zenodo.org/records/21102728/files/%20MCP%20Server%20Software%20Supply%20Chain%20Hygiene.pdf",
+  "status": "retrieved_open"
+}

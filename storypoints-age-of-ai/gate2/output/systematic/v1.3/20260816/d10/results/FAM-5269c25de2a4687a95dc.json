@@ -1,0 +1,21 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:05:58.057401Z",
+      "basis": "representative_landing_page",
+      "content_type": "",
+      "final_url": "http://static1.1.sqspcdn.com/static/f/702523/22609353/1367558446840/201305-Schofield.pdf?token=HVIcfXXNJlaNTAxpXqVs4RfUVko%3D",
+      "http_status": 404,
+      "outcome": "http_failure",
+      "url": "http://static1.1.sqspcdn.com/static/f/702523/22609353/1367558446840/201305-Schofield.pdf?token=HVIcfXXNJlaNTAxpXqVs4RfUVko%3D"
+    }
+  ],
+  "bytes": 0,
+  "family_id": "FAM-5269c25de2a4687a95dc",
+  "lawful_access_basis": null,
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "representative_canonical_id": "CAN-1e44b4f5f4ada7f67adb",
+  "retrieved_url": null,
+  "status": "lawful_full_text_not_retrieved"
+}

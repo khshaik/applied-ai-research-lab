@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "semantic_scholar_open_access_pdf",
+      "bytes": 1065952,
+      "content_type": "application/pdf",
+      "final_url": "https://aircconline.com/ijait/V15N5/15525ijait01.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "e8046f1e53370468d6aa254c724f53c670681e9b6aaeceb973231853484539c4",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://doi.org/10.5121/ijait.2025.15501"
+    }
+  ],
+  "bytes": 1065952,
+  "family_id": "FAM-95361a3cddc779ac231b",
+  "lawful_access_basis": "semantic_scholar_open_access_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-95361a3cddc779ac231b.pdf",
+  "pdf_sha256": "e8046f1e53370468d6aa254c724f53c670681e9b6aaeceb973231853484539c4",
+  "representative_canonical_id": "CAN-1f24379106827ef9865a",
+  "retrieved_url": "https://aircconline.com/ijait/V15N5/15525ijait01.pdf",
+  "status": "retrieved_open"
+}

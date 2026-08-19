@@ -1,0 +1,30 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:16:11.357625Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://estia.hua.gr/handle/123456789/21591",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://doi.org/10.26258/heal.hua.7479"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:18:42.771834Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://estia.hua.gr/handle/123456789/21591",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://doi.org/10.26258/heal.hua.7479"
+    }
+  ],
+  "bytes": 0,
+  "family_id": "FAM-c64226239466c34033ae",
+  "lawful_access_basis": null,
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "representative_canonical_id": "CAN-cf4b5cf7ae8bca7a00a5",
+  "retrieved_url": null,
+  "status": "lawful_full_text_not_retrieved"
+}

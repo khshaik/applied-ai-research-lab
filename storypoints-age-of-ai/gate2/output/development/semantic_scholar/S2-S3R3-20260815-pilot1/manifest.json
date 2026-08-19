@@ -1,0 +1,32 @@
+{
+  "complete_pagination": true,
+  "endpoint": "https://api.semanticscholar.org/graph/v1/paper/search/bulk",
+  "executed_at_utc": "2026-08-15T13:32:57.640536+00:00",
+  "from_date": "2019-01-01",
+  "interpretation_boundary": "Open-index development discovery export; not frozen, screened, deduplicated, eligible, or a PRISMA corpus.",
+  "max_pages": null,
+  "page_size": 1000,
+  "pages": [
+    {
+      "file": "page_00000.json",
+      "records": 15,
+      "request_url_sha256": "2cf94571bd803514d972e205fac6163912b076b7451ff8dc07c901bfc00cde00",
+      "sequence": 0,
+      "sha256": "5b88e22e7327be16961373d483f0f0deeb80bcea27242d5d6bb92cd130b591b0"
+    }
+  ],
+  "query": "+(\"software effort estimation\" | \"story point estimation\") +(\"large language model\" | LLM | \"generative AI\")",
+  "query_id": "S2-S3R3",
+  "query_registry_sha256": "5f82bc8519fe6c64a5c78abef9b252229c12d2f8036e45848f43a5e5f1972e23",
+  "query_sha256": "595070baa973f7e72d4040d5d48e11d0a90d0410ba5e841ff7b8c8e2e29c7f56",
+  "records_csv": {
+    "file": "records.csv",
+    "sha256": "fb7d476c998aa1c0e214db603a72eab6c49d0836705817d90072194001c028fd"
+  },
+  "records_retrieved": 15,
+  "retrieval_scope": "complete",
+  "source": "semantic_scholar",
+  "status": "development_pilot",
+  "to_date": "2026-08-15",
+  "total_reported": 15
+}

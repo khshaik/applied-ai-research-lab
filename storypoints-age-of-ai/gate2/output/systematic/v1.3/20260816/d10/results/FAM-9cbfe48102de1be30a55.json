@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 784918,
+      "content_type": "application/pdf",
+      "final_url": "https://ijetcsit.org/index.php/ijetcsit/article/download/716/649",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "d29bae7f418a49bab8df0d19f8935c9ed70e9d902156917f24979605b0ca200a",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://ijetcsit.org/index.php/ijetcsit/article/download/716/649"
+    }
+  ],
+  "bytes": 784918,
+  "family_id": "FAM-9cbfe48102de1be30a55",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-9cbfe48102de1be30a55.pdf",
+  "pdf_sha256": "d29bae7f418a49bab8df0d19f8935c9ed70e9d902156917f24979605b0ca200a",
+  "representative_canonical_id": "CAN-64320b4d2f7ece6528b7",
+  "retrieved_url": "https://ijetcsit.org/index.php/ijetcsit/article/download/716/649",
+  "status": "retrieved_open"
+}

@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "semantic_scholar_open_access_pdf",
+      "bytes": 844707,
+      "content_type": "application/pdf",
+      "final_url": "https://sprcopen.org/index.php/FAIR/article/download/456/461",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "7478d2ce99b0ba79c2004891d5ee30a6b5f59dcca6a4154686ed0bf7dfd30163",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://sprcopen.org/index.php/FAIR/article/download/456/461"
+    }
+  ],
+  "bytes": 844707,
+  "family_id": "FAM-dac01fdf08f4e487027e",
+  "lawful_access_basis": "semantic_scholar_open_access_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-dac01fdf08f4e487027e.pdf",
+  "pdf_sha256": "7478d2ce99b0ba79c2004891d5ee30a6b5f59dcca6a4154686ed0bf7dfd30163",
+  "representative_canonical_id": "CAN-daac368b3c7a3f102063",
+  "retrieved_url": "https://sprcopen.org/index.php/FAIR/article/download/456/461",
+  "status": "retrieved_open"
+}

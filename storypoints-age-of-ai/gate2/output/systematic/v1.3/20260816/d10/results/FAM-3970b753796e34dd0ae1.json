@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 1700776,
+      "content_type": "application/pdf;charset=UTF-8",
+      "final_url": "https://osuva.uwasa.fi/server/api/core/bitstreams/4b766bff-a5d2-45e4-aa02-23d6c4451ee7/content",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "7de047cb1f9f4e3bff6bc2d914bc812f2e7544d23bba103ed777b4728217efa3",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://osuva.uwasa.fi/bitstreams/4b766bff-a5d2-45e4-aa02-23d6c4451ee7/download"
+    }
+  ],
+  "bytes": 1700776,
+  "family_id": "FAM-3970b753796e34dd0ae1",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-3970b753796e34dd0ae1.pdf",
+  "pdf_sha256": "7de047cb1f9f4e3bff6bc2d914bc812f2e7544d23bba103ed777b4728217efa3",
+  "representative_canonical_id": "CAN-17b14e5e136d68ea8bc1",
+  "retrieved_url": "https://osuva.uwasa.fi/server/api/core/bitstreams/4b766bff-a5d2-45e4-aa02-23d6c4451ee7/content",
+  "status": "retrieved_open"
+}

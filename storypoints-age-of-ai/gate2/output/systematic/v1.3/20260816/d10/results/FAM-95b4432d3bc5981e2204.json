@@ -1,0 +1,32 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:11:03.369218Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://aaltodoc.aalto.fi/items/990d7c5b-e615-4abd-8bf7-5b0449160faa",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://aaltodoc.aalto.fi/handle/123456789/144980"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:11:08.101975Z",
+      "basis": "citation_pdf_url_metadata",
+      "bytes": 512615,
+      "content_type": "application/pdf;charset=UTF-8",
+      "final_url": "https://aaltodoc.aalto.fi/server/api/core/bitstreams/6392aef4-41b0-481f-9f66-1f8544294cd1/content",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "sha256": "719718a127d8714418a15b990d534a364f3c007ac891d4f45ec937fdaa46217c",
+      "url": "https://aaltodoc.aalto.fi/bitstreams/6392aef4-41b0-481f-9f66-1f8544294cd1/download"
+    }
+  ],
+  "bytes": 512615,
+  "family_id": "FAM-95b4432d3bc5981e2204",
+  "lawful_access_basis": "citation_pdf_url_metadata",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-95b4432d3bc5981e2204.pdf",
+  "pdf_sha256": "719718a127d8714418a15b990d534a364f3c007ac891d4f45ec937fdaa46217c",
+  "representative_canonical_id": "CAN-0bf5b533ec08d4a3faeb",
+  "retrieved_url": "https://aaltodoc.aalto.fi/bitstreams/6392aef4-41b0-481f-9f66-1f8544294cd1/download",
+  "status": "retrieved_open"
+}

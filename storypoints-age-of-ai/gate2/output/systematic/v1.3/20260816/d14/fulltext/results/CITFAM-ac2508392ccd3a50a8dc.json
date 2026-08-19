@@ -1,0 +1,23 @@
+{
+  "attempts": [
+    {
+      "active_indicators": [
+        "/S /URI"
+      ],
+      "attempted_at_utc": "2026-08-19T08:51:00.535440Z",
+      "basis": "live_openalex_best_oa_location_oa_pdf",
+      "bytes": 290564,
+      "final_url": "https://www.jstage.jst.go.jp/article/transinf/E108.D/7/E108.D_2024IIL0001/_pdf",
+      "quarantine_path": "/Users/81194246/Library/CloudStorage/OneDrive-Pepsico/Personal/AI/Projects/ThinkAI/storypoints-age-of-ai/gate2/output/systematic/v1.3/20260816/d14/fulltext/quarantine/CITFAM-ac2508392ccd3a50a8dc.pdf",
+      "redirect_count": 0,
+      "sha256": "68930555b27dc2d6deb71732615bfc6aa4fb26d6ced7f8b818ec510e2a7f4287",
+      "status": "quarantined_active_content"
+    }
+  ],
+  "bytes": 290564,
+  "citation_family_id": "CITFAM-ac2508392ccd3a50a8dc",
+  "pdf_path": null,
+  "pdf_sha256": "68930555b27dc2d6deb71732615bfc6aa4fb26d6ced7f8b818ec510e2a7f4287",
+  "security_attestation": "Static HTTPS retrieval only; public-IP validation, bounded redirects/size, signature and active-content checks; no PDF execution.",
+  "status": "quarantined_active_content"
+}

@@ -1,0 +1,23 @@
+{
+  "attempts": [
+    {
+      "active_indicators": [
+        "/S /URI"
+      ],
+      "attempted_at_utc": "2026-08-19T05:37:59.842947Z",
+      "basis": "live_openalex_best_oa_location_oa_pdf",
+      "bytes": 1150741,
+      "final_url": "https://publications.eai.eu/index.php/airo/article/download/3276/2352",
+      "quarantine_path": "/Users/81194246/Library/CloudStorage/OneDrive-Pepsico/Personal/AI/Projects/ThinkAI/storypoints-age-of-ai/gate2/output/systematic/v1.3/20260816/d14/fulltext/quarantine/CITFAM-5a2a7d6ff19d81a5aed5.pdf",
+      "redirect_count": 0,
+      "sha256": "5f8df8407d8816cfbb7e5ad977e984059afde4eb4a49fc41b3145991419e08d0",
+      "status": "quarantined_active_content"
+    }
+  ],
+  "bytes": 1150741,
+  "citation_family_id": "CITFAM-5a2a7d6ff19d81a5aed5",
+  "pdf_path": null,
+  "pdf_sha256": "5f8df8407d8816cfbb7e5ad977e984059afde4eb4a49fc41b3145991419e08d0",
+  "security_attestation": "Static HTTPS retrieval only; public-IP validation, bounded redirects/size, signature and active-content checks; no PDF execution.",
+  "status": "quarantined_active_content"
+}

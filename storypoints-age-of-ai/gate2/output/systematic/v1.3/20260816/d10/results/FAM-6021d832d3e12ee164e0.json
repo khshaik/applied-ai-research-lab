@@ -1,0 +1,32 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:07:15.021237Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://zenodo.org/records/18856486",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://doi.org/10.5281/zenodo.18856485"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:07:16.709631Z",
+      "basis": "citation_pdf_url_metadata",
+      "bytes": 268343,
+      "content_type": "application/octet-stream, application/octet-stream",
+      "final_url": "https://zenodo.org/records/18856486/files/cloud_agents_paper.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "sha256": "863634055af0cfa8ddec88ec55964de8aa2cf0dbdf4ff74add0d3f3b6ec880e8",
+      "url": "https://zenodo.org/records/18856486/files/cloud_agents_paper.pdf"
+    }
+  ],
+  "bytes": 268343,
+  "family_id": "FAM-6021d832d3e12ee164e0",
+  "lawful_access_basis": "citation_pdf_url_metadata",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-6021d832d3e12ee164e0.pdf",
+  "pdf_sha256": "863634055af0cfa8ddec88ec55964de8aa2cf0dbdf4ff74add0d3f3b6ec880e8",
+  "representative_canonical_id": "CAN-2ddfebc0d9502f292a6f",
+  "retrieved_url": "https://zenodo.org/records/18856486/files/cloud_agents_paper.pdf",
+  "status": "retrieved_open"
+}

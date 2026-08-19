@@ -1,0 +1,18 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-19T11:10:00.800731Z",
+      "basis": "semantic_scholar_explicit_openAccessPdf",
+      "bytes": 29200,
+      "final_url": "https://dl.acm.org/action/cookieAbsent",
+      "redirect_count": 3,
+      "status": "invalid_pdf_signature"
+    }
+  ],
+  "bytes": 0,
+  "citation_family_id": "CITFAM-f0f55a087251260f302a",
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "security_attestation": "Static HTTPS retrieval only; public-IP validation, bounded redirects/size, signature and active-content checks; no PDF execution.",
+  "status": "invalid_pdf_signature"
+}

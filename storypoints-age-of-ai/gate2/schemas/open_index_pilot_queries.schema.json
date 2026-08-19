@@ -1,0 +1,75 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/gate2/open-index-pilot-queries.schema.json",
+  "type": "object",
+  "required": ["status", "version", "queries", "sentinels", "sampled_precision_rule"],
+  "properties": {
+    "status": {"const": "development_pilot"},
+    "version": {"type": "string"},
+    "sentinel_control_version": {"enum": ["family_scoped_v0.3"]},
+    "queries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["source", "query_id", "query"],
+        "properties": {
+          "source": {"enum": ["openalex", "semantic_scholar", "crossref"]},
+          "query_id": {"type": "string", "minLength": 1},
+          "family_id": {"type": "string", "minLength": 1},
+          "query": {"type": "string", "minLength": 1},
+          "query_mode": {"enum": ["fulltext_search", "title_abstract_filter"]},
+          "result_sort": {"enum": ["publication_date:desc"]}
+        }
+      }
+    },
+    "sentinels": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "sentinel_id": {"type": "string"},
+          "family_id": {"type": "string"},
+          "role": {"enum": ["positive", "scope_positive", "neutral_disconfirming", "negative_boundary"]},
+          "doi": {"type": "string"},
+          "title": {"type": "string"},
+          "testable_sources": {"type": "array", "items": {"enum": ["openalex", "semantic_scholar", "crossref"]}}
+        }
+      }
+    },
+    "sampled_precision_rule": {
+      "type": "object",
+      "required": ["required_fields", "allowed_decisions", "development_diagnostic_minimum_sample", "freeze_sample_bands", "acceptance_bands"],
+      "properties": {
+        "required_fields": {"type": "array", "minItems": 3, "items": {"type": "string"}},
+        "allowed_decisions": {
+          "type": "array",
+          "minItems": 3,
+          "items": {"enum": ["likely_relevant", "likely_irrelevant", "uncertain"]}
+        },
+        "development_diagnostic_minimum_sample": {"type": "integer", "minimum": 1},
+        "freeze_sample_bands": {
+          "type": "array",
+          "minItems": 3,
+          "items": {
+            "type": "object",
+            "required": ["population_min", "population_max", "required_sample"],
+            "properties": {
+              "population_min": {"type": "integer", "minimum": 0},
+              "population_max": {"type": ["integer", "null"]},
+              "required_sample": {"type": ["integer", "string"]}
+            }
+          }
+        },
+        "acceptance_bands": {
+          "type": "object",
+          "required": ["operational_minimum_relevant_plus_uncertain", "conditional_minimum_relevant_plus_uncertain", "conditional_requires_documented_capacity_and_coverage_approval"],
+          "properties": {
+            "operational_minimum_relevant_plus_uncertain": {"type": "number", "minimum": 0, "maximum": 1},
+            "conditional_minimum_relevant_plus_uncertain": {"type": "number", "minimum": 0, "maximum": 1},
+            "conditional_requires_documented_capacity_and_coverage_approval": {"const": true}
+          }
+        }
+      }
+    }
+  }
+}

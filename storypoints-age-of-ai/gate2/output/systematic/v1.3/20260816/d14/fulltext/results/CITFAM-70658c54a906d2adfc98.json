@@ -1,0 +1,23 @@
+{
+  "attempts": [
+    {
+      "active_indicators": [
+        "/S /URI"
+      ],
+      "attempted_at_utc": "2026-08-19T05:55:26.335590Z",
+      "basis": "frozen_openalex_primary_oa_pdf",
+      "bytes": 382889,
+      "final_url": "https://www.ijlrp.com/papers/2024/12/1586.pdf",
+      "quarantine_path": "/Users/81194246/Library/CloudStorage/OneDrive-Pepsico/Personal/AI/Projects/ThinkAI/storypoints-age-of-ai/gate2/output/systematic/v1.3/20260816/d14/fulltext/quarantine/CITFAM-70658c54a906d2adfc98.pdf",
+      "redirect_count": 0,
+      "sha256": "4177915dd21f905ff4602bcb792d23f974237f958bd9f6a30b31324c5ff03234",
+      "status": "quarantined_active_content"
+    }
+  ],
+  "bytes": 382889,
+  "citation_family_id": "CITFAM-70658c54a906d2adfc98",
+  "pdf_path": null,
+  "pdf_sha256": "4177915dd21f905ff4602bcb792d23f974237f958bd9f6a30b31324c5ff03234",
+  "security_attestation": "Static HTTPS retrieval only; public-IP validation, bounded redirects/size, signature and active-content checks; no PDF execution.",
+  "status": "quarantined_active_content"
+}

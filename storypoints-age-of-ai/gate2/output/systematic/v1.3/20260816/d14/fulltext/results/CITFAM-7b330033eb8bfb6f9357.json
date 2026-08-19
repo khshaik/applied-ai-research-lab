@@ -1,0 +1,16 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-19T07:27:29.318204Z",
+      "basis": "live_openalex_best_oa_location_oa_pdf",
+      "error_type": "URLError",
+      "status": "network_or_policy_failure"
+    }
+  ],
+  "bytes": 0,
+  "citation_family_id": "CITFAM-7b330033eb8bfb6f9357",
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "security_attestation": "Static HTTPS retrieval only; public-IP validation, bounded redirects/size, signature and active-content checks; no PDF execution.",
+  "status": "network_or_policy_failure"
+}

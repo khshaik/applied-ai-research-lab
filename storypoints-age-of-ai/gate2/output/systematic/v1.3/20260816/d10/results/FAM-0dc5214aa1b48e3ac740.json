@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 325322,
+      "content_type": "application/pdf",
+      "final_url": "https://ijsrem.com/uploads/articles/1779887791496-f3a25ebfdc98-Major_Project.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "864cc18b1ae7fc8836f05a057ae3d5efaa59dcf83e03411e466a7633cc7cd475",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://ijsrem.com/uploads/articles/1779887791496-f3a25ebfdc98-Major_Project.pdf"
+    }
+  ],
+  "bytes": 325322,
+  "family_id": "FAM-0dc5214aa1b48e3ac740",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-0dc5214aa1b48e3ac740.pdf",
+  "pdf_sha256": "864cc18b1ae7fc8836f05a057ae3d5efaa59dcf83e03411e466a7633cc7cd475",
+  "representative_canonical_id": "CAN-aa9ac4833da6cec9a5ea",
+  "retrieved_url": "https://ijsrem.com/uploads/articles/1779887791496-f3a25ebfdc98-Major_Project.pdf",
+  "status": "retrieved_open"
+}

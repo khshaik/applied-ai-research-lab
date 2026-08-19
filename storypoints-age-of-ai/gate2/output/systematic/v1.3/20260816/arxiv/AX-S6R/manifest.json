@@ -1,0 +1,40 @@
+{
+  "acceptance_matrix_row_sha256": "eaf3325c866fb4b34ea302e4769f7649c00389d1512840790ed8a8ebdbaa7a68",
+  "complete_pagination": true,
+  "endpoint": "https://export.arxiv.org/api/query",
+  "executed_at_utc": "2026-08-16T08:30:54.468348+00:00",
+  "freeze_package_sha256": "fa9800da881c2590a3261861fa6e1de5d6a3c349687ef320b43057561be8730d",
+  "from_date": "2019-01-01",
+  "interpretation_boundary": "Frozen systematic discovery export; not yet screened, deduplicated, eligible, or a PRISMA inclusion count.",
+  "page_size": 100,
+  "pages": [
+    {
+      "file": "page_0000000.atom",
+      "records": 29,
+      "sha256": "7a0ea616651266b7ae55fb5d6ae5283b899567c6754390d3ee7a0df1b83c08c5",
+      "start": 0
+    }
+  ],
+  "query": "(all:\"human-AI\" OR all:\"AI-assisted\" OR all:\"AI-augmented\" OR all:\"large language model\" OR all:\"coding agent\") AND (all:\"software delivery\" OR all:\"software development lifecycle\" OR all:\"software modernization\") AND (all:orchestration OR all:workflow OR all:team OR all:validation)",
+  "query_id": "AX-S6R",
+  "query_registry_sha256": "2364d5969a7119fa86d4767b2c15b0e24d7c073f53c88764c5ed3f8b4a360b75",
+  "query_sha256": "c07063d2e95570b46a605e8c036a315c6056586a87b3dd35bdb6393ab7a33a54",
+  "records_csv": {
+    "file": "records.csv",
+    "sha256": "9e3d71e7b6a338c0975a0aefeffa964227b826a005ad2a2e2ecb2f34aa930b04"
+  },
+  "records_retrieved": 29,
+  "retrieval_scope": "complete_systematic",
+  "sentinel_checks": {
+    "2503.05012": true,
+    "2508.11867": true,
+    "2603.20028": true,
+    "2607.21832": true
+  },
+  "sentinel_recall_pass": true,
+  "sortBy": "submittedDate",
+  "sortOrder": "descending",
+  "status": "systematic_frozen",
+  "to_date": "2026-08-16",
+  "total_reported": 29
+}

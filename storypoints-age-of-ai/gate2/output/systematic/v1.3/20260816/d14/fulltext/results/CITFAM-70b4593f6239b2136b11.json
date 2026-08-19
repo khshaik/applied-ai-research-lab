@@ -1,0 +1,23 @@
+{
+  "attempts": [
+    {
+      "active_indicators": [
+        "/S /URI"
+      ],
+      "attempted_at_utc": "2026-08-19T06:31:48.044723Z",
+      "basis": "live_openalex_best_oa_location_oa_pdf",
+      "bytes": 331311,
+      "final_url": "https://urfjournals.org/open-access/role-of-generative-ai-in-augmented-reality-ar-and-virtual-reality-vr-application-testing.pdf",
+      "quarantine_path": "/Users/81194246/Library/CloudStorage/OneDrive-Pepsico/Personal/AI/Projects/ThinkAI/storypoints-age-of-ai/gate2/output/systematic/v1.3/20260816/d14/fulltext/quarantine/CITFAM-70b4593f6239b2136b11.pdf",
+      "redirect_count": 1,
+      "sha256": "4ed91354123c38393d114500e9470f85677820168f7545bab360535138fef245",
+      "status": "quarantined_active_content"
+    }
+  ],
+  "bytes": 331311,
+  "citation_family_id": "CITFAM-70b4593f6239b2136b11",
+  "pdf_path": null,
+  "pdf_sha256": "4ed91354123c38393d114500e9470f85677820168f7545bab360535138fef245",
+  "security_attestation": "Static HTTPS retrieval only; public-IP validation, bounded redirects/size, signature and active-content checks; no PDF execution.",
+  "status": "quarantined_active_content"
+}

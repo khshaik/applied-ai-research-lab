@@ -1,0 +1,32 @@
+{
+  "attempts": [
+    {
+      "basis": "semantic_scholar_open_access_pdf",
+      "bytes": 84907,
+      "content_type": "text/html;charset=UTF-8",
+      "final_url": "https://bth.diva-portal.org/smash/record.jsf?pid=diva2%3A881296&dswid=-3244",
+      "http_status": 200,
+      "outcome": "not_a_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://urn.kb.se/resolve?urn=urn:nbn:se:bth-11147"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:11:11.297161Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html;charset=UTF-8",
+      "final_url": "https://dl.acm.org/doi/10.1145/2639490.2639503",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://doi.org/10.1145/2639490.2639503"
+    }
+  ],
+  "bytes": 0,
+  "family_id": "FAM-9693da39c52357b20c70",
+  "lawful_access_basis": null,
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "representative_canonical_id": "CAN-d1127dc06caa30f32a1b",
+  "retrieved_url": null,
+  "status": "lawful_full_text_not_retrieved"
+}

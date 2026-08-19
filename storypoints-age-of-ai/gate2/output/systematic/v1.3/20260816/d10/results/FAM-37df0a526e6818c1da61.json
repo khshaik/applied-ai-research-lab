@@ -1,0 +1,21 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:04:59.585472Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html",
+      "final_url": "https://abbdm.com/index.php/Journal/article/view/488",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://doi.org/10.62019/s50t5h71"
+    }
+  ],
+  "bytes": 0,
+  "family_id": "FAM-37df0a526e6818c1da61",
+  "lawful_access_basis": null,
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "representative_canonical_id": "CAN-7125d83d924f2afeea63",
+  "retrieved_url": null,
+  "status": "lawful_full_text_not_retrieved"
+}

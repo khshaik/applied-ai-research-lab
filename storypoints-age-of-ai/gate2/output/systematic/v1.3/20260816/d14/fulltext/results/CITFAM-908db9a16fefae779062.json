@@ -1,0 +1,21 @@
+{
+  "attempts": [
+    {
+      "active_indicators": [],
+      "attempted_at_utc": "2026-08-19T08:45:40.265780Z",
+      "basis": "live_openalex_best_oa_location_oa_pdf",
+      "bytes": 744899,
+      "final_url": "https://ris.utwente.nl/ws/files/498638950/Language_Models_in_Software_Development_Tasks_An_Experimental_Analysis_of_Energy_and_Accuracy.pdf",
+      "pdf_path": "/Users/81194246/Library/CloudStorage/OneDrive-Pepsico/Personal/AI/Projects/ThinkAI/storypoints-age-of-ai/gate2/output/systematic/v1.3/20260816/d14/fulltext/pdf/CITFAM-908db9a16fefae779062.pdf",
+      "redirect_count": 0,
+      "sha256": "d70b548493820fea1886afd5a7466ba437f8022dde642c5cfb72a1588c9a73d2",
+      "status": "retrieved_static_pdf"
+    }
+  ],
+  "bytes": 744899,
+  "citation_family_id": "CITFAM-908db9a16fefae779062",
+  "pdf_path": "/Users/81194246/Library/CloudStorage/OneDrive-Pepsico/Personal/AI/Projects/ThinkAI/storypoints-age-of-ai/gate2/output/systematic/v1.3/20260816/d14/fulltext/pdf/CITFAM-908db9a16fefae779062.pdf",
+  "pdf_sha256": "d70b548493820fea1886afd5a7466ba437f8022dde642c5cfb72a1588c9a73d2",
+  "security_attestation": "Static HTTPS retrieval only; public-IP validation, bounded redirects/size, signature and active-content checks; no PDF execution.",
+  "status": "retrieved_static_pdf"
+}

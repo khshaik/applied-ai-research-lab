@@ -1,0 +1,32 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:05:27.804458Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://zenodo.org/records/18410037",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://doi.org/10.5281/zenodo.18410037"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:05:29.213134Z",
+      "basis": "citation_pdf_url_metadata",
+      "bytes": 220529,
+      "content_type": "application/octet-stream, application/octet-stream",
+      "final_url": "https://zenodo.org/records/18410037/files/sef-framework-2026-mishter.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "sha256": "776293f79a00f464328316726d319ff3404694faafc98b4d032f5921ab0e1cbb",
+      "url": "https://zenodo.org/records/18410037/files/sef-framework-2026-mishter.pdf"
+    }
+  ],
+  "bytes": 220529,
+  "family_id": "FAM-424158dece09b8b941ce",
+  "lawful_access_basis": "citation_pdf_url_metadata",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-424158dece09b8b941ce.pdf",
+  "pdf_sha256": "776293f79a00f464328316726d319ff3404694faafc98b4d032f5921ab0e1cbb",
+  "representative_canonical_id": "CAN-589451cb04b5f518345c",
+  "retrieved_url": "https://zenodo.org/records/18410037/files/sef-framework-2026-mishter.pdf",
+  "status": "retrieved_open"
+}

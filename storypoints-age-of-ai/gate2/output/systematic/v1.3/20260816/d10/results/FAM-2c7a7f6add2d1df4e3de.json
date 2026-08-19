@@ -1,0 +1,35 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 2320,
+      "content_type": "text/html",
+      "final_url": "https://www.mdpi.com/2076-3417/14/24/12006/pdf?version=1734852619",
+      "http_status": 200,
+      "outcome": "not_a_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://www.mdpi.com/2076-3417/14/24/12006/pdf?version=1734852619"
+    },
+    {
+      "basis": "openalex_oa_location_pdf",
+      "bytes": 1354781,
+      "content_type": "application/pdf",
+      "final_url": "https://dk.um.si/Dokument.php?lang=slv&id=187567&dn=",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "60de4697c0773b4585e0a1a8f3251602399829ec370f21a9b01d9f3d25b47452",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://dk.um.si/Dokument.php?lang=slv&id=187567&dn="
+    }
+  ],
+  "bytes": 1354781,
+  "family_id": "FAM-2c7a7f6add2d1df4e3de",
+  "lawful_access_basis": "openalex_oa_location_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-2c7a7f6add2d1df4e3de.pdf",
+  "pdf_sha256": "60de4697c0773b4585e0a1a8f3251602399829ec370f21a9b01d9f3d25b47452",
+  "representative_canonical_id": "CAN-57255b9bf46b94f451ee",
+  "retrieved_url": "https://dk.um.si/Dokument.php?lang=slv&id=187567&dn=",
+  "status": "retrieved_open"
+}

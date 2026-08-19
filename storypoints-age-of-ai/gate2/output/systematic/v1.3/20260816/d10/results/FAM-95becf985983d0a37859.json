@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 649881,
+      "content_type": "application/pdf",
+      "final_url": "https://www.irjmets.com/upload_newfiles/irjmets71200177521/paper_file/irjmets71200177521.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "4525a837d01d172ad4977ab7f6a60288dfa0924a61f3835b42d5bb14246fff39",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://doi.org/10.56726/irjmets88133"
+    }
+  ],
+  "bytes": 649881,
+  "family_id": "FAM-95becf985983d0a37859",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-95becf985983d0a37859.pdf",
+  "pdf_sha256": "4525a837d01d172ad4977ab7f6a60288dfa0924a61f3835b42d5bb14246fff39",
+  "representative_canonical_id": "CAN-92a408bcc54450afa0f0",
+  "retrieved_url": "https://www.irjmets.com/upload_newfiles/irjmets71200177521/paper_file/irjmets71200177521.pdf",
+  "status": "retrieved_open"
+}

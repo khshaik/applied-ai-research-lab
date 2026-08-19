@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 575552,
+      "content_type": "application/pdf",
+      "final_url": "https://i3.or.kr/html/paper/2024-2/(1)2024-2.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "3de8fdf38f94fe06c05e6b13a3bbb0587ff1a35ed326c93e0d71909a22cfc341",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://dx.doi.org/10.29056/jsav.2024.06.01"
+    }
+  ],
+  "bytes": 575552,
+  "family_id": "FAM-3d1b984abe8c7d312c29",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-3d1b984abe8c7d312c29.pdf",
+  "pdf_sha256": "3de8fdf38f94fe06c05e6b13a3bbb0587ff1a35ed326c93e0d71909a22cfc341",
+  "representative_canonical_id": "CAN-4fd4e867f036544b0d54",
+  "retrieved_url": "https://i3.or.kr/html/paper/2024-2/(1)2024-2.pdf",
+  "status": "retrieved_open"
+}

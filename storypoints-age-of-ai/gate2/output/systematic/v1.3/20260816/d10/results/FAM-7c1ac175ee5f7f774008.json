@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 735697,
+      "content_type": "application/pdf",
+      "final_url": "https://tijer.org/tijer/papers/TIJER2202009.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "85b37185a5bb276d0d3debe7c681640b256911d49bceed558cb1dfccaded9fff",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://tijer.org/tijer/papers/TIJER2202009.pdf"
+    }
+  ],
+  "bytes": 735697,
+  "family_id": "FAM-7c1ac175ee5f7f774008",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-7c1ac175ee5f7f774008.pdf",
+  "pdf_sha256": "85b37185a5bb276d0d3debe7c681640b256911d49bceed558cb1dfccaded9fff",
+  "representative_canonical_id": "CAN-af1add646961895d1336",
+  "retrieved_url": "https://tijer.org/tijer/papers/TIJER2202009.pdf",
+  "status": "retrieved_open"
+}

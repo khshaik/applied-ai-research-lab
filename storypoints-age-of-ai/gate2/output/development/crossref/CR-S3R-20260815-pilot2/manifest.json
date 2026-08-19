@@ -1,0 +1,32 @@
+{
+  "complete_pagination": false,
+  "endpoint": "https://api.crossref.org/works",
+  "executed_at_utc": "2026-08-15T12:59:23.298337+00:00",
+  "from_date": "2019-01-01",
+  "interpretation_boundary": "Open-index development discovery export; not frozen, screened, deduplicated, eligible, or a PRISMA corpus. Retrieval was intentionally capped; total_reported is API metadata, not an exported-record or review-flow count.",
+  "max_pages": 1,
+  "page_size": 100,
+  "pages": [
+    {
+      "file": "page_00000.json",
+      "records": 100,
+      "request_url_sha256": "cff735c67e63849276d83aee192cffa9e37982f88843d03feb2a52c9d31bd112",
+      "sequence": 0,
+      "sha256": "099ec7ae9754c3238c25c972ee11a934296b6540cc18b688be7f4f8537c828e3"
+    }
+  ],
+  "query": "LLM-aware software effort estimation story point estimation human oversight",
+  "query_id": "CR-S3R",
+  "query_registry_sha256": "6a90831f08ea139bb7a043ac5281262c464a3830eafccb2bf2cef6223571dd9a",
+  "query_sha256": "c799a94aec74c44c567b9dd196a973846b54145861d8f035bc72035ac4595334",
+  "records_csv": {
+    "file": "records.csv",
+    "sha256": "4d9fecc691008a6acaa53544dcc883d0825d8ac9b9734cab4e4be237f1a0812e"
+  },
+  "records_retrieved": 100,
+  "retrieval_scope": "truncated_development_pilot",
+  "source": "crossref",
+  "status": "development_pilot",
+  "to_date": "2026-08-15",
+  "total_reported": 263416
+}

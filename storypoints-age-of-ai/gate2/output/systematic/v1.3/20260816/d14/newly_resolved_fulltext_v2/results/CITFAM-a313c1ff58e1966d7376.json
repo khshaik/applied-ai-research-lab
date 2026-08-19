@@ -1,0 +1,23 @@
+{
+  "attempts": [
+    {
+      "active_indicators": [
+        "/S /URI"
+      ],
+      "attempted_at_utc": "2026-08-19T15:00:05.290586Z",
+      "basis": "archived_semantic_scholar_arxiv_disclaimer",
+      "bytes": 5840855,
+      "final_url": "https://arxiv.org/pdf/2510.22780",
+      "quarantine_path": "/Users/81194246/Library/CloudStorage/OneDrive-Pepsico/Personal/AI/Projects/ThinkAI/storypoints-age-of-ai/gate2/output/systematic/v1.3/20260816/d14/newly_resolved_fulltext_v2/quarantine/CITFAM-a313c1ff58e1966d7376.pdf",
+      "redirect_count": 0,
+      "sha256": "b56d8fe1f50dbbb88fc79501ec903517ad71e0e3d933c20ce5447326aa581afd",
+      "status": "quarantined_active_content"
+    }
+  ],
+  "bytes": 5840855,
+  "citation_family_id": "CITFAM-a313c1ff58e1966d7376",
+  "pdf_path": null,
+  "pdf_sha256": "b56d8fe1f50dbbb88fc79501ec903517ad71e0e3d933c20ce5447326aa581afd",
+  "security_attestation": "Static HTTPS retrieval only; public-IP validation, bounded redirects/size, signature and active-content checks; no PDF execution.",
+  "status": "quarantined_active_content"
+}

@@ -1,0 +1,23 @@
+{
+  "attempts": [
+    {
+      "active_indicators": [
+        "/S /URI"
+      ],
+      "attempted_at_utc": "2026-08-19T08:48:48.791076Z",
+      "basis": "live_openalex_best_oa_location_oa_pdf",
+      "bytes": 408181,
+      "final_url": "https://csecurity.kubg.edu.ua/index.php/journal/article/download/711/584",
+      "quarantine_path": "/Users/81194246/Library/CloudStorage/OneDrive-Pepsico/Personal/AI/Projects/ThinkAI/storypoints-age-of-ai/gate2/output/systematic/v1.3/20260816/d14/fulltext/quarantine/CITFAM-99c69e9b2e170ac5d544.pdf",
+      "redirect_count": 0,
+      "sha256": "d711b335707e80b857eab7eaf53f9f051b427152f44c9c7c807a2a2c02981fcf",
+      "status": "quarantined_active_content"
+    }
+  ],
+  "bytes": 408181,
+  "citation_family_id": "CITFAM-99c69e9b2e170ac5d544",
+  "pdf_path": null,
+  "pdf_sha256": "d711b335707e80b857eab7eaf53f9f051b427152f44c9c7c807a2a2c02981fcf",
+  "security_attestation": "Static HTTPS retrieval only; public-IP validation, bounded redirects/size, signature and active-content checks; no PDF execution.",
+  "status": "quarantined_active_content"
+}

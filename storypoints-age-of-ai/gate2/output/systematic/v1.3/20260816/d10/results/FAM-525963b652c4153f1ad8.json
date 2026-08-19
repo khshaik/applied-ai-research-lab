@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 1859879,
+      "content_type": "application/pdf;charset=UTF-8",
+      "final_url": "https://lutpub.lut.fi/bitstream/handle/10024/171117/Mastersthesis_AlAmin_Shamim.pdf;jsessionid=2A8320D40C1AB888205AB1DB1A11559D?sequence=1",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "e6a47b0bdbc9d526a2553d0a9c10569b464f07bda9780be124bc0a22d9188dee",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://lutpub.lut.fi/bitstream/10024/171117/1/Mastersthesis_AlAmin_Shamim.pdf"
+    }
+  ],
+  "bytes": 1859879,
+  "family_id": "FAM-525963b652c4153f1ad8",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-525963b652c4153f1ad8.pdf",
+  "pdf_sha256": "e6a47b0bdbc9d526a2553d0a9c10569b464f07bda9780be124bc0a22d9188dee",
+  "representative_canonical_id": "CAN-eba7751b4094158ab989",
+  "retrieved_url": "https://lutpub.lut.fi/bitstream/handle/10024/171117/Mastersthesis_AlAmin_Shamim.pdf;jsessionid=2A8320D40C1AB888205AB1DB1A11559D?sequence=1",
+  "status": "retrieved_open"
+}

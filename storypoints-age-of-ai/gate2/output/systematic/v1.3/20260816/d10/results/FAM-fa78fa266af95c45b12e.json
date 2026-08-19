@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 649492,
+      "content_type": "application/octet-stream",
+      "final_url": "https://f1000research-files.f1000.com/manuscripts/196407/0343506b-f03d-43bd-8dd7-bd83bcf8bc21_f1000res178067.pdf?doi=10.12688/f1000research.178067.1&gtmKey=GTM-MWFK8L5J&gtmAuth=hzk0Vc3qFsQYhCrIoHz68A&gtmPreview=env-1&immUserUrl=https%3A%2F%2Ff1r-proxy.f1krdev.com%2Feditor%2Fmember%2Fshow%2F&otid=1bc074d1-3db4-47ed-9f80-df1a4a3f2ab4&s3BucketUrl=https%3A%2F%2Ff1000research-files.f1000.com&submissionUrl=%2Ffor-authors%2Fpublish-your-research&transcendEnv=cm&transcendId=ef49a3f1-d8c1-47d6-88fc-50e41130631f&numberOfBrowsableCollections=74&numberOfBrowsableInstitutionalCollections=7&numberOfBrowsableGateways=48",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "dcd51e9feef08d21833cf83783bba8a81574ec4c5b541c6f8136378a2a041130",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://f1000research.com/articles/15-699/pdf"
+    }
+  ],
+  "bytes": 649492,
+  "family_id": "FAM-fa78fa266af95c45b12e",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-fa78fa266af95c45b12e.pdf",
+  "pdf_sha256": "dcd51e9feef08d21833cf83783bba8a81574ec4c5b541c6f8136378a2a041130",
+  "representative_canonical_id": "CAN-2b146f5c1b3e6374d482",
+  "retrieved_url": "https://f1000research-files.f1000.com/manuscripts/196407/0343506b-f03d-43bd-8dd7-bd83bcf8bc21_f1000res178067.pdf?doi=10.12688/f1000research.178067.1&gtmKey=GTM-MWFK8L5J&gtmAuth=hzk0Vc3qFsQYhCrIoHz68A&gtmPreview=env-1&immUserUrl=https%3A%2F%2Ff1r-proxy.f1krdev.com%2Feditor%2Fmember%2Fshow%2F&otid=1bc074d1-3db4-47ed-9f80-df1a4a3f2ab4&s3BucketUrl=https%3A%2F%2Ff1000research-files.f1000.com&submissionUrl=%2Ffor-authors%2Fpublish-your-research&transcendEnv=cm&transcendId=ef49a3f1-d8c1-47d6-88fc-50e41130631f&numberOfBrowsableCollections=74&numberOfBrowsableInstitutionalCollections=7&numberOfBrowsableGateways=48",
+  "status": "retrieved_open"
+}

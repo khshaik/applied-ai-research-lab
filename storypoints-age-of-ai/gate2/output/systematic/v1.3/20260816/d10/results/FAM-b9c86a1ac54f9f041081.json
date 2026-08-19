@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 304399,
+      "content_type": "application/pdf",
+      "final_url": "https://www.internationalmultiresearch.com/uploads/archives/20250823144559_MER-2025-1-010.1.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "3182b0412fa0cf5b0e72c88efc5d43eda1ee9bf66eeb1de008854bc60d573275",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://www.internationalmultiresearch.com/uploads/archives/20250823144559_MER-2025-1-010.1.pdf"
+    }
+  ],
+  "bytes": 304399,
+  "family_id": "FAM-b9c86a1ac54f9f041081",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-b9c86a1ac54f9f041081.pdf",
+  "pdf_sha256": "3182b0412fa0cf5b0e72c88efc5d43eda1ee9bf66eeb1de008854bc60d573275",
+  "representative_canonical_id": "CAN-4abfe55584f0425098c9",
+  "retrieved_url": "https://www.internationalmultiresearch.com/uploads/archives/20250823144559_MER-2025-1-010.1.pdf",
+  "status": "retrieved_open"
+}

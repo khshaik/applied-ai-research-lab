@@ -1,0 +1,21 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:02:40.320119Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://ieeexplore.ieee.org/document/10846956/",
+      "http_status": 202,
+      "outcome": "http_failure",
+      "url": "https://doi.org/10.1109/jas.2024.124971"
+    }
+  ],
+  "bytes": 0,
+  "family_id": "FAM-1860c9a012820a560e2c",
+  "lawful_access_basis": null,
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "representative_canonical_id": "CAN-2b7b2c4b06b4979bac19",
+  "retrieved_url": null,
+  "status": "lawful_full_text_not_retrieved"
+}

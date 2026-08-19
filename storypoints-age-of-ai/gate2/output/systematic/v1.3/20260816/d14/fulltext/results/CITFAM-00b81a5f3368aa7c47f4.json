@@ -1,0 +1,34 @@
+{
+  "attempts": [
+    {
+      "active_indicators": [
+        "/OpenAction",
+        "/AA"
+      ],
+      "attempted_at_utc": "2026-08-18T09:50:04.723253Z",
+      "basis": "arxiv_public_pdf",
+      "bytes": 678536,
+      "final_url": "https://arxiv.org/pdf/2312.13010",
+      "quarantine_path": "/Users/81194246/Library/CloudStorage/OneDrive-Pepsico/Personal/AI/Projects/ThinkAI/storypoints-age-of-ai/gate2/output/systematic/v1.3/20260816/d14/fulltext/quarantine/CITFAM-00b81a5f3368aa7c47f4.pdf",
+      "redirect_count": 0,
+      "sha256": "ebe4476de1eebf33cc045962d03cc90d701fb4a8c2689353d34e146102acf443",
+      "status": "quarantined_active_content"
+    }
+  ],
+  "bytes": 678536,
+  "citation_family_id": "CITFAM-00b81a5f3368aa7c47f4",
+  "pdf_path": "/Users/81194246/Library/CloudStorage/OneDrive-Pepsico/Personal/AI/Projects/ThinkAI/storypoints-age-of-ai/gate2/output/systematic/v1.3/20260816/d14/fulltext/pdf/CITFAM-00b81a5f3368aa7c47f4.pdf",
+  "pdf_sha256": "ebe4476de1eebf33cc045962d03cc90d701fb4a8c2689353d34e146102acf443",
+  "quarantine_reassessments": [
+    {
+      "detector_version": "d14-secure-fulltext/1.1.0",
+      "exact_active_indicators": [],
+      "original_quarantine_sha256": "ebe4476de1eebf33cc045962d03cc90d701fb4a8c2689353d34e146102acf443",
+      "outcome": "released_as_static_pdf",
+      "previous_status": "quarantined_active_content",
+      "reassessed_at_utc": "2026-08-18T09:52:00.180055Z"
+    }
+  ],
+  "security_attestation": "Static HTTPS retrieval only; public-IP validation, bounded redirects/size, signature and active-content checks; no PDF execution.",
+  "status": "retrieved_static_pdf"
+}

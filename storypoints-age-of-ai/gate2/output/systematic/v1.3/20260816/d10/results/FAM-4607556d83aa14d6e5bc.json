@@ -1,0 +1,32 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:05:33.635672Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://zenodo.org/records/19103819",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://doi.org/10.5281/zenodo.19103818"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:05:35.862210Z",
+      "basis": "citation_pdf_url_metadata",
+      "bytes": 471309,
+      "content_type": "application/octet-stream, application/octet-stream",
+      "final_url": "https://zenodo.org/records/19103819/files/State_AI_Coding_sm_3_16_26_1_pub.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "sha256": "1fc3cd2f4ef79990fe1a5bf167ec5fa787a5febdb26f3149bda24f5bcff5fa98",
+      "url": "https://zenodo.org/records/19103819/files/State_AI_Coding_sm_3_16_26_1_pub.pdf"
+    }
+  ],
+  "bytes": 471309,
+  "family_id": "FAM-4607556d83aa14d6e5bc",
+  "lawful_access_basis": "citation_pdf_url_metadata",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-4607556d83aa14d6e5bc.pdf",
+  "pdf_sha256": "1fc3cd2f4ef79990fe1a5bf167ec5fa787a5febdb26f3149bda24f5bcff5fa98",
+  "representative_canonical_id": "CAN-72d72da3eef051b644eb",
+  "retrieved_url": "https://zenodo.org/records/19103819/files/State_AI_Coding_sm_3_16_26_1_pub.pdf",
+  "status": "retrieved_open"
+}

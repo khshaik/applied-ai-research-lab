@@ -1,0 +1,30 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:16:23.694131Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://epub.jku.at/urn/urn:nbn:at:at-ubl:1-106364",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://resolver.obvsg.at/urn:nbn:at:at-ubl:1-106364"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:19:56.458723Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://epub.jku.at/urn/urn:nbn:at:at-ubl:1-106364",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://resolver.obvsg.at/urn:nbn:at:at-ubl:1-106364"
+    }
+  ],
+  "bytes": 0,
+  "family_id": "FAM-d19cb1f34fd64cbf0a94",
+  "lawful_access_basis": null,
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "representative_canonical_id": "CAN-ee6d5bfc7a301752a821",
+  "retrieved_url": null,
+  "status": "lawful_full_text_not_retrieved"
+}

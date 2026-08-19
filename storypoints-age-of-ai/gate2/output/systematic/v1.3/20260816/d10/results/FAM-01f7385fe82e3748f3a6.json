@@ -1,0 +1,21 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:01:38.140930Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html;charset=UTF-8",
+      "final_url": "https://pure.qub.ac.uk/en/publications/considerations-for-research-software-assurance-in-the-age-of-vibe/",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://pure.qub.ac.uk/en/publications/c62dfafa-6410-4186-9c92-6327e08f9017"
+    }
+  ],
+  "bytes": 0,
+  "family_id": "FAM-01f7385fe82e3748f3a6",
+  "lawful_access_basis": null,
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "representative_canonical_id": "CAN-aa1937a950754b103c4b",
+  "retrieved_url": null,
+  "status": "lawful_full_text_not_retrieved"
+}

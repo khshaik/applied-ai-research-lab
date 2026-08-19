@@ -1,0 +1,30 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:16:48.597488Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html",
+      "final_url": "https://www.lbef.org/lrjstm/volume/abstract/27/8-1-1-16",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://doi.org/10.67825/lrjstm.2026.8010116"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:21:35.390869Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html",
+      "final_url": "https://www.lbef.org/lrjstm/volume/abstract/27/8-1-1-16",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://doi.org/10.67825/lrjstm.2026.8010116"
+    }
+  ],
+  "bytes": 0,
+  "family_id": "FAM-ebf7209dcc94b2a99811",
+  "lawful_access_basis": null,
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "representative_canonical_id": "CAN-4306da5d0111f46bfa4c",
+  "retrieved_url": null,
+  "status": "lawful_full_text_not_retrieved"
+}

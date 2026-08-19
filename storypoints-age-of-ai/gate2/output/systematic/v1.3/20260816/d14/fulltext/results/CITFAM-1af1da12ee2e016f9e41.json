@@ -1,0 +1,19 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-18T11:15:09.643602Z",
+      "basis": "frozen_openalex_primary_oa_pdf",
+      "final_url": "https://www.e3s-conferences.org/articles/e3sconf/pdf/2025/45/e3sconf_icogesf2025_04002.pdf",
+      "http_status": 403,
+      "redirect_count": 0,
+      "retry_after": null,
+      "status": "http_failure"
+    }
+  ],
+  "bytes": 0,
+  "citation_family_id": "CITFAM-1af1da12ee2e016f9e41",
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "security_attestation": "Static HTTPS retrieval only; public-IP validation, bounded redirects/size, signature and active-content checks; no PDF execution.",
+  "status": "http_failure"
+}

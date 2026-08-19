@@ -1,0 +1,21 @@
+{
+  "attempts": [
+    {
+      "active_indicators": [],
+      "attempted_at_utc": "2026-08-19T05:38:09.308742Z",
+      "basis": "live_openalex_best_oa_location_oa_pdf",
+      "bytes": 717928,
+      "final_url": "https://ojs.aaai.org/index.php/AAAI/article/download/28878/29669",
+      "pdf_path": "/Users/81194246/Library/CloudStorage/OneDrive-Pepsico/Personal/AI/Projects/ThinkAI/storypoints-age-of-ai/gate2/output/systematic/v1.3/20260816/d14/fulltext/pdf/CITFAM-5b669a75da843918b25d.pdf",
+      "redirect_count": 0,
+      "sha256": "94c58e9f1b4412061c1c63de5ecc037c0f785988e535ed88e51553abc4bbc8f4",
+      "status": "retrieved_static_pdf"
+    }
+  ],
+  "bytes": 717928,
+  "citation_family_id": "CITFAM-5b669a75da843918b25d",
+  "pdf_path": "/Users/81194246/Library/CloudStorage/OneDrive-Pepsico/Personal/AI/Projects/ThinkAI/storypoints-age-of-ai/gate2/output/systematic/v1.3/20260816/d14/fulltext/pdf/CITFAM-5b669a75da843918b25d.pdf",
+  "pdf_sha256": "94c58e9f1b4412061c1c63de5ecc037c0f785988e535ed88e51553abc4bbc8f4",
+  "security_attestation": "Static HTTPS retrieval only; public-IP validation, bounded redirects/size, signature and active-content checks; no PDF execution.",
+  "status": "retrieved_static_pdf"
+}

@@ -1,0 +1,41 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 2312,
+      "content_type": "text/html",
+      "final_url": "https://www.mdpi.com/2073-431X/14/11/501/pdf?version=1763463559",
+      "http_status": 200,
+      "outcome": "not_a_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://www.mdpi.com/2073-431X/14/11/501/pdf?version=1763463559"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:16:34.642395Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html",
+      "final_url": "https://www.mdpi.com/2073-431X/14/11/501",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://doi.org/10.3390/computers14110501"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:20:21.155906Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html",
+      "final_url": "https://www.mdpi.com/2073-431X/14/11/501",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://doi.org/10.3390/computers14110501"
+    }
+  ],
+  "bytes": 0,
+  "family_id": "FAM-d742c6f14dd91ee6bd7c",
+  "lawful_access_basis": null,
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "representative_canonical_id": "CAN-020e8a88678eac2f102f",
+  "retrieved_url": null,
+  "status": "lawful_full_text_not_retrieved"
+}

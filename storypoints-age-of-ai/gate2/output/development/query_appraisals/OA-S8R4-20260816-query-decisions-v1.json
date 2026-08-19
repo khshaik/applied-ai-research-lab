@@ -1,0 +1,366 @@
+{
+  "decisions": [
+    {
+      "decision": "likely_relevant",
+      "reason": "Directly proposes software-developer productivity and performance metrics across delivery stages.",
+      "source_id": "https://openalex.org/W7164450288"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Generic AI-impact overview; metadata does not establish a foundational measurement, review-work, estimation-validity, or flow contribution.",
+      "source_id": "https://openalex.org/W7203456728"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Duplicate-version generic AI-impact overview outside the strict S8 foundational comparator boundary.",
+      "source_id": "https://openalex.org/W7203457012"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Automated story-point prediction benchmark; does not analyze relative-estimate validity or human planning work.",
+      "source_id": "https://openalex.org/W7202163869"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Practitioner study of infrastructure-complexity pain points and developer-productivity consequences.",
+      "source_id": "https://openalex.org/W7202163205"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Training-program material, not a scholarly validity or measurement study.",
+      "source_id": "https://openalex.org/W7172422139"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Duplicate training-program record without a foundational empirical construct contribution.",
+      "source_id": "https://openalex.org/W7172470608"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Autonomous API framework; productivity is motivational rather than measured or analyzed.",
+      "source_id": "https://openalex.org/W7172222489"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Duplicate autonomous API framework with only motivational productivity language.",
+      "source_id": "https://openalex.org/W7172224127"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "LLM-code reliability study belongs to GenAI quality evidence, not the S8 foundational comparison stratum.",
+      "source_id": "https://openalex.org/W7172431928"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Enterprise platform-engineering framework substantively addresses software-delivery complexity and developer flow.",
+      "source_id": "https://openalex.org/W7166512094"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "AI terminal-tool implementation without foundational workload, estimation, review, or flow measurement.",
+      "source_id": "https://openalex.org/W7154740564"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Refactoring-tool implementation; no substantive human-work or productivity-measurement analysis in metadata.",
+      "source_id": "https://openalex.org/W7154627282"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Explicit measurement framework for AI-tool effects on developer productivity and therefore a comparator-metrics record.",
+      "source_id": "https://openalex.org/W7164784501"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Generic AI/cloud web-development discussion with no strict S8 construct or measurement contribution.",
+      "source_id": "https://openalex.org/W7117866090"
+    },
+    {
+      "decision": "uncertain",
+      "reason": "Socio-technical serverless-adoption title is plausibly relevant to developer work, but the exported record lacks an abstract.",
+      "source_id": "https://openalex.org/W4416336265"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "AI-generated-code accuracy study is GenAI primary evidence rather than foundational S8 comparison evidence.",
+      "source_id": "https://openalex.org/W7124889562"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Code-comment generator implementation; no human effort or productivity construct is analyzed.",
+      "source_id": "https://openalex.org/W4415480719"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "API-management technical overview uses productivity language without a strict foundational comparison construct.",
+      "source_id": "https://openalex.org/W4409408603"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Taxonomy of human code-review feedback informs the activity and evidence content of modern review.",
+      "source_id": "https://openalex.org/W4406376277"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "AI platform-engineering proposal is lifecycle/GenAI evidence, not a foundational comparator study.",
+      "source_id": "https://openalex.org/W7106221075"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Android security-policy workflow optimization lacks a general estimation, workload, review-cognition, or productivity measure.",
+      "source_id": "https://openalex.org/W4404849298"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Modern-code-review roadmap explicitly treats manual review as cognitively demanding and resource intensive.",
+      "source_id": "https://openalex.org/W4399152014"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Replication evaluates reliability and accuracy of agile story-point estimation methods.",
+      "source_id": "https://openalex.org/W4400680982"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Empirical analysis of useful code-review comments captures human communication in modern review.",
+      "source_id": "https://openalex.org/W4391212857"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Directly examines Fibonacci/planning-poker estimation practice and claimed accuracy.",
+      "source_id": "https://openalex.org/W4386966677"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Copilot review is GenAI evidence and does not serve as a foundational S8 comparator record.",
+      "source_id": "https://openalex.org/W7171089539"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Registered study links interruptions, forgetting, and code quality in software-development work.",
+      "source_id": "https://openalex.org/W4367694669"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Quantum-computing language/tool paper invokes productivity only as a design motivation.",
+      "source_id": "https://openalex.org/W3160042507"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Automated story-point classification does not test human-estimate validity or work burden.",
+      "source_id": "https://openalex.org/W4318822059"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Generic microservices/DevOps architecture discussion without a measurement or queue/flow analysis.",
+      "source_id": "https://openalex.org/W4411265037"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Models merged versus abandoned review changes and explicitly recognizes review effort and iterations.",
+      "source_id": "https://openalex.org/W3209001851"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Empirical code-smell work links software comprehension and developer productivity to change prediction.",
+      "source_id": "https://openalex.org/W2966363071"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Studies interaction between pull-request review and CI, directly informing review and delivery-flow coupling.",
+      "source_id": "https://openalex.org/W2922265848"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Proposes Story Point factors to reduce subjectivity and experience dependence, directly bearing on estimate validity.",
+      "source_id": "https://openalex.org/W2892304993"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Numerical-solver performance study is unrelated to developer productivity or delivery flow.",
+      "source_id": "https://openalex.org/W2544480501"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Programming-language design cites productivity as motivation but does not measure developer work.",
+      "source_id": "https://openalex.org/W2605019171"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "HPC performance tuning concerns computational performance, not developer workload or delivery flow.",
+      "source_id": "https://openalex.org/W1988394189"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "MPI library chapter has no metadata-level connection to the strict S8 constructs.",
+      "source_id": "https://openalex.org/W1653644006"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Foundational software-effort prediction model provides a conventional estimation comparator.",
+      "source_id": "https://openalex.org/W46921728"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Embedded-component reuse paper does not substantively address the S8 constructs in metadata.",
+      "source_id": "https://openalex.org/W1868671167"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Empirically compares client/vendor perceptions of software-development productivity factors.",
+      "source_id": "https://openalex.org/W2024421280"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Radar-processor implementation is outside software-work measurement and estimation validity.",
+      "source_id": "https://openalex.org/W1806784103"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Embedded-system processor testing is technical system testing, not human workload or delivery planning.",
+      "source_id": "https://openalex.org/W1535967777"
+    },
+    {
+      "decision": "likely_irrelevant",
+      "reason": "Build-tool proposal lacks an empirical productivity, workload, review, or flow measure.",
+      "source_id": "https://openalex.org/W204248628"
+    },
+    {
+      "decision": "uncertain",
+      "reason": "Project-management book may contain delivery comparison evidence, but exported metadata is insufficient to judge.",
+      "source_id": "https://openalex.org/W564796408"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Systems-development acceptance model explicitly concerns low developer productivity and software quality.",
+      "source_id": "https://openalex.org/W2913416507"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Field study measures how reusable frameworks affect developer productivity and estimation.",
+      "source_id": "https://openalex.org/W2905605441"
+    },
+    {
+      "decision": "likely_relevant",
+      "reason": "Critiques methods used to measure CASE-tool productivity and reports inconclusive gains.",
+      "source_id": "https://openalex.org/W2048897733"
+    },
+    {
+      "decision": "uncertain",
+      "reason": "CASE implementation study is plausibly relevant to productivity adoption, but the exported metadata lacks substantive details.",
+      "source_id": "https://openalex.org/W1509947850"
+    }
+  ],
+  "family_id": "S8",
+  "interpretation_boundary": "Metadata-level deterministic query appraisal only; not systematic screening, eligibility, or PRISMA evidence.",
+  "ordered_sample_source_ids": [
+    "https://openalex.org/W7164450288",
+    "https://openalex.org/W7203456728",
+    "https://openalex.org/W7203457012",
+    "https://openalex.org/W7202163869",
+    "https://openalex.org/W7202163205",
+    "https://openalex.org/W7172422139",
+    "https://openalex.org/W7172470608",
+    "https://openalex.org/W7172222489",
+    "https://openalex.org/W7172224127",
+    "https://openalex.org/W7172431928",
+    "https://openalex.org/W7166512094",
+    "https://openalex.org/W7154740564",
+    "https://openalex.org/W7154627282",
+    "https://openalex.org/W7164784501",
+    "https://openalex.org/W7117866090",
+    "https://openalex.org/W4416336265",
+    "https://openalex.org/W7124889562",
+    "https://openalex.org/W4415480719",
+    "https://openalex.org/W4409408603",
+    "https://openalex.org/W4406376277",
+    "https://openalex.org/W7106221075",
+    "https://openalex.org/W4404849298",
+    "https://openalex.org/W4399152014",
+    "https://openalex.org/W4400680982",
+    "https://openalex.org/W4391212857",
+    "https://openalex.org/W4386966677",
+    "https://openalex.org/W7171089539",
+    "https://openalex.org/W4367694669",
+    "https://openalex.org/W3160042507",
+    "https://openalex.org/W4318822059",
+    "https://openalex.org/W4411265037",
+    "https://openalex.org/W3209001851",
+    "https://openalex.org/W2966363071",
+    "https://openalex.org/W2922265848",
+    "https://openalex.org/W2892304993",
+    "https://openalex.org/W2544480501",
+    "https://openalex.org/W2605019171",
+    "https://openalex.org/W1988394189",
+    "https://openalex.org/W1653644006",
+    "https://openalex.org/W46921728",
+    "https://openalex.org/W1868671167",
+    "https://openalex.org/W2024421280",
+    "https://openalex.org/W1806784103",
+    "https://openalex.org/W1535967777",
+    "https://openalex.org/W204248628",
+    "https://openalex.org/W564796408",
+    "https://openalex.org/W2913416507",
+    "https://openalex.org/W2905605441",
+    "https://openalex.org/W2048897733",
+    "https://openalex.org/W1509947850"
+  ],
+  "query_id": "OA-S8R4",
+  "query_version": "0.4",
+  "sample_positions_zero_based": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    72,
+    78,
+    79,
+    162,
+    176,
+    186,
+    209,
+    212,
+    301,
+    311,
+    359,
+    367,
+    389,
+    402,
+    407,
+    438,
+    442,
+    461,
+    506,
+    511,
+    567,
+    627,
+    642,
+    651,
+    674,
+    731,
+    750,
+    759,
+    830,
+    853,
+    855,
+    856,
+    857,
+    858,
+    859,
+    860,
+    861,
+    862,
+    863,
+    864
+  ],
+  "sampling_seed_sha256": "765f13d9ca0e2f082663954f05d86bc3b1176279394b0861c1aea1b913801682",
+  "source": "openalex",
+  "status": "development_query_control_decisions",
+  "strict_rule": "Likely relevant only when metadata substantively addresses software estimation validity, developer-productivity measurement, human code-review work, workload measurement boundaries, or software delivery flow/queue foundations; generic tool/system performance and technical automation alone are insufficient."
+}

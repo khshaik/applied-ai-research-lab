@@ -1,0 +1,32 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:08:21.248534Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html;charset=utf-8",
+      "final_url": "https://lutpub.lut.fi/handle/10024/171324",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://lutpub.lut.fi/handle/10024/171324"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:08:22.805112Z",
+      "basis": "citation_pdf_url_metadata",
+      "bytes": 551566,
+      "content_type": "application/pdf;charset=UTF-8",
+      "final_url": "https://lutpub.lut.fi/bitstream/handle/10024/171324/Bachelorsthesis_Souris_Lia.pdf;jsessionid=6227FC32DC0BF7343A312588C954D021?sequence=1",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "sha256": "0c212b5ab85188a22723f2aa294d05bcb426055d27ae834541ee6d9d7720e28c",
+      "url": "https://lutpub.lut.fi/bitstream/10024/171324/1/Bachelorsthesis_Souris_Lia.pdf"
+    }
+  ],
+  "bytes": 551566,
+  "family_id": "FAM-81aca7758891b31ea67a",
+  "lawful_access_basis": "citation_pdf_url_metadata",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-81aca7758891b31ea67a.pdf",
+  "pdf_sha256": "0c212b5ab85188a22723f2aa294d05bcb426055d27ae834541ee6d9d7720e28c",
+  "representative_canonical_id": "CAN-fed5e35cce70eed7deb4",
+  "retrieved_url": "https://lutpub.lut.fi/bitstream/10024/171324/1/Bachelorsthesis_Souris_Lia.pdf",
+  "status": "retrieved_open"
+}

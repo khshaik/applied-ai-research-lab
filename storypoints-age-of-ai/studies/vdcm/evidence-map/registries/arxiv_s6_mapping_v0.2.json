@@ -1,0 +1,49 @@
+{
+  "status": "development_pilot",
+  "version": "0.2",
+  "family_id": "S6",
+  "source_query_id": "AX-S6R",
+  "source_registry": "gate2/arxiv_pilot_queries.json",
+  "query": "(all:\"human-AI\" OR all:\"AI-assisted\" OR all:\"AI-augmented\" OR all:\"large language model\" OR all:\"coding agent\") AND (all:\"software delivery\" OR all:\"software development lifecycle\" OR all:\"software modernization\") AND (all:orchestration OR all:workflow OR all:team OR all:validation)",
+  "mapping_rationale": "The immutable complete AX-S6R developmental export is mapped to S6 under a narrow rule: metadata must indicate lifecycle-spanning orchestration, gates, or dependencies, or team/organization coordination, capacity, flow, or delivery outcomes. Merely naming an SDLC stage or evaluating an isolated task is insufficient.",
+  "sentinels": [
+    {
+      "sentinel_id": "S6-AX-P1",
+      "role": "scope_positive",
+      "arxiv_id": "2603.20028",
+      "title": "Orchestrating Human-AI Software Delivery: A Retrospective Longitudinal Field Study of Three Software Modernization Programs"
+    },
+    {
+      "sentinel_id": "S6-AX-P2",
+      "role": "scope_positive",
+      "arxiv_id": "2508.11867",
+      "title": "AI-Augmented CI/CD Pipelines: From Code Commit to Production with Autonomous Decisions"
+    },
+    {
+      "sentinel_id": "S6-AX-D1",
+      "role": "neutral_disconfirming",
+      "arxiv_id": "2503.05012",
+      "title": "LLMs' Reshaping of People, Processes, Products, and Society in Software Development: A Comprehensive Exploration with Early Adopters"
+    },
+    {
+      "sentinel_id": "S6-AX-D2",
+      "role": "neutral_disconfirming",
+      "arxiv_id": "2607.21832",
+      "title": "How Do AI Coding Agents Contribute to Software Development? an Empirical Study of Agentic Pull Requests"
+    }
+  ],
+  "sampled_precision_rule": {
+    "development_diagnostic_minimum_sample": 20,
+    "allowed_decisions": ["likely_relevant", "likely_irrelevant", "uncertain"],
+    "freeze_sample_bands": [
+      {"population_min": 0, "population_max": 50, "required_sample": "all"},
+      {"population_min": 51, "population_max": 1000, "required_sample": 50},
+      {"population_min": 1001, "population_max": null, "required_sample": 100}
+    ],
+    "acceptance_bands": {
+      "operational_minimum_relevant_plus_uncertain": 0.10,
+      "conditional_minimum_relevant_plus_uncertain": 0.05
+    }
+  },
+  "boundary": "Developmental S6 arXiv query control only. S6 requires lifecycle-spanning orchestration/gates/dependencies or team/organization coordination/capacity/flow/delivery outcomes. This is not a frozen search, eligibility decision, screening result, or PRISMA input."
+}

@@ -1,0 +1,30 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:16:01.382755Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.ijset.in/generative-ai-enhanced-continuous-integration-and-continuous-delivery-pipelines-intelligent-automation-for-modern-software-delivery/",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://www.ijset.in/generative-ai-enhanced-continuous-integration-and-continuous-delivery-pipelines-intelligent-automation-for-modern-software-delivery/"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:18:22.897832Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.ijset.in/generative-ai-enhanced-continuous-integration-and-continuous-delivery-pipelines-intelligent-automation-for-modern-software-delivery/",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://www.ijset.in/generative-ai-enhanced-continuous-integration-and-continuous-delivery-pipelines-intelligent-automation-for-modern-software-delivery/"
+    }
+  ],
+  "bytes": 0,
+  "family_id": "FAM-b94a20e95f696abaee7d",
+  "lawful_access_basis": null,
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "representative_canonical_id": "CAN-75cdf5552488eaabced7",
+  "retrieved_url": null,
+  "status": "lawful_full_text_not_retrieved"
+}

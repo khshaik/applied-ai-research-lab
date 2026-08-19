@@ -1,0 +1,13 @@
+{
+  "development_world_ids": [
+    "world_sp"
+  ],
+  "interpretation_boundary": "Development synthetic mechanism diagnostic only; not locked evidence.",
+  "mechanisms": [
+    "dependencies",
+    "multi_role_structure",
+    "queues",
+    "readiness"
+  ],
+  "status": "developmental_synthetic_not_locked_evaluation"
+}

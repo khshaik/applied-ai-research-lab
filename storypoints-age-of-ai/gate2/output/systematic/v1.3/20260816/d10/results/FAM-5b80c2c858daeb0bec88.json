@@ -1,0 +1,21 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:06:51.185709Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://ieeexplore.ieee.org/document/9117268/",
+      "http_status": 202,
+      "outcome": "http_failure",
+      "url": "https://doi.org/10.1109/icetas48360.2019.9117268"
+    }
+  ],
+  "bytes": 0,
+  "family_id": "FAM-5b80c2c858daeb0bec88",
+  "lawful_access_basis": null,
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "representative_canonical_id": "CAN-2fe84c94fb04706cc072",
+  "retrieved_url": null,
+  "status": "lawful_full_text_not_retrieved"
+}

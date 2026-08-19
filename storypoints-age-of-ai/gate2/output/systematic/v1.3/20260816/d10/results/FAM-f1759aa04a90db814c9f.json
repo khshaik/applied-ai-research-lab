@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 1806568,
+      "content_type": "application/pdf",
+      "final_url": "https://aijcst.org/index.php/aijcst/article/download/216/204",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "8f0717ad20baee8d854ddf6763f2c2ad362c59b5d3791a5160efad9862389379",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://aijcst.org/index.php/aijcst/article/download/216/204"
+    }
+  ],
+  "bytes": 1806568,
+  "family_id": "FAM-f1759aa04a90db814c9f",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-f1759aa04a90db814c9f.pdf",
+  "pdf_sha256": "8f0717ad20baee8d854ddf6763f2c2ad362c59b5d3791a5160efad9862389379",
+  "representative_canonical_id": "CAN-85bb7b58a34e8c046b68",
+  "retrieved_url": "https://aijcst.org/index.php/aijcst/article/download/216/204",
+  "status": "retrieved_open"
+}

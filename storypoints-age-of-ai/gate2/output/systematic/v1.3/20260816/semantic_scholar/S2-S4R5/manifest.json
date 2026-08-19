@@ -1,0 +1,36 @@
+{
+  "acceptance_matrix_row_sha256": "9339ae7f08ce67240ceb40914fd3aef3f9cbc9405727c79f76e0f52d917ca81f",
+  "complete_pagination": true,
+  "endpoint": "https://api.semanticscholar.org/graph/v1/paper/search/bulk",
+  "executed_at_utc": "2026-08-16T08:30:14.843738+00:00",
+  "freeze_package_sha256": "fa9800da881c2590a3261861fa6e1de5d6a3c349687ef320b43057561be8730d",
+  "from_date": "2019-01-01",
+  "interpretation_boundary": "Frozen systematic discovery export; not yet screened, deduplicated, eligible, or a PRISMA inclusion count.",
+  "max_pages": null,
+  "page_size": 1000,
+  "pages": [
+    {
+      "file": "page_00000.json",
+      "records": 280,
+      "request_url_sha256": "3e05c1a135cef867d6da6fd5852f2982e2b6220b655f05d4d704eb393110c571",
+      "sequence": 0,
+      "sha256": "441c58827744e6cd379e900f9c3e52c5ea7a29176423b3fe5532691d2c7b7852"
+    }
+  ],
+  "query": "+(\"large language model\" | LLM | \"generative AI\") +\"code review\" +(time | workload | attention | effort | efficiency | quality | verification | trust)",
+  "query_id": "S2-S4R5",
+  "query_mode": "fulltext_search",
+  "query_registry_sha256": "31cab97519f7cf497cd36087497fc74a8c842da890a81bb5eaf24cf0ff72af71",
+  "query_sha256": "5c584af93c499d11cd163044c7fc52ca1d46c98ba20a6cc8ed20525d5f07a2da",
+  "records_csv": {
+    "file": "records.csv",
+    "sha256": "f5085e1f6cf8178697ed8d3564966249360f6c20bed12ebb2f9746ca207eba60"
+  },
+  "records_retrieved": 280,
+  "result_sort": "",
+  "retrieval_scope": "complete_systematic",
+  "source": "semantic_scholar",
+  "status": "systematic_frozen",
+  "to_date": "2026-08-16",
+  "total_reported": 280
+}

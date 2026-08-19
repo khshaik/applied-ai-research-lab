@@ -1,0 +1,57 @@
+{
+  "audit_version": "1.0.0",
+  "audit_date": "2026-08-15",
+  "status": "developmental_outputs_reconciled",
+  "interpretation_boundary": "Synthetic development evidence only; this audit does not validate human cognition, organizational delivery, or causal effects.",
+  "command": "python3 -m simulation.development_pipeline --replications 24 --output <development-output-directory>",
+  "replications": 24,
+  "scenarios": 11,
+  "runs": 264,
+  "locked_evaluation_seeds_accessed": false,
+  "finding": "The pre-audit checked-in outputs did not reproduce under the current verified engine. Two independent fresh runs were byte-identical. The stale outputs were replaced by the reproducible current-code outputs and the manifest was upgraded to record code and configuration provenance.",
+  "pre_audit_manifest": {
+    "manifest_version": "0.1.0-development",
+    "content_checksum": "81e8a5c7483ac3264cd6b4004c014a5c7334539e1dd7a5a7077398c5fad64416",
+    "output_sha256": {
+      "run_manifest.csv": "eba5dec31454a8f5eed51a8087feeff77da8b536925abafc5f8286e0365b465d",
+      "item_forecasts.csv": "9702123ba5da7b29d95c8d623b21fabe7649434b46bcac66628bed843e7351f9",
+      "comparator_scores.csv": "a908f1725080481a56743de6d1c4d5bd3c72ed175a6ccabb64c6e9d0d1f7b2b8",
+      "parameter_recovery.csv": "c650d02c748ef03d030e82aeb3ca4a14dc28ba8dc009061251b5359d86cf93ee"
+    }
+  },
+  "current_manifest": {
+    "manifest_version": "0.2.0-development",
+    "content_checksum": "e198d4ee0905c4c91a7383cd593fd95848d2bacbac6db915aa6b498098a7425d",
+    "configuration_sha256": "6b2fd67b3b62fa42a2c18dd285fd312c0308fb1c63a55e6ec9a87700de9db48b",
+    "implementation_sha256": "61625c6203f6c90820f3acec3e98a167c830fd19351b46a21dc2215047e421e4",
+    "output_sha256": {
+      "run_manifest.csv": "3f500ca814bba304dfd81f4e12ef99cdb74c34ae82621bdb7e451e066cc91fd6",
+      "item_forecasts.csv": "bd72607430a21ca3a85a30622f8e4a1124f8aadc58eb397cbc06c2f099b6e482",
+      "comparator_scores.csv": "21c0e294774f5e9800ea5f83840f1f49506441bb1fee2bab84c9e004d476601f",
+      "parameter_recovery.csv": "39576067d3c81b10bc7fcba3078b1396803dd31e2e7d1de0e7a7859a06bf4d79"
+    }
+  },
+  "fresh_run_comparison": {
+    "independent_fresh_runs": 2,
+    "all_generated_files_byte_identical": true
+  },
+  "current_parameter_recovery": [
+    {
+      "scenario_id": "recovery_service_low",
+      "target_multiplier": 0.75,
+      "recovered_multiplier": 0.7856926872967714,
+      "absolute_error": 0.03569268729677144
+    },
+    {
+      "scenario_id": "recovery_service_high",
+      "target_multiplier": 1.75,
+      "recovered_multiplier": 1.825802453726966,
+      "absolute_error": 0.07580245372696592
+    }
+  ],
+  "claim_corrections": [
+    "Earlier parameter-recovery errors 0.00865 and 0.02014 are not supported by the current reproducible artifact and must not be cited.",
+    "Earlier comparator-winner summaries based on manifest 0.1.0-development must not be cited.",
+    "The current results continue to show mixed performance; no deployable comparator is universally best across the eleven developmental scenarios."
+  ]
+}

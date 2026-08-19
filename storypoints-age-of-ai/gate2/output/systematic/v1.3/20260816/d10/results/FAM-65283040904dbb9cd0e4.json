@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "semantic_scholar_open_access_pdf",
+      "bytes": 4104735,
+      "content_type": "application/pdf",
+      "final_url": "https://ieeexplore.ieee.org/ielx7/6287639/8948470/09186107.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "7a2d5b4b1749e6711f2a004a4bad34ff9ca0eb51cd5a13fe77f21e333852ee0f",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://ieeexplore.ieee.org/ielx7/6287639/8948470/09186107.pdf"
+    }
+  ],
+  "bytes": 4104735,
+  "family_id": "FAM-65283040904dbb9cd0e4",
+  "lawful_access_basis": "semantic_scholar_open_access_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-65283040904dbb9cd0e4.pdf",
+  "pdf_sha256": "7a2d5b4b1749e6711f2a004a4bad34ff9ca0eb51cd5a13fe77f21e333852ee0f",
+  "representative_canonical_id": "CAN-17cfae4893b422d7fc28",
+  "retrieved_url": "https://ieeexplore.ieee.org/ielx7/6287639/8948470/09186107.pdf",
+  "status": "retrieved_open"
+}

@@ -1,0 +1,41 @@
+{
+  "attempts": [
+    {
+      "basis": "semantic_scholar_open_access_pdf",
+      "bytes": 91293,
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://journal.antispublisher.id/index.php/JAIDE/article/view/1544",
+      "http_status": 200,
+      "outcome": "not_a_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://doi.org/10.61796/jaide.v1i12.1544"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:16:57.534414Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.semanticscholar.org/paper/979155f2a717ced3a1300eb75d381112fac2f530",
+      "http_status": 202,
+      "outcome": "http_failure",
+      "url": "https://www.semanticscholar.org/paper/979155f2a717ced3a1300eb75d381112fac2f530"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:22:00.413523Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.semanticscholar.org/paper/979155f2a717ced3a1300eb75d381112fac2f530",
+      "http_status": 202,
+      "outcome": "http_failure",
+      "url": "https://www.semanticscholar.org/paper/979155f2a717ced3a1300eb75d381112fac2f530"
+    }
+  ],
+  "bytes": 0,
+  "family_id": "FAM-f4ff7b1c3365bb0776ea",
+  "lawful_access_basis": null,
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "representative_canonical_id": "CAN-4c4fd7d05837fabf52df",
+  "retrieved_url": null,
+  "status": "lawful_full_text_not_retrieved"
+}

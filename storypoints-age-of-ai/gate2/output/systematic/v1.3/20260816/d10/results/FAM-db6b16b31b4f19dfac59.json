@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 752269,
+      "content_type": "application/pdf",
+      "final_url": "https://nti.khai.edu/ojs/index.php/oikit/article/download/3133/2858",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "c96514b97a4599e0896c66a7b5831991e44493c8ff22cc84840115559b11a957",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://nti.khai.edu/ojs/index.php/oikit/article/download/3133/2858"
+    }
+  ],
+  "bytes": 752269,
+  "family_id": "FAM-db6b16b31b4f19dfac59",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-db6b16b31b4f19dfac59.pdf",
+  "pdf_sha256": "c96514b97a4599e0896c66a7b5831991e44493c8ff22cc84840115559b11a957",
+  "representative_canonical_id": "CAN-e6cac8c4db2d6cc22189",
+  "retrieved_url": "https://nti.khai.edu/ojs/index.php/oikit/article/download/3133/2858",
+  "status": "retrieved_open"
+}

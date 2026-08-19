@@ -1,0 +1,32 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:05:26.611159Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://zenodo.org/records/18627897",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://doi.org/10.5281/zenodo.18627897"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:05:28.063151Z",
+      "basis": "citation_pdf_url_metadata",
+      "bytes": 753605,
+      "content_type": "application/octet-stream, application/octet-stream",
+      "final_url": "https://zenodo.org/records/18627897/files/Confirmation_Bias_Post-LLM_Architecture_Pereira_2026b.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "sha256": "266b6d796b9c619e9cd49266f0f21065f96f3397f30b969440b89892ede743ba",
+      "url": "https://zenodo.org/records/18627897/files/Confirmation_Bias_Post-LLM_Architecture_Pereira_2026b.pdf"
+    }
+  ],
+  "bytes": 753605,
+  "family_id": "FAM-4211d21d2e5be56b6538",
+  "lawful_access_basis": "citation_pdf_url_metadata",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-4211d21d2e5be56b6538.pdf",
+  "pdf_sha256": "266b6d796b9c619e9cd49266f0f21065f96f3397f30b969440b89892ede743ba",
+  "representative_canonical_id": "CAN-14f432d2c621ef093a0d",
+  "retrieved_url": "https://zenodo.org/records/18627897/files/Confirmation_Bias_Post-LLM_Architecture_Pereira_2026b.pdf",
+  "status": "retrieved_open"
+}

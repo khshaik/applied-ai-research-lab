@@ -1,0 +1,35 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 52663,
+      "content_type": "text/html",
+      "final_url": "https://www.sciencedirect.com/science/article/pii/S0164121218300323/pdf",
+      "http_status": 200,
+      "outcome": "not_a_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0164121218300323/pdf"
+    },
+    {
+      "basis": "openalex_oa_location_pdf",
+      "bytes": 343533,
+      "content_type": "application/pdf",
+      "final_url": "https://arxiv.org/pdf/1707.00432",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "b2b3f9547f16a827a079b8bfb4a2d5cc8f5d59ddc4143af187b68741e3e8fd77",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://arxiv.org/pdf/1707.00432"
+    }
+  ],
+  "bytes": 343533,
+  "family_id": "FAM-05146a1207729f231fd9",
+  "lawful_access_basis": "openalex_oa_location_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-05146a1207729f231fd9.pdf",
+  "pdf_sha256": "b2b3f9547f16a827a079b8bfb4a2d5cc8f5d59ddc4143af187b68741e3e8fd77",
+  "representative_canonical_id": "CAN-c4d5c7308efe31deeb5f",
+  "retrieved_url": "https://arxiv.org/pdf/1707.00432",
+  "status": "retrieved_open"
+}

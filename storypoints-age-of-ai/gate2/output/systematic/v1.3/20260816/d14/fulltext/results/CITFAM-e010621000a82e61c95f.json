@@ -1,0 +1,19 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-19T11:09:04.542573Z",
+      "basis": "semantic_scholar_explicit_openAccessPdf",
+      "final_url": "https://ink.library.smu.edu.sg/cgi/viewcontent.cgi?params=/context/sis_research/article/8703/&path_info=autoprtitle.pdf",
+      "http_status": 405,
+      "redirect_count": 1,
+      "retry_after": null,
+      "status": "http_failure"
+    }
+  ],
+  "bytes": 0,
+  "citation_family_id": "CITFAM-e010621000a82e61c95f",
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "security_attestation": "Static HTTPS retrieval only; public-IP validation, bounded redirects/size, signature and active-content checks; no PDF execution.",
+  "status": "http_failure"
+}

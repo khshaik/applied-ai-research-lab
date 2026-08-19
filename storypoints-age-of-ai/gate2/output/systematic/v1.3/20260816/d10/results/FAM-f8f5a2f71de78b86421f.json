@@ -1,0 +1,41 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 42660,
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://ijsrem.com/download/impact-of-generative-ai-on-the-software-development-lifecycle?wpdmdl=62027&refresh=6934478936cfc1765033865",
+      "http_status": 200,
+      "outcome": "not_a_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://ijsrem.com/download/impact-of-generative-ai-on-the-software-development-lifecycle/?wpdmdl=62027&refresh=6934478936cfc1765033865"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:16:58.790457Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://ijsrem.com/download/impact-of-generative-ai-on-the-software-development-lifecycle",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://doi.org/10.55041/ijsrem54895"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:22:05.181232Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://ijsrem.com/download/impact-of-generative-ai-on-the-software-development-lifecycle",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://doi.org/10.55041/ijsrem54895"
+    }
+  ],
+  "bytes": 0,
+  "family_id": "FAM-f8f5a2f71de78b86421f",
+  "lawful_access_basis": null,
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "representative_canonical_id": "CAN-6aa9f6b7461fa6bd3c0e",
+  "retrieved_url": null,
+  "status": "lawful_full_text_not_retrieved"
+}

@@ -1,0 +1,28 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:16:49.122306Z",
+      "basis": "representative_landing_page",
+      "error_type": "ReadTimeout",
+      "outcome": "network_error",
+      "url": "https://hdl.handle.net/11511/119103"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:21:36.790108Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html;charset=utf-8",
+      "final_url": "https://hdl.handle.net/11511/119103",
+      "http_status": 500,
+      "outcome": "http_failure",
+      "url": "https://hdl.handle.net/11511/119103"
+    }
+  ],
+  "bytes": 0,
+  "family_id": "FAM-ecb2ac6c8373c2d2e2d0",
+  "lawful_access_basis": null,
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "representative_canonical_id": "CAN-e26167f609d93f529b68",
+  "retrieved_url": null,
+  "status": "lawful_full_text_not_retrieved"
+}

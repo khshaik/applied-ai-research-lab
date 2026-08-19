@@ -1,0 +1,32 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:16:05.099297Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://zenodo.org/records/18958230",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://doi.org/10.5281/zenodo.18958230"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:16:07.499871Z",
+      "basis": "citation_pdf_url_metadata",
+      "bytes": 544929,
+      "content_type": "application/octet-stream, application/octet-stream",
+      "final_url": "https://zenodo.org/records/18958230/files/Effort-Based%20Agile%20Release%20Forecasting%20Without%20Story%20Points%20(In-Practice).pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "sha256": "81e0242132101dc973053d677d15c317fa7a4cefafde109d6071d54441f22477",
+      "url": "https://zenodo.org/records/18958230/files/Effort-Based%20Agile%20Release%20Forecasting%20Without%20Story%20Points%20(In-Practice).pdf"
+    }
+  ],
+  "bytes": 544929,
+  "family_id": "FAM-bd5e3011acd4505d201b",
+  "lawful_access_basis": "citation_pdf_url_metadata",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-bd5e3011acd4505d201b.pdf",
+  "pdf_sha256": "81e0242132101dc973053d677d15c317fa7a4cefafde109d6071d54441f22477",
+  "representative_canonical_id": "CAN-ed2e09e5653d57990221",
+  "retrieved_url": "https://zenodo.org/records/18958230/files/Effort-Based%20Agile%20Release%20Forecasting%20Without%20Story%20Points%20(In-Practice).pdf",
+  "status": "retrieved_open"
+}

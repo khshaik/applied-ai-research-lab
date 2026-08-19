@@ -1,0 +1,85 @@
+{
+  "adjudication_candidate_count": 211,
+  "adjudication_packet_sha256": "c47b37a1da4e98ed41ba85f7fc2f6b7815dfe67d44e853c1104abb4d4bc82579",
+  "consensus_appraisals_sha256": "10e67dd4877b9f3ef1e90a2ad595417325bcf5d2589a2d0fc8b1835fd5b8b45f",
+  "consensus_count": 1,
+  "decision_rule": "Any form, design, nature, critical-flaw, total, band, or criterion-score difference is separately adjudicated; no averaging or confidence voting.",
+  "family_count": 212,
+  "pair_counts": {
+    "exact_consensus": 1,
+    "requires_adjudication": 211
+  },
+  "pipeline_version": "d14-quality-reconcile/1.0.0",
+  "protocol_version": "1.3",
+  "status": "prepared_for_separate_quality_adjudication",
+  "validations": {
+    "audit_a": {
+      "bands": {
+        "high": 47,
+        "low_contextual": 11,
+        "moderate": 48
+      },
+      "family_count": 106,
+      "forms": {
+        "conceptual_framework": 5,
+        "qualitative": 7,
+        "quantitative_mixed": 84,
+        "secondary_review": 10
+      },
+      "partition": "a",
+      "sha256": "92470e83c5551afdf104491c4e579868df4bfb02df89e513445eb9ccbabe404b",
+      "status": "valid_complete_d14_appraisal_partition"
+    },
+    "audit_b": {
+      "bands": {
+        "high": 71,
+        "low_contextual": 6,
+        "moderate": 29
+      },
+      "family_count": 106,
+      "forms": {
+        "conceptual_framework": 6,
+        "qualitative": 4,
+        "quantitative_mixed": 84,
+        "secondary_review": 12
+      },
+      "partition": "b",
+      "sha256": "df58727211e0ff9d9ba25c5a474791f9b0a9917c289fc8ec5c838db56b883a3f",
+      "status": "valid_complete_d14_appraisal_partition"
+    },
+    "primary_a": {
+      "bands": {
+        "high": 62,
+        "low_contextual": 6,
+        "moderate": 38
+      },
+      "family_count": 106,
+      "forms": {
+        "conceptual_framework": 8,
+        "qualitative": 7,
+        "quantitative_mixed": 83,
+        "secondary_review": 8
+      },
+      "partition": "a",
+      "sha256": "ec524ccea942cd1722ebdf4d9e498455cb6ee4b0ed90400e5cbd9f66dcb79d72",
+      "status": "valid_complete_d14_appraisal_partition"
+    },
+    "primary_b": {
+      "bands": {
+        "high": 57,
+        "low_contextual": 12,
+        "moderate": 37
+      },
+      "family_count": 106,
+      "forms": {
+        "conceptual_framework": 4,
+        "qualitative": 6,
+        "quantitative_mixed": 84,
+        "secondary_review": 12
+      },
+      "partition": "b",
+      "sha256": "d7332ddb3538177a57439300b4867ec22d35af9f39aafd30e8a825a5e95b908f",
+      "status": "valid_complete_d14_appraisal_partition"
+    }
+  }
+}

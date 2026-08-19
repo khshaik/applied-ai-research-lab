@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 306746,
+      "content_type": "application/pdf",
+      "final_url": "https://ijsrcseit.com/home/article/download/CSEIT251112343/CSEIT251112343",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "04f804a04a5b5aeb4e527669f899cc530e265fbd3d12cf221d09af64d46f1313",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://ijsrcseit.com/index.php/home/article/download/CSEIT251112343/CSEIT251112343"
+    }
+  ],
+  "bytes": 306746,
+  "family_id": "FAM-26899914acb0a8bf6569",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-26899914acb0a8bf6569.pdf",
+  "pdf_sha256": "04f804a04a5b5aeb4e527669f899cc530e265fbd3d12cf221d09af64d46f1313",
+  "representative_canonical_id": "CAN-6a0bf7180cda1ef96bf9",
+  "retrieved_url": "https://ijsrcseit.com/home/article/download/CSEIT251112343/CSEIT251112343",
+  "status": "retrieved_open"
+}

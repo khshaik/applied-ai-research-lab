@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 1375995,
+      "content_type": "application/pdf",
+      "final_url": "https://papers.academic-conferences.org/index.php/iccws/article/download/4498/4033",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "83ed733f4c2fafdf09f2a9ea84f325ed342163ecbc4661c022574d7a35772961",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://papers.academic-conferences.org/index.php/iccws/article/download/4498/4033"
+    }
+  ],
+  "bytes": 1375995,
+  "family_id": "FAM-e5e95a0d06be2563fc78",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-e5e95a0d06be2563fc78.pdf",
+  "pdf_sha256": "83ed733f4c2fafdf09f2a9ea84f325ed342163ecbc4661c022574d7a35772961",
+  "representative_canonical_id": "CAN-5a30a6901128f67cb6c9",
+  "retrieved_url": "https://papers.academic-conferences.org/index.php/iccws/article/download/4498/4033",
+  "status": "retrieved_open"
+}

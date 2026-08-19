@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 505930,
+      "content_type": "application/pdf",
+      "final_url": "https://iacis.org/iis/2025/2_iis_2025_346-360.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "354913af3f7d1102239f71245be5d4dbace58f405cc85f978343109e39105ad5",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://doi.org/10.48009/2_iis_127"
+    }
+  ],
+  "bytes": 505930,
+  "family_id": "FAM-a39cd4ea99fddc3702d2",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-a39cd4ea99fddc3702d2.pdf",
+  "pdf_sha256": "354913af3f7d1102239f71245be5d4dbace58f405cc85f978343109e39105ad5",
+  "representative_canonical_id": "CAN-adc8d9c2a5b13738db5f",
+  "retrieved_url": "https://iacis.org/iis/2025/2_iis_2025_346-360.pdf",
+  "status": "retrieved_open"
+}

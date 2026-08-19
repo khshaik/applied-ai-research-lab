@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "package": "thinkai-2026-anonymous-working-submission",
+  "version": "0.2",
+  "created_on": "2026-08-19",
+  "status": "visually_verified_pending_venue_confirmation_and_G06",
+  "page_count": 15,
+  "files": [
+    {
+      "path": "VDCM_ThinkAI2026_Anonymous_Full_Paper_v0.2_FINAL.docx",
+      "sha256": "b2478e6da63978554a81bae30b73a7271f19641e61cc0030b1cdec94cab9d855"
+    },
+    {
+      "path": "VDCM_ThinkAI2026_Anonymous_Full_Paper_v0.2_FINAL.pdf",
+      "sha256": "3e737d2dbfb5a45a7eb3f867e749f08757c3cd650d40c22f199b448963b7f4f3"
+    }
+  ],
+  "source_bindings": {
+    "manuscript_markdown_sha256": "9d670b70dccae3d8eec23c94f1dbedad4c8aefefc3e757fd73cff923dffcbfe0",
+    "claim_ledger_sha256": "409357704b7e367f38afcd34fcedfb9252a838a8cc04bd86c2c46763edf67a69",
+    "figure_manifest_sha256": "75631a92ba0c9ea164c392ce4d7b79594b6a6fe9671c162abb1ec3ae04df8b23",
+    "d17_approval_sha256": "31e1315970e89831a838387cad63329aee34373f20e3ace17ab5ce0eb4f221c8"
+  },
+  "qa": {
+    "word_pdf_export": true,
+    "visual_pages_inspected": 15,
+    "blocked_markers_absent": true,
+    "anonymous_metadata_checked": true,
+    "pdf_active_content_absent": true
+  },
+  "release_blockers": [
+    "authoritative THINKAI 2026 page-limit and anonymization confirmation",
+    "identified-author metadata and declarations",
+    "G06 accountable-author approval",
+    "G07 submission authorization"
+  ]
+}

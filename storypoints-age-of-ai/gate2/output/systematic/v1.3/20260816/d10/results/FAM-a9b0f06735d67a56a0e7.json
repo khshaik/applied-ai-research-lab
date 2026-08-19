@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 406864,
+      "content_type": "application/pdf",
+      "final_url": "https://research.ijcaonline.org/volume81/number10/pxc3892213.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "49b5d711eae408f3281ddae9b8b73a1da88bcd1fd67ed1ae04ec627f3174adb9",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://doi.org/10.5120/14048-2213"
+    }
+  ],
+  "bytes": 406864,
+  "family_id": "FAM-a9b0f06735d67a56a0e7",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-a9b0f06735d67a56a0e7.pdf",
+  "pdf_sha256": "49b5d711eae408f3281ddae9b8b73a1da88bcd1fd67ed1ae04ec627f3174adb9",
+  "representative_canonical_id": "CAN-8ccaf5ea37d089287a22",
+  "retrieved_url": "https://research.ijcaonline.org/volume81/number10/pxc3892213.pdf",
+  "status": "retrieved_open"
+}

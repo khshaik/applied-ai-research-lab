@@ -1,0 +1,21 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:01:36.227726Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html;charset=UTF-8",
+      "final_url": "https://journals.aom.org/doi/10.5465/ambpp.2013.16544abstract",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://doi.org/10.5465/ambpp.2013.16544abstract"
+    }
+  ],
+  "bytes": 0,
+  "family_id": "FAM-01c76d7e0cba13a3d701",
+  "lawful_access_basis": null,
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "representative_canonical_id": "CAN-c252982fa38ab2765d85",
+  "retrieved_url": null,
+  "status": "lawful_full_text_not_retrieved"
+}

@@ -1,0 +1,47 @@
+{
+  "acceptance_matrix_row_sha256": "953b6cd3577322ffa96fb85eb0817c983a0216fc0882fe25a5d5571aa387bf20",
+  "authentication": {
+    "credential_logged": false,
+    "method": "api_key_environment"
+  },
+  "complete_pagination": true,
+  "endpoint": "https://api.openalex.org/works",
+  "executed_at_utc": "2026-08-16T09:09:10.594245+00:00",
+  "freeze_package_sha256": "fa9800da881c2590a3261861fa6e1de5d6a3c349687ef320b43057561be8730d",
+  "from_date": "2019-01-01",
+  "interpretation_boundary": "Frozen systematic discovery export; not yet screened, deduplicated, eligible, or a PRISMA inclusion count.",
+  "max_pages": null,
+  "page_size": 200,
+  "pages": [
+    {
+      "file": "page_00000.json",
+      "records": 200,
+      "request_url_sha256": "0e68c516c97cca6f30a9b0043ba3a5c252ee5bc9bc30b6302ce4d4428682759a",
+      "sequence": 0,
+      "sha256": "185e61add6aaf0c78336eab541e9604038d75ac07e0bbc7a2d0061ba6ab6bbf5"
+    },
+    {
+      "file": "page_00001.json",
+      "records": 59,
+      "request_url_sha256": "eea51b82ed204679a943de9251915def81a312adf744e1bc26c73479f9e6a6e8",
+      "sequence": 1,
+      "sha256": "3b5e93ffe2e751a78e199cd9316764cb1985c6588f043598f75885d2754bb6bc"
+    }
+  ],
+  "query": "(((\"large language model\" OR LLM OR \"generative AI\" OR \"AI-assisted\" OR \"AI-augmented\") AND (\"software development lifecycle\" OR \"software engineering lifecycle\" OR \"software delivery\" OR \"AI-augmented engineering\") AND (verification OR validation OR readiness OR \"human approval\" OR \"human oversight\" OR audit OR compliance)) OR \"Orchestrating Human-AI Software Delivery\")",
+  "query_id": "OA-S2I3",
+  "query_mode": "title_abstract_filter",
+  "query_registry_sha256": "a506e927ebcf361475c8ca3ae032ccdedf06e81c3cbe519618014eaec46ec164",
+  "query_sha256": "dc91418a6be7f4a222f142d83c4624d975db1f9e1bd31d3720337ead49f19c7a",
+  "records_csv": {
+    "file": "records.csv",
+    "sha256": "38e2a15d214471898fe5169d4ef467789313486e8679d37f5abc9e3f4c3ad998"
+  },
+  "records_retrieved": 259,
+  "result_sort": "publication_date:desc",
+  "retrieval_scope": "complete_systematic",
+  "source": "openalex",
+  "status": "systematic_frozen",
+  "to_date": "2026-08-16",
+  "total_reported": 259
+}

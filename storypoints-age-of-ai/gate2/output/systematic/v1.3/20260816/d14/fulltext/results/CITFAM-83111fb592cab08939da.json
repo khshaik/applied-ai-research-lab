@@ -1,0 +1,23 @@
+{
+  "attempts": [
+    {
+      "active_indicators": [
+        "/S /URI"
+      ],
+      "attempted_at_utc": "2026-08-19T07:45:55.812425Z",
+      "basis": "live_openalex_location_oa_pdf",
+      "bytes": 2223272,
+      "final_url": "https://bibliotecadigital.ipb.pt/server/api/core/bitstreams/fceb7ad3-0a2d-4696-ac34-51006dc0b7ae/content",
+      "quarantine_path": "/Users/81194246/Library/CloudStorage/OneDrive-Pepsico/Personal/AI/Projects/ThinkAI/storypoints-age-of-ai/gate2/output/systematic/v1.3/20260816/d14/fulltext/quarantine/CITFAM-83111fb592cab08939da.pdf",
+      "redirect_count": 1,
+      "sha256": "75cd67641380438d0fe94b40bc3df8ce986fb4c6e4ef7068cf6896cabb91e9c1",
+      "status": "quarantined_active_content"
+    }
+  ],
+  "bytes": 2223272,
+  "citation_family_id": "CITFAM-83111fb592cab08939da",
+  "pdf_path": null,
+  "pdf_sha256": "75cd67641380438d0fe94b40bc3df8ce986fb4c6e4ef7068cf6896cabb91e9c1",
+  "security_attestation": "Static HTTPS retrieval only; public-IP validation, bounded redirects/size, signature and active-content checks; no PDF execution.",
+  "status": "quarantined_active_content"
+}

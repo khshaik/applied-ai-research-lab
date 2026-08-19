@@ -1,0 +1,21 @@
+{
+  "attempts": [
+    {
+      "active_indicators": [],
+      "attempted_at_utc": "2026-08-18T12:55:40.235051Z",
+      "basis": "arxiv_public_pdf",
+      "bytes": 603407,
+      "final_url": "https://arxiv.org/pdf/2206.01335",
+      "pdf_path": "/Users/81194246/Library/CloudStorage/OneDrive-Pepsico/Personal/AI/Projects/ThinkAI/storypoints-age-of-ai/gate2/output/systematic/v1.3/20260816/d14/fulltext/pdf/CITFAM-33f0a0dbb81465733ba4.pdf",
+      "redirect_count": 0,
+      "sha256": "75aeb770fbf531c0a7c05c1d6c87974c321a839a5f44042701b9f0397d0ecfbd",
+      "status": "retrieved_static_pdf"
+    }
+  ],
+  "bytes": 603407,
+  "citation_family_id": "CITFAM-33f0a0dbb81465733ba4",
+  "pdf_path": "/Users/81194246/Library/CloudStorage/OneDrive-Pepsico/Personal/AI/Projects/ThinkAI/storypoints-age-of-ai/gate2/output/systematic/v1.3/20260816/d14/fulltext/pdf/CITFAM-33f0a0dbb81465733ba4.pdf",
+  "pdf_sha256": "75aeb770fbf531c0a7c05c1d6c87974c321a839a5f44042701b9f0397d0ecfbd",
+  "security_attestation": "Static HTTPS retrieval only; public-IP validation, bounded redirects/size, signature and active-content checks; no PDF execution.",
+  "status": "retrieved_static_pdf"
+}

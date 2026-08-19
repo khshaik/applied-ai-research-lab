@@ -1,0 +1,65 @@
+{
+  "status": "development_pilot",
+  "version": "0.5",
+  "supersedes": "s4_open_index_queries_v0.4.json",
+  "date_window": {"from": "2019-01-01", "to": "2026-08-15"},
+  "boundary": "Family-scoped S4 query and sentinel development for open-index discovery only; not a frozen systematic search, eligibility decision, or PRISMA input.",
+  "sentinel_control_version": "family_scoped_v0.3",
+  "queries": [
+    {
+      "source": "openalex",
+      "query_id": "OA-S4R5",
+      "family_id": "S4",
+      "query": "(\"large language model\" OR LLM OR \"generative AI\") AND \"code review\" AND (time OR workload OR attention OR effort OR efficiency OR quality OR verification OR trust)"
+    },
+    {
+      "source": "semantic_scholar",
+      "query_id": "S2-S4R5",
+      "family_id": "S4",
+      "query": "+(\"large language model\" | LLM | \"generative AI\") +\"code review\" +(time | workload | attention | effort | efficiency | quality | verification | trust)"
+    }
+  ],
+  "sentinels": [
+    {
+      "sentinel_id": "S4-P1", "family_id": "S4", "role": "scope_positive",
+      "doi": "10.48550/arxiv.2606.26505",
+      "title": "Same Scrutiny, More Time: Eye Tracking Insights into Reviewing LLM-Labelled Code",
+      "testable_sources": ["openalex", "semantic_scholar"],
+      "rationale": "Direct behavioral evidence about review time and attention when code is labelled as LLM-generated."
+    },
+    {
+      "sentinel_id": "S4-P2", "family_id": "S4", "role": "scope_positive",
+      "doi": "10.1109/icse-seip66354.2025.00043", "title": "Automated Code Review In Practice",
+      "testable_sources": ["openalex", "semantic_scholar"],
+      "rationale": "Industrial evidence linking automated LLM review to acted-on feedback, perceived quality benefits, and longer pull-request closure duration."
+    },
+    {
+      "sentinel_id": "S4-D1", "family_id": "S4", "role": "neutral_disconfirming",
+      "doi": "10.48550/arxiv.2607.13196",
+      "title": "From Human-Centric to Agentic Code Review: The Impact of Different Generations of Generative AI Technology on Review Quality",
+      "testable_sources": ["openalex", "semantic_scholar"],
+      "rationale": "In-scope evidence of faster review decisions in some agent-involved patterns while finding no consistent joint efficiency-and-quality superiority."
+    },
+    {
+      "sentinel_id": "S4-B1", "family_id": "S4", "role": "negative_boundary",
+      "doi": "10.1145/3183519.3183525", "title": "Modern Code Review: A Case Study at Google",
+      "testable_sources": ["openalex", "semantic_scholar"],
+      "rationale": "Foundational non-LLM code-review evidence; retrieval is a precision warning, while absence is not evidence against the framework."
+    }
+  ],
+  "sampled_precision_rule": {
+    "required_fields": ["source_id", "decision", "reason"],
+    "allowed_decisions": ["likely_relevant", "likely_irrelevant", "uncertain"],
+    "development_diagnostic_minimum_sample": 20,
+    "freeze_sample_bands": [
+      {"population_min": 0, "population_max": 50, "required_sample": "all"},
+      {"population_min": 51, "population_max": 1000, "required_sample": 50},
+      {"population_min": 1001, "population_max": null, "required_sample": 100}
+    ],
+    "acceptance_bands": {
+      "operational_minimum_relevant_plus_uncertain": 0.10,
+      "conditional_minimum_relevant_plus_uncertain": 0.05,
+      "conditional_requires_documented_capacity_and_coverage_approval": true
+    }
+  }
+}

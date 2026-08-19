@@ -1,0 +1,12 @@
+{
+  "fallback_attempted": 208,
+  "family_count": 2076,
+  "pdf_bytes": 2762632568,
+  "result_counts": {
+    "lawful_full_text_not_retrieved": 438,
+    "no_lawful_full_text_location_identified": 1,
+    "paywalled_or_access_blocked": 34,
+    "retrieved_open": 1603
+  },
+  "status": "fallback_complete"
+}

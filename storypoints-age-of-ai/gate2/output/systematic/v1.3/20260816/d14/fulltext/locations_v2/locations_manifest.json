@@ -1,0 +1,20 @@
+{
+  "base_manifest_sha256": "4337bca81f139eba4f5b530e93bfe5619f408d932af201d7f4a93a5a838e6d33",
+  "discovery_manifest_sha256": "4f455d385788beef45036af42f281ebecf5e8db7101acf8a81dc8620c30da979",
+  "family_count": 1017,
+  "location_basis_counts": {
+    "arxiv_public_pdf": 137,
+    "frozen_openalex_primary_oa_pdf": 187,
+    "live_openalex_best_oa_location_oa_pdf": 99,
+    "live_openalex_location_oa_pdf": 19
+  },
+  "locations_sha256": "0e76ebd0bba8e2f41870d2f5ceb40f3e2e1393bc640c6e44bb7e5260dc757076",
+  "pipeline_version": "d14-fulltext-locations/2.0.0",
+  "protocol_version": "1.3",
+  "security_boundary": "Append-only local reconciliation of checksum-verified lawful location metadata; no network or PDF access.",
+  "status": "d14_combined_location_resolution_complete",
+  "status_counts": {
+    "candidate_identified": 435,
+    "lawful_location_discovery_pending": 582
+  }
+}

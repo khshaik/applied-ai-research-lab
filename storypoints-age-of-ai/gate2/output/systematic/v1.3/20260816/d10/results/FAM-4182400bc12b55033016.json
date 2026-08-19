@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "semantic_scholar_open_access_pdf",
+      "bytes": 580645,
+      "content_type": "application/pdf",
+      "final_url": "https://sol.sbc.org.br/index.php/sbes/article/download/37005/36790",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "8ece666ac3826bacbf98a13c9e99d3d5bb3b1f4de4719b7bf07fc226e03f242d",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://sol.sbc.org.br/index.php/sbes/article/download/37005/36790"
+    }
+  ],
+  "bytes": 580645,
+  "family_id": "FAM-4182400bc12b55033016",
+  "lawful_access_basis": "semantic_scholar_open_access_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-4182400bc12b55033016.pdf",
+  "pdf_sha256": "8ece666ac3826bacbf98a13c9e99d3d5bb3b1f4de4719b7bf07fc226e03f242d",
+  "representative_canonical_id": "CAN-c6c8ac9592024de1cae8",
+  "retrieved_url": "https://sol.sbc.org.br/index.php/sbes/article/download/37005/36790",
+  "status": "retrieved_open"
+}

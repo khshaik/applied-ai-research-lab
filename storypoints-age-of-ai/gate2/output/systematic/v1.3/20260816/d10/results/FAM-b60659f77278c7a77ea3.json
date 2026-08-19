@@ -1,0 +1,30 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:15:59.352420Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://github.com/adriano-candido/gandalf-replication-package/tree/v2.0",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://github.com/adriano-candido/gandalf-replication-package/tree/v2.0"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:17:48.763010Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://github.com/adriano-candido/gandalf-replication-package/tree/v2.0",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://github.com/adriano-candido/gandalf-replication-package/tree/v2.0"
+    }
+  ],
+  "bytes": 0,
+  "family_id": "FAM-b60659f77278c7a77ea3",
+  "lawful_access_basis": null,
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "representative_canonical_id": "CAN-1b9fe2c2aeec18b3ae03",
+  "retrieved_url": null,
+  "status": "lawful_full_text_not_retrieved"
+}

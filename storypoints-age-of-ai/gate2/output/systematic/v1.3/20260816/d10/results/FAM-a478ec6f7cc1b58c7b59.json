@@ -1,0 +1,30 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:15:42.208533Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.semanticscholar.org/paper/19fcb27f25f99377666ed2ad90d39db40b5d95a2",
+      "http_status": 202,
+      "outcome": "http_failure",
+      "url": "https://www.semanticscholar.org/paper/19fcb27f25f99377666ed2ad90d39db40b5d95a2"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:16:25.259228Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.semanticscholar.org/paper/19fcb27f25f99377666ed2ad90d39db40b5d95a2",
+      "http_status": 202,
+      "outcome": "http_failure",
+      "url": "https://www.semanticscholar.org/paper/19fcb27f25f99377666ed2ad90d39db40b5d95a2"
+    }
+  ],
+  "bytes": 0,
+  "family_id": "FAM-a478ec6f7cc1b58c7b59",
+  "lawful_access_basis": null,
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "representative_canonical_id": "CAN-054c52d2c946dac2fa59",
+  "retrieved_url": null,
+  "status": "lawful_full_text_not_retrieved"
+}

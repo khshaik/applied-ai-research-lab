@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 423402,
+      "content_type": "application/pdf",
+      "final_url": "https://archive.journal-grail.science/index.php/2710-3056/article/download/4579/4585",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "283ecb7420e61ee4d887bf93ecaaceb2db5cb5f81ab5c2b554680ab62802033f",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://archive.journal-grail.science/index.php/2710-3056/article/download/4579/4585"
+    }
+  ],
+  "bytes": 423402,
+  "family_id": "FAM-63a0715d03ffd9c9a1ab",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-63a0715d03ffd9c9a1ab.pdf",
+  "pdf_sha256": "283ecb7420e61ee4d887bf93ecaaceb2db5cb5f81ab5c2b554680ab62802033f",
+  "representative_canonical_id": "CAN-d8fbd3641f2a622a53cc",
+  "retrieved_url": "https://archive.journal-grail.science/index.php/2710-3056/article/download/4579/4585",
+  "status": "retrieved_open"
+}

@@ -1,0 +1,13 @@
+{
+  "credential_handling": "Optional API key read from environment only; never printed or persisted.",
+  "envelopes_sha256": "9710f52be606ccf1d7d9ef39d18b8690a355d45babda8ecb7860587e22d825b8",
+  "nonempty_count": 0,
+  "pipeline_version": "d14-s2-empty-revalidation/1.0.0",
+  "protocol_version": "1.3",
+  "relationship_count": 0,
+  "relationships_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "security_boundary": "Public scholarly metadata only; no Git, PDFs, credential files, installs, or private systems.",
+  "status": "d14_s2_empty_relations_revalidated",
+  "target_count": 13,
+  "valid_empty_count": 13
+}

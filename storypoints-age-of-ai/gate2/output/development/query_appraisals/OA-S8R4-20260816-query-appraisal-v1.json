@@ -1,0 +1,100 @@
+{
+  "burden_acceptance_band": "operational_pass",
+  "complete_pagination": true,
+  "development_diagnostic_minimum": 20,
+  "development_diagnostic_pass": false,
+  "development_diagnostic_required_for_population": 20,
+  "family_id": "S8",
+  "freeze_ready": false,
+  "interpretation_boundary": "Known-item recall and sampled relevance appraisal only; not screening, eligibility, or PRISMA evidence.",
+  "negative_boundary_pass": true,
+  "neutral_disconfirming_recall_pass": true,
+  "population_size_basis": "complete_export_retrieved_count",
+  "population_size_for_sample": 865,
+  "positive_sentinel_recall_pass": false,
+  "query_appraisal_pass": false,
+  "query_appraisal_pass_deprecated_alias_for": "freeze_ready",
+  "query_id": "OA-S8R4",
+  "relevant_plus_uncertain_count": 22,
+  "relevant_plus_uncertain_proportion": 0.44,
+  "relevant_plus_uncertain_wilson_95_interval": [
+    0.3116219921125717,
+    0.5769397197834315
+  ],
+  "required_sample_size_for_freeze": 50,
+  "sample_decided": 47,
+  "sample_likely_relevant": 19,
+  "sample_minimum_met": true,
+  "sample_precision_point_estimate": 0.40425531914893614,
+  "sample_size": 50,
+  "sample_uncertain": 3,
+  "sentinel_checks": [
+    {
+      "doi": "10.1007/s10664-022-10192-9",
+      "match_basis": "none",
+      "pass": false,
+      "present": false,
+      "role": "scope_positive",
+      "sentinel_id": "S8-P1-STORY-POINT-CHANGE"
+    },
+    {
+      "doi": "10.1145/2635868.2635892",
+      "match_basis": "none",
+      "pass": false,
+      "present": false,
+      "role": "scope_positive",
+      "sentinel_id": "S8-P2-DEVELOPER-PRODUCTIVITY"
+    },
+    {
+      "doi": "10.1109/icse.2013.6606617",
+      "match_basis": "doi",
+      "pass": true,
+      "present": true,
+      "role": "scope_positive",
+      "sentinel_id": "S8-P3-MODERN-CODE-REVIEW"
+    },
+    {
+      "doi": "10.1177/154193120605000909",
+      "match_basis": "doi",
+      "pass": true,
+      "present": true,
+      "role": "scope_positive",
+      "sentinel_id": "S8-P4-NASA-TLX"
+    },
+    {
+      "doi": "10.1287/opre.9.3.383",
+      "match_basis": "none",
+      "pass": false,
+      "present": false,
+      "role": "scope_positive",
+      "sentinel_id": "S8-P5-LITTLES-LAW"
+    },
+    {
+      "doi": "10.1016/j.infsof.2021.106782",
+      "match_basis": "doi",
+      "pass": true,
+      "present": true,
+      "role": "neutral_disconfirming",
+      "sentinel_id": "S8-D1-RELATIVE-ESTIMATES"
+    },
+    {
+      "doi": "10.1177/0018720818809590",
+      "match_basis": "doi",
+      "pass": true,
+      "present": true,
+      "role": "neutral_disconfirming",
+      "sentinel_id": "S8-D2-WORKLOAD-PERFORMANCE"
+    },
+    {
+      "doi": "10.1111/ans.17830",
+      "match_basis": "none",
+      "pass": true,
+      "present": false,
+      "role": "negative_boundary",
+      "sentinel_id": "S8-B1-NONSOFTWARE-WORKLOAD"
+    }
+  ],
+  "sentinel_class_complete": true,
+  "source": "openalex",
+  "status": "development_query_appraisal"
+}

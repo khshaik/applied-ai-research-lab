@@ -1,0 +1,13 @@
+{
+  "family_count": 1017,
+  "location_family_count": 661,
+  "locations_sha256": "987da1d62c6f03f4288e98612b2f85b983f05f33d989b079a4a2baef8dfba866",
+  "no_location_family_count": 356,
+  "pipeline_version": "d14-fulltext-locations-v3/1.0.0",
+  "s2_added_family_count": 226,
+  "s2_manifest_sha256": "7ffb48dbb960e502b7d4cc12afc48fb2197c17b841105921dd82ee8dbc464bb9",
+  "security_boundary": "Metadata-only append; explicit OA HTTPS routes only; no PDF access, Git/history, secrets, private systems, or paywall bypass.",
+  "status": "d14_lawful_location_v3_complete",
+  "v2_location_family_count": 435,
+  "v2_manifest_sha256": "9f6a2754c4c4f16682dd4c606523dc40225e7658a01ea697a1eb4f02e7aae3e0"
+}

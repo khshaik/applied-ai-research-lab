@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "semantic_scholar_open_access_pdf",
+      "bytes": 676640,
+      "content_type": "application/pdf",
+      "final_url": "https://rsisinternational.org/journals/ijrias/uploads/vol11-iss7-pg1174-1190-202608_pdf.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "74a40d836d9d4eb3381960e10aaadb37ffc6060d78774f5c766c8d17184dcaf7",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://rsisinternational.org/journals/ijrias/uploads/vol11-iss7-pg1174-1190-202608_pdf.pdf"
+    }
+  ],
+  "bytes": 676640,
+  "family_id": "FAM-78de452cf96e34cf798a",
+  "lawful_access_basis": "semantic_scholar_open_access_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-78de452cf96e34cf798a.pdf",
+  "pdf_sha256": "74a40d836d9d4eb3381960e10aaadb37ffc6060d78774f5c766c8d17184dcaf7",
+  "representative_canonical_id": "CAN-d8dce3c9bf5cdfbafd32",
+  "retrieved_url": "https://rsisinternational.org/journals/ijrias/uploads/vol11-iss7-pg1174-1190-202608_pdf.pdf",
+  "status": "retrieved_open"
+}

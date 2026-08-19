@@ -1,0 +1,18 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-19T10:04:21.184449Z",
+      "basis": "semantic_scholar_explicit_openAccessPdf",
+      "bytes": 2328,
+      "final_url": "https://bia.unibz.it/esploro/outputs/journalArticle/Generative-Artificial-Intelligence-for-Software-Engineering/991007142710201241",
+      "redirect_count": 0,
+      "status": "invalid_pdf_signature"
+    }
+  ],
+  "bytes": 0,
+  "citation_family_id": "CITFAM-0fe61216a88b43778ad8",
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "security_attestation": "Static HTTPS retrieval only; public-IP validation, bounded redirects/size, signature and active-content checks; no PDF execution.",
+  "status": "invalid_pdf_signature"
+}

@@ -1,0 +1,21 @@
+{
+  "attempts": [
+    {
+      "active_indicators": [],
+      "attempted_at_utc": "2026-08-19T08:48:54.469766Z",
+      "basis": "frozen_openalex_primary_oa_pdf",
+      "bytes": 356473,
+      "final_url": "https://public-pages-files-2025.frontiersin.org/journals/computer-science/articles/10.3389/fcomp.2025.1655469/pdf",
+      "pdf_path": "/Users/81194246/Library/CloudStorage/OneDrive-Pepsico/Personal/AI/Projects/ThinkAI/storypoints-age-of-ai/gate2/output/systematic/v1.3/20260816/d14/fulltext/pdf/CITFAM-9d72d67cec034e4d97c5.pdf",
+      "redirect_count": 0,
+      "sha256": "856cfb560cdc283559cb85a3156179bb486de7b8d00021a7f3dcbec6f79fda88",
+      "status": "retrieved_static_pdf"
+    }
+  ],
+  "bytes": 356473,
+  "citation_family_id": "CITFAM-9d72d67cec034e4d97c5",
+  "pdf_path": "/Users/81194246/Library/CloudStorage/OneDrive-Pepsico/Personal/AI/Projects/ThinkAI/storypoints-age-of-ai/gate2/output/systematic/v1.3/20260816/d14/fulltext/pdf/CITFAM-9d72d67cec034e4d97c5.pdf",
+  "pdf_sha256": "856cfb560cdc283559cb85a3156179bb486de7b8d00021a7f3dcbec6f79fda88",
+  "security_attestation": "Static HTTPS retrieval only; public-IP validation, bounded redirects/size, signature and active-content checks; no PDF execution.",
+  "status": "retrieved_static_pdf"
+}

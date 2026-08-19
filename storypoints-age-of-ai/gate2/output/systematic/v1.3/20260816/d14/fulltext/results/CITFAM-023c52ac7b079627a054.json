@@ -1,0 +1,19 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-19T10:04:11.906240Z",
+      "basis": "semantic_scholar_explicit_openAccessPdf",
+      "final_url": "https://ieeexplore.ieee.org/document/11130491/",
+      "http_status": 202,
+      "redirect_count": 1,
+      "retry_after": null,
+      "status": "http_failure"
+    }
+  ],
+  "bytes": 0,
+  "citation_family_id": "CITFAM-023c52ac7b079627a054",
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "security_attestation": "Static HTTPS retrieval only; public-IP validation, bounded redirects/size, signature and active-content checks; no PDF execution.",
+  "status": "http_failure"
+}

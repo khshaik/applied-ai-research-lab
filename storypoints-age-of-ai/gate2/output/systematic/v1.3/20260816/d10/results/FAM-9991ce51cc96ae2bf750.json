@@ -1,0 +1,32 @@
+{
+  "attempts": [
+    {
+      "basis": "semantic_scholar_open_access_pdf",
+      "bytes": 136096,
+      "content_type": "text/html;charset=UTF-8",
+      "final_url": "https://dl.acm.org/doi/10.1145/3691620.3695606",
+      "http_status": 200,
+      "outcome": "not_a_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://doi.org/10.1145/3691620.3695606"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:11:51.755148Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.semanticscholar.org/paper/bb0ea6b6ca810eedc9951bad1be4788a3bc931c0",
+      "http_status": 202,
+      "outcome": "http_failure",
+      "url": "https://www.semanticscholar.org/paper/bb0ea6b6ca810eedc9951bad1be4788a3bc931c0"
+    }
+  ],
+  "bytes": 0,
+  "family_id": "FAM-9991ce51cc96ae2bf750",
+  "lawful_access_basis": null,
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "representative_canonical_id": "CAN-0e7f3ccf6a81f9476ba4",
+  "retrieved_url": null,
+  "status": "lawful_full_text_not_retrieved"
+}

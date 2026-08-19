@@ -1,0 +1,22 @@
+{
+  "family_count": 212,
+  "fulltext_manifest_sha256": "efe7bc1fe311c8651fea02f103b38a695f476423fe53d9a29f03fcff14185125",
+  "partitions": [
+    {
+      "partition": "a",
+      "path": "/Users/81194246/Library/CloudStorage/OneDrive-Pepsico/Personal/AI/Projects/ThinkAI/storypoints-age-of-ai/gate2/output/systematic/v1.3/20260816/d14/quality_appraisal/packet/appraisal_packet_a.jsonl",
+      "row_count": 106,
+      "sha256": "09cd1140b76be44b8f3502c5e62536eb8e8d52b542963c1ce03ca9e9c93cbebc"
+    },
+    {
+      "partition": "b",
+      "path": "/Users/81194246/Library/CloudStorage/OneDrive-Pepsico/Personal/AI/Projects/ThinkAI/storypoints-age-of-ai/gate2/output/systematic/v1.3/20260816/d14/quality_appraisal/packet/appraisal_packet_b.jsonl",
+      "row_count": 106,
+      "sha256": "2f243bd460bc69e68dff9598ccede845dc8b3b72738f8a9578728457fda3ab66"
+    }
+  ],
+  "pipeline_version": "d14-quality-appraisal/1.0.0",
+  "protocol_version": "1.3",
+  "security_boundary": "Checksum-bound static extracted text only; no network, Git/history, secrets, installs, PDF execution, or private systems.",
+  "status": "d14_quality_appraisal_packet_complete"
+}

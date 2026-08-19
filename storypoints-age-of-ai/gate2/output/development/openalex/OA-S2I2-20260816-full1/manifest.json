@@ -1,0 +1,41 @@
+{
+  "complete_pagination": true,
+  "endpoint": "https://api.openalex.org/works",
+  "executed_at_utc": "2026-08-16T06:42:43.217038+00:00",
+  "from_date": "2019-01-01",
+  "interpretation_boundary": "Open-index development discovery export; not frozen, screened, deduplicated, eligible, or a PRISMA corpus.",
+  "max_pages": null,
+  "page_size": 200,
+  "pages": [
+    {
+      "file": "page_00000.json",
+      "records": 200,
+      "request_url_sha256": "b902c915ca93e757410b9dc8059a91d7be157e6717ea1d2093eb51d41f665dd3",
+      "sequence": 0,
+      "sha256": "fb441bab9043e76077d6c0adc7b477204a09bcc26ac4503c37756c902c6adcb2"
+    },
+    {
+      "file": "page_00001.json",
+      "records": 57,
+      "request_url_sha256": "ac3d0d2ac5449765ad8c43cbfebb8f3f39d99b2fcefcae3452e19bf62d9065c6",
+      "sequence": 1,
+      "sha256": "28bd39fe4b1635bf85fc91718b9e44c438b41577ea52404800a106c4eb32725f"
+    }
+  ],
+  "query": "((\"large language model\" OR LLM OR \"generative AI\" OR \"AI-assisted\" OR \"AI-augmented\") AND (\"software development lifecycle\" OR \"software engineering lifecycle\" OR \"software delivery\" OR \"AI-augmented engineering\") AND (verification OR validation OR readiness OR \"human approval\" OR \"human oversight\" OR audit OR compliance))",
+  "query_id": "OA-S2I2",
+  "query_mode": "title_abstract_filter",
+  "query_registry_sha256": "de9e379e8287482d5d1d36168fd60322b9e6e4e9cf9efcfa939cd568cf861686",
+  "query_sha256": "ea2207d371f5d28fe6b693d7401c8bff7fd099e1d53bfb25adcacbf315ea1dd9",
+  "records_csv": {
+    "file": "records.csv",
+    "sha256": "b240b04d84b2a9672aa5a01a15eb34838fba337cb9226896eaa0ffd795ea50a6"
+  },
+  "records_retrieved": 257,
+  "result_sort": "publication_date:desc",
+  "retrieval_scope": "complete",
+  "source": "openalex",
+  "status": "development_pilot",
+  "to_date": "2026-08-16",
+  "total_reported": 257
+}

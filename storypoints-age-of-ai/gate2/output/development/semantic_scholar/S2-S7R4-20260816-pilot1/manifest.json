@@ -1,0 +1,33 @@
+{
+  "complete_pagination": true,
+  "endpoint": "https://api.semanticscholar.org/graph/v1/paper/search/bulk",
+  "executed_at_utc": "2026-08-16T05:15:40.655865+00:00",
+  "from_date": "2019-01-01",
+  "interpretation_boundary": "Open-index development discovery export; not frozen, screened, deduplicated, eligible, or a PRISMA corpus.",
+  "max_pages": null,
+  "page_size": 1000,
+  "pages": [
+    {
+      "file": "page_00000.json",
+      "records": 19,
+      "request_url_sha256": "0a1760234128eac32d7b47e61863d56684054342b265ebe77136d4278bb60b70",
+      "sequence": 0,
+      "sha256": "8ca920d0807c3f6a5a39effc6a4eea27ab7d2a9effc90af1d4714ac9be28682c"
+    }
+  ],
+  "query": "+(\"verified delivery capacity\" | \"role stage demand\" | \"hybrid intelligence effort\" | \"LLM aware software effort\" | \"agentic cost estimation\" | \"AI augmented engineering\" | \"human AI software delivery\" | (\"story point\" + (LLM | \"large language model\")) | (\"AI assisted\" + \"software effort\"))",
+  "query_id": "S2-S7R4",
+  "query_mode": "fulltext_search",
+  "query_registry_sha256": "48315d2e98bd18e17957ea91aaceaad794efbfe0f116c9284fd4f13db1c6c776",
+  "query_sha256": "dc3ecc39adfee1a96d346fca1b8905344474a0cd085940e7af06d407e9cc42a6",
+  "records_csv": {
+    "file": "records.csv",
+    "sha256": "00a854b9b06351623b34e07cadb2f0f2fd47472d6384bc7f18edfeafba85ddc6"
+  },
+  "records_retrieved": 19,
+  "retrieval_scope": "complete",
+  "source": "semantic_scholar",
+  "status": "development_pilot",
+  "to_date": "2026-08-16",
+  "total_reported": 19
+}

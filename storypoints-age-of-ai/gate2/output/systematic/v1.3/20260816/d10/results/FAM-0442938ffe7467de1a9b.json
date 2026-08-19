@@ -1,0 +1,21 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:01:46.289938Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html;charset=UTF-8",
+      "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S1047831003000476",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://doi.org/10.1016/j.hitech.2003.10.001"
+    }
+  ],
+  "bytes": 0,
+  "family_id": "FAM-0442938ffe7467de1a9b",
+  "lawful_access_basis": null,
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "representative_canonical_id": "CAN-ee96c7fd6ad804d05822",
+  "retrieved_url": null,
+  "status": "lawful_full_text_not_retrieved"
+}

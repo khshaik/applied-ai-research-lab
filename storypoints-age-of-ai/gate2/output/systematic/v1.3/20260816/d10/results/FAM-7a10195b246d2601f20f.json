@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 273175,
+      "content_type": "application/pdf",
+      "final_url": "https://discovery.ucl.ac.uk/id/eprint/10143360/1/tawosi2022saner.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "88bcf253ce541349f200922a89529a5e3301d1790e77f471062629708df28ce9",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://discovery.ucl.ac.uk/10143360/1/tawosi2022saner.pdf"
+    }
+  ],
+  "bytes": 273175,
+  "family_id": "FAM-7a10195b246d2601f20f",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-7a10195b246d2601f20f.pdf",
+  "pdf_sha256": "88bcf253ce541349f200922a89529a5e3301d1790e77f471062629708df28ce9",
+  "representative_canonical_id": "CAN-1a0c6e4d162fd383b8e6",
+  "retrieved_url": "https://discovery.ucl.ac.uk/id/eprint/10143360/1/tawosi2022saner.pdf",
+  "status": "retrieved_open"
+}

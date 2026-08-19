@@ -1,0 +1,62 @@
+{
+  "status": "development_pilot",
+  "version": "0.2",
+  "supersedes": "s5t_open_index_queries_v0.1.json",
+  "date_window": {"from": "2019-01-01", "to": "2026-08-16"},
+  "boundary": "Refined family-scoped S5T query and sentinel development for OpenAlex discovery only; not a frozen systematic search, eligibility decision, or PRISMA input.",
+  "sentinel_control_version": "family_scoped_v0.3",
+  "queries": [
+    {
+      "source": "openalex",
+      "query_id": "OA-S5TR2",
+      "family_id": "S5T",
+      "query_mode": "title_abstract_filter",
+      "query": "(\"large language model\" OR LLM OR ChatGPT) AND (\"software testing\" OR \"unit test generation\" OR \"test case development\" OR \"test case generation\") AND (human OR developer OR \"user study\" OR effort OR attention OR usability OR validation)"
+    }
+  ],
+  "sentinels": [
+    {
+      "sentinel_id": "S5T-OA-P1", "family_id": "S5T", "role": "scope_positive",
+      "doi": "10.1145/3817601",
+      "title": "Preemptive, Buffered or Guided? Empirical Studies on Human-AI Interaction Strategies for Software Test Case Development",
+      "testable_sources": ["openalex"],
+      "rationale": "Two user studies measure test quality, creativity, interaction time, and attention in LLM-assisted test-case development."
+    },
+    {
+      "sentinel_id": "S5T-OA-P2", "family_id": "S5T", "role": "scope_positive",
+      "doi": "10.48550/arxiv.2305.04207",
+      "title": "No More Manual Tests? Evaluating and Improving ChatGPT for Unit Test Generation",
+      "testable_sources": ["openalex"],
+      "rationale": "Empirical evaluation and user study cover generated-test correctness, sufficiency, readability, usability, and developer preference."
+    },
+    {
+      "sentinel_id": "S5T-OA-D1", "family_id": "S5T", "role": "neutral_disconfirming",
+      "doi": "10.48550/arxiv.2412.14137",
+      "title": "Design choices made by LLM-based test generators prevent them from finding bugs",
+      "testable_sources": ["openalex"],
+      "rationale": "Adverse evidence shows automated generators can validate faulty behavior and reject bug-revealing tests."
+    },
+    {
+      "sentinel_id": "S5T-OA-B1", "family_id": "S5T", "role": "negative_boundary",
+      "doi": "10.1109/icse-fose59343.2023.00009",
+      "title": "Software Testing of Generative AI Systems: Challenges and Opportunities",
+      "testable_sources": ["openalex"],
+      "rationale": "Testing a GenAI system is distinct from generative AI assisting software-delivery testing; retrieval is a precision warning."
+    }
+  ],
+  "sampled_precision_rule": {
+    "required_fields": ["source_id", "decision", "reason"],
+    "allowed_decisions": ["likely_relevant", "likely_irrelevant", "uncertain"],
+    "development_diagnostic_minimum_sample": 20,
+    "freeze_sample_bands": [
+      {"population_min": 0, "population_max": 50, "required_sample": "all"},
+      {"population_min": 51, "population_max": 1000, "required_sample": 50},
+      {"population_min": 1001, "population_max": null, "required_sample": 100}
+    ],
+    "acceptance_bands": {
+      "operational_minimum_relevant_plus_uncertain": 0.10,
+      "conditional_minimum_relevant_plus_uncertain": 0.05,
+      "conditional_requires_documented_capacity_and_coverage_approval": true
+    }
+  }
+}

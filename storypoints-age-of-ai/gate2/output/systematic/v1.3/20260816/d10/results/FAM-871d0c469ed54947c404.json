@@ -1,0 +1,21 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:08:56.692030Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://ieeexplore.ieee.org/document/10126395/",
+      "http_status": 202,
+      "outcome": "http_failure",
+      "url": "http://dx.doi.org/10.1109/i2ct57861.2023.10126395"
+    }
+  ],
+  "bytes": 0,
+  "family_id": "FAM-871d0c469ed54947c404",
+  "lawful_access_basis": null,
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "representative_canonical_id": "CAN-499fe4f49c9e6571c219",
+  "retrieved_url": null,
+  "status": "lawful_full_text_not_retrieved"
+}

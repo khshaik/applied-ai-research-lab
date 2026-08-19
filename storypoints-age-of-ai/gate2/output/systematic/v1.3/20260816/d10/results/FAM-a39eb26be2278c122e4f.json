@@ -1,0 +1,30 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:15:42.208099Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://helda.helsinki.fi/handle/10138/632077",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "http://hdl.handle.net/10138/632077"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:16:04.520314Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://helda.helsinki.fi/handle/10138/632077",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "http://hdl.handle.net/10138/632077"
+    }
+  ],
+  "bytes": 0,
+  "family_id": "FAM-a39eb26be2278c122e4f",
+  "lawful_access_basis": null,
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "representative_canonical_id": "CAN-f4893411630ec0838187",
+  "retrieved_url": null,
+  "status": "lawful_full_text_not_retrieved"
+}

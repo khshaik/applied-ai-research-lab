@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 109949,
+      "content_type": "application/pdf",
+      "final_url": "https://eajournals.org/ejcsit/wp-content/uploads/sites/21/2025/06/AI-Driven-Quality-Assurance.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "afffbc3d7ad4bcf1b5e8c4a4d9d8be41dff553a4c859080271e41512057641ce",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://eajournals.org/ejcsit/wp-content/uploads/sites/21/2025/06/AI-Driven-Quality-Assurance.pdf"
+    }
+  ],
+  "bytes": 109949,
+  "family_id": "FAM-075c394683e6abe1ede9",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-075c394683e6abe1ede9.pdf",
+  "pdf_sha256": "afffbc3d7ad4bcf1b5e8c4a4d9d8be41dff553a4c859080271e41512057641ce",
+  "representative_canonical_id": "CAN-28abae5dfa1a0ed18f8a",
+  "retrieved_url": "https://eajournals.org/ejcsit/wp-content/uploads/sites/21/2025/06/AI-Driven-Quality-Assurance.pdf",
+  "status": "retrieved_open"
+}

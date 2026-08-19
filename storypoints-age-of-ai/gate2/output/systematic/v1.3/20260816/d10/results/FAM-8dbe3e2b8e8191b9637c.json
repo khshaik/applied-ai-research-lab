@@ -1,0 +1,21 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:10:41.431798Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://ieeexplore.ieee.org/document/11089679/",
+      "http_status": 202,
+      "outcome": "http_failure",
+      "url": "https://doi.org/10.1109/icirca65293.2025.11089679"
+    }
+  ],
+  "bytes": 0,
+  "family_id": "FAM-8dbe3e2b8e8191b9637c",
+  "lawful_access_basis": null,
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "representative_canonical_id": "CAN-7e67e57bee7dd29cd918",
+  "retrieved_url": null,
+  "status": "lawful_full_text_not_retrieved"
+}

@@ -1,0 +1,20 @@
+{
+  "conservation_pass": true,
+  "disposition_counts": {
+    "no_lawful_route_identified": 356,
+    "retrieval_http_failure": 39,
+    "retrieval_invalid_or_non_pdf": 269,
+    "retrieval_network_or_policy_failure": 9,
+    "sanitization_failed": 7,
+    "sanitized_static_text_available": 337
+  },
+  "dispositions_sha256": "ae29756ce27bceda3022da06b7106e5ed5928cd7cf9af17aeb01bc82b399211d",
+  "family_count": 1017,
+  "locations_manifest_sha256": "cdd2f7c58659e8b2bafa221f0d326c9c3383a4341c61bee19542a63ebbbad3d7",
+  "pipeline_version": "d14-fulltext-dispositions/1.0.0",
+  "retrieval_manifest_sha256": "88af2e650c3f7e06db4d960f89c32353a6ffcd71274ee006698eb0731a155534",
+  "sanitization_manifest_sha256": "45b6cc86e82cab93f8ea99bc48d84f88deab540f357ff50580a8566645f9ab4a",
+  "screenable_fulltext_count": 337,
+  "security_boundary": "Local checksum reconciliation only; no network, Git/history, secrets, PDF execution, or private systems.",
+  "status": "d14_fulltext_dispositions_complete"
+}

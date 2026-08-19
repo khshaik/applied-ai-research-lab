@@ -1,0 +1,58 @@
+{
+  "acceptance_matrix_row_sha256": "2fca3fe240234617f897860d63ae5ce58e96eb369b163a70f2af9d9a687ef257",
+  "complete_pagination": true,
+  "endpoint": "https://export.arxiv.org/api/query",
+  "executed_at_utc": "2026-08-16T08:31:36.897952+00:00",
+  "freeze_package_sha256": "fa9800da881c2590a3261861fa6e1de5d6a3c349687ef320b43057561be8730d",
+  "from_date": "2019-01-01",
+  "interpretation_boundary": "Frozen systematic discovery export; not yet screened, deduplicated, eligible, or a PRISMA inclusion count.",
+  "page_size": 100,
+  "pages": [
+    {
+      "file": "page_0000000.atom",
+      "records": 100,
+      "sha256": "e3b0d1c3dd70360538f9079dbbeb0bbd433ff34e6827792cd93a3c376c2a17a3",
+      "start": 0
+    },
+    {
+      "file": "page_0000100.atom",
+      "records": 100,
+      "sha256": "4f33b152bb05b2013c8c26fd8ddd1172817f057f01e1b51da45fa34693cdd442",
+      "start": 100
+    },
+    {
+      "file": "page_0000200.atom",
+      "records": 100,
+      "sha256": "e96e10809371ceb7b7d68f41f38b6d0356fc438bc3720dc7ff2208ee2423ce99",
+      "start": 200
+    },
+    {
+      "file": "page_0000300.atom",
+      "records": 94,
+      "sha256": "ed170bb117420171c90478a1b4253582d9a692c66a99d06f789b29c130aa72af",
+      "start": 300
+    }
+  ],
+  "query": "(all:\"large language model\" OR all:\"AI-assisted\" OR all:\"AI coding assistant\" OR all:\"coding agent\") AND (all:\"software testing\" OR all:\"test generation\" OR all:\"unit testing\" OR all:\"integration testing\" OR all:\"quality assurance\") AND (all:human OR all:oversight OR all:verification OR all:validation OR all:effort)",
+  "query_id": "AX-S5T",
+  "query_registry_sha256": "5cb3a85926fb08d95c2ebdd9880e3a66f02e5824d75fd07c953a6431d3b65277",
+  "query_sha256": "1c8833980d0cdd902b9d1bd65aa092983c04b753d1835f52a863159c4f262111",
+  "records_csv": {
+    "file": "records.csv",
+    "sha256": "863b0793190bf6ecef0456ac128a60aa77df1057f11138bfc5bb985df9a626a3"
+  },
+  "records_retrieved": 394,
+  "retrieval_scope": "complete_systematic",
+  "sentinel_checks": {
+    "2305.04207": true,
+    "2412.14137": true,
+    "2503.17998": true,
+    "2607.08983": true
+  },
+  "sentinel_recall_pass": true,
+  "sortBy": "submittedDate",
+  "sortOrder": "descending",
+  "status": "systematic_frozen",
+  "to_date": "2026-08-16",
+  "total_reported": 394
+}

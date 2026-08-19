@@ -1,0 +1,34 @@
+{
+  "attempts": [
+    {
+      "basis": "metadata_direct_pdf",
+      "error_type": "ConnectionError",
+      "outcome": "network_error",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://uploads.pnsqc.org/2012/papers/t-57_feliz_paper.pdf"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:16:05.013046Z",
+      "basis": "representative_landing_page",
+      "error_type": "ConnectionError",
+      "outcome": "network_error",
+      "url": "http://uploads.pnsqc.org/2012/papers/t-57_feliz_paper.pdf"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:18:25.340039Z",
+      "basis": "representative_landing_page",
+      "error_type": "ConnectionError",
+      "outcome": "network_error",
+      "url": "http://uploads.pnsqc.org/2012/papers/t-57_feliz_paper.pdf"
+    }
+  ],
+  "bytes": 0,
+  "family_id": "FAM-bba82fc9d2b4526d5fe7",
+  "lawful_access_basis": null,
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "representative_canonical_id": "CAN-4a743a9fc0a31d1cca17",
+  "retrieved_url": null,
+  "status": "lawful_full_text_not_retrieved"
+}

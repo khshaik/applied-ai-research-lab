@@ -1,0 +1,16 @@
+{
+  "status":"development_query_appraisal_decisions","family_id":"S7","source":"arxiv","query_id":"AX-S7R4","query_version":"0.4",
+  "sampling_method":"complete population because population <= 50","sample_positions_zero_based":[0,1,2,3,4,5,6],
+  "sampling_seed_sha256":"fd4db6085df40fce959a23097c6cebc7bbfec262493df636f3a0bb02e833daac",
+  "ordered_sample_source_ids":["2608.02582v2","2604.17055v1","2603.20028v1","2603.06276v2","2602.20684v1","2601.22667v1","2403.08430v1"],
+  "interpretation_boundary":"Close-overlap query appraisal only; not eligibility screening or a novelty conclusion.",
+  "decisions":[
+    {"source_id":"2608.02582v2","decision":"likely_relevant","reason":"ACEM is a direct agentic software cost and HITL estimation predecessor requiring full overlap adjudication."},
+    {"source_id":"2604.17055v1","decision":"uncertain","reason":"The AI-augmented engineering command center may address workflow attention and coordination, but metadata does not establish the full VDCM planning use."},
+    {"source_id":"2603.20028v1","decision":"likely_relevant","reason":"The field study directly examines end-to-end human-AI delivery orchestration and delivery outcomes."},
+    {"source_id":"2603.06276v2","decision":"likely_relevant","reason":"LLM-based Story Point estimation is a direct disconfirming comparator that retains the conventional estimation target."},
+    {"source_id":"2602.20684v1","decision":"likely_relevant","reason":"Agile V is a close lifecycle, human-gate, verification, and audit-ready delivery framework predecessor."},
+    {"source_id":"2601.22667v1","decision":"uncertain","reason":"The AI-driven vertically integrated development paradigm may overlap lifecycle delivery structure, but metadata is insufficient for the five-dimension stop rule."},
+    {"source_id":"2403.08430v1","decision":"likely_relevant","reason":"Optimization of LLM examples for Story Point estimation is a direct conventional-estimation comparator."}
+  ]
+}

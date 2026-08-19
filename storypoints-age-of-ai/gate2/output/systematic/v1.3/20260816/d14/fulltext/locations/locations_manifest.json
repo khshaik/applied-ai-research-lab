@@ -1,0 +1,19 @@
+{
+  "candidate_occurrences_sha256": "6349c5db35d2f85e246e16e3a0e370e9ef57249241f614d081e5ff9a4d75d08d",
+  "family_count": 1017,
+  "inventory_manifest_sha256": "8787d7dd3004bff0d52dca29635760db2199d5fab9dea805fddcb8ea6c8b3f5f",
+  "lawful_access_boundary": "Only frozen arXiv or OpenAlex-is_oa HTTPS PDF locations are automatically eligible; other routes require explicit verification.",
+  "location_basis_counts": {
+    "arxiv_public_pdf": 137,
+    "frozen_openalex_primary_oa_pdf": 187
+  },
+  "locations_sha256": "d4c9f6b87bfe6008a257d36c064ff873a033e8b04164bde5137c6811844f6f7d",
+  "network_access_performed": false,
+  "pipeline_version": "d14-fulltext-locations/1.0.0",
+  "protocol_version": "1.3",
+  "status": "d14_local_location_resolution_complete",
+  "status_counts": {
+    "candidate_identified": 322,
+    "lawful_location_discovery_pending": 695
+  }
+}

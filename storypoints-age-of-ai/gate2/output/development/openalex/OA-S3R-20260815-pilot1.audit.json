@@ -1,0 +1,36 @@
+{
+  "audit_status": "diagnostic_only",
+  "audited_artifact": "gate2/output/development/openalex/OA-S3R-20260815-pilot1",
+  "artifact_mutated": false,
+  "interpretation_boundary": "The original manifest has an empty query_registry_sha256. Exact registry provenance is therefore unproved and cannot be repaired retrospectively. This artifact is not a passing query appraisal, frozen search, screening corpus, eligibility set, or PRISMA input.",
+  "integrity": {
+    "manifest_sha256_verified": true,
+    "manifest_sha256": "1f707c9f920150ed8b69ee23964ab875053694baa002b6f75b817c83ee68f3a8",
+    "raw_page_sha256_verified": true,
+    "records_csv_sha256_verified": true,
+    "records_csv_sha256": "3c2dbfb64e35dc8348edc40d1a50332fc3b22f456e4a6a99cb50ab197e3dd9eb"
+  },
+  "retrieval": {
+    "records_archived": 100,
+    "api_total_reported": 134,
+    "complete_pagination": false,
+    "retrieval_scope": "truncated_development_pilot"
+  },
+  "sentinel_observations": [
+    {"doi": "10.1007/s10791-026-10331-6", "role": "positive", "present_in_archived_page": true},
+    {"doi": "10.3389/frai.2026.1772418", "role": "positive", "present_in_archived_page": true},
+    {"doi": "10.1007/s11219-025-09731-6", "role": "negative_boundary", "present_in_archived_page": false}
+  ],
+  "known_item_result": "Both registered positive sentinels are present and the negative-boundary sentinel is absent in the archived page.",
+  "sampled_precision": {"status": "pending", "sample_size": 0},
+  "query_appraisal_pass": false,
+  "blocking_controls": [
+    "missing query registry hash in original immutable manifest",
+    "pagination intentionally incomplete at 100 of API-reported 134",
+    "sampled precision decisions not completed"
+  ],
+  "current_registry_note": {
+    "sha256_at_audit": "13203399be2bba5cda5375feec39b769e88efcb885f5c7727d30023d89d1c87a",
+    "warning": "A current registry hash is contextual audit metadata and is not evidence that this registry generated the original artifact."
+  }
+}

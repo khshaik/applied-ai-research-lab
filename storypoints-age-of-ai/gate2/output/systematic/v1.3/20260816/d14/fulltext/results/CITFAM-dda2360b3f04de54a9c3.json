@@ -1,0 +1,23 @@
+{
+  "attempts": [
+    {
+      "active_indicators": [
+        "/S /URI"
+      ],
+      "attempted_at_utc": "2026-08-19T09:45:44.620968Z",
+      "basis": "live_openalex_best_oa_location_oa_pdf",
+      "bytes": 523397,
+      "final_url": "https://eprints.gla.ac.uk/234713/1/234713.pdf",
+      "quarantine_path": "/Users/81194246/Library/CloudStorage/OneDrive-Pepsico/Personal/AI/Projects/ThinkAI/storypoints-age-of-ai/gate2/output/systematic/v1.3/20260816/d14/fulltext/quarantine/CITFAM-dda2360b3f04de54a9c3.pdf",
+      "redirect_count": 0,
+      "sha256": "237cdad40514978e5b0dae50d9606875187c4e70cfb9e70d3485c1598cb101f9",
+      "status": "quarantined_active_content"
+    }
+  ],
+  "bytes": 523397,
+  "citation_family_id": "CITFAM-dda2360b3f04de54a9c3",
+  "pdf_path": null,
+  "pdf_sha256": "237cdad40514978e5b0dae50d9606875187c4e70cfb9e70d3485c1598cb101f9",
+  "security_attestation": "Static HTTPS retrieval only; public-IP validation, bounded redirects/size, signature and active-content checks; no PDF execution.",
+  "status": "quarantined_active_content"
+}

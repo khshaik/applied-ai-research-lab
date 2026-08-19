@@ -1,0 +1,33 @@
+{
+  "complete_pagination": false,
+  "endpoint": "https://api.openalex.org/works",
+  "executed_at_utc": "2026-08-16T02:45:08.541747+00:00",
+  "from_date": "2019-01-01",
+  "interpretation_boundary": "Open-index development discovery export; not frozen, screened, deduplicated, eligible, or a PRISMA corpus. Retrieval was intentionally capped; total_reported is API metadata, not an exported-record or review-flow count.",
+  "max_pages": 1,
+  "page_size": 100,
+  "pages": [
+    {
+      "file": "page_00000.json",
+      "records": 100,
+      "request_url_sha256": "ef42bd931403ad93d76680de2f998a2708cf0ab6d1647336f335f7a8de8a4088",
+      "sequence": 0,
+      "sha256": "7a5669ea8a832fbf2444e871491189253755ca66735ced0ca6e044987fa5cf02"
+    }
+  ],
+  "query": "(\"large language model\" OR LLM OR ChatGPT OR Copilot) AND (\"software testing\" OR \"test case\" OR \"unit test\") AND (human OR developer OR effort OR time OR attention OR review OR validation OR quality OR correctness)",
+  "query_id": "OA-S5TR1",
+  "query_mode": "title_abstract_filter",
+  "query_registry_sha256": "5fde2d8069c8e2a37e2f9b56a610fa83a5bc4d798e1a64942e6a7836184c23e3",
+  "query_sha256": "c5c309f04d1265003ddb4a09770238fbe5fc0906eaec0a7fa1d16dbd1e0cac4c",
+  "records_csv": {
+    "file": "records.csv",
+    "sha256": "5ce3ef675e4eff5b3602753f57eb7285a93d952bcd7287ea4648290a5295e680"
+  },
+  "records_retrieved": 100,
+  "retrieval_scope": "truncated_development_pilot",
+  "source": "openalex",
+  "status": "development_pilot",
+  "to_date": "2026-08-16",
+  "total_reported": 3193
+}

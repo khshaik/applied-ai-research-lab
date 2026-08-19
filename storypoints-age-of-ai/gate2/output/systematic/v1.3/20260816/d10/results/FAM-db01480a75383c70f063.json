@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "semantic_scholar_open_access_pdf",
+      "bytes": 768740,
+      "content_type": "application/pdf",
+      "final_url": "https://heraldts.khmnu.edu.ua/index.php/heraldts/article/download/1899/2008",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "ccbad1826e30cea8612d5b28c4f3d82302d2fd445e3c8ce6a5326f5415882d6d",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://heraldts.khmnu.edu.ua/index.php/heraldts/article/download/1899/2008"
+    }
+  ],
+  "bytes": 768740,
+  "family_id": "FAM-db01480a75383c70f063",
+  "lawful_access_basis": "semantic_scholar_open_access_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-db01480a75383c70f063.pdf",
+  "pdf_sha256": "ccbad1826e30cea8612d5b28c4f3d82302d2fd445e3c8ce6a5326f5415882d6d",
+  "representative_canonical_id": "CAN-51143220c7fb08db2e94",
+  "retrieved_url": "https://heraldts.khmnu.edu.ua/index.php/heraldts/article/download/1899/2008",
+  "status": "retrieved_open"
+}

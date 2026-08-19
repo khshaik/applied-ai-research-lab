@@ -1,0 +1,40 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "error_type": "ConnectionError",
+      "outcome": "network_error",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://ojs.iajournals.cn/index.php/aia/article/download/300/379"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:16:13.945448Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "http://ojs.iajournals.cn/index.php/aia/article/view/300",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://doi.org/10.63944/3v2.aia"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:16:18.298360Z",
+      "basis": "citation_pdf_url_metadata",
+      "bytes": 270903,
+      "content_type": "application/pdf",
+      "final_url": "http://ojs.iajournals.cn/index.php/aia/article/download/300/379",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "sha256": "6e42e5250bf608c94324525850ddf76ee0d4264dc6781ecd855f47219f0a7aa9",
+      "url": "http://ojs.iajournals.cn/index.php/aia/article/download/300/379"
+    }
+  ],
+  "bytes": 270903,
+  "family_id": "FAM-c76c20795408609b2cfb",
+  "lawful_access_basis": "citation_pdf_url_metadata",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-c76c20795408609b2cfb.pdf",
+  "pdf_sha256": "6e42e5250bf608c94324525850ddf76ee0d4264dc6781ecd855f47219f0a7aa9",
+  "representative_canonical_id": "CAN-3eb91fa147275780efc5",
+  "retrieved_url": "http://ojs.iajournals.cn/index.php/aia/article/download/300/379",
+  "status": "retrieved_open"
+}

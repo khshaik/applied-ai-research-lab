@@ -1,0 +1,32 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:16:11.263760Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://zenodo.org/records/20629343",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://doi.org/10.5281/zenodo.20629343"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:16:13.335190Z",
+      "basis": "citation_pdf_url_metadata",
+      "bytes": 524193,
+      "content_type": "application/octet-stream, application/octet-stream",
+      "final_url": "https://zenodo.org/records/20629343/files/Prompt_Resource_Recycling_PRR_v2.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "sha256": "053acde6c402056ba427ffddb8c629649d06a0587a8131d852ca6418cd29578e",
+      "url": "https://zenodo.org/records/20629343/files/Prompt_Resource_Recycling_PRR_v2.pdf"
+    }
+  ],
+  "bytes": 524193,
+  "family_id": "FAM-c624891de6494b52d8d6",
+  "lawful_access_basis": "citation_pdf_url_metadata",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-c624891de6494b52d8d6.pdf",
+  "pdf_sha256": "053acde6c402056ba427ffddb8c629649d06a0587a8131d852ca6418cd29578e",
+  "representative_canonical_id": "CAN-43d4deea5095b6a11ad6",
+  "retrieved_url": "https://zenodo.org/records/20629343/files/Prompt_Resource_Recycling_PRR_v2.pdf",
+  "status": "retrieved_open"
+}

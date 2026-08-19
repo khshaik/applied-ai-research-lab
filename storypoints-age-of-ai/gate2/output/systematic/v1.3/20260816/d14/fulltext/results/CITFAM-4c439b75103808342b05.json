@@ -1,0 +1,18 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-18T13:23:36.841719Z",
+      "basis": "frozen_openalex_primary_oa_pdf",
+      "bytes": 2314,
+      "final_url": "https://www.mdpi.com/2079-9292/14/11/2284/pdf?version=1749025588",
+      "redirect_count": 0,
+      "status": "invalid_pdf_signature"
+    }
+  ],
+  "bytes": 0,
+  "citation_family_id": "CITFAM-4c439b75103808342b05",
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "security_attestation": "Static HTTPS retrieval only; public-IP validation, bounded redirects/size, signature and active-content checks; no PDF execution.",
+  "status": "invalid_pdf_signature"
+}

@@ -1,0 +1,32 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:06:53.463179Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://sol.sbc.org.br/index.php/cibse/article/view/35328",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://doi.org/10.5753/cibse.2025.35328"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:06:55.772711Z",
+      "basis": "citation_pdf_url_metadata",
+      "bytes": 470529,
+      "content_type": "application/pdf",
+      "final_url": "https://sol.sbc.org.br/index.php/cibse/article/download/35328/35118",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "sha256": "bc6366183db6207e4b698b679963b5a36affcb7436fb670b0873f2584d4c607c",
+      "url": "https://sol.sbc.org.br/index.php/cibse/article/download/35328/35118"
+    }
+  ],
+  "bytes": 470529,
+  "family_id": "FAM-5be72075d034aed3ce5f",
+  "lawful_access_basis": "citation_pdf_url_metadata",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-5be72075d034aed3ce5f.pdf",
+  "pdf_sha256": "bc6366183db6207e4b698b679963b5a36affcb7436fb670b0873f2584d4c607c",
+  "representative_canonical_id": "CAN-1e18cb533cb7df05b6c6",
+  "retrieved_url": "https://sol.sbc.org.br/index.php/cibse/article/download/35328/35118",
+  "status": "retrieved_open"
+}

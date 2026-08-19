@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "semantic_scholar_open_access_pdf",
+      "bytes": 1385987,
+      "content_type": "application/pdf",
+      "final_url": "https://www.ijraset.com/best-journal/an-agentic-system-for-code-review-and-debugging",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "89150df6be4d62084795e609b0d6445713bbb93fa16a1f4b9984eae7a919a4cb",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://doi.org/10.22214/ijraset.2026.79556"
+    }
+  ],
+  "bytes": 1385987,
+  "family_id": "FAM-f4a2c8389e253d85d54a",
+  "lawful_access_basis": "semantic_scholar_open_access_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-f4a2c8389e253d85d54a.pdf",
+  "pdf_sha256": "89150df6be4d62084795e609b0d6445713bbb93fa16a1f4b9984eae7a919a4cb",
+  "representative_canonical_id": "CAN-13e89068d830b649307e",
+  "retrieved_url": "https://www.ijraset.com/best-journal/an-agentic-system-for-code-review-and-debugging",
+  "status": "retrieved_open"
+}

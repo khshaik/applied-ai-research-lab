@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 9299843,
+      "content_type": "application/pdf",
+      "final_url": "https://scholarsarchive.byu.edu/cgi/viewcontent.cgi?article=3476&context=etd",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "5712beca6cf417389f502163ca95bb4c0cedea2f04af06d8bab42c3d0a701ff0",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://scholarsarchive.byu.edu/cgi/viewcontent.cgi?article=3476&context=etd"
+    }
+  ],
+  "bytes": 9299843,
+  "family_id": "FAM-9038fa10a2c5454f4933",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-9038fa10a2c5454f4933.pdf",
+  "pdf_sha256": "5712beca6cf417389f502163ca95bb4c0cedea2f04af06d8bab42c3d0a701ff0",
+  "representative_canonical_id": "CAN-0369a863f2a3d04eefa5",
+  "retrieved_url": "https://scholarsarchive.byu.edu/cgi/viewcontent.cgi?article=3476&context=etd",
+  "status": "retrieved_open"
+}

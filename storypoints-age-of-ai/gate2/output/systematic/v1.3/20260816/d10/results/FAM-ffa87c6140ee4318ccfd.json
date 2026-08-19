@@ -1,0 +1,30 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:17:01.646408Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html;charset=UTF-8",
+      "final_url": "https://www.dbpia.co.kr:443/journal/articleDetail?nodeId=NODE11516238",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://doi.org/10.5370/kieep.2023.72.3.179"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:22:21.053222Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html;charset=UTF-8",
+      "final_url": "https://www.dbpia.co.kr:443/journal/articleDetail?nodeId=NODE11516238",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://doi.org/10.5370/kieep.2023.72.3.179"
+    }
+  ],
+  "bytes": 0,
+  "family_id": "FAM-ffa87c6140ee4318ccfd",
+  "lawful_access_basis": null,
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "representative_canonical_id": "CAN-03ec61d59170c8b271f8",
+  "retrieved_url": null,
+  "status": "lawful_full_text_not_retrieved"
+}

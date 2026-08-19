@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0.0",
+  "created_on": "2026-08-15",
+  "last_structured_on": "2026-08-19",
+  "repository_status": "PRIVATE_DURING_DOUBLE_BLIND_REVIEW",
+  "study_id": "vdcm",
+  "canonical_layers": [
+    "studies/vdcm",
+    "papers/thinkai-2026",
+    "docs",
+    "docs/traceability",
+    "scripts",
+    "communications",
+    "artifacts/workbooks"
+  ],
+  "import_stable_compatibility_paths": [
+    "gate2",
+    "evidence_review",
+    "simulation",
+    "tests",
+    "01_research_concept_brief.md",
+    "02_systematic_review_protocol.md",
+    "03_framework_specification.md",
+    "04_locked_synthetic_preregistration.md",
+    "THINKAI_2026_Gate2_Research_Workbook.xlsx"
+  ],
+  "migration_policy": "Versioned manifest plus path-reference repair, full verification, superseding hashes, and Excel synchronization are required before compatibility paths move.",
+  "restricted_material_included": false,
+  "production_seed_values_included": false,
+  "systematic_corpus_frozen": true,
+  "evidence_map_completed": true,
+  "material_claims_confirmed": true,
+  "locked_synthetic_evaluation_run": false
+}

@@ -1,0 +1,23 @@
+{
+  "attempts": [
+    {
+      "active_indicators": [
+        "/S /URI"
+      ],
+      "attempted_at_utc": "2026-08-19T10:23:55.299806Z",
+      "basis": "semantic_scholar_explicit_openAccessPdf",
+      "bytes": 1092025,
+      "final_url": "https://zenodo.org/records/3380164/files/arvanitou.pdf",
+      "quarantine_path": "/Users/81194246/Library/CloudStorage/OneDrive-Pepsico/Personal/AI/Projects/ThinkAI/storypoints-age-of-ai/gate2/output/systematic/v1.3/20260816/d14/fulltext/quarantine/CITFAM-27ec40b60aa673e61648.pdf",
+      "redirect_count": 0,
+      "sha256": "9a14dd846bdf91deef5ca52b7a0502ae128256950fc16b804edc84bc91ee2e25",
+      "status": "quarantined_active_content"
+    }
+  ],
+  "bytes": 1092025,
+  "citation_family_id": "CITFAM-27ec40b60aa673e61648",
+  "pdf_path": null,
+  "pdf_sha256": "9a14dd846bdf91deef5ca52b7a0502ae128256950fc16b804edc84bc91ee2e25",
+  "security_attestation": "Static HTTPS retrieval only; public-IP validation, bounded redirects/size, signature and active-content checks; no PDF execution.",
+  "status": "quarantined_active_content"
+}

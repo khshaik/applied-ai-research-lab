@@ -1,0 +1,50 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:16:19.776206Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.taylorfrancis.com/chapters/edit/10.1201/9781003492252-7/transforming-software-engineering-software-acquisition-large-language-models-john-robert-ipek-ozkaya-douglas-schmidt",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://doi.org/10.1201/9781003492252-7"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:16:23.877223Z",
+      "basis": "citation_pdf_url_metadata",
+      "bytes": 56063,
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.taylorfrancis.com/chapters/edit/10.1201/9781003492252-7/transforming-software-engineering-software-acquisition-large-language-models-john-robert-ipek-ozkaya-douglas-schmidt",
+      "http_status": 200,
+      "outcome": "not_a_verified_pdf",
+      "url": "https://api.taylorfrancis.com/content/chapters/edit/download?identifierName=doi&identifierValue=10.1201/9781003492252-7&type=chapterpdf"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:18:50.001096Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.taylorfrancis.com/chapters/edit/10.1201/9781003492252-7/transforming-software-engineering-software-acquisition-large-language-models-john-robert-ipek-ozkaya-douglas-schmidt",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://doi.org/10.1201/9781003492252-7"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:18:52.407287Z",
+      "basis": "citation_pdf_url_metadata",
+      "bytes": 56063,
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.taylorfrancis.com/chapters/edit/10.1201/9781003492252-7/transforming-software-engineering-software-acquisition-large-language-models-john-robert-ipek-ozkaya-douglas-schmidt",
+      "http_status": 200,
+      "outcome": "not_a_verified_pdf",
+      "url": "https://api.taylorfrancis.com/content/chapters/edit/download?identifierName=doi&identifierValue=10.1201/9781003492252-7&type=chapterpdf"
+    }
+  ],
+  "bytes": 0,
+  "family_id": "FAM-cc6d015e47e2ecbfa95c",
+  "lawful_access_basis": null,
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "representative_canonical_id": "CAN-473719b136c017be0969",
+  "retrieved_url": null,
+  "status": "lawful_full_text_not_retrieved"
+}

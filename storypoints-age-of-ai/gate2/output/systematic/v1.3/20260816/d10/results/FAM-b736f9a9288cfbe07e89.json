@@ -1,0 +1,51 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "content_type": "text/html",
+      "final_url": "https://dialnet.unirioja.es/descarga/articulo/10503925.pdf",
+      "http_status": 503,
+      "outcome": "http_failure",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://dialnet.unirioja.es/descarga/articulo/10503925.pdf"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:16:00.490391Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html",
+      "final_url": "https://dialnet.unirioja.es/servlet/oaiart?codigo=10503925",
+      "http_status": 503,
+      "outcome": "http_failure",
+      "url": "https://dialnet.unirioja.es/servlet/oaiart?codigo=10503925"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:17:57.259736Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html;charset=UTF-8",
+      "final_url": "https://dialnet.unirioja.es/servlet/articulo?codigo=10503925",
+      "http_status": 200,
+      "outcome": "landing_page_inspected",
+      "url": "https://dialnet.unirioja.es/servlet/oaiart?codigo=10503925"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:17:59.457336Z",
+      "basis": "citation_pdf_url_metadata",
+      "bytes": 814235,
+      "content_type": "application/pdf",
+      "final_url": "https://dialnet.unirioja.es/descarga/articulo/10503925.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "sha256": "353e94a94614e7c72445ba13cfb4df6bfc03c68edf7103e898b95dbaeb473229",
+      "url": "https://dialnet.unirioja.es/descarga/articulo/10503925.pdf"
+    }
+  ],
+  "bytes": 814235,
+  "family_id": "FAM-b736f9a9288cfbe07e89",
+  "lawful_access_basis": "citation_pdf_url_metadata",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-b736f9a9288cfbe07e89.pdf",
+  "pdf_sha256": "353e94a94614e7c72445ba13cfb4df6bfc03c68edf7103e898b95dbaeb473229",
+  "representative_canonical_id": "CAN-c177085c93fe9dfaa218",
+  "retrieved_url": "https://dialnet.unirioja.es/descarga/articulo/10503925.pdf",
+  "status": "retrieved_open"
+}

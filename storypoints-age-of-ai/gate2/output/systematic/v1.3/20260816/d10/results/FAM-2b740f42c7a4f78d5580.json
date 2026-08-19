@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 1133819,
+      "content_type": "application/pdf",
+      "final_url": "https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2025.1660912/pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "8f190293b92157c279f272f9bab18648124d943a548ce596acff36aa42e1d6ee",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2025.1660912/pdf"
+    }
+  ],
+  "bytes": 1133819,
+  "family_id": "FAM-2b740f42c7a4f78d5580",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-2b740f42c7a4f78d5580.pdf",
+  "pdf_sha256": "8f190293b92157c279f272f9bab18648124d943a548ce596acff36aa42e1d6ee",
+  "representative_canonical_id": "CAN-0196a76067ae5fe7e90d",
+  "retrieved_url": "https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2025.1660912/pdf",
+  "status": "retrieved_open"
+}

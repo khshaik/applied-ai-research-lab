@@ -1,0 +1,17 @@
+{
+  "candidate_manifest_sha256": "8aaee9663f7b19c1cf17b7802d9d7443c7b106866268794f4ce3371b4bd6b1a4",
+  "included_candidate_count": 1017,
+  "inventory_sha256": "51c7ef99bcf35caa8e3a371b83eb2693a565ec6684e8b13c8a1823ed2b324448",
+  "network_access_performed": false,
+  "pipeline_version": "d14-fulltext-inventory/1.0.0",
+  "protocol_version": "1.3",
+  "route_counts": {
+    "arxiv_public_identifier": 137,
+    "doi_lawful_version_discovery": 875,
+    "no_retrieval_identifier": 1,
+    "record_url_lawful_access_check": 4
+  },
+  "screening_manifest_sha256": "6fc9ce967b5689cb50eb10bfdddc204d937e9929cd062cafac8c71d786673681",
+  "security_boundary": "Local metadata reconciliation only; no downloads, links opened, PDFs executed, Git, secrets, installs, or private systems.",
+  "status": "d14_fulltext_inventory_prepared"
+}

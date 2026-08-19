@@ -1,0 +1,92 @@
+{
+  "protocol_version": "1.0.0-draft",
+  "status": "draft_prelock",
+  "locked_at_utc": null,
+  "interpretation_boundary": "Synthetic mechanism evaluation only; success does not validate human cognition, a real organization, or causal AI effects.",
+  "artifacts": {
+    "simulation_configuration": {
+      "path": "simulation/configs/example.yaml",
+      "sha256": "0c0e9201b99b45f77ef3b430e4ee2b1adae7f46210585d11fe17bfdf94cd3721"
+    },
+    "configuration_schema": {
+      "path": "03b_simulation_schema.json",
+      "sha256": "dcb1e60ae363fe5c3a28eff236c33de8746a4684e2d1f265c98bfff511ded36a"
+    },
+    "seed_manifest": {
+      "path": "simulation/configs/locked_seed_manifest.json",
+      "sha256": "2105bb213ccadaed7413371ebc4259f688eb783972de0225867df5b1329b331c"
+    },
+    "parameter_registry": {
+      "path": "simulation/configs/parameter_registry.json",
+      "sha256": "5d43a55fc92ec43c3e2e028b8d2caa05a25907d6c4a4daea56f3cdf0f6635e16"
+    }
+  },
+  "code_release": {
+    "identifier": "PENDING-CODE-RELEASE",
+    "content_sha256": "PENDING-CODE-CHECKSUM",
+    "dirty_worktree": true
+  },
+  "seed_policy": {
+    "manifest_status": "prototype_locked_do_not_tune",
+    "evaluation_values_opened": false,
+    "tuning_on_evaluation": false,
+    "common_random_numbers": true,
+    "development_namespace_only_until_ready": true
+  },
+  "independent_review": {
+    "status": "pending",
+    "reviewer_id": "PENDING-INDEPENDENT-AGENT",
+    "completed_at_utc": null,
+    "review_record_sha256": "PENDING-REVIEW-CHECKSUM"
+  },
+  "precision": {
+    "confidence_level": 0.95,
+    "primary_ci_half_width_max": 0.01,
+    "contrast_ci_half_width_fraction_of_seoi": 0.1,
+    "minimum_replications": 24,
+    "replication_batch_size": 24,
+    "maximum_replications": 50000,
+    "unresolved_at_max_action": "report_unresolved_no_advantage_claim"
+  },
+  "evaluation_design": {
+    "locked_world_ids": ["world_readiness", "world_mixed", "world_adversarial"],
+    "paired_common_random_numbers": true,
+    "no_post_opening_tuning": true,
+    "retain_null_and_adverse_results": true,
+    "primary_outcome_mapping": {
+      "event": ["completed"],
+      "non_event": ["completed_with_residual_risk", "failed", "dependency_failed", "censored"],
+      "rationale": "The primary endpoint is strict verified completion; unresolved residual risk is not unconditional verification."
+    },
+    "conditional_completion_sensitivity": {
+      "analysis_id": "conditional_completion_inclusive",
+      "event": ["completed", "completed_with_residual_risk"],
+      "non_event": ["failed", "dependency_failed", "censored"],
+      "method": "Repeat item-level Brier scoring, strongest-deployable selection, paired contrast, calibration, and threshold reporting without changing the primary adjudication.",
+      "mandatory_report": true
+    }
+  },
+  "decision_rules": {
+    "primary_endpoint": "paired item-level Brier-score improvement in strict verified completion within planning interval; only terminal_state=completed is an event",
+    "strongest_deployable_selection": "lowest aggregate Brier score among Story Points, HIE-compatible, and simple role-load comparators; oracle excluded",
+    "smallest_effect_of_interest": {"absolute_brier_improvement": 0.01},
+    "success_convention": {"relative_brier_skill_min": 0.05, "paired_95pct_interval_excludes_zero": true, "positive_configuration_fraction_min": 0.8, "bottleneck_accuracy_gain_min": 0.1},
+    "equivalence_convention": "prefer simpler model when absolute Brier improvement is below 0.01, interval includes zero, or performance is within one Monte Carlo standard error",
+    "instability_convention": "unstable when central conclusion reverses in more than 20 percent of plausible configurations",
+    "instability_reversal_fraction_max": 0.2,
+    "claim_boundary": "Passing synthetic conventions authorizes prospective Route A testing only; it is not organizational validation."
+  },
+  "output_contract": [
+    {"id": "run_manifest", "path": "simulation/output/locked/run_manifest.csv", "format": "csv", "required_fields": ["protocol_sha256", "code_sha256", "config_sha256", "seed_manifest_sha256", "world_id", "replication_id", "run_id", "digest", "status"]},
+    {"id": "item_forecasts", "path": "simulation/output/locked/item_forecasts.csv", "format": "csv", "required_fields": ["world_id", "replication_id", "item_id", "outcome_completed", "model", "probability"]},
+    {"id": "comparator_scores", "path": "simulation/output/locked/comparator_scores.csv", "format": "csv", "required_fields": ["world_id", "model", "n", "brier_score", "log_loss", "ece"]},
+    {"id": "calibration", "path": "simulation/output/locked/calibration.csv", "format": "csv", "required_fields": ["world_id", "model", "bin", "n", "mean_probability", "event_rate"]},
+    {"id": "monte_carlo_uncertainty", "path": "simulation/output/locked/monte_carlo_uncertainty.csv", "format": "csv", "required_fields": ["contrast", "estimate", "standard_error", "ci_lower", "ci_upper", "half_width", "replications", "precision_resolved"]},
+    {"id": "robustness", "path": "simulation/output/locked/robustness.csv", "format": "csv", "required_fields": ["configuration_id", "contrast", "direction", "reversal", "within_plausible_region"]},
+    {"id": "adjudication", "path": "simulation/output/locked/adjudication.json", "format": "json", "required_fields": ["primary_result", "precision_status", "success_convention", "threshold_checks", "strongest_deployable", "relative_brier_skill", "absolute_brier_improvement", "robustness_fraction", "bottleneck_accuracy_improvement", "equivalence_convention", "instability_status", "claim_boundary"]},
+    {"id": "conditional_completion_inclusive", "path": "simulation/output/locked/conditional_completion_inclusive.json", "format": "json", "required_fields": ["analysis_id", "outcome_mapping", "strongest_deployable", "brier_scores", "absolute_brier_improvement", "relative_brier_skill", "paired_contrast", "calibration", "comparator_scores", "threshold_checks", "sensitivity_result", "primary_adjudication_unchanged", "primary_result_snapshot", "primary_adjudication_sha256", "interpretation_boundary"]},
+    {"id": "provenance", "path": "simulation/output/locked/provenance.json", "format": "json", "required_fields": ["protocol_sha256", "artifact_sha256", "environment", "started_at_utc", "completed_at_utc"]},
+    {"id": "hard_stop_report", "path": "simulation/output/locked/hard_stop_report.json", "format": "json", "required_fields": ["check_id", "passed", "detail", "checked_at_utc"]},
+    {"id": "publication_receipt", "path": "simulation/output/locked/publication_receipt.json", "format": "json", "required_fields": ["status", "contract_ids", "files", "key_reconciliation", "receipt_sha256"]}
+  ]
+}

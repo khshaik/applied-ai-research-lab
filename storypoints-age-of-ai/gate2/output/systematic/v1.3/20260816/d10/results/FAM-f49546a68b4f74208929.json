@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 471596,
+      "content_type": "application/pdf",
+      "final_url": "https://lorojournals.com/index.php/emsj/en/article/download/1594/1550",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "34958671c4da848dd2c00b07ab8c477e1168701d01675a8fc8bda1613be6f275",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://lorojournals.com/index.php/emsj/article/download/1594/1550"
+    }
+  ],
+  "bytes": 471596,
+  "family_id": "FAM-f49546a68b4f74208929",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-f49546a68b4f74208929.pdf",
+  "pdf_sha256": "34958671c4da848dd2c00b07ab8c477e1168701d01675a8fc8bda1613be6f275",
+  "representative_canonical_id": "CAN-56a548fd6cc7a5fc8a8c",
+  "retrieved_url": "https://lorojournals.com/index.php/emsj/en/article/download/1594/1550",
+  "status": "retrieved_open"
+}

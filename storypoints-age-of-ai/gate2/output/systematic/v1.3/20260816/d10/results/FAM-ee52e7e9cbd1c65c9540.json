@@ -1,0 +1,30 @@
+{
+  "attempts": [
+    {
+      "attempted_at_utc": "2026-08-16T15:16:51.305918Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html",
+      "final_url": "https://web.archive.org/web/20251230112235/https://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.955.4711",
+      "http_status": 404,
+      "outcome": "http_failure",
+      "url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.955.4711"
+    },
+    {
+      "attempted_at_utc": "2026-08-16T15:21:42.782018Z",
+      "basis": "representative_landing_page",
+      "content_type": "text/html",
+      "final_url": "https://web.archive.org/web/20251230112235/https://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.955.4711",
+      "http_status": 404,
+      "outcome": "http_failure",
+      "url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.955.4711"
+    }
+  ],
+  "bytes": 0,
+  "family_id": "FAM-ee52e7e9cbd1c65c9540",
+  "lawful_access_basis": null,
+  "pdf_path": null,
+  "pdf_sha256": null,
+  "representative_canonical_id": "CAN-8e86716135a631574596",
+  "retrieved_url": null,
+  "status": "lawful_full_text_not_retrieved"
+}

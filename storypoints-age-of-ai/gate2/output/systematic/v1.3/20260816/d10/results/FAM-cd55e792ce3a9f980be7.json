@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 351979,
+      "content_type": "application/pdf",
+      "final_url": "https://www.academicpublishers.org/journals/index.php/ijns/article/download/5582/6512/12829",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "9d6d0e0c92aec0c18d6fd7fc2b27bf298192403ac7e27b695bfdcf53d0cf9d99",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://www.academicpublishers.org/journals/index.php/ijns/article/download/5582/6512/12829"
+    }
+  ],
+  "bytes": 351979,
+  "family_id": "FAM-cd55e792ce3a9f980be7",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-cd55e792ce3a9f980be7.pdf",
+  "pdf_sha256": "9d6d0e0c92aec0c18d6fd7fc2b27bf298192403ac7e27b695bfdcf53d0cf9d99",
+  "representative_canonical_id": "CAN-c517b0d28aab0b08fcb6",
+  "retrieved_url": "https://www.academicpublishers.org/journals/index.php/ijns/article/download/5582/6512/12829",
+  "status": "retrieved_open"
+}

@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "arxiv_pdf",
+      "bytes": 307039,
+      "content_type": "application/pdf",
+      "final_url": "https://arxiv.org/pdf/2606.02651",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "51960ad733dfe1de865dcd3e5dbde5d2cdd03abe0b3bfbdb9ae9ee3a2a73b6e7",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://arxiv.org/pdf/2606.02651"
+    }
+  ],
+  "bytes": 307039,
+  "family_id": "FAM-9ddca20b098276bb6c73",
+  "lawful_access_basis": "arxiv_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-9ddca20b098276bb6c73.pdf",
+  "pdf_sha256": "51960ad733dfe1de865dcd3e5dbde5d2cdd03abe0b3bfbdb9ae9ee3a2a73b6e7",
+  "representative_canonical_id": "CAN-43e01d447a445ffd212b",
+  "retrieved_url": "https://arxiv.org/pdf/2606.02651",
+  "status": "retrieved_open"
+}

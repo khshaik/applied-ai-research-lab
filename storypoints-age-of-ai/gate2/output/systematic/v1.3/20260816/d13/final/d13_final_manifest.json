@@ -1,0 +1,90 @@
+{
+  "created_at_utc": "2026-08-18T01:00:00Z",
+  "evidence_band_counts": {
+    "high": 75,
+    "low_contextual": 223,
+    "moderate": 272
+  },
+  "family_count": 570,
+  "finding_count": 1367,
+  "interpretation_boundary": "Verified extraction candidates remain subject to D17 accountable-author citation confirmation. No causal, cognitive-load, organizational-validity, or final novelty conclusion is made at D13.",
+  "ledger_sha256": "fe36a98598980c31ec0a660ffccb015df24eddc023d3bd0745e00ad4af66c417",
+  "novelty_near_candidate_family_ids": [],
+  "novelty_stop_candidate_family_ids": [],
+  "pipeline_version": "d13-evidence-extraction-finalizer/1.0.0",
+  "protocol_version": "1.3",
+  "quantitative_finding_count": 653,
+  "security_boundary": "Local checksum-bound static text only; no network, credentials, Git history, package installation, links, or executable PDF content.",
+  "status": "d13_evidence_extraction_complete",
+  "verified_part_a": {
+    "family_count": 285,
+    "finding_count": 766,
+    "novelty_dimension_counts": {
+      "capacity_readiness_dependencies:not_met": 285,
+      "multirole_lifecycle:not_met": 285,
+      "precommitment_predictors:not_met": 269,
+      "precommitment_predictors:partial": 16,
+      "touch_queue_separation:not_met": 285,
+      "verified_completion_forecast:not_met": 285
+    },
+    "part": "a",
+    "present_construct_counts": {
+      "ARC": 4,
+      "CQD": 99,
+      "ERS": 177,
+      "PDD": 51,
+      "RCP": 111,
+      "RHTD": 143,
+      "SAE": 256,
+      "VDC": 45
+    },
+    "quantitative_finding_count": 115,
+    "sha256": "e537123e77b344d5caddaee822f204bdff537f0399f07412b19d78730b1f4c2e",
+    "status": "valid_complete_d13_verified_part",
+    "verification_totals": {
+      "novelty_corrected": 0,
+      "other_corrections": 198,
+      "quantitative_corrected": 89,
+      "quantitative_rejected": 0,
+      "quantitative_verified": 115
+    }
+  },
+  "verified_part_b": {
+    "family_count": 285,
+    "finding_count": 601,
+    "novelty_dimension_counts": {
+      "capacity_readiness_dependencies:not_met": 243,
+      "capacity_readiness_dependencies:partial": 42,
+      "multirole_lifecycle:met": 18,
+      "multirole_lifecycle:not_met": 252,
+      "multirole_lifecycle:partial": 15,
+      "precommitment_predictors:not_met": 272,
+      "precommitment_predictors:partial": 13,
+      "touch_queue_separation:not_met": 182,
+      "touch_queue_separation:partial": 103,
+      "verified_completion_forecast:not_met": 273,
+      "verified_completion_forecast:partial": 12
+    },
+    "part": "b",
+    "present_construct_counts": {
+      "ARC": 1,
+      "CQD": 12,
+      "ERS": 46,
+      "PDD": 19,
+      "RCP": 26,
+      "RHTD": 182,
+      "SAE": 273,
+      "VDC": 3
+    },
+    "quantitative_finding_count": 538,
+    "sha256": "136d782bf9dc97e3a7afc060d7f98be89e47dd33528821eb445f02eee4adffc8",
+    "status": "valid_complete_d13_verified_part",
+    "verification_totals": {
+      "novelty_corrected": 1425,
+      "other_corrections": 10,
+      "quantitative_corrected": 538,
+      "quantitative_rejected": 101,
+      "quantitative_verified": 0
+    }
+  }
+}

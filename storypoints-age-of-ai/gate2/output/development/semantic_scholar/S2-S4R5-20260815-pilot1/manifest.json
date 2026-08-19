@@ -1,0 +1,32 @@
+{
+  "complete_pagination": true,
+  "endpoint": "https://api.semanticscholar.org/graph/v1/paper/search/bulk",
+  "executed_at_utc": "2026-08-15T14:38:02.224291+00:00",
+  "from_date": "2019-01-01",
+  "interpretation_boundary": "Open-index development discovery export; not frozen, screened, deduplicated, eligible, or a PRISMA corpus.",
+  "max_pages": 1,
+  "page_size": 100,
+  "pages": [
+    {
+      "file": "page_00000.json",
+      "records": 279,
+      "request_url_sha256": "b52c7780a872924526862d2a1a8c6b3f980d3672b12bd51afdbd5959692236e1",
+      "sequence": 0,
+      "sha256": "517c031736e0ef50f43db4d43b9015be3519e54296af3b33c356277906cba41a"
+    }
+  ],
+  "query": "+(\"large language model\" | LLM | \"generative AI\") +\"code review\" +(time | workload | attention | effort | efficiency | quality | verification | trust)",
+  "query_id": "S2-S4R5",
+  "query_registry_sha256": "31cab97519f7cf497cd36087497fc74a8c842da890a81bb5eaf24cf0ff72af71",
+  "query_sha256": "5c584af93c499d11cd163044c7fc52ca1d46c98ba20a6cc8ed20525d5f07a2da",
+  "records_csv": {
+    "file": "records.csv",
+    "sha256": "b9d8739778bf6a6fb795e4882a591816cc9f1efee3da1ba4851b16f05a5a8622"
+  },
+  "records_retrieved": 279,
+  "retrieval_scope": "complete",
+  "source": "semantic_scholar",
+  "status": "development_pilot",
+  "to_date": "2026-08-15",
+  "total_reported": 279
+}

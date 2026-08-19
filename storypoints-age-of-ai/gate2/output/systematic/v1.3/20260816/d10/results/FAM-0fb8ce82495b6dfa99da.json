@@ -1,0 +1,24 @@
+{
+  "attempts": [
+    {
+      "basis": "openalex_best_oa_pdf",
+      "bytes": 220900,
+      "content_type": "application/pdf",
+      "final_url": "https://ijarcce.com/wp-content/uploads/2026/05/IJARCCE.2026.155213-an.pdf",
+      "http_status": 200,
+      "outcome": "retrieved_verified_pdf",
+      "retrieval_batch_declared_at_utc": "2026-08-16T10:42:00Z",
+      "sha256": "9e0bd24e38e0e5e07949ec920993a81b4d6f2b8a65f3d972b98626241bc8568f",
+      "timestamp_precision_note": "Pilot/batch declaration time; exact HTTP request time was not captured. Corrected before D10 freeze.",
+      "url": "https://doi.org/10.17148/ijarcce.2026.155213"
+    }
+  ],
+  "bytes": 220900,
+  "family_id": "FAM-0fb8ce82495b6dfa99da",
+  "lawful_access_basis": "openalex_best_oa_pdf",
+  "pdf_path": "gate2/output/systematic/v1.3/20260816/d10/pdf/FAM-0fb8ce82495b6dfa99da.pdf",
+  "pdf_sha256": "9e0bd24e38e0e5e07949ec920993a81b4d6f2b8a65f3d972b98626241bc8568f",
+  "representative_canonical_id": "CAN-6aaf47490acdea3e610e",
+  "retrieved_url": "https://ijarcce.com/wp-content/uploads/2026/05/IJARCCE.2026.155213-an.pdf",
+  "status": "retrieved_open"
+}
