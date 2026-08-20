@@ -25,7 +25,8 @@
   <a href="#key-technologies-and-libraries"><strong>Libraries</strong></a> ·
   <a href="#reproducibility-map"><strong>Reproducibility</strong></a> ·
   <a href="#navigate-the-research"><strong>Artifacts</strong></a> ·
-  <a href="#quick-glance-research-and-adoption-review"><strong>Quick glance</strong></a>
+  <a href="#quick-glance-research-and-adoption-review"><strong>Quick glance</strong></a> ·
+  <a href="#references"><strong>References</strong></a>
 </p>
 
 This repository develops the **Verified Delivery Capacity Model (VDCM)** and its proposed elicitation artifact, the **Role–Stage Demand and Readiness Instrument (RSDRI)**. The work asks whether pre-commitment role-stage demand, effective capacity, queues, dependencies, and evidence readiness can make cross-functional delivery constraints more visible than a single work-item estimate.
@@ -532,3 +533,62 @@ Progression from research artifact to operational use should require all of the 
 | Future empirical hypotheses/propositions and evaluation rules | [Future empirical propositions](research/design/03_future_empirical_propositions.md) |
 | Practical pilot workflow and guardrails | [End-to-end workflow](docs/communications/verified-delivery-capacity/END_TO_END_WORKFLOW.md) |
 | Current maturity, release state, and remaining work | [Status and roadmap](docs/status/status-and-roadmap.md) |
+
+## References
+
+This section provides a navigable bibliography for the research method, software, communication material, evidentiary record, and selected external literature cited by this repository. The ten external works below are the citation-bearing references in the current scientific manuscript and are linked through their DOI records. The complete evidence map contains a much larger bounded corpus; inclusion here identifies material intellectual or methodological relevance and does not imply that the cited authors endorse VDCM, RSDRI, or the study's conclusions.
+
+### Author publication and repository citation
+
+1. **Rasool, S. K. N. (2026). _Beyond Story Points in AI-Assisted Delivery: An Evidence Map and Simulation Framework for Role-Constrained, Evidence-Ready Software Delivery_.** THINKAI 2026 research manuscript. Available as the [scientific working manuscript](papers/thinkai-2026/manuscript/manuscript_working_draft.md), [anonymous review PDF](papers/thinkai-2026/manuscript/initial-submission/VDCM_ThinkAI2026_Anonymous_Full_Paper_v0.2_FINAL.pdf), and [camera-ready starting-point PDF](papers/thinkai-2026/manuscript/camera-ready-submission/VDCM_ThinkAI2026_CAMERA_READY_STARTING_POINT_v0.2.pdf). This is the primary scholarly narrative for the evidence map, VDCM/RSDRI constructs, developmental simulation, mixed comparative results, limitations, and future Route A validation agenda.
+2. **Rasool, S. K. N. (2026). _Verified Delivery Capacity Research_ (version 0.1.0) [Software and research artifact].** MIT License. Repository citation metadata, authorship, release date, abstract, and keywords are provided in [`CITATION.cff`](CITATION.cff). The project is maintained within the [Applied AI Research Lab repository](https://github.com/khshaik/applied-ai-research-lab/tree/main/storypoints-age-of-ai).
+3. **Rasool, S. K. N. (2026). _Verified Delivery Capacity: From AI-Assisted Work Item to Evidence-Ready Outcome_.** Technical communication package connecting the research problem, VDCM operating model, shadow-mode adoption, implementation guardrails, and end-to-end workflow. See the [long-form narrative](docs/communications/verified-delivery-capacity/LONG_FORM_NARRATIVE.md), [workflow guide](docs/communications/verified-delivery-capacity/END_TO_END_WORKFLOW.md), and [communication dossier](docs/communications/verified-delivery-capacity/README.md).
+4. **Author, availability, ethics, and AI-assistance records.** The repository documents [AI assistance](papers/thinkai-2026/declarations/AI_ASSISTANCE_DISCLOSURE.md), [data and code availability](papers/thinkai-2026/declarations/DATA_CODE_AVAILABILITY.md), and [research ethics and responsible use](papers/thinkai-2026/declarations/RESEARCH_ETHICS_AND_RESPONSIBLE_USE.md). Final identified-author metadata remain governed by the venue and release gates.
+
+Until a venue record or DOI is assigned, cite the manuscript and software record separately. Do not describe an anonymous-review package, camera-ready starting point, developmental simulation, or public repository as a published or independently validated organizational-effectiveness result.
+
+### VDCM method, evidence map, simulation, and evidentiary record
+
+- **Framework definition:** [`03_framework_specification.md`](research/design/03_framework_specification.md) defines the Verified Delivery Capacity Model, proposed RSDRI elicitation artifact, pre-commitment demand drivers, role-stage human touch demand, available role capacity, evidence readiness, queue delay, outputs, exclusions, and falsification conditions.
+- **Systematic-review protocol:** [`02_systematic_review_protocol.md`](research/design/02_systematic_review_protocol.md) records the open evidence route, source roles, screening and appraisal controls, extraction rules, citation-chasing procedure, accountable-author requirements, and bounded novelty language.
+- **Frozen search and evidence-map package:** [`frozen_protocol_package_v1.3.json`](gate2/frozen_protocol_package_v1.3.json) binds the accepted source-family controls, while the [evidence-map workspace](research/studies/vdcm/evidence-map/README.md) explains the D05–D17 execution and preservation path.
+- **Evidence synthesis:** [`D16_EVIDENCE_SYNTHESIS.md`](gate2/output/systematic/v1.3/20260816/d16_v2/D16_EVIDENCE_SYNTHESIS.md), [`evidence_synthesis_summary.json`](gate2/output/systematic/v1.3/20260816/d16_v2/evidence_synthesis_summary.json), and [`overlap_matrix.jsonl`](gate2/output/systematic/v1.3/20260816/d16_v2/overlap_matrix.jsonl) contain the reconciled coverage, appraisal bands, material findings, overlap assessment, and bounded novelty conclusion.
+- **Material-claim confirmation:** [`claim_verification_ledger.md`](papers/thinkai-2026/manuscript/claim_verification_ledger.md) maps CL-001 through CL-010 to controlled evidence, and [`D17_ACCOUNTABLE_AUTHOR_CONFIRMATION_2026-08-19.json`](research/studies/vdcm/integrity/releases/D17_ACCOUNTABLE_AUTHOR_CONFIRMATION_2026-08-19.json) records accountable-author approval of the bounded claims.
+- **Developmental simulation:** [`03_route_b_simulation_protocol.md`](research/design/03_route_b_simulation_protocol.md), [`simulation/configs/example.yaml`](simulation/configs/example.yaml), and the [simulation workspace](simulation/README.md) specify the synthetic mechanisms, comparator information boundaries, configuration, determinism, and interpretation limits.
+- **Comparative results:** the [developmental results dossier](papers/thinkai-2026/results/README.md), [`scenario_summary.csv`](papers/thinkai-2026/results/developmental_simulation_v2/scenario_summary.csv), and [`scenario_model_brier.csv`](papers/thinkai-2026/results/developmental_simulation_v2/scenario_model_brier.csv) preserve the scenario-level mixed results and comparator-favorable outcomes.
+- **Future empirical evaluation:** [`03_future_empirical_propositions.md`](research/design/03_future_empirical_propositions.md) defines the seven prospective propositions, comparator parity, leakage controls, holdouts, calibration criteria, and rejection conditions for Route A organizational validation.
+- **Artifact and claim traceability:** [`ARTIFACT_TRACEABILITY.md`](papers/thinkai-2026/ARTIFACT_TRACEABILITY.md), the [evidence preservation map](docs/traceability/evidence-preservation-map.md), and the [research release path](docs/traceability/research-status-and-release-path.md) connect manuscript content to the authoritative protocol, evidence, result, figure, and approval layers.
+
+### Agile estimation and LLM-aware effort foundations
+
+1. Fernández-Diego, M., Mendez, E. R., González-Ladrón-de-Guevara, F., Abrahão, S., & Insfrán, E. (2020). **An update on effort estimation in Agile software development: A systematic literature review.** _IEEE Access, 8_. [DOI](https://doi.org/10.1109/ACCESS.2020.3021664). Establishes the broader Agile effort-estimation evidence base and bounds claims about Story Points and related estimation methods.
+2. Tawosi, V., Moussa, R., & Sarro, F. (2022). **Agile effort estimation: Have we solved the problem yet? Insights from a replication study.** _IEEE Transactions on Software Engineering_. [DOI](https://doi.org/10.1109/TSE.2022.3228739). Provides empirical context for continuing uncertainty and comparator choice in Agile estimation.
+3. Alaswad, F., Poovammal, E., Ramana, K., Surya Narayana, G., Khan, A. A., & Faheem, M. (2026). **Hybrid intelligence effort for software effort estimation in LLM-assisted development.** _Discover Computing_. [DOI](https://doi.org/10.1007/s10791-026-10331-6). Introduces an LLM-assisted effort formulation incorporating context, interaction, transformation, and human oversight; VDCM treats it as a substantive comparator and foundation.
+4. Alaswad, F., Poovammal, E., & Aljaddouh, B. (2026). **Toward LLM-aware software effort estimation: A conceptual framework.** _Frontiers in Artificial Intelligence_. [DOI](https://doi.org/10.3389/frai.2026.1772418). Provides the conceptual predecessor for LLM-aware estimation and constrains novelty claims around AI-era effort constructs.
+
+### AI-augmented delivery, lifecycle governance, and agentic cost
+
+5. Koch, C., & Wellbrock, J. A. (2026). **Agile V: A compliance-ready framework for AI-augmented engineering—from concept to audit-ready delivery.** _arXiv preprint_. [DOI](https://doi.org/10.48550/arXiv.2602.20684). Supplies adjacent lifecycle-gate and audit-ready delivery concepts; VDCM does not claim gates or compliance evidence as new inventions.
+6. El-Ramly, M. (2026). **ACEM: A cost estimation model for agentic software engineering.** _arXiv preprint_. [DOI](https://doi.org/10.48550/arXiv.2608.02582). Provides adjacent agentic cost and human-in-the-loop accounting concepts that narrow the VDCM contribution boundary.
+7. Armesto, M., & Kolb, C. (2026). **Orchestrating human-AI software delivery: A retrospective longitudinal field study of three software modernization programs.** _arXiv preprint_. [DOI](https://doi.org/10.48550/arXiv.2603.20028). Contributes field context on orchestration, lifecycle roles, coordination, and human-AI delivery mechanisms.
+8. Tomaz, R., Guenes, P., Araújo, A. A., Baldassarre, M. T., & Kalinowski, M. (2026). **Impacts of generative AI on Agile teams' productivity: A multi-case longitudinal study.** _arXiv preprint_. [DOI](https://doi.org/10.48550/arXiv.2602.13766). Supports the bounded observation that AI-related activity changes are heterogeneous and do not imply proportional end-to-end delivery acceleration.
+
+### Testing, review, and developer-intervention evidence
+
+9. Shi, B. J., & Kristensson, P. O. (2026). **Preemptive, buffered or guided? Empirical studies on human-AI interaction strategies for software test case development.** _University of Cambridge Apollo Repository_. [DOI](https://doi.org/10.17863/CAM.131425). Provides evidence on distinct human-AI testing strategies and the continuing role of human intervention in verification work.
+10. Xiao, T., Hata, H., Treude, C., & Matsumoto, K. (2024). **Generative AI for pull request descriptions: Adoption, impact, and developer interventions.** _Proceedings of the ACM on Software Engineering_. [DOI](https://doi.org/10.1145/3643773). Provides empirical evidence on adoption, intervention, and review-related work around generated pull-request descriptions.
+
+### Evidence-map coverage and source-use guidance
+
+The ten references above are the current manuscript's material citation set, not the full literature corpus. The open evidence map reconciles 791 included study families, 2,343 exact-locator findings, and 769 quantitative findings. Consult the [D16 synthesis](gate2/output/systematic/v1.3/20260816/d16_v2/D16_EVIDENCE_SYNTHESIS.md) and [`material_citation_candidates.jsonl`](gate2/output/systematic/v1.3/20260816/d16_v2/material_citation_candidates.jsonl) for broader coverage, evidence bands, exact-locator provenance, and the limitations of the declared open-source boundary.
+
+OpenAlex and Semantic Scholar served declared discovery and citation-network roles; arXiv supported emerging preprint coverage; Crossref was used for DOI and bibliographic verification rather than broad absence evidence. The exact source-family allocation, cutoff, access constraints, lawful-full-text rules, and citation-chasing cap are controlling parts of the protocol and must accompany any completeness or novelty interpretation.
+
+### Citation and interpretation guidance
+
+- Cite the **scientific manuscript** for the research question, VDCM/RSDRI framework, evidence-map synthesis, developmental comparison, limitations, and Route A agenda.
+- Cite the **repository software record** for code, configuration, protocols, evidence-map artifacts, simulation machinery, verification controls, and reproducibility resources.
+- Cite the **communication package** for the practitioner-facing operating model, shadow-mode adoption path, conceptual workflow, and responsible-use guardrails.
+- Cite the corresponding **external primary publication** when discussing Agile estimation, LLM-aware estimation, lifecycle gates, agentic cost, human-AI delivery, test development, or pull-request interventions.
+- Preserve the bounded novelty statement: no substantively duplicative framework was identified within the predeclared open scholarly indexes, repositories, and citation networks searched through the stated cutoff and approved resource cap.
+- Preserve the registered interpretation: VDCM is a falsifiable planning representation with mixed developmental synthetic results; it is not a validated cognitive measure, universal Story Point replacement, proven productivity intervention, staffing optimizer, or established source of organizational ROI.
