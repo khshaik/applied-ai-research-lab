@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
   "project": "storypoints-age-of-ai",
-  "generated_at_utc": "2026-08-19T19:24:17.386798+00:00",
+  "generated_at_utc": "2026-08-20T02:03:47Z",
   "source_boundary": "research-owned and redistribution-safe artifacts",
   "included_file_count": 5556,
-  "included_size_bytes": 659767833,
+  "included_size_bytes": 659795455,
   "included_files": [
     {
       "path": ".gitattributes",
@@ -43,8 +43,8 @@
     },
     {
       "path": "README.md",
-      "size_bytes": 22617,
-      "sha256": "3fae0287bd88200cf82306288048b4b9c3f82fb0611e6919d04176314417908c"
+      "size_bytes": 50239,
+      "sha256": "9ac83d19cb12484a308e402c2a0973d1f33466071f57ba45a20ae2d5b9fcd94f"
     },
     {
       "path": "REPOSITORY_STRUCTURE_MANIFEST.json",

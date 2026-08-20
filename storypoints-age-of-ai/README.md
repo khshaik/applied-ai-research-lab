@@ -24,7 +24,8 @@
   <a href="#end-to-end-verified-delivery-workflow"><strong>Workflow</strong></a> ·
   <a href="#key-technologies-and-libraries"><strong>Libraries</strong></a> ·
   <a href="#reproducibility-map"><strong>Reproducibility</strong></a> ·
-  <a href="#navigate-the-research"><strong>Artifacts</strong></a>
+  <a href="#navigate-the-research"><strong>Artifacts</strong></a> ·
+  <a href="#quick-glance-research-and-adoption-review"><strong>Quick glance</strong></a>
 </p>
 
 This repository develops the **Verified Delivery Capacity Model (VDCM)** and its proposed elicitation artifact, the **Role–Stage Demand and Readiness Instrument (RSDRI)**. The work asks whether pre-commitment role-stage demand, effective capacity, queues, dependencies, and evidence readiness can make cross-functional delivery constraints more visible than a single work-item estimate.
@@ -323,9 +324,26 @@ AI systems assisted with query engineering, record processing, code generation, 
 
 ---
 
-## Professor's at-a-glance research review
+## Quick-glance research and adoption review
 
 This section is a decision-oriented synopsis of the research record. It does not replace the protocol, manuscript, evidence ledgers, or result files linked above.
+
+### Bird's-eye view: outcome, use, and growth
+
+| View | What a reader should take away |
+|---|---|
+| Outcome | VDCM turns a work-item estimate into an inspectable forecast of whether the required role pools can produce and verify the evidence needed by a deadline. Its outputs emphasize completion probability, expected evidence-ready throughput, the constrained role-stage, and separate touch, wait, block, and rework contributions. |
+| Current maturity | The framework, proposed RSDRI instrument, evidence map, comparators, and developmental simulation are reproducible research artifacts. They are ready for shadow-mode field evaluation, not production claims of superiority, automated staffing decisions, or organization-wide replacement of Story Points. |
+| Best initial use | Apply it to one risk tier or delivery path where specialist queues, dependencies, assurance gates, or acceptance delays are already suspected. Run it beside the team's current estimator and a simple role-load baseline. |
+| How teams plug it in | Map existing workflow stages and pooled roles; declare the planning horizon, capacity windows, dependencies, evidence gates, and risk rules; freeze work-item inputs at `t0`; then compare forecasts with later outcomes. Issue trackers, CI/CD, test, security, release, and calendar systems can supply references, but the repository does not ship production connectors. |
+| Configuration principle | Begin with the smallest decision-relevant configuration. Add a role, gate, readiness rule, or rework path only when it represents a real constraint, can be rated consistently, and changes a planning decision enough to justify its upkeep. |
+| Team benefit if validated | Earlier visibility of downstream bottlenecks, more explicit assurance and acceptance obligations, clearer separation of active effort from waiting, and a shared basis for testing capacity or sequencing options before commitment. |
+| Contribution value | Enhancements are reviewable as versioned changes to constructs, schemas, scenarios, comparators, tests, evidence, or documentation. The repository's fail-closed checks and traceability rules help prevent a convenient feature from silently changing scientific meaning. |
+| Current relevance | The work addresses a delivery pattern in which AI-assisted implementation can move faster while review, security, testing, operations, and acceptance remain finite human-controlled services. It focuses planning on end-to-end verified outcomes rather than code-generation speed alone. |
+| Growth path | Progress from developmental simulation to practitioner content review, reliability and burden testing, prospective multi-team shadow studies, temporal and leave-team/project-out validation, drift monitoring, and—only if warranted—decision-impact evaluation and production-grade integrations. |
+| Stop rule | Prefer Story Points, throughput history, or simple role load when those approaches calibrate as well, when VDCM inputs are unstable, or when the framework's measurement burden exceeds its decision value. |
+
+In one sentence: **use VDCM to expose where evidence-ready delivery is capacity-constrained, validate that visibility beside current practice, and retain the model only when it improves decisions at acceptable cost.**
 
 ### Research logic in one view
 
@@ -401,6 +419,58 @@ Adoption should be incremental and reversible:
 7. **Scale, simplify, or stop.** Expand only when the added information is stable and decision-relevant; reduce to simple role load or existing practice when it is not.
 
 Potential technical integrations include issue trackers for frozen work-item attributes and dependencies, source-control and CI/CD systems for traceable evidence identifiers, test/security/release systems for gate evidence, and workforce calendars for role-pool availability. These integrations should collect the minimum data required at work-item or role-pool level, preserve access controls and retention rules, and exclude individual surveillance metrics. The repository provides the model and research machinery, not a production connector or automated commitment engine.
+
+### Team plug-in map
+
+The framework can sit above existing delivery systems as a planning and learning layer; teams do not need to replace their workflow platform to evaluate it.
+
+| Existing team touchpoint | Minimum input to map | VDCM configuration area | Decision-facing output |
+|---|---|---|---|
+| Backlog refinement or commitment review | Work-item boundary, risk class, acceptance conditions, dependencies, existing estimate, and frozen `t0` timestamp | `work_item_templates`, `pdd_profile`, `arrival_models`, and `dependency_models` | Completion probability and assumptions for the planned horizon |
+| Delivery workflow | Named lifecycle stages, transition order, and the accountable role pool at each stage | `lifecycle_stages` and `role_pools` | Role-stage demand and the likely constrained service function |
+| Capacity planning | Pooled schedulable availability, concurrency, existing queue, and planned blackouts | `capacity_calendars` and role-pool settings | Capacity pressure, queue exposure, and sensitivity to a binding role |
+| Quality, security, release, or acceptance control | Risk-scaled gate, required evidence, accountable reviewer, allowed decision states, and evidence validity rule | `gate_definitions`, `evidence_definitions`, and `readiness_models` | Evidence-readiness state and verified rather than task-only completion |
+| Rework and dependency management | Permitted return path, evidence invalidation, maximum loops, and predecessor-release rule | `rework_models` and `dependency_models` | Separate rework and blocked-time contribution to forecast risk |
+| Retrospective or model review | Later terminal outcome, timestamps, actual role-stage service where feasible, gate decisions, and data-quality notes | Evaluation and reconciliation outputs, kept separate from the original `t0` record | Calibration error, bottleneck accuracy, usefulness, drift, and elicitation cost |
+
+The machine-readable starting point is [`simulation/configs/example.yaml`](simulation/configs/example.yaml), validated against [`research/design/03b_simulation_schema.json`](research/design/03b_simulation_schema.json). Its values are illustrative and its executable mechanics deliberately have a narrower scope than many production workflows. A team-specific pilot should therefore use the example to understand the data contract, then create a separately versioned, provenance-labelled configuration rather than editing illustrative values in place and treating the result as validated.
+
+### Minimum viable configuration sequence
+
+1. **Decision boundary:** choose the portfolio, forecast horizon, verified-completion definition, risk tier, and comparison baseline.
+2. **Workflow map:** configure only the lifecycle stages and pooled roles required to reach that terminal state.
+3. **Demand and capacity:** record work-item P50/P80 role-stage service assumptions, capacity windows, concurrency, existing queues, and source/provenance notes.
+4. **Flow constraints:** add only known finish-to-start dependencies and explicit blackouts; do not infer hidden capacity or silently invent missing links.
+5. **Verification rules:** declare the minimum evidence required at each applicable gate, how it becomes current or invalid, who is accountable, and what `Pass`, `Conditional`, `Fail`, and `Not Applicable` mean.
+6. **Learning contract:** preserve the `t0` configuration and forecast, collect later outcomes independently, and predefine the scoring, usefulness, privacy, burden, sensitivity, simplification, and stop criteria.
+7. **Safe execution:** validate the configuration, run developmental/shadow forecasts, retain current planning outputs for comparison, and use `make verify` before sharing a repository change.
+
+### Enhancement and contribution pathway
+
+| Contribution type | How it improves the framework | Evidence and controls expected before use |
+|---|---|---|
+| New role, stage, risk tier, or evidence gate | Extends coverage to a real delivery path or assurance obligation | Operational definition, accountable owner, applicability rule, example, schema/config update where needed, and transition tests |
+| Better demand or capacity parameterization | Replaces illustrative assumptions with locally relevant estimates | Source provenance, unit and population definition, uncertainty, temporal cutoff, privacy review, and out-of-sample evaluation plan |
+| New workflow mechanism | Represents a material constraint such as a routing or evidence lifecycle behavior | Decision-log rationale, explicit scope and claim impact, deterministic fixtures, adversarial tests, conservation checks, and versioned protocol amendment |
+| New comparator or metric | Tests whether added framework complexity earns its cost | Identical `t0` information boundary, common outcomes and folds, leakage tests, uncertainty method, and strongest-simple-baseline comparison |
+| System connector or adapter | Reduces manual capture while preserving existing team tools | Minimal-data design, field mapping, access and retention controls, failure behavior, immutable snapshot support, and prohibition of individual surveillance |
+| New evidence or replication | Strengthens, narrows, or challenges the scientific basis | Lawful source record, exact locator, appraisal/provenance trail, reproducible analysis, and preservation of null or adverse findings |
+| Documentation or usability improvement | Lowers adoption and review burden without changing model semantics | Clear audience and decision use, cross-links to controlling definitions, verification of examples, and an explicit note if scientific behavior is unchanged |
+
+All contributions should follow [`CONTRIBUTING.md`](CONTRIBUTING.md): explain scientific impact, version material protocol changes, update affected tests and manifests, preserve unfavorable results, and run the repository checks. Enhancements are beneficial when they improve coverage, calibration, interpretability, reliability, or adoption cost without weakening the `t0` boundary, traceability, responsible-use guardrails, or comparability with simpler alternatives.
+
+### Trend fit and future extension points
+
+VDCM's near-term value proposition is aligned with AI-assisted delivery environments where implementation throughput may rise faster than cross-functional verification capacity. It gives teams a way to test whether the constraint has shifted to context preparation, architecture, review, security, QA, release, operations, or acceptance, while keeping accountable human gates visible.
+
+Future growth can proceed along four independently testable tracks:
+
+- **Measurement maturity:** practitioner-reviewed anchors, inter-rater reliability, lower-burden capture, missing-data rules, and uncertainty-aware parameter updates.
+- **Workflow coverage:** additional validated role/stage mappings, risk policies, routing patterns, evidence lifecycles, and portfolio contexts introduced through explicit versioned scope changes.
+- **Evaluation maturity:** multi-team prospective data, temporal and cross-team holdouts, transportability tests, calibration-drift monitoring, decision-curve or utility analysis, and comparisons with the strongest simple local baseline.
+- **Operational maturity:** privacy-preserving adapters, immutable `t0` snapshots, observable gate evidence, explainable forecast services, scenario interfaces, and governance controls that keep commitment and professional judgment human-accountable.
+
+These are growth opportunities, not current capabilities or evidence claims. Each extension should advance independently only when its added decision value exceeds its complexity, data burden, and governance risk.
 
 ### Core assumptions requiring field validation
 
