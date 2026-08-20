@@ -27,6 +27,83 @@
   <a href="#references"><strong>References</strong></a>
 </p>
 
+<p align="center"><a href="#quick-glance-research-and-adoption-review"><strong>Quick-glance research and adoption review</strong></a></p>
+
+## Quick-glance research and adoption review
+
+This section is an outcome-first guide to the research, its practical integration path, contribution model, and future growth. It complements rather than replaces the complete scientific record below.
+
+### Bird's-eye view: outcome, use, and growth
+
+| View | What a reader should take away |
+|---|---|
+| Outcome | RAER makes the pre-action evidence decision explicit: select which mutable prerequisites to revalidate under a finite budget, protect authorization-sensitive evidence, and return `ACT`, `REFRESH`, `ASK`, or `ABSTAIN` before a consequential side effect is allowed. |
+| Current maturity | RAER v2 is a reproducible methods artifact and prospective negative design-stage result. It passed seven of eight criteria but missed the safe-completion requirement, so it is not a validated production control or a basis for autonomous authorization. |
+| Best initial use | Apply the concepts in shadow mode to one bounded, consequential action whose authorization, policy, identity, scope, consent, or operational prerequisites can change between planning and execution. |
+| How teams plug it in | Place an evidence-validity gate between action planning and the irreversible or externally visible commit. Feed it a typed action manifest, versioned evidence envelopes, authoritative validation functions, cost/latency budgets, and current authorization state; allow only an approved decision path to reach the executor. |
+| Configuration principle | Configure the action and its prerequisites first, then consequence, irreversibility, criticality, mutability, validation cost, authorization sensitivity, correlation, budget, and decision thresholds. Safety-mandatory authority checks must not become fungible merely because another check is cheaper. |
+| Team benefit if validated | More inspectable action admission, explicit handling of stale evidence, traceable reasons for refresh or abstention, controlled validation spend, and a durable separation between model confidence, evidence validity, and action authority. |
+| Contribution value | Versioned extensions can improve prerequisite representations, validation policies, benchmarks, failure handling, connectors, tests, and human-review procedures while the frozen protocols, negative results, and sealed-test boundary prevent convenient retrospective rewriting. |
+| Current relevance | Tool-using AI is moving from recommendation toward state-changing execution. Longer context, better retrieval, and higher model confidence do not establish that stored evidence or delegated authority remains valid at commit time. |
+| Growth path | Progress through new design cases, human-domain construct review, structured evidence and authority records, high-fidelity simulation, preregistered external replication, and only then limited production shadowing with monitoring and accountable human control. |
+| Stop rule | Prefer mandatory exhaustive checks, an existing policy engine, transactional preconditions, or human approval when the action is too consequential for budgeted selection, when prerequisites cannot be represented reliably, or when RAER adds false blocks without defensible safety value. |
+
+In one sentence: **use the RAER research to make current evidence and current authority explicit at the side-effect boundary, but operationalize it only through separately validated controls that preserve safe completion.**
+
+### Team plug-in map
+
+RAER is best treated as a deterministic admission layer around an existing workflow or agent rather than as a replacement for the planner, policy engine, identity system, validator, or transactional executor.
+
+| Existing system touchpoint | Minimum information to map | RAER-facing control | Decision-facing output |
+|---|---|---|---|
+| Planner, workflow, or agent | Exact proposed action, parameters, actor/delegated principal, purpose, anticipated read/write set, consequence, and reversibility | Typed action manifest with stable action and correlation identifiers | One reviewable action request rather than an unbounded natural-language intention |
+| Identity and authorization service | Subject, resource, action, scope, purpose, issuer, validity interval, revocation state, and source version | Non-fungible authorization prerequisite and authoritative recheck | Current authority, renewed-authority request, or refusal |
+| Policy, consent, and governance sources | Applicable rule/consent version, jurisdiction, purpose limitation, expiry, and invalidation triggers | Versioned evidence envelopes and source-precedence rules | `ACT`, policy-driven `REFRESH`, `ASK`, or `ABSTAIN` rationale |
+| Operational system of record | Resource state, observation time, volatility, dependency changes, source reliability, contradictions, and concurrency token | Candidate authoritative checks with explicit cost and latency | Selected check set and residual modeled risk |
+| Validation and human-review services | Validation function, expected monetary/latency/attention cost, availability, failure semantics, and escalation owner | Budget and safeguard constraints | Executed validations, consumed budget, unresolved prerequisites, and accountable escalation |
+| Side-effect executor | Idempotency key, transactional preconditions, commit authority, timeout semantics, and compensation path | Hard gate that permits execution only on the authorized outcome | Committed, refused, refreshed, or escalated action with no silent bypass |
+| Audit, monitoring, and memory | Source observations, decisions, validation responses, rule/method version, hashes, postconditions, and dependent caches | Immutable decision receipt and post-action invalidation record | Reproducible explanation, drift/failure analysis, and updated institutional memory |
+
+The research specification is [`studies/raer/evaluation/v2/RAER_V2_METHOD_SPECIFICATION_v1.0.json`](studies/raer/evaluation/v2/RAER_V2_METHOD_SPECIFICATION_v1.0.json), and the reviewer-visible data boundary is illustrated by [`studies/raer/calibration/benchmark/release_v1.1/reviewer_visible_schema.json`](studies/raer/calibration/benchmark/release_v1.1/reviewer_visible_schema.json). These are research contracts, not production configuration templates. The end-to-end engineering interpretation is documented in the [context-revalidation workflow](communications/linkedin/context-revalidation/LINKEDIN_CONSOLIDATED_ARTICLE.md#end-to-end-workflow-from-intent-to-a-verified-outcome).
+
+### Minimum viable adoption and configuration sequence
+
+1. **Bound the action:** select one consequential action type, accountable owner, side-effect boundary, prohibited outcomes, and explicit human override/escalation path.
+2. **Map mutable prerequisites:** identify the smallest set of facts whose invalidity would make that exact action unsafe, unauthorized, incorrectly scoped, or operationally invalid.
+3. **Create evidence envelopes:** record semantic type, authoritative source, source identifier/version, observation time, validity window, purpose/scope, dependencies, invalidation triggers, contradiction state, and validation function.
+4. **Classify decision factors:** define consequence, irreversibility, prerequisite criticality, authorization sensitivity, correlation, validation cost/latency, and the cost of unnecessary abstention using reviewable anchors.
+5. **Freeze the policy:** version budgets, safeguards, thresholds, tie-breaking, failure semantics, and the mapping to `ACT`, `REFRESH`, `ASK`, and `ABSTAIN`; do not let the runtime model rewrite them.
+6. **Run beside current controls:** compare RAER-style selections with exhaustive checks, fixed thresholds, current policy, and human decisions without allowing the research policy to authorize production effects.
+7. **Evaluate both safety and completion:** measure harmful actions, authorization failures, false blocks, safe completion, validation cost, latency, domain transfer, and operator burden under a prospective gate.
+8. **Scale, simplify, or stop:** proceed only after external validation shows stable incremental value; retain mandatory checks and simpler controls wherever budgeted selection is unnecessary or inferior.
+
+### Enhancement and contribution pathway
+
+| Contribution type | Potential benefit | Evidence and controls expected |
+|---|---|---|
+| New prerequisite or evidence-envelope type | Extends RAER to a real policy, identity, consent, resource, or dependency condition | Operational definition, authoritative source, time/scope semantics, invalidation rules, ambiguity cases, and tests |
+| Improved invalidity estimator or selection policy | May reduce harmful unchecked changes or unnecessary refreshes | Pre-action feature boundary, calibration data provenance, comparator parity, leakage tests, uncertainty, and prospective evaluation |
+| Authorization safeguard enhancement | Addresses temporal, scoped, delegated, or revoked authority more faithfully | Structured authority model, fail-closed behavior, boundary fixtures, human/legal review, and zero-bypass tests |
+| Connector or validator adapter | Makes evidence refresh executable against an authoritative service | Minimal privileges, identity binding, timeout and partial-failure semantics, rate/latency limits, audit events, and replay-safe tests |
+| New benchmark domain or case family | Tests transfer and exposes unrepresented failure mechanisms | Versioned construction protocol, reviewer/reference separation, provenance, independent review, balanced valid/invalid cases, and immutable release |
+| Runtime and observability control | Improves enforcement, postcondition proof, compensation, and evidence invalidation | Transactional boundary, idempotency, durable receipts, threat model, fault injection, monitoring, retention, and privacy review |
+| Documentation or usability improvement | Reduces integration and review burden without changing scientific meaning | Named audience, tested examples, controlling-definition links, accessibility, and explicit confirmation of claim impact |
+
+All contributions should follow [`CONTRIBUTING.md`](CONTRIBUTING.md): preserve frozen records and unfavorable outcomes, isolate exploratory work, add tests for behavioral changes, disclose protocol effects, update claim/evidence records where needed, and run `make verify` before review.
+
+### Trend fit and future extension points
+
+RAER addresses an increasingly important systems boundary: AI workflows can retain, share, and act on context over longer periods, while the truth and authority represented by that context can change independently. The framework makes that temporal mismatch testable without assuming that more context or more validation is always better.
+
+Future growth can proceed along four independently gated tracks:
+
+- **Representation maturity:** typed evidence envelopes, structured temporal and scoped authorization, dependency graphs, source precedence, contradiction handling, and explicit postcondition evidence.
+- **Decision maturity:** calibrated invalidity estimates, uncertainty-aware budgets, correlation models, sequential checking, domain-robust completion safeguards, and comparisons with strong deterministic baselines.
+- **Evaluation maturity:** new untouched cases, independent human review, operationally realistic latency/cost distributions, external replication, adversarial state change, and one-time preregistered held-out evaluation.
+- **Operational maturity:** least-privilege connectors, transaction-safe commit gates, idempotency, compensation, continuous authority validation, immutable receipts, drift monitoring, privacy controls, and human-accountable escalation.
+
+These are research and engineering opportunities, not claims about current RAER capability. Each extension should advance only when it improves the joint safety–completion–cost position under prospective evaluation.
+
 Research on whether consequential automated actions should proceed when their authorization, policy, identity, scope, or operational prerequisites may have changed.
 
 This repository is a research monorepo: each study has an isolated protocol, benchmark, implementation, results, integrity record, and paper directory. The first study is **Risk-Adaptive Evidence Revalidation (RAER)**.

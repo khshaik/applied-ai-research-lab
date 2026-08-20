@@ -29,6 +29,87 @@
   <a href="#references"><strong>References</strong></a>
 </p>
 
+<p align="center"><a href="#quick-glance-research-and-adoption-review"><strong>Quick-glance research and adoption review</strong></a></p>
+
+## Quick-glance research and adoption review
+
+This section is an outcome-first guide to the research, its practical integration path, contribution model, and future growth. It complements rather than replaces the complete scientific record below.
+
+### Bird's-eye view: outcome, use, and growth
+
+| View | What a reader should take away |
+|---|---|
+| Outcome | OVAR converts AI usage from a consumption report into a prospective evidence ledger linking a defined outcome, counterfactual baseline, independently reviewable evidence, fully loaded cost, attribution confidence, uncertainty, risk, current authority, and an immutable allocation receipt. |
+| Current maturity | OVAR v1.0 is a reproducible methods artifact and preserved negative calibration result. It passed five of nine criteria, was dominated by the simpler outcome-flat comparator, and failed its authorization mechanism; it is not a validated ROI engine or production allocation policy. |
+| Best initial use | Use the ledger concepts in shadow mode for one AI-enabled workflow where leaders currently see token/provider cost but cannot reproduce the claimed incremental outcome, full cost, causal contribution, or authority to continue or scale. |
+| How teams plug it in | Join gateway and workflow traces to stable work/episode identifiers; register an outcome and baseline before measurement; reconcile provider, infrastructure, tooling, integration, review, governance, rework, and evidence costs; verify evidence and structured authority; then issue `STOP`, `REVISE`, `CONTINUE_PILOT`, `SCALE`, or `INDETERMINATE`. |
+| Configuration principle | Define the decision contract before collecting persuasive results. Keep consumption, technical quality, outcome, attribution, cost, uncertainty, risk, authorization, and portfolio constraints as distinguishable fields rather than compressing them into token volume or retrospective ROI. |
+| Team benefit if validated | Comparable investment receipts, visibility into hidden human and governance costs, fewer proxy-based scale decisions, clearer reasons to continue or stop a pilot, and a repeatable bridge from technical telemetry to accountable enterprise action. |
+| Contribution value | Versioned enhancements can strengthen outcome contracts, baselines, causal designs, cost schemas, structured authorization, telemetry adapters, decision policies, portfolio rules, tests, and human-review workflows while preserving the failed v1.0 gate as scientific evidence. |
+| Current relevance | Enterprise AI usage is increasingly distributed across models, retrieval, tools, agents, retries, evaluation, and human review. Token and provider-spend dashboards are necessary inputs, but they do not establish accepted, incremental, attributable, or authorized value. |
+| Growth path | Progress from structured authorization and new design cases to human construct review, operational ledger pilots, preregistered causal measurement, cross-domain validation, portfolio experiments, drift monitoring, and production-grade decision governance. |
+| Stop rule | Prefer a simpler outcome ledger, standard FinOps controls, or an existing causal-evaluation process when OVAR's added fields do not improve decisions, cannot be maintained reliably, or create measurement burden greater than their incremental value. |
+
+In one sentence: **use OVAR to require an auditable bridge from AI consumption to verified incremental outcome and current authority, while retaining the simplest evidence policy that supports the decision reliably.**
+
+### Team plug-in map
+
+OVAR can operate as an evidence and decision layer above existing AI gateways, observability, workflow, finance, governance, and business systems; teams do not need to replace those platforms to test the approach.
+
+| Existing system touchpoint | Minimum information to map | OVAR ledger area | Decision-facing output |
+|---|---|---|---|
+| Portfolio intake and workflow ownership | Stable portfolio/project/workflow/episode IDs, accountable owner, stage, intervention definition, budget, decision deadline, and permitted action set | Identity, ownership, stage, and decision contract | A bounded investment unit eligible for comparison and review |
+| AI gateway, orchestration, and observability | Provider/model calls, tokens by class, retrieval, tools, retries, evaluations, latency, failures, and trace-to-work links | Consumption and attributed workflow trace | Usage evidence that informs cost without being treated as value |
+| Outcome owner and business system | Prospective outcome metric, threshold, acceptance rule, measurement window, source locator, reproduction note, maturity, and observed value | Outcome contract and evidence record | Reviewable outcome status and evidence sufficiency |
+| Experimentation or analytics platform | No-AI alternative, comparator assignment, pre-period, matched unit, time-series assumptions, spillovers, confounders, and uncertainty | Baseline design and attribution record | Attributable incremental benefit range rather than gross observed benefit |
+| Finance, FinOps, procurement, and operations | Provider, infrastructure, tooling, integration, evaluation, human review, governance, rework, remediation, and amortization rules | Fully loaded cost boundary | Reconciled cost and benefit-to-cost range with assumptions visible |
+| Risk, legal, security, privacy, and approval systems | Subject, resource, action, purpose, scope, jurisdiction, valid-from/until, revocation, signer, risk state, and decision timestamp | Structured authorization and risk record | Current in-scope authority or a fail-closed decision constraint |
+| Investment committee or accountable owner | Frozen policy version, thresholds, equivalence margin, burden weight, evidence rules, and authorized decision set | Allocation policy and immutable receipt | `STOP`, `REVISE`, `CONTINUE_PILOT`, `SCALE`, or `INDETERMINATE` with reasons and hashes |
+| Monitoring and reassessment | Outcome maturation, cost drift, policy/authority change, incidents, adoption, rework, model/tool version, and receipt invalidation triggers | Reassessment and provenance history | Reopened, superseded, or reaffirmed decision without erasing the prior receipt |
+
+The ledger field baseline is [`studies/ovar/pilot/schema/outcome_evidence_ledger_schema_v1.0.json`](studies/ovar/pilot/schema/outcome_evidence_ledger_schema_v1.0.json), the construct definitions are in [`studies/ovar/method/CONSTRUCT_DICTIONARY_v0.1.csv`](studies/ovar/method/CONSTRUCT_DICTIONARY_v0.1.csv), and the estimands and comparator information sets are defined in the [formal objective](studies/ovar/method/FORMAL_OBJECTIVE_AND_ESTIMANDS_v0.1.md). These are research artifacts, not a certified accounting standard or drop-in production schema. The engineering sequence is documented in the [outcome-verification workflow](communications/linkedin/outcome-verified-allocation/LINKEDIN_CONSOLIDATED_ARTICLE.md#end-to-end-workflow-from-investment-intent-to-a-verified-decision).
+
+### Minimum viable adoption and configuration sequence
+
+1. **Choose the decision unit:** select one workflow investment, accountable owner, current stage, decision horizon, resource boundary, and allowed actions.
+2. **Register the outcome contract:** define the outcome metric, practical threshold or equivalence margin, evidence source, measurement window, acceptance rule, maturation conditions, and failure conditions before interpreting results.
+3. **Freeze the baseline design:** specify the no-AI alternative and comparison method, including assignment, matched units or pre-periods, concurrent events, spillovers, confounders, and uncertainty treatment.
+4. **Bind the trace:** connect model, token, retrieval, tool, retry, infrastructure, evaluation, human-review, integration, and rework events to the same stable episode and workflow identifiers.
+5. **Reconcile full cost:** establish source systems, ownership, allocation and amortization rules, currency/time window, missing-data behavior, and review sign-off for every included cost class.
+6. **Structure evidence and authority:** require locatable evidence, reproduction notes, evidence status, attribution confidence, harm/risk treatment, and machine-checkable temporal and scope authorization.
+7. **Freeze the decision policy:** version the action rules, thresholds, burden weights, uncertainty logic, authorization hard stops, tie-breaking, and receipt schema before evaluation.
+8. **Run beside current governance:** compare usage-only, self-report, cost/quality, the strongest simple outcome policy, and OVAR on identical episodes without allowing the research policy to control production investment.
+9. **Evaluate incremental decision value:** measure false ROI, false scale, false stop, authorization violations, indeterminate rate, exact action, loss, burden, domain stability, and decision usefulness.
+10. **Scale, simplify, or stop:** expand only if the ledger is reliable, non-dominated, privacy-preserving, and decision-changing; otherwise retain the simpler outcome contract or current process.
+
+### Enhancement and contribution pathway
+
+| Contribution type | Potential benefit | Evidence and controls expected |
+|---|---|---|
+| Outcome contract or evidence extension | Represents new monetary, operational, quality, risk, or non-monetary outcomes | Unit, owner, timing, threshold, source, reproduction procedure, maturation rule, and ambiguity tests |
+| Baseline or causal-design enhancement | Improves the credibility of incremental-value estimates | Target estimand, assignment/comparison logic, assumptions, confounders, spillovers, uncertainty, and preregistration boundary |
+| Cost-accounting extension | Captures omitted infrastructure, people, integration, governance, rework, remediation, or shared cost | Source system, allocation/amortization rule, time and currency basis, reconciliation tests, and accountable finance review |
+| Structured authorization enhancement | Corrects the central v1.0 temporal and scope failure | Typed subject/resource/action/purpose/scope/jurisdiction fields, validity and revocation logic, fail-closed tests, and governance review |
+| Telemetry or enterprise-system adapter | Reduces manual capture while retaining source provenance | Stable identifier mapping, minimal data, access/retention controls, retries and partial failures, reconciliation, and immutable snapshot support |
+| New comparator, policy, or portfolio rule | Tests whether additional sophistication earns its error and burden cost | Identical information boundary, prospective thresholds, strongest-simple-baseline comparison, sensitivity analysis, and no hidden-label access |
+| New domain, replication, or field study | Tests transportability and organizational usefulness | New untouched data, stakeholder review, protocol lock, privacy/ethics assessment, cluster/time-aware analysis, and preservation of adverse results |
+| Documentation or usability improvement | Lowers measurement and review burden without changing claims | Named audience, verified examples, traceable definitions, accessibility, and explicit scientific-impact statement |
+
+All contributions should follow [`CONTRIBUTING.md`](CONTRIBUTING.md): preserve frozen cases, labels, results, and closure records; keep future held-out and private organizational data outside Git; isolate exploratory work; test behavioral changes; update claim/evidence records; and run `make verify` before review.
+
+### Trend fit and future extension points
+
+OVAR addresses a widening measurement gap: AI resource consumption is becoming easier to observe across heterogeneous models and agentic workflows, while incremental outcome, full cost, causal attribution, and current authorization remain comparatively difficult to establish. The framework treats better telemetry as an input to evidence—not as proof of productivity or ROI.
+
+Future growth can proceed along four independently gated tracks:
+
+- **Measurement maturity:** standardized outcome contracts, stable work/episode identifiers, interoperable trace and cost semantics, delayed/shared-value handling, uncertainty, evidence quality, and reproducible baselines.
+- **Decision maturity:** structured authorization, calibrated attribution, practical-equivalence rules, burden-aware policies, hierarchical allocation, exploration/access safeguards, Goodhart resistance, and comparison with the strongest simple policy.
+- **Evaluation maturity:** independent human construct review, operational records, preregistered causal studies, prospective temporal and cross-domain validation, decision-utility analysis, external replication, and preserved null or adverse outcomes.
+- **Operational maturity:** privacy-preserving connectors, signed contracts and receipts, accounting reconciliation, continuous policy/authority checks, drift and outcome-maturation monitoring, explainable committee interfaces, and accountable overrides.
+
+These are research and implementation opportunities, not current OVAR capabilities or validated enterprise benefits. Each extension should advance only when its incremental evidence and decision value exceeds its measurement, integration, governance, and privacy burden.
+
 Research on whether enterprise AI investment decisions can be grounded in verified incremental outcomes rather than token volume, provider spend, technical quality, or self-reported value alone.
 
 This repository is a research monorepo: each study has an isolated protocol, constructed benchmark, implementation, results, integrity record, and paper directory. The first study is **Outcome-Verified AI Resource Allocation (OVAR)**.
