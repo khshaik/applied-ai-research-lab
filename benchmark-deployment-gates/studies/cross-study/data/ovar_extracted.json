@@ -1,0 +1,88 @@
+[
+  {
+    "study": "OVAR",
+    "method_id": "USAGE_ONLY",
+    "single_metric_value": 0.0,
+    "single_metric_name": "roi_reduction_rate",
+    "false_scale_rate": 0.42857142857142855,
+    "false_stop_rate": 0,
+    "authorization_violations": 0.10416666666666667,
+    "indeterminate_rate": 0,
+    "criteria_passed": 2,
+    "criteria_total": 9,
+    "failed_criteria": [
+      "false_roi",
+      "false_scale",
+      "authorization"
+    ],
+    "gate_decision": "UNKNOWN"
+  },
+  {
+    "study": "OVAR",
+    "method_id": "SELF_REPORTED_VALUE",
+    "single_metric_value": 0.0,
+    "single_metric_name": "roi_reduction_rate",
+    "false_scale_rate": 0.9714285714285714,
+    "false_stop_rate": 0,
+    "authorization_violations": 0.10416666666666667,
+    "indeterminate_rate": 0,
+    "criteria_passed": 2,
+    "criteria_total": 9,
+    "failed_criteria": [
+      "false_roi",
+      "false_scale",
+      "authorization"
+    ],
+    "gate_decision": "UNKNOWN"
+  },
+  {
+    "study": "OVAR",
+    "method_id": "COST_QUALITY",
+    "single_metric_value": 0.0,
+    "single_metric_name": "roi_reduction_rate",
+    "false_scale_rate": 0.6571428571428571,
+    "false_stop_rate": 0,
+    "authorization_violations": 0.10416666666666667,
+    "indeterminate_rate": 0,
+    "criteria_passed": 2,
+    "criteria_total": 9,
+    "failed_criteria": [
+      "false_roi",
+      "false_scale",
+      "authorization"
+    ],
+    "gate_decision": "UNKNOWN"
+  },
+  {
+    "study": "OVAR",
+    "method_id": "OUTCOME_FLAT",
+    "single_metric_value": 0.9428571428571428,
+    "single_metric_name": "roi_reduction_rate",
+    "false_scale_rate": 0.05714285714285714,
+    "false_stop_rate": 0,
+    "authorization_violations": 0.041666666666666664,
+    "indeterminate_rate": 0.25,
+    "criteria_passed": 4,
+    "criteria_total": 9,
+    "failed_criteria": [
+      "authorization"
+    ],
+    "gate_decision": "UNKNOWN"
+  },
+  {
+    "study": "OVAR",
+    "method_id": "OVAR_LEDGER",
+    "single_metric_value": 0.9428571428571428,
+    "single_metric_name": "roi_reduction_rate",
+    "false_scale_rate": 0,
+    "false_stop_rate": 0.15384615384615385,
+    "authorization_violations": 0.041666666666666664,
+    "indeterminate_rate": 0.25,
+    "criteria_passed": 4,
+    "criteria_total": 9,
+    "failed_criteria": [
+      "authorization"
+    ],
+    "gate_decision": "UNKNOWN"
+  }
+]

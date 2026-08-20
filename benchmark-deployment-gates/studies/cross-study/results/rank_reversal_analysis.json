@@ -1,0 +1,92 @@
+{
+  "rank_reversals": {
+    "raer": {
+      "reversals": [],
+      "reversal_count": 0,
+      "total_methods": 9,
+      "reversal_rate": 0.0
+    },
+    "ovar": {
+      "reversals": [],
+      "reversal_count": 0,
+      "total_methods": 5,
+      "reversal_rate": 0.0
+    },
+    "vdcm": {
+      "reversals": [
+        {
+          "method_id": "oracle",
+          "single_rank": 1,
+          "multi_rank": 4,
+          "reversal_magnitude": 3,
+          "single_metric_value": 0.8569627603192418,
+          "criteria_passed": 1,
+          "criteria_total": 2
+        },
+        {
+          "method_id": "hie_compatible",
+          "single_rank": 4,
+          "multi_rank": 2,
+          "reversal_magnitude": 2,
+          "single_metric_value": 0.8035656057102076,
+          "criteria_passed": 2,
+          "criteria_total": 2
+        }
+      ],
+      "reversal_count": 2,
+      "total_methods": 5,
+      "reversal_rate": 0.4
+    }
+  },
+  "multi_criteria_failures": {
+    "raer": {
+      "failures": [],
+      "failure_count": 0
+    },
+    "ovar": {
+      "failures": [
+        {
+          "method_id": "OUTCOME_FLAT",
+          "single_metric_value": 0.9428571428571428,
+          "criteria_passed": 4,
+          "criteria_failed": 5,
+          "failed_criteria": [
+            "authorization"
+          ]
+        },
+        {
+          "method_id": "OVAR_LEDGER",
+          "single_metric_value": 0.9428571428571428,
+          "criteria_passed": 4,
+          "criteria_failed": 5,
+          "failed_criteria": [
+            "authorization"
+          ]
+        }
+      ],
+      "failure_count": 2
+    },
+    "vdcm": {
+      "failures": [
+        {
+          "method_id": "story_points",
+          "single_metric_value": 0.7868541064234668,
+          "criteria_passed": 0,
+          "criteria_failed": 2,
+          "failed_criteria": [
+            "scenario_wins",
+            "brier_threshold"
+          ]
+        }
+      ],
+      "failure_count": 1
+    }
+  },
+  "summary": {
+    "total_reversals": 2,
+    "total_methods": 19,
+    "overall_reversal_rate": 0.10526315789473684,
+    "hypothesis_h1_threshold": 0.2,
+    "hypothesis_h1_result": "FAIL"
+  }
+}

@@ -1,0 +1,279 @@
+{
+  "sensitivity_by_study": {
+    "raer": {
+      "sensitivity_results": [
+        {
+          "method_id": "STATIC",
+          "base_value": 0.0,
+          "decisions": {
+            "-20%": "FAIL",
+            "-10%": "FAIL",
+            "+0%": "FAIL",
+            "+10%": "FAIL",
+            "+20%": "FAIL"
+          },
+          "is_unstable": false,
+          "decision_changes": 0
+        },
+        {
+          "method_id": "CONTRACT_ONLY",
+          "base_value": 0.0,
+          "decisions": {
+            "-20%": "FAIL",
+            "-10%": "FAIL",
+            "+0%": "FAIL",
+            "+10%": "FAIL",
+            "+20%": "FAIL"
+          },
+          "is_unstable": false,
+          "decision_changes": 0
+        },
+        {
+          "method_id": "FIXED_0.10",
+          "base_value": 0.0,
+          "decisions": {
+            "-20%": "FAIL",
+            "-10%": "FAIL",
+            "+0%": "FAIL",
+            "+10%": "FAIL",
+            "+20%": "FAIL"
+          },
+          "is_unstable": false,
+          "decision_changes": 0
+        },
+        {
+          "method_id": "FIXED_0.20",
+          "base_value": 0.0,
+          "decisions": {
+            "-20%": "FAIL",
+            "-10%": "FAIL",
+            "+0%": "FAIL",
+            "+10%": "FAIL",
+            "+20%": "FAIL"
+          },
+          "is_unstable": false,
+          "decision_changes": 0
+        },
+        {
+          "method_id": "FIXED_0.35",
+          "base_value": 0.0,
+          "decisions": {
+            "-20%": "FAIL",
+            "-10%": "FAIL",
+            "+0%": "FAIL",
+            "+10%": "FAIL",
+            "+20%": "FAIL"
+          },
+          "is_unstable": false,
+          "decision_changes": 0
+        },
+        {
+          "method_id": "FIXED_0.50",
+          "base_value": 0.0,
+          "decisions": {
+            "-20%": "FAIL",
+            "-10%": "FAIL",
+            "+0%": "FAIL",
+            "+10%": "FAIL",
+            "+20%": "FAIL"
+          },
+          "is_unstable": false,
+          "decision_changes": 0
+        },
+        {
+          "method_id": "ALWAYS_REFRESH",
+          "base_value": 0.0,
+          "decisions": {
+            "-20%": "FAIL",
+            "-10%": "FAIL",
+            "+0%": "FAIL",
+            "+10%": "FAIL",
+            "+20%": "FAIL"
+          },
+          "is_unstable": false,
+          "decision_changes": 0
+        },
+        {
+          "method_id": "RAER_V1",
+          "base_value": 0.0,
+          "decisions": {
+            "-20%": "FAIL",
+            "-10%": "FAIL",
+            "+0%": "FAIL",
+            "+10%": "FAIL",
+            "+20%": "FAIL"
+          },
+          "is_unstable": false,
+          "decision_changes": 0
+        },
+        {
+          "method_id": "RAER_V2_OUT_OF_FOLD",
+          "base_value": 0.0,
+          "decisions": {
+            "-20%": "FAIL",
+            "-10%": "FAIL",
+            "+0%": "FAIL",
+            "+10%": "FAIL",
+            "+20%": "FAIL"
+          },
+          "is_unstable": false,
+          "decision_changes": 0
+        }
+      ],
+      "unstable_count": 0,
+      "total_cases": 9,
+      "instability_rate": 0.0
+    },
+    "ovar": {
+      "sensitivity_results": [
+        {
+          "method_id": "USAGE_ONLY",
+          "base_value": 0.0,
+          "decisions": {
+            "-20%": "FAIL",
+            "-10%": "FAIL",
+            "+0%": "FAIL",
+            "+10%": "FAIL",
+            "+20%": "FAIL"
+          },
+          "is_unstable": false,
+          "decision_changes": 0
+        },
+        {
+          "method_id": "SELF_REPORTED_VALUE",
+          "base_value": 0.0,
+          "decisions": {
+            "-20%": "FAIL",
+            "-10%": "FAIL",
+            "+0%": "FAIL",
+            "+10%": "FAIL",
+            "+20%": "FAIL"
+          },
+          "is_unstable": false,
+          "decision_changes": 0
+        },
+        {
+          "method_id": "COST_QUALITY",
+          "base_value": 0.0,
+          "decisions": {
+            "-20%": "FAIL",
+            "-10%": "FAIL",
+            "+0%": "FAIL",
+            "+10%": "FAIL",
+            "+20%": "FAIL"
+          },
+          "is_unstable": false,
+          "decision_changes": 0
+        },
+        {
+          "method_id": "OUTCOME_FLAT",
+          "base_value": 0.9428571428571428,
+          "decisions": {
+            "-20%": "PASS",
+            "-10%": "PASS",
+            "+0%": "PASS",
+            "+10%": "PASS",
+            "+20%": "PASS"
+          },
+          "is_unstable": false,
+          "decision_changes": 0
+        },
+        {
+          "method_id": "OVAR_LEDGER",
+          "base_value": 0.9428571428571428,
+          "decisions": {
+            "-20%": "PASS",
+            "-10%": "PASS",
+            "+0%": "PASS",
+            "+10%": "PASS",
+            "+20%": "PASS"
+          },
+          "is_unstable": false,
+          "decision_changes": 0
+        }
+      ],
+      "unstable_count": 0,
+      "total_cases": 5,
+      "instability_rate": 0.0
+    },
+    "vdcm": {
+      "sensitivity_results": [
+        {
+          "method_id": "oracle",
+          "base_value": 0.8569627603192418,
+          "decisions": {
+            "-20%": "PASS",
+            "-10%": "PASS",
+            "+0%": "PASS",
+            "+10%": "PASS",
+            "+20%": "PASS"
+          },
+          "is_unstable": false,
+          "decision_changes": 0
+        },
+        {
+          "method_id": "proposed_model",
+          "base_value": 0.8412049211387536,
+          "decisions": {
+            "-20%": "PASS",
+            "-10%": "PASS",
+            "+0%": "PASS",
+            "+10%": "PASS",
+            "+20%": "PASS"
+          },
+          "is_unstable": false,
+          "decision_changes": 0
+        },
+        {
+          "method_id": "story_points",
+          "base_value": 0.7868541064234668,
+          "decisions": {
+            "-20%": "PASS",
+            "-10%": "PASS",
+            "+0%": "PASS",
+            "+10%": "PASS",
+            "+20%": "PASS"
+          },
+          "is_unstable": false,
+          "decision_changes": 0
+        },
+        {
+          "method_id": "hie_compatible",
+          "base_value": 0.8035656057102076,
+          "decisions": {
+            "-20%": "PASS",
+            "-10%": "PASS",
+            "+0%": "PASS",
+            "+10%": "PASS",
+            "+20%": "PASS"
+          },
+          "is_unstable": false,
+          "decision_changes": 0
+        },
+        {
+          "method_id": "simple_role_load",
+          "base_value": 0.8388045486870177,
+          "decisions": {
+            "-20%": "PASS",
+            "-10%": "PASS",
+            "+0%": "PASS",
+            "+10%": "PASS",
+            "+20%": "PASS"
+          },
+          "is_unstable": false,
+          "decision_changes": 0
+        }
+      ],
+      "unstable_count": 0,
+      "total_cases": 5,
+      "instability_rate": 0.0
+    }
+  },
+  "summary": {
+    "total_unstable": 0,
+    "total_cases": 19,
+    "overall_instability_rate": 0.0,
+    "hypothesis_h3_threshold": 0.15,
+    "hypothesis_h3_result": "FAIL"
+  }
+}

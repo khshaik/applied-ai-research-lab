@@ -1,0 +1,72 @@
+[
+  {
+    "study": "VDCM",
+    "method_id": "oracle",
+    "single_metric_value": 0.8569627603192418,
+    "single_metric_name": "inverse_mean_brier",
+    "mean_brier_score": 0.1430372396807582,
+    "scenario_wins": 0,
+    "total_scenarios": 11,
+    "criteria_passed": 1,
+    "criteria_total": 2,
+    "failed_criteria": [
+      "scenario_wins"
+    ],
+    "gate_decision": "DEVELOPMENTAL"
+  },
+  {
+    "study": "VDCM",
+    "method_id": "proposed_model",
+    "single_metric_value": 0.8412049211387536,
+    "single_metric_name": "inverse_mean_brier",
+    "mean_brier_score": 0.15879507886124647,
+    "scenario_wins": 4,
+    "total_scenarios": 11,
+    "criteria_passed": 2,
+    "criteria_total": 2,
+    "failed_criteria": [],
+    "gate_decision": "DEVELOPMENTAL"
+  },
+  {
+    "study": "VDCM",
+    "method_id": "story_points",
+    "single_metric_value": 0.7868541064234668,
+    "single_metric_name": "inverse_mean_brier",
+    "mean_brier_score": 0.21314589357653324,
+    "scenario_wins": 1,
+    "total_scenarios": 11,
+    "criteria_passed": 0,
+    "criteria_total": 2,
+    "failed_criteria": [
+      "scenario_wins",
+      "brier_threshold"
+    ],
+    "gate_decision": "DEVELOPMENTAL"
+  },
+  {
+    "study": "VDCM",
+    "method_id": "hie_compatible",
+    "single_metric_value": 0.8035656057102076,
+    "single_metric_name": "inverse_mean_brier",
+    "mean_brier_score": 0.1964343942897924,
+    "scenario_wins": 4,
+    "total_scenarios": 11,
+    "criteria_passed": 2,
+    "criteria_total": 2,
+    "failed_criteria": [],
+    "gate_decision": "DEVELOPMENTAL"
+  },
+  {
+    "study": "VDCM",
+    "method_id": "simple_role_load",
+    "single_metric_value": 0.8388045486870177,
+    "single_metric_name": "inverse_mean_brier",
+    "mean_brier_score": 0.16119545131298232,
+    "scenario_wins": 2,
+    "total_scenarios": 11,
+    "criteria_passed": 2,
+    "criteria_total": 2,
+    "failed_criteria": [],
+    "gate_decision": "DEVELOPMENTAL"
+  }
+]
