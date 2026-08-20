@@ -1,0 +1,1 @@
+../../../../papers/thinkai-2026/venue/THINKAI_2026_ALIGNMENT.md
