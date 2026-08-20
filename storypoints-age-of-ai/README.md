@@ -320,3 +320,145 @@ lawful-location records, hashes, exact locators, and derived evidence. See the
 [public release policy](docs/governance/public-release-policy.md).
 
 AI systems assisted with query engineering, record processing, code generation, testing, adversarial audit, visual generation, and drafting. The accountable human author retains responsibility for methods, source verification, claims, authorship, ethics, and submitted content. See the [AI-assistance disclosure](papers/thinkai-2026/declarations/AI_ASSISTANCE_DISCLOSURE.md).
+
+---
+
+## Professor's at-a-glance research review
+
+This section is a decision-oriented synopsis of the research record. It does not replace the protocol, manuscript, evidence ledgers, or result files linked above.
+
+### Research logic in one view
+
+| Element | At-a-glance assessment |
+|---|---|
+| Observed problem | AI assistance may accelerate implementation while requirements, architecture, review, security, testing, release, and acceptance remain constrained by finite specialist capacity and evidence obligations. A single relative estimate does not show where those constraints or queues occur. |
+| Research gap | The bounded open search found adjacent estimation, human-in-the-loop, lifecycle-gate, cost, and delivery-flow approaches, but no study family covered all five predeclared overlap dimensions for the same prospective planning use. This is a bounded novelty result, not proof that no prior framework exists. |
+| Central research question | Can a pre-commitment role-by-stage representation of demand, effective capacity, queues, dependencies, and evidence readiness make verified-delivery constraints more inspectable than a single work-item estimate? |
+| Artifact proposed | VDCM, supported by RSDRI, represents each work item through demand drivers, role-stage service distributions, capacity exposure, queue and dependency states, evidence obligations, and bounded rework. |
+| Analysis performed | A targeted open evidence map, design-science construct development, and a developmental discrete-event simulation with explicit comparators, reproducibility controls, and failure conditions. |
+| Main outcome | The framework is coherent and falsifiable enough for prospective evaluation, but the synthetic comparisons are mixed: no deployable comparator was uniformly best and simpler approaches won several scenarios. |
+| Present claim level | Conditional mechanism evidence and a field-validation agenda. The project does not yet establish organizational prediction, causal benefit, return on investment, or superiority to Story Points. |
+| Practical implication | Use VDCM first as a shadow-mode diagnostic where specialist bottlenecks, assurance gates, or cross-functional queues matter; retain a simpler model where added detail does not improve decisions enough to justify its cost. |
+
+### Research questions and hypothesis status
+
+The current manuscript is organized around four questions:
+
+1. **Evidence:** how accessible scholarly and practitioner evidence characterizes redistribution of human work, review, assurance, coordination, and estimation in AI-assisted delivery.
+2. **Artifact:** which pre-commitment constructs and state variables are required to represent role-constrained, evidence-ready delivery without confusing time, capacity, and psychological workload.
+3. **Mechanisms:** when role-stage demand, queues, dependencies, readiness, and rework change verified-completion forecasts relative to simpler comparators in declared synthetic conditions.
+4. **Boundaries:** when the additional detail adds no material value, becomes unstable, or creates unjustified estimation overhead.
+
+No confirmatory human-subject hypothesis has been tested in this repository. The original candidate hypotheses were refined into seven preregisterable **future empirical propositions**: incremental touch-demand validity, bottleneck and queue validity, completion calibration, readiness-risk association, AI-related work redistribution, role-specific overload validity, and transportability. Their precise comparator and leakage-control rules are recorded in [Gate 3 future empirical propositions](research/design/03_future_empirical_propositions.md). Consequently, “supported” or “rejected” should not yet be assigned to those propositions.
+
+### What was analyzed and what the results mean
+
+| Analysis layer | Evidence produced | Defensible interpretation |
+|---|---|---|
+| Open evidence map | 5,879 systematic-search occurrences and 6,097 first-round citation candidates were processed into 791 included study families, 2,343 exact-locator findings, and 769 quantitative findings. | The problem has a substantial but uneven adjacent evidence base. Manual QA/UAT and prospective estimation are relatively sparse in the mapped corpus. Frequencies describe coverage, not effect magnitude or direction. |
+| Novelty/overlap assessment | Across 3,955 family-by-dimension judgments, no family met all five overlap dimensions for the same planning use. | The combined planning representation appears non-duplicative within the declared open-source search boundary. It is not an exhaustive global novelty claim. |
+| Developmental simulation | Eleven synthetic scenarios, 24 replications each, compared Story Points, HIE-compatible forecasting, simple role load, the proposed model, and a non-deployable oracle. | Role constraints, queues, readiness, dependencies, and rework can change forecasts inside the model, but scenario construction and illustrative parameters prevent real-world inference. |
+| Comparative behavior | Proposed and HIE-compatible models each had the lowest descriptive Brier score in four scenarios, simple role load in two, and Story Points in one. | There is no general winner. The result supports conditional use and explicit simplification rules, not a universal replacement claim. |
+| Mechanism ablation and reproducibility | Queue, readiness, dependency, and multi-role removals were executed; current-code runs and declared artifacts reproduced deterministically. | The mechanisms are executable and auditable. The ablation deltas are not isolated causal effects, and readiness was non-binding in the illustrative ablation worlds. |
+
+For exact counts, appraisal bands, and bounded conclusions, see the [D16 evidence synthesis](gate2/output/systematic/v1.3/20260816/d16_v2/D16_EVIDENCE_SYNTHESIS.md). For scenario-level scores and uncertainty, see the [developmental results](papers/thinkai-2026/results/README.md).
+
+### Outcome and contribution assessment
+
+The research has produced a **testable planning representation**, not a validated organizational instrument. Its strongest current contributions are:
+
+- separating active human service from queue delay, dependency blocking, and calendar time;
+- locating demand and capacity at the role-by-lifecycle-stage level rather than hiding them in one scalar;
+- making evidence readiness an explicit condition of verified completion;
+- comparing against credible simpler baselines and preserving comparator-favorable results;
+- defining conditions under which the framework should be simplified or rejected; and
+- providing an auditable path from evidence-map records through constructs, simulation, results, and manuscript claims.
+
+The principal scientific value is therefore representational and methodological: VDCM makes a cross-functional capacity hypothesis measurable and falsifiable. The principal practical value is diagnostic: it may reveal *which* role-stage or missing evidence threatens a commitment, rather than only indicating that an item is “large.”
+
+### Where the framework is most and least useful
+
+| More plausible use | Prefer current or simpler practice when |
+|---|---|
+| Work requires scarce security, architecture, QA, operations, or acceptance capacity. | Team composition, work mix, and assurance obligations are stable and historical throughput already calibrates well. |
+| AI acceleration creates uneven arrival rates across lifecycle stages. | A simple role-load ratio predicts completion and bottlenecks just as well. |
+| Risk-tier evidence gates determine whether work is genuinely releasable or acceptable. | Evidence readiness is not a binding differentiator for the workflow. |
+| Dependencies, queues, handoffs, or calendar availability dominate elapsed time. | Role-stage inputs cannot be rated consistently or maintained at reasonable cost. |
+| Leaders need an explainable bottleneck and delay decomposition before commitment. | Forecast conclusions reverse under small, plausible input changes. |
+
+VDCM should complement portfolio, value, and outcome methods; it does not estimate customer value, financial return, or individual performance.
+
+### Suggested integration and use
+
+Adoption should be incremental and reversible:
+
+1. **Choose a narrow pilot.** Select one workflow and risk tier with a known specialist constraint; do not begin with an organization-wide rollout.
+2. **Define the decision contract.** Record the planning horizon, terminal definition of verified completion, required evidence, accountable role pools, and gate semantics.
+3. **Freeze the information boundary.** Archive predictors available at commitment time (`t0`) so later execution data cannot leak into the forecast.
+4. **Run beside current planning.** Retain normal Story Points and add a simple role-load baseline; record VDCM/RSDRI independently without changing commitments.
+5. **Integrate minimum operational data.** Use work-item metadata, role-pool calendars, current queues, dependencies, gate/evidence identifiers, and later workflow outcomes. Preserve active service, waiting, blocking, and rework as separate fields.
+6. **Evaluate incremental value.** Compare calibration, proper scoring rules, bottleneck identification, decision usefulness, rating reliability, and elicitation burden at the same cutoff.
+7. **Scale, simplify, or stop.** Expand only when the added information is stable and decision-relevant; reduce to simple role load or existing practice when it is not.
+
+Potential technical integrations include issue trackers for frozen work-item attributes and dependencies, source-control and CI/CD systems for traceable evidence identifiers, test/security/release systems for gate evidence, and workforce calendars for role-pool availability. These integrations should collect the minimum data required at work-item or role-pool level, preserve access controls and retention rules, and exclude individual surveillance metrics. The repository provides the model and research machinery, not a production connector or automated commitment engine.
+
+### Core assumptions requiring field validation
+
+- Pre-commitment demand drivers can be defined and rated with acceptable inter-rater reliability.
+- Active service demand can be estimated or sampled separately from waiting, blocking, and calendar pauses.
+- Role pools and lifecycle stages are meaningful enough for the participating organization to map consistently.
+- Effective capacity, existing queues, dependencies, and evidence obligations are observable at the chosen planning horizon.
+- Evidence states can be defined as present, current, traceable, and independently checkable without equating existence with correctness.
+- Declared queue, dependency, gate, and bounded-rework mechanisms approximate the pilot workflow sufficiently for the intended decision.
+- Historical Story Points are treated within their team-specific context rather than pooled as universal units.
+- The benefit of better forecasts or bottleneck visibility can be compared fairly with measurement and maintenance overhead.
+- Calibration may drift as tools, policies, team composition, codebases, and automation maturity change.
+
+### Shortcomings and threats to validity
+
+- **Evidence coverage:** the map is constrained to accessible open indexes, lawful full texts, English-access rules, a stated cutoff, and an approved resource cap; six major subscription sources were unavailable as authenticated systematic-search sources.
+- **Review independence:** isolated AI-assisted screening agents and adjudication improve procedural separation but are not equivalent to independent human systematic-review teams and may share model-lineage bias.
+- **Construct maturity:** VDCM/RSDRI has not completed expert content validation, inter-rater reliability testing, usability evaluation, or organizational calibration.
+- **Parameter provenance:** current simulation inputs are illustrative rather than estimates derived from compatible organizational observations.
+- **External and causal validity:** synthetic runs do not establish real productivity, quality, fairness, causal AI effects, or return on investment.
+- **Model-world circularity:** a model may perform well in worlds shaped by compatible assumptions; diverse and misspecified scenarios reduce but cannot eliminate this risk.
+- **Simplified mechanics:** the minimum simulation excludes or simplifies some real delivery features, including richer routing, parallel service, and organizational heterogeneity.
+- **Temporal validity:** fast-changing AI tools, policies, and practices make version reporting, temporal holdouts, drift monitoring, and recalibration necessary.
+- **Measurement effects:** added elicitation can create burden, gaming, or Goodhart effects and could distort behavior if used for targets or individual assessment.
+
+### Recommendations based on the present evidence
+
+1. Present VDCM as a **candidate planning aid and research artifact**, not a proven replacement for Story Points.
+2. Preserve the mixed result prominently; comparator-favorable and null outcomes are central evidence about the framework's boundary conditions.
+3. Begin any organizational use in prospective shadow mode with current practice and a simple role-load comparator retained.
+4. Make calibration, bottleneck accuracy, reliability, usefulness, privacy, and elicitation cost explicit adoption criteria.
+5. Use distributions and sensitivity analysis instead of collapsing role demands into a universal score or deterministic commitment.
+6. Keep accountable humans responsible for security, compliance, release, and acceptance decisions.
+7. Reject or simplify the framework if ratings are unreliable, readiness adds no information, small perturbations reverse decisions, or overhead approaches benefit.
+
+### Future research scope and completion criteria
+
+The next scientific phase is Route A organizational validation:
+
+1. conduct expert and practitioner review of construct definitions, behavioral anchors, and risk-scaled evidence gates;
+2. assess inter-rater reliability, measurement burden, privacy risk, and usability before prediction claims;
+3. preregister a prospective shadow-mode study with a complete `t0` snapshot and identical outcomes, folds, and time windows for all comparators;
+4. collect low-burden multi-role touch observations, queue and block timestamps, readiness states, completion, rework, UAT rejection, and prespecified quality outcomes;
+5. test the seven future propositions with temporal and leave-team/project-out validation, proper scoring rules, measurement-error audits, and cluster-aware uncertainty;
+6. test transportability and calibration drift across team, domain, risk tier, AI mode, tool version, and automation maturity;
+7. quantify whether forecast and decision improvements justify elicitation and maintenance cost; and
+8. only after predictive and usability validity, evaluate decision impact through a randomized or stepped-wedge rollout where feasible.
+
+Progression from research artifact to operational use should require all of the following: reproducible measurement, acceptable rater agreement, no material leakage, improvement over the strongest simple comparator on prespecified outcomes, stable conclusions under plausible sensitivity tests, acceptable burden and privacy safeguards, and evidence that the resulting information changes decisions constructively. Failure on these criteria is a result and should lead to revision, simplification, or rejection.
+
+### Quick reading path by purpose
+
+| Reader need | Start here |
+|---|---|
+| Scientific argument, research questions, results, and limitations | [Working manuscript](papers/thinkai-2026/manuscript/manuscript_working_draft.md) |
+| Exact framework constructs, outputs, boundaries, and falsification conditions | [Framework specification](research/design/03_framework_specification.md) |
+| Evidence-map population, coverage, appraisal, and novelty boundary | [D16 evidence synthesis](gate2/output/systematic/v1.3/20260816/d16_v2/D16_EVIDENCE_SYNTHESIS.md) |
+| Scenario-level developmental outcomes | [Developmental results](papers/thinkai-2026/results/README.md) |
+| Future empirical hypotheses/propositions and evaluation rules | [Future empirical propositions](research/design/03_future_empirical_propositions.md) |
+| Practical pilot workflow and guardrails | [End-to-end workflow](docs/communications/verified-delivery-capacity/END_TO_END_WORKFLOW.md) |
+| Current maturity, release state, and remaining work | [Status and roadmap](docs/status/status-and-roadmap.md) |
